@@ -26,6 +26,7 @@ export interface InsightRow {
   tags: string;
   file_path: string;
   content_hash: string;
+  embedding_model: string | null;
   date_extracted: string | null;
   last_accessed: string | null;
   access_count: number;
@@ -64,9 +65,11 @@ export function initDb(dbPath?: string): Database.Database {
       status TEXT DEFAULT 'active',
       shelf_life TEXT DEFAULT 'evergreen',
       actionability TEXT DEFAULT 'reference',
+      -- NOTE: tags not in original spec schema but needed for FTS5 sync triggers
       tags TEXT NOT NULL,
       file_path TEXT NOT NULL,
       content_hash TEXT NOT NULL,
+      embedding_model TEXT,
       date_extracted TEXT,
       last_accessed TEXT,
       access_count INTEGER DEFAULT 0

@@ -30,13 +30,23 @@ describe("buildMasterIndex", () => {
     expect(md).toContain("# Knowledge Base Master Index");
     expect(md).toContain("ai-development");
     expect(md).toContain("Total insights: 2");
+    // Issue 1: single-line header with Sources count
+    expect(md).toContain("Sources:");
+    // Issue 1: Principles column in domain table
+    expect(md).toContain("Principles");
+    // Issue 1: Flags header renamed
+    expect(md).toContain("## Flags (for Claude)");
+    // Issue 11-14: Recently Added header includes "(last 7 days)"
+    expect(md).toContain("## Recently Added (last 7 days)");
   });
 
-  it("includes tag summary", async () => {
+  it("includes tag summary in inline format", async () => {
     const insights = await scanInsights(SAMPLE_KB);
     const md = buildMasterIndex(insights);
+    // Issue 11: tags are inline as tag(N) format, not bulleted
     expect(md).toContain("hooks");
     expect(md).toContain("cost-optimization");
+    expect(md).not.toMatch(/^- \*\*hooks\*\*/m);
   });
 });
 

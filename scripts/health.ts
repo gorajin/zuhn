@@ -5,6 +5,7 @@ import fg from "fast-glob";
 import { parseMarkdownFile } from "./lib/parse-insight.js";
 import {
   InsightFrontmatter,
+  SourceFrontmatter,
   PrincipleFrontmatter,
   MentalModelFrontmatter,
 } from "./schemas/frontmatter.js";
@@ -129,6 +130,76 @@ async function main(): Promise<void> {
   );
   allErrors.push(...mentalModelResult.errors);
   allWarnings.push(...mentalModelResult.warnings);
+
+  // 4. Validate source files
+  const sourceResult = await validateFiles(
+    "sources/reddit/*.md",
+    ["**/_index.md", "**/raw/**"],
+    SourceFrontmatter,
+    "Sources"
+  );
+  allErrors.push(...sourceResult.errors);
+  allWarnings.push(...sourceResult.warnings);
+
+  // 5. Referential integrity: check that related[] links point to valid IDs
+  {
+    // Collect all valid insight IDs
+    const validIds = new Set<string>();
+    const insightFiles = await fg("domains/**/*.md", {
+      cwd: KB_ROOT,
+      absolute: true,
+      ignore: ["**/_overview.md", "**/_summary.md"],
+    });
+
+    interface ParsedInsight {
+      id: string;
+      related?: string[];
+      relPath: string;
+    }
+    const parsedInsights: ParsedInsight[] = [];
+
+    for (const filePath of insightFiles) {
+      const relPath = filePath.replace(KB_ROOT + "/", "");
+      try {
+        const parsed = await parseMarkdownFile(filePath);
+        const validation = InsightFrontmatter.safeParse(parsed.data);
+        if (validation.success) {
+          validIds.add(validation.data.id);
+          parsedInsights.push({
+            id: validation.data.id,
+            related: validation.data.related,
+            relPath,
+          });
+        }
+      } catch {
+        // Already reported above
+      }
+    }
+
+    for (const ins of parsedInsights) {
+      if (ins.related) {
+        for (const ref of ins.related) {
+          if (!validIds.has(ref)) {
+            allErrors.push(
+              `${ins.relPath}: related reference "${ref}" does not exist`
+            );
+          }
+        }
+      }
+    }
+
+    const brokenCount = allErrors.length - (
+      insightResult.errors.length +
+      principleResult.errors.length +
+      mentalModelResult.errors.length +
+      sourceResult.errors.length
+    );
+    if (brokenCount > 0) {
+      console.log(`  Referential integrity: ${brokenCount} broken related[] links`);
+    } else {
+      console.log(`  Referential integrity: OK`);
+    }
+  }
 
   // Report
   console.log("");

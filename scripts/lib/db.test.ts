@@ -86,6 +86,7 @@ describe("initDb", () => {
           tags TEXT NOT NULL,
           file_path TEXT NOT NULL,
           content_hash TEXT NOT NULL,
+          embedding_model TEXT,
           date_extracted TEXT,
           last_accessed TEXT,
           access_count INTEGER DEFAULT 0

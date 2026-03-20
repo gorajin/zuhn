@@ -22,19 +22,38 @@ const MAX_NODES_FULLY_EXPANDED = 200;
 
 // ─── Build hierarchical markdown ────────────────────────────────────
 
+const CONFIDENCE_ORDER: Record<string, number> = {
+  very_high: 0,
+  high: 1,
+  medium: 2,
+  low: 3,
+  pending: 4,
+};
+
+const TOPIC_TRUNCATION_THRESHOLD = 50;
+const TOPIC_TRUNCATION_SHOW = 20;
+
+interface InsightEntry {
+  oneLine: string;
+  confidence: string;
+}
+
 function buildMindmapMarkdown(insights: ParseSuccess[]): string {
-  // Group by domain -> topic -> one_line[]
-  const tree = new Map<string, Map<string, string[]>>();
+  // Group by domain -> topic -> InsightEntry[]
+  const tree = new Map<string, Map<string, InsightEntry[]>>();
 
   for (const ins of insights) {
     const domain = ins.data.domain;
     const topic = ins.data.topic;
-    const oneLine = ins.data.resolutions.one_line;
+    const entry: InsightEntry = {
+      oneLine: ins.data.resolutions.one_line,
+      confidence: ins.data.confidence,
+    };
 
     if (!tree.has(domain)) tree.set(domain, new Map());
     const topics = tree.get(domain)!;
     if (!topics.has(topic)) topics.set(topic, []);
-    topics.get(topic)!.push(oneLine);
+    topics.get(topic)!.push(entry);
   }
 
   const lines: string[] = [];
@@ -50,15 +69,62 @@ function buildMindmapMarkdown(insights: ParseSuccess[]): string {
     for (const topic of [...topics.keys()].sort()) {
       lines.push(`### ${topic}`);
 
-      const oneLines = topics.get(topic)!;
-      for (const ol of oneLines) {
-        lines.push(`- ${ol}`);
-      }
+      const entries = topics.get(topic)!;
+      renderTopicEntries(lines, entries);
       lines.push("");
     }
   }
 
   return lines.join("\n");
+}
+
+function buildDomainMindmapMarkdown(domain: string, insights: ParseSuccess[]): string {
+  // Group by topic -> InsightEntry[]
+  const topicMap = new Map<string, InsightEntry[]>();
+
+  for (const ins of insights) {
+    const topic = ins.data.topic;
+    const entry: InsightEntry = {
+      oneLine: ins.data.resolutions.one_line,
+      confidence: ins.data.confidence,
+    };
+    if (!topicMap.has(topic)) topicMap.set(topic, []);
+    topicMap.get(topic)!.push(entry);
+  }
+
+  const lines: string[] = [];
+  lines.push(`# ${domain}`);
+  lines.push("");
+
+  for (const topic of [...topicMap.keys()].sort()) {
+    lines.push(`## ${topic}`);
+
+    const entries = topicMap.get(topic)!;
+    renderTopicEntries(lines, entries);
+    lines.push("");
+  }
+
+  return lines.join("\n");
+}
+
+function renderTopicEntries(lines: string[], entries: InsightEntry[]): void {
+  if (entries.length > TOPIC_TRUNCATION_THRESHOLD) {
+    // Sort by confidence (best first) and show top N
+    const sorted = [...entries].sort(
+      (a, b) =>
+        (CONFIDENCE_ORDER[a.confidence] ?? 99) -
+        (CONFIDENCE_ORDER[b.confidence] ?? 99)
+    );
+    const shown = sorted.slice(0, TOPIC_TRUNCATION_SHOW);
+    for (const e of shown) {
+      lines.push(`- ${e.oneLine}`);
+    }
+    lines.push(`- _...and ${entries.length - TOPIC_TRUNCATION_SHOW} more..._`);
+  } else {
+    for (const e of entries) {
+      lines.push(`- ${e.oneLine}`);
+    }
+  }
 }
 
 // ─── Build self-contained HTML viewer ───────────────────────────────
@@ -146,6 +212,21 @@ async function main(): Promise<void> {
   const htmlPath = join(VIEWS_DIR, "mindmap.html");
   await writeFile(htmlPath, html, "utf-8");
   console.log(`  Written: views/mindmap.html`);
+
+  // Per-domain mindmap views
+  const domainGroups = new Map<string, ParseSuccess[]>();
+  for (const ins of insights) {
+    const d = ins.data.domain;
+    if (!domainGroups.has(d)) domainGroups.set(d, []);
+    domainGroups.get(d)!.push(ins);
+  }
+
+  for (const [domain, domainInsights] of domainGroups) {
+    const domainMd = buildDomainMindmapMarkdown(domain, domainInsights);
+    const domainMdPath = join(VIEWS_DIR, `mindmap-${domain}.md`);
+    await writeFile(domainMdPath, domainMd, "utf-8");
+    console.log(`  Written: views/mindmap-${domain}.md`);
+  }
 
   console.log("\nDone.");
 }

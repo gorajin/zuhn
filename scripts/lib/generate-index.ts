@@ -32,10 +32,18 @@ export async function scanInsights(kbRoot: string): Promise<ParseSuccess[]> {
 export function buildMasterIndex(insights: ParseSuccess[]): string {
   const now = new Date().toISOString().slice(0, 10);
 
+  // Count unique sources
+  const sourceSet = new Set<string>();
+  for (const ins of insights) {
+    for (const src of ins.data.sources) {
+      sourceSet.add(src.title);
+    }
+  }
+
   // Gather domain stats
   const domainMap = new Map<
     string,
-    { topics: Set<string>; count: number; lastDate: string }
+    { topics: Set<string>; count: number; principles: number; lastDate: string }
   >();
 
   for (const ins of insights) {
@@ -43,6 +51,7 @@ export function buildMasterIndex(insights: ParseSuccess[]): string {
     const entry = domainMap.get(d) ?? {
       topics: new Set<string>(),
       count: 0,
+      principles: 0,
       lastDate: "",
     };
     entry.topics.add(ins.data.topic);
@@ -64,20 +73,24 @@ export function buildMasterIndex(insights: ParseSuccess[]): string {
     .sort((a, b) => b[1] - a[1])
     .slice(0, 20);
 
-  // Recently added (last 10, sorted by date desc)
+  // Recently added (last 7 days, sorted by date desc)
+  const sevenDaysAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000)
+    .toISOString()
+    .slice(0, 10);
   const recent = [...insights]
+    .filter((i) => i.data.date_extracted >= sevenDaysAgo)
     .sort((a, b) =>
       b.data.date_extracted.localeCompare(a.data.date_extracted)
-    )
-    .slice(0, 10);
+    );
 
   // Build markdown
   const lines: string[] = [];
 
   lines.push("# Knowledge Base Master Index");
   lines.push("");
-  lines.push(`> Last rebuilt: ${now}`);
-  lines.push(`> Total insights: ${insights.length}`);
+  lines.push(
+    `> Last rebuilt: ${now} | Total insights: ${insights.length} | Sources: ${sourceSet.size}`
+  );
   lines.push("");
 
   // NOTE about access tracking
@@ -89,11 +102,11 @@ export function buildMasterIndex(insights: ParseSuccess[]): string {
   // Domain table
   lines.push("## Domains");
   lines.push("");
-  lines.push("| Domain | Topics | Insights | Last Updated |");
-  lines.push("| ------ | ------ | -------- | ------------ |");
+  lines.push("| Domain | Topics | Insights | Principles | Last Updated |");
+  lines.push("| ------ | ------ | -------- | ---------- | ------------ |");
   for (const [domain, stats] of [...domainMap.entries()].sort()) {
     lines.push(
-      `| ${domain} | ${stats.topics.size} | ${stats.count} | ${stats.lastDate} |`
+      `| ${domain} | ${stats.topics.size} | ${stats.count} | ${stats.principles} | ${stats.lastDate} |`
     );
   }
   lines.push("");
@@ -104,22 +117,20 @@ export function buildMasterIndex(insights: ParseSuccess[]): string {
   lines.push("_No mental models extracted yet._");
   lines.push("");
 
-  // Top Tags
+  // Top Tags (inline format)
   lines.push("## Top Tags");
   lines.push("");
-  for (const [tag, count] of topTags) {
-    lines.push(`- **${tag}** (${count})`);
-  }
+  lines.push(topTags.map(([tag, count]) => `${tag}(${count})`).join(" "));
   lines.push("");
 
-  // Flags (placeholder)
-  lines.push("## Flags");
+  // Flags (for Claude) (placeholder)
+  lines.push("## Flags (for Claude)");
   lines.push("");
   lines.push("_No flags._");
   lines.push("");
 
-  // Recently Added
-  lines.push("## Recently Added");
+  // Recently Added (last 7 days)
+  lines.push("## Recently Added (last 7 days)");
   lines.push("");
   for (const ins of recent) {
     lines.push(

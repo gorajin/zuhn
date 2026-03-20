@@ -49,6 +49,9 @@ function applyDecay(
   // Evergreen insights skip decay
   if (shelfLife === "evergreen") return score;
 
+  // Time-sensitive insights decay at 2x the normal rate
+  const lambda = shelfLife === "time-sensitive" ? LAMBDA * 2 : LAMBDA;
+
   // Determine the reference date: prefer last_accessed if recent, else date_extracted
   const refDateStr = lastAccessed ?? dateExtracted;
   if (!refDateStr) return score;
@@ -60,7 +63,7 @@ function applyDecay(
   if (ageDays <= 0) return score;
 
   // score is negative; multiply its magnitude by decay, keep it negative
-  const decayFactor = Math.exp(-LAMBDA * ageDays);
+  const decayFactor = Math.exp(-lambda * ageDays);
   return score * decayFactor;
 }
 

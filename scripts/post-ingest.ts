@@ -60,13 +60,12 @@ async function main(): Promise<void> {
   if (!healthResult.ok) {
     results.push({ step: "health", status: "FAILED" });
     await appendToActivityLog(
-      `post-ingest ABORTED — health check failed: ${healthResult.error}`
+      `post-ingest health check failed (continuing): ${healthResult.error}`
     );
-    console.error("\nPipeline ABORTED: health check failed.");
-    printSummary(results);
-    process.exit(1);
+    console.warn("\nHealth check FAILED — continuing to reindex and auto-git.");
+  } else {
+    results.push({ step: "health", status: "PASSED" });
   }
-  results.push({ step: "health", status: "PASSED" });
 
   // Step 2: Reindex
   const reindexResult = runStep("Reindex", [
@@ -78,9 +77,11 @@ async function main(): Promise<void> {
   } else {
     results.push({ step: "reindex", status: "FAILED" });
     await appendToActivityLog(
-      `post-ingest reindex FAILED: ${reindexResult.error}`
+      `post-ingest reindex FAILED — aborting: ${reindexResult.error}`
     );
-    // Continue to activity log — don't abort
+    console.error("\nPipeline ABORTED: reindex failed (stale indices are worse than no indices).");
+    printSummary(results);
+    process.exit(1);
   }
 
   // Step 3: Auto-git
