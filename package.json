@@ -11,7 +11,8 @@
     "test:watch": "vitest",
     "reindex": "tsx scripts/reindex.ts",
     "health": "tsx scripts/health.ts",
-    "post-ingest": "tsx scripts/post-ingest.ts"
+    "post-ingest": "tsx scripts/post-ingest.ts",
+    "mindmap": "tsx scripts/mindmap.ts"
   },
   "keywords": [],
   "author": "",
