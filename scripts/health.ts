@@ -133,7 +133,7 @@ async function main(): Promise<void> {
 
   // 4. Validate source files
   const sourceResult = await validateFiles(
-    "sources/reddit/*.md",
+    "sources/{reddit,paste}/*.md",
     ["**/_index.md", "**/raw/**"],
     SourceFrontmatter,
     "Sources"
@@ -143,7 +143,7 @@ async function main(): Promise<void> {
 
   // 5. Referential integrity: check that related[] links point to valid IDs
   {
-    // Collect all valid insight IDs
+    // Collect all valid insight and principle IDs
     const validIds = new Set<string>();
     const insightFiles = await fg("domains/**/*.md", {
       cwd: KB_ROOT,
@@ -170,6 +170,24 @@ async function main(): Promise<void> {
             related: validation.data.related,
             relPath,
           });
+        }
+      } catch {
+        // Already reported above
+      }
+    }
+
+    // Also collect principle IDs so insights can reference them
+    const principleFiles = await fg("principles/**/*.md", {
+      cwd: KB_ROOT,
+      absolute: true,
+      ignore: ["**/_index.md"],
+    });
+    for (const filePath of principleFiles) {
+      try {
+        const parsed = await parseMarkdownFile(filePath);
+        const validation = PrincipleFrontmatter.safeParse(parsed.data);
+        if (validation.success) {
+          validIds.add(validation.data.id);
         }
       } catch {
         // Already reported above

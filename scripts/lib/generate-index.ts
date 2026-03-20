@@ -29,7 +29,7 @@ export async function scanInsights(kbRoot: string): Promise<ParseSuccess[]> {
 /**
  * Build the MASTER_INDEX.md content from all parsed insights.
  */
-export function buildMasterIndex(insights: ParseSuccess[]): string {
+export function buildMasterIndex(insights: ParseSuccess[], principleCounts?: Map<string, number>): string {
   const now = new Date().toISOString().slice(0, 10);
 
   // Count unique sources
@@ -106,7 +106,7 @@ export function buildMasterIndex(insights: ParseSuccess[]): string {
   lines.push("| ------ | ------ | -------- | ---------- | ------------ |");
   for (const [domain, stats] of [...domainMap.entries()].sort()) {
     lines.push(
-      `| ${domain} | ${stats.topics.size} | ${stats.count} | ${stats.principles} | ${stats.lastDate} |`
+      `| ${domain} | ${stats.topics.size} | ${stats.count} | ${principleCounts?.get(domain) ?? stats.principles} | ${stats.lastDate} |`
     );
   }
   lines.push("");

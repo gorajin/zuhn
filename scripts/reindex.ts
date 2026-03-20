@@ -13,7 +13,7 @@ import {
 import { parseMarkdownFile } from "./lib/parse-insight.js";
 import type { ParseSuccess } from "./lib/parse-insight.js";
 import { initDb, upsertInsight, getAllInsights } from "./lib/db.js";
-import { SourceFrontmatter } from "./schemas/frontmatter.js";
+import { SourceFrontmatter, PrincipleFrontmatter } from "./schemas/frontmatter.js";
 
 const KB_ROOT = join(__dirname, "../knowledge-base");
 
@@ -59,8 +59,28 @@ async function main(): Promise<void> {
 
   let filesWritten = 0;
 
+  // 1b. Scan principles to get per-domain counts
+  const principleFiles = await fg("principles/**/*.md", {
+    cwd: KB_ROOT,
+    absolute: true,
+    ignore: ["**/_index.md"],
+  });
+  const principleCounts = new Map<string, number>();
+  for (const pf of principleFiles) {
+    try {
+      const parsed = await parseMarkdownFile(pf);
+      const validation = PrincipleFrontmatter.safeParse(parsed.data);
+      if (validation.success) {
+        const domain = validation.data.domain;
+        principleCounts.set(domain, (principleCounts.get(domain) ?? 0) + 1);
+      }
+    } catch {
+      // Skip unparseable principle files
+    }
+  }
+
   // 2. Build and write MASTER_INDEX.md
-  const masterContent = buildMasterIndex(insights);
+  const masterContent = buildMasterIndex(insights, principleCounts);
   if (await writeIfChanged(join(KB_ROOT, "MASTER_INDEX.md"), masterContent)) {
     filesWritten++;
     console.log("  Updated: MASTER_INDEX.md");

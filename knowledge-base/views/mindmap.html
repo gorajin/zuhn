@@ -80,6 +80,14 @@
 - New engineers hit the ground running with clear specs defining both what to build and what has already been done.
 - Research logs and findings surface 'already solved' patterns, preventing teams and agents from reinventing solutions.
 
+### system-building
+- 91 unit tests all passed, but an automated spec audit found 12 issues — unit tests verify code works, spec audits verify code matches intent.
+- MASTER_INDEX to domain overview to topic summary to individual insight — answering "what do I know about X?" requires reading roughly 4 files regardless of total insight count.
+- Markdown files are the source of truth; SQLite database, indices, mindmap, and tag files are all generated and disposable — when the DB had schema issues, we just regenerated it.
+- We spent hours designing a detailed spec before writing any code — the spec caught issues before they became bugs and zero scope creep occurred across 5 phases.
+- Sequential IDs stored in a file would be hallucinated by the LLM — timestamp plus title hash made file creation completely stateless with zero collisions across 74 insights.
+- Each implementation task was dispatched to a fresh subagent with exactly the context it needed — no accumulated confusion from previous tasks.
+
 ### tooling
 - Use BetterTouchTool for double-tap hotkeys (CMD+CMD = Claude, OPT+OPT = Browser) and relative URL copy from Cursor.
 - PM2 gives you auto-restart on crashes, per-service logs, memory/CPU monitoring, and easy management like \`pm2 restart email\`.
