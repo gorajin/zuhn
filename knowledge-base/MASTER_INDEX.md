@@ -12,7 +12,7 @@
 | automation | 2 | 12 | 2 | 2026-03-20 |
 | music-production | 1 | 2 | 0 | 2026-03-20 |
 | pets | 1 | 2 | 0 | 2026-03-20 |
-| startups | 2 | 14 | 0 | 2026-03-20 |
+| startups | 2 | 14 | 4 | 2026-03-20 |
 | video-production | 2 | 4 | 0 | 2026-03-20 |
 
 ## Mental Models
@@ -24,7 +24,7 @@
 
 ## Top Tags
 
-n8n(11) workflow(8) hooks(8) llm-costs(8) skills(7) automation(7) spec-driven-dev(7) prompting(6) llm(5) huggingface(5) planning(4) claude-code(4) dev-docs(4) context-management(4) agents(3) Stop-event(3) compaction(3) error-handling(3) architecture(3) cost-reduction(3)
+n8n(11) workflow(8) hooks(8) llm-costs(8) skills(7) automation(7) spec-driven-dev(7) prompting(6) llm(5) huggingface(5) context-management(4) planning(4) claude-code(4) dev-docs(4) agents(3) Stop-event(3) compaction(3) error-handling(3) architecture(3) cost-reduction(3)
 
 ## Flags (for Claude)
 
@@ -34,6 +34,8 @@ _No flags._
 
 - `INS-260320-1B10` Have Claude review its own code via a specialized review agent — catches critical errors, missing implementations, and security flaws. _(2026-03-20)_
 - `INS-260320-9D89` Give agents very specific roles and clear instructions on what to RETURN — prevents 'I fixed it!' without details. _(2026-03-20)_
+- `INS-260320-E6DD` Structure knowledge as a relational database (entities + relationships), not text blobs. Every Claude instance reads/writes the same structured knowledge base. _(2026-03-20)_
+- `INS-260320-5B49` Curated structured data enables REASONING about connections. Vector memory stores text blobs for retrieval. For business-ready context, structure wins. _(2026-03-20)_
 - `INS-260320-93E1` Planning is king — always use planning mode before implementation; never let the builder start without plans. _(2026-03-20)_
 - `INS-260320-A4BF` Attach ready-to-use utility scripts to skills so Claude references proven tools instead of reinventing test scripts from scratch. _(2026-03-20)_
 - `INS-260320-DDFE` Bash commands (grep, find) bypass Read() deny rules — they scan everything including node_modules even with deny rules configured. _(2026-03-20)_
@@ -61,8 +63,6 @@ _No flags._
 - `INS-260320-04A2` Create three dev doc files (plan.md, context.md, tasks.md) for every large task to prevent Claude from losing the plot through compaction. _(2026-03-20)_
 - `INS-260320-0127` Update dev docs regularly by running /update-dev-docs before context compaction to preserve current state. _(2026-03-20)_
 - `INS-260320-DCA0` A UserPromptSubmit hook analyzes the prompt for keywords and intent, then injects skill reminders into context BEFORE Claude reads it. _(2026-03-20)_
-- `INS-260320-E6DD` Structure knowledge as a relational database (entities + relationships), not text blobs. Every Claude instance reads/writes the same structured knowledge base. _(2026-03-20)_
-- `INS-260320-5B49` Curated structured data enables REASONING about connections. Vector memory stores text blobs for retrieval. For business-ready context, structure wins. _(2026-03-20)_
 - `INS-260320-9937` OpenRouter offers 50-1000 free requests/day on certain models — not trial credits, actually free forever. _(2026-03-20)_
 - `INS-260320-9FD5` Batch inputs to amortize system prompt costs — 100 separate calls with a 500-token system prompt = 50,000 wasted tokens. 1 batched call = 500 tokens. _(2026-03-20)_
 - `INS-260320-901C` Six strategies combined took production systems from $300+/month to ~$10/month while processing 10x more data. _(2026-03-20)_
@@ -111,8 +111,6 @@ _No flags._
 - `INS-260320-0063` n8n workflows can be exported as JSON and shared on GitHub with Google Doc templates -- the business analysis workflow repo has 98 stars and is MIT licensed. _(2026-03-20)_
 - `INS-260320-B8B0` Use Linkfinder AI as a proxy for LinkedIn scraping — no direct LinkedIn API connection means zero ban risk for your personal account. _(2026-03-20)_
 - `INS-260320-6845` An n8n workflow pulls YouTube links from Google Sheets, extracts transcripts via Dumpling AI, transforms them into newsletter drafts with GPT-4o, and logs results back to Sheets. _(2026-03-20)_
-- `INS-260320-CDE4` The Moog DFAM has no MIDI implementation -- sampling its output into a MIDI-capable device is the primary way to integrate it into a broader production setup. _(2026-03-20)_
-- `INS-260320-77C2` Sample analog synth sounds (like Moog DFAM) into a digital sampler/sequencer (like Elektron Digitakt) to get warm analog timbre with precise digital sequencing and pattern control. _(2026-03-20)_
 - `INS-260320-B7DA` Charge $99/year from day one even when conventional wisdom says students won't pay — premium pricing signals reliability, and raising from $99 to $129 actually increased both users and revenue. _(2026-03-20)_
 - `INS-260320-39A3` Shelter your team and family from acquisition signal-to-noise until the wire hits — deals fall apart in the last week, and premature sharing creates damaging anxiety. _(2026-03-20)_
 - `INS-260320-20F2` Momentum is oxygen — Coconote shipped a product that "sort of works," charged from day one, and hit 45 days to $100K ARR, 4 months to $1M, 5 months to $2M. _(2026-03-20)_
@@ -127,6 +125,8 @@ _No flags._
 - `INS-260320-70FA` Target the person who pays, not just the person who uses — students used Coconote but moms often bought it, and "my mom just changed my life" content drove viral parent-to-parent purchasing. _(2026-03-20)_
 - `INS-260320-080B` Ask customers how they describe your product, then use their exact words as marketing copy — Coconote asked and the majority said "never miss a key detail," which became their App Store headline. _(2026-03-20)_
 - `INS-260320-DADA` You cannot pour fuel on organic fire — viral UGC repurposed as paid ads underperformed, while a separate clip agency creating performance-specific creatives outperformed significantly. _(2026-03-20)_
+- `INS-260320-CDE4` The Moog DFAM has no MIDI implementation -- sampling its output into a MIDI-capable device is the primary way to integrate it into a broader production setup. _(2026-03-20)_
+- `INS-260320-77C2` Sample analog synth sounds (like Moog DFAM) into a digital sampler/sequencer (like Elektron Digitakt) to get warm analog timbre with precise digital sequencing and pattern control. _(2026-03-20)_
 - `INS-260320-8B06` Letting dogs make small choices -- which toy to play with, which direction to walk, whether to engage or rest -- builds confidence and reduces anxiety-driven behaviors. _(2026-03-20)_
 - `INS-260320-9118` Allow dogs to sniff freely during walks -- scent exploration is their primary way of processing the world and provides more mental stimulation than the physical exercise of the walk itself. _(2026-03-20)_
 - `INS-260320-10E8` Always clap once or use a clapboard at the start of each take -- the sharp transient creates a visible spike in both audio waveforms, making manual sync alignment trivial. _(2026-03-20)_
