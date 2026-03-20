@@ -16,17 +16,25 @@ tags:
   - scaling
 sources:
   - type: paste
-    title: "Building the Gyeol knowledge base — lessons from Phase 1-5"
-    author: "Jin Choi + Claude"
+    title: Building the Gyeol knowledge base — lessons from Phase 1-5
+    author: Jin Choi + Claude
 related:
-  - PRI-260320-07A4
+  - INS-260320-E6DD
+  - INS-260320-5B49
+  - INS-260320-508F
   - INS-260320-2DDE
-date_extracted: "2026-03-20"
+  - INS-260320-B210
+  - INS-260320-F872
+  - INS-260320-C65B
+  - INS-260320-4773
+  - INS-260320-9118
+  - INS-260320-71C1
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
   one_line: >-
     MASTER_INDEX to domain overview to topic summary to individual insight —

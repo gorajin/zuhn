@@ -15,17 +15,20 @@ tags:
   - stateless-design
 sources:
   - type: paste
-    title: "Building the Gyeol knowledge base — lessons from Phase 1-5"
-    author: "Jin Choi + Claude"
+    title: Building the Gyeol knowledge base — lessons from Phase 1-5
+    author: Jin Choi + Claude
 related:
-  - PRI-260320-C14C
-  - INS-260320-949A
-date_extracted: "2026-03-20"
+  - INS-260320-0F7C
+  - INS-260320-4B31
+  - INS-260320-CDE4
+  - INS-260320-69CD
+  - INS-260320-9935
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
   one_line: >-
     Sequential IDs stored in a file would be hallucinated by the LLM — timestamp

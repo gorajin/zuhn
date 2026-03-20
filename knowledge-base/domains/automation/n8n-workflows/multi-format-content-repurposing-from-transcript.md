@@ -20,7 +20,6 @@ sources:
       summaries
     author: u/unknown
 related:
-  - INS-260320-4773
   - INS-260320-41E3
   - INS-260320-D3D5
   - INS-260320-C9B1

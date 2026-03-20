@@ -20,8 +20,6 @@ sources:
       report for ~$0.20
     author: u/AgriciDaniel
 related:
-  - INS-260320-E6DD
-  - INS-260320-C65B
   - INS-260320-D58E
   - INS-260320-C9B1
   - INS-260320-CEBE

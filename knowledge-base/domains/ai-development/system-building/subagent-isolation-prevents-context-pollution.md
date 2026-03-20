@@ -2,8 +2,7 @@
 id: INS-260320-63D3
 domain: ai-development
 topic: system-building
-title: >-
-  Subagent isolation prevents context pollution in complex multi-step work
+title: Subagent isolation prevents context pollution in complex multi-step work
 actionability: immediate
 confidence: high
 shelf_life: evergreen
@@ -14,23 +13,24 @@ tags:
   - isolation
 sources:
   - type: paste
-    title: "Building the Gyeol knowledge base — lessons from Phase 1-5"
-    author: "Jin Choi + Claude"
+    title: Building the Gyeol knowledge base — lessons from Phase 1-5
+    author: Jin Choi + Claude
 related:
-  - PRI-260320-D5B7
-  - PRI-260320-07A4
   - INS-260320-9D89
-  - INS-260320-1B10
-date_extracted: "2026-03-20"
+  - INS-260320-CDE4
+  - INS-260320-7914
+  - INS-260320-E872
+  - INS-260320-D4BD
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
   one_line: >-
-    Each implementation task was dispatched to a fresh subagent with exactly
-    the context it needed — no accumulated confusion from previous tasks.
+    Each implementation task was dispatched to a fresh subagent with exactly the
+    context it needed — no accumulated confusion from previous tasks.
   standard: |
     Each implementation task was dispatched to a fresh subagent with exactly
     the context it needed. No accumulated confusion from previous tasks. The

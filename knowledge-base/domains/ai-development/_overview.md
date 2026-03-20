@@ -1,6 +1,6 @@
 # Domain: ai-development
 
-> 60 insights across 8 topics
+> 67 insights across 9 topics
 
 ## Topics
 
@@ -9,6 +9,7 @@
 | agent-patterns | 2 | Have Claude review its own code via a specialized review agent — catches critical errors, missing implementations, and security flaws. |
 | claude-code | 27 | Planning is king — always use planning mode before implementation; never let the builder start without plans. |
 | context-management | 2 | Structure knowledge as a relational database (entities + relationships), not text blobs. Every Claude instance reads/writes the same structured knowledge base. |
+| future-of-work | 7 | Anthropic's own studies show AI deskilling in coding is real, but depends on HOW you use models — some usage patterns cause skill degradation, some don't. |
 | llm-costs | 8 | OpenRouter offers 50-1000 free requests/day on certain models — not trial credits, actually free forever. |
 | llm-training | 5 | Run systematic ablation experiments on architecture, data mixtures, and hyperparameters at small scale before committing to a full training run -- this consumes ~37% of total compute but prevents costly mistakes. |
 | spec-driven-dev | 6 | Commit output specs to git so future agents and engineers see what was done, what failed, and what decisions were made. |

@@ -18,7 +18,6 @@ sources:
     title: I built an n8n workflow that scrapes unlimited LinkedIn leads
     author: u/unknown
 related:
-  - INS-260320-5B49
   - INS-260320-B210
   - INS-260320-9937
   - INS-260320-2058
@@ -28,6 +27,7 @@ related:
   - INS-260320-D58E
   - INS-260320-C9B1
   - INS-260320-336E
+  - INS-260320-6845
 date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0

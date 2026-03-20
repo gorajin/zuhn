@@ -21,7 +21,6 @@ sources:
     url: 'https://reddit.com/r/ClaudeCode'
 related:
   - INS-260320-93E1
-  - INS-260320-06EF
   - INS-260320-04A2
   - INS-260320-0127
   - INS-260320-EA19

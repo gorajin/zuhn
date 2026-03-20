@@ -2,8 +2,7 @@
 id: INS-260320-10CC
 domain: ai-development
 topic: system-building
-title: >-
-  Automated audit cycles catch spec deviations that unit tests miss
+title: Automated audit cycles catch spec deviations that unit tests miss
 actionability: immediate
 confidence: high
 shelf_life: evergreen
@@ -15,22 +14,26 @@ tags:
   - quality
 sources:
   - type: paste
-    title: "Building the Gyeol knowledge base — lessons from Phase 1-5"
-    author: "Jin Choi + Claude"
+    title: Building the Gyeol knowledge base — lessons from Phase 1-5
+    author: Jin Choi + Claude
 related:
-  - PRI-260320-C14C
-  - PRI-260320-467A
   - INS-260320-1B10
-date_extracted: "2026-03-20"
+  - INS-260320-CE36
+  - INS-260320-4A82
+  - INS-260320-6F8E
+  - INS-260320-4B31
+  - INS-260320-4BA8
+  - INS-260320-4ED6
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
   one_line: >-
-    91 unit tests all passed, but an automated spec audit found 12 issues —
-    unit tests verify code works, spec audits verify code matches intent.
+    91 unit tests all passed, but an automated spec audit found 12 issues — unit
+    tests verify code works, spec audits verify code matches intent.
   standard: |
     91 unit tests all passed, but an automated spec audit found 12 issues —
     missing DB columns, wrong MASTER_INDEX format, missing health checks,

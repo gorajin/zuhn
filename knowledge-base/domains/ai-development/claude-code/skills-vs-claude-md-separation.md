@@ -20,11 +20,11 @@ sources:
     author: u/diet103
     url: 'https://reddit.com/r/ClaudeCode'
 related:
-  - INS-260320-B210
   - INS-260320-EA19
+  - INS-260320-DEAF
   - INS-260320-04A2
-  - INS-260320-1B10
-  - INS-260320-2DDE
+  - INS-260320-B210
+  - INS-260320-47FA
 date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0

@@ -15,17 +15,22 @@ tags:
   - resilience
 sources:
   - type: paste
-    title: "Building the Gyeol knowledge base — lessons from Phase 1-5"
-    author: "Jin Choi + Claude"
+    title: Building the Gyeol knowledge base — lessons from Phase 1-5
+    author: Jin Choi + Claude
 related:
-  - PRI-260320-07A4
-  - INS-260320-04A2
-date_extracted: "2026-03-20"
+  - INS-260320-E6DD
+  - INS-260320-5B49
+  - INS-260320-06EF
+  - INS-260320-B210
+  - INS-260320-4BA8
+  - INS-260320-7914
+  - INS-260320-8FFC
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
   one_line: >-
     Markdown files are the source of truth; SQLite database, indices, mindmap,
