@@ -145,7 +145,7 @@ Every insight carries structured metadata as YAML frontmatter. Indices are GENER
 
 ```yaml
 ---
-id: INS-2026-0042
+id: INS-260319-A7F2
 domain: ai-development
 topic: claude-code
 subtopic: skills-system
@@ -163,7 +163,7 @@ sources:
   - type: reddit
     title: "Claude Code usage limit hack"
     author: u/PaschalisDim
-related: [INS-2026-0038, INS-2026-0051]  # auto-populated by embedding similarity
+related: [INS-260319-B3C8, INS-260319-D4E7]  # auto-populated by embedding similarity
 date_extracted: 2026-03-19
 last_accessed: null
 access_count: 0
@@ -197,7 +197,7 @@ domain: ai-development
 title: "Enforce patterns via hooks, not documentation"
 summary: "Passive documentation gets ignored. Structural enforcement via hooks ensures compliance."
 confidence: very_high
-supporting_insights: [INS-2026-0042, INS-2026-0044, INS-2026-0051]
+supporting_insights: [INS-260319-A7F2, INS-2026-0044, INS-260319-D4E7]
 supporting_count: 3
 tags: [enforcement, hooks, patterns, automation]
 date_created: 2026-03-19
@@ -333,7 +333,7 @@ npx tsx scripts/watch.ts &
 ```sql
 -- Core insights table (mirrors frontmatter for fast queries)
 CREATE TABLE insights (
-  id TEXT PRIMARY KEY,           -- e.g., 'INS-2026-0042'
+  id TEXT PRIMARY KEY,           -- e.g., 'INS-260319-A7F2'
   domain TEXT NOT NULL,
   topic TEXT NOT NULL,
   subtopic TEXT,
