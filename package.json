@@ -13,7 +13,8 @@
     "health": "tsx scripts/health.ts",
     "post-ingest": "tsx scripts/post-ingest.ts",
     "mindmap": "tsx scripts/mindmap.ts",
-    "search": "tsx scripts/search.ts"
+    "search": "tsx scripts/search.ts",
+    "embed": "tsx scripts/embed.ts"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +24,7 @@
     "better-sqlite3": "^12.8.0",
     "fast-glob": "^3.3.3",
     "gray-matter": "^4.0.3",
+    "sqlite-vec": "^0.1.7",
     "zod": "^4.3.6"
   },
   "devDependencies": {

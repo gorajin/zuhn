@@ -84,7 +84,20 @@ async function main(): Promise<void> {
     process.exit(1);
   }
 
-  // Step 3: Auto-git
+  // Step 3: Embed (optional — graceful degradation if Ollama not running)
+  const embedResult = runStep("Embed", [
+    "npx", "tsx", join(PROJECT_ROOT, "scripts", "embed.ts"),
+  ]);
+
+  if (embedResult.ok) {
+    results.push({ step: "embed", status: "OK" });
+  } else {
+    // Embedding failure is non-fatal: FTS5-only mode is fine
+    results.push({ step: "embed", status: "SKIPPED" });
+    console.warn("\nEmbed step failed (non-fatal) — FTS5-only mode active.");
+  }
+
+  // Step 4: Auto-git
   let gitStatus = "SKIPPED";
   console.log("\n>> Auto-git");
   try {

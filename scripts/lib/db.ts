@@ -104,6 +104,13 @@ export function initDb(dbPath?: string): Database.Database {
     END;
   `);
 
+  // ── Schema migration: add embedding_model if missing ──
+  const cols = db.pragma("table_info(insights)") as { name: string }[];
+  const colNames = new Set(cols.map((c) => c.name));
+  if (!colNames.has("embedding_model")) {
+    db.exec("ALTER TABLE insights ADD COLUMN embedding_model TEXT");
+  }
+
   return db;
 }
 
