@@ -39,7 +39,7 @@ resolutions:
     EXPRESSION (how the model processes it). The human composes the
     intent; the model composes the expression.
 
-    Gyeol itself is built this way: each script does one thing
+    Zuhn itself is built this way: each script does one thing
     (reindex, health, embed, learn, mindmap). The post-ingest
     pipeline composes them in sequence. Each can run independently,
     be tested independently, and fail independently without
@@ -78,7 +78,7 @@ through standard interfaces.
 This is composition applied to the human-AI interface — separate the INTENT
 (what you want) from the EXPRESSION (how the model processes it).
 
-**In Gyeol itself:** Each script does one thing (reindex, health, embed, learn,
+**In Zuhn itself:** Each script does one thing (reindex, health, embed, learn,
 mindmap). The post-ingest pipeline composes them in sequence. Each can run
 independently, be tested independently, and fail independently without
 cascading.

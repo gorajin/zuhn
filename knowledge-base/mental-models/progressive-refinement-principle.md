@@ -34,7 +34,7 @@ resolutions:
     refinement applied to the creative process — rough idea → structured
     plan → precise prompt → reviewed output.
 
-    Gyeol itself embodies this model: raw content → extracted insights
+    Zuhn itself embodies this model: raw content → extracted insights
     → compressed principles → distilled mental models. The 5-level
     hierarchy is a progressive refinement pipeline for knowledge.
 
@@ -67,7 +67,7 @@ applied to AI: do one thing well, compose through standard interfaces.
 review honestly. This IS progressive refinement applied to the creative
 process — rough idea → structured plan → precise prompt → reviewed output.
 
-**In Gyeol itself:** Raw content → extracted insights → compressed principles
+**In Zuhn itself:** Raw content → extracted insights → compressed principles
 → distilled mental models. The 5-level hierarchy is a progressive refinement
 pipeline for knowledge. Each level compresses the one below. Query cost
 scales logarithmically because you read abstractions, not raw data.

@@ -14,7 +14,7 @@ tags:
   - quality
 sources:
   - type: paste
-    title: Building the Gyeol knowledge base — lessons from Phase 1-5
+    title: Building the Zuhn knowledge base — lessons from Phase 1-5
     author: Jin Choi + Claude
 related:
   - INS-260320-1B10

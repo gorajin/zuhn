@@ -29,7 +29,7 @@ resolutions:
     build) and output specs (what happened) are both first-class
     artifacts. Code is the second artifact; specs are the first.
 
-    In Gyeol's architecture: markdown files are truth, everything
+    In Zuhn's architecture: markdown files are truth, everything
     else is a regenerable view. The SQLite database, indices, mindmap,
     and tag files can all be destroyed and rebuilt from the markdown
     source. This is externalization taken to its logical conclusion —
@@ -53,7 +53,7 @@ resolutions:
     knowledge can't be audited, cross-referenced, or systematically
     compressed. Externalized knowledge can.
 
-    Gyeol exists because of this principle. The entire system is an
+    Zuhn exists because of this principle. The entire system is an
     externalization engine — turning volatile consumption (Reddit
     browsing, YouTube watching) into persistent, structured,
     compressible knowledge.
@@ -73,7 +73,7 @@ memory that survives team turnover, agent sessions, and organizational
 change. Input specs (what to build) and output specs (what happened) are
 both first-class artifacts. Code is the second artifact; specs are the first.
 
-**In Gyeol's architecture:** Markdown files are truth, everything else is a
+**In Zuhn's architecture:** Markdown files are truth, everything else is a
 regenerable view. The SQLite database, indices, mindmap, and tag files can
 all be destroyed and rebuilt from the markdown source. This is externalization
 taken to its logical conclusion — not just persisting state, but making the
@@ -95,6 +95,6 @@ principles → mental models) when it exists in a structured, examinable form
 outside your head. Internalized knowledge can't be audited, cross-referenced,
 or systematically compressed. Externalized knowledge can.
 
-Gyeol exists because of this principle. The entire system is an externalization
+Zuhn exists because of this principle. The entire system is an externalization
 engine — turning volatile consumption (Reddit browsing, YouTube watching)
 into persistent, structured, compressible knowledge.
