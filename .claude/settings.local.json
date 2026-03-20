@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh repo:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tsx:*)",
+      "Bash(node:*)",
+      "Bash(find /Users/jinchoi/Code/Reddit/knowledge-base/domains -name *.md)",
+      "Bash(find /Users/jinchoi/Code/Reddit/knowledge-base/sources -name *.md)",
+      "Bash(find /Users/jinchoi/Code/Reddit/knowledge-base/principles -name *.md)",
+      "Bash(find /Users/jinchoi/Code/Reddit/knowledge-base/mental-models -name *.md)",
+      "Bash(find /Users/jinchoi/Code/Reddit/knowledge-base/tensions -name *.md)",
+      "Bash(npx vitest:*)",
+      "Bash(npm test:*)"
+    ]
+  }
+}
