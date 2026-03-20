@@ -3,3 +3,4 @@ dist/
 knowledge-base/db/
 .env*.local
 *.log
+.claude/
