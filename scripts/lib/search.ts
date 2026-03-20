@@ -81,8 +81,21 @@ export function searchInsights(
 
   if (!query.trim()) return [];
 
-  // Sanitize the query for FTS5: escape double quotes
-  const sanitized = query.replace(/"/g, '""');
+  // Build FTS5 query: split into words, add prefix matching (*), join with OR
+  // This makes natural language queries work: "reduce costs" → "reduce* OR costs*"
+  // If query already contains FTS5 operators (OR, AND, NOT), pass through as-is
+  const FTS5_OPERATORS = /\b(OR|AND|NOT)\b/;
+  let sanitized: string;
+  if (FTS5_OPERATORS.test(query)) {
+    // User provided explicit FTS5 syntax — pass through with minimal sanitization
+    sanitized = query.replace(/"/g, '""');
+  } else {
+    const words = query.trim().split(/\s+/).filter(w => w.length > 1);
+    if (words.length === 0) return [];
+    sanitized = words.length === 1
+      ? words[0].replace(/"/g, '""') + '*'
+      : words.map(w => w.replace(/"/g, '""') + '*').join(' OR ');
+  }
 
   // Build the SQL query joining FTS results with the insights table
   let sql = `
