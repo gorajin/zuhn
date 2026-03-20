@@ -1,0 +1,45 @@
+---
+id: INS-260320-9935
+domain: automation
+topic: content-creation
+title: "Growth Through Systematic Research Automation"
+actionability: inspiration
+confidence: medium
+shelf_life: evergreen
+status: active
+tags: [content-creation, automation, research, growth-strategy, n8n]
+sources:
+  - type: reddit
+    title: "This Automation Took Me From 0 to 175k Followers in Under 12 Months"
+    author: u/unknown
+related: []
+date_extracted: "2026-03-20"
+last_accessed: null
+access_count: 0
+indexed: true
+embedded: false
+resolutions:
+  one_line: "The 0-to-175K growth came from automating content research and ideation, not from automating content creation itself -- the competitive advantage is knowing what to create, not how to create it."
+  standard: |
+    Chase Hannegan's growth from 0 to 175K+ followers in under 12 months
+    (with no prior content creation experience) came from a single key
+    insight: the bottleneck in content creation is not production quality
+    but knowing what topics will resonate. His n8n automation automates
+    the research and ideation phase -- finding trending topics, analyzing
+    what content is performing as outliers, and generating content briefs
+    with proven hooks and storylines. The actual content creation is still
+    done by the human creator. This approach works because it surfaces
+    data-driven topic choices rather than relying on gut instinct, and it
+    runs daily so the creator never falls behind on trends.
+---
+
+Chase Hannegan's growth from 0 to 175K+ followers in under 12 months
+(with no prior content creation experience) came from a single key
+insight: the bottleneck in content creation is not production quality
+but knowing what topics will resonate. His n8n automation automates
+the research and ideation phase -- finding trending topics, analyzing
+what content is performing as outliers, and generating content briefs
+with proven hooks and storylines. The actual content creation is still
+done by the human creator. This approach works because it surfaces
+data-driven topic choices rather than relying on gut instinct, and it
+runs daily so the creator never falls behind on trends.

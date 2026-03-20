@@ -1,0 +1,77 @@
+============================================================
+POST: "This Automation Took Me From 0 to 175k Followers in Under 12 Months"
+SUBREDDIT: r/n8n
+APPROXIMATE DATE: ~5 months ago (Oct 2025)
+AUTHOR: Chase Hannegan (Chase AI)
+STATUS: Reddit post not directly accessible (reddit.com blocked by fetcher)
+============================================================
+
+SEARCH ATTEMPTS:
+- old.reddit.com: blocked
+- reddit.com JSON API: blocked
+- WebSearch: no direct Reddit URL found
+- Found LinkedIn post, podcast episode, and n8n template matching this content
+
+RECONSTRUCTED CONTENT FROM ALTERNATIVE SOURCES:
+----------------------------------------------
+
+AUTHOR: Chase Hannegan
+- Dual MBA/MPCS candidate at the University of Chicago
+- Founder of Chase AI (educational course on AI automation)
+- LinkedIn: https://www.linkedin.com/in/chasehannegan/
+- Community: https://www.skool.com/chase-ai-community/about
+
+CORE ACHIEVEMENT:
+Grew from zero to 175K+ followers (later 200K+) across Instagram, TikTok, and
+YouTube in under 12 months using a single AI-powered automation system built on n8n.
+No prior content creation experience.
+
+THE AUTOMATION WORKFLOW:
+
+Data Collection:
+- Scrapes YouTube, Reddit, Twitter, and the web daily
+- Identifies content outliers and trending topics
+- Analyzes transcripts, upvotes, comments, and keywords
+- Filters out shorts and spam content
+
+Outputs Delivered:
+1. Daily trending topics report for the creator's niche
+2. Detailed content ideas with scripts, hooks, storylines, and pain point solutions
+
+Key Features:
+- Aggregates insights across multiple platforms
+- Operates daily at under $0.35 cost per run
+- Fully customizable (add subreddits, keywords, etc.)
+- "Trained on proven storytelling principles (no AI slop!)"
+- Replaces hours of manual research daily
+
+Technical Stack:
+- n8n as the central automation platform
+- YouTube transcript analysis via LLMs
+- Multi-platform data ingestion (Reddit, Twitter/X, Perplexity)
+- OpenAI for content processing
+- Airtable for data organization
+- Email delivery for daily digest reports
+
+DISTRIBUTION:
+In the original Reddit/LinkedIn post, Hannegan offered to share the automation
+directly via DM to those who connected with him and commented "175" on the post.
+
+RELATED RESOURCES:
+- LinkedIn Post: https://www.linkedin.com/posts/chasehannegan_i-went-from-zero-to-175k-followers-across-activity-7389349082252873729-mwhS
+- YouTube Walkthrough: https://youtu.be/m-7egcppFPk
+- n8n Podcast Episode (Jan 22, 2026): https://www.buzzsprout.com/2545272/episodes/18555349-0-200k-subs-with-a-content-ideation-workflow-with-chase-hannegan
+- Spotify Episode: https://open.spotify.com/episode/1JefLNm9jD8akKvz89JeV4
+- Free n8n Template: https://go.n8n.io/content-idea-template
+- Related n8n Workflow (Content Digest): https://n8n.io/workflows/12703-create-a-daily-ai-and-automation-content-digest-from-youtube-reddit-x-and-perplexity-with-openai-and-airtable/
+
+PODCAST DETAILS (The n8n Masterclass, Episode 12):
+- Title: "0-200k Subs with a Content Ideation Workflow with Chase Hannegan"
+- Host: Dylan Watkins (n8n)
+- Date: January 22, 2026
+- Duration: 32:49
+- n8n Cloud discount code: 2025-N8N-PODCAST-729C416E (30% off)
+
+NOTE: The exact Reddit post body text and comments could not be retrieved due to
+reddit.com being blocked. Content above is reconstructed from the LinkedIn post,
+podcast episode, and n8n resources.

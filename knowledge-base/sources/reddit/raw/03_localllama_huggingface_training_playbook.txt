@@ -1,0 +1,109 @@
+============================================================
+POST: "200+ pages of Hugging Face secrets on how to train an LLM"
+SUBREDDIT: r/LocalLLaMA
+APPROXIMATE DATE: ~5 months ago (October 2025)
+REDDIT URL: https://www.reddit.com/r/LocalLLaMA/comments/1ok3xie/200_pages_of_hugging_face_secrets_on_how_to_train/
+STATUS: Reddit URL found but content not directly accessible (reddit.com blocked)
+============================================================
+
+SEARCH ATTEMPTS:
+- old.reddit.com: blocked
+- reddit.com JSON API: blocked
+- WebSearch found the exact Reddit URL via aiengineerguide.com reference
+- Successfully fetched content from multiple alternative sources
+
+REDDIT POST URL (confirmed):
+https://www.reddit.com/r/LocalLLaMA/comments/1ok3xie/200_pages_of_hugging_face_secrets_on_how_to_train/
+
+RECONSTRUCTED CONTENT FROM ALTERNATIVE SOURCES:
+----------------------------------------------
+
+THE RESOURCE: "The Smol Training Playbook"
+CREATOR: HuggingFaceTB (Hugging Face Smol Models Research team)
+RELEASE DATE: October 2025
+
+OVERVIEW:
+Hugging Face's pre-training team released a 200+ page comprehensive guide covering
+the full pipeline of building large language models from scratch. The guide documents
+the complete journey of training SmolLM3 -- a 3-billion parameter multilingual
+reasoning model trained on 11 trillion tokens using 384 H100 GPUs over ~30 days.
+
+Rather than presenting polished research findings, the authors candidly reveal
+"the 2am dataloader debugging sessions, the loss spikes, or the subtle tensor
+parallelism bug" that characterize real-world LLM development.
+
+DOCUMENT STRUCTURE & KEY SECTIONS:
+
+Part 1: Training Compass (Strategic Planning)
+- Decision framework for whether to train your own model
+- Three legitimate reasons for custom pretraining:
+  1. Advancing research with novel questions
+  2. Meeting specific production requirements
+  3. Filling gaps in the open-source ecosystem
+- Hugging Face's journey building open models (BLOOM, StarCoder, SmolLM families)
+
+Part 2: Pretraining Foundation
+- Ablation setup and experimental methodology
+- Architecture selection and baseline choices
+- Training framework evaluation (Megatron-LM, DeepSpeed, TorchTitan, Nanotron)
+- Evaluation metrics and benchmarking approaches
+
+Part 3: Core Technical Decisions
+- Model architecture design (attention mechanisms, positional encodings)
+- Sparse models (MoE) versus dense architectures
+- Tokenizer selection and evaluation
+- Optimizer and hyperparameter tuning
+- Scaling laws for model sizing and data allocation
+
+Part 4: Data Strategy
+- Data curation philosophy and mixture design
+- Curriculum evolution across training stages
+- Domain-specific mixtures (web, multilingual, mathematics, code)
+- Practical data ablation frameworks
+
+Part 5: Training Execution
+- Pre-flight verification checklists
+- Scaling challenges and debugging approaches
+- Mid-training adjustments and context extension
+- Throughput optimization strategies
+
+Part 6: Post-Training
+- Supervised fine-tuning (SFT) baselines
+- Preference optimization algorithms (DPO, GRPO)
+- Reinforcement learning approaches
+- Model merging techniques
+
+Part 7: Infrastructure
+- GPU architecture and memory hierarchies
+- Inter-node communication patterns
+- Resilience and checkpoint management
+- Parallelism configuration optimization
+
+KEY INSIGHTS:
+- "Data quality dominates" over architectural innovation
+- Main pretraining: 63% of compute; ablations and debugging: 37% of total cost
+- Successful LLM teams need: rapid iteration speed and obsessive focus on data quality
+- Pretraining a model like Llama 3 needs only 2-3 people with sufficient compute
+- "Things are not always intuitive with LLMs" -- intuitive assumptions frequently fail
+- Chronicles specific infrastructure failures: network storage bottlenecks, dataloader
+  bugs, and a critical tensor parallelism bug requiring restart after 1 trillion tokens
+
+COST BREAKDOWN:
+- Training infrastructure: 384 H100 GPUs
+- Training duration: ~30 days
+- Total tokens processed: 11 trillion
+- Organizations should budget ~37% beyond base training for ablations/debugging
+
+LINKED RESOURCES:
+- Online Playbook: https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook
+- Table of Contents: https://huggingface.co/spaces/HuggingFaceTB/smol-playbook-toc
+- PDF Download: https://huggingfacetb-smol-training-playbook.hf.space/the-smol-training-playbook-the-secrets-to-building-world-class-llms.pdf
+- Full Crawled Markdown: https://gist.github.com/unclecode/e5da5fb6a1d37022b089e243e0d9e00e
+- HuggingFace Team: https://huggingface.co/HuggingFaceTB
+- Substack Analysis: https://seldondance.substack.com/p/the-smol-training-playbook
+- AI Engineer Guide: https://aiengineerguide.com/til/huggingface-smol-training-playbook/
+
+NOTE: The exact Reddit post body text and comments could not be retrieved due to
+reddit.com being blocked. The Reddit URL was confirmed via external references.
+Content above is reconstructed from the Hugging Face resource itself and several
+articles analyzing the playbook.

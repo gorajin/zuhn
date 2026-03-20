@@ -1,0 +1,58 @@
+============================================================
+POST: "Dark techno using only sounds from Moog DFAM, sampled into Digitakt"
+SUBREDDIT: r/synthesizers
+APPROXIMATE DATE: ~7 years ago (~2018-2019)
+STATUS: Reddit post not found -- likely a video/audio post with no text body
+============================================================
+
+SEARCH ATTEMPTS:
+- old.reddit.com search: blocked
+- reddit.com JSON API: blocked
+- WebSearch with exact title: no direct Reddit URL found
+- WebSearch with various keyword combinations: no Reddit result
+- Searched Elektronauts, Gearspace, and MATRIXSYNTH for cross-references: no match
+
+WHAT WAS FOUND:
+--------------
+
+This post likely featured a video or audio link (YouTube or SoundCloud) of a dark
+techno track made entirely from Moog DFAM sounds sampled into an Elektron Digitakt.
+Given the ~7 year age and the nature of r/synthesizers posts, it was likely a
+media-only post with minimal or no text body.
+
+RELATED COMMUNITY DISCUSSIONS FOUND:
+
+1. Elektronauts Forum - "50 Free Moog DFAM Samples" (Nov 2020)
+   - Author: kristof
+   - Shared 50 free single-hit samples recorded from a Moog DFAM
+   - Samples: 48kHz, 16-bit resolution, raw with no post-processing
+   - Digitakt note: device has 24-bit converters but auto-converts to 16-bit
+   - Samples must be converted to 44.1 kHz for proper playback on Octatrack
+   URL: https://www.elektronauts.com/t/50-free-moog-dfam-samples/142128
+
+2. Gearspace Forum - "Digitakt and DFAM" discussion
+   URL: https://gearspace.com/board/electronic-music-instruments-and-electronic-music-production/1202450-digitakt-dfam.html
+
+3. MATRIXSYNTH - "Acid Techno Session - Moog DFAM, Elektron Digitakt, Mode Machines ADX1"
+   URL: https://www.matrixsynth.com/2018/07/acid-techno-session-moog-dfam-elektron.html
+
+4. Digitakt DFAM Samples Pack Techno Project (commercial)
+   - 60 min project using only DFAM samples
+   - Drums: kicks, toms, snare, hi-hat, claps, percussions
+   - Melodic: bass, synth, fx, noises, sample chains
+   - 104 samples in banks A-E, 69 patterns, 17 tracks at 134 BPM
+   URL: https://payhip.com/b/3BXJ4
+
+TECHNICAL CONTEXT:
+- The Moog DFAM (Drummer From Another Mother) is an analog percussion synthesizer
+  with a built-in 8-step sequencer
+- The Elektron Digitakt is a digital sampling drum machine/sequencer
+- Common workflow: record/sample DFAM sounds into Digitakt for sequencing flexibility
+- Limitation: Digitakt lacks CV outputs, so sequencing the DFAM from Digitakt
+  requires workarounds (MIDI-to-CV converter)
+- The DFAM has no MIDI implementation, making sampling the primary integration method
+
+NOTE: This post could not be located through any web search. It was likely a
+video/audio post with no text body. The r/synthesizers subreddit commonly features
+such media-only posts. The content above represents related discussions found
+across synthesizer communities.

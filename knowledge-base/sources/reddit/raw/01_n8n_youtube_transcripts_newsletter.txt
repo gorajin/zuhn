@@ -1,0 +1,63 @@
+============================================================
+POST: "I built a workflow that turns YouTube transcripts into newsletter style summaries"
+SUBREDDIT: r/n8n
+APPROXIMATE DATE: ~3 months ago (Dec 2025 / Jan 2026)
+STATUS: Reddit post not directly accessible (reddit.com blocked by fetcher)
+============================================================
+
+SEARCH ATTEMPTS:
+- old.reddit.com search: blocked
+- reddit.com JSON API: blocked
+- WebSearch for exact title: no direct Reddit URL found
+
+RECONSTRUCTED CONTENT FROM ALTERNATIVE SOURCES:
+----------------------------------------------
+
+The post describes an n8n workflow that automates converting YouTube video transcripts
+into polished, newsletter-style summaries. Based on the matching n8n workflow template
+and related sources, here is what the workflow does:
+
+WORKFLOW: Turn YouTube Transcripts into Newsletter Drafts
+RELATED TEMPLATE: https://n8n.io/workflows/5798-turn-youtube-transcripts-into-newsletter-drafts-using-dumpling-ai-gpt-4o/
+RELATED TEMPLATE: https://n8n.io/workflows/14012-create-ai-newsletters-from-youtube-with-langchain-gemini-apify-and-gmail/
+
+HOW IT WORKS (7-step process):
+1. Manual Trigger - Initiates the automation for testing or on-demand execution
+2. Google Sheets Integration - Pulls YouTube links from a designated column, processing
+   only rows with empty "blog post" fields
+3. Batch Processing Loop - Handles each video sequentially to manage API rate limits
+4. Transcript Extraction - Sends video URLs to Dumpling AI's transcript API
+5. Content Transformation - GPT-4o converts raw transcripts into structured newsletters
+   with summaries, engaging introductions, readable paragraphs, and CTA statements
+6. Data Logging - Returns completed drafts to Google Sheets in their original rows
+7. Email Notification - Sends completion alerts to a specified address
+
+ALTERNATIVE VERSION (LangChain + Gemini):
+- Scrapes the transcript from YouTube
+- Extracts a thumbnail/logo and brand color theme
+- Uses AI agents to clean & summarize the transcript into 3 newsletter sections
+- AI Agent (LangChain/Gemini) cleans the transcript, extracts thesis + key points,
+  writes 3 newsletter sections in a journalistic tone
+- Converts content into styled HTML
+- Saves the draft to Google Sheets and sends via Gmail
+
+KEY REQUIREMENTS:
+- Google Sheet with "link" and "blog post" columns
+- Dumpling AI API credentials (or Apify for scraping)
+- OpenAI GPT-4o access (or Google Gemini)
+- Gmail account for notifications
+
+EXTENSIBILITY:
+- Can send finished drafts to Notion or Airtable instead of Sheets
+- Generate social media posts from the same transcript
+- Add automatic review steps using GPT scoring or editing
+- Compatible with Mailchimp, Beehiiv, and ConvertKit
+
+LINKED RESOURCES:
+- n8n Template (Dumpling AI version): https://n8n.io/workflows/5798-turn-youtube-transcripts-into-newsletter-drafts-using-dumpling-ai-gpt-4o/
+- n8n Template (LangChain/Gemini version): https://n8n.io/workflows/14012-create-ai-newsletters-from-youtube-with-langchain-gemini-apify-and-gmail/
+- DumplingAI Blog Post: https://www.dumplingai.com/blog/turn-youtube-transcripts-into-newsletter-drafts-using-dumpling-ai-and-gpt-4o
+
+NOTE: The exact Reddit post body text and comments could not be retrieved due to
+reddit.com being blocked by the web fetching tools. The above is reconstructed from
+the n8n workflow templates and blog posts that match the described workflow.

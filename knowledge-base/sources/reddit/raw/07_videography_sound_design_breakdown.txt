@@ -1,0 +1,61 @@
+============================================================
+POST: "Sound Design Breakdown [and tutorial]"
+SUBREDDIT: r/videography
+APPROXIMATE DATE: ~6 years ago (~2019-2020)
+STATUS: Reddit post not found -- could not locate exact URL
+============================================================
+
+SEARCH ATTEMPTS:
+- old.reddit.com search: blocked
+- reddit.com JSON API: blocked
+- WebSearch with exact title: no direct Reddit URL found
+- WebSearch with various keyword combinations: no Reddit result
+- Searched with year ranges 2019, 2020: no match
+- Only unrelated result: a Facebook video about Modern Warfare 2019 sound design
+
+WHAT WAS FOUND:
+--------------
+
+This post could not be located through any web search method. It was likely a
+video post on r/videography linking to a YouTube tutorial about sound design
+techniques for video production.
+
+Given the subreddit (r/videography) and the title format "Sound Design Breakdown
+[and tutorial]", this was most likely:
+- A self-promotion post sharing the author's YouTube tutorial
+- A video link post with minimal text body
+- Focused on practical sound design techniques for videographers
+
+Posts from ~6 years ago on smaller subreddits are particularly difficult to find
+via external search engines. The post may also have been deleted or the account
+removed.
+
+RELATED SOUND DESIGN RESOURCES FOR VIDEOGRAPHERS:
+
+1. Film Editing Pro - "How to Sound Design a Video" (Step-by-Step Tutorial)
+   - Three steps: Score, Ambience/Foley, Creative Sound Design
+   URL: https://www.filmeditingpro.com/how-to-sound-design-a-video-step-by-step-tutorial/
+
+2. MotionCue - "Sound Design in Video Production: Detailed Guide"
+   URL: https://motioncue.com/sound-design-in-video-production/
+
+3. Film Crux - "Sound Design for Film"
+   URL: https://www.filmcrux.com/blog/film-sound-design
+
+4. The Film Fund - "Sound Design 101: The Ultimate Guide"
+   URL: https://www.thefilmfund.co/sound-design-101-the-ultimate-guide-to-great-film-sound/
+
+5. A Sound Effect - "12 Interesting Film Sound Tutorial Videos"
+   URL: https://www.asoundeffect.com/film-sound-tutorial/
+
+KEY SOUND DESIGN PRINCIPLES FOR VIDEOGRAPHY:
+- You should be able to hear everything you see
+- Nothing is silent -- even empty rooms have ambient sound
+- Not everything needs to sound the way it looks
+- Sound can represent thoughts, feelings, and camera moves
+- Tools: Pro Tools (professional), Audacity (free/beginner)
+- Process: First add temp music, then creative SFX, then audio treatment
+
+NOTE: This post could not be located. The exact title, author, body text, and
+comments are unavailable. This was likely a video/link post that may have been
+deleted or is too old to be indexed.

@@ -1,0 +1,64 @@
+============================================================
+POST: "This n8n workflow scrapes any business URL and writes a full analysis report for ~$0.20"
+SUBREDDIT: r/n8n
+APPROXIMATE DATE: ~5 months ago (Oct 2025)
+AUTHOR: Likely AgriciDaniel (GitHub username associated with the workflow)
+STATUS: Reddit post not directly accessible (reddit.com blocked by fetcher)
+============================================================
+
+SEARCH ATTEMPTS:
+- old.reddit.com search: blocked
+- reddit.com JSON API: blocked
+- WebSearch for exact title: no direct Reddit URL found
+- Found GitHub repo and n8n template matching this workflow
+
+RECONSTRUCTED CONTENT FROM ALTERNATIVE SOURCES:
+----------------------------------------------
+
+GITHUB REPO: https://github.com/AgriciDaniel/automated-business-analysis-workflow
+(98 stars, MIT licensed, 19 commits)
+
+OVERVIEW:
+This is a free automation system designed for agencies, freelancers, and consultants.
+Users submit a URL, and the workflow scrapes the site, analyzes content using AI,
+then generates a professional business report delivered via Google Docs and PDF.
+
+THE GENERATED REPORTS INCLUDE:
+- Business Overview: Complete company description
+- Target Audience Personas: Demographic and psychographic customer profiles
+- Brand & UVP: Brand personality matrix and unique value proposition
+- Customer Journey: Awareness through loyalty mapping
+- E-E-A-T Analysis: Experience, Expertise, Authoritativeness, Trustworthiness signals
+
+HOW IT WORKS:
+The workflow integrates multiple services:
+- n8n: Central automation platform
+- Firecrawl: Website content extraction (scraping)
+- Perplexity & Google Gemini: AI analysis agents for structuring data
+- Google Docs, Drive & Gmail: Report formatting and email delivery
+
+REQUIREMENTS:
+- n8n account (cloud or self-hosted)
+- API keys for Firecrawl, Perplexity, Google Gemini
+- Google credentials (Docs, Drive, Gmail access)
+- Google Doc template: https://docs.google.com/document/d/1grgYd2Pyr_THq4FJ83PibO_1vXzbEHiQPVqaTdCOvuk/
+
+COST:
+~$0.20 per analysis run (as mentioned in the post title)
+
+NOTABLE LIMITATION:
+The free version excludes keyword research features. The paid version adds DataForSEO
+integration for rankings, search volume, and CPC data.
+
+RELATED N8N TEMPLATE:
+https://n8n.io/workflows/10391-generate-comprehensive-business-analysis-reports-with-gemini-ai-and-firecrawl/
+
+LINKED RESOURCES:
+- GitHub Repository: https://github.com/AgriciDaniel/automated-business-analysis-workflow
+- n8n Workflow JSON: https://github.com/AgriciDaniel/automated-business-analysis-workflow/blob/main/Business%20Analysis%20Workflow%20-%20AI%20Marketing%20Hub.json
+- n8n Template: https://n8n.io/workflows/10391-generate-comprehensive-business-analysis-reports-with-gemini-ai-and-firecrawl/
+- Google Doc Template: https://docs.google.com/document/d/1grgYd2Pyr_THq4FJ83PibO_1vXzbEHiQPVqaTdCOvuk/
+
+NOTE: The exact Reddit post body text and comments could not be retrieved due to
+reddit.com being blocked by the web fetching tools. The above is reconstructed from
+the GitHub repo README and n8n workflow template.

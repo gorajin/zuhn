@@ -1,0 +1,69 @@
+============================================================
+POST: "[Tutorial] All there is to know about syncing video and audio"
+SUBREDDIT: r/VideoEditing
+APPROXIMATE DATE: ~6 years ago (~2019-2020)
+LINKED VIDEO: https://youtu.be/DbICpqO48ns
+STATUS: Reddit post not found -- could not locate exact URL
+============================================================
+
+SEARCH ATTEMPTS:
+- old.reddit.com search: blocked
+- reddit.com JSON API: blocked
+- WebSearch with exact title: no direct Reddit URL found
+- WebSearch with YouTube video ID (DbICpqO48ns): no Reddit result
+- WebFetch on YouTube URL: failed (YouTube returns JS-only content)
+
+WHAT WAS FOUND:
+--------------
+
+This post could not be located through any web search method. It was a tutorial
+post on r/VideoEditing that linked to a YouTube video (https://youtu.be/DbICpqO48ns)
+about syncing video and audio.
+
+The YouTube video itself could not be fetched either -- YouTube returns JavaScript
+configuration data rather than readable content to web fetchers.
+
+Given the title format "[Tutorial]" and the subreddit, this was likely:
+- A detailed text post explaining audio-video synchronization techniques
+- Included or was primarily about the linked YouTube tutorial
+- May have contained step-by-step instructions in the post body
+- Targeted at beginner/intermediate video editors
+
+RELATED AUDIO-VIDEO SYNC RESOURCES:
+
+Methods for Syncing Audio and Video:
+
+1. Manual Sync (Clap Method):
+   - Clap hands once on camera with audio recording before starting
+   - Creates a spike in audio waveform for alignment
+   - Look for matching spikes in both audio tracks
+
+2. Automatic Sync Tools:
+   - Adobe Premiere Pro: Sync Lock feature and Merge Clips
+   - DaVinci Resolve: Auto-Sync feature
+   - Filmora: One-click auto video synchronization
+   - PluralEyes: Dedicated sync software
+
+3. Common Causes of Sync Issues:
+   - Buffering during playback
+   - Audio and video recorded separately and misaligned during editing
+   - Different FPS rates between audio and video files
+   - Long recordings drifting due to clock differences
+
+4. Best Practices:
+   - Always use a clapboard or hand clap at the start
+   - Match sample rates (48kHz standard for video)
+   - Record scratch audio on camera even when using external audio
+   - Use timecode sync for multi-camera setups
+
+LINKED RESOURCES:
+- YouTube Tutorial: https://youtu.be/DbICpqO48ns (video content not accessible)
+- TechSmith Guide: https://www.techsmith.com/blog/sync-audio-and-video-sources/
+- No Film School: https://nofilmschool.com/how-sync-audio-modern-video-production-workflows
+- Premium Beat: https://www.premiumbeat.com/blog/how-to-sync-audio-to-video/
+- Storyblocks Tutorial: https://www.storyblocks.com/resources/tutorials/how-to-sync-audio-and-video
+
+NOTE: This post could not be located. The exact title, author, body text, and
+comments are unavailable. The linked YouTube video (DbICpqO48ns) was confirmed
+to exist but its content could not be extracted by the web fetcher. This was
+likely a tutorial post that included both text instructions and a video link.
