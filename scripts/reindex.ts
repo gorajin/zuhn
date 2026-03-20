@@ -80,7 +80,7 @@ async function main(): Promise<void> {
   }
 
   // 2. Build and write MASTER_INDEX.md
-  const masterContent = buildMasterIndex(insights, principleCounts);
+  const masterContent = await buildMasterIndex(insights, principleCounts, KB_ROOT);
   if (await writeIfChanged(join(KB_ROOT, "MASTER_INDEX.md"), masterContent)) {
     filesWritten++;
     console.log("  Updated: MASTER_INDEX.md");

@@ -26,7 +26,7 @@ describe("scanInsights", () => {
 describe("buildMasterIndex", () => {
   it("generates markdown with domain table and correct totals", async () => {
     const insights = await scanInsights(SAMPLE_KB);
-    const md = buildMasterIndex(insights);
+    const md = await buildMasterIndex(insights);
     expect(md).toContain("# Knowledge Base Master Index");
     expect(md).toContain("ai-development");
     expect(md).toContain("Total insights: 2");
@@ -42,7 +42,7 @@ describe("buildMasterIndex", () => {
 
   it("includes tag summary in inline format", async () => {
     const insights = await scanInsights(SAMPLE_KB);
-    const md = buildMasterIndex(insights);
+    const md = await buildMasterIndex(insights);
     // Issue 11: tags are inline as tag(N) format, not bulleted
     expect(md).toContain("hooks");
     expect(md).toContain("cost-optimization");

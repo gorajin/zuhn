@@ -1,5 +1,7 @@
 import { join } from "node:path";
+import { readFile } from "node:fs/promises";
 import fg from "fast-glob";
+import matter from "gray-matter";
 import { parseInsightFile, type ParseSuccess } from "./parse-insight";
 
 // ─── scanInsights ────────────────────────────────────────────────────
@@ -29,7 +31,7 @@ export async function scanInsights(kbRoot: string): Promise<ParseSuccess[]> {
 /**
  * Build the MASTER_INDEX.md content from all parsed insights.
  */
-export function buildMasterIndex(insights: ParseSuccess[], principleCounts?: Map<string, number>): string {
+export async function buildMasterIndex(insights: ParseSuccess[], principleCounts?: Map<string, number>, kbRoot?: string): Promise<string> {
   const now = new Date().toISOString().slice(0, 10);
 
   // Count unique sources
@@ -111,10 +113,29 @@ export function buildMasterIndex(insights: ParseSuccess[], principleCounts?: Map
   }
   lines.push("");
 
-  // Mental Models (placeholder)
+  // Mental Models (scan from mental-models/ directory)
   lines.push("## Mental Models");
   lines.push("");
-  lines.push("_No mental models extracted yet._");
+  if (kbRoot) {
+    try {
+      const mmFiles = await fg(join(kbRoot, "mental-models", "*.md"), { ignore: ["**/_index.md"] });
+      if (mmFiles.length === 0) {
+        lines.push("_No mental models extracted yet._");
+      } else {
+        for (const f of mmFiles.sort()) {
+          const raw = await readFile(f, "utf-8");
+          const { data } = matter(raw);
+          if (data.title && data.core_statement) {
+            lines.push(`- **${data.title}**: "${data.core_statement}"`);
+          }
+        }
+      }
+    } catch {
+      lines.push("_No mental models extracted yet._");
+    }
+  } else {
+    lines.push("_No mental models extracted yet._");
+  }
   lines.push("");
 
   // Top Tags (inline format)
