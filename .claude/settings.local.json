@@ -16,7 +16,24 @@
       "Bash(find /Users/jinchoi/Code/Reddit/knowledge-base/mental-models -name *.md)",
       "Bash(find /Users/jinchoi/Code/Reddit/knowledge-base/tensions -name *.md)",
       "Bash(npx vitest:*)",
-      "Bash(npm test:*)"
+      "Bash(npm test:*)",
+      "WebSearch",
+      "WebFetch(domain:old.reddit.com)",
+      "WebFetch(domain:www.reddit.com)",
+      "WebFetch(domain:n8n.io)",
+      "WebFetch(domain:www.linkedin.com)",
+      "WebFetch(domain:www.elektronauts.com)",
+      "WebFetch(domain:youtu.be)",
+      "WebFetch(domain:www.youtube.com)",
+      "WebFetch(domain:gist.github.com)",
+      "WebFetch(domain:aiengineerguide.com)",
+      "WebFetch(domain:seldondance.substack.com)",
+      "WebFetch(domain:eu.36kr.com)",
+      "WebFetch(domain:www.dumplingai.com)",
+      "WebFetch(domain:gearspace.com)",
+      "WebFetch(domain:www.buzzsprout.com)",
+      "WebFetch(domain:econolearn.com)",
+      "Bash(ls /Users/jinchoi/Code/Reddit/knowledge-base/sources/reddit/*.md)"
     ]
   }
 }
