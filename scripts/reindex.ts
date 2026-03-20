@@ -10,6 +10,7 @@ import {
   buildTagIndex,
 } from "./lib/generate-index.js";
 import type { ParseSuccess } from "./lib/parse-insight.js";
+import { initDb, upsertInsight, getAllInsights } from "./lib/db.js";
 
 const KB_ROOT = join(__dirname, "../knowledge-base");
 
@@ -168,6 +169,51 @@ async function main(): Promise<void> {
     filesWritten++;
     console.log("  Updated: meta/stats.md");
   }
+
+  // 10. Populate SQLite database
+  console.log("\n--- SQLite database ---");
+  const db = initDb();
+
+  let dbInserted = 0;
+  let dbUpdated = 0;
+
+  // Collect all current IDs from the file system
+  const currentIds = new Set<string>();
+
+  for (const ins of insights) {
+    currentIds.add(ins.data.id);
+
+    // Check if this insight already exists in the DB
+    const existing = db
+      .prepare("SELECT content_hash FROM insights WHERE id = ?")
+      .get(ins.data.id) as { content_hash: string } | undefined;
+
+    upsertInsight(db, ins.data, ins.filePath);
+
+    if (existing) {
+      dbUpdated++;
+    } else {
+      dbInserted++;
+    }
+  }
+
+  // Remove DB rows whose IDs no longer exist in the file system
+  const allDbRows = getAllInsights(db);
+  let dbDeleted = 0;
+  const deleteStmt = db.prepare("DELETE FROM insights WHERE id = ?");
+
+  for (const row of allDbRows) {
+    if (!currentIds.has(row.id)) {
+      deleteStmt.run(row.id);
+      dbDeleted++;
+    }
+  }
+
+  console.log(
+    `  DB: ${dbInserted} inserted, ${dbUpdated} updated, ${dbDeleted} deleted`
+  );
+  console.log(`  Total rows: ${getAllInsights(db).length}`);
+  db.close();
 
   console.log(`\nDone. ${filesWritten} files written.`);
 }
