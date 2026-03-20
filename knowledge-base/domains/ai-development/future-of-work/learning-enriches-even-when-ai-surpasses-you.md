@@ -20,7 +20,6 @@ sources:
     author: Dario Amodei (via Nikhil Kamath Clips)
     url: 'https://youtu.be/EdZWPB1fIJc'
 related:
-  - INS-260320-E6DD
   - INS-260320-B99F
   - INS-260320-E683
   - INS-260320-DDD9
