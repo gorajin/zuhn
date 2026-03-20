@@ -17,7 +17,7 @@ related: [INS-260320-4773]
 date_extracted: "2026-03-20"
 last_accessed: null
 access_count: 0
-indexed: false
+indexed: true
 embedded: false
 resolutions:
   one_line: "PM2 gives you auto-restart on crashes, per-service logs, memory/CPU monitoring, and easy management like `pm2 restart email`."

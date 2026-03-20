@@ -16,7 +16,7 @@ related: []
 date_extracted: "2026-03-20"
 last_accessed: null
 access_count: 0
-indexed: false
+indexed: true
 embedded: false
 resolutions:
   one_line: "OpenRouter offers 50-1000 free requests/day on certain models — not trial credits, actually free forever."

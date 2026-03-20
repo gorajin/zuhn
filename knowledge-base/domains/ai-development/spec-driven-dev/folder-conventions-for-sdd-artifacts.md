@@ -16,7 +16,7 @@ related: []
 date_extracted: "2026-03-20"
 last_accessed: null
 access_count: 0
-indexed: false
+indexed: true
 embedded: false
 resolutions:
   one_line: "Use consistent folder conventions: project/story/task/ with requirements.md, instructions.md, research.md, plan.md, code.md, review.md, findings.md."

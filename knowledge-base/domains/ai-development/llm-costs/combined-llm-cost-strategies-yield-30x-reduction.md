@@ -23,7 +23,7 @@ related:
 date_extracted: "2026-03-20"
 last_accessed: null
 access_count: 0
-indexed: false
+indexed: true
 embedded: false
 resolutions:
   one_line: "Six strategies combined took production systems from $300+/month to ~$10/month while processing 10x more data."

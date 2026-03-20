@@ -16,7 +16,7 @@ related: []
 date_extracted: "2026-03-20"
 last_accessed: null
 access_count: 0
-indexed: false
+indexed: true
 embedded: false
 resolutions:
   one_line: "Research logs and findings surface 'already solved' patterns, preventing teams and agents from reinventing solutions."

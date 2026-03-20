@@ -17,7 +17,7 @@ related: [INS-260320-1B10, INS-260320-DC3C]
 date_extracted: "2026-03-20"
 last_accessed: null
 access_count: 0
-indexed: false
+indexed: true
 embedded: false
 resolutions:
   one_line: "Give agents very specific roles and clear instructions on what to RETURN — prevents 'I fixed it!' without details."

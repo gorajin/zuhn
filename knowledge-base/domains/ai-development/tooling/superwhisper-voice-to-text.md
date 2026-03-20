@@ -17,7 +17,7 @@ related: [INS-260320-76D2]
 date_extracted: "2026-03-20"
 last_accessed: null
 access_count: 0
-indexed: false
+indexed: true
 embedded: false
 resolutions:
   one_line: "Use SuperWhisper for voice-to-text prompting when your hands are tired from typing all day."

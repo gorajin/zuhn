@@ -17,7 +17,7 @@ related: [INS-260320-B210]
 date_extracted: "2026-03-20"
 last_accessed: null
 access_count: 0
-indexed: false
+indexed: true
 embedded: false
 resolutions:
   one_line: "Skills handle 'how to write code' guidelines while CLAUDE.md handles 'how this specific project works' — keep them separate."

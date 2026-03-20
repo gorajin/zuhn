@@ -17,7 +17,7 @@ related: [INS-260320-9D89, INS-260320-4DE2]
 date_extracted: "2026-03-20"
 last_accessed: null
 access_count: 0
-indexed: false
+indexed: true
 embedded: false
 resolutions:
   one_line: "Have Claude review its own code via a specialized review agent — catches critical errors, missing implementations, and security flaws."

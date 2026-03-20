@@ -17,7 +17,7 @@ related: [INS-260320-2DDE, INS-260320-B210]
 date_extracted: "2026-03-20"
 last_accessed: null
 access_count: 0
-indexed: false
+indexed: true
 embedded: false
 resolutions:
   one_line: "Attach ready-to-use utility scripts to skills so Claude references proven tools instead of reinventing test scripts from scratch."

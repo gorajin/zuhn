@@ -17,7 +17,7 @@ related:
 date_extracted: "2026-03-20"
 last_accessed: null
 access_count: 0
-indexed: false
+indexed: true
 embedded: false
 resolutions:
   one_line: "Curated structured data enables REASONING about connections. Vector memory stores text blobs for retrieval. For business-ready context, structure wins."

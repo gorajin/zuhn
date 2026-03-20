@@ -16,7 +16,7 @@ related: []
 date_extracted: "2026-03-20"
 last_accessed: null
 access_count: 0
-indexed: false
+indexed: true
 embedded: false
 resolutions:
   one_line: "Use OpenRouter for a unified dashboard, model switching, spending tracking, and hard budget limits across all LLM providers."

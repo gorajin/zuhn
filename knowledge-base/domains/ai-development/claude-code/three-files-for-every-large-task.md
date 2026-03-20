@@ -17,7 +17,7 @@ related: [INS-260320-8F12, INS-260320-0127, INS-260320-06EF]
 date_extracted: "2026-03-20"
 last_accessed: null
 access_count: 0
-indexed: false
+indexed: true
 embedded: false
 resolutions:
   one_line: "Create three dev doc files (plan.md, context.md, tasks.md) for every large task to prevent Claude from losing the plot through compaction."

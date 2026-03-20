@@ -17,7 +17,7 @@ related: [INS-260320-E872]
 date_extracted: "2026-03-20"
 last_accessed: null
 access_count: 0
-indexed: false
+indexed: true
 embedded: false
 resolutions:
   one_line: "Re-prompt often using double-esc to recall previous prompts — you get better results armed with knowledge of what you DON'T want."

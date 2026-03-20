@@ -16,7 +16,7 @@ related: []
 date_extracted: "2026-03-20"
 last_accessed: null
 access_count: 0
-indexed: false
+indexed: true
 embedded: false
 resolutions:
   one_line: "SDD cycle: input specs (PRD, tech brief, requirements) and output specs (research logs, code notes, findings) are both first-class artifacts."

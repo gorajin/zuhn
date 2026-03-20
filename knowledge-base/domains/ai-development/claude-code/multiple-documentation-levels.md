@@ -17,7 +17,7 @@ related: [INS-260320-F872, INS-260320-A4BF]
 date_extracted: "2026-03-20"
 last_accessed: null
 access_count: 0
-indexed: false
+indexed: true
 embedded: false
 resolutions:
   one_line: "Maintain multiple documentation levels — broad architectural overview, specific service docs, API references — to help Claude navigate large codebases."

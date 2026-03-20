@@ -17,7 +17,7 @@ related: []
 date_extracted: "2026-03-20"
 last_accessed: null
 access_count: 0
-indexed: false
+indexed: true
 embedded: false
 resolutions:
   one_line: "If Claude struggles more than 30 minutes on something you could fix in 2 minutes, just step in and do it yourself."

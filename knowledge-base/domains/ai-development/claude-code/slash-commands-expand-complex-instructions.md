@@ -17,7 +17,7 @@ related: [INS-260320-9D89, INS-260320-8F12]
 date_extracted: "2026-03-20"
 last_accessed: null
 access_count: 0
-indexed: false
+indexed: true
 embedded: false
 resolutions:
   one_line: "Slash commands expand into full prompts — pack complex, multi-step instructions into simple reusable commands."

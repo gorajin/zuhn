@@ -17,7 +17,7 @@ related: [INS-260320-04A2, INS-260320-93E1]
 date_extracted: "2026-03-20"
 last_accessed: null
 access_count: 0
-indexed: false
+indexed: true
 embedded: false
 resolutions:
   one_line: "Start with planning mode to create the plan, review it, then run /dev-docs to generate the three dev doc files."

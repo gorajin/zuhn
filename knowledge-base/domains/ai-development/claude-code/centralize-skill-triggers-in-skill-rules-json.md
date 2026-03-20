@@ -17,7 +17,7 @@ related: [INS-260320-F8FD, INS-260320-DCA0]
 date_extracted: "2026-03-20"
 last_accessed: null
 access_count: 0
-indexed: false
+indexed: true
 embedded: false
 resolutions:
   one_line: "Use a central skill-rules.json config mapping each skill to keywords, regex intent patterns, file path triggers, and content triggers."

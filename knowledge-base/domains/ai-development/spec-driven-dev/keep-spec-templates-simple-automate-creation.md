@@ -16,7 +16,7 @@ related: []
 date_extracted: "2026-03-20"
 last_accessed: null
 access_count: 0
-indexed: false
+indexed: true
 embedded: false
 resolutions:
   one_line: "Keep spec templates simple — if too heavy, people skip them. Automate file creation and periodically revisit findings for tech debt."

@@ -17,7 +17,7 @@ related: [INS-260320-7379, INS-260320-4ED6]
 date_extracted: "2026-03-20"
 last_accessed: null
 access_count: 0
-indexed: false
+indexed: true
 embedded: false
 resolutions:
   one_line: "A Stop event hook analyzes edited files after Claude responds and shows gentle self-check reminders for error handling."

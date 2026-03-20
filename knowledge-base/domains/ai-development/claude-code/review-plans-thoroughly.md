@@ -17,7 +17,7 @@ related: [INS-260320-93E1]
 date_extracted: "2026-03-20"
 last_accessed: null
 access_count: 0
-indexed: false
+indexed: true
 embedded: false
 resolutions:
   one_line: "Take time to review the plan thoroughly — you'd be surprised how often you catch silly mistakes before implementation."

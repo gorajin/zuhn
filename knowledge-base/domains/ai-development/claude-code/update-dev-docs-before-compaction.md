@@ -17,7 +17,7 @@ related: [INS-260320-04A2, INS-260320-06EF]
 date_extracted: "2026-03-20"
 last_accessed: null
 access_count: 0
-indexed: false
+indexed: true
 embedded: false
 resolutions:
   one_line: "Update dev docs regularly by running /update-dev-docs before context compaction to preserve current state."
