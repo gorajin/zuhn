@@ -1,6 +1,6 @@
 # Knowledge Base Master Index
 
-> Last rebuilt: 2026-03-20 | Total insights: 101 | Sources: 17
+> Last rebuilt: 2026-03-20 | Total insights: 109 | Sources: 18
 
 **NOTE:** Access counts and last_accessed are updated automatically when insights are retrieved.
 
@@ -8,11 +8,11 @@
 
 | Domain | Topics | Insights | Principles | Last Updated |
 | ------ | ------ | -------- | ---------- | ------------ |
-| ai-development | 9 | 67 | 8 | 2026-03-20 |
+| ai-development | 10 | 71 | 8 | 2026-03-20 |
 | automation | 2 | 12 | 2 | 2026-03-20 |
 | music-production | 1 | 2 | 0 | 2026-03-20 |
 | pets | 1 | 2 | 0 | 2026-03-20 |
-| startups | 2 | 14 | 4 | 2026-03-20 |
+| startups | 3 | 18 | 4 | 2026-03-20 |
 | video-production | 2 | 4 | 0 | 2026-03-20 |
 
 ## Mental Models
@@ -24,7 +24,7 @@
 
 ## Top Tags
 
-n8n(11) workflow(8) hooks(8) llm-costs(8) skills(7) automation(7) spec-driven-dev(7) prompting(6) llm(5) huggingface(5) context-management(4) planning(4) claude-code(4) dev-docs(4) agents(3) Stop-event(3) compaction(3) error-handling(3) architecture(3) cost-reduction(3)
+n8n(11) workflow(8) hooks(8) llm-costs(8) skills(7) automation(7) spec-driven-dev(7) prompting(6) llm(5) huggingface(5) context-management(4) planning(4) claude-code(4) dev-docs(4) agents(3) learning(3) Stop-event(3) compaction(3) error-handling(3) architecture(3)
 
 ## Flags (for Claude)
 
@@ -34,6 +34,10 @@ _No flags._
 
 - `INS-260320-1B10` Have Claude review its own code via a specialized review agent — catches critical errors, missing implementations, and security flaws. _(2026-03-20)_
 - `INS-260320-9D89` Give agents very specific roles and clear instructions on what to RETURN — prevents 'I fixed it!' without details. _(2026-03-20)_
+- `INS-260320-5A6F` AI-enabled beats AI-replaced — keep the human touch in important parts, automate the repetitive. _(2026-03-20)_
+- `INS-260320-703F` Course bros sell hope, not value — if the magic solution worked, they wouldn't be selling it on Twitter. _(2026-03-20)_
+- `INS-260320-8632` The last generation of great engineers may already be born — AI creates a widening split between exceptional and average. _(2026-03-20)_
+- `INS-260320-76E7` Only automate what you deeply understand — automating ignorance creates slot machines, not efficiency. _(2026-03-20)_
 - `INS-260320-E6DD` Structure knowledge as a relational database (entities + relationships), not text blobs. Every Claude instance reads/writes the same structured knowledge base. _(2026-03-20)_
 - `INS-260320-5B49` Curated structured data enables REASONING about connections. Vector memory stores text blobs for retrieval. For business-ready context, structure wins. _(2026-03-20)_
 - `INS-260320-93E1` Planning is king — always use planning mode before implementation; never let the builder start without plans. _(2026-03-20)_
@@ -63,6 +67,13 @@ _No flags._
 - `INS-260320-04A2` Create three dev doc files (plan.md, context.md, tasks.md) for every large task to prevent Claude from losing the plot through compaction. _(2026-03-20)_
 - `INS-260320-0127` Update dev docs regularly by running /update-dev-docs before context compaction to preserve current state. _(2026-03-20)_
 - `INS-260320-DCA0` A UserPromptSubmit hook analyzes the prompt for keywords and intent, then injects skill reminders into context BEFORE Claude reads it. _(2026-03-20)_
+- `INS-260320-A745` Anthropic's own studies show AI deskilling in coding is real, but depends on HOW you use models — some usage patterns cause skill degradation, some don't. _(2026-03-20)_
+- `INS-260320-B99F` Build careers where AI is a tailwind — semiconductors, human-centered professions, anything mixing physical world with analytical skills. _(2026-03-20)_
+- `INS-260320-DEAF` Coding is going away first — AI models handle raw coding now, but broader software engineering (architecture, design, user needs, team management) takes longer to automate. _(2026-03-20)_
+- `INS-260320-E683` Even if you're only doing 5% of the task and AI does 95%, that 5% gets "super amplified" — you become 20x more productive through comparative advantage. _(2026-03-20)_
+- `INS-260320-DDD9` In a world where AI can generate anything, "having basic critical thinking skills may be the most important thing to success." _(2026-03-20)_
+- `INS-260320-5F14` "Even if an AI is always going to be better than you at something, you can still learn that thing. You can still enrich yourself intellectually." _(2026-03-20)_
+- `INS-260320-F78E` Prompt engineering is like playing piano — you can't just sit down and start; it requires practice and iteration to develop the skill. _(2026-03-20)_
 - `INS-260320-9937` OpenRouter offers 50-1000 free requests/day on certain models — not trial credits, actually free forever. _(2026-03-20)_
 - `INS-260320-9FD5` Batch inputs to amortize system prompt costs — 100 separate calls with a 500-token system prompt = 50,000 wasted tokens. 1 batched call = 500 tokens. _(2026-03-20)_
 - `INS-260320-901C` Six strategies combined took production systems from $300+/month to ~$10/month while processing 10x more data. _(2026-03-20)_
@@ -71,13 +82,6 @@ _No flags._
 - `INS-260320-EF3A` Don't default to expensive models — test cheaper ones with YOUR data. DeepSeek V3 vs Claude Sonnet = 21x cost reduction for identical summaries. _(2026-03-20)_
 - `INS-260320-0511` Use cheap models (gpt-5-nano) for categorization/relevance scoring before expensive models — removes 70-90% of irrelevant inputs. _(2026-03-20)_
 - `INS-260320-2058` Use OpenRouter for a unified dashboard, model switching, spending tracking, and hard budget limits across all LLM providers. _(2026-03-20)_
-- `INS-260320-A745` Anthropic's own studies show AI deskilling in coding is real, but depends on HOW you use models — some usage patterns cause skill degradation, some don't. _(2026-03-20)_
-- `INS-260320-B99F` Build careers where AI is a tailwind — semiconductors, human-centered professions, anything mixing physical world with analytical skills. _(2026-03-20)_
-- `INS-260320-DEAF` Coding is going away first — AI models handle raw coding now, but broader software engineering (architecture, design, user needs, team management) takes longer to automate. _(2026-03-20)_
-- `INS-260320-E683` Even if you're only doing 5% of the task and AI does 95%, that 5% gets "super amplified" — you become 20x more productive through comparative advantage. _(2026-03-20)_
-- `INS-260320-DDD9` In a world where AI can generate anything, "having basic critical thinking skills may be the most important thing to success." _(2026-03-20)_
-- `INS-260320-5F14` "Even if an AI is always going to be better than you at something, you can still learn that thing. You can still enrich yourself intellectually." _(2026-03-20)_
-- `INS-260320-F78E` Prompt engineering is like playing piano — you can't just sit down and start; it requires practice and iteration to develop the skill. _(2026-03-20)_
 - `INS-260320-7682` Run systematic ablation experiments on architecture, data mixtures, and hyperparameters at small scale before committing to a full training run -- this consumes ~37% of total compute but prevents costly mistakes. _(2026-03-20)_
 - `INS-260320-5818` Main pretraining consumes 63% of total compute; plan for 37% additional budget for ablation studies, debugging, and restarts due to infrastructure failures. _(2026-03-20)_
 - `INS-260320-7B4B` HuggingFace's 200-page training playbook concludes that data quality dominates architectural innovation as the key factor in LLM performance. _(2026-03-20)_
@@ -111,12 +115,20 @@ _No flags._
 - `INS-260320-0063` n8n workflows can be exported as JSON and shared on GitHub with Google Doc templates -- the business analysis workflow repo has 98 stars and is MIT licensed. _(2026-03-20)_
 - `INS-260320-B8B0` Use Linkfinder AI as a proxy for LinkedIn scraping — no direct LinkedIn API connection means zero ban risk for your personal account. _(2026-03-20)_
 - `INS-260320-6845` An n8n workflow pulls YouTube links from Google Sheets, extracts transcripts via Dumpling AI, transforms them into newsletter drafts with GPT-4o, and logs results back to Sheets. _(2026-03-20)_
+- `INS-260320-CDE4` The Moog DFAM has no MIDI implementation -- sampling its output into a MIDI-capable device is the primary way to integrate it into a broader production setup. _(2026-03-20)_
+- `INS-260320-77C2` Sample analog synth sounds (like Moog DFAM) into a digital sampler/sequencer (like Elektron Digitakt) to get warm analog timbre with precise digital sequencing and pattern control. _(2026-03-20)_
+- `INS-260320-8B06` Letting dogs make small choices -- which toy to play with, which direction to walk, whether to engage or rest -- builds confidence and reduces anxiety-driven behaviors. _(2026-03-20)_
+- `INS-260320-9118` Allow dogs to sniff freely during walks -- scent exploration is their primary way of processing the world and provides more mental stimulation than the physical exercise of the walk itself. _(2026-03-20)_
+- `INS-260320-D44B` The foundational rule of video sound design: you should be able to hear everything you see -- nothing on screen is truly silent, and even empty rooms have ambient sound. _(2026-03-20)_
+- `INS-260320-105E` The sound design workflow for video follows three steps: lay down temp music/score first, add creative SFX and foley second, then apply final audio treatment and mixing. _(2026-03-20)_
 - `INS-260320-B7DA` Charge $99/year from day one even when conventional wisdom says students won't pay — premium pricing signals reliability, and raising from $99 to $129 actually increased both users and revenue. _(2026-03-20)_
 - `INS-260320-39A3` Shelter your team and family from acquisition signal-to-noise until the wire hits — deals fall apart in the last week, and premature sharing creates damaging anxiety. _(2026-03-20)_
 - `INS-260320-20F2` Momentum is oxygen — Coconote shipped a product that "sort of works," charged from day one, and hit 45 days to $100K ARR, 4 months to $1M, 5 months to $2M. _(2026-03-20)_
 - `INS-260320-8688` Don't worry about LLM costs or unit economics until you have the growth problem — use startup credits early, optimize later. Almost everything gets cheaper at scale. _(2026-03-20)_
 - `INS-260320-E044` Shelter early ideas from smart skeptics — conventional wisdom about what won't work is based on different products. Think of your idea as a seed that needs protection to sprout. _(2026-03-20)_
 - `INS-260320-00C2` When users try to cancel, ask "Do you just need more time?" — trial extensions retained the most users, outperforming discounts and 3-month pause options, while keeping users on auto-renew. _(2026-03-20)_
+- `INS-260320-10E8` Always clap once or use a clapboard at the start of each take -- the sharp transient creates a visible spike in both audio waveforms, making manual sync alignment trivial. _(2026-03-20)_
+- `INS-260320-232D` Set all audio devices to 48kHz when recording for video -- mismatched sample rates between camera and external recorder cause drift that worsens over longer recordings. _(2026-03-20)_
 - `INS-260320-A1D3` Keep your content creator team to 5-10 people max, meet with each 1:1, and share what converts vs what doesn't — a small elite team compounds while a large team dilutes quality. _(2026-03-20)_
 - `INS-260320-1B38` Longer onboarding (15 screens) increased trial starts by 16% — more investment, personalization, and social proof beats short onboarding, and moving login after the paywall prevented a 10% drop-off. _(2026-03-20)_
 - `INS-260320-A467` Follower count is irrelevant in short-form video — a TikTok from a zero-follower account can get 8M views because algorithmic distribution is based on content quality, not follower graph. _(2026-03-20)_
@@ -125,11 +137,7 @@ _No flags._
 - `INS-260320-70FA` Target the person who pays, not just the person who uses — students used Coconote but moms often bought it, and "my mom just changed my life" content drove viral parent-to-parent purchasing. _(2026-03-20)_
 - `INS-260320-080B` Ask customers how they describe your product, then use their exact words as marketing copy — Coconote asked and the majority said "never miss a key detail," which became their App Store headline. _(2026-03-20)_
 - `INS-260320-DADA` You cannot pour fuel on organic fire — viral UGC repurposed as paid ads underperformed, while a separate clip agency creating performance-specific creatives outperformed significantly. _(2026-03-20)_
-- `INS-260320-CDE4` The Moog DFAM has no MIDI implementation -- sampling its output into a MIDI-capable device is the primary way to integrate it into a broader production setup. _(2026-03-20)_
-- `INS-260320-77C2` Sample analog synth sounds (like Moog DFAM) into a digital sampler/sequencer (like Elektron Digitakt) to get warm analog timbre with precise digital sequencing and pattern control. _(2026-03-20)_
-- `INS-260320-8B06` Letting dogs make small choices -- which toy to play with, which direction to walk, whether to engage or rest -- builds confidence and reduces anxiety-driven behaviors. _(2026-03-20)_
-- `INS-260320-9118` Allow dogs to sniff freely during walks -- scent exploration is their primary way of processing the world and provides more mental stimulation than the physical exercise of the walk itself. _(2026-03-20)_
-- `INS-260320-10E8` Always clap once or use a clapboard at the start of each take -- the sharp transient creates a visible spike in both audio waveforms, making manual sync alignment trivial. _(2026-03-20)_
-- `INS-260320-232D` Set all audio devices to 48kHz when recording for video -- mismatched sample rates between camera and external recorder cause drift that worsens over longer recordings. _(2026-03-20)_
-- `INS-260320-D44B` The foundational rule of video sound design: you should be able to hear everything you see -- nothing on screen is truly silent, and even empty rooms have ambient sound. _(2026-03-20)_
-- `INS-260320-105E` The sound design workflow for video follows three steps: lay down temp music/score first, add creative SFX and foley second, then apply final audio treatment and mixing. _(2026-03-20)_
+- `INS-260320-F751` Build something exceptional and they will come — fundraising, hiring, and network emerge from the product itself. _(2026-03-20)_
+- `INS-260320-3798` Chase proving yourself wrong — the faster you disprove ideas, the faster you find the real one. _(2026-03-20)_
+- `INS-260320-C56D` Your early 20s with no obligations are years you can never get back — don't spend them fixing tickets at big tech. _(2026-03-20)_
+- `INS-260320-07A2` Hire people who were already customers — they have conviction you can't interview for. _(2026-03-20)_

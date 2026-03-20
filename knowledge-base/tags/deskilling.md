@@ -1,3 +1,4 @@
 # Tag: deskilling
 
+- `INS-260320-8632` The last generation of great engineers may already be born — AI creates a widening split between exceptional and average.
 - `INS-260320-A745` Anthropic's own studies show AI deskilling in coding is real, but depends on HOW you use models — some usage patterns cause skill degradation, some don't.

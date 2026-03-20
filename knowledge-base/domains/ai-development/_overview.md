@@ -1,12 +1,13 @@
 # Domain: ai-development
 
-> 67 insights across 9 topics
+> 71 insights across 10 topics
 
 ## Topics
 
 | Topic | Insights | Preview |
 | ----- | -------- | ------- |
 | agent-patterns | 2 | Have Claude review its own code via a specialized review agent — catches critical errors, missing implementations, and security flaws. |
+| ai-automation | 4 | AI-enabled beats AI-replaced — keep the human touch in important parts, automate the repetitive. |
 | claude-code | 27 | Planning is king — always use planning mode before implementation; never let the builder start without plans. |
 | context-management | 2 | Structure knowledge as a relational database (entities + relationships), not text blobs. Every Claude instance reads/writes the same structured knowledge base. |
 | future-of-work | 7 | Anthropic's own studies show AI deskilling in coding is real, but depends on HOW you use models — some usage patterns cause skill degradation, some don't. |
