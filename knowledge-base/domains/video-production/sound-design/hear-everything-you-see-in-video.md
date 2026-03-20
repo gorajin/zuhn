@@ -17,7 +17,8 @@ date_extracted: "2026-03-20"
 last_accessed: null
 access_count: 0
 indexed: true
-embedded: false
+embedded: true
+embedding_model: "nomic-embed-text"
 resolutions:
   one_line: "The foundational rule of video sound design: you should be able to hear everything you see -- nothing on screen is truly silent, and even empty rooms have ambient sound."
   standard: |

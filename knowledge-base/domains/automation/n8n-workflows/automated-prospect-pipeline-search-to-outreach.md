@@ -18,7 +18,8 @@ date_extracted: "2026-03-20"
 last_accessed: null
 access_count: 0
 indexed: true
-embedded: false
+embedded: true
+embedding_model: "nomic-embed-text"
 resolutions:
   one_line: "Full pipeline: search query to scrape 100+ profiles, extract data, pull company info, AI-generate personalized opener, export to Google Sheets."
   standard: |

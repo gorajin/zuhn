@@ -17,7 +17,8 @@ date_extracted: "2026-03-20"
 last_accessed: null
 access_count: 0
 indexed: true
-embedded: false
+embedded: true
+embedding_model: "nomic-embed-text"
 resolutions:
   one_line: "Research logs and findings surface 'already solved' patterns, preventing teams and agents from reinventing solutions."
   standard: |

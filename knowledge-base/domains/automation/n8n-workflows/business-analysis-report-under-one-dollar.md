@@ -17,7 +17,8 @@ date_extracted: "2026-03-20"
 last_accessed: null
 access_count: 0
 indexed: true
-embedded: false
+embedded: true
+embedding_model: "nomic-embed-text"
 resolutions:
   one_line: "An n8n workflow scrapes any business URL and generates a full analysis report (overview, audience personas, brand analysis, customer journey, E-E-A-T) for approximately $0.20 per run."
   standard: |

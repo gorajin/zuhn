@@ -18,7 +18,8 @@ date_extracted: "2026-03-20"
 last_accessed: null
 access_count: 0
 indexed: true
-embedded: false
+embedded: true
+embedding_model: "nomic-embed-text"
 resolutions:
   one_line: "Use a central skill-rules.json config mapping each skill to keywords, regex intent patterns, file path triggers, and content triggers."
   standard: |

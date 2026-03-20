@@ -17,7 +17,8 @@ date_extracted: "2026-03-20"
 last_accessed: null
 access_count: 0
 indexed: true
-embedded: false
+embedded: true
+embedding_model: "nomic-embed-text"
 resolutions:
   one_line: "New engineers hit the ground running with clear specs defining both what to build and what has already been done."
   standard: |

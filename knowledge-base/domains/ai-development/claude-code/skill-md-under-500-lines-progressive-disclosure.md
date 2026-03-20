@@ -18,7 +18,8 @@ date_extracted: "2026-03-20"
 last_accessed: null
 access_count: 0
 indexed: true
-embedded: false
+embedded: true
+embedding_model: "nomic-embed-text"
 resolutions:
   one_line: "Keep SKILL.md files under 500 lines and use progressive disclosure via resource files for 40-60% token efficiency improvement."
   standard: |

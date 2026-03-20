@@ -17,7 +17,8 @@ date_extracted: "2026-03-20"
 last_accessed: null
 access_count: 0
 indexed: true
-embedded: false
+embedded: true
+embedding_model: "nomic-embed-text"
 resolutions:
   one_line: "Let AI rewrite your prompts in the model's own 'language' for 20-30% quality improvement using the meta-prompt technique."
   standard: |
