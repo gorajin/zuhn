@@ -2,25 +2,40 @@
 id: INS-260320-922A
 domain: ai-development
 topic: llm-training
-title: "Three Legitimate Reasons to Pretrain Your Own LLM"
+title: Three Legitimate Reasons to Pretrain Your Own LLM
 actionability: reference
 confidence: high
 shelf_life: evergreen
 status: active
-tags: [llm, pretraining, decision-framework, huggingface, build-vs-buy]
+tags:
+  - llm
+  - pretraining
+  - decision-framework
+  - huggingface
+  - build-vs-buy
 sources:
   - type: reddit
-    title: "200+ pages of Hugging Face secrets on how to train an LLM"
+    title: 200+ pages of Hugging Face secrets on how to train an LLM
     author: u/unknown
-related: []
-date_extracted: "2026-03-20"
+related:
+  - INS-260320-8F12
+  - INS-260320-5818
+  - INS-260320-C65B
+  - INS-260320-9935
+  - INS-260320-D4BD
+  - INS-260320-A4BF
+  - INS-260320-9118
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "Only pretrain your own LLM for three reasons: advancing research with novel questions, meeting specific production requirements, or filling gaps in the open-source ecosystem."
+  one_line: >-
+    Only pretrain your own LLM for three reasons: advancing research with novel
+    questions, meeting specific production requirements, or filling gaps in the
+    open-source ecosystem.
   standard: |
     The Smol Training Playbook's "Training Compass" section provides a
     decision framework for whether to pretrain your own model. There are

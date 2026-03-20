@@ -2,26 +2,42 @@
 id: INS-260320-C8CC
 domain: ai-development
 topic: tooling
-title: "PM2 provides auto-restart, per-service logs, memory monitoring, and easy management"
+title: >-
+  PM2 provides auto-restart, per-service logs, memory monitoring, and easy
+  management
 actionability: reference
 confidence: high
 shelf_life: evergreen
 status: active
-tags: [PM2, process-management, monitoring, auto-restart]
+tags:
+  - PM2
+  - process-management
+  - monitoring
+  - auto-restart
 sources:
   - type: reddit
-    title: "Claude Code is a Beast – Tips from 6 Months of Hardcore Use"
+    title: Claude Code is a Beast – Tips from 6 Months of Hardcore Use
     author: u/diet103
-    url: "https://reddit.com/r/ClaudeCode"
-related: [INS-260320-4773]
-date_extracted: "2026-03-20"
+    url: 'https://reddit.com/r/ClaudeCode'
+related:
+  - INS-260320-06EF
+  - INS-260320-47DC
+  - INS-260320-2058
+  - INS-260320-4773
+  - INS-260320-69CD
+  - INS-260320-4DE2
+  - INS-260320-7379
+  - INS-260320-26B1
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "PM2 gives you auto-restart on crashes, per-service logs, memory/CPU monitoring, and easy management like `pm2 restart email`."
+  one_line: >-
+    PM2 gives you auto-restart on crashes, per-service logs, memory/CPU
+    monitoring, and easy management like `pm2 restart email`.
   standard: |
     PM2 is a production process manager for Node.js that provides several
     key capabilities for development workflows: auto-restart on crashes

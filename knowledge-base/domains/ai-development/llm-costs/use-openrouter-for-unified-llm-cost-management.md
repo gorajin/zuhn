@@ -2,25 +2,36 @@
 id: INS-260320-2058
 domain: ai-development
 topic: llm-costs
-title: "Use OpenRouter for unified LLM cost management"
+title: Use OpenRouter for unified LLM cost management
 actionability: immediate
 confidence: high
 shelf_life: time-sensitive
 status: active
-tags: [llm-costs, openrouter, cost-management, model-switching]
+tags:
+  - llm-costs
+  - openrouter
+  - cost-management
+  - model-switching
 sources:
   - type: reddit
-    title: "After learning this, my AI workflows cost me 30x less"
+    title: 'After learning this, my AI workflows cost me 30x less'
     author: u/unknown
-related: []
-date_extracted: "2026-03-20"
+related:
+  - INS-260320-C8CC
+  - INS-260320-EF3A
+  - INS-260320-0511
+  - INS-260320-C65B
+  - INS-260320-71C1
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "Use OpenRouter for a unified dashboard, model switching, spending tracking, and hard budget limits across all LLM providers."
+  one_line: >-
+    Use OpenRouter for a unified dashboard, model switching, spending tracking,
+    and hard budget limits across all LLM providers.
   standard: |
     OpenRouter provides a single API endpoint to access models from multiple
     providers (OpenAI, Anthropic, Google, Meta, etc.) with a unified dashboard.

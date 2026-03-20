@@ -2,25 +2,38 @@
 id: INS-260320-92CC
 domain: ai-development
 topic: llm-costs
-title: "Filter inputs aggressively before expensive model calls"
+title: Filter inputs aggressively before expensive model calls
 actionability: immediate
 confidence: high
 shelf_life: evergreen
 status: active
-tags: [llm-costs, input-filtering, preprocessing, cost-reduction]
+tags:
+  - llm-costs
+  - input-filtering
+  - preprocessing
+  - cost-reduction
 sources:
   - type: reddit
-    title: "After learning this, my AI workflows cost me 30x less"
+    title: 'After learning this, my AI workflows cost me 30x less'
     author: u/unknown
-related: []
-date_extracted: "2026-03-20"
+related:
+  - INS-260320-96C9
+  - INS-260320-9937
+  - INS-260320-9FD5
+  - INS-260320-901C
+  - INS-260320-0511
+  - INS-260320-EF3A
+  - INS-260320-7682
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "Filter aggressively before hitting expensive models — filtering by upvotes/comments removes 80% of inputs, saving ~$5/week."
+  one_line: >-
+    Filter aggressively before hitting expensive models — filtering by
+    upvotes/comments removes 80% of inputs, saving ~$5/week.
   standard: |
     Before sending data to expensive LLM calls, apply simple heuristic
     filters to eliminate low-value inputs. For social media data, filtering

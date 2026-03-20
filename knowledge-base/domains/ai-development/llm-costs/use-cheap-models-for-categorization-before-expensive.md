@@ -2,25 +2,40 @@
 id: INS-260320-0511
 domain: ai-development
 topic: llm-costs
-title: "Use cheap models for categorization before expensive ones"
+title: Use cheap models for categorization before expensive ones
 actionability: immediate
 confidence: high
 shelf_life: evergreen
 status: active
-tags: [llm-costs, model-routing, categorization, tiered-processing]
+tags:
+  - llm-costs
+  - model-routing
+  - categorization
+  - tiered-processing
 sources:
   - type: reddit
-    title: "After learning this, my AI workflows cost me 30x less"
+    title: 'After learning this, my AI workflows cost me 30x less'
     author: u/unknown
-related: []
-date_extracted: "2026-03-20"
+related:
+  - INS-260320-96C9
+  - INS-260320-9937
+  - INS-260320-9FD5
+  - INS-260320-92CC
+  - INS-260320-EF3A
+  - INS-260320-6F8E
+  - INS-260320-2058
+  - INS-260320-7682
+  - INS-260320-77C2
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "Use cheap models (gpt-5-nano) for categorization/relevance scoring before expensive models — removes 70-90% of irrelevant inputs."
+  one_line: >-
+    Use cheap models (gpt-5-nano) for categorization/relevance scoring before
+    expensive models — removes 70-90% of irrelevant inputs.
   standard: |
     Implement a tiered model pipeline: use an ultra-cheap model (e.g.,
     gpt-5-nano) as a first pass to categorize and score inputs for relevance.

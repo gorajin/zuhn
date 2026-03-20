@@ -2,26 +2,42 @@
 id: INS-260320-A4BF
 domain: ai-development
 topic: claude-code
-title: "Attach utility scripts to skills instead of letting Claude reinvent them"
+title: Attach utility scripts to skills instead of letting Claude reinvent them
 actionability: immediate
 confidence: high
 shelf_life: evergreen
 status: active
-tags: [skills, utility-scripts, reuse, efficiency]
+tags:
+  - skills
+  - utility-scripts
+  - reuse
+  - efficiency
 sources:
   - type: reddit
-    title: "Claude Code is a Beast – Tips from 6 Months of Hardcore Use"
+    title: Claude Code is a Beast – Tips from 6 Months of Hardcore Use
     author: u/diet103
-    url: "https://reddit.com/r/ClaudeCode"
-related: [INS-260320-2DDE, INS-260320-B210]
-date_extracted: "2026-03-20"
+    url: 'https://reddit.com/r/ClaudeCode'
+related:
+  - INS-260320-9D89
+  - INS-260320-F8FD
+  - INS-260320-DCA0
+  - INS-260320-6F8E
+  - INS-260320-8DBD
+  - INS-260320-1B10
+  - INS-260320-DC3C
+  - INS-260320-922A
+  - INS-260320-4A82
+  - INS-260320-4BA8
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "Attach ready-to-use utility scripts to skills so Claude references proven tools instead of reinventing test scripts from scratch."
+  one_line: >-
+    Attach ready-to-use utility scripts to skills so Claude references proven
+    tools instead of reinventing test scripts from scratch.
   standard: |
     When a skill involves running tests, data migrations, or other scripted
     operations, attach the actual utility scripts as resources. Instead of

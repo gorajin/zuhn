@@ -2,25 +2,39 @@
 id: INS-260320-105E
 domain: video-production
 topic: sound-design
-title: "Sound Design Process Temp Music Then SFX Then Treatment"
+title: Sound Design Process Temp Music Then SFX Then Treatment
 actionability: immediate
 confidence: medium
 shelf_life: evergreen
 status: active
-tags: [sound-design, workflow, video-production, sfx, music, process]
+tags:
+  - sound-design
+  - workflow
+  - video-production
+  - sfx
+  - music
+  - process
 sources:
   - type: reddit
-    title: "Sound Design Breakdown [and tutorial]"
+    title: 'Sound Design Breakdown [and tutorial]'
     author: u/unknown
-related: []
-date_extracted: "2026-03-20"
+related:
+  - INS-260320-77C2
+  - INS-260320-D44B
+  - INS-260320-232D
+  - INS-260320-10E8
+  - INS-260320-CDE4
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "The sound design workflow for video follows three steps: lay down temp music/score first, add creative SFX and foley second, then apply final audio treatment and mixing."
+  one_line: >-
+    The sound design workflow for video follows three steps: lay down temp
+    music/score first, add creative SFX and foley second, then apply final audio
+    treatment and mixing.
   standard: |
     The recommended sound design process for video production follows a
     specific order: (1) Start with temp music or score to establish the

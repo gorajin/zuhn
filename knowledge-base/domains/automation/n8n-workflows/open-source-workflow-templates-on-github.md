@@ -2,25 +2,43 @@
 id: INS-260320-0063
 domain: automation
 topic: n8n-workflows
-title: "Open Source n8n Workflow Templates on GitHub"
+title: Open Source n8n Workflow Templates on GitHub
 actionability: immediate
 confidence: high
 shelf_life: evergreen
 status: active
-tags: [n8n, open-source, github, templates, workflow-sharing]
+tags:
+  - n8n
+  - open-source
+  - github
+  - templates
+  - workflow-sharing
 sources:
   - type: reddit
-    title: "This n8n workflow scrapes any business URL and writes a full analysis report for ~$0.20"
+    title: >-
+      This n8n workflow scrapes any business URL and writes a full analysis
+      report for ~$0.20
     author: u/AgriciDaniel
-related: []
-date_extracted: "2026-03-20"
+related:
+  - INS-260320-E6DD
+  - INS-260320-C65B
+  - INS-260320-D58E
+  - INS-260320-C9B1
+  - INS-260320-CEBE
+  - INS-260320-6845
+  - INS-260320-336E
+  - INS-260320-CDE4
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "n8n workflows can be exported as JSON and shared on GitHub with Google Doc templates -- the business analysis workflow repo has 98 stars and is MIT licensed."
+  one_line: >-
+    n8n workflows can be exported as JSON and shared on GitHub with Google Doc
+    templates -- the business analysis workflow repo has 98 stars and is MIT
+    licensed.
   standard: |
     The business analysis workflow is fully open source on GitHub
     (github.com/AgriciDaniel/automated-business-analysis-workflow, MIT

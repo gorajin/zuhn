@@ -2,25 +2,39 @@
 id: INS-260320-9FD5
 domain: ai-development
 topic: llm-costs
-title: "Batch inputs to amortize system prompt token costs"
+title: Batch inputs to amortize system prompt token costs
 actionability: immediate
 confidence: high
 shelf_life: evergreen
 status: active
-tags: [llm-costs, batching, token-optimization, system-prompts]
+tags:
+  - llm-costs
+  - batching
+  - token-optimization
+  - system-prompts
 sources:
   - type: reddit
-    title: "After learning this, my AI workflows cost me 30x less"
+    title: 'After learning this, my AI workflows cost me 30x less'
     author: u/unknown
-related: []
-date_extracted: "2026-03-20"
+related:
+  - INS-260320-CE36
+  - INS-260320-B210
+  - INS-260320-9937
+  - INS-260320-92CC
+  - INS-260320-0511
+  - INS-260320-901C
+  - INS-260320-EF3A
+  - INS-260320-5818
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "Batch inputs to amortize system prompt costs — 100 separate calls with a 500-token system prompt = 50,000 wasted tokens. 1 batched call = 500 tokens."
+  one_line: >-
+    Batch inputs to amortize system prompt costs — 100 separate calls with a
+    500-token system prompt = 50,000 wasted tokens. 1 batched call = 500 tokens.
   standard: |
     Every API call includes the full system prompt in the token count. With
     100 separate calls each carrying a 500-token system prompt, you waste

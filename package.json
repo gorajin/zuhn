@@ -14,7 +14,8 @@
     "post-ingest": "tsx scripts/post-ingest.ts",
     "mindmap": "tsx scripts/mindmap.ts",
     "search": "tsx scripts/search.ts",
-    "embed": "tsx scripts/embed.ts"
+    "embed": "tsx scripts/embed.ts",
+    "learn": "tsx scripts/learn.ts"
   },
   "keywords": [],
   "author": "",

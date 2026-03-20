@@ -2,26 +2,41 @@
 id: INS-260320-8F12
 domain: ai-development
 topic: claude-code
-title: "Start with planning mode then use /dev-docs to generate the three dev doc files"
+title: >-
+  Start with planning mode then use /dev-docs to generate the three dev doc
+  files
 actionability: immediate
 confidence: high
 shelf_life: evergreen
 status: active
-tags: [dev-docs, planning, workflow, slash-commands]
+tags:
+  - dev-docs
+  - planning
+  - workflow
+  - slash-commands
 sources:
   - type: reddit
-    title: "Claude Code is a Beast – Tips from 6 Months of Hardcore Use"
+    title: Claude Code is a Beast – Tips from 6 Months of Hardcore Use
     author: u/diet103
-    url: "https://reddit.com/r/ClaudeCode"
-related: [INS-260320-04A2, INS-260320-93E1]
-date_extracted: "2026-03-20"
+    url: 'https://reddit.com/r/ClaudeCode'
+related:
+  - INS-260320-93E1
+  - INS-260320-06EF
+  - INS-260320-04A2
+  - INS-260320-0127
+  - INS-260320-EA19
+  - INS-260320-922A
+  - INS-260320-6CCE
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "Start with planning mode to create the plan, review it, then run /dev-docs to generate the three dev doc files."
+  one_line: >-
+    Start with planning mode to create the plan, review it, then run /dev-docs
+    to generate the three dev doc files.
   standard: |
     The optimal workflow is: first enter planning mode and have Claude create
     a thorough plan. Review the plan carefully and iterate on it until it

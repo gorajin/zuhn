@@ -2,25 +2,39 @@
 id: INS-260320-10E8
 domain: video-production
 topic: audio-sync
-title: "Always Clap at Start for Waveform Alignment"
+title: Always Clap at Start for Waveform Alignment
 actionability: immediate
 confidence: high
 shelf_life: evergreen
 status: active
-tags: [audio-sync, video-editing, clapboard, waveform, alignment, recording]
+tags:
+  - audio-sync
+  - video-editing
+  - clapboard
+  - waveform
+  - alignment
+  - recording
 sources:
   - type: reddit
-    title: "[Tutorial] All there is to know about syncing video and audio"
+    title: '[Tutorial] All there is to know about syncing video and audio'
     author: u/unknown
-related: []
-date_extracted: "2026-03-20"
+related:
+  - INS-260320-77C2
+  - INS-260320-D44B
+  - INS-260320-105E
+  - INS-260320-232D
+  - INS-260320-69CD
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "Always clap once or use a clapboard at the start of each take -- the sharp transient creates a visible spike in both audio waveforms, making manual sync alignment trivial."
+  one_line: >-
+    Always clap once or use a clapboard at the start of each take -- the sharp
+    transient creates a visible spike in both audio waveforms, making manual
+    sync alignment trivial.
   standard: |
     When recording video and audio separately (external microphone, field
     recorder), always create a sync point at the start of each take by

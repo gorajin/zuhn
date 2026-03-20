@@ -2,25 +2,37 @@
 id: INS-260320-E6DD
 domain: ai-development
 topic: context-management
-title: "Structure cross-instance knowledge as relational data not text blobs"
+title: Structure cross-instance knowledge as relational data not text blobs
 actionability: immediate
 confidence: medium
 shelf_life: evergreen
 status: active
-tags: [context-management, knowledge-base, relational-data, multi-instance]
+tags:
+  - context-management
+  - knowledge-base
+  - relational-data
+  - multi-instance
 sources:
   - type: reddit
-    title: "Gave all my Claudes a shared brain"
+    title: Gave all my Claudes a shared brain
     author: u/unknown
-related: []
-date_extracted: "2026-03-20"
+related:
+  - INS-260320-5B49
+  - INS-260320-6F8E
+  - INS-260320-7914
+  - INS-260320-0063
+  - INS-260320-8DBD
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "Structure knowledge as a relational database (entities + relationships), not text blobs. Every Claude instance reads/writes the same structured knowledge base."
+  one_line: >-
+    Structure knowledge as a relational database (entities + relationships), not
+    text blobs. Every Claude instance reads/writes the same structured knowledge
+    base.
   standard: |
     For cross-instance context sharing (Claude Code, Web, Mobile), structure
     your knowledge base as relational data with explicit entities and

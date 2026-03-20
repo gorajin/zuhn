@@ -97,7 +97,20 @@ async function main(): Promise<void> {
     console.warn("\nEmbed step failed (non-fatal) — FTS5-only mode active.");
   }
 
-  // Step 4: Auto-git
+  // Step 4: Learn (auto-connections, emergence detection, confidence propagation)
+  const learnResult = runStep("Learn", [
+    "npx", "tsx", join(PROJECT_ROOT, "scripts", "learn.ts"),
+  ]);
+
+  if (learnResult.ok) {
+    results.push({ step: "learn", status: "OK" });
+  } else {
+    // Learning failure is non-fatal: insights remain usable without connections
+    results.push({ step: "learn", status: "SKIPPED" });
+    console.warn("\nLearn step failed (non-fatal) — connections and flags not updated.");
+  }
+
+  // Step 5: Auto-git
   let gitStatus = "SKIPPED";
   console.log("\n>> Auto-git");
   try {

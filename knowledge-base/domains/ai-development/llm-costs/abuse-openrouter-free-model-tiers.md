@@ -2,25 +2,36 @@
 id: INS-260320-9937
 domain: ai-development
 topic: llm-costs
-title: "Abuse OpenRouter free model tiers for development"
+title: Abuse OpenRouter free model tiers for development
 actionability: immediate
 confidence: medium
 shelf_life: time-sensitive
 status: active
-tags: [llm-costs, openrouter, free-tier, development]
+tags:
+  - llm-costs
+  - openrouter
+  - free-tier
+  - development
 sources:
   - type: reddit
-    title: "After learning this, my AI workflows cost me 30x less"
+    title: 'After learning this, my AI workflows cost me 30x less'
     author: u/unknown
-related: []
-date_extracted: "2026-03-20"
+related:
+  - INS-260320-92CC
+  - INS-260320-9FD5
+  - INS-260320-0511
+  - INS-260320-71C1
+  - INS-260320-41E3
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "OpenRouter offers 50-1000 free requests/day on certain models — not trial credits, actually free forever."
+  one_line: >-
+    OpenRouter offers 50-1000 free requests/day on certain models — not trial
+    credits, actually free forever.
   standard: |
     OpenRouter provides permanently free tiers on select models with 50-1000
     requests per day. These are not trial credits that expire — they are

@@ -2,26 +2,37 @@
 id: INS-260320-0D43
 domain: ai-development
 topic: claude-code
-title: "File Edit Tracker via PostToolUse hook logs edits with repo and timestamps"
+title: File Edit Tracker via PostToolUse hook logs edits with repo and timestamps
 actionability: immediate
 confidence: high
 shelf_life: evergreen
 status: active
-tags: [hooks, PostToolUse, file-tracking, logging]
+tags:
+  - hooks
+  - PostToolUse
+  - file-tracking
+  - logging
 sources:
   - type: reddit
-    title: "Claude Code is a Beast – Tips from 6 Months of Hardcore Use"
+    title: Claude Code is a Beast – Tips from 6 Months of Hardcore Use
     author: u/diet103
-    url: "https://reddit.com/r/ClaudeCode"
-related: [INS-260320-4DE2, INS-260320-4ED6]
-date_extracted: "2026-03-20"
+    url: 'https://reddit.com/r/ClaudeCode'
+related:
+  - INS-260320-4DE2
+  - INS-260320-7379
+  - INS-260320-69CD
+  - INS-260320-4ED6
+  - INS-260320-DCA0
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "A PostToolUse hook tracks which files were edited, which repo they belong to, and timestamps — feeding downstream hooks like the build checker."
+  one_line: >-
+    A PostToolUse hook tracks which files were edited, which repo they belong
+    to, and timestamps — feeding downstream hooks like the build checker.
   standard: |
     The File Edit Tracker is a PostToolUse hook that fires after every tool
     invocation. It logs which files were edited, which repository they belong

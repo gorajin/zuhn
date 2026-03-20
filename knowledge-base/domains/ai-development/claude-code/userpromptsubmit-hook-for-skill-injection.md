@@ -2,26 +2,44 @@
 id: INS-260320-DCA0
 domain: ai-development
 topic: claude-code
-title: "Use UserPromptSubmit hook to inject skill reminders before Claude reads the message"
+title: >-
+  Use UserPromptSubmit hook to inject skill reminders before Claude reads the
+  message
 actionability: immediate
 confidence: high
 shelf_life: evergreen
 status: active
-tags: [hooks, UserPromptSubmit, skills, context-injection]
+tags:
+  - hooks
+  - UserPromptSubmit
+  - skills
+  - context-injection
 sources:
   - type: reddit
-    title: "Claude Code is a Beast – Tips from 6 Months of Hardcore Use"
+    title: Claude Code is a Beast – Tips from 6 Months of Hardcore Use
     author: u/diet103
-    url: "https://reddit.com/r/ClaudeCode"
-related: [INS-260320-F8FD, INS-260320-8DBD]
-date_extracted: "2026-03-20"
+    url: 'https://reddit.com/r/ClaudeCode'
+related:
+  - INS-260320-A4BF
+  - INS-260320-4DE2
+  - INS-260320-8DBD
+  - INS-260320-CE36
+  - INS-260320-508F
+  - INS-260320-7379
+  - INS-260320-0D43
+  - INS-260320-4ED6
+  - INS-260320-F8FD
+  - INS-260320-4993
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "A UserPromptSubmit hook analyzes the prompt for keywords and intent, then injects skill reminders into context BEFORE Claude reads it."
+  one_line: >-
+    A UserPromptSubmit hook analyzes the prompt for keywords and intent, then
+    injects skill reminders into context BEFORE Claude reads it.
   standard: |
     The UserPromptSubmit hook fires before Claude processes a user message. It
     analyzes the incoming prompt for keywords and intent patterns, then injects

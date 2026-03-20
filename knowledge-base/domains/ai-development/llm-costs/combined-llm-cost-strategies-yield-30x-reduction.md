@@ -2,32 +2,36 @@
 id: INS-260320-901C
 domain: ai-development
 topic: llm-costs
-title: "Combined LLM cost strategies yield 30x reduction"
+title: Combined LLM cost strategies yield 30x reduction
 actionability: reference
 confidence: high
 shelf_life: evergreen
 status: active
-tags: [llm-costs, cost-reduction, production-systems, strategy]
+tags:
+  - llm-costs
+  - cost-reduction
+  - production-systems
+  - strategy
 sources:
   - type: reddit
-    title: "After learning this, my AI workflows cost me 30x less"
+    title: 'After learning this, my AI workflows cost me 30x less'
     author: u/unknown
 related:
-  - INS-260320-EF3A
-  - INS-260320-2058
-  - INS-260320-D972
-  - INS-260320-9937
+  - INS-260320-5818
   - INS-260320-92CC
-  - INS-260320-0511
+  - INS-260320-C9B1
   - INS-260320-9FD5
-date_extracted: "2026-03-20"
+  - INS-260320-EF3A
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "Six strategies combined took production systems from $300+/month to ~$10/month while processing 10x more data."
+  one_line: >-
+    Six strategies combined took production systems from $300+/month to
+    ~$10/month while processing 10x more data.
   standard: |
     The six LLM cost strategies — cheaper model testing, OpenRouter management,
     AI-rewritten prompts, free tier usage, input filtering, cheap model

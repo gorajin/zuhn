@@ -2,26 +2,36 @@
 id: INS-260320-E872
 domain: ai-development
 topic: claude-code
-title: "Be as specific as possible about desired results in prompts"
+title: Be as specific as possible about desired results in prompts
 actionability: immediate
 confidence: high
 shelf_life: evergreen
 status: active
-tags: [prompting, specificity, best-practices]
+tags:
+  - prompting
+  - specificity
+  - best-practices
 sources:
   - type: reddit
-    title: "Claude Code is a Beast – Tips from 6 Months of Hardcore Use"
+    title: Claude Code is a Beast – Tips from 6 Months of Hardcore Use
     author: u/diet103
-    url: "https://reddit.com/r/ClaudeCode"
-related: [INS-260320-93E1, INS-260320-4993]
-date_extracted: "2026-03-20"
+    url: 'https://reddit.com/r/ClaudeCode'
+related:
+  - INS-260320-4993
+  - INS-260320-508F
+  - INS-260320-CDE4
+  - INS-260320-DC3C
+  - INS-260320-9D89
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "Be as specific as possible about desired results — vague prompts produce vague implementations."
+  one_line: >-
+    Be as specific as possible about desired results — vague prompts produce
+    vague implementations.
   standard: |
     Specificity in prompts directly correlates with output quality. Instead
     of saying "add error handling," say "add try-catch blocks to all database

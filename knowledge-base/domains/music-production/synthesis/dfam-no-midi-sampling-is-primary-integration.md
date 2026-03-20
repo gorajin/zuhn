@@ -2,25 +2,44 @@
 id: INS-260320-CDE4
 domain: music-production
 topic: synthesis
-title: "DFAM Has No MIDI So Sampling Is Primary Integration"
+title: DFAM Has No MIDI So Sampling Is Primary Integration
 actionability: reference
 confidence: high
 shelf_life: evergreen
 status: active
-tags: [dfam, moog, midi, sampling, integration, cv, hardware-limitations]
+tags:
+  - dfam
+  - moog
+  - midi
+  - sampling
+  - integration
+  - cv
+  - hardware-limitations
 sources:
   - type: reddit
-    title: "Dark techno using only sounds from Moog DFAM, sampled into Digitakt"
+    title: 'Dark techno using only sounds from Moog DFAM, sampled into Digitakt'
     author: u/unknown
-related: []
-date_extracted: "2026-03-20"
+related:
+  - INS-260320-93E1
+  - INS-260320-E872
+  - INS-260320-6F8E
+  - INS-260320-77C2
+  - INS-260320-232D
+  - INS-260320-0063
+  - INS-260320-A4BF
+  - INS-260320-D44B
+  - INS-260320-105E
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "The Moog DFAM has no MIDI implementation -- sampling its output into a MIDI-capable device is the primary way to integrate it into a broader production setup."
+  one_line: >-
+    The Moog DFAM has no MIDI implementation -- sampling its output into a
+    MIDI-capable device is the primary way to integrate it into a broader
+    production setup.
   standard: |
     The Moog DFAM (Drummer From Another Mother) is an analog percussion
     synthesizer with an 8-step sequencer but zero MIDI capability. This

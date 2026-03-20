@@ -2,25 +2,39 @@
 id: INS-260320-232D
 domain: video-production
 topic: audio-sync
-title: "Match Sample Rates 48kHz Standard for Video"
+title: Match Sample Rates 48kHz Standard for Video
 actionability: immediate
 confidence: high
 shelf_life: evergreen
 status: active
-tags: [audio-sync, sample-rate, 48khz, video-editing, recording-settings]
+tags:
+  - audio-sync
+  - sample-rate
+  - 48khz
+  - video-editing
+  - recording-settings
 sources:
   - type: reddit
-    title: "[Tutorial] All there is to know about syncing video and audio"
+    title: '[Tutorial] All there is to know about syncing video and audio'
     author: u/unknown
-related: []
-date_extracted: "2026-03-20"
+related:
+  - INS-260320-CDE4
+  - INS-260320-77C2
+  - INS-260320-D44B
+  - INS-260320-105E
+  - INS-260320-10E8
+  - INS-260320-9118
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "Set all audio devices to 48kHz when recording for video -- mismatched sample rates between camera and external recorder cause drift that worsens over longer recordings."
+  one_line: >-
+    Set all audio devices to 48kHz when recording for video -- mismatched sample
+    rates between camera and external recorder cause drift that worsens over
+    longer recordings.
   standard: |
     The standard sample rate for video production audio is 48kHz (not
     44.1kHz, which is the CD/music standard). All recording devices --

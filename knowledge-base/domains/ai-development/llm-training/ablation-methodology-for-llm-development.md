@@ -2,25 +2,39 @@
 id: INS-260320-7682
 domain: ai-development
 topic: llm-training
-title: "Ablation Methodology for LLM Development"
+title: Ablation Methodology for LLM Development
 actionability: reference
 confidence: high
 shelf_life: evergreen
 status: active
-tags: [llm, ablation, methodology, experimentation, huggingface, training-frameworks]
+tags:
+  - llm
+  - ablation
+  - methodology
+  - experimentation
+  - huggingface
+  - training-frameworks
 sources:
   - type: reddit
-    title: "200+ pages of Hugging Face secrets on how to train an LLM"
+    title: 200+ pages of Hugging Face secrets on how to train an LLM
     author: u/unknown
-related: []
-date_extracted: "2026-03-20"
+related:
+  - INS-260320-5818
+  - INS-260320-7B4B
+  - INS-260320-0511
+  - INS-260320-EF3A
+  - INS-260320-92CC
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "Run systematic ablation experiments on architecture, data mixtures, and hyperparameters at small scale before committing to a full training run -- this consumes ~37% of total compute but prevents costly mistakes."
+  one_line: >-
+    Run systematic ablation experiments on architecture, data mixtures, and
+    hyperparameters at small scale before committing to a full training run --
+    this consumes ~37% of total compute but prevents costly mistakes.
   standard: |
     The Smol Training Playbook details a rigorous ablation methodology:
     before committing to a full-scale training run, conduct systematic

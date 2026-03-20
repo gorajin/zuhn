@@ -2,25 +2,41 @@
 id: INS-260320-D3D5
 domain: automation
 topic: n8n-workflows
-title: "Batch Processing with Rate Limit Management in n8n"
+title: Batch Processing with Rate Limit Management in n8n
 actionability: immediate
 confidence: high
 shelf_life: evergreen
 status: active
-tags: [n8n, batch-processing, rate-limits, api, workflow-patterns]
+tags:
+  - n8n
+  - batch-processing
+  - rate-limits
+  - api
+  - workflow-patterns
 sources:
   - type: reddit
-    title: "I built a workflow that turns YouTube transcripts into newsletter style summaries"
+    title: >-
+      I built a workflow that turns YouTube transcripts into newsletter style
+      summaries
     author: u/unknown
-related: []
-date_extracted: "2026-03-20"
+related:
+  - INS-260320-76D2
+  - INS-260320-D58E
+  - INS-260320-CEBE
+  - INS-260320-6845
+  - INS-260320-C9B1
+  - INS-260320-336E
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "Process items sequentially in n8n batch loops to respect API rate limits -- pull from a queue (e.g., Google Sheets rows), process one at a time, and skip already-completed items."
+  one_line: >-
+    Process items sequentially in n8n batch loops to respect API rate limits --
+    pull from a queue (e.g., Google Sheets rows), process one at a time, and
+    skip already-completed items.
   standard: |
     When building n8n workflows that call external APIs (transcript
     extraction, LLM processing), use a batch processing loop that handles

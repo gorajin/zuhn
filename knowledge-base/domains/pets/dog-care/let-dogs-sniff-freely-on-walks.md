@@ -2,25 +2,38 @@
 id: INS-260320-9118
 domain: pets
 topic: dog-care
-title: "Let Dogs Sniff Freely on Walks for Mental Stimulation"
+title: Let Dogs Sniff Freely on Walks for Mental Stimulation
 actionability: immediate
 confidence: high
 shelf_life: evergreen
 status: active
-tags: [dogs, walks, sniffing, mental-stimulation, enrichment]
+tags:
+  - dogs
+  - walks
+  - sniffing
+  - mental-stimulation
+  - enrichment
 sources:
   - type: reddit
-    title: "What is one thing that you do to keep your dog happy?"
+    title: What is one thing that you do to keep your dog happy?
     author: u/unknown
-related: []
-date_extracted: "2026-03-20"
+related:
+  - INS-260320-8B06
+  - INS-260320-922A
+  - INS-260320-232D
+  - INS-260320-26B1
+  - INS-260320-4993
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "Allow dogs to sniff freely during walks -- scent exploration is their primary way of processing the world and provides more mental stimulation than the physical exercise of the walk itself."
+  one_line: >-
+    Allow dogs to sniff freely during walks -- scent exploration is their
+    primary way of processing the world and provides more mental stimulation
+    than the physical exercise of the walk itself.
   standard: |
     One of the most consistently cited ways to keep dogs happy is letting
     them sniff freely during walks rather than rushing through a route.

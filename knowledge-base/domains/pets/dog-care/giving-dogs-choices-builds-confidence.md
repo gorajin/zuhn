@@ -2,25 +2,39 @@
 id: INS-260320-8B06
 domain: pets
 topic: dog-care
-title: "Giving Dogs Choices Builds Confidence and Happiness"
+title: Giving Dogs Choices Builds Confidence and Happiness
 actionability: immediate
 confidence: medium
 shelf_life: evergreen
 status: active
-tags: [dogs, choices, confidence, enrichment, behavior, autonomy]
+tags:
+  - dogs
+  - choices
+  - confidence
+  - enrichment
+  - behavior
+  - autonomy
 sources:
   - type: reddit
-    title: "What is one thing that you do to keep your dog happy?"
+    title: What is one thing that you do to keep your dog happy?
     author: u/unknown
-related: []
-date_extracted: "2026-03-20"
+related:
+  - INS-260320-9118
+  - INS-260320-8DBD
+  - INS-260320-4993
+  - INS-260320-7379
+  - INS-260320-F8FD
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "Letting dogs make small choices -- which toy to play with, which direction to walk, whether to engage or rest -- builds confidence and reduces anxiety-driven behaviors."
+  one_line: >-
+    Letting dogs make small choices -- which toy to play with, which direction
+    to walk, whether to engage or rest -- builds confidence and reduces
+    anxiety-driven behaviors.
   standard: |
     Giving dogs agency through small choices throughout the day is a
     consistently recommended enrichment strategy. Examples include: letting

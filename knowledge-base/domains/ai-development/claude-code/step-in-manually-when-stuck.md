@@ -2,26 +2,39 @@
 id: INS-260320-47DC
 domain: ai-development
 topic: claude-code
-title: "Step in manually if Claude struggles more than 30 minutes on something you could fix in 2 minutes"
+title: >-
+  Step in manually if Claude struggles more than 30 minutes on something you
+  could fix in 2 minutes
 actionability: immediate
 confidence: high
 shelf_life: evergreen
 status: active
-tags: [workflow, efficiency, human-intervention, time-management]
+tags:
+  - workflow
+  - efficiency
+  - human-intervention
+  - time-management
 sources:
   - type: reddit
-    title: "Claude Code is a Beast – Tips from 6 Months of Hardcore Use"
+    title: Claude Code is a Beast – Tips from 6 Months of Hardcore Use
     author: u/diet103
-    url: "https://reddit.com/r/ClaudeCode"
-related: []
-date_extracted: "2026-03-20"
+    url: 'https://reddit.com/r/ClaudeCode'
+related:
+  - INS-260320-6CCE
+  - INS-260320-F8FD
+  - INS-260320-4DE2
+  - INS-260320-9D89
+  - INS-260320-C8CC
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "If Claude struggles more than 30 minutes on something you could fix in 2 minutes, just step in and do it yourself."
+  one_line: >-
+    If Claude struggles more than 30 minutes on something you could fix in 2
+    minutes, just step in and do it yourself.
   standard: |
     Not every task is best suited for Claude. When Claude gets stuck in a
     loop — repeatedly trying and failing to fix something, generating

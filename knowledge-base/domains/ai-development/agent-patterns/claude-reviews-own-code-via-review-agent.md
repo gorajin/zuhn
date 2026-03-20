@@ -2,26 +2,42 @@
 id: INS-260320-1B10
 domain: ai-development
 topic: agent-patterns
-title: "Have Claude review its own code via a specialized review agent"
+title: Have Claude review its own code via a specialized review agent
 actionability: immediate
 confidence: high
 shelf_life: evergreen
 status: active
-tags: [agents, code-review, self-review, quality-assurance, security]
+tags:
+  - agents
+  - code-review
+  - self-review
+  - quality-assurance
+  - security
 sources:
   - type: reddit
-    title: "Claude Code is a Beast – Tips from 6 Months of Hardcore Use"
+    title: Claude Code is a Beast – Tips from 6 Months of Hardcore Use
     author: u/diet103
-    url: "https://reddit.com/r/ClaudeCode"
-related: [INS-260320-9D89, INS-260320-4DE2]
-date_extracted: "2026-03-20"
+    url: 'https://reddit.com/r/ClaudeCode'
+related:
+  - INS-260320-4DE2
+  - INS-260320-6CCE
+  - INS-260320-69CD
+  - INS-260320-9D89
+  - INS-260320-7379
+  - INS-260320-A4BF
+  - INS-260320-DDFE
+  - INS-260320-F872
+  - INS-260320-4A82
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "Have Claude review its own code via a specialized review agent — catches critical errors, missing implementations, and security flaws."
+  one_line: >-
+    Have Claude review its own code via a specialized review agent — catches
+    critical errors, missing implementations, and security flaws.
   standard: |
     Create a specialized code review agent that reviews Claude's own output.
     This agent should have a focused role: examine recently written code for

@@ -2,26 +2,37 @@
 id: INS-260320-06EF
 domain: ai-development
 topic: claude-code
-title: "Dev docs survive auto-compaction so you can continue in new sessions"
+title: Dev docs survive auto-compaction so you can continue in new sessions
 actionability: immediate
 confidence: high
 shelf_life: evergreen
 status: active
-tags: [dev-docs, compaction, session-continuity, persistence]
+tags:
+  - dev-docs
+  - compaction
+  - session-continuity
+  - persistence
 sources:
   - type: reddit
-    title: "Claude Code is a Beast – Tips from 6 Months of Hardcore Use"
+    title: Claude Code is a Beast – Tips from 6 Months of Hardcore Use
     author: u/diet103
-    url: "https://reddit.com/r/ClaudeCode"
-related: [INS-260320-04A2, INS-260320-0127]
-date_extracted: "2026-03-20"
+    url: 'https://reddit.com/r/ClaudeCode'
+related:
+  - INS-260320-0127
+  - INS-260320-04A2
+  - INS-260320-EA19
+  - INS-260320-C8CC
+  - INS-260320-8F12
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "Dev docs persist on disk and survive auto-compaction — just say 'continue' in a new session to pick up where you left off."
+  one_line: >-
+    Dev docs persist on disk and survive auto-compaction — just say 'continue'
+    in a new session to pick up where you left off.
   standard: |
     Because dev docs (plan.md, context.md, tasks.md) are written to disk,
     they survive both auto-compaction and session boundaries. When starting

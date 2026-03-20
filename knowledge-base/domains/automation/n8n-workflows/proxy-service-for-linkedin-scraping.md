@@ -2,25 +2,37 @@
 id: INS-260320-B8B0
 domain: automation
 topic: n8n-workflows
-title: "Use proxy services for LinkedIn scraping to avoid bans"
+title: Use proxy services for LinkedIn scraping to avoid bans
 actionability: immediate
 confidence: medium
 shelf_life: time-sensitive
 status: active
-tags: [n8n, linkedin, scraping, proxy, lead-generation]
+tags:
+  - n8n
+  - linkedin
+  - scraping
+  - proxy
+  - lead-generation
 sources:
   - type: reddit
-    title: "I built an n8n workflow that scrapes unlimited LinkedIn leads"
+    title: I built an n8n workflow that scrapes unlimited LinkedIn leads
     author: u/unknown
-related: []
-date_extracted: "2026-03-20"
+related:
+  - INS-260320-DDFE
+  - INS-260320-6A9D
+  - INS-260320-71C1
+  - INS-260320-7379
+  - INS-260320-D58E
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "Use Linkfinder AI as a proxy for LinkedIn scraping — no direct LinkedIn API connection means zero ban risk for your personal account."
+  one_line: >-
+    Use Linkfinder AI as a proxy for LinkedIn scraping — no direct LinkedIn API
+    connection means zero ban risk for your personal account.
   standard: |
     Instead of connecting directly to LinkedIn's API or scraping LinkedIn
     directly (which risks account bans), use a proxy service like Linkfinder

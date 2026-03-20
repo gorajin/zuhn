@@ -2,26 +2,40 @@
 id: INS-260320-4773
 domain: ai-development
 topic: tooling
-title: "Run backend microservices via PM2 so Claude can read individual service logs in real-time"
+title: >-
+  Run backend microservices via PM2 so Claude can read individual service logs
+  in real-time
 actionability: immediate
 confidence: high
 shelf_life: evergreen
 status: active
-tags: [PM2, microservices, debugging, logs, backend]
+tags:
+  - PM2
+  - microservices
+  - debugging
+  - logs
+  - backend
 sources:
   - type: reddit
-    title: "Claude Code is a Beast – Tips from 6 Months of Hardcore Use"
+    title: Claude Code is a Beast – Tips from 6 Months of Hardcore Use
     author: u/diet103
-    url: "https://reddit.com/r/ClaudeCode"
-related: [INS-260320-C8CC]
-date_extracted: "2026-03-20"
+    url: 'https://reddit.com/r/ClaudeCode'
+related:
+  - INS-260320-C8CC
+  - INS-260320-4DE2
+  - INS-260320-71C1
+  - INS-260320-6845
+  - INS-260320-CEBE
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "Run all backend microservices via PM2 so Claude can read individual service logs in real-time without manual copy-pasting."
+  one_line: >-
+    Run all backend microservices via PM2 so Claude can read individual service
+    logs in real-time without manual copy-pasting.
   standard: |
     Instead of running microservices manually in terminal tabs, use PM2 to
     manage all backend services. This gives Claude direct access to individual

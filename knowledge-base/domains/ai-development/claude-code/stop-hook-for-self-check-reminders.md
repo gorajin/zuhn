@@ -2,26 +2,42 @@
 id: INS-260320-69CD
 domain: ai-development
 topic: claude-code
-title: "Use Stop event hook to show self-check reminders after file edits"
+title: Use Stop event hook to show self-check reminders after file edits
 actionability: immediate
 confidence: high
 shelf_life: evergreen
 status: active
-tags: [hooks, Stop-event, self-check, error-handling]
+tags:
+  - hooks
+  - Stop-event
+  - self-check
+  - error-handling
 sources:
   - type: reddit
-    title: "Claude Code is a Beast – Tips from 6 Months of Hardcore Use"
+    title: Claude Code is a Beast – Tips from 6 Months of Hardcore Use
     author: u/diet103
-    url: "https://reddit.com/r/ClaudeCode"
-related: [INS-260320-7379, INS-260320-4ED6]
-date_extracted: "2026-03-20"
+    url: 'https://reddit.com/r/ClaudeCode'
+related:
+  - INS-260320-1B10
+  - INS-260320-4DE2
+  - INS-260320-CE36
+  - INS-260320-7379
+  - INS-260320-0D43
+  - INS-260320-4ED6
+  - INS-260320-DCA0
+  - INS-260320-C8CC
+  - INS-260320-6A9D
+  - INS-260320-10E8
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "A Stop event hook analyzes edited files after Claude responds and shows gentle self-check reminders for error handling."
+  one_line: >-
+    A Stop event hook analyzes edited files after Claude responds and shows
+    gentle self-check reminders for error handling.
   standard: |
     After Claude finishes responding and editing files, a Stop event hook
     analyzes the changed files for potential issues. It looks for risky

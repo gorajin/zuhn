@@ -2,26 +2,39 @@
 id: INS-260320-9D89
 domain: ai-development
 topic: agent-patterns
-title: "Give agents specific roles and clear instructions on what to return"
+title: Give agents specific roles and clear instructions on what to return
 actionability: immediate
 confidence: high
 shelf_life: evergreen
 status: active
-tags: [agents, roles, instructions, output-format]
+tags:
+  - agents
+  - roles
+  - instructions
+  - output-format
 sources:
   - type: reddit
-    title: "Claude Code is a Beast – Tips from 6 Months of Hardcore Use"
+    title: Claude Code is a Beast – Tips from 6 Months of Hardcore Use
     author: u/diet103
-    url: "https://reddit.com/r/ClaudeCode"
-related: [INS-260320-1B10, INS-260320-DC3C]
-date_extracted: "2026-03-20"
+    url: 'https://reddit.com/r/ClaudeCode'
+related:
+  - INS-260320-1B10
+  - INS-260320-7914
+  - INS-260320-4DE2
+  - INS-260320-A4BF
+  - INS-260320-336E
+  - INS-260320-E872
+  - INS-260320-47DC
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "Give agents very specific roles and clear instructions on what to RETURN — prevents 'I fixed it!' without details."
+  one_line: >-
+    Give agents very specific roles and clear instructions on what to RETURN —
+    prevents 'I fixed it!' without details.
   standard: |
     When creating specialized agents (code review, error resolver, etc.),
     define their role narrowly and explicitly specify what they must return.

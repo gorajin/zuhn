@@ -2,25 +2,38 @@
 id: INS-260320-9935
 domain: automation
 topic: content-creation
-title: "Growth Through Systematic Research Automation"
+title: Growth Through Systematic Research Automation
 actionability: inspiration
 confidence: medium
 shelf_life: evergreen
 status: active
-tags: [content-creation, automation, research, growth-strategy, n8n]
+tags:
+  - content-creation
+  - automation
+  - research
+  - growth-strategy
+  - n8n
 sources:
   - type: reddit
-    title: "This Automation Took Me From 0 to 175k Followers in Under 12 Months"
+    title: This Automation Took Me From 0 to 175k Followers in Under 12 Months
     author: u/unknown
-related: []
-date_extracted: "2026-03-20"
+related:
+  - INS-260320-7B4B
+  - INS-260320-922A
+  - INS-260320-D4BD
+  - INS-260320-6F8E
+  - INS-260320-D58E
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "The 0-to-175K growth came from automating content research and ideation, not from automating content creation itself -- the competitive advantage is knowing what to create, not how to create it."
+  one_line: >-
+    The 0-to-175K growth came from automating content research and ideation, not
+    from automating content creation itself -- the competitive advantage is
+    knowing what to create, not how to create it.
   standard: |
     Chase Hannegan's growth from 0 to 175K+ followers in under 12 months
     (with no prior content creation experience) came from a single key

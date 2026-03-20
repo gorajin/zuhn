@@ -2,26 +2,36 @@
 id: INS-260320-93E1
 domain: ai-development
 topic: claude-code
-title: "Always use planning mode before implementation"
+title: Always use planning mode before implementation
 actionability: immediate
 confidence: high
 shelf_life: evergreen
 status: active
-tags: [planning, workflow, best-practices]
+tags:
+  - planning
+  - workflow
+  - best-practices
 sources:
   - type: reddit
-    title: "Claude Code is a Beast – Tips from 6 Months of Hardcore Use"
+    title: Claude Code is a Beast – Tips from 6 Months of Hardcore Use
     author: u/diet103
-    url: "https://reddit.com/r/ClaudeCode"
-related: [INS-260320-6CCE, INS-260320-8F12]
-date_extracted: "2026-03-20"
+    url: 'https://reddit.com/r/ClaudeCode'
+related:
+  - INS-260320-6CCE
+  - INS-260320-8F12
+  - INS-260320-D4BD
+  - INS-260320-F8FD
+  - INS-260320-CDE4
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "Planning is king — always use planning mode before implementation; never let the builder start without plans."
+  one_line: >-
+    Planning is king — always use planning mode before implementation; never let
+    the builder start without plans.
   standard: |
     The single most impactful workflow improvement is to always use planning
     mode before implementation. Without a plan, Claude tends to jump into

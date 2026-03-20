@@ -2,26 +2,45 @@
 id: INS-260320-7379
 domain: ai-development
 topic: claude-code
-title: "Error Handling Reminder Stop hook detects risky patterns and shows gentle self-checks"
+title: >-
+  Error Handling Reminder Stop hook detects risky patterns and shows gentle
+  self-checks
 actionability: immediate
 confidence: high
 shelf_life: evergreen
 status: active
-tags: [hooks, Stop-event, error-handling, self-check, code-quality]
+tags:
+  - hooks
+  - Stop-event
+  - error-handling
+  - self-check
+  - code-quality
 sources:
   - type: reddit
-    title: "Claude Code is a Beast – Tips from 6 Months of Hardcore Use"
+    title: Claude Code is a Beast – Tips from 6 Months of Hardcore Use
     author: u/diet103
-    url: "https://reddit.com/r/ClaudeCode"
-related: [INS-260320-69CD, INS-260320-4ED6]
-date_extracted: "2026-03-20"
+    url: 'https://reddit.com/r/ClaudeCode'
+related:
+  - INS-260320-1B10
+  - INS-260320-DDFE
+  - INS-260320-4DE2
+  - INS-260320-69CD
+  - INS-260320-DCA0
+  - INS-260320-0D43
+  - INS-260320-4ED6
+  - INS-260320-F8FD
+  - INS-260320-949A
+  - INS-260320-C8CC
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "A Stop hook detects risky patterns (try-catch, async, DB calls) in edited files and shows gentle non-blocking self-check reminders."
+  one_line: >-
+    A Stop hook detects risky patterns (try-catch, async, DB calls) in edited
+    files and shows gentle non-blocking self-check reminders.
   standard: |
     The Error Handling Reminder is a Stop hook that scans recently edited
     files for risky patterns: try-catch blocks, async operations, database

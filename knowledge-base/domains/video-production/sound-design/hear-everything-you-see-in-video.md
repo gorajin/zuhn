@@ -2,25 +2,38 @@
 id: INS-260320-D44B
 domain: video-production
 topic: sound-design
-title: "You Should Hear Everything You See in Video"
+title: You Should Hear Everything You See in Video
 actionability: immediate
 confidence: high
 shelf_life: evergreen
 status: active
-tags: [sound-design, video-production, foley, ambience, principle]
+tags:
+  - sound-design
+  - video-production
+  - foley
+  - ambience
+  - principle
 sources:
   - type: reddit
-    title: "Sound Design Breakdown [and tutorial]"
+    title: 'Sound Design Breakdown [and tutorial]'
     author: u/unknown
-related: []
-date_extracted: "2026-03-20"
+related:
+  - INS-260320-105E
+  - INS-260320-232D
+  - INS-260320-10E8
+  - INS-260320-77C2
+  - INS-260320-CDE4
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "The foundational rule of video sound design: you should be able to hear everything you see -- nothing on screen is truly silent, and even empty rooms have ambient sound."
+  one_line: >-
+    The foundational rule of video sound design: you should be able to hear
+    everything you see -- nothing on screen is truly silent, and even empty
+    rooms have ambient sound.
   standard: |
     The core principle of sound design for video is that every visual
     element should have an audio counterpart. Nothing is silent -- even an

@@ -2,26 +2,37 @@
 id: INS-260320-76D2
 domain: ai-development
 topic: tooling
-title: "Use BetterTouchTool for double-tap hotkeys and relative URL copy"
+title: Use BetterTouchTool for double-tap hotkeys and relative URL copy
 actionability: immediate
 confidence: high
 shelf_life: evergreen
 status: active
-tags: [BetterTouchTool, hotkeys, app-switching, productivity]
+tags:
+  - BetterTouchTool
+  - hotkeys
+  - app-switching
+  - productivity
 sources:
   - type: reddit
-    title: "Claude Code is a Beast – Tips from 6 Months of Hardcore Use"
+    title: Claude Code is a Beast – Tips from 6 Months of Hardcore Use
     author: u/diet103
-    url: "https://reddit.com/r/ClaudeCode"
-related: [INS-260320-26B1]
-date_extracted: "2026-03-20"
+    url: 'https://reddit.com/r/ClaudeCode'
+related:
+  - INS-260320-4993
+  - INS-260320-26B1
+  - INS-260320-DCA0
+  - INS-260320-D3D5
+  - INS-260320-A4BF
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "Use BetterTouchTool for double-tap hotkeys (CMD+CMD = Claude, OPT+OPT = Browser) and relative URL copy from Cursor."
+  one_line: >-
+    Use BetterTouchTool for double-tap hotkeys (CMD+CMD = Claude, OPT+OPT =
+    Browser) and relative URL copy from Cursor.
   standard: |
     BetterTouchTool enables custom double-tap hotkeys that dramatically
     speed up app switching in Claude Code workflows. Configure CMD+CMD to

@@ -2,26 +2,38 @@
 id: INS-260320-96C9
 domain: ai-development
 topic: claude-code
-title: "Self-reflect on prompting quality before blaming the model for worse output"
+title: Self-reflect on prompting quality before blaming the model for worse output
 actionability: immediate
 confidence: high
 shelf_life: evergreen
 status: active
-tags: [prompting, self-reflection, output-quality, debugging]
+tags:
+  - prompting
+  - self-reflection
+  - output-quality
+  - debugging
 sources:
   - type: reddit
-    title: "Claude Code is a Beast – Tips from 6 Months of Hardcore Use"
+    title: Claude Code is a Beast – Tips from 6 Months of Hardcore Use
     author: u/diet103
-    url: "https://reddit.com/r/ClaudeCode"
-related: [INS-260320-508F, INS-260320-E872]
-date_extracted: "2026-03-20"
+    url: 'https://reddit.com/r/ClaudeCode'
+related:
+  - INS-260320-508F
+  - INS-260320-EF3A
+  - INS-260320-D972
+  - INS-260320-92CC
+  - INS-260320-0511
+  - INS-260320-6F8E
+date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
 indexed: true
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
 resolutions:
-  one_line: "If output quality seems worse, self-reflect on how you're prompting before blaming the model."
+  one_line: >-
+    If output quality seems worse, self-reflect on how you're prompting before
+    blaming the model.
   standard: |
     When Claude's output quality drops, the instinct is to blame the model.
     But more often the issue is prompt quality degradation — as you get
