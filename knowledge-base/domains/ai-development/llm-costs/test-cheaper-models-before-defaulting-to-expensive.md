@@ -1,0 +1,35 @@
+---
+id: INS-260320-EF3A
+domain: ai-development
+topic: llm-costs
+title: "Test cheaper models before defaulting to expensive ones"
+actionability: immediate
+confidence: high
+shelf_life: evergreen
+status: active
+tags: [llm-costs, model-selection, deepseek, cost-reduction]
+sources:
+  - type: reddit
+    title: "After learning this, my AI workflows cost me 30x less"
+    author: u/unknown
+related: []
+date_extracted: "2026-03-20"
+last_accessed: null
+access_count: 0
+indexed: false
+embedded: false
+resolutions:
+  one_line: "Don't default to expensive models — test cheaper ones with YOUR data. DeepSeek V3 vs Claude Sonnet = 21x cost reduction for identical summaries."
+  standard: |
+    Most developers default to the most capable (and expensive) model without
+    testing alternatives. For many tasks like summarization, cheaper models
+    produce identical quality output. DeepSeek V3 achieved the same summary
+    quality as Claude Sonnet at 21x lower cost. Always benchmark cheaper models
+    against your specific use case before committing to expensive defaults.
+---
+
+Most developers default to the most capable (and expensive) model without
+testing alternatives. For many tasks like summarization, cheaper models
+produce identical quality output. DeepSeek V3 achieved the same summary
+quality as Claude Sonnet at 21x lower cost. Always benchmark cheaper models
+against your specific use case before committing to expensive defaults.
