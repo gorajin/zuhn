@@ -20,15 +20,13 @@ sources:
     title: 'Dark techno using only sounds from Moog DFAM, sampled into Digitakt'
     author: u/unknown
 related:
-  - INS-260320-E872
   - INS-260320-77C2
   - INS-260320-232D
   - INS-260320-630D
   - INS-260320-6F8E
-  - INS-260320-0063
+  - PRI-260320-467A
   - INS-260320-8FFC
   - INS-260320-63D3
-  - INS-260320-DADA
   - INS-260320-76E7
 date_extracted: '2026-03-20'
 last_accessed: null

@@ -1,6 +1,6 @@
 # Knowledge Base Stats
 
-> Generated: 2026-03-20
+> Generated: 2026-03-21
 
 - **Total insights:** 109
 - **Domains:** 6

@@ -21,7 +21,6 @@ sources:
       report for ~$0.20
     author: u/AgriciDaniel
 related:
-  - INS-260320-901C
   - INS-260320-D58E
   - INS-260320-41E3
   - INS-260320-71C1
