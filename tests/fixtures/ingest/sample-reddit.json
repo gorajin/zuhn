@@ -1,0 +1,38 @@
+[
+  {
+    "data": {
+      "children": [
+        {
+          "kind": "t3",
+          "data": {
+            "title": "Test Reddit Post Title",
+            "author": "testuser",
+            "subreddit_name_prefixed": "r/testsubreddit",
+            "selftext": "This is the body of the test post with some content.",
+            "score": 142,
+            "num_comments": 23,
+            "created_utc": 1710000000
+          }
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "children": [
+        {
+          "kind": "t1",
+          "data": { "author": "commenter1", "body": "Great post, very insightful!", "score": 45 }
+        },
+        {
+          "kind": "t1",
+          "data": { "author": "[deleted]", "body": "[removed]", "score": 0 }
+        },
+        {
+          "kind": "t1",
+          "data": { "author": "commenter2", "body": "I disagree with point three.", "score": 12 }
+        }
+      ]
+    }
+  }
+]
