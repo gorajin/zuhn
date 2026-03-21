@@ -5,8 +5,8 @@ Generated on 2026-03-21 | 18 sources
 |--------|------|----------|------|
 | Claude Code is a Beast – Tips from 6 Months of Hardcore Use | reddit | 30 | 2026-03-20 |
 | $6.7M ARR, No Paid Ads, and an Exit to Quizlet in 2 Years — Coconote | youtube | 14 | 2026-03-20 |
-| After learning this, my AI workflows cost me 30x less | reddit | 8 | 2026-03-20 |
 | '50 AI Agents Running My Company' Is a Lie — Gumloop, Max Brodeur-Urbas | youtube | 8 | 2026-03-20 |
+| After learning this, my AI workflows cost me 30x less | reddit | 8 | 2026-03-20 |
 | Should You Learn Coding Now? Anthropic CEO Explains | youtube | 7 | 2026-03-20 |
 | Building the Zuhn knowledge base — lessons from Phase 1-5 | paste | 6 | 2026-03-20 |
 | Why we shifted to Spec-Driven Development | reddit | 6 | 2026-03-20 |
