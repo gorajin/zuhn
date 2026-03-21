@@ -25,6 +25,37 @@ export interface ConfidenceChange {
   reason: string;
 }
 
+export interface ClusterFlag {
+  insightIds: string[];
+  topics: string[];
+  sharedTags: string[];
+}
+
+export interface GapFlag {
+  topicA: string;
+  topicB: string;
+  countA: number;
+  countB: number;
+  sharedTags: string[];
+}
+
+export interface TransferFlag {
+  principleId: string;
+  principleTitle: string;
+  principleDomain: string;
+  targetInsightId: string;
+  targetDomain: string;
+  targetTopic: string;
+  similarity: number;
+}
+
+export interface LearningFlags {
+  compress: EmergenceFlag[];
+  discover: ClusterFlag[];
+  gaps: GapFlag[];
+  transfers: TransferFlag[];
+}
+
 interface NeighborRow {
   id: string;
   distance: number;
@@ -422,14 +453,380 @@ async function updateFrontmatterConfidence(
   await writeFile(filePath, output, "utf-8");
 }
 
+// ─── Mechanism 4: Cluster Discovery ─────────────────────────────────
+
+/**
+ * Build a KNN graph of insight embeddings and run Louvain community
+ * detection. Flag communities that span 2+ distinct topics.
+ */
+export async function discoverClusters(
+  db: Database.Database,
+  _kbRoot: string
+): Promise<ClusterFlag[]> {
+  // 1. Get all insight embeddings
+  const rows = db
+    .prepare("SELECT id, embedding FROM embeddings WHERE id LIKE 'INS-%'")
+    .all() as Array<{ id: string; embedding: Buffer }>;
+
+  if (rows.length < 2) return [];
+
+  // 2. Dynamic import for ESM-only graphology modules
+  const { default: Graph } = await import("graphology");
+  const { default: louvain } = await import("graphology-communities-louvain");
+
+  const graph = new Graph();
+
+  // Add all insight nodes
+  for (const row of rows) {
+    graph.addNode(row.id);
+  }
+
+  // 3. For each insight, query top-10 neighbors; add edge if distance < 0.25
+  const neighborStmt = db.prepare(`
+    SELECT id, distance
+    FROM embeddings
+    WHERE embedding MATCH (SELECT embedding FROM embeddings WHERE id = ?)
+    ORDER BY distance
+    LIMIT 11
+  `);
+
+  for (const row of rows) {
+    const neighbors = neighborStmt.all(row.id) as NeighborRow[];
+    for (const n of neighbors) {
+      if (n.id === row.id) continue;
+      if (n.distance >= 0.25) continue;
+      if (!graph.hasNode(n.id)) continue;
+      if (!graph.hasEdge(row.id, n.id) && !graph.hasEdge(n.id, row.id)) {
+        graph.addEdge(row.id, n.id, { weight: 1 - n.distance });
+      }
+    }
+  }
+
+  // If no edges, no communities to detect
+  if (graph.size === 0) return [];
+
+  // 4. Run Louvain community detection
+  const communities = louvain(graph);
+
+  // 5. Group insights by community
+  const communityMap = new Map<number, string[]>();
+  for (const [nodeId, community] of Object.entries(communities)) {
+    const comm = community as number;
+    if (!communityMap.has(comm)) communityMap.set(comm, []);
+    communityMap.get(comm)!.push(nodeId);
+  }
+
+  // 6. For each community, check if it spans 2+ distinct topics
+  const insightMetaStmt = db.prepare(
+    "SELECT id, domain, topic, tags FROM insights WHERE id = ?"
+  );
+
+  const flags: ClusterFlag[] = [];
+
+  for (const [, insightIds] of communityMap) {
+    if (insightIds.length < 2) continue;
+
+    const topicsSet = new Set<string>();
+    const allTagSets: Set<string>[] = [];
+
+    for (const id of insightIds) {
+      const meta = insightMetaStmt.get(id) as
+        | { id: string; domain: string; topic: string; tags: string }
+        | undefined;
+      if (!meta) continue;
+      topicsSet.add(`${meta.domain}/${meta.topic}`);
+      const tags = meta.tags.split(" ").filter(Boolean);
+      allTagSets.push(new Set(tags));
+    }
+
+    // Only flag cross-topic clusters
+    if (topicsSet.size < 2) continue;
+
+    // Find shared tags across all insights in the cluster
+    let sharedTags: string[] = [];
+    if (allTagSets.length > 0) {
+      const firstSet = allTagSets[0];
+      sharedTags = [...firstSet].filter((tag) =>
+        allTagSets.every((s) => s.has(tag))
+      );
+    }
+
+    flags.push({
+      insightIds,
+      topics: [...topicsSet],
+      sharedTags,
+    });
+  }
+
+  return flags;
+}
+
+// ─── Mechanism 5: Gap Detection ─────────────────────────────────────
+
+/**
+ * Detect topics that are semantically similar but have very different
+ * insight counts (ratio > 3:1). These are knowledge gaps.
+ */
+export async function detectGaps(
+  db: Database.Database,
+  _kbRoot: string
+): Promise<GapFlag[]> {
+  // 1. Get insight embeddings grouped by topic
+  const rows = db
+    .prepare(`
+      SELECT i.id, i.topic, i.domain, i.tags, e.embedding
+      FROM insights i
+      JOIN embeddings e ON i.id = e.id
+      WHERE i.id LIKE 'INS-%'
+    `)
+    .all() as Array<{
+    id: string;
+    topic: string;
+    domain: string;
+    tags: string;
+    embedding: Buffer;
+  }>;
+
+  if (rows.length === 0) return [];
+
+  // 2. Group by topic and compute centroids
+  const topicGroups = new Map<
+    string,
+    { embeddings: number[][]; tags: Set<string>; count: number; domain: string }
+  >();
+
+  for (const row of rows) {
+    const key = `${row.domain}/${row.topic}`;
+    if (!topicGroups.has(key)) {
+      topicGroups.set(key, {
+        embeddings: [],
+        tags: new Set(),
+        count: 0,
+        domain: row.domain,
+      });
+    }
+    const group = topicGroups.get(key)!;
+
+    // Parse embedding buffer into float array
+    const buf = row.embedding;
+    const floats = new Float32Array(
+      buf.buffer,
+      buf.byteOffset,
+      buf.byteLength / 4
+    );
+    group.embeddings.push(Array.from(floats));
+
+    for (const tag of row.tags.split(" ").filter(Boolean)) {
+      group.tags.add(tag);
+    }
+    group.count++;
+  }
+
+  // Need at least 2 topics to compare
+  if (topicGroups.size < 2) return [];
+
+  // 3. Compute centroid for each topic and L2-normalize
+  const centroids = new Map<string, { vec: number[]; count: number; tags: Set<string> }>();
+
+  for (const [topic, group] of topicGroups) {
+    const dim = group.embeddings[0].length;
+    const centroid = new Array(dim).fill(0);
+
+    for (const emb of group.embeddings) {
+      for (let i = 0; i < dim; i++) {
+        centroid[i] += emb[i];
+      }
+    }
+    for (let i = 0; i < dim; i++) {
+      centroid[i] /= group.count;
+    }
+
+    // L2-normalize
+    let magnitude = 0;
+    for (let i = 0; i < dim; i++) {
+      magnitude += centroid[i] * centroid[i];
+    }
+    magnitude = Math.sqrt(magnitude);
+    if (magnitude > 0) {
+      for (let i = 0; i < dim; i++) {
+        centroid[i] /= magnitude;
+      }
+    }
+
+    centroids.set(topic, { vec: centroid, count: group.count, tags: group.tags });
+  }
+
+  // 4. For each pair of topics, compute cosine similarity and check for gaps
+  const flags: GapFlag[] = [];
+  const topicKeys = [...centroids.keys()];
+
+  for (let a = 0; a < topicKeys.length; a++) {
+    for (let b = a + 1; b < topicKeys.length; b++) {
+      const keyA = topicKeys[a];
+      const keyB = topicKeys[b];
+      const dataA = centroids.get(keyA)!;
+      const dataB = centroids.get(keyB)!;
+
+      // Cosine similarity via dot product (vectors are already L2-normalized)
+      let sim = 0;
+      for (let i = 0; i < dataA.vec.length; i++) {
+        sim += dataA.vec[i] * dataB.vec[i];
+      }
+
+      // Similar topics (sim > 0.70) with count ratio > 3:1
+      if (sim > 0.70) {
+        const ratio = Math.max(dataA.count, dataB.count) / Math.min(dataA.count, dataB.count);
+        if (ratio > 3) {
+          // Find shared tags
+          const sharedTags = [...dataA.tags].filter((t) => dataB.tags.has(t));
+
+          // Order so topicA is the larger one
+          if (dataA.count >= dataB.count) {
+            flags.push({
+              topicA: keyA,
+              topicB: keyB,
+              countA: dataA.count,
+              countB: dataB.count,
+              sharedTags,
+            });
+          } else {
+            flags.push({
+              topicA: keyB,
+              topicB: keyA,
+              countA: dataB.count,
+              countB: dataA.count,
+              sharedTags,
+            });
+          }
+        }
+      }
+    }
+  }
+
+  return flags;
+}
+
+// ─── Mechanism 6: Transfer Detection ────────────────────────────────
+
+/**
+ * Find principles that may apply to insights in OTHER domains,
+ * filtered by the "surprise" heuristic (zero shared tags).
+ */
+export async function detectTransfers(
+  db: Database.Database,
+  kbRoot: string
+): Promise<TransferFlag[]> {
+  // 1. Get all principle embeddings
+  const principleEmbRows = db
+    .prepare("SELECT id, embedding FROM embeddings WHERE id LIKE 'PRI-%'")
+    .all() as Array<{ id: string; embedding: Buffer }>;
+
+  if (principleEmbRows.length === 0) return [];
+
+  // 2. Get principle metadata from files
+  const principleFiles = await fg("principles/**/*.md", {
+    cwd: kbRoot,
+    absolute: true,
+    ignore: ["**/_index.md"],
+  });
+
+  const principleMetaMap = new Map<
+    string,
+    { title: string; domain: string; tags: Set<string> }
+  >();
+
+  for (const filePath of principleFiles) {
+    try {
+      const raw = await readFile(filePath, "utf-8");
+      const { data } = matter(raw);
+      if (data.id && data.domain && data.title) {
+        principleMetaMap.set(data.id, {
+          title: data.title,
+          domain: data.domain,
+          tags: new Set(Array.isArray(data.tags) ? data.tags : []),
+        });
+      }
+    } catch {
+      // Skip unreadable files
+    }
+  }
+
+  // 3. For each principle, find nearest insights from other domains
+  const flags: TransferFlag[] = [];
+
+  for (const row of principleEmbRows) {
+    const pMeta = principleMetaMap.get(row.id);
+    if (!pMeta) continue;
+
+    const buf = row.embedding;
+    const floats = new Float32Array(
+      buf.buffer,
+      buf.byteOffset,
+      buf.byteLength / 4
+    );
+    const embJson = JSON.stringify(Array.from(floats));
+
+    // Query top-20 neighbors
+    const neighbors = db
+      .prepare(`
+        SELECT id, distance
+        FROM embeddings
+        WHERE embedding MATCH ?
+        ORDER BY distance
+        LIMIT 20
+      `)
+      .all(embJson) as NeighborRow[];
+
+    // Filter: other domains, distance < 0.25, take top 5
+    let crossDomainCount = 0;
+
+    for (const n of neighbors) {
+      if (n.id === row.id) continue;
+      if (n.distance >= 0.25) continue;
+      if (!n.id.startsWith("INS-")) continue;
+
+      // Get insight metadata
+      const insightMeta = db
+        .prepare("SELECT id, domain, topic, tags FROM insights WHERE id = ?")
+        .get(n.id) as
+        | { id: string; domain: string; topic: string; tags: string }
+        | undefined;
+      if (!insightMeta) continue;
+
+      // Must be from a different domain
+      if (insightMeta.domain === pMeta.domain) continue;
+
+      // Surprise filter: zero tag overlap
+      const insightTags = new Set(insightMeta.tags.split(" ").filter(Boolean));
+      const hasOverlap = [...pMeta.tags].some((t) => insightTags.has(t));
+      if (hasOverlap) continue;
+
+      flags.push({
+        principleId: row.id,
+        principleTitle: pMeta.title,
+        principleDomain: pMeta.domain,
+        targetInsightId: insightMeta.id,
+        targetDomain: insightMeta.domain,
+        targetTopic: insightMeta.topic,
+        similarity: 1 - n.distance,
+      });
+
+      crossDomainCount++;
+      if (crossDomainCount >= 5) break;
+    }
+  }
+
+  return flags;
+}
+
 // ─── Flags file writer ──────────────────────────────────────────────
 
 /**
- * Write emergence flags to the meta/flags.md file.
+ * Write all learning flags to the meta/flags.md file.
  */
 export async function writeFlagsFile(
   kbRoot: string,
-  flags: EmergenceFlag[]
+  flags: LearningFlags
 ): Promise<void> {
   const now = new Date().toISOString().slice(0, 10);
   const lines: string[] = [];
@@ -438,11 +835,12 @@ export async function writeFlagsFile(
   lines.push(`Generated by learn.ts on ${now}`);
   lines.push("");
 
-  if (flags.length === 0) {
-    lines.push("No flags.");
+  // COMPRESS section
+  lines.push("## COMPRESS");
+  if (flags.compress.length === 0) {
+    lines.push("None.");
   } else {
-    lines.push("## COMPRESS");
-    for (const flag of flags) {
+    for (const flag of flags.compress) {
       const ratio =
         flag.principleCount === 0
           ? `${flag.insightCount}:0`
@@ -452,7 +850,47 @@ export async function writeFlagsFile(
       );
     }
   }
+  lines.push("");
 
+  // DISCOVER section
+  lines.push("## DISCOVER");
+  if (flags.discover.length === 0) {
+    lines.push("None.");
+  } else {
+    for (const flag of flags.discover) {
+      const tagsStr =
+        flag.sharedTags.length > 0 ? flag.sharedTags.join(", ") : "none";
+      lines.push(
+        `- ${flag.insightIds.length} insights form cluster across ${flag.topics.join(", ")} — shared tags: ${tagsStr}`
+      );
+    }
+  }
+  lines.push("");
+
+  // GAP section
+  lines.push("## GAP");
+  if (flags.gaps.length === 0) {
+    lines.push("None.");
+  } else {
+    for (const flag of flags.gaps) {
+      lines.push(
+        `- ${flag.topicA} has ${flag.countA} insights but related ${flag.topicB} has only ${flag.countB}`
+      );
+    }
+  }
+  lines.push("");
+
+  // TRANSFER section
+  lines.push("## TRANSFER");
+  if (flags.transfers.length === 0) {
+    lines.push("None.");
+  } else {
+    for (const flag of flags.transfers) {
+      lines.push(
+        `- "${flag.principleTitle}" (${flag.principleDomain}) may apply to ${flag.targetDomain}/${flag.targetTopic} (sim: ${flag.similarity.toFixed(2)})`
+      );
+    }
+  }
   lines.push("");
 
   const flagsPath = join(kbRoot, "meta", "flags.md");
