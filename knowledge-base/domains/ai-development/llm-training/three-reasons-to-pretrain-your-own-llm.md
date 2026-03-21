@@ -18,7 +18,6 @@ sources:
     title: 200+ pages of Hugging Face secrets on how to train an LLM
     author: u/unknown
 related:
-  - INS-260320-8F12
   - INS-260320-5818
   - INS-260320-C65B
   - PRI-260320-A2C7

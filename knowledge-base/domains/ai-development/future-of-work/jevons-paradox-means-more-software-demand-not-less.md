@@ -1,0 +1,49 @@
+---
+id: INS-260321-52EF
+domain: ai-development
+topic: future-of-work
+title: Jevons paradox means more software demand not less
+actionability: reference
+confidence: high
+shelf_life: evergreen
+status: active
+tags:
+  - jevons-paradox
+  - economics
+  - software-demand
+  - job-market
+sources:
+  - type: youtube
+    title: 'Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of AI'
+    author: 'No Priors: AI, Machine Learning, Tech, & Startups'
+    url: 'https://youtu.be/kwSVtQ7dziU'
+date_extracted: '2026-03-21'
+last_accessed: null
+access_count: 0
+indexed: true
+embedded: true
+embedding_model: nomic-embed-text
+resolutions:
+  one_line: >-
+    Software was scarce and expensive — AI making it cheaper unlocks massive
+    latent demand (Jevons paradox). Like ATMs creating more bank branches and
+    more tellers, not fewer.
+  standard: >-
+    Karpathy argues cautiously optimistic about software engineering jobs. The
+    classical example: ATMs were expected to replace bank tellers, but they made
+    branch operations so much cheaper that more branches opened, creating more
+    teller jobs. Similarly, AI making software development 10x cheaper unlocks
+    enormous latent demand — code becomes ephemeral, customizable, and available
+    for problems that were never economical to solve before. Digital information
+    processing will see enormous activity.
+related:
+  - INS-260320-9FD5
+  - INS-260320-B7DA
+  - INS-260320-8688
+  - INS-260320-703F
+  - INS-260320-76E7
+  - PRI-260320-5947
+  - INS-260320-EF3A
+  - INS-260321-2F43
+---
+Karpathy argues cautiously optimistic about software engineering jobs. The classical example: ATMs were expected to replace bank tellers, but they made branch operations so much cheaper that more branches opened, creating more teller jobs. Similarly, AI making software development 10x cheaper unlocks enormous latent demand — code becomes ephemeral, customizable, and available for problems that were never economical to solve before. Digital information processing will see enormous activity.

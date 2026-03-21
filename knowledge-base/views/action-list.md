@@ -1,9 +1,11 @@
 # Action List
-Generated on 2026-03-21 | 83 actionable insights
+Generated on 2026-03-21 | 86 actionable insights
 
 ## ai-development/agent-patterns
 - [INS-260320-1B10] Have Claude review its own code via a specialized review agent — catches critical errors, missing implementations, and security flaws.
 - [INS-260320-9D89] Give agents very specific roles and clear instructions on what to RETURN — prevents 'I fixed it!' without details.
+- [INS-260321-D3BE] Stop thinking in lines of code — think in macro actions: 'agent 1 builds feature X, agent 2 researches Y, agent 3 plans Z' — then review their work.
+- [INS-260321-18D0] Your bottleneck shifted from typing speed to token throughput — maximize how many agent sessions you can run in parallel, not how fast you code.
 
 ## ai-development/ai-automation
 - [INS-260320-5A6F] AI-enabled beats AI-replaced — keep the human touch in important parts, automate the repetitive.
@@ -45,6 +47,7 @@ Generated on 2026-03-21 | 83 actionable insights
 - [INS-260320-E683] Even if you're only doing 5% of the task and AI does 95%, that 5% gets "super amplified" — you become 20x more productive through comparative advantage.
 - [INS-260320-DDD9] In a world where AI can generate anything, "having basic critical thinking skills may be the most important thing to success."
 - [INS-260320-F78E] Prompt engineering is like playing piano — you can't just sit down and start; it requires practice and iteration to develop the skill.
+- [INS-260321-2F43] The name of the game is to increase your leverage — put in very few tokens once in a while and a huge amount of stuff happens on your behalf.
 
 ## ai-development/llm-costs
 - [INS-260320-9937] OpenRouter offers 50-1000 free requests/day on certain models — not trial credits, actually free forever.
