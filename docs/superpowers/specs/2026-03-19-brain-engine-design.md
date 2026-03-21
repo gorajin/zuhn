@@ -99,8 +99,8 @@ knowledge-base/
 │   ├── _index.md
 │   ├── reddit/
 │   ├── youtube/
-│   ├── blogs/
-│   └── panels/
+│   ├── blog/
+│   └── panel/
 │
 ├── tags/                           <- Cross-reference routing
 │   ├── _index.md
