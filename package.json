@@ -25,7 +25,8 @@
     "archive": "tsx scripts/archive.ts",
     "resurrect": "tsx scripts/resurrect.ts",
     "views": "tsx scripts/views.ts",
-    "resurface": "tsx scripts/resurface.ts"
+    "resurface": "tsx scripts/resurface.ts",
+    "batch-ingest": "tsx scripts/batch-ingest.ts"
   },
   "keywords": [],
   "author": "",
