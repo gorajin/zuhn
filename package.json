@@ -23,7 +23,9 @@
     "sleep": "tsx scripts/sleep.ts",
     "wake": "tsx scripts/wake.ts",
     "archive": "tsx scripts/archive.ts",
-    "resurrect": "tsx scripts/resurrect.ts"
+    "resurrect": "tsx scripts/resurrect.ts",
+    "views": "tsx scripts/views.ts",
+    "resurface": "tsx scripts/resurface.ts"
   },
   "keywords": [],
   "author": "",

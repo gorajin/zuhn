@@ -110,7 +110,20 @@ async function main(): Promise<void> {
     console.warn("\nLearn step failed (non-fatal) — connections and flags not updated.");
   }
 
-  // Step 5: Auto-git
+  // Step 5: Views (action list, stale board, source map, gap report)
+  const viewsResult = runStep("Views", [
+    "npx", "tsx", join(PROJECT_ROOT, "scripts", "views.ts"),
+  ]);
+
+  if (viewsResult.ok) {
+    results.push({ step: "views", status: "OK" });
+  } else {
+    // Views failure is non-fatal: all other outputs remain valid
+    results.push({ step: "views", status: "SKIPPED" });
+    console.warn("\nViews step failed (non-fatal) — views not updated.");
+  }
+
+  // Step 6: Auto-git
   let gitStatus = "SKIPPED";
   console.log("\n>> Auto-git");
   try {
