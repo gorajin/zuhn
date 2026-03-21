@@ -29,6 +29,8 @@
     "@mozilla/readability": "^0.6.0",
     "better-sqlite3": "^12.8.0",
     "fast-glob": "^3.3.3",
+    "graphology": "^0.26.0",
+    "graphology-communities-louvain": "^2.0.2",
     "gray-matter": "^4.0.3",
     "jsdom": "^29.0.1",
     "sqlite-vec": "^0.1.7",
