@@ -1,0 +1,10 @@
+{
+  "events": [
+    { "tStartMs": 0, "segs": [{"utf8": "Hello "}, {"utf8": "world."}] },
+    { "tStartMs": 1500, "segs": [{"utf8": "This "}, {"utf8": "is "}, {"utf8": "a test."}] },
+    { "tStartMs": 6000, "segs": [{"utf8": "After "}, {"utf8": "a gap."}] },
+    { "tStartMs": 7000, "utf8": "Manual caption line." },
+    { "tStartMs": 8000, "segs": [{"utf8": "[Music]"}] },
+    { "tStartMs": 9000, "segs": [{"utf8": "Final "}, {"utf8": "words."}] }
+  ]
+}

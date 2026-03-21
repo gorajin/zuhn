@@ -55,6 +55,21 @@ export const SourceFrontmatter = z.object({
   author: z.string().optional(),
   url: z.string().optional(),
   subreddit: z.string().optional(),
+  // YouTube-specific
+  channel: z.string().optional(),
+  duration: z.string().optional(),
+  views: z.number().optional(),
+  upload_date: z.string().optional(),
+  chapters: z.number().optional(),
+  transcript_type: z.enum(["auto", "manual"]).optional(),
+  // Blog-specific
+  site_name: z.string().optional(),
+  publish_date: z.string().optional(),
+  // Reddit-specific
+  score: z.number().optional(),
+  num_comments: z.number().optional(),
+  // Shared
+  word_count: z.number().optional(),
 });
 
 export type SourceData = z.infer<typeof SourceFrontmatter>;
