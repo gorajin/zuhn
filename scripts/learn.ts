@@ -7,6 +7,9 @@ import {
   discoverConnections,
   detectEmergence,
   propagateConfidence,
+  discoverClusters,
+  detectGaps,
+  detectTransfers,
   writeFlagsFile,
 } from "./lib/learning";
 
@@ -32,9 +35,9 @@ async function main(): Promise<void> {
 
     // 3. Mechanism 2: Principle Emergence Detection
     console.log("── Mechanism 2: Emergence Detection ───");
-    const flags = await detectEmergence(KB_ROOT);
-    if (flags.length > 0) {
-      for (const flag of flags) {
+    const compressFlags = await detectEmergence(KB_ROOT);
+    if (compressFlags.length > 0) {
+      for (const flag of compressFlags) {
         const ratio =
           flag.principleCount === 0
             ? `${flag.insightCount}:0`
@@ -47,12 +50,8 @@ async function main(): Promise<void> {
       console.log("  No topics flagged for compression.");
     }
 
-    // 4. Write flags file
-    await writeFlagsFile(KB_ROOT, flags);
-    console.log(`\nWrote ${flags.length} flag(s) to meta/flags.md.\n`);
-
-    // 5. Mechanism 3: Confidence Propagation
-    console.log("── Mechanism 3: Confidence Propagation ─");
+    // 4. Mechanism 3: Confidence Propagation
+    console.log("\n── Mechanism 3: Confidence Propagation ─");
     const confidenceChanges = await propagateConfidence(db, KB_ROOT);
     if (confidenceChanges.length > 0) {
       console.log(
@@ -62,7 +61,64 @@ async function main(): Promise<void> {
       console.log("\nNo confidence changes.\n");
     }
 
-    // 6. Summary
+    // 5. Mechanism 4: Cluster Discovery
+    console.log("── Mechanism 4: Cluster Discovery ─────");
+    const clusterFlags = await discoverClusters(db, KB_ROOT);
+    if (clusterFlags.length > 0) {
+      for (const flag of clusterFlags) {
+        console.log(
+          `  CLUSTER: ${flag.insightIds.length} insights across ${flag.topics.join(", ")}`
+        );
+      }
+    } else {
+      console.log("  No cross-topic clusters found.");
+    }
+    console.log();
+
+    // 6. Mechanism 5: Gap Detection
+    console.log("── Mechanism 5: Gap Detection ─────────");
+    const gapFlags = await detectGaps(db, KB_ROOT);
+    if (gapFlags.length > 0) {
+      for (const flag of gapFlags) {
+        console.log(
+          `  GAP: ${flag.topicA} (${flag.countA}) vs ${flag.topicB} (${flag.countB})`
+        );
+      }
+    } else {
+      console.log("  No knowledge gaps detected.");
+    }
+    console.log();
+
+    // 7. Mechanism 6: Transfer Detection
+    console.log("── Mechanism 6: Transfer Detection ────");
+    const transferFlags = await detectTransfers(db, KB_ROOT);
+    if (transferFlags.length > 0) {
+      for (const flag of transferFlags) {
+        console.log(
+          `  TRANSFER: "${flag.principleTitle}" (${flag.principleDomain}) -> ${flag.targetDomain}/${flag.targetTopic} (sim: ${flag.similarity.toFixed(2)})`
+        );
+      }
+    } else {
+      console.log("  No cross-domain transfers detected.");
+    }
+    console.log();
+
+    // 8. Write flags file with all sections
+    const allFlags = {
+      compress: compressFlags,
+      discover: clusterFlags,
+      gaps: gapFlags,
+      transfers: transferFlags,
+    };
+    await writeFlagsFile(KB_ROOT, allFlags);
+    const totalFlags =
+      compressFlags.length +
+      clusterFlags.length +
+      gapFlags.length +
+      transferFlags.length;
+    console.log(`Wrote ${totalFlags} flag(s) to meta/flags.md.\n`);
+
+    // 9. Summary
     console.log("┌──────────────────────────────────────┐");
     console.log("│          Learning Summary             │");
     console.log("├──────────────────────────────────────┤");
@@ -70,10 +126,19 @@ async function main(): Promise<void> {
       `│  Connections updated:  ${String(connectionResult.totalUpdated).padEnd(14)}│`
     );
     console.log(
-      `│  Emergence flags:     ${String(flags.length).padEnd(14)}│`
+      `│  Emergence flags:     ${String(compressFlags.length).padEnd(14)}│`
     );
     console.log(
       `│  Confidence changes:  ${String(confidenceChanges.length).padEnd(14)}│`
+    );
+    console.log(
+      `│  Cluster flags:       ${String(clusterFlags.length).padEnd(14)}│`
+    );
+    console.log(
+      `│  Gap flags:           ${String(gapFlags.length).padEnd(14)}│`
+    );
+    console.log(
+      `│  Transfer flags:      ${String(transferFlags.length).padEnd(14)}│`
     );
     console.log("└──────────────────────────────────────┘");
   } finally {
