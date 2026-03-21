@@ -1,5 +1,5 @@
 # Source Map
-Generated on 2026-03-21 | 19 sources
+Generated on 2026-03-21 | 20 sources
 
 | Source | Type | Insights | Date |
 |--------|------|----------|------|
@@ -12,6 +12,7 @@ Generated on 2026-03-21 | 19 sources
 | Building the Zuhn knowledge base — lessons from Phase 1-5 | paste | 6 | 2026-03-20 |
 | Why we shifted to Spec-Driven Development | reddit | 6 | 2026-03-20 |
 | 200+ pages of Hugging Face secrets on how to train an LLM | reddit | 5 | 2026-03-20 |
+| 해외 천재유튜버들이 몰래 쓰는 니치밴딩 전략 | youtube | 4 | 2026-03-21 |
 | This Automation Took Me From 0 to 175k Followers in Under 12 Months | reddit | 3 | 2026-03-20 |
 | Claude Code usage limit hack | reddit | 3 | 2026-03-20 |
 | This n8n workflow scrapes any business URL and writes a full analysis report for ~$0.20 | reddit | 3 | 2026-03-20 |

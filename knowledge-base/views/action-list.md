@@ -1,5 +1,5 @@
 # Action List
-Generated on 2026-03-21 | 86 actionable insights
+Generated on 2026-03-21 | 88 actionable insights
 
 ## ai-development/agent-patterns
 - [INS-260320-1B10] Have Claude review its own code via a specialized review agent — catches critical errors, missing implementations, and security flaws.
@@ -114,6 +114,8 @@ Generated on 2026-03-21 | 86 actionable insights
 - [INS-260320-70FA] Target the person who pays, not just the person who uses — students used Coconote but moms often bought it, and "my mom just changed my life" content drove viral parent-to-parent purchasing.
 - [INS-260320-080B] Ask customers how they describe your product, then use their exact words as marketing copy — Coconote asked and the majority said "never miss a key detail," which became their App Store headline.
 - [INS-260320-DADA] You cannot pour fuel on organic fire — viral UGC repurposed as paid ads underperformed, while a separate clip agency creating performance-specific creatives outperformed significantly.
+- [INS-260321-099E] Don't find a blue ocean — create one by taking a format proven in Market A and applying it to Market B where nobody has used it yet.
+- [INS-260321-141B] Write a proven format at the top of a grid, list all markets down the side, mark where the combination exists — empty cells are your blue ocean.
 
 ## video-production/audio-sync
 - [INS-260320-10E8] Always clap once or use a clapboard at the start of each take -- the sharp transient creates a visible spike in both audio waveforms, making manual sync alignment trivial.
