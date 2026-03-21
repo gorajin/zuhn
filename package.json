@@ -15,21 +15,26 @@
     "mindmap": "tsx scripts/mindmap.ts",
     "search": "tsx scripts/search.ts",
     "embed": "tsx scripts/embed.ts",
-    "learn": "tsx scripts/learn.ts"
+    "learn": "tsx scripts/learn.ts",
+    "ingest": "tsx scripts/ingest.ts",
+    "extract": "tsx scripts/extract.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "@mozilla/readability": "^0.6.0",
     "better-sqlite3": "^12.8.0",
     "fast-glob": "^3.3.3",
     "gray-matter": "^4.0.3",
+    "jsdom": "^29.0.1",
     "sqlite-vec": "^0.1.7",
     "zod": "^4.3.6"
   },
   "devDependencies": {
     "@types/better-sqlite3": "^7.6.13",
+    "@types/jsdom": "^28.0.1",
     "@types/node": "^25.5.0",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
