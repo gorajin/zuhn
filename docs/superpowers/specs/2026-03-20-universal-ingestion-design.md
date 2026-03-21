@@ -1,7 +1,7 @@
 # Universal Content Ingestion Pipeline (Phase 6–7)
 
 **Date:** 2026-03-20
-**Status:** Review-passed
+**Status:** Approved
 **Author:** Jin Choi + Claude
 **Depends on:** Phases 1–4 (complete), Phase 5 (learning mechanisms — complete)
 
@@ -645,6 +645,70 @@ Per design review recommendation, build from the inside out:
 9. **`pdf.ts`** — simplest fetcher
 10. **`ingest.ts`** — CLI entry point that wires everything together
 11. **`package.json`** — new deps + scripts
+
+---
+
+## Appendix: Implementation Gotchas
+
+Six code-level quirks identified during review that must be handled proactively:
+
+### 1. Code Fence JSON Trap (`extract.ts`)
+
+Claude's RLHF training causes it to occasionally wrap file contents in markdown code fences (`` ```json ... ``` ``) even when instructed to write raw JSON. Strip before parsing:
+
+```typescript
+let raw = await readFile(filePath, "utf-8");
+raw = raw.replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/i, "").trim();
+const parsed = JSON.parse(raw);
+```
+
+### 2. Cross-Batch Salt Uniqueness (`extract.ts`)
+
+The batch index alone isn't sufficient for cross-batch uniqueness. If two batches both start at index 0 and share a title, IDs collide. Include source_id + timestamp:
+
+```typescript
+const salt = `${flags.source}-${Date.now()}-${index}`;
+const id = generateInsightId(insight.title, salt);
+```
+
+### 3. Manual vs Auto json3 Structure (`transcript-clean.ts`)
+
+Manual captions put text directly on `event.utf8`. Auto-captions use word-level `event.segs[]` array. Handle both:
+
+```typescript
+const text = event.segs
+  ? event.segs.map((s: { utf8: string }) => s.utf8).join("")
+  : event.utf8 || "";
+```
+
+### 4. yt-dlp stdout Pollution (`youtube.ts`)
+
+`yt-dlp --dump-json` sometimes prints warnings before the JSON blob, crashing `JSON.parse()`. Suppress with:
+
+```bash
+yt-dlp --dump-json --no-warnings --quiet <url>
+```
+
+### 5. JSDOM Relative URL Resolution (`blog.ts`)
+
+Pass the original URL to JSDOM so relative links (`/pricing`) resolve to absolute paths:
+
+```typescript
+const dom = new JSDOM(htmlString, { url: targetUrl });
+```
+
+### 6. Forgiving Zod Enums (`schemas/extraction.ts`)
+
+Claude will occasionally output `"Immediate"` or `"Very_High"` instead of lowercase. Use `z.preprocess` to normalize:
+
+```typescript
+const lowerCase = (val: unknown) =>
+  typeof val === "string" ? val.toLowerCase() : val;
+
+confidence: z.preprocess(lowerCase, z.enum(["pending", "low", "medium", "high", "very_high"])),
+actionability: z.preprocess(lowerCase, z.enum(["immediate", "reference", "inspiration"])),
+shelf_life: z.preprocess(lowerCase, z.enum(["evergreen", "time-sensitive"])),
+```
 
 ---
 
