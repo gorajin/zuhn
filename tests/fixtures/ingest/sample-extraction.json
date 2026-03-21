@@ -1,0 +1,31 @@
+{
+  "source_summary": "A podcast interview about AI automation honesty.",
+  "insights": [
+    {
+      "domain": "ai-development",
+      "topic": "automation",
+      "title": "Only automate what you deeply understand",
+      "actionability": "immediate",
+      "confidence": "high",
+      "shelf_life": "evergreen",
+      "tags": ["automation", "understanding", "ai-agents"],
+      "resolutions": {
+        "one_line": "Automate only processes you deeply understand — automating ignorance scales mistakes.",
+        "standard": "Max warns that automating what you don't understand just makes failures faster and harder to debug. First build the manual process, then automate."
+      }
+    },
+    {
+      "domain": "startups",
+      "topic": "hiring",
+      "title": "Convert customers into employees",
+      "actionability": "reference",
+      "confidence": "medium",
+      "shelf_life": "evergreen",
+      "tags": ["hiring", "customers", "culture-fit"],
+      "resolutions": {
+        "one_line": "Your best hires are users who already love and understand your product.",
+        "standard": "Gumloop converts power users into team members. They already know the product, believe in the mission, and require less onboarding."
+      }
+    }
+  ]
+}
