@@ -102,6 +102,10 @@ function fetchMetadata(url: string): YouTubeMetadata {
   };
 }
 
+function sleep(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
 async function downloadTranscript(
   url: string,
   rawDir: string,
@@ -112,28 +116,40 @@ async function downloadTranscript(
 
   await mkdir(rawDir, { recursive: true });
 
-  try {
-    execFileSync(
-      bin,
-      [
-        "--write-auto-sub",
-        "--write-sub",
-        "--sub-lang",
-        "en",
-        "--sub-format",
-        "json3",
-        "--skip-download",
-        "--no-warnings",
-        "--quiet",
-        "-o",
-        outputTemplate,
-        url,
-      ],
-      { encoding: "utf-8", stdio: "pipe" },
-    );
-  } catch (err: unknown) {
-    const msg = err instanceof Error ? err.message : String(err);
-    throw new Error(`yt-dlp subtitle download failed: ${msg}`);
+  const MAX_RETRIES = 3;
+  const BASE_DELAY_MS = 15_000; // 15 seconds
+
+  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    try {
+      execFileSync(
+        bin,
+        [
+          "--write-auto-sub",
+          "--write-sub",
+          "--sub-lang",
+          "en",
+          "--sub-format",
+          "json3",
+          "--skip-download",
+          "--no-warnings",
+          "--quiet",
+          "-o",
+          outputTemplate,
+          url,
+        ],
+        { encoding: "utf-8", stdio: "pipe" },
+      );
+      break; // success
+    } catch (err: unknown) {
+      const msg = err instanceof Error ? err.message : String(err);
+      if (msg.includes("429") && attempt < MAX_RETRIES) {
+        const delay = BASE_DELAY_MS * attempt;
+        console.log(`  Rate limited (429). Retrying in ${delay / 1000}s... (attempt ${attempt}/${MAX_RETRIES})`);
+        await sleep(delay);
+        continue;
+      }
+      throw new Error(`yt-dlp subtitle download failed: ${msg}`);
+    }
   }
 
   // Find the downloaded json3 file
