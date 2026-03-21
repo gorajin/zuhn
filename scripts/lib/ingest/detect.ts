@@ -1,6 +1,8 @@
-export type ContentType = "youtube" | "reddit" | "blog" | "pdf";
+export type ContentType = "youtube" | "reddit" | "blog" | "pdf" | "audio";
 
 const TRACKING_PARAMS = ["utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "ref", "si", "source"];
+
+const AUDIO_EXTENSIONS = [".mp3", ".wav", ".m4a", ".aac", ".ogg", ".flac", ".webm"];
 
 export function normalizeUrl(urlString: string): string {
   const url = new URL(urlString);
@@ -10,8 +12,20 @@ export function normalizeUrl(urlString: string): string {
   return result.endsWith("?") ? result.slice(0, -1) : result;
 }
 
-export function detectType(urlString: string): ContentType {
-  const url = new URL(urlString);
+function isLocalPath(input: string): boolean {
+  return !input.startsWith("http://") && !input.startsWith("https://");
+}
+
+export function detectType(input: string): ContentType {
+  // Handle local file paths before trying URL parsing
+  if (isLocalPath(input)) {
+    const lower = input.toLowerCase();
+    if (AUDIO_EXTENSIONS.some((ext) => lower.endsWith(ext))) return "audio";
+    if (lower.endsWith(".pdf")) return "pdf";
+    throw new Error(`Unsupported local file type: ${input}`);
+  }
+
+  const url = new URL(input);
   const host = url.hostname.replace(/^www\./, "").replace(/^m\./, "");
 
   if (host === "youtube.com" || host === "youtu.be") {

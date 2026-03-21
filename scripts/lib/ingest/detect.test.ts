@@ -32,6 +32,23 @@ describe("detectType", () => {
   it("defaults to blog for unknown URLs", () => {
     expect(detectType("https://blog.example.com/my-article")).toBe("blog");
   });
+  it("detects audio files by extension", () => {
+    expect(detectType("/path/to/conference-talk.mp3")).toBe("audio");
+    expect(detectType("/path/to/recording.m4a")).toBe("audio");
+    expect(detectType("/path/to/voice-memo.wav")).toBe("audio");
+  });
+  it("detects various audio formats", () => {
+    expect(detectType("/recordings/talk.aac")).toBe("audio");
+    expect(detectType("/recordings/talk.ogg")).toBe("audio");
+    expect(detectType("/recordings/talk.flac")).toBe("audio");
+    expect(detectType("/recordings/talk.webm")).toBe("audio");
+  });
+  it("detects local PDF paths", () => {
+    expect(detectType("/path/to/document.pdf")).toBe("pdf");
+  });
+  it("throws for unsupported local file types", () => {
+    expect(() => detectType("/path/to/file.txt")).toThrow(/Unsupported local file type/);
+  });
 });
 
 describe("normalizeUrl", () => {
