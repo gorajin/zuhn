@@ -18,6 +18,8 @@
     "learn": "tsx scripts/learn.ts",
     "ingest": "tsx scripts/ingest.ts",
     "extract": "tsx scripts/extract.ts",
+    "compress": "tsx scripts/compress.ts",
+    "create-principles": "tsx scripts/create-principles.ts",
     "sleep": "tsx scripts/sleep.ts",
     "wake": "tsx scripts/wake.ts"
   },
