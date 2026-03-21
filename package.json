@@ -18,7 +18,8 @@
     "learn": "tsx scripts/learn.ts",
     "ingest": "tsx scripts/ingest.ts",
     "extract": "tsx scripts/extract.ts",
-    "sleep": "tsx scripts/sleep.ts"
+    "sleep": "tsx scripts/sleep.ts",
+    "wake": "tsx scripts/wake.ts"
   },
   "keywords": [],
   "author": "",
