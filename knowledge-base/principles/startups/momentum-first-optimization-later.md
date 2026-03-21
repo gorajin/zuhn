@@ -41,6 +41,8 @@ resolutions:
     refine iteratively. The first filter isn't quality — it's market
     signal. Ship fast to discover if anyone cares, then optimize for
     the people who do.
+embedded: true
+embedding_model: "nomic-embed-text"
 ---
 
 Three insights describe a phase-dependent strategy: early-stage velocity

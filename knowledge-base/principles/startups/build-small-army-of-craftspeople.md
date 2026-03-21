@@ -39,6 +39,8 @@ resolutions:
     outperform large undifferentiated teams. Whether it's AI agents
     (scraper → analyst → formatter) or content teams (creator → editor
     → performance marketer), the pattern is the same.
+embedded: true
+embedding_model: "nomic-embed-text"
 ---
 
 Three insights reveal that creator relationship quality matters more than

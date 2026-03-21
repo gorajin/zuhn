@@ -44,6 +44,8 @@ resolutions:
     The meta-pattern: every failed marketing experiment projected the
     founder's model onto the customer. Every success extracted the
     customer's model and amplified it.
+embedded: true
+embedding_model: "nomic-embed-text"
 ---
 
 Four insights from Coconote's journey to $6.7M ARR converge: conversion

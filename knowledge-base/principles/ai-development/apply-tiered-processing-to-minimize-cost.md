@@ -47,6 +47,8 @@ resolutions:
     The principle: every token sent to an expensive model should have survived
     multiple cheaper filters first. Cost optimization is a pipeline design
     problem, not a model selection problem.
+embedded: true
+embedding_model: "nomic-embed-text"
 ---
 
 Six insights from production LLM systems describe a cost optimization

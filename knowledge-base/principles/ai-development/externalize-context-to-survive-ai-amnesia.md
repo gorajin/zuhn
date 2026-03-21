@@ -41,6 +41,8 @@ resolutions:
     The underlying principle: treat AI context like volatile memory. Anything
     not written to persistent storage will eventually be lost. The disk is the
     only reliable memory an AI agent has.
+embedded: true
+embedding_model: "nomic-embed-text"
 ---
 
 AI agents have a structural memory problem: context compaction discards

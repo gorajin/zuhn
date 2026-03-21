@@ -45,6 +45,8 @@ resolutions:
     The principle: specifications are not overhead — they are the primary
     artifact of knowledge work. Code is the second artifact. Treat specs with
     the same rigor as code: version them, review them, and maintain them.
+embedded: true
+embedding_model: "nomic-embed-text"
 ---
 
 Six insights from teams practicing Spec-Driven Development reveal that

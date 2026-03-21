@@ -44,6 +44,8 @@ resolutions:
     The principle mirrors Unix philosophy: do one thing well, compose through
     standard interfaces. In AI pipelines, the "standard interface" is
     structured data passed between stages.
+embedded: true
+embedding_model: "nomic-embed-text"
 ---
 
 Five insights from n8n automation workflows demonstrate that chaining

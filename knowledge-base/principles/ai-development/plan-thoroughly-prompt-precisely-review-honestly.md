@@ -48,6 +48,8 @@ resolutions:
     The principle is that AI collaboration is a skill. Like any skill, it
     improves through deliberate practice, honest self-assessment, and
     understanding the medium's constraints.
+embedded: true
+embedding_model: "nomic-embed-text"
 ---
 
 Seven insights from sustained Claude Code usage reveal that output quality

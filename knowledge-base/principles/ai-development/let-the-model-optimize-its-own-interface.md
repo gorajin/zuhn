@@ -36,6 +36,8 @@ resolutions:
     their side (planning, specificity, honest feedback per PRI-260320-8205),
     and the model can optimize its own side. Let it. The combined effect is
     multiplicative.
+embedded: true
+embedding_model: "nomic-embed-text"
 ---
 
 Two insights point to a counterintuitive optimization: instead of

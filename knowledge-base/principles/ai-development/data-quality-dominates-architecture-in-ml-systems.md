@@ -44,6 +44,8 @@ resolutions:
     architectural novelty. The ratio is roughly 2:1 in favor of data work
     (curation, filtering, decontamination, mixture tuning) over architecture
     experiments.
+embedded: true
+embedding_model: "nomic-embed-text"
 ---
 
 Five insights from HuggingFace's SmolLM3 training experience (3B params,

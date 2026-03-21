@@ -42,6 +42,8 @@ resolutions:
     information shared with your team. Diluting any of these — through
     discounts, broken features, or premature announcements — erodes
     the trust that compounds over time.
+embedded: true
+embedding_model: "nomic-embed-text"
 ---
 
 Three insights reveal that pricing and information management share a

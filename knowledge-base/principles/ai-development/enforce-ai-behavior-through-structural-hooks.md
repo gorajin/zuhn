@@ -47,6 +47,8 @@ resolutions:
 
     Principle: if a behavior matters, encode it as a hook. If it is merely
     documented, treat it as aspirational.
+embedded: true
+embedding_model: "nomic-embed-text"
 ---
 
 Across 9 independent insights from months of Claude Code usage, one pattern

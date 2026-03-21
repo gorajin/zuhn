@@ -39,6 +39,8 @@ resolutions:
     services. The automation layer is disposable; your identity is not. This
     is the same pattern as using environment variables for credentials — the
     interface is decoupled from the identity.
+embedded: true
+embedding_model: "nomic-embed-text"
 ---
 
 Three insights from LinkedIn scraping and automation workflows converge

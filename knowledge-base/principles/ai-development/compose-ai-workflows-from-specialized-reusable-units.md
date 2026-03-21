@@ -46,6 +46,8 @@ resolutions:
     independently testable components. Each piece does one thing well. The
     composition layer connects them. This makes the system debuggable,
     evolvable, and resilient to individual component failures.
+embedded: true
+embedding_model: "nomic-embed-text"
 ---
 
 Six insights converge on the same software engineering principle applied to
