@@ -21,7 +21,9 @@
     "compress": "tsx scripts/compress.ts",
     "create-principles": "tsx scripts/create-principles.ts",
     "sleep": "tsx scripts/sleep.ts",
-    "wake": "tsx scripts/wake.ts"
+    "wake": "tsx scripts/wake.ts",
+    "archive": "tsx scripts/archive.ts",
+    "resurrect": "tsx scripts/resurrect.ts"
   },
   "keywords": [],
   "author": "",
