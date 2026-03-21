@@ -10,6 +10,7 @@ import {
   discoverClusters,
   detectGaps,
   detectTransfers,
+  detectTensions,
   writeFlagsFile,
 } from "./lib/learning";
 
@@ -103,7 +104,18 @@ async function main(): Promise<void> {
     }
     console.log();
 
-    // 8. Write flags file with all sections
+    // 8. Mechanism 7: Tension Detection
+    console.log("── Mechanism 7: Tension Detection ─────");
+    const tensionResult = await detectTensions(db, KB_ROOT);
+    if (tensionResult.newTensions > 0) {
+      console.log(
+        `\n${tensionResult.newTensions} new tension(s) created.\n`
+      );
+    } else {
+      console.log("  No new tensions detected.\n");
+    }
+
+    // 9. Write flags file with all sections
     const allFlags = {
       compress: compressFlags,
       discover: clusterFlags,
@@ -118,7 +130,7 @@ async function main(): Promise<void> {
       transferFlags.length;
     console.log(`Wrote ${totalFlags} flag(s) to meta/flags.md.\n`);
 
-    // 9. Summary
+    // 10. Summary
     console.log("┌──────────────────────────────────────┐");
     console.log("│          Learning Summary             │");
     console.log("├──────────────────────────────────────┤");
@@ -139,6 +151,9 @@ async function main(): Promise<void> {
     );
     console.log(
       `│  Transfer flags:      ${String(transferFlags.length).padEnd(14)}│`
+    );
+    console.log(
+      `│  Tensions created:    ${String(tensionResult.newTensions).padEnd(14)}│`
     );
     console.log("└──────────────────────────────────────┘");
   } finally {

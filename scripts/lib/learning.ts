@@ -1,8 +1,9 @@
 import type Database from "better-sqlite3";
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { join } from "node:path";
 import fg from "fast-glob";
 import matter from "gray-matter";
+import { generateTensionId } from "./generate-id";
 
 // ─── Types ──────────────────────────────────────────────────────────
 
@@ -47,6 +48,11 @@ export interface TransferFlag {
   targetDomain: string;
   targetTopic: string;
   similarity: number;
+}
+
+export interface TensionResult {
+  newTensions: number;
+  tensions: Array<{ id: string; title: string; sideA: string; sideB: string }>;
 }
 
 export interface LearningFlags {
@@ -817,6 +823,196 @@ export async function detectTransfers(
   }
 
   return flags;
+}
+
+// ─── Mechanism 7: Tension Detection ──────────────────────────────────
+
+/**
+ * Opposing keyword pairs. If one insight contains keyword A and a
+ * highly similar insight contains keyword B from the SAME pair,
+ * a tension is flagged.
+ */
+const OPPOSING_PAIRS: [string[], string[]][] = [
+  [["always"], ["never"]],
+  [["best"], ["worst"]],
+  [["cheap"], ["expensive", "costly"]],
+  [["simple"], ["complex"]],
+  [["more"], ["less", "fewer"]],
+  [["automate"], ["manual"]],
+];
+
+/**
+ * Check if a text contains any keyword from the given set (case-insensitive,
+ * word-boundary match).
+ */
+function containsKeyword(text: string, keywords: string[]): boolean {
+  const lower = text.toLowerCase();
+  return keywords.some((kw) => {
+    const re = new RegExp(`\\b${kw}\\b`, "i");
+    return re.test(lower);
+  });
+}
+
+/**
+ * Detect tensions between highly similar insights that contain
+ * opposing heuristic keywords. Creates tension files in
+ * knowledge-base/tensions/ for each new detection.
+ */
+export async function detectTensions(
+  db: Database.Database,
+  kbRoot: string
+): Promise<TensionResult> {
+  const DISTANCE_THRESHOLD = 0.25;
+
+  // 1. Get all embedded insight IDs
+  const embeddedRows = db
+    .prepare("SELECT id FROM embeddings WHERE id LIKE 'INS-%'")
+    .all() as { id: string }[];
+
+  if (embeddedRows.length < 2) {
+    return { newTensions: 0, tensions: [] };
+  }
+
+  // 2. For each insight, find highly similar neighbors (distance < 0.25)
+  const neighborStmt = db.prepare(`
+    SELECT id, distance
+    FROM embeddings
+    WHERE embedding MATCH (SELECT embedding FROM embeddings WHERE id = ?)
+    ORDER BY distance
+    LIMIT 20
+  `);
+
+  // 3. Load one_line text for all insights
+  const insightStmt = db.prepare(
+    "SELECT id, one_line, file_path, title FROM insights WHERE id = ?"
+  );
+
+  // 4. Scan existing tension files to get already-linked pairs
+  const tensionsDir = join(kbRoot, "tensions");
+  const existingTensionFiles = await fg("*.md", {
+    cwd: tensionsDir,
+    absolute: true,
+    ignore: ["_index.md"],
+  });
+
+  const existingPairs = new Set<string>();
+  for (const tf of existingTensionFiles) {
+    try {
+      const raw = await readFile(tf, "utf-8");
+      const { data } = matter(raw);
+      const sideA = Array.isArray(data.side_a) ? data.side_a : [];
+      const sideB = Array.isArray(data.side_b) ? data.side_b : [];
+      // Build a canonical key for each pair
+      for (const a of sideA) {
+        for (const b of sideB) {
+          const key = [a, b].sort().join("|");
+          existingPairs.add(key);
+        }
+      }
+    } catch {
+      // Skip unreadable tension files
+    }
+  }
+
+  // 5. Check each pair for opposing keywords
+  const seenPairs = new Set<string>();
+  const result: TensionResult = { newTensions: 0, tensions: [] };
+
+  for (const row of embeddedRows) {
+    const neighbors = neighborStmt.all(row.id) as NeighborRow[];
+
+    const insightA = insightStmt.get(row.id) as
+      | { id: string; one_line: string; file_path: string; title: string }
+      | undefined;
+    if (!insightA) continue;
+
+    for (const n of neighbors) {
+      if (n.id === row.id) continue;
+      if (n.distance >= DISTANCE_THRESHOLD) continue;
+      if (!n.id.startsWith("INS-")) continue;
+
+      // Canonical pair key to avoid duplicates
+      const pairKey = [row.id, n.id].sort().join("|");
+      if (seenPairs.has(pairKey)) continue;
+      seenPairs.add(pairKey);
+
+      // Skip if tension already exists
+      if (existingPairs.has(pairKey)) continue;
+
+      const insightB = insightStmt.get(n.id) as
+        | { id: string; one_line: string; file_path: string; title: string }
+        | undefined;
+      if (!insightB) continue;
+
+      const textA = `${insightA.title} ${insightA.one_line}`;
+      const textB = `${insightB.title} ${insightB.one_line}`;
+
+      // Check opposing keyword pairs
+      for (const [sideAKeywords, sideBKeywords] of OPPOSING_PAIRS) {
+        const aHasA = containsKeyword(textA, sideAKeywords);
+        const bHasB = containsKeyword(textB, sideBKeywords);
+        const aHasB = containsKeyword(textA, sideBKeywords);
+        const bHasA = containsKeyword(textB, sideAKeywords);
+
+        if ((aHasA && bHasB) || (aHasB && bHasA)) {
+          // Tension detected — create file
+          const tensionTitle = `${insightA.title} vs. ${insightB.title}`;
+          const tensionId = generateTensionId(
+            tensionTitle,
+            `${row.id}:${n.id}`
+          );
+
+          const tensionData = {
+            id: tensionId,
+            title: tensionTitle,
+            status: "unresolved",
+            side_a: [row.id],
+            side_b: [n.id],
+          };
+
+          const tensionBody = [
+            "",
+            `**Side A:** "${insightA.one_line}"`,
+            `**Side B:** "${insightB.one_line}"`,
+            "**Resolution:** [To be resolved by Claude during reasoning sessions]",
+            "",
+          ].join("\n");
+
+          const tensionContent = matter.stringify(tensionBody, tensionData);
+
+          // Write tension file
+          const slug = tensionTitle
+            .toLowerCase()
+            .replace(/[^a-z0-9]+/g, "-")
+            .replace(/^-|-$/g, "")
+            .slice(0, 80);
+          const tensionPath = join(tensionsDir, `${slug}.md`);
+
+          await mkdir(tensionsDir, { recursive: true });
+          await writeFile(tensionPath, tensionContent, "utf-8");
+
+          result.newTensions++;
+          result.tensions.push({
+            id: tensionId,
+            title: tensionTitle,
+            sideA: row.id,
+            sideB: n.id,
+          });
+
+          console.log(`  TENSION: ${tensionTitle}`);
+          console.log(`    ${row.id} vs ${n.id}`);
+
+          // Mark this pair as existing now
+          existingPairs.add(pairKey);
+
+          // Only flag one opposing pair per insight pair
+          break;
+        }
+      }
+    }
+  }
+
+  return result;
 }
 
 // ─── Flags file writer ──────────────────────────────────────────────

@@ -8,6 +8,7 @@ import {
   SourceFrontmatter,
   PrincipleFrontmatter,
   MentalModelFrontmatter,
+  TensionFrontmatter,
 } from "./schemas/frontmatter.js";
 import type { z } from "zod";
 
@@ -141,7 +142,17 @@ async function main(): Promise<void> {
   allErrors.push(...sourceResult.errors);
   allWarnings.push(...sourceResult.warnings);
 
-  // 5. Referential integrity: check that related[] links point to valid IDs
+  // 5. Validate tension files
+  const tensionResult = await validateFiles(
+    "tensions/*.md",
+    ["**/_index.md"],
+    TensionFrontmatter,
+    "Tensions"
+  );
+  allErrors.push(...tensionResult.errors);
+  allWarnings.push(...tensionResult.warnings);
+
+  // 6. Referential integrity: check that related[] links point to valid IDs
   {
     // Collect all valid insight and principle IDs
     const validIds = new Set<string>();
