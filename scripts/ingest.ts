@@ -4,9 +4,9 @@
  *
  * Usage: npx tsx scripts/ingest.ts <url-or-path> [--force]
  *
- * Detects content type (YouTube, Reddit, blog, PDF) from the URL,
- * fetches/extracts the content, creates a source .md file, and
- * prints metadata + clean text to stdout.
+ * Detects content type (YouTube, Reddit, blog, PDF, audio) from the
+ * URL or local file path, fetches/extracts the content, creates a
+ * source .md file, and prints metadata + clean text to stdout.
  */
 
 import { join } from "node:path";
@@ -105,22 +105,17 @@ function meta(key: string, value: string | number): void {
 
 async function main(): Promise<void> {
   // 1. Normalize URL (or pass through for local paths)
+  const isLocalPath = !isUrl(rawInput);
   let url: string;
-  let isPdfPath = false;
 
-  if (isUrl(rawInput)) {
-    url = normalizeUrl(rawInput);
-  } else if (rawInput.toLowerCase().endsWith(".pdf")) {
-    // Local PDF path
+  if (isLocalPath) {
     url = rawInput;
-    isPdfPath = true;
   } else {
-    console.error("Usage: ingest.ts <url-or-path> [--force]");
-    process.exit(1);
+    url = normalizeUrl(rawInput);
   }
 
   // 2. Check for duplicates (only for URLs, not local paths)
-  if (!forceFlag && isUrl(url)) {
+  if (!forceFlag && !isLocalPath) {
     const existingId = await findDuplicate(url);
     if (existingId) {
       console.error(
@@ -132,16 +127,12 @@ async function main(): Promise<void> {
 
   // 3. Detect content type
   let type: ReturnType<typeof detectType>;
-  if (isPdfPath) {
-    type = "pdf";
-  } else {
-    try {
-      type = detectType(url);
-    } catch (err: unknown) {
-      // detectType throws for playlists, etc.
-      console.error(err instanceof Error ? err.message : String(err));
-      process.exit(1);
-    }
+  try {
+    type = detectType(url);
+  } catch (err: unknown) {
+    // detectType throws for playlists, unsupported file types, etc.
+    console.error(err instanceof Error ? err.message : String(err));
+    process.exit(1);
   }
 
   // 4. Gather domain list for metadata header
@@ -366,6 +357,36 @@ async function main(): Promise<void> {
         console.log();
         console.log(`PDF saved to ${result.rawPath}. Use Read tool to review.`);
         meta("Source file", result.sourcePath);
+      } catch (err: unknown) {
+        console.error(
+          err instanceof Error ? err.message : String(err),
+        );
+        process.exit(1);
+      }
+      break;
+    }
+
+    case "audio": {
+      const { ingestAudio } = await import("./lib/ingest/audio");
+
+      try {
+        const result = await ingestAudio(url, KB_ROOT);
+        console.log(`SUCCESS: Source created as ${result.sourceId}`);
+        console.log();
+        meta("Type", "audio");
+        meta("Title", result.metadata.title);
+        meta("Duration", result.metadata.duration);
+        meta("Word count", result.wordCount.toLocaleString());
+        if (domains.length > 0) {
+          meta("Existing domains", domains.join(", "));
+        }
+        meta("Source file", result.sourcePath);
+
+        await outputContent(
+          result.cleanText,
+          slugify(result.metadata.title),
+          join(KB_ROOT, "sources", "audio"),
+        );
       } catch (err: unknown) {
         console.error(
           err instanceof Error ? err.message : String(err),
