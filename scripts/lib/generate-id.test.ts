@@ -7,6 +7,34 @@ import {
   generateTensionId,
 } from "./generate-id";
 
+describe("salt parameter", () => {
+  it("produces different IDs with different salts", () => {
+    const title = "Same title";
+    const id1 = generateInsightId(title, "salt-0");
+    const id2 = generateInsightId(title, "salt-1");
+    expect(id1).not.toBe(id2);
+  });
+
+  it("produces same ID without salt (backward compatible)", () => {
+    const title = "Backward compat";
+    const before = generateInsightId(title);
+    expect(generateInsightId(title)).toBe(before);
+  });
+
+  it("salt works with numeric values", () => {
+    const title = "Numeric salt";
+    const id1 = generateInsightId(title, 0);
+    const id2 = generateInsightId(title, 1);
+    expect(id1).not.toBe(id2);
+  });
+
+  it("salt applies to all ID types", () => {
+    const title = "Multi-type";
+    expect(generateSourceId(title, "a")).not.toBe(generateSourceId(title, "b"));
+    expect(generatePrincipleId(title, "a")).not.toBe(generatePrincipleId(title, "b"));
+  });
+});
+
 const TODAY = new Date();
 const YYMMDD =
   String(TODAY.getFullYear()).slice(-2) +
