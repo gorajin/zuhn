@@ -95,3 +95,7 @@
 - **2026-03-22 09:09:28** — post-ingest completed — health=FAILED, reindex=OK, embed=OK, learn=OK, views=OK, auto-git=COMMITTED
 
 - **2026-03-22 09:10:20** — post-ingest health check failed (continuing): Command failed: npx tsx /Users/jinchoi/Code/Reddit/scripts/health.ts
+
+- **2026-03-22 09:10:23** — post-ingest completed — health=FAILED, reindex=OK, embed=OK, learn=OK, views=OK, auto-git=COMMITTED
+
+- **2026-03-22 09:10:47** — post-ingest health check failed (continuing): Command failed: npx tsx /Users/jinchoi/Code/Reddit/scripts/health.ts

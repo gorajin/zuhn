@@ -15,6 +15,7 @@ Generated on 2026-03-22 | 55 sources
 | The Leverage Field Manual — How to multiply your output without working more | paste | 6 | 2026-03-22 |
 | $215M AI CEO: How I’d Build a Profitable AI Startup in 30 Days (2026 Playbook) | youtube | 6 | 2026-03-22 |
 | Why we shifted to Spec-Driven Development | reddit | 6 | 2026-03-20 |
+| Claude for Finance | pdf | 5 | 2026-03-22 |
 | AI Markets: Deep Dive with a16z's David George | youtube | 5 | 2026-03-22 |
 | Atlassian CEO on the SaaS Apocalypse, AI Agents & What Comes Next | youtube | 5 | 2026-03-22 |
 | Ben Horowitz and David Solomon: The Sweetest Macro Spot in 40 Years | youtube | 5 | 2026-03-22 |
@@ -30,7 +31,6 @@ Generated on 2026-03-22 | 55 sources
 | The Biggest Bottlenecks For AI: Energy & Cooling | youtube | 5 | 2026-03-22 |
 | Where does consumer AI stand at the end of 2025? | youtube | 5 | 2026-03-22 |
 | Why Scale Will Not Solve AGI | Vishal Misra - The a16z Show | youtube | 5 | 2026-03-22 |
-| Claude for Finance | pdf | 5 | 2026-03-22 |
 | 200+ pages of Hugging Face secrets on how to train an LLM | reddit | 5 | 2026-03-20 |
 | Debugging as architecture insight: dissecting a VLA | blog | 4 | 2026-03-22 |
 | How is this time different?  | blog | 4 | 2026-03-22 |
