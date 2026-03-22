@@ -18,7 +18,6 @@ sources:
     author: Max Brodeur-Urbas (EO podcast)
     url: 'https://youtu.be/CxFQykWiJqY'
 related:
-  - INS-260320-C56D
   - PRI-260320-D2E1
   - INS-260321-2F09
   - INS-260320-080B

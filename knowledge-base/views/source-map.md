@@ -22,6 +22,7 @@ Generated on 2026-03-22 | 45 sources
 | How To Get Unique AI Startup Ideas | youtube | 5 | 2026-03-22 |
 | Inside a16z’s Top 100 AI Apps Report with Olivia Moore | youtube | 5 | 2026-03-22 |
 | Inside Palantir: Building Software That Matters | Shyam Sankar on a16z | youtube | 5 | 2026-03-22 |
+| Inside the New Media Team with Marc Andreessen & Ben Horowitz | youtube | 5 | 2026-03-22 |
 | Why Scale Will Not Solve AGI | Vishal Misra - The a16z Show | youtube | 5 | 2026-03-22 |
 | Debugging as architecture insight: dissecting a VLA | blog | 4 | 2026-03-22 |
 | How is this time different?  | blog | 4 | 2026-03-22 |
@@ -46,5 +47,4 @@ Generated on 2026-03-22 | 45 sources
 | [Tutorial] All there is to know about syncing video and audio | reddit | 2 | 2026-03-20 |
 | AI Markets: Deep Dive with a16z's David George | youtube | 0 | 2026-03-22 |
 | Andrew Huberman: Peptides, Sleep Tech, and the End of Obesity | youtube | 0 | 2026-03-22 |
-| Inside the New Media Team with Marc Andreessen & Ben Horowitz | youtube | 0 | 2026-03-22 |
 | Palantir CEO on Iran, AI Weapons and American Domination | a16z American Dynamism Summit | youtube | 0 | 2026-03-22 |

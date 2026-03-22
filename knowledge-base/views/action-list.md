@@ -1,5 +1,5 @@
 # Action List
-Generated on 2026-03-22 | 129 actionable insights
+Generated on 2026-03-22 | 133 actionable insights
 
 ## ai-development/agent-patterns
 - [INS-260320-1B10] Have Claude review its own code via a specialized review agent — catches critical errors, missing implementations, and security flaws.
@@ -159,6 +159,10 @@ Generated on 2026-03-22 | 129 actionable insights
 - [INS-260321-8D2B] Price AI products using three factors: value creation vs human cost, unit economics including hidden storage costs, and representative customer surveys.
 - [INS-260321-4E98] Horizontal consumer AI agents like Manus grow explosively but face acquisition by big tech because once agentic capabilities become commoditized, distribution and existing enterprise contracts become the deciding moat.
 - [INS-260321-AA91] Enterprise customers resist AI credit-based pricing because credits are opaque (unlike transferable units like gigabytes), vendors can silently increase consumption by adding features, and outcome-based pricing creates a dynamic baseline problem where savings erode year over year.
+- [INS-260321-69E1] A16z hired an 18-year-old for Instagram (up 35% MoM) because each platform has its own vibe, taste, and spirit — crossposting one idea everywhere fails to appreciate what each platform rewards.
+- [INS-260321-FB3F] Every time a public figure gets destroyed, it's because of something too short to contain context — say everything you think, but say it on a podcast or in an essay.
+- [INS-260321-2564] In old media you could never correct a misinterpretation; in new media you can drown it out by going on 30 podcasts to talk about something more interesting.
+- [INS-260321-5598] Professional CEOs trained to say nothing on stage now lose to founder CEOs interesting enough to fill 3 hours on Joe Rogan — the 80-year reign of synthetic corporate communication is over.
 
 ## startups/ideation
 - [INS-260321-6BA7] Find ideas that have been discarded by others rather than trying to discover something no one has ever thought of.

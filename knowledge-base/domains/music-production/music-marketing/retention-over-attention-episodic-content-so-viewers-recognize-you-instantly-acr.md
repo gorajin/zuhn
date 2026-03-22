@@ -44,8 +44,8 @@ resolutions:
 related:
   - INS-260321-ADB4
   - INS-260321-3312
+  - INS-260321-EE05
   - INS-260321-3660
   - INS-260321-C902
-  - INS-260320-D58E
 ---
 Keyes uses the Game of Thrones analogy: imagine episode 1 is dragons, episode 2 is WWII tanks, episode 3 is space. You'd be confused and quit. Most artists do exactly this — their feed is chaotic with live clips, mimed videos, behind-the-scenes, different styles, different people. Since viewers don't see every post, they never build a coherent picture. The fix: make content episodic so viewers instantly recognize it's you. Attention gets them in, but retention keeps them. Behind-the-scenes content should only go to people who already know who you are (stories, existing fans), not to discovery feeds where strangers have zero context. Content without context slams the brakes on growth.

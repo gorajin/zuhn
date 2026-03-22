@@ -1,6 +1,6 @@
 # Knowledge Base Master Index
 
-> Last rebuilt: 2026-03-22 | Total insights: 226 | Sources: 42
+> Last rebuilt: 2026-03-22 | Total insights: 231 | Sources: 43
 
 **NOTE:** Access counts and last_accessed are updated automatically when insights are retrieved.
 
@@ -13,7 +13,7 @@
 | investing | 1 | 14 | 3 | 2026-03-21 |
 | music-production | 3 | 9 | 0 | 2026-03-21 |
 | pets | 1 | 2 | 0 | 2026-03-20 |
-| startups | 5 | 54 | 4 | 2026-03-21 |
+| startups | 5 | 59 | 4 | 2026-03-21 |
 | video-production | 3 | 7 | 0 | 2026-03-21 |
 
 ## Mental Models
@@ -25,7 +25,7 @@
 
 ## Top Tags
 
-agents(12) automation(11) n8n(11) workflow(9) prompting(9) content-strategy(9) skills(8) hooks(8) llm-costs(8) productivity(7) spec-driven-dev(7) scaling(6) china(6) leverage(6) youtube(6) debugging(5) trust(5) ai-adoption(5) context-management(5) architecture(5)
+agents(12) automation(11) n8n(11) content-strategy(11) workflow(9) prompting(9) skills(8) hooks(8) llm-costs(8) productivity(7) spec-driven-dev(7) scaling(6) china(6) leverage(6) youtube(6) debugging(5) trust(5) ai-adoption(5) context-management(5) architecture(5)
 
 ## Flags (for Claude)
 
@@ -81,15 +81,15 @@ _No flags._
 - `INS-260321-9A03` Workers who see their employer as invested in them are more optimistic about AI. Building trust in AI may require building trust in the people deploying it, more than changing attitudes toward the technology. _(2026-03-21)_
 - `INS-260321-99C0` Share every major decision with AI daily, then monthly ask 'what was my biggest mistake in the past 6 months?' — accumulated context makes AI an increasingly powerful strategic advisor. _(2026-03-21)_
 - `INS-260321-FD14` Vibe coding won't replace enterprise SaaS because of comparative advantage and hidden edge cases — but it dramatically increases platform extensibility by letting non-developers build custom applications on top of existing systems of record. _(2026-03-21)_
-- `INS-260321-AD95` Since VLAs eliminate the interfaces needed for classical debugging, you must invent new probe methods: attention visualization, camera ablations, counterfactual prompting, and primitive action tests. _(2026-03-21)_
-- `INS-260321-801C` Fuelfinance is building an MCP integration that lets Claude talk directly to your financial data inside Fuel — eliminating the copy-paste bottleneck between your accounting system and AI analysis. _(2026-03-21)_
-- `INS-260321-9906` Natural language interfaces change who can program a robot, not just what it can do — but they trade a small precise vocabulary (preprogrammed tasks) for a large ambiguous one where the boundary of understanding is opaque. _(2026-03-21)_
-- `INS-260321-167A` Finance has three jobs: explain what happened (the metric), why it happened (the business decision), and what to do next (the action with timeline). Most teams nail the first and struggle with the second. _(2026-03-21)_
 - `INS-260321-53E2` All AI computation is matrix multiplication (word relationships scored as points in matrices) — Hinton discovered GPUs excelled at this by accident in 2012, winning ImageNet overwhelmingly. _(2026-03-21)_
 - `INS-260321-1F9F` Scary stories about LLMs trying to deceive or resist shutdown are reflections of training data patterns, not emergent architectural properties — the objective function is purely next-token prediction. _(2026-03-21)_
 - `INS-260321-8567` LLMs learn and navigate the manifold created by human-written training data but cannot create new manifolds — the representation breakthroughs that define scientific revolutions. _(2026-03-21)_
 - `INS-260321-B014` Bayesian wind tunnel experiments prove transformers perform exact Bayesian posterior updating to 10^-3 bits accuracy, but this mechanism is purely correlational — not causal. _(2026-03-21)_
 - `INS-260321-8C35` AGI requires weight plasticity (continual learning without catastrophic forgetting) and causal modeling (simulation over correlation) — neither solvable by making models bigger. _(2026-03-21)_
+- `INS-260321-AD95` Since VLAs eliminate the interfaces needed for classical debugging, you must invent new probe methods: attention visualization, camera ablations, counterfactual prompting, and primitive action tests. _(2026-03-21)_
+- `INS-260321-801C` Fuelfinance is building an MCP integration that lets Claude talk directly to your financial data inside Fuel — eliminating the copy-paste bottleneck between your accounting system and AI analysis. _(2026-03-21)_
+- `INS-260321-9906` Natural language interfaces change who can program a robot, not just what it can do — but they trade a small precise vocabulary (preprogrammed tasks) for a large ambiguous one where the boundary of understanding is opaque. _(2026-03-21)_
+- `INS-260321-167A` Finance has three jobs: explain what happened (the metric), why it happened (the business decision), and what to do next (the action with timeline). Most teams nail the first and struggle with the second. _(2026-03-21)_
 - `INS-260321-4B99` Factory capacity for DRAM and NAND is fixed, but AI demand pays so much more that producers shifted mass production lines to HBM — making consumer memory prices rise in tandem. _(2026-03-21)_
 - `INS-260321-F2C4` 25% of business development company portfolios are in software companies — the sector most disrupted by AI — with 31% of debts maturing in the next two years. _(2026-03-21)_
 - `INS-260321-10FF` Saudi Arabia and Israel were sworn enemies for decades. Now they're aligning because both want to be core hub stations on IMEC. When economic interests change, the colors beneath the board change on their own. _(2026-03-21)_
@@ -125,31 +125,36 @@ _No flags._
 - `INS-260321-1A99` After the Cold War, defense consolidated from 51 primes to 5 — the real damage wasn't lost competition but financialization that expelled all the founders and heretics. _(2026-03-21)_
 - `INS-260321-13C6` Every determinative defense innovation in history was a heretical idea — someone had to protect the heretic from the institution that tried to kill them. _(2026-03-21)_
 - `INS-260321-C0A4` Your probability of success directly correlates with whether your closest friends care about and push you toward what you want to achieve. _(2026-03-21)_
-- `INS-260321-1A84` People who are naturally quirky and nonconformist constantly generate strange ideas on their own, while those skilled at reading consensus find it hardest to produce unique ideas. _(2026-03-21)_
 - `INS-260321-38EC` Channels with 3,000-5,000 subscribers are hitting 2-3 million views by applying proven formats to underserved markets — subscriber count doesn't determine reach when format-market fit is strong. _(2026-03-21)_
 - `INS-260321-AA91` Enterprise customers resist AI credit-based pricing because credits are opaque (unlike transferable units like gigabytes), vendors can silently increase consumption by adding features, and outcome-based pricing creates a dynamic baseline problem where savings erode year over year. _(2026-03-21)_
 - `INS-260321-C902` New AI products follow a predictable distribution ladder: X small communities then AI news pages then Instagram news then creators then Telegram. _(2026-03-21)_
 - `INS-260321-E654` Defense primes' advantage over startups is not inventiveness but production and manufacturing at scale — startups must build factory and quality-testing muscle to cross the procurement chasm. _(2026-03-21)_
+- `INS-260321-69E1` A16z hired an 18-year-old for Instagram (up 35% MoM) because each platform has its own vibe, taste, and spirit — crossposting one idea everywhere fails to appreciate what each platform rewards. _(2026-03-21)_
 - `INS-260321-021B` Higgsfield interviewed 8 creatives — all 8 gave identical feedback about camera controls, which became their breakout feature. _(2026-03-21)_
 - `INS-260321-4E98` Horizontal consumer AI agents like Manus grow explosively but face acquisition by big tech because once agentic capabilities become commoditized, distribution and existing enterprise contracts become the deciding moat. _(2026-03-21)_
+- `INS-260321-FB3F` Every time a public figure gets destroyed, it's because of something too short to contain context — say everything you think, but say it on a podcast or in an essay. _(2026-03-21)_
 - `INS-260321-ADB4` Allocate 80% of content to evergreen material (guides, frameworks, reference) and 20% to timely pieces. Every piece should exist in at least five formats: audio, video, short clips, newsletter, social thread. _(2026-03-21)_
 - `INS-260321-C4CD` A podcast episode is both a distribution mechanism AND a credibility-building mechanism — it operates on two axes at once. Most tools do one thing. Media does both, which is why its returns feel disproportionate. _(2026-03-21)_
+- `INS-260321-2564` In old media you could never correct a misinterpretation; in new media you can drown it out by going on 30 podcasts to talk about something more interesting. _(2026-03-21)_
 - `INS-260321-099E` Don't find a blue ocean — create one by taking a format proven in Market A and applying it to Market B where nobody has used it yet. _(2026-03-21)_
 - `INS-260321-5C24` Apply three filters to find viable AI businesses: ruthlessly niche (cannot be segmented further), boring (non-competitive), and existing services to replace (agencies/freelancers/hacky solutions). _(2026-03-21)_
 - `INS-260321-C292` After the movie 300, Navy SEAL recruitment spiked — entertainment that inspires heroism and optimism creates the cultural conditions for industrial mobilization. _(2026-03-21)_
 - `INS-260321-3BA8` The Department of War is replacing cost-plus contracts with 1000-requirement RFPs with simple firm-fixed-price requirements — the SpaceX model where vendors keep margins from economizing. _(2026-03-21)_
 - `INS-260321-8D2B` Price AI products using three factors: value creation vs human cost, unit economics including hidden storage costs, and representative customer surveys. _(2026-03-21)_
 - `INS-260321-96CE` Markets (topics) rarely change and can't be invented. Formats (creative vessels) are born daily. Innovate on format, not market — then transplant across markets for maximum leverage. _(2026-03-21)_
+- `INS-260321-5598` Professional CEOs trained to say nothing on stage now lose to founder CEOs interesting enough to fill 3 hours on Joe Rogan — the 80-year reign of synthetic corporate communication is over. _(2026-03-21)_
+- `INS-260321-EE05` The NYT's 24-hour editorial cycle is an OODA loop — the internet cycles in 12 hours, causing traditional media to perpetually chase viral posts and have a psychological breakdown. _(2026-03-21)_
 - `INS-260321-141B` Write a proven format at the top of a grid, list all markets down the side, mark where the combination exists — empty cells are your blue ocean. _(2026-03-21)_
+- `INS-260321-86E7` As AI-generated articles surpass human-written ones and AI slop floods social media, audiences will increasingly seek out authentic creators with long-term trusted brands. _(2026-03-21)_
+- `INS-260321-4280` With 10,000+ hours of footage online, any inauthenticity would surface as visible inconsistencies — authenticity is not a choice but a mathematical constraint at scale. _(2026-03-21)_
+- `INS-260321-AACC` MrBeast spent a decade obsessing over one question: what makes content enjoyable for anyone regardless of geography? The answer is universal human experiences. _(2026-03-21)_
 - `INS-260321-3521` Using another company's funding as market validation is a false signal — investors often fund founders, not ideas, and many funded companies pivoted from their original concept. _(2026-03-21)_
 - `INS-260321-CCD9` Basic image generation is being absorbed by foundation models, but creative tools that are aesthetically opinionated (Midjourney) or own non-commoditized modalities (Suno for music, 11 Labs for voice) maintain defensible positions. _(2026-03-21)_
 - `INS-260321-6BA7` Find ideas that have been discarded by others rather than trying to discover something no one has ever thought of. _(2026-03-21)_
 - `INS-260321-7109` SaaS companies where seats are tied to work output (Zendesk) face existential risk from AI, those where seats are just a pricing trick unrelated to output (Workday) are safe, and those in between (Adobe) face moderate pressure. _(2026-03-21)_
 - `INS-260321-3660` Making startup decisions based on VC podcasts and content is literally the definition of generating non-unique ideas. _(2026-03-21)_
 - `INS-260321-E471` Most founders filter out ideas requiring more than two years to work, so simply imagining ideas with longer timelines dramatically reduces competition. _(2026-03-21)_
-- `INS-260321-86E7` As AI-generated articles surpass human-written ones and AI slop floods social media, audiences will increasingly seek out authentic creators with long-term trusted brands. _(2026-03-21)_
-- `INS-260321-4280` With 10,000+ hours of footage online, any inauthenticity would surface as visible inconsistencies — authenticity is not a choice but a mathematical constraint at scale. _(2026-03-21)_
-- `INS-260321-AACC` MrBeast spent a decade obsessing over one question: what makes content enjoyable for anyone regardless of geography? The answer is universal human experiences. _(2026-03-21)_
+- `INS-260321-1A84` People who are naturally quirky and nonconformist constantly generate strange ideas on their own, while those skilled at reading consensus find it hardest to produce unique ideas. _(2026-03-21)_
 - `INS-260320-1B10` Have Claude review its own code via a specialized review agent — catches critical errors, missing implementations, and security flaws. _(2026-03-20)_
 - `INS-260320-9D89` Give agents very specific roles and clear instructions on what to RETURN — prevents 'I fixed it!' without details. _(2026-03-20)_
 - `INS-260320-5A6F` AI-enabled beats AI-replaced — keep the human touch in important parts, automate the repetitive. _(2026-03-20)_
@@ -210,17 +215,17 @@ _No flags._
 - `INS-260320-C8CC` PM2 gives you auto-restart on crashes, per-service logs, memory/CPU monitoring, and easy management like `pm2 restart email`. _(2026-03-20)_
 - `INS-260320-4773` Run all backend microservices via PM2 so Claude can read individual service logs in real-time without manual copy-pasting. _(2026-03-20)_
 - `INS-260320-26B1` Use SuperWhisper for voice-to-text prompting when your hands are tired from typing all day. _(2026-03-20)_
+- `INS-260320-7682` Run systematic ablation experiments on architecture, data mixtures, and hyperparameters at small scale before committing to a full training run -- this consumes ~37% of total compute but prevents costly mistakes. _(2026-03-20)_
+- `INS-260320-5818` Main pretraining consumes 63% of total compute; plan for 37% additional budget for ablation studies, debugging, and restarts due to infrastructure failures. _(2026-03-20)_
+- `INS-260320-7B4B` HuggingFace's 200-page training playbook concludes that data quality dominates architectural innovation as the key factor in LLM performance. _(2026-03-20)_
+- `INS-260320-C65B` The Smol Training Playbook is a 200+ page open guide covering the full LLM pipeline from strategic planning through post-training, based on training SmolLM3 (3B params, 11T tokens). _(2026-03-20)_
+- `INS-260320-922A` Only pretrain your own LLM for three reasons: advancing research with novel questions, meeting specific production requirements, or filling gaps in the open-source ecosystem. _(2026-03-20)_
 - `INS-260320-10CC` 91 unit tests all passed, but an automated spec audit found 12 issues — unit tests verify code works, spec audits verify code matches intent. _(2026-03-20)_
 - `INS-260320-47FA` MASTER_INDEX to domain overview to topic summary to individual insight — answering "what do I know about X?" requires reading roughly 4 files regardless of total insight count. _(2026-03-20)_
 - `INS-260320-0F7C` Markdown files are the source of truth; SQLite database, indices, mindmap, and tag files are all generated and disposable — when the DB had schema issues, we just regenerated it. _(2026-03-20)_
 - `INS-260320-4B31` We spent hours designing a detailed spec before writing any code — the spec caught issues before they became bugs and zero scope creep occurred across 5 phases. _(2026-03-20)_
 - `INS-260320-8FFC` Sequential IDs stored in a file would be hallucinated by the LLM — timestamp plus title hash made file creation completely stateless with zero collisions across 74 insights. _(2026-03-20)_
 - `INS-260320-63D3` Each implementation task was dispatched to a fresh subagent with exactly the context it needed — no accumulated confusion from previous tasks. _(2026-03-20)_
-- `INS-260320-7682` Run systematic ablation experiments on architecture, data mixtures, and hyperparameters at small scale before committing to a full training run -- this consumes ~37% of total compute but prevents costly mistakes. _(2026-03-20)_
-- `INS-260320-5818` Main pretraining consumes 63% of total compute; plan for 37% additional budget for ablation studies, debugging, and restarts due to infrastructure failures. _(2026-03-20)_
-- `INS-260320-7B4B` HuggingFace's 200-page training playbook concludes that data quality dominates architectural innovation as the key factor in LLM performance. _(2026-03-20)_
-- `INS-260320-C65B` The Smol Training Playbook is a 200+ page open guide covering the full LLM pipeline from strategic planning through post-training, based on training SmolLM3 (3B params, 11T tokens). _(2026-03-20)_
-- `INS-260320-922A` Only pretrain your own LLM for three reasons: advancing research with novel questions, meeting specific production requirements, or filling gaps in the open-source ecosystem. _(2026-03-20)_
 - `INS-260320-D58E` An n8n workflow scrapes YouTube, Reddit, Twitter, and the web daily to identify content outliers and trending topics, then generates detailed content ideas with scripts, hooks, and storylines. _(2026-03-20)_
 - `INS-260320-41E3` A daily n8n content research automation that scrapes multiple platforms, identifies trends, and delivers a content digest costs under $0.35 per day to operate. _(2026-03-20)_
 - `INS-260320-9935` The 0-to-175K growth came from automating content research and ideation, not from automating content creation itself -- the competitive advantage is knowing what to create, not how to create it. _(2026-03-20)_
@@ -235,8 +240,6 @@ _No flags._
 - `INS-260320-6845` An n8n workflow pulls YouTube links from Google Sheets, extracts transcripts via Dumpling AI, transforms them into newsletter drafts with GPT-4o, and logs results back to Sheets. _(2026-03-20)_
 - `INS-260320-CDE4` The Moog DFAM has no MIDI implementation -- sampling its output into a MIDI-capable device is the primary way to integrate it into a broader production setup. _(2026-03-20)_
 - `INS-260320-77C2` Sample analog synth sounds (like Moog DFAM) into a digital sampler/sequencer (like Elektron Digitakt) to get warm analog timbre with precise digital sequencing and pattern control. _(2026-03-20)_
-- `INS-260320-8B06` Letting dogs make small choices -- which toy to play with, which direction to walk, whether to engage or rest -- builds confidence and reduces anxiety-driven behaviors. _(2026-03-20)_
-- `INS-260320-9118` Allow dogs to sniff freely during walks -- scent exploration is their primary way of processing the world and provides more mental stimulation than the physical exercise of the walk itself. _(2026-03-20)_
 - `INS-260320-B7DA` Charge $99/year from day one even when conventional wisdom says students won't pay — premium pricing signals reliability, and raising from $99 to $129 actually increased both users and revenue. _(2026-03-20)_
 - `INS-260320-39A3` Shelter your team and family from acquisition signal-to-noise until the wire hits — deals fall apart in the last week, and premature sharing creates damaging anxiety. _(2026-03-20)_
 - `INS-260320-20F2` Momentum is oxygen — Coconote shipped a product that "sort of works," charged from day one, and hit 45 days to $100K ARR, 4 months to $1M, 5 months to $2M. _(2026-03-20)_
@@ -255,7 +258,9 @@ _No flags._
 - `INS-260320-70FA` Target the person who pays, not just the person who uses — students used Coconote but moms often bought it, and "my mom just changed my life" content drove viral parent-to-parent purchasing. _(2026-03-20)_
 - `INS-260320-080B` Ask customers how they describe your product, then use their exact words as marketing copy — Coconote asked and the majority said "never miss a key detail," which became their App Store headline. _(2026-03-20)_
 - `INS-260320-DADA` You cannot pour fuel on organic fire — viral UGC repurposed as paid ads underperformed, while a separate clip agency creating performance-specific creatives outperformed significantly. _(2026-03-20)_
-- `INS-260320-10E8` Always clap once or use a clapboard at the start of each take -- the sharp transient creates a visible spike in both audio waveforms, making manual sync alignment trivial. _(2026-03-20)_
-- `INS-260320-232D` Set all audio devices to 48kHz when recording for video -- mismatched sample rates between camera and external recorder cause drift that worsens over longer recordings. _(2026-03-20)_
 - `INS-260320-D44B` The foundational rule of video sound design: you should be able to hear everything you see -- nothing on screen is truly silent, and even empty rooms have ambient sound. _(2026-03-20)_
 - `INS-260320-105E` The sound design workflow for video follows three steps: lay down temp music/score first, add creative SFX and foley second, then apply final audio treatment and mixing. _(2026-03-20)_
+- `INS-260320-8B06` Letting dogs make small choices -- which toy to play with, which direction to walk, whether to engage or rest -- builds confidence and reduces anxiety-driven behaviors. _(2026-03-20)_
+- `INS-260320-9118` Allow dogs to sniff freely during walks -- scent exploration is their primary way of processing the world and provides more mental stimulation than the physical exercise of the walk itself. _(2026-03-20)_
+- `INS-260320-10E8` Always clap once or use a clapboard at the start of each take -- the sharp transient creates a visible spike in both audio waveforms, making manual sync alignment trivial. _(2026-03-20)_
+- `INS-260320-232D` Set all audio devices to 48kHz when recording for video -- mismatched sample rates between camera and external recorder cause drift that worsens over longer recordings. _(2026-03-20)_
