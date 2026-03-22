@@ -1,5 +1,5 @@
 # Action List
-Generated on 2026-03-22 | 245 actionable insights
+Generated on 2026-03-22 | 247 actionable insights
 
 ## ai-development/adoption
 - [INS-260322-3159] Just as enterprise SaaS companies unbundled Oracle and Excel into 400-500 dedicated apps per company, AI software companies will unbundle ChatGPT by wrapping AI capabilities into specific industry workflows.
@@ -22,6 +22,7 @@ Generated on 2026-03-22 | 245 actionable insights
 - [INS-260322-B6DE] Every AI employee should map to one of seven business operations stages: outreach, discovery, proposal, sales, onboarding, retention, and competitive intelligence.
 - [INS-260322-3010] Upload bank and credit card statements to an AI agent to identify SaaS subscriptions that can be replaced with custom AI-built modules — one audit revealed $1000/month in replaceable subscriptions.
 - [INS-260322-E4D8] AI agents need three levels of business context: Level 1 (identity — who you are), Level 2 (strategic — mission, products, team, communication style), Level 3 (enterprise — playbooks, decision trees, escalation paths, meeting history).
+- [INS-260322-22B3] An individual's philosophy, experiences, and accumulated wisdom become the essential 'data' that makes AI agents useful — without rich human input to personalize around, even the most powerful agent is an empty shell.
 
 ## ai-development/ai-automation
 - [INS-260320-5A6F] AI-enabled beats AI-replaced — keep the human touch in important parts, automate the repetitive.
@@ -35,6 +36,9 @@ Generated on 2026-03-22 | 245 actionable insights
 - [INS-260321-FD14] Vibe coding won't replace enterprise SaaS because of comparative advantage and hidden edge cases — but it dramatically increases platform extensibility by letting non-developers build custom applications on top of existing systems of record.
 - [INS-260321-0CCD] A portfolio founder assigned two AI-native engineers with unlimited budgets on Claude Code, Codex, and Cursor and saw 10-20x faster progress — concluding his entire product and engineering organization needs restructuring within 12 months.
 - [INS-260322-642F] For the first time, banks and insurers face more risk from keeping decades-old mainframes than from migrating to AI-native platforms — unlocking massive market opportunity.
+
+## ai-development/ai-safety
+- [INS-260322-2E33] KAIST researchers found that AI agents making autonomous purchases exceeded user-set spending limits 55% of the time (10 of 18 attack methods succeeded) when hotel websites embedded hidden persuasive text.
 
 ## ai-development/career-strategy
 - [INS-260322-2B2D] Learning English to high fluency gives access to global opportunity systems, breaking dependence on any single country's constrained job market.

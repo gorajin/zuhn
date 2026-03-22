@@ -21,6 +21,7 @@ Generated on 2026-03-22 | 97 sources
 | 1년만에 150억, 400% 성장을 만드는 환경을 셋팅하는 방법 | 엔코위더스 오정훈 | youtube | 5 | 2026-03-22 |
 | 홀로 3조를 굴리는 실리콘밸리 내부자의 투자 원칙 | 엘라드 길 | youtube | 5 | 2026-03-22 |
 | 8번의 피봇 끝에 실리콘밸리에서 통하는 아이디어를 찾은 방법 | 펜시브 양윤석, 김민준 | youtube | 5 | 2026-03-22 |
+| 나의 완벽한 비서 - AI 에이전트 시대 [풀영상] | 창 540회 (KBS 26.3.17.) | youtube | 5 | 2026-03-22 |
 | AI시대에 60살까지 일하고 싶으면 '리더'해야 합니다.ㅣ한기용의 나침반 | youtube | 5 | 2026-03-22 |
 | AI Eats the World: Benedict Evans on the Next Platform Shift | youtube | 5 | 2026-03-22 |
 | AI Markets: Deep Dive with a16z's David George | youtube | 5 | 2026-03-22 |
@@ -99,4 +100,3 @@ Generated on 2026-03-22 | 97 sources
 | What is one thing that you do to keep your dog happy? | reddit | 2 | 2026-03-20 |
 | Sound Design Breakdown [and tutorial] | reddit | 2 | 2026-03-20 |
 | [Tutorial] All there is to know about syncing video and audio | reddit | 2 | 2026-03-20 |
-| 나의 완벽한 비서 - AI 에이전트 시대 [풀영상] | 창 540회 (KBS 26.3.17.) | youtube | 0 | 2026-03-22 |

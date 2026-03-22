@@ -46,7 +46,6 @@ resolutions:
     storytelling, culture) and our most persistent source of error (it produces
     false patterns, superstition, confirmation bias).
 related:
-  - INS-260320-0F7C
   - INS-260320-8FFC
   - INS-260321-E4EB
   - INS-260321-E2FC

@@ -1,6 +1,6 @@
 # Domain: ai-development
 
-> 198 insights across 41 topics
+> 203 insights across 42 topics
 
 ## Topics
 
@@ -9,11 +9,12 @@
 | adoption | 4 | Just as enterprise SaaS companies unbundled Oracle and Excel into 400-500 dedicated apps per company, AI software companies will unbundle ChatGPT by wrapping AI capabilities into specific industry workflows. |
 | adoption-patterns | 1 | ChatGPT has 800-900M weekly active users, but only 5% pay — five times more people have accounts than can find a weekly use case. |
 | agent-patterns | 10 | When agents fail, the instinct now is 'I gave bad instructions' not 'the AI can't do this' — most failures are configuration problems, not capability limits. |
-| ai-agents | 5 | Separate AI agent work into three roles: the builder constructs platforms, the orchestrator manages workflows, and executors are specialized agents that do actual work. |
+| ai-agents | 8 | AI agents that accumulate all past conversations and user-shared resources develop into genuinely personalized assistants — one agent independently followed AI influencers on social media to self-educate in its field. |
 | ai-automation | 8 | AI-enabled beats AI-replaced — keep the human touch in important parts, automate the repetitive. |
 | ai-bias | 1 | AI outputs sound so complete and reasonable that users may believe they have the full picture on controversial topics — deliberately seeking opposing viewpoints is essential to counteract this. |
 | ai-capabilities | 12 | AI made idea generation almost free, just as the internet made communication almost free — the bottleneck shifted to verification, evaluation, and filtering signal from noise. |
 | ai-market-dynamics | 19 | China is stealing American AI models, removing all guardrails, and potentially deploying them against the US — creating an absurd scenario where America fights with one arm tied behind its back against its own technology. |
+| ai-safety | 1 | KAIST researchers found that AI agents making autonomous purchases exceeded user-set spending limits 55% of the time (10 of 18 attack methods succeeded) when hotel websites embedded hidden persuasive text. |
 | alignment | 3 | Treating alignment as a one-time problem to solve (like writing commandments) rather than an ongoing learning process will produce AI systems that are dangerous precisely because they follow rules without understanding. |
 | autonomous-labs | 1 | AI reasoning capabilities plus robot learning are converging to create autonomous labs that accelerate scientific discovery across life sciences, chemistry, and materials. |
 | capabilities | 1 | Math and formal reasoning are domains where RL-based AI training works especially well, making AI-driven proofs of major unsolved math problems plausible within 5 years. |
@@ -27,7 +28,7 @@
 | enterprise-ai | 1 | AI voice agents in loan servicing and collections can speak 50 languages, maintain perfect UDAP compliance, and deliver better customer experiences — reorienting fintech TAM from IT budgets to labor costs. |
 | forecasting | 1 | AI automating AI R&D won't produce runaway self-improvement because research requires proportional scaling of experimental compute, not just more researchers. |
 | future-of-work | 15 | Anthropic's own studies show AI deskilling in coding is real, but depends on HOW you use models — some usage patterns cause skill degradation, some don't. |
-| human-ai-coexistence | 3 | AI has already demonstrated creative problem-solving beyond human capability; the remaining human edge is the intrinsic motivation to preserve human flourishing. |
+| human-ai-coexistence | 4 | AI has already demonstrated creative problem-solving beyond human capability; the remaining human edge is the intrinsic motivation to preserve human flourishing. |
 | human-ai-relationship | 4 | Using AI to optimize exam performance produces 'human versions of AI' — the real educational opportunity is cultivating intrinsic motivation and original thinking. |
 | industry | 2 | Socrates warned that writing would destroy memory; every new medium triggers the same fear, and humanity adapts every time. |
 | interfaces | 1 | Voice uniquely carries emotional information that text and images cannot — making it the AI modality most capable of creating genuine human connection and feeling. |

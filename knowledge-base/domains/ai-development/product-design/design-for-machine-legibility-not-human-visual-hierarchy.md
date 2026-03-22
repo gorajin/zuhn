@@ -47,9 +47,10 @@ related:
   - INS-260321-C3E6
   - INS-260321-015B
   - INS-260321-4E98
+  - INS-260322-96D1
+  - INS-260322-22B3
   - INS-260322-EAB6
   - INS-260322-D8C3
-  - INS-260322-E4D8
 ---
 Stephanie Zhan identifies a fundamental shift: content and applications must now be optimized for agent consumption, not human attention. Agents don't need hooks or visual hierarchy — they read everything and extract relevance. The new optimization target is machine legibility.
 

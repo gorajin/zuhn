@@ -25,8 +25,9 @@ None.
 - ai-development/claude-code has 33 insights but related automation/n8n-workflows has only 9
 - ai-development/claude-code has 33 insights but related ai-development/system-building has only 10
 - ai-development/claude-code has 33 insights but related ai-development/ai-automation has only 8
+- ai-development/claude-code has 33 insights but related ai-development/ai-agents has only 8
 - ai-development/future-of-work has 15 insights but related investing/fintech has only 4
-- ai-development/future-of-work has 15 insights but related ai-development/human-ai-coexistence has only 3
+- ai-development/future-of-work has 15 insights but related ai-development/human-ai-coexistence has only 4
 - startups/bootstrapping has 13 insights but related startups/product-development has only 3
 - startups/growth-marketing has 29 insights but related ai-development/ai-automation has only 8
 - startups/growth-marketing has 29 insights but related video-production/content-strategy has only 3

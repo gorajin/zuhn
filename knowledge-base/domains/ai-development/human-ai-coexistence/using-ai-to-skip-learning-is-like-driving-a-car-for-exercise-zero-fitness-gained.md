@@ -56,7 +56,7 @@ related:
   - PRI-260321-7307
   - INS-260321-F864
   - INS-260322-5B1B
-  - INS-260322-E22A
+  - INS-260322-F6B5
 ---
 LLMs are powerful precisely because they master language patterns, which means the biggest cheating vector is writing — the exact skill that develops logical thinking. Loh uses the analogy: using AI for school writing is like driving your car one mile instead of running it for exercise. You get zero benefit.
 

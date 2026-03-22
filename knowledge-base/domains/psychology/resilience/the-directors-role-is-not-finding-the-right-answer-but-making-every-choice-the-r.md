@@ -57,6 +57,7 @@ related:
   - INS-260322-A928
   - INS-260322-C9AC
   - INS-260322-13D6
+  - INS-260322-F6B5
 ---
 Yoon's core philosophy challenges the common platitude 'there is no right answer in life.' She agrees there's no right answer, but adds a crucial second part: there are people who must make their choices the right answer. As a director, her role is not to find the correct path but to ensure that every choice she makes turns out to be the right one through relentless commitment to execution.
 

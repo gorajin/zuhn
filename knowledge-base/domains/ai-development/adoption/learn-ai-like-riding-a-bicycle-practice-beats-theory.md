@@ -53,7 +53,7 @@ related:
   - INS-260321-3D65
   - INS-260321-7C97
   - INS-260322-68FE
-  - INS-260322-83D4
+  - INS-260322-1A20
 ---
 Nobody learned to ride a bicycle by reading a bicycle encyclopedia. AI adoption works the same way: you must fall ten times before you ride. Professor Kim's concrete suggestions: try vibe coding this weekend (tell AI to build a cat Tetris game in 5 minutes), use Gemini's agent mode to generate 100-page business reports (takes 20-30 minutes, produces work better than graduate students), and use ChatGPT's agent mode for complex research tasks.
 

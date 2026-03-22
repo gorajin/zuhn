@@ -42,6 +42,5 @@ related:
   - INS-260322-4757
   - INS-260322-CCAA
   - INS-260322-68FE
-  - INS-260322-D8C3
 ---
 Karpathy describes the Peter Steinberg workflow: multiple Codex agents open simultaneously, each taking ~20 minutes on a task, with the human rotating between them giving macro-level instructions. The skill is decomposing work into non-interfering parallel tasks and knowing how much to trust each output based on how much you care about that code.

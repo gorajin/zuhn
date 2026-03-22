@@ -51,11 +51,11 @@ resolutions:
     comfortable boundaries. The first step isn't calm reflection — sometimes
     it's allowing anger to override the paralysis of doubt.
 related:
+  - INS-260322-F6B5
   - INS-260321-33FC
   - INS-260322-C6CE
   - INS-260322-BF4C
   - INS-260321-6D01
-  - INS-260322-DAA1
 ---
 Yoon Seung-rim was already in psychological counseling for anxiety and depression when a close cinematographer casually said over drinks that staff were worried she was 'coming down.' The remark triggered a spiral — fear that her directing skills really were declining, that opportunities would dry up. But within that fear, anger surged: 'You're telling me my directing skills are ending?'
 
