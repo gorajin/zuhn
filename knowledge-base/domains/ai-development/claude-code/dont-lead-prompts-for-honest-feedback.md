@@ -18,12 +18,11 @@ sources:
     author: u/diet103
     url: 'https://reddit.com/r/ClaudeCode'
 related:
-  - INS-260320-E872
+  - INS-260321-82FE
   - INS-260320-4993
   - PRI-260320-8205
   - INS-260320-D972
-  - PRI-260320-6847
-  - PRI-260320-D2E1
+  - INS-260321-703F
   - INS-260320-080B
   - INS-260320-07A2
 date_extracted: '2026-03-20'

@@ -1,6 +1,6 @@
 # Domain: ai-development
 
-> 102 insights across 10 topics
+> 106 insights across 10 topics
 
 ## Topics
 
@@ -8,7 +8,7 @@
 | ----- | -------- | ------- |
 | agent-patterns | 6 | When agents fail, the instinct now is 'I gave bad instructions' not 'the AI can't do this' — most failures are configuration problems, not capability limits. |
 | ai-automation | 6 | AI-enabled beats AI-replaced — keep the human touch in important parts, automate the repetitive. |
-| claude-code | 29 | Planning is king — always use planning mode before implementation; never let the builder start without plans. |
+| claude-code | 33 | Planning is king — always use planning mode before implementation; never let the builder start without plans. |
 | context-management | 2 | Structure knowledge as a relational database (entities + relationships), not text blobs. Every Claude instance reads/writes the same structured knowledge base. |
 | future-of-work | 26 | Anthropic's own studies show AI deskilling in coding is real, but depends on HOW you use models — some usage patterns cause skill degradation, some don't. |
 | llm-costs | 8 | OpenRouter offers 50-1000 free requests/day on certain models — not trial credits, actually free forever. |

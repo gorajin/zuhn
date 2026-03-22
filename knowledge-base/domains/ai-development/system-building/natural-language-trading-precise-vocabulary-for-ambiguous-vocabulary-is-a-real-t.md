@@ -42,10 +42,8 @@ resolutions:
     sometimes explicit, constrained APIs are safer than flexible natural
     language. The tradeoff is expressivity vs predictability.
 related:
-  - INS-260320-E872
   - PRI-260320-D2E1
   - INS-260321-B8E8
-  - INS-260321-D370
   - INS-260321-AD95
   - INS-260321-A56C
   - PRI-260320-6847

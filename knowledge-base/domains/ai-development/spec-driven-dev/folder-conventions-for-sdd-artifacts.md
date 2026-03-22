@@ -17,7 +17,6 @@ sources:
     title: Why we shifted to Spec-Driven Development
     author: u/unknown
 related:
-  - INS-260320-8DBD
   - INS-260320-06EF
   - INS-260320-2DDE
   - INS-260320-8F12
@@ -27,6 +26,7 @@ related:
   - INS-260321-C3E6
   - INS-260320-6F8E
   - PRI-260320-C14C
+  - INS-260321-0C99
 date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0
