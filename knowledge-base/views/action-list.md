@@ -1,5 +1,5 @@
 # Action List
-Generated on 2026-03-22 | 93 actionable insights
+Generated on 2026-03-22 | 99 actionable insights
 
 ## ai-development/agent-patterns
 - [INS-260320-1B10] Have Claude review its own code via a specialized review agent — catches critical errors, missing implementations, and security flaws.
@@ -50,6 +50,7 @@ Generated on 2026-03-22 | 93 actionable insights
 - [INS-260320-DDD9] In a world where AI can generate anything, "having basic critical thinking skills may be the most important thing to success."
 - [INS-260320-F78E] Prompt engineering is like playing piano — you can't just sit down and start; it requires practice and iteration to develop the skill.
 - [INS-260321-2F43] The name of the game is to increase your leverage — put in very few tokens once in a while and a huge amount of stuff happens on your behalf.
+- [INS-260321-4178] AI doesn't just automate procedures — it automates judgment calls. The person who deeply understands insurance underwriting and can talk an AI into building a tool is now more dangerous than the engineer who can build anything but doesn't know what to build.
 
 ## ai-development/llm-costs
 - [INS-260320-9937] OpenRouter offers 50-1000 free requests/day on certain models — not trial credits, actually free forever.
@@ -107,6 +108,9 @@ Generated on 2026-03-22 | 93 actionable insights
 - [INS-260320-39A3] Shelter your team and family from acquisition signal-to-noise until the wire hits — deals fall apart in the last week, and premature sharing creates damaging anxiety.
 - [INS-260320-00C2] When users try to cancel, ask "Do you just need more time?" — trial extensions retained the most users, outperforming discounts and 3-month pause options, while keeping users on auto-renew.
 - [INS-260321-E8CB] One-size-fits-all SaaS benchmarks are misleading — a pre-seed company should target burn multiple <2.5x while Series B+ targets <1.0x. Stage-specific targets: NRR >100%/>110%/>120%, LTV:CAC >2.0x/>3.0x/>3.5x.
+- [INS-260321-7D76] A common mistake is automating wherever it's easiest rather than wherever the constraint actually is. The single biggest bottleneck in your process probably accounts for most of the available gains. Find that one thing. Automate that.
+- [INS-260321-2D72] Code's real advantage isn't zero marginal cost of serving users — it's zero-cost experimentation. A/B test, deploy, roll back, iterate at near-zero cost per cycle. Your competitive advantage is learning speed, not serving speed.
+- [INS-260321-C99A] Leverage = Effort x Multiplier. Most people spend their careers increasing effort (hours, focus) which is bounded by the body. The multiplier (code, media, capital, judgment) is unbounded.
 
 ## startups/founder-mindset
 - [INS-260320-F751] Build something exceptional and they will come — fundraising, hiring, and network emerge from the product itself.
@@ -123,6 +127,8 @@ Generated on 2026-03-22 | 93 actionable insights
 - [INS-260320-DADA] You cannot pour fuel on organic fire — viral UGC repurposed as paid ads underperformed, while a separate clip agency creating performance-specific creatives outperformed significantly.
 - [INS-260321-099E] Don't find a blue ocean — create one by taking a format proven in Market A and applying it to Market B where nobody has used it yet.
 - [INS-260321-141B] Write a proven format at the top of a grid, list all markets down the side, mark where the combination exists — empty cells are your blue ocean.
+- [INS-260321-ADB4] Allocate 80% of content to evergreen material (guides, frameworks, reference) and 20% to timely pieces. Every piece should exist in at least five formats: audio, video, short clips, newsletter, social thread.
+- [INS-260321-C4CD] A podcast episode is both a distribution mechanism AND a credibility-building mechanism — it operates on two axes at once. Most tools do one thing. Media does both, which is why its returns feel disproportionate.
 
 ## video-production/audio-sync
 - [INS-260320-10E8] Always clap once or use a clapboard at the start of each take -- the sharp transient creates a visible spike in both audio waveforms, making manual sync alignment trivial.

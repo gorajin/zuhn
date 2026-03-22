@@ -17,7 +17,6 @@ sources:
     title: Why we shifted to Spec-Driven Development
     author: u/unknown
 related:
-  - INS-260320-93E1
   - INS-260320-922A
   - INS-260320-4A82
   - INS-260320-4BA8

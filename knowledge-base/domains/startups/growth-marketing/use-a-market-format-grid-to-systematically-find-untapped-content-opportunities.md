@@ -37,10 +37,9 @@ resolutions:
     combined them yet. This transforms creative ideation from guesswork into
     systematic search.
 related:
-  - INS-260320-2058
-  - INS-260321-38EC
   - INS-260321-099E
   - INS-260321-96CE
+  - INS-260321-38EC
   - INS-260320-0F7C
   - INS-260321-3EC0
 ---

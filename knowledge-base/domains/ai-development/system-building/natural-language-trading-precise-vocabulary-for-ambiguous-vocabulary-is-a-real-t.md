@@ -43,14 +43,13 @@ resolutions:
     language. The tradeoff is expressivity vs predictability.
 related:
   - INS-260320-E872
-  - INS-260320-DEAF
-  - INS-260320-76E7
   - PRI-260320-D2E1
-  - INS-260321-7D7C
   - INS-260321-B8E8
   - INS-260321-D370
   - INS-260321-AD95
   - PRI-260320-6847
+  - INS-260321-7D7C
+  - INS-260320-DEAF
   - INS-260320-A745
 ---
 'Pick up the red block' sounds more expressive than running 'pick_red' preprogrammed task, but the boundary of what the model actually understands is opaque in a way that a fixed command vocabulary is not. The author proved this with counterfactual experiments: equivalent prompts produce similar actions (good), but spatial primitives ('up', 'away', 'stop') are unreliable because the model learned them as scene descriptions, not workspace commands. This is Karpathy's 'apps should become APIs' in reverse — sometimes explicit, constrained APIs are safer than flexible natural language. The tradeoff is expressivity vs predictability.
