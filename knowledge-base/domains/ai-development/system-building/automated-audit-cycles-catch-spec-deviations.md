@@ -17,7 +17,6 @@ sources:
     title: Building the Zuhn knowledge base — lessons from Phase 1-5
     author: Jin Choi + Claude
 related:
-  - INS-260320-CE36
   - INS-260320-4B31
   - INS-260320-1B10
   - INS-260320-6F8E

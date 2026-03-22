@@ -39,7 +39,6 @@ resolutions:
     disappointing AI output. Explicit delegation signals prevent oscillation
     between hesitation and overreach.
 related:
-  - INS-260320-8DBD
   - INS-260320-10E8
   - INS-260321-2482
   - INS-260321-D370

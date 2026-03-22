@@ -37,10 +37,10 @@ resolutions:
     repeated prompting.
 related:
   - INS-260320-CE36
-  - INS-260320-B210
   - INS-260320-F872
-  - INS-260320-04A2
   - INS-260320-080B
-  - INS-260320-EA19
+  - PRI-260321-D74F
+  - INS-260320-04A2
+  - INS-260320-B210
 ---
 The Fuelfinance guide identifies context files as the highest-leverage setup step for Claude. Three files: (1) about-me.md — role, company, industry, communication style, key metrics, standards (GAAP/IFRS). (2) my-rules.md — working rules like 'always ask clarifying questions before executing' and 'include reconciliation checks in every output.' (3) my-templates.md — preferred formats for P&L layouts, board decks, variance analysis. This is the same principle as CLAUDE.md in Claude Code — structured context beats repeated prompting.

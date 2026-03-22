@@ -42,13 +42,13 @@ resolutions:
 related:
   - INS-260320-E872
   - INS-260320-508F
-  - INS-260320-DC3C
   - INS-260320-D972
   - PRI-260320-6847
   - PRI-260320-8205
   - PRI-260320-D2E1
   - INS-260321-B8E8
-  - INS-260321-A5D4
+  - PRI-260321-037A
   - INS-260321-703F
+  - INS-260321-E2FC
 ---
 The 2023 approach to prompting (clever phrases, 'think step by step', ALL-CAPS emphasis) now actively degrades results with modern models. The shift is from wordsmithing to context engineering — providing comprehensive situational information before generation begins. Strong prompts compress the problem space through description rather than expanding it through instructions. The four-question framework: Who is this for? What will it be used for? What constraints matter? What does success look like? Test: describe the task as if requesting from a human. If a person would struggle, so will the model.
