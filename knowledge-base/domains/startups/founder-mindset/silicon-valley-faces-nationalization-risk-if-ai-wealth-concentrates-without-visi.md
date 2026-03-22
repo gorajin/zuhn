@@ -52,13 +52,12 @@ resolutions:
     Democrats why their constituents won't have jobs. Then imagine what happens
     when you leave the room.
 related:
-  - INS-260320-B99F
   - INS-260321-10FF
   - INS-260321-9A03
   - PRI-260321-7307
+  - INS-260322-8BD1
   - INS-260321-C14C
   - INS-260321-21BE
-  - INS-260321-1749
 ---
 Alex Karp warns that Silicon Valley's biggest existential threat isn't competition or regulation — it's a political horseshoe effect. If AI simultaneously eliminates white-collar jobs (affecting educated, Democratic-leaning constituencies) while concentrating wealth among a small number of tech leaders who don't visibly support the military or the broader public, both parties will converge on one thing: nationalization.
 

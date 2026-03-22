@@ -49,6 +49,6 @@ related:
   - INS-260321-5C24
   - INS-260321-AA91
   - INS-260320-8688
-  - PRI-260320-5947
+  - INS-260322-D079
 ---
 Young's pricing framework has three pillars: (1) Value creation benchmark — what do users currently pay for the same outcome? For Opus Clip, editing a viral-ready 1-minute clip takes humans 30-60 minutes at $25-50 per clip. (2) Unit economics — inference cost may drop over time but storage costs are the hidden elephant, starting at 5% of COGS but potentially reaching 50% after 3-5 years. (3) Experimentation — send thousands of surveys in early months, tweak pricing repeatedly. Use representative samples: 4 marketers, 5 creators, across different industries, geographies, and purchasing power. You don't need everyone happy with the price — say no to 70% of early users and focus on your ICP. Usage-based metrics beat seat-based pricing for solo creators.

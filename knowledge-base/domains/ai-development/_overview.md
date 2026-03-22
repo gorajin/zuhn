@@ -1,6 +1,6 @@
 # Domain: ai-development
 
-> 134 insights across 15 topics
+> 137 insights across 15 topics
 
 ## Topics
 
@@ -9,7 +9,7 @@
 | agent-patterns | 10 | When agents fail, the instinct now is 'I gave bad instructions' not 'the AI can't do this' — most failures are configuration problems, not capability limits. |
 | ai-automation | 8 | AI-enabled beats AI-replaced — keep the human touch in important parts, automate the repetitive. |
 | ai-capabilities | 12 | AI made idea generation almost free, just as the internet made communication almost free — the bottleneck shifted to verification, evaluation, and filtering signal from noise. |
-| ai-market-dynamics | 13 | China is stealing American AI models, removing all guardrails, and potentially deploying them against the US — creating an absurd scenario where America fights with one arm tied behind its back against its own technology. |
+| ai-market-dynamics | 16 | China is stealing American AI models, removing all guardrails, and potentially deploying them against the US — creating an absurd scenario where America fights with one arm tied behind its back against its own technology. |
 | autonomous-labs | 1 | AI reasoning capabilities plus robot learning are converging to create autonomous labs that accelerate scientific discovery across life sciences, chemistry, and materials. |
 | claude-code | 33 | Planning is king — always use planning mode before implementation; never let the builder start without plans. |
 | consumer-ai | 1 | 2026 marks when major consumer AI products shift from helping you work to helping you stay connected — understanding who you are and facilitating real human relationships. |

@@ -45,10 +45,11 @@ resolutions:
     a quick rejection is more valuable than years of procurement limbo because
     it lets startups readjust strategy or move to the next partner.
 related:
-  - INS-260321-4B99
   - INS-260321-1A03
+  - INS-260321-4B99
   - INS-260322-FCFC
   - INS-260322-054E
   - INS-260321-AA91
+  - INS-260322-C5BD
 ---
 The traditional defense procurement model was broken: a thousand-requirement RFP where vendors checked 'yes' to everything (even physics-impossible claims), got cost-plus contracts, and then change-ordered for years and billions more. Emil Michael is pushing toward simple outcome-based requirements — 'I need a missile that goes this far with this payload' — and letting industry propose solutions on firm-fixed-price contracts. If vendors economize and achieve better margins, they keep the upside. This is explicitly modeled on why SpaceX succeeded. The shift also includes faster yeses and faster nos, which Michael considers critical for startup health — a quick rejection is more valuable than years of procurement limbo because it lets startups readjust strategy or move to the next partner.

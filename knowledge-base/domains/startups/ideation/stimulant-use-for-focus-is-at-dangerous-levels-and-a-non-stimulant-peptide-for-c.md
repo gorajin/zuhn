@@ -59,10 +59,10 @@ resolutions:
     caffeine and wishing for a non-stimulant focus enhancer.
 related:
   - INS-260321-4B38
+  - INS-260322-3A00
+  - INS-260322-D059
   - INS-260321-6437
   - INS-260321-2D72
-  - INS-260321-9AB5
-  - INS-260321-C99A
 ---
 Huberman makes an important pharmacological distinction: there are no drugs that increase focus per se — all current options (Adderall, modafinil, Wellbutrin, caffeine, nicotine) increase alertness, which gates focus. Sleep gates alertness. So stimulants are essentially a bypass for inadequate sleep, and they always exact a cost — either disrupted sleep (creating a vicious cycle) or cardiac strain from chronic sympathetic nervous system activation.
 

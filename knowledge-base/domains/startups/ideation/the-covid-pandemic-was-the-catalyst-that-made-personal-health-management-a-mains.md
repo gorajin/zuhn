@@ -61,9 +61,11 @@ resolutions:
 related:
   - INS-260320-70FA
   - INS-260321-9AB5
+  - INS-260322-3A00
+  - INS-260322-D051
   - INS-260322-7DD5
   - INS-260321-4B38
-  - INS-260321-9EBB
+  - INS-260322-D059
 ---
 Huberman traces the health awakening through a specific causal chain: (1) Fitness culture evolved from bodybuilders-only to mainstream acceptance through the 80s-2000s. (2) COVID forced everyone to ask 'what can I take to improve my immune system?' regardless of vaccine stance. (3) Vitamin D was the gateway supplement — doctors didn't oppose it, and sunlight exposure made it feel natural. (4) Resistance training mainstreamed, bringing protein supplementation and creatine. (5) Now magnesium is becoming the next universally accepted supplement.
 

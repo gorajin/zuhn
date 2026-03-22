@@ -49,6 +49,7 @@ related:
   - INS-260321-3BA8
   - INS-260321-015B
   - INS-260321-A56C
+  - INS-260322-E20E
   - PRI-260321-7307
 ---
 The labor market is astronomically larger than the software market. AI is not primarily displacing people but rather making previously uneconomical tasks viable. A front desk receptionist job at $47K/year was never going to be served by $500/year software — but a $20K/year AI product that handles 5 of 8 job responsibilities fills a gap that previously had no software solution at all.

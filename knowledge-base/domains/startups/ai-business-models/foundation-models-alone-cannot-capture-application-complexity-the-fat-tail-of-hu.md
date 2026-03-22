@@ -57,7 +57,8 @@ related:
   - INS-260321-8C35
   - INS-260321-CCD9
   - INS-260321-B7CB
-  - INS-260320-DEAF
+  - INS-260322-8BD1
+  - INS-260322-299C
 ---
 Ben Horowitz notes that the expectation from 3-4 years ago was that big foundation models would be giant brains capable of doing anything better than anyone. Reality has been different. Cursor uses 13 different AI models, each handling different aspects of how people program and interact with code. The complexity lies in what Horowitz calls the 'fat tail of human behavior' — the enormous variety of real-world scenarios that must be modeled and understood for any particular use case.
 

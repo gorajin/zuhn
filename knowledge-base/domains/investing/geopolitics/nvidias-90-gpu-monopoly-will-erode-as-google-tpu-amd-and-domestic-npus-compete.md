@@ -44,7 +44,6 @@ resolutions:
     competitors mature, but it will take time for software ecosystems to catch
     up.
 related:
-  - INS-260321-52EF
   - INS-260321-3808
   - INS-260321-5C24
   - INS-260321-F2C4
@@ -54,5 +53,6 @@ related:
   - PRI-260321-0A4D
   - INS-260321-9EBB
   - INS-260321-D01E
+  - INS-260321-7C97
 ---
 Professor Kim outlines the competitive landscape: Google developed TPUs (Tensor Processing Units) specifically for AI matrix calculations, and they work well — Google uses them internally for their own AI services. AMD is developing competing GPUs. Korean startups are building NPUs (Neural Processing Units) for smaller, edge-device AI applications. However, two factors protect NVIDIA: (1) their massive software ecosystem (CUDA) means even good hardware fails if software doesn't support it, and (2) vertical integration — Google keeps TPUs for internal use, not selling them broadly. Professor Kim believes the 90% monopoly era will gradually diminish as competitors mature, but it will take time for software ecosystems to catch up.

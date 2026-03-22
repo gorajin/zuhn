@@ -55,6 +55,7 @@ related:
   - INS-260321-9EBB
   - INS-260322-837A
   - PRI-260321-05B5
+  - INS-260322-8BD1
   - INS-260321-4E98
 ---
 Horowitz argues that AI should be viewed not as an internet-like cycle with a few dominant winners, but as a new computing platform comparable to computers themselves. The internet produced a 'reasonably large number' of spectacularly huge winners — Meta, Netflix, Amazon, Google. AI products are having even bigger economic impact, and the design space is enormous and unprecedented.

@@ -52,6 +52,6 @@ related:
   - INS-260321-3BA8
   - INS-260321-2482
   - INS-260321-7109
-  - INS-260321-4E98
+  - INS-260322-3A00
 ---
 Emil Michael had a 'holy cow moment' discovering that the Department of War's AI contracts included dozens of restrictions: you couldn't move a satellite, plan operations leading to kinetic strikes, etc. — yet these models were embedded in the most sensitive military commands (Central Command covering Iran, Indo-Pacific Command covering China, Southern Command covering Venezuela). The vendor-locked contracts meant that if the model's terms were violated, it could theoretically shut off mid-operation, putting lives at risk. After the Maduro raid — one of the most successful military operations in recent memory — a vendor's senior exec questioned whether their software was used, which triggered the crisis. The broader lesson: any organization embedding AI in critical workflows must own the substrate, not rent it with restrictive terms from a single vendor whose 'constitution' can override your operations.
