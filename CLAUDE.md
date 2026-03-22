@@ -67,6 +67,9 @@ When the user says "wake":
 | `npm run resurface` | Daily digest |
 | `npm run archive` | Intelligent forgetting (use --dry-run first) |
 | `npm run wake` / `npm run sleep` | Session persistence |
+| `npx tsx scripts/decide.ts --file <json>` | Create decision records from JSON |
+| `npx tsx scripts/predict.ts --file <json>` | Create prediction records from JSON |
+| `npx tsx scripts/split-topic.ts` | Move insights between topics |
 
 ## Architecture Boundaries
 

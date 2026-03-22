@@ -679,12 +679,13 @@ export async function detectGaps(
         sim += dataA.vec[i] * dataB.vec[i];
       }
 
-      // Similar topics (sim > 0.70) with count ratio > 3:1
-      if (sim > 0.70) {
+      // Similar topics (sim > 0.83) with count ratio > 3:1 and shared tags >= 2
+      if (sim > 0.83) {
         const ratio = Math.max(dataA.count, dataB.count) / Math.min(dataA.count, dataB.count);
         if (ratio > 3) {
-          // Find shared tags
+          // Find shared tags — require at least 2 to filter noise
           const sharedTags = [...dataA.tags].filter((t) => dataB.tags.has(t));
+          if (sharedTags.length < 2) continue;
 
           // Order so topicA is the larger one
           if (dataA.count >= dataB.count) {

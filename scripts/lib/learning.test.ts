@@ -755,12 +755,12 @@ describe("detectGaps", () => {
         domain: "ai-development",
         topic: "claude-code",
         title: `Gap A insight ${i}`,
-        tags: ["ai", "tooling"],
+        tags: ["ai", "tooling", "automation"],
         resolutions: { one_line: `Gap A line ${i}`, standard: `Gap A std ${i}` },
       });
       const filePath = await writeInsightFile(kbRoot, insight);
       upsertInsight(db, insight, filePath);
-      upsertEmbedding(db, id, similarEmbedding(baseEmb, 0.001 * i));
+      upsertEmbedding(db, id, similarEmbedding(baseEmb, 0.0005 * i));
     }
 
     // Topic B: 2 insights (small topic) with similar centroid
@@ -771,7 +771,7 @@ describe("detectGaps", () => {
         domain: "ai-development",
         topic: "llm-costs",
         title: `Gap B insight ${i}`,
-        tags: ["ai", "costs"],
+        tags: ["ai", "automation"],
         resolutions: { one_line: `Gap B line ${i}`, standard: `Gap B std ${i}` },
       });
       const filePath = await writeInsightFile(kbRoot, insight);

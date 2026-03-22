@@ -1,7 +1,8 @@
 #!/usr/bin/env npx tsx
 
-import { readFileSync } from "node:fs";
+import { readFileSync, readdirSync, existsSync } from "node:fs";
 import { join } from "node:path";
+import matter from "gray-matter";
 
 const PROJECT_ROOT = join(__dirname, "..");
 const KB_ROOT = join(PROJECT_ROOT, "knowledge-base");
@@ -101,7 +102,47 @@ function main(): void {
   }
   console.log("");
 
-  // 4. Knowledge base stats
+  // 4. Outcomes due — scan decisions and predictions for due items
+  const today = new Date().toISOString().slice(0, 10);
+  const dueItems: string[] = [];
+
+  const decisionsDir = join(KB_ROOT, "decisions");
+  if (existsSync(decisionsDir)) {
+    for (const f of readdirSync(decisionsDir).filter((f) => f.endsWith(".md"))) {
+      try {
+        const raw = readFileSync(join(decisionsDir, f), "utf-8");
+        const { data } = matter(raw);
+        if (data.status === "pending" && data.outcome_date && data.outcome_date <= today) {
+          dueItems.push(`- [DECISION] ${data.id}: "${data.context}" — outcome due ${data.outcome_date} (choice: ${data.choice})`);
+        }
+      } catch { /* skip malformed */ }
+    }
+  }
+
+  const predictionsDir = join(KB_ROOT, "predictions");
+  if (existsSync(predictionsDir)) {
+    for (const f of readdirSync(predictionsDir).filter((f) => f.endsWith(".md"))) {
+      try {
+        const raw = readFileSync(join(predictionsDir, f), "utf-8");
+        const { data } = matter(raw);
+        if (data.status === "active" && data.deadline && data.deadline <= today) {
+          dueItems.push(`- [PREDICTION] ${data.id}: "${data.claim}" — deadline ${data.deadline}`);
+        }
+      } catch { /* skip malformed */ }
+    }
+  }
+
+  console.log("## Outcomes Due");
+  if (dueItems.length > 0) {
+    for (const item of dueItems) {
+      console.log(item);
+    }
+  } else {
+    console.log("No outcomes due today.");
+  }
+  console.log("");
+
+  // 5. Knowledge base stats
   const statsMd = readOptional(join(META, "stats.md"));
   console.log("## Knowledge Base Stats");
   if (statsMd) {

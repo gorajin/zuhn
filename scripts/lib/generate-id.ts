@@ -33,3 +33,11 @@ export function generateMentalModelId(title: string, salt?: string | number): st
 export function generateTensionId(title: string, salt?: string | number): string {
   return generateId("T", title, salt);
 }
+
+export function generateDecisionId(title: string, salt?: string | number): string {
+  return generateId("DEC", title, salt);
+}
+
+export function generatePredictionId(title: string, salt?: string | number): string {
+  return generateId("PRED", title, salt);
+}
