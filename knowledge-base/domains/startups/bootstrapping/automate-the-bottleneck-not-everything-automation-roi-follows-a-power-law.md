@@ -44,12 +44,11 @@ resolutions:
 related:
   - INS-260320-47DC
   - INS-260320-9935
-  - INS-260320-E683
   - INS-260320-8688
   - INS-260320-76E7
   - PRI-260320-A2C7
   - INS-260321-18D0
-  - PRI-260320-6847
-  - INS-260321-2D72
+  - INS-260321-A56C
+  - INS-260321-988C
 ---
 Automation ROI follows a power law — the single biggest bottleneck accounts for most available gains. Musk is insistent on removing the limiting factor for this reason. Build software instead of hiring, but only when the work is boring enough to describe: high frequency, low variance, and you can write down exactly what 'done' looks like. Before writing custom code, ask: 'Is this a core differentiator where we can be 10x better?' If yes, build it. If not, it's 'undifferentiated heavy lifting' (Bezos) — buy a vendor solution. Custom software is an appreciating asset only when it compounds your unique advantage. In every other case, it's a depreciating liability.

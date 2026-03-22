@@ -45,8 +45,8 @@ related:
   - INS-260321-3967
   - INS-260321-C99A
   - INS-260321-F864
+  - INS-260321-A56C
   - INS-260321-9824
   - INS-260321-AE3F
-  - INS-260321-9906
 ---
 Tao describes AI tools as jumping machines that can leap higher than any human but can't build cumulative handholds. They either succeed or fail — they're bad at partial progress. Humans excel at depth: building up understanding incrementally, holding intermediate positions, and pulling others up. The future of science is very complementary: use AI breadth to map out entire fields and identify islands of difficulty, then bring human experts to work on those specific hard spots. We need practice with breadth — we don't even have the paradigms yet.

@@ -41,7 +41,6 @@ resolutions:
     match the training distribution, severely narrowing 'zero-shot
     generalization.'
 related:
-  - INS-260320-8B06
   - INS-260321-D370
   - INS-260321-9906
   - PRI-260320-6847

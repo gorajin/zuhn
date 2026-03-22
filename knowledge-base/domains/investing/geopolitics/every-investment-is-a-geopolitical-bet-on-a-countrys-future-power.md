@@ -41,8 +41,8 @@ resolutions:
 related:
   - INS-260321-2F43
   - INS-260321-141B
+  - INS-260321-9A03
   - INS-260321-5655
   - INS-260321-D183
-  - INS-260320-DDD9
 ---
 Stock markets loosely track national GDP over long time horizons. Sentiment causes short-term deviation, but convergence happens over decades. The S&P 500's 8-10% annual returns aren't inevitable — they're a byproduct of the US going from regional power to global hegemon. The conventional wisdom that 'the market always goes up' is selection bias from the winning country. Japan's 35-year stagnation (1990-2025) proves that even productive, developed economies can go nowhere when geopolitical power shifts against them.

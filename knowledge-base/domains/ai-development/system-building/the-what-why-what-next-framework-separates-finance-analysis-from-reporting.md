@@ -41,8 +41,8 @@ related:
   - INS-260320-B99F
   - INS-260320-F751
   - INS-260321-D3BE
+  - INS-260321-988C
   - INS-260321-C4CD
-  - INS-260321-C99A
-  - INS-260321-4178
+  - INS-260321-A56C
 ---
 The Fuelfinance/Taxwire CFO Advisor skill enforces a three-part framework for every financial output: (1) What happened — the metric with trend context. (2) Why it happened — the business decision or market shift that drove it (not 'revenue increased' but 'we hired 3 AEs who aren't fully ramped'). (3) What to do next — the specific action with timeline and expected impact. The 'what' lives in your ERP. The 'why' lives in hiring plans, reorg memos, strategic decisions buried in threads nobody tagged. Stale knowledge bases are worse than none — they give false confidence.

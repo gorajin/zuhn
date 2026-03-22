@@ -39,10 +39,10 @@ related:
   - INS-260320-93E1
   - INS-260320-B99F
   - PRI-260320-5D78
+  - INS-260321-9A03
   - INS-260321-4178
   - INS-260321-C99A
   - INS-260321-80A9
   - PRI-260320-097F
-  - INS-260321-E9B7
 ---
 Karpathy notes that Claude's personality is calibrated well — it gives proportional praise that feels earned, creating motivation to bring better ideas. Codex is technically capable but doesn't seem to care about what you're creating. Peter Steinberg's OpenClaw invested heavily in personality via the 'soul' document. This isn't cosmetic — it affects how long developers sustain engagement with the tool.

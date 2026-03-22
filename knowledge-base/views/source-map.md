@@ -1,5 +1,5 @@
 # Source Map
-Generated on 2026-03-22 | 25 sources
+Generated on 2026-03-22 | 26 sources
 
 | Source | Type | Insights | Date |
 |--------|------|----------|------|
@@ -16,6 +16,7 @@ Generated on 2026-03-22 | 25 sources
 | Claude for Finance | pdf | 5 | 2026-03-22 |
 | 200+ pages of Hugging Face secrets on how to train an LLM | reddit | 5 | 2026-03-20 |
 | Debugging as architecture insight: dissecting a VLA | blog | 4 | 2026-03-22 |
+| How is this time different?  | blog | 4 | 2026-03-22 |
 | 해외 천재유튜버들이 몰래 쓰는 니치밴딩 전략 | youtube | 4 | 2026-03-21 |
 | Where to invest in a multipolar world (WW3?) | youtube | 4 | 2026-03-22 |
 | This Automation Took Me From 0 to 175k Followers in Under 12 Months | reddit | 3 | 2026-03-20 |

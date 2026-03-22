@@ -9,10 +9,10 @@ None.
 
 ## GAP
 - ai-development/claude-code has 29 insights but related ai-development/agent-patterns has only 6
-- ai-development/future-of-work has 22 insights but related ai-development/agent-patterns has only 6
+- ai-development/future-of-work has 26 insights but related ai-development/agent-patterns has only 6
 - ai-development/claude-code has 29 insights but related ai-development/context-management has only 2
 - ai-development/system-building has 10 insights but related ai-development/context-management has only 2
-- ai-development/future-of-work has 22 insights but related ai-development/context-management has only 2
+- ai-development/future-of-work has 26 insights but related ai-development/context-management has only 2
 - startups/growth-marketing has 14 insights but related ai-development/context-management has only 2
 - ai-development/claude-code has 29 insights but related ai-development/llm-costs has only 8
 - ai-development/claude-code has 29 insights but related ai-development/llm-training has only 5
@@ -26,25 +26,27 @@ None.
 - ai-development/claude-code has 29 insights but related startups/founder-mindset has only 4
 - ai-development/claude-code has 29 insights but related investing/geopolitics has only 4
 - ai-development/llm-costs has 8 insights but related music-production/synthesis has only 2
-- ai-development/future-of-work has 22 insights but related ai-development/llm-training has only 5
-- ai-development/future-of-work has 22 insights but related ai-development/spec-driven-dev has only 6
-- ai-development/future-of-work has 22 insights but related ai-development/tooling has only 4
+- ai-development/future-of-work has 26 insights but related ai-development/llm-costs has only 8
+- ai-development/future-of-work has 26 insights but related ai-development/llm-training has only 5
+- ai-development/future-of-work has 26 insights but related ai-development/spec-driven-dev has only 6
+- ai-development/future-of-work has 26 insights but related ai-development/tooling has only 4
 - startups/growth-marketing has 14 insights but related ai-development/tooling has only 4
 - ai-development/system-building has 10 insights but related automation/content-creation has only 3
-- ai-development/future-of-work has 22 insights but related automation/content-creation has only 3
+- ai-development/future-of-work has 26 insights but related automation/content-creation has only 3
 - startups/bootstrapping has 10 insights but related automation/content-creation has only 3
 - startups/growth-marketing has 14 insights but related automation/content-creation has only 3
 - automation/n8n-workflows has 9 insights but related music-production/synthesis has only 2
 - ai-development/system-building has 10 insights but related music-production/synthesis has only 2
-- ai-development/future-of-work has 22 insights but related music-production/synthesis has only 2
+- ai-development/future-of-work has 26 insights but related music-production/synthesis has only 2
 - startups/bootstrapping has 10 insights but related music-production/synthesis has only 2
 - startups/growth-marketing has 14 insights but related music-production/synthesis has only 2
 - ai-development/system-building has 10 insights but related video-production/audio-sync has only 2
+- ai-development/future-of-work has 26 insights but related video-production/audio-sync has only 2
 - startups/bootstrapping has 10 insights but related video-production/audio-sync has only 2
 - startups/growth-marketing has 14 insights but related video-production/audio-sync has only 2
-- ai-development/future-of-work has 22 insights but related ai-development/ai-automation has only 6
-- ai-development/future-of-work has 22 insights but related startups/founder-mindset has only 4
-- ai-development/future-of-work has 22 insights but related investing/geopolitics has only 4
+- ai-development/future-of-work has 26 insights but related ai-development/ai-automation has only 6
+- ai-development/future-of-work has 26 insights but related startups/founder-mindset has only 4
+- ai-development/future-of-work has 26 insights but related investing/geopolitics has only 4
 - startups/growth-marketing has 14 insights but related startups/founder-mindset has only 4
 - startups/growth-marketing has 14 insights but related investing/geopolitics has only 4
 
