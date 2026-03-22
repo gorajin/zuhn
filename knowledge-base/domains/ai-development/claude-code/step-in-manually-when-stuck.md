@@ -20,11 +20,11 @@ sources:
     author: u/diet103
     url: 'https://reddit.com/r/ClaudeCode'
 related:
-  - INS-260320-6CCE
+  - INS-260322-C6CE
   - INS-260322-AD9B
   - INS-260320-3798
   - INS-260321-7D76
-  - INS-260322-F891
+  - INS-260320-6CCE
   - INS-260322-E90F
 date_extracted: '2026-03-20'
 last_accessed: null

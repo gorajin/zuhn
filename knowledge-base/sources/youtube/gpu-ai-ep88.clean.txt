@@ -1,0 +1,957 @@
+## 인트로 (0:00–0:22)
+I think we call the
+five or six  ones we know now "squeak-tech
+."  I think about half of them might disappear
+.   Do you
+predict who might disappear?
+The companies considered the most dangerous are
+obviously Apple, and
+isn't the second one practically dominant?
+no.  Because the era of globalization is
+over.  We are now living in an era of early birth for each of us, and the
+next five years are extremely
+important.
+## 구독자 인사 (0:22–1:31)
+hello.  This is Han Seok-jun.
+Intellectual Guest Seat, conveying the knowledge of masters.  Today, we have invited
+
+Professor Kim Dae-sik from KAIST, a brain giant who offers insights to humanity in the AI ​​era
+.  welcome.
+hello.   I will
+see you again soon.   I know, right
+.  Thanks to your invitation, I find myself
+sitting in the same spot again.
+thank you
+Ah, there are a lot of things I want to hear.   You're
+wearing a tiger t-shirt today.   yes
+.  Was this two months ago?  When I come
+here for an interview, I usually just
+wear whatever is on hand that day, but that day, of all days, I happened to
+
+wear a very colorful [laughs] outfit with a character on it, and from
+then on, the comments section went crazy
+.  I was told that I looked like a local trot singer
+or a hair salon owner, so I spent
+some time reflecting on it, and
+today I came dressed very modestly
+.  I was
+actually looking forward to this.  I hope you come wearing something even more
+glamorous today.
+Uh, I don't think so.
+Because I also need to manage my image.
+[Laughs]
+Understood.  Well, the last two videos
+both got a huge number of views.   It likely
+
+means that people in this day and age are very interested in AI and the society that will change because of it.
+Regarding AI.  Actually, didn't this happen because
+Chaechi T
+started answering like artificial intelligence, marking the point where AI truly came into our lives
+?  So, you
+## 챗GPT 등장 후 불과 3년만에 벌어진 일 (1:31–3:17)
+could say that it almost started in earnest around November 2022, but it has only
+been about three years.
+I also often tease this: although Choi Chi T was
+officially held on November
+30, 2022, did it start being used in Korea in
+January or February 2023?
+So, it hasn't even been three years yet.
+But recently, especially among my acquaintances,
+most of them are probably middle-aged
+men.  I noticed that
+there isn't a single person among the Message users who doesn't have a Choi Chi T partner.   A
+partner who can ask life's questions.
+Well, you could call her a secretary, or you
+could call her a helper.  But
+now, the point is that if they can't make a choice in their business or personal life, they
+
+ask Choi Chi-pi.  And the names were all
+messed up, too.  And recently,
+we can also give a personality to Chachifate, you know
+.  So, when someone
+asks "It's so-and-so" and asks how to choose, you just
+explain it all out—this is science
+action, isn't it?  When we have questions in life,
+
+asking a machine—not family or friends—and trusting its words to make a judgment—
+and the fact that this was achieved in just three years—
+I think that is a remarkable feat
+.  I think human adaptability really goes
+beyond imagination.
+Even when I watch YouTube videos these days, people say things like, "Why is
+Chaechipi so good?"  So, I
+abandoned Chaechi and went to Jeminai.  I am
+Grok.  What is it?  Aren't there
+really tons of videos like that?  What is really
+funny is that as
+someone who researches artificial intelligence, until a few years ago, when
+we talked about this kind of thing, nobody understood or was
+interested.
+But
+suddenly, whenever I go to a convenience store to buy something or
+eat at a snack bar, everyone around me is talking about
+AI
+.  Just as you just mentioned, it seems like a truly amazing world has begun where
+
+everyone talks about AI almost like they are discussing a soccer team, saying things like, "Isn't it better to have a fun kid?"  For
+
+people like me who aren't good at AI and don't know much about it, it's
+most comfortable if you just clearly decide that this is the best
+.  Ah, this is the best, so let's make
+## AI 시대에 한국이 ‘멘붕’에 빠진 이유 (3:17–8:38)
+good use of it.  Well, if I wrote it wrong, I
+guess I wrote it incorrectly.
+Thinking this way is the most comfortable way to think.  It’s actually
+interesting that AI is
+n’t history.  This is happening right now, and it is
+
+being upgraded once a month, or sometimes once a week. From my perspective, I
+
+think this is causing the greatest psychological breakdown, especially for the South Korean people and their leadership and business leaders.  The reason is that,
+inevitably due to various historical reasons,
+South Korea started industrialization about 150 years later than developed countries
+
+.  When Britain was just starting to
+build steam locomotives, we were setting up a financial service for them.
+So, let's assume that we
+started proper industrialization in the
+1970s or 1980s.  At this point,
+
+companies in developed countries have already done everything that we have never done and do not understand.
+From this perspective, if we
+compare industrialization to the CSAT, we essentially
+took the exam as an open book.
+There was an answer.   If
+there is a reply number, naturally, the
+wisest course of action is to take it and use it.  But as
+a result, it seems like a strange optical illusion called "
+Hello Nation" has formed in my head
+.  What I mean is, if there is something I don't know, there must be
+someone who knows the answer
+.  Then benchmarking is faster.
+Oh, you mean we got that?
+
+I think that just happened to form in my head as Hello Nation right now.  But
+50 years may be nothing historically, but it is a
+considerably long time for a country and for an individual
+.  But it's always been like that.   As
+a result, it seems like we are constantly looking for a time to benchmark in the age of artificial intelligence
+
+.
+But there is nowhere for that.
+There isn't.  In particular, while
+Big Tech companies are currently developing the basic AI algorithms, what is truly
+important is
+how those algorithms are applied to specific industries—you know,
+this is what we call AI X.
+Right?  What are you going to do about finance with AI
+?  What are you going to do about the content industry
+?  What are you going to do about education?
+No one knows the problem.
+No one has ever done it before.  Since the very concept of AI
+existed about two years ago, it will likely
+impact all industrial sectors in the future, but we have never
+
+tried it in any specific way or format, and there is
+no definitive answer.  However, it seems that domestic
+politicians and businesspeople constantly
+want to benchmark things like this
+.  But there is nowhere to do it.   Because no
+one knows the answer.  But I
+think it's quite difficult to adapt to this.   What
+I recently told you was
+correct back then, but it is wrong now. It will be difficult to catch up with this
+method over time, at least when it comes to AI
+
+.
+I always say that there are three reasons
+.  First of all, regarding
+AI, back when we were doing Pass Fellowships like this,
+we were
+Pass Following into heavy industry, right?  However, heavy
+industry is developing relatively slowly.   Well, it can't be helped, the
+industry itself is slow.
+Since we are making large machines, from this perspective, you can
+
+think of 5 years in AI as roughly equivalent to another 50 years in heavy industry
+.  The gap could widen too much
+.  However, I think there is a second, more important thing
+.  If we go back to the
+70s, 80s,
+and even 90s when we did catch-hop,
+industry is
+n't something that happens in a vacuum, is it?  In what kind of world did
+we do catch-hop? It was in a globalized world
+.  What I mean is,
+
+one of the biggest reasons we were able to catch up was that while it was possible because we worked hard
+and had a willingness to learn, it was also
+
+possible because we were taught.  It is what they
+possess. We were able to study because they accepted international students, and
+
+we were able to export affordable products because they granted licenses and opened the market, but the
+era of globalization is
+over.  Since January 2025,
+the era of globalization has ended, and we are
+now living in the era of early birth, and in
+a sense, history has actually been
+normalized again.  I’m
+not saying that being normal is good at all.
+Except for the last 30 years, for most of human history, if
+I have good skills, people
+absolutely never teach them.   You know
+
+how much effort China put into making that silk—hundreds of years of it.
+It's all the way to the end.   Because I
+stole the cotton sticks too.
+Exactly.  So, trying not to teach, trying
+to steal Lee Jeong-seon, trying
+not to export or import, and trying
+not to tell people how to make gunpowder—that is
+normal.  That is the normal stance, but
+since World War II, the attitude has been, "Let's
+stop fighting and cooperate."  And
+especially since the collapse of the former Soviet Union,
+we became one global community and went through the
+era of globalization.
+So, from this perspective, the past
+30 years have been one of the happiest and most
+
+comfortable periods in human history.
+However, I think there is a third reason as well
+.  The
+reason we couldn't just pass the ball, and the reason we were able to get this far starting
+150 years later than others in the 70s and 80s,
+
+was the hungry spirit.  Our parents'
+generation must have worked 150 hours a week,
+right?  So that's how we got this far
+.
+I dislike the word "miracle" because I am a scientist.  It means we worked hard enough to look like the Miracle on the Han River, but there is
+
+no such thing as a free thing in this world.   It’s
+
+not like Koreans are a hundred times smarter than foreigners,
+but the fact that they caught up this quickly means they
+paid an enormous price
+
+.  Our parents
+paid for that with their own happiness, didn't they?
+In a way, they overcame 150 years by paying the greatest value a human can pay—
+their own personal time and
+happiness—and
+now they are the MG
+generation.  We can't demand that from the MG generation again today, can we?   That makes
+
+no sense.  Even if we do, they won't listen, and we should
+n't do it.
+Now that we are talking about 40 hours a week, it makes
+
+no sense to ask these friends to work 100 or 120 hours, and we shouldn't do it.
+Consequently, because
+
+the three reasons why we were able to act as fast followers despite starting late are no longer
+logically possible,
+fast following is impossible in the age of artificial intelligence
+.  Then I think the only
+thing I can do is to go first
+.  Having worked with AI for
+## 이번주 주말에 AI로 ‘이것’ 꼭 한번 해보세요 (8:38–14:06)
+a long time myself, I recently realized that it seems pretty much the
+
+same as riding a bicycle.
+What I mean is, I think that's the only way
+.  When we rode bikes as kids, we didn't
+
+ride them after reading a bicycle encyclopedia, did we?  It’s not like I
+rode a bike after listening to a lecture by a cycling professor; I
+really rode it ten times, fell ten times, and scraped my
+
+knees ten times before I actually rode it
+.
+I think it's the same.  Instead of spending too much
+time worrying and thinking about pursuing perfection, I
+
+hope those of you listening to today's broadcast will just try some vibe coding this weekend.
+What is VIBE Coding?
+Coding with AI.  This
+started happening unbelievably starting this year.  You express it in words, you know
+.  So, it
+makes a custom app for you. Seriously, An Won-seon, you should try it out this
+weekend too.
+No, I heard that the rubber is easy, but I have
+n't been able to try it yet.   It
+is free.  And there is
+absolutely no reason not to do this.
+If you bring some cat photos from the internet and
+put them in Lovely, please make a Tetris game where cats fall from the sky
+.
+Make a game for me in 5 minutes.
+Then, it is almost perfect.
+So there is absolutely no reason not to do this. You can try
+making games, and
+especially in the case of Jemina's repair,
+I tried it out and found that it creates really good project plans
+.  Please make me a
+100-page business
+plan like this.  The most
+important thing is that you have to explain it very kindly
+.  Explain it as if you were talking to a new employee or an
+intern, for example: "
+Country so-and-so is planning to start a media business, and there are these
+conditions, and
+my goal is this and that."   If
+you gather all the necessary materials yourself, summarize them, and
+frequently practice strategies, I will give you
+amazing results.  Since I have recently become more
+interested in technology than business, could you
+
+write a report on global AI trends, such as gathering data and obtaining patents from the US, China, and European patent offices?  For your reference, it is best to
+ask that AI using polite language
+.  Actually,
+there are two results to this.  Some papers claim that
+using honorifics leads to better results, while
+others say that
+giving commands in informal language yields better AI outcomes.
+My personal
+stance is that if artificial intelligence were to
+dominate the world in the future, we wouldn't be able to save the people who have used honorifics since the past
+
+.  [Laughs] So, it does
+n't cost anything.  I also asked
+Chaejip inside if he could write a 100-page report for me, and he
+said, "
+Aren't you being a bit too submissive?"
+[Laughs]
+Ah, I really like just lying down tight
+.  yes yes.  And ah,
+
+we must
+bow down to the strong like this again.  Of course.  So
+instead, you must use Agent Mode
+.  Recently, there is now a so-called Agent
+Mode, which allows one to practically
+perform tasks alone. It is not perfectly complete, but both Jaeminai and PD Choi
+
+say that if you ask them in Agent Mode, "Can you write a report like this?", it takes about 20 to 30 minutes.
+This takes time.  So, I went to have
+a cup of coffee and came back to find out that they had
+made a 100-page report, and
+honestly speaking, they wrote it better than my students
+.  There is a Hellus Nation inside the unit
+.  clearly.  That is why experienced professionals are
+becoming increasingly important; they need to look at the look and
+identify the problem.  The
+
+problem is that newcomers to the workforce lack that intuition.  You must have
+given those kinds of jobs to newcomers until now
+.  You can't do that overnight just by researching the data
+.  You have to give me about a week's
+time.   The
+beginner itself has a hallucination.
+Oh, of course.  There are too many.   It's
+similar to that and AI.   Right
+.  As a result, even at large corporations,
+
+there is no way to provide about six months of training for master's or doctoral degree holders because they are essentially
+doing hello-nation in actual work.
+But the interesting thing is this.  You get a salary, too
+.  I receive my salary at this time.  I
+actually don't do any work.  Get educated.  And I
+wrapped up my career.  In fact, this is a very
+fascinating phenomenon and was created only after the Industrial Revolution
+.  Because there was a
+shortage of labor.  However, as you may
+know, especially since the beginning of this year, we are
+not currently hiring new computer coding developers
+.   It's
+too serious.  This is a very serious
+problem.  So recently, the
+discussion has been whether we should
+go back to a medieval system.  What is that
+?  cub.
+Apprenticeship   In the
+Middle Ages, if I wanted to
+learn how to make arrows...  Then you did
+
+n't go to the arrow craftsman and receive a salary; you paid money, didn't you?  Actually, please just let me make a
+living.
+Wrapping up one's career.  Because the technology was transferred
+.  So, one of the restrictions being introduced now is that if I
+join a large corporation in the future,
+instead of receiving a salary, would
+n't I have to pay the corporation?
+Why?  You are receiving knowledge, you know.  Of course, they would
+never give it to an individual.
+Education time for the country to create such a system.
+But the world is turning upside down
+.  Ultimately, I am only now realizing that the very act of building my career is an
+economic
+benefit in itself
+.  Because AI
+can perform work at that level even without a salary.
+But all of that is what is happening right now in 2025
+.  The
+announcer just talked about technological advancements, but I
+
+think the speed of social change is even more shocking.  However, no
+one comes forward once a month to
+explain societal changes.  These
+companies are
+constantly doing their own marketing because they need funding and things like that
+.  However,
+since no one is currently marketing social changes,
+
+we might think that there has been no change. But if
+historians look back 50 years from now, I
+
+think they will likely say that there were tremendous changes in 2025 and 2026.
+We have been going through this critical period since 2023, and
+
+the thought that we need to properly establish our place before these new changes become the new normal
+actually feels like a bit of fear to me
+.  What will happen if I can't do it
+?  So, then.
+Another point regarding the use of AI—though I think this should
+just be viewed as a rumor—is that
+AI is getting smarter and smarter while
+humans are getting dumber and dumber.
+Or, the more we use AI, the less we are able to perform
+tasks that humans need to do on their own
+.  It is gradually degenerating.
+They use expressions like these.  Does using AI
+## AI에 의존하면 바보된다? 뇌과학자의 답 (14:06–19:59)
+make humans dumber?   I do
+n't think so.  And
+looking at human history, there has always been chaos the moment new technology,
+especially a new medium, emerged
+
+.  For example,
+Socrates couldn't write.  I
+left it all in words.  And
+
+one of the biggest points of contention between Socrates and Plato was whether
+writing and reading books are
+good or bad.  At this point,
+Plato wrote the text by having
+other people appear instead of himself, so that is why I am
+talking about it
+.  Oh, how
+nice it would be to have a book.  Socrates said that since one can learn and remember all this knowledge without even needing to remember it, the point is that
+
+humans become lazy.  It
+means that intelligence will regress.   You have to
+remember the important thing on your own.
+Right?  I already said 2,500 years ago that I have to remember everything, but
+the moment I leave information in writing, my
+
+mind goes blank. In
+Europe, when this
+emerged in the 20th century, there was an
+uproar when they decided to stop teaching Latin
+.  Latin is the very center of all science, technology, and
+
+logical thinking, and
+
+the moment Latin is no longer taught in schools, Western civilization will collapse.  I'm doing well
+.  Still,
+our country also
+has a similar controversy regarding Chinese character education.   The
+Chinese characters were probably similar, and we also
+use electronic calculators at school.
+So that's why I heard the fuss again.  What I mean is that
+we
+
+seem to focus too much on visible phenomena.
+Whether you speak, remember things in your head,
+use a calculator, or use a computer or artificial intelligence, these are merely
+tools. Ultimately, I think what matters more is the
+stance
+and logical thinking of the person using them. Therefore, for
+
+someone who can think independently even while using AI, it is an
+excellent tool.  AI is.
+And recently, something very interesting happened to me. There was a
+
+movie I saw when I was very young.
+Now, the problem starts here. There
+was a really fun movie, but I can't remember the title, and
+
+honestly, I do
+n't really remember the plot or the main character.  But I really
+want to see it again.  The only thing I remember about that movie is just
+
+one scene.  In a park, a man
+woke up in the morning and didn't know who he was
+.  He can't remember his name, has
+no memory, has nothing in his pockets, and only has a
+personality box.
+With this, the story goes
+to find this person's chair.  But no matter
+how much I searched for this on Google, it didn't show up
+.  I saw that they collected them a while ago, so I binge-watched and
+found them.
+Oh, really?  After I said that, he
+searched for quite a while, about 20 minutes, and said, "It seems my
+memory is making Hellus Nation right now
+."  Why?  It means that it isn't just the content of a single movie, but rather seems like
+two stories combined
+.  So,
+oh,
+and I remembered this park as being in Paris, but they say it's
+not.  It is set in New York and has that kind of
+content, but there is
+one movie set in Paris.  So,
+I watched a TV drama set in New York
+and a movie set in Paris,
+but the content was exactly a hodgepodge.
+I remembered and was really surprised.
+I have resolved one major problem in my life
+.   Did
+you see it?   I have
+n't seen it yet because there are two.  [Laughs]
+Yes.  Still, first of all, I think this is ultimately the
+big difference between search and AI.   In
+a search, I have to enter the keyword, and
+specifically, someone must have
+uploaded that information to the internet to
+find it. So, whether it becomes a blog or whatever, if there is nothing,
+
+sometimes when we ask a really
+strange or unusual question, it
+says there is no data.  But
+Choi Ji-pit is
+currently making inferences after scouring the entire internet
+.  So, from this perspective, I think it was
+especially October 6th.   They
+
+made a very interesting presentation at Open AI Developer Day, and I
+
+think it is very significant.  What that is is that you can
+open the app at Choi Chi-pi starting October 6th, right?
+And starting October 6th, you
+can make direct payments at Choichipi.
+So, what I mean is, if you say "Expedia Comma, find a
+hotel in Seoul," it opens the app
+and searches for one and can make the payment, but it is still in the
+experimental stage.   But
+the meaning of this is actually amazing.  What that is is that there are
+currently about 9 million apps worldwide
+.  But
+I'm sure you're the same, Awonseo, but we don't have our
+9 million apps on our phones.  There are dozens, but I probably only
+use three or four every day
+.  What I'm saying is that there are 9 million apps that I'm
+curious about and that could solve my life's problems, but I do
+
+n't know where they are, so I'm only
+using three or four.  However, the fact that I can
+
+now open the app on Chaebi starting October 6, 2025,
+
+means that I just have to ask questions.  You don't need to know where such an app
+is or
+enter keywords; if you just say "do this," the
+AI ​​can
+find an app that can solve the problem on its own, or if it
+can't find one no matter how hard it searches, it can simply create one using Vivo coding
+.  And
+regarding problem-solving, for the first time in 30 years,
+the Internet will shift from search-oriented to conversation-oriented starting
+
+October 6th of this year
+.  Actually, this is quite a [laughs]
+big change.  Why?  Most companies currently
+doing business on the internet are
+
+operating within the box of search, but the era of search
+has ended, and the era of conversation has now
+begun.  The reality is that it is
+actually hard to even imagine what era will begin once the search era ends
+.
+So, as AI becomes established to this extent, I
+
+believe that so many fields will change in ways that were unimaginable before AI existed.
+Actually, the same goes for the industry.  So, as you
+mentioned, ever since the iPhone
+was released in 2008, Apple was simply the undisputed leader in the iPhone device and
+telecommunications sectors, but are
+
+n't you saying that Apple might disappear now?
+Even that person at Apple,
+what is this name?  Eddy Q, that person
+went out to testify and said that Apple might disappear within 10 years
+.
+Aren't you incredibly surprised right now that I said this?   I
+mentioned this here last time and it caused quite a
+stir in the comments, but of course, it is an excellent
+technology company.  However,
+
+I
+expressed it somewhat extremely that, ultimately, when making business decisions, I prioritize design over technology.
+Those who understood at that time would have understood as well.
+Actually, in this regard, what I am curious to ask you, Professor, is that when
+we think about it now, companies like
+Apple, Google, Samsung, and even
+
+NVD are obviously
+important and large corporations with huge revenues that have a significant impact on the world
+.  But how long will this
+## 빅테크 5대장, 언제까지 왕좌를 지킬 수 있을까? (19:59–25:07)
+last?
+I think we call the five or six things we know now "
+Bbi-tech."  I think about half of them might
+disappear.
+Actually, do you
+expect who might disappear?  For the
+companies considered to be at the highest risk, it
+does not mean that the company will disappear; rather, it
+
+is a possible scenario where they are later acquired, or their earnings drop in the rankings.
+Nekape is alive, too.   That's right
+.  Now, there is also Netscape
+.  That's right.  It means it could be meaningless, so
+of course it's Apple, and the
+second meta.  Meta is very difficult right now
+.  Actually, [laughs]
+because first of all, Meta does
+n't have any skills.
+Still, they are investing heavily in AI
+.  At Rama, the original
+plan was not a bad one: to dominate the ecosystem with open-source AI, but it
+
+seems they lack the technical capability.  Especially in the case of Rama, he
+currently has Generation 3 or 4, but his
+performance is deteriorating.
+But Professor, I think you spoke positively about Meta's future last time, but
+
+I have changed my opinion as well.  [Laughs]
+So, back then, you thought that
+Meta, with its AI device combined with glasses, might
+take over.   That's right
+.  However, the problem with Meta right now is
+that, ultimately, people
+seem to be what matters.  However,
+there are currently two new trends at Meta. The
+first is that AI team members are
+changing too quickly and frequently.  It seems like he keeps
+failing to secure a spot in the rotation
+.  Second, at the same time, we are
+currently investing the most in AI data centers
+.  Among the
+data centers currently being built in the U.S., there is a
+data center called Hyperion that is overwhelmingly dominant
+.  We are
+currently building Hyperion on Luigi alone. It is a data center that
+requires five 5GW nuclear power plants,
+and to give you an idea of ​​how big it is, the data
+center's area is the size of Manhattan.
+[Laughs]
+Imagine.  If you really don't
+believe me, if you search for "Hyperion meta,"
+that picture is in the slide where I showed the Zergling view
+.  It's Manetton size
+.  They are investing hundreds of trillions or even
+
+quadrillions of dollars like this, but
+look at the problem, Meta.  There is no hardware right now, either
+.  And there is no device.
+So, I am working
+hard to make glasses right now to use that device, but in
+the long run, I think I will definitely go in the eyewear field
+.  But that is because of the reviews after 5 to 10 years, so the
+most important thing is that it's the same
+when you run a business, isn't it?  Looking at the long term, it
+seems like it will succeed, but since it costs so much money right now, will I be able to
+survive for five years?
+So, the next five years are
+extremely important to Matt right now.  OpenAI Sam
+Waltvar seems like a really cunning fox
+.  We don't issue bonds either.
+When making payments on that scale, the way it works is that
+they don't incur the debt themselves; instead, they tell
+Oracle, "If you build all the data centers, I will
+
+guarantee that I will purchase this amount of computation time from them
+."  So, borrow the
+necessary funds
+from the bank using your credit to build the data center.  So, the reason Oracle is in danger right now is that they have signed
+so many agreements with OpenAI, and while
+theoretical revenue is high, they
+currently have too much debt
+.
+Ah, is Oracle dangerous too?  Apple is already in
+danger, Meta is in danger, and Oracle
+is in danger too.  And Nvidia is always
+dangerous.  [Laughs]
+Of course.
+Ah, doesn't Nvidia practically have supremacy
+?  no.  Because
+NV Diablo has the rights to the pack on one side, but they are being
+too picky.  Right now, the
+
+only thing NVIDIA is really making money from is GPUs.  As a result,
+regarding GPUs, if AI performs well—for example,
+after the emergence of Choi Ji,
+NVDIA was doing incredibly well, but then
+DeepEpke appeared, and DeepEpke's message was that there is a
+
+possibility the amount of computation could be reduced by a factor of 100—the stock price
+plummeted, didn't it?  So,
+inevitably, Chairman Hwang has no choice but to travel the world
+eating Kkambu Chicken and
+continue his AI hype, because the moment trust
+collapses is the most dangerous moment.
+Hey, this is our big brother Kkambu. As
+you know, big brother Kkambu, we didn't receive those
+260,000 GPU GB Grace
+Blackwall 200s back then, did we?
+We were given the opportunity to spend 14 trillion won, but
+this also has
+many problems.  Because originally, the South Korean
+government's forecast was to
+secure 50,000 GPUs by 2030
+.
+260,000 copies will be produced in 2026.  So far so
+good, but a GPU is just like a car engine, you know
+.  I mean, would you like it if someone
+came to your house right now and gave you 100 Porsche Show engines
+?  I guess I just have to get that and
+go about it.   You
+need a car for everything you can do.  In other words, we need to
+build data centers, and if we
+roughly calculate the current 260,000 units
+in terms of power, we would first need two nuclear power plants
+.  It's the US price.  While Korea might be able to do it
+a bit more cheaply, it is
+generally known that building and operating a 1GW data center
+
+requires 50 trillion won.
+So, if we assume the US price, an
+additional 100 trillion is needed
+.  It probably isn't that bad.  We
+can do it more cheaply, so somehow, we
+still need tens of trillions more
+.  But the bigger problem is... well, still, if it's
+necessary, you have to
+make it.  Even so, we could target that level, but
+currently, there isn't
+actually that much demand for GPUs in our country
+.  As I understand it, the
+total demand for GPUs in Korea is currently
+around 100 MW.  However,
+if you obtain this GigaW right now, you must create demand immediately
+.  American companies have demand, you know
+.  In the case of OpenAI,
+people
+threw it away because it couldn't draw pictures.  Because there isn't enough data center
+.  Even in the case of Jaeminai,
+BO3 people can't make videos.   Even though I'm
+subscribed to this, it only lets me
+draw a few times a day.
+This is because there is a shortage of data centers.
+So, those friends
+overwhelmingly need data centers right now.
+Because there is already demand.  But we
+don't have the service.  AI services.
+So, strangely enough, we are now in a
+
+very paradoxical situation where we have to create demand while building infrastructure at the same time,
+so we had a lot of concerns.
+## AI 뒤처졌다고 생각했던 한국의 숨은 경쟁력 (25:07–31:45)
+What should we do with this?  However, recently it seems like I have
+found some answers.
+You're saying let's go with physical AI.
+South Korea.  I
+think that's right, too.  Physical AI refers to
+AI that takes the form of robots or autonomous vehicles.
+This is very interesting; shall we
+take a humanoid as an example?   In the
+case of Gymanoid robots,
+robots are really difficult.  There
+are many videos of this, but if you search for the
+2015 Pentagon Darupa
+Humanoid Competition on YouTube, for example, you will see that the
+robots couldn't even walk properly back then.  I keep falling over and
+tripping, and it is
+too difficult.  It might be
+hard for the general public to understand, but simply holding a water bottle like this is
+too difficult for a robot.
+Our people hold the water bottle.  Then you catch it like this
+.  What should the robot do?
+Grab the water bottle.  So, first of all, we need to
+know what a water bottle is.  Let's
+assume you know everything.  You have to find out where it is
+.  Let's assume you found it again.  The
+biggest problem is this.  Catching means
+this, doesn't it?  Then, when you grab it, the
+joint values ​​for the fingers, wrists, and elbows must
+all be present.  But I'm
+here right now.  So, to
+move from my current joint to the direction I want, I
+now have to calculate a function.
+Mapping this value here is
+called inverse kinematics, and it's really difficult.
+Calculating this.  Because we
+have to handle the future here,
+this isn't the only problem; we also have to
+calculate the entire journey from here to there.
+Then we
+can't hit this and knock it down again on the way, right?  I guess I have to
+calculate all of this.
+So, the robots look at me like this and then
+make a squeaking sound.  Next, you
+need to measure the weight again.  Because I need to adjust my joints, I have to listen to it
+a little.   It's because they
+listened to it and then acted like this that it caused such a huge fuss
+.  But humans and
+animals don't do that.  Little
+kids run around hopping around.  Also, if you
+look on YouTube, try searching for "Alforce buff."  It's
+chaos.  I run around hunting in the mountains,
+practically
+running along cliffs.
+Those guys running around on cliffs are
+n't going to calculate differential equations, are they?
+How on earth do they do this with just a tiny head
+?  So recently,
+robotics has also shifted to a learning-oriented approach
+.  In the past, AI
+explained everything using formulas, you know.
+Then, when that didn't work, Professor Hinton suggested trying it through
+learning, and it seems that solved the problem. Similarly, Teacher
+Choi Ji-T
+taught the language using Chumskin grammar, but the student could
+n't understand it until the end. However, when she told the student to
+learn using characters found on the internet, it worked. Now, finally, the point is that even
+robots can
+no longer handle it using mathematical formulas.  Let's just
+show it.  So, in Tesla's
+case, the Optis robot
+was probably about 173 cm tall.  Hire
+
+dozens of part-time workers who are 173cm tall, and
+have them wear gloves and look at the robot from its eye level to
+
+move the robot like this.  Then, it
+learns.
+Instead of calculating this using inverse kinematics, you
+give a preview explaining that holding a water bottle is like this, and then
+show this thousands of times
+.  Consequently, the
+reason we were able to create Chaechi T is that because
+humanity has uploaded so much text, images, and videos to the Internet over the past 30 years,
+artificial intelligence is
+good at creating videos, images, and text.  But there wouldn't be any
+movement data on the internet,
+right?  You need to create that data now
+.  Now, it seems there are
+significant competitive advantages and opportunities for our country starting from here. That's
+good.  What is it?  Well,
+in the U.S., they have no choice but to hire part-time workers right now to do it
+that way.  But let's
+think about it carefully.  Also,
+since it is all done through learning, there is
+a phenomenon in robots where the
+robot's behavior
+can change depending on the learning data.  For example,
+this is just a common joke in the robotics field: if an
+American student
+trains a robot, they say it will be
+given to it like this.
+Ah, a
+Korean [laughs] student taught me that the robot
+gives it like this.
+jin.   He means that his
+
+behavior changes depending on the position he is in.
+However, American robots are currently being taught by part-time workers; if we were to
+bring those part-time workers to Ulsan and ask them to
+weld a ship, would they be able to do it
+?  You can't do it.  He was just a
+student walking the streets, but what that means is that in order
+
+to use robots in manufacturing with physical AI in the true sense, you should
+n't train ordinary people.
+Skilled worker.
+But where are the skilled workers?   It means there are
+more in countries with strong manufacturing industries
+.
+Look at this, for example.  In the case of the US, just like in
+Europe, the
+biggest problem during COVID-19 five years ago was that there wasn't a single mask factory in all of Europe and the US
+.   They were
+all handed over to China, you know.  But there were
+still mask factories in Korea, you know
+.  We rolled it.  In just a week,
+surprisingly, South Korea is
+
+one of the few countries in the world that manufactures airplanes and ships, and it turns out that there is still a
+paper straw factory
+.  It must be famous in robotics for making semiconductors while
+still having a kimchi factory
+.
+The fact that the manufacturing industry is still alive has actually been
+
+discussed as a huge problem for South Korea until now.  Our
+advanced countries have already upgraded to the service industry
+.   Wow,
+especially in the U.S., there is no manufacturing industry.  I've
+lived in the U.S. for a long time, you know.  It’s
+not just that there is no major work; they can’t do the work.   It's
+just because the spirit masters aren't there.  So, when
+Hyundai Motor opened a factory in the U.S. and Korean
+workers went there, the recent incident where something got caught and caused a huge commotion meant that they could
+
+n't bring in American people to work in the car factory
+.  TSMC is also trying to build a semiconductor factory in the U.S., but they say they don't have enough
+manpower.
+So, people who are capable of doing the work will probably be able to do it after a few years
+.  Even though there is such a shortage of
+people, the fact is that there are still veterans in Korea, such as those in Ulsan and Changwon, who have been
+working there for decades
+
+.
+Then, South Korea's greatest
+competitive advantage right now is that if those veterans are taught how to assemble screws and weld while wearing goggles before they retire
+, and we
+
+possess that data, it will become
+
+internet data that only South Korea has in the era of physical AI
+.  I need to do this quickly
+.   You have to do it
+quickly.  Since Chets T
+was trained using publicly available internet data, if
+someone trained it, other countries could
+all follow suit.  However,
+
+when we obtain this kind of physical AI data, we just need to encrypt it and not
+give it away.  Or, if you make a good impression on us
+or do business with us, since the whole
+world is moving toward an era of self-reliance, it is
+
+no longer a matter of mutual give and
+take like in the past; there must be a reason to give and a reason to receive.
+As a result, the U.S.
+uses GPUs in diplomatic negotiations with the rest of the world
+.  They say they will sell if it looks good, and
+China does that alone.
+We had nothing.  However,
+if we can generate
+physical AI data using the movement data of these artisans, we need to
+
+do so as quickly as possible.  Then, this
+becomes the world's best competitive edge, so
+maintaining our manufacturing industry suddenly does
+n't become the biggest opportunity.  That's how they're
+looking at it right now.  So, today,
+together with Professor Kim Dae-sik from KAIST, we also thought about the
+future changes that AI will bring, as well as the
+crisis or breakthrough for South Korea
+
+.  I
+sincerely hope that today's video will be a great source of strength for our future.
+Thank you for watching until the end.   no see
+.

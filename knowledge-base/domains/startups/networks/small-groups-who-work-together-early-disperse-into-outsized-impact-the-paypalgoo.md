@@ -51,8 +51,8 @@ related:
   - INS-260321-3D65
   - INS-260322-5831
   - INS-260321-B7CB
+  - INS-260322-229C
   - INS-260321-1749
-  - INS-260321-9EBB
 ---
 The PayPal mafia is the famous example — Thiel started Palantir and Founders Fund, Musk did Tesla and SpaceX, Hoffman started LinkedIn, Levchin started Affirm — but this pattern repeats with every breakout company. Early Google employees became COOs at Facebook (Sandberg), Dropbox (Woodside), and the CEO/leadership of Stripe, Gusto, and dozens of others. Pinterest and Instagram founders came from Google.
 

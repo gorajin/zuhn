@@ -49,8 +49,6 @@ related:
   - INS-260322-32E3
   - INS-260322-474A
   - INS-260322-3C3D
-  - INS-260322-8147
-  - INS-260322-25B4
   - INS-260322-02A6
 ---
 The next wave of scientific acceleration comes from combining AI reasoning and experiment planning with physical lab automation. Near-term, this looks like human-AI collaboration where a scientist works alongside an AI system and robot — not fully self-driving science, which remains further out. Interpretability is critical: researchers need to understand why the AI plans experiments a certain way.

@@ -43,10 +43,10 @@ resolutions:
     screening upfront to maintain cohesion without formal hierarchy.
 related:
   - INS-260321-E4EB
+  - INS-260322-F65F
   - INS-260321-7C97
   - INS-260321-6BA7
   - PRI-260321-14D8
-  - INS-260321-3312
 ---
 ElevenLabs made the deliberate decision to remove all titles from the organization. This served two purposes: first, it acted as a natural filter against candidates who prioritize status (e.g., demanding VP titles), selecting instead for people motivated by the work itself. Second, it removed implicit hierarchy that inhibits junior people from proposing ideas, asking questions, or giving feedback to senior colleagues.
 

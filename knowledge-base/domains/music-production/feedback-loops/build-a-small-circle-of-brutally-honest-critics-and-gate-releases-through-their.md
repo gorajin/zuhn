@@ -48,7 +48,7 @@ related:
   - INS-260322-AB55
   - INS-260320-508F
   - INS-260320-A1D3
-  - INS-260322-5650
+  - INS-260322-C6CE
 ---
 Friends and family give useless feedback ('yeah, it's good') because they don't want to hurt you. What you actually need is someone who says 'your kick drum is too loud' or 'your bass pattern is garbage.' James Hype built relationships with other DJs/producers who exchanged brutally honest critiques, which accelerated his ability to distinguish good work from bad.
 

@@ -52,6 +52,7 @@ related:
   - PRI-260321-14D8
   - PRI-260320-8205
   - INS-260320-E872
+  - INS-260322-F65F
 ---
 The most common failure point in autoresearch loops is the eval. People make criteria like 'Is this engaging?' or 'Does it sound good?' — that's just vibes, and machines can't reliably optimize against vibes. The fix is binary yes/no questions with zero gray area.
 

@@ -44,9 +44,9 @@ resolutions:
 related:
   - INS-260322-9DDD
   - INS-260322-0C91
+  - INS-260322-A31D
   - INS-260321-3521
   - INS-260320-B7DA
-  - PRI-260321-05B5
 ---
 When a16z launched in 2009 in the wake of the financial crisis, they faced widespread criticism: 'Why are you raising money now? What are you stupid?' The answer proved to be that raising capital when nobody else has it is structurally advantageous — less competition for deals, better pricing, and founders who are more serious about building.
 

@@ -47,10 +47,10 @@ resolutions:
     has already worked, not what could work.
 related:
   - INS-260320-5F14
+  - INS-260322-4B4A
   - INS-260322-116B
-  - INS-260320-DDD9
-  - INS-260321-33FC
-  - INS-260321-8382
+  - INS-260322-C6CE
+  - INS-260322-3CFB
 ---
 Stan Lee's distillation of creative fulfillment has three components: doing what you want to do, doing it the way you think it should be done, and being able to look at it afterward and say 'I did that and I think it is pretty damn good.' This is not about ignoring feedback or being stubborn — Lee was responsive to what worked. It is about the starting point being internal conviction rather than external validation.
 

@@ -53,12 +53,10 @@ related:
   - INS-260320-3798
   - INS-260321-9824
   - INS-260321-AE3F
-  - PRI-260321-AD44
   - INS-260321-53E2
   - INS-260321-E59A
   - INS-260322-B33E
-  - INS-260322-AC23
-  - INS-260322-5A0F
+  - PRI-260321-AD44
 ---
 Epoch AI notes that math appears to be 'unusually easy' for AI, defying earlier intuitions that mathematical reasoning would require deep intelligence. RL (reinforcement learning) techniques work particularly well in formal mathematical domains because they have verifiable outcomes. Current AI is already at the point where mathematicians report it being genuinely helpful during proofs.
 

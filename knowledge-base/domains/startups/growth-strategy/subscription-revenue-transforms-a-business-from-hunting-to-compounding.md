@@ -50,8 +50,8 @@ related:
   - INS-260321-31B3
   - INS-260322-3010
   - INS-260322-5650
-  - INS-260322-B450
-  - INS-260322-FCFC
+  - INS-260322-8D47
+  - INS-260322-8F80
 ---
 Physicians Choice's Amazon subscription base approaches $100M/year — customers who bought once, liked the product, and now receive it automatically every month without comparison shopping. This changes the fundamental nature of the business: predictable revenue, predictable inventory needs, predictable cash flow. You are not starting from zero each month.
 

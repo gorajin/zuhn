@@ -42,6 +42,7 @@ resolutions:
     watching everything manually. AI makes great editors accomplish more in less
     time.
 related:
+  - INS-260322-7FA4
   - PRI-260321-5857
   - PRI-260321-558C
   - INS-260321-38EC

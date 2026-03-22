@@ -46,11 +46,11 @@ resolutions:
     win here because these interaction models don't natively fit into existing
     platform architectures.
 related:
+  - INS-260322-8D47
   - INS-260322-5650
   - INS-260322-0812
   - INS-260321-4E98
   - INS-260321-9EBB
-  - INS-260322-5A72
 ---
 Brian Kim at a16z argues that 2026 is when consumer AI moves beyond productivity into connectivity — helping users see themselves clearly and build relationships with people they love. The core emotion being addressed is wanting to be seen by others.
 

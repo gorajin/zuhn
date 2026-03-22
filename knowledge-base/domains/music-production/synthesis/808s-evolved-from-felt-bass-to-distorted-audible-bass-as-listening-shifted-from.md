@@ -45,8 +45,8 @@ resolutions:
 related:
   - INS-260320-232D
   - INS-260322-191F
+  - INS-260322-F65F
   - PRI-260321-14D8
-  - INS-260320-10E8
-  - INS-260321-CCD9
+  - INS-260322-0AA6
 ---
 Puth and host Ross Goolan trace the evolution of 808 bass in hip-hop production. In the Run-DMC era, 808s were toneless booms meant to be felt through car subwoofer systems (Alpine). DJ Mustard didn't even tune 808s diatonically — when Puth suggested tuning them to D-flat major, Mustard looked at him confused. But as listening shifted to laptop speakers and phones, you can no longer feel sub-bass — you have to hear it. This created a requirement to distort 808s so they're audible on small speakers. Puth even demonstrates his 'mouth phone' trick — putting a phone speaker in your mouth to physically feel 32Hz and below — showing how producers adapt to modern listening constraints.

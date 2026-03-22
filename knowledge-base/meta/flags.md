@@ -14,6 +14,9 @@ None.
 - 2 insights form cluster across ai-development/adoption, ai-development/adoption-patterns — shared tags: chatgpt
 - 4 insights form cluster across music-production/practice, music-production/theory — shared tags: none
 - 2 insights form cluster across psychology/consciousness, psychology/perception — shared tags: jung
+- 2 insights form cluster across ai-development/human-ai-relationship, ai-development/human-ai-coexistence — shared tags: none
+- 2 insights form cluster across ai-development/human-ai-relationship, ai-development/human-ai-coexistence — shared tags: ai-era-skills
+- 2 insights form cluster across startups/branding, startups/scaling — shared tags: scaling
 
 ## GAP
 - ai-development/claude-code has 33 insights but related ai-development/agent-patterns has only 10
@@ -23,6 +26,8 @@ None.
 - ai-development/claude-code has 33 insights but related ai-development/system-building has only 10
 - ai-development/claude-code has 33 insights but related ai-development/ai-automation has only 8
 - ai-development/future-of-work has 15 insights but related investing/fintech has only 4
+- ai-development/future-of-work has 15 insights but related ai-development/human-ai-coexistence has only 3
+- startups/bootstrapping has 13 insights but related startups/product-development has only 3
 - startups/growth-marketing has 29 insights but related ai-development/ai-automation has only 8
 - startups/growth-marketing has 29 insights but related video-production/content-strategy has only 3
 - startups/growth-marketing has 29 insights but related startups/ideation has only 9
@@ -30,15 +35,22 @@ None.
 - startups/growth-marketing has 29 insights but related startups/business-models has only 3
 - startups/growth-marketing has 29 insights but related startups/competitive-strategy has only 7
 - startups/growth-marketing has 29 insights but related investing/ai-business-models has only 3
+- startups/growth-marketing has 29 insights but related startups/scaling has only 3
+- startups/growth-marketing has 29 insights but related ai-development/adoption has only 4
 - startups/growth-marketing has 29 insights but related startups/marketing has only 5
+- startups/growth-marketing has 29 insights but related startups/strategy has only 4
 - startups/growth-marketing has 29 insights but related startups/growth-strategy has only 5
+- startups/growth-marketing has 29 insights but related startups/fundraising has only 5
 - startups/growth-marketing has 29 insights but related startups/branding has only 4
+- startups/founder-mindset has 19 insights but related startups/scaling has only 3
+- startups/founder-mindset has 19 insights but related startups/strategy has only 4
 - startups/founder-mindset has 19 insights but related startups/growth-strategy has only 5
 - startups/founder-mindset has 19 insights but related startups/branding has only 4
 - ai-development/ai-market-dynamics has 19 insights but related investing/ai-business-models has only 3
-- ai-development/ai-market-dynamics has 19 insights but related ai-development/adoption has only 3
+- ai-development/ai-market-dynamics has 19 insights but related ai-development/adoption has only 4
 - ai-development/ai-market-dynamics has 19 insights but related ai-development/enterprise-adoption has only 5
 - investing/geopolitics has 17 insights but related investing/ai-infrastructure has only 2
+- startups/leadership has 11 insights but related startups/scaling has only 3
 
 ## TRANSFER
 - "AI companies are model-busters — they grow faster than any spreadsheet predicts, and the capex is structurally different from dot-com" (investing) may apply to ai-development/economics (sim: 0.76)

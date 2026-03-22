@@ -62,6 +62,7 @@ related:
   - INS-260322-837A
   - INS-260322-FCFC
   - INS-260322-7B61
+  - INS-260322-229C
 ---
 a16z's internal data analysis across their portfolio and prospects reveals that 2025 reversed the 2022-2024 revenue growth slowdown. AI companies are growing 2.5x faster than non-AI companies, and the top AI performers hit 693% year-over-year growth. Critically, this isn't fueled by burning cash on sales and marketing — the best AI companies are actually spending less on GTM than their SaaS counterparts while growing much faster.
 

@@ -48,14 +48,14 @@ resolutions:
 related:
   - INS-260320-0F7C
   - INS-260320-8FFC
-  - INS-260320-DDD9
   - INS-260321-E4EB
   - INS-260321-E2FC
   - INS-260321-3660
-  - INS-260321-CCD9
   - INS-260322-4090
   - PRI-260321-14D8
+  - INS-260320-DDD9
   - INS-260321-F864
+  - INS-260322-7E86
 ---
 The video's most epistemologically honest observation: 'We are so good at creating meaning, we become really bad at discerning truth.' With billions of people generating trillions of thoughts and actions, statistically improbable alignments between internal states and external events are actually expected, not miraculous.
 

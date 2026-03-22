@@ -49,7 +49,6 @@ resolutions:
     and intelligence out through whatever interface fits the use case.
 related:
   - INS-260320-9D89
-  - PRI-260320-5D78
   - INS-260321-F864
   - INS-260322-CCAA
   - INS-260322-EAB6

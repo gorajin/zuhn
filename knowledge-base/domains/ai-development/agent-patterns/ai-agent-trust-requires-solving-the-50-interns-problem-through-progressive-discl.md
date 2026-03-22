@@ -59,7 +59,6 @@ resolutions:
     trapped value in current model capabilities.
 related:
   - INS-260321-2482
-  - INS-260321-2241
   - INS-260321-4E98
   - INS-260322-3D21
   - INS-260321-B7CB

@@ -54,6 +54,7 @@ related:
   - PRI-260321-7307
   - INS-260321-1A0B
   - INS-260322-F6AA
+  - INS-260322-5B1B
 ---
 Sarah Wang at a16z argues that 2026 is when the dynamic agent layer overtakes traditional systems of record. Previous attempts (SaaS 2.0) failed because they merely offered better UI — a 20-50% improvement wasn't enough to overcome data gravity. AI agents are fundamentally different because they collapse the distance between intent and execution, delivering a 10x improvement.
 

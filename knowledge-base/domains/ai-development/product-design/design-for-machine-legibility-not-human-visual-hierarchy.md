@@ -41,16 +41,15 @@ resolutions:
     of low-quality, high-volume content trying to game agent attention — the
     spam equivalent in the agent era.
 related:
-  - INS-260320-5B49
   - INS-260321-D3BE
   - INS-260321-18D0
   - INS-260321-C5AA
   - INS-260321-C3E6
   - INS-260321-015B
   - INS-260321-4E98
-  - INS-260322-3C3D
   - INS-260322-EAB6
   - INS-260322-D8C3
+  - INS-260322-E4D8
 ---
 Stephanie Zhan identifies a fundamental shift: content and applications must now be optimized for agent consumption, not human attention. Agents don't need hooks or visual hierarchy — they read everything and extract relevance. The new optimization target is machine legibility.
 

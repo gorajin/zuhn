@@ -46,7 +46,6 @@ resolutions:
     know how to solve homicides for 20 years. Higher-tech policing also makes
     the career more attractive to educated candidates.
 related:
-  - INS-260321-C292
   - INS-260322-888D
   - INS-260322-5F87
   - INS-260322-116B

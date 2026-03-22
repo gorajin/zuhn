@@ -53,6 +53,7 @@ related:
   - INS-260322-37EE
   - INS-260322-5650
   - INS-260322-B641
+  - INS-260322-4F7A
 ---
 Arthur's single biggest takeaway after 57 days: 'Only optimize your onboarding. Try to spend nearly 90% of your time on the onboarding. More than 80% of conversions are during the onboarding. That's way more important than the app itself.' This sounds counterintuitive, but the data backed it up repeatedly.
 

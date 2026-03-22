@@ -46,8 +46,8 @@ related:
   - INS-260321-C99A
   - INS-260320-DDD9
   - INS-260322-F128
+  - INS-260322-30A0
   - INS-260322-2FAD
-  - INS-260321-99C0
 ---
 Swanson argues there's a power law in business, venture, and life. Each month or quarter, there's typically one thing that if accomplished is worth more than everything else combined. Most people set too many goals and use the long list to procrastinate on the most important one.
 

@@ -50,10 +50,10 @@ related:
   - INS-260320-2058
   - INS-260320-105E
   - INS-260320-630D
-  - PRI-260320-D5B7
   - INS-260321-B8E8
   - INS-260321-CCD9
   - INS-260322-4090
+  - INS-260322-BF4C
   - INS-260322-0812
 ---
 The a16z team identifies multimodal convergence as the defining model trend for 2026. The progression: initially models took text in and produced images/video out. Then image-to-image editing arrived (Nano Banana, Flux). Next comes video-in-to-video-out editing, and ultimately 'mega models' that merge text reasoning, image generation, and video production into unified systems.

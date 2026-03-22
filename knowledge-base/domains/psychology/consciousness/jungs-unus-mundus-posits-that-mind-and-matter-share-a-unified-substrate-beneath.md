@@ -49,9 +49,9 @@ resolutions:
 related:
   - INS-260322-A8F2
   - INS-260321-3967
+  - INS-260322-2E1C
   - INS-260321-7D7C
   - INS-260322-2DBD
-  - INS-260322-4090
 ---
 Jung's metaphysical leap beyond mere psychological observation is significant: synchronicities aren't just interesting mental phenomena — they are windows into reality's fundamental structure. If a content perceived by an observer can simultaneously be represented by an external event without causal connection, then 'either the psyche cannot be localized in space, or space is relative to the psyche.'
 

@@ -55,6 +55,8 @@ related:
   - INS-260322-4757
   - INS-260322-94A9
   - INS-260321-2D72
+  - INS-260322-22D0
+  - INS-260322-A9DE
 ---
 Arthur ran structured A/B tests across onboarding flows, paywall designs, pricing, and even App Store icons. His most striking finding: a 'less personal questions' variant that removed three onboarding screens drove zero conversions, while a 'no-pact' variant that removed a different screen significantly outperformed the control on both completion and conversion.
 

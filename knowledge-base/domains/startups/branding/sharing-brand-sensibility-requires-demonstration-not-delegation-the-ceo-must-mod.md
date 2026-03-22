@@ -50,14 +50,14 @@ resolutions:
 related:
   - INS-260320-A1D3
   - INS-260321-C513
-  - INS-260322-BFDE
   - INS-260322-DAFB
-  - INS-260322-FD23
   - INS-260322-3DE2
   - INS-260322-185B
   - INS-260322-2FAD
   - INS-260322-5A72
-  - INS-260322-B641
+  - INS-260322-7F88
+  - INS-260322-D5EB
+  - INS-260322-BFDE
 ---
 As brands grow, CEOs face the dilemma of sharing the brand sensibility they created. Simply telling employees 'handle customers this way' doesn't transfer the actual sense and philosophy. A famous fashion brand CEO solved this by personally handling customer service alongside new hires rather than just delegating. Employees witnessed firsthand how the CEO interacted with customers, and through shared experience, the brand's customer service became consistently praised.
 

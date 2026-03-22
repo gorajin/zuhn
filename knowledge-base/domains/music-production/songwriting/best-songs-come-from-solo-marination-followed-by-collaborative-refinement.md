@@ -41,9 +41,10 @@ resolutions:
     deferring to his reputation.
 related:
   - INS-260321-E9B7
+  - INS-260322-7A32
+  - INS-260322-BF4C
   - INS-260322-35FA
   - INS-260321-9C2E
-  - INS-260322-89A9
-  - INS-260321-3312
+  - INS-260322-E22A
 ---
 Charlie Puth identifies his optimal creative workflow: Phase 1 is writing alone, letting the song marinate in his head — something impossible with collaborators present because the pressure to perform takes over. Phase 2 is bringing in collaborators (like Cash, Joe, or Blood Pop) to 'check' him — preventing the music from getting 'too jazzed' for pop. The problem with his current fame: when he enters writing sessions, the focus shifts to him rather than the artist he's writing for. Everyone looks to him for answers, which kills the dynamic. His solution: become more selective about sessions and prioritize artists who maintain their own creative gravity rather than deferring to his reputation.

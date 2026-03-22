@@ -55,6 +55,7 @@ related:
   - INS-260322-AF17
   - PRI-260321-05B5
   - INS-260321-E654
+  - INS-260322-A31D
 ---
 Every generation has produced major bootstrapped companies: Microsoft raised one pre-IPO round for board-seat reasons, not capital. Dell never raised money. Yahoo and eBay raised rounds they never touched. Instagram was extremely lean. Midjourney is completely bootstrapped. The question isn't 'should I raise?' but 'does my business model require capital to win the market faster?'
 

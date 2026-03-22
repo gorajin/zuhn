@@ -53,8 +53,8 @@ related:
   - INS-260321-C292
   - INS-260322-8BD1
   - INS-260321-E654
+  - INS-260322-0CE3
   - INS-260322-BBED
-  - INS-260322-B33E
 ---
 Ryan McIntosh at a16z identifies the 'electro-industrial stack' as the foundation of 21st century economic and military power. This shared technology layer powers electric vehicles, drones, data centers, and modern manufacturing. The US can match China's engineering capability for any individual technology, but China's advantage lies in its multi-tier supplier ecosystem that enables industrial scale at low cost.
 

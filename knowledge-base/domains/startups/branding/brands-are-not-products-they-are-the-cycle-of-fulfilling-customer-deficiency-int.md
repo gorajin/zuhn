@@ -48,7 +48,6 @@ resolutions:
     they accurately understand the product's efficacy from direct experience,
     not because of a discount code.
 related:
-  - INS-260322-7DD5
   - INS-260322-BD0D
   - INS-260322-92D7
   - INS-260322-C9AC

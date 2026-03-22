@@ -45,7 +45,6 @@ resolutions:
     pass: does using AI plus verification cost less than just doing the task
     manually?
 related:
-  - INS-260320-47DC
   - INS-260320-76D2
   - INS-260320-10CC
   - INS-260320-A467

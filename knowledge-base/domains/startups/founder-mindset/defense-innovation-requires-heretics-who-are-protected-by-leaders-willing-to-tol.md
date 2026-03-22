@@ -51,8 +51,8 @@ related:
   - INS-260321-1A99
   - INS-260320-E044
   - INS-260321-D4D0
+  - INS-260322-13D6
   - INS-260322-019A
-  - INS-260322-25B4
 ---
 Shyam Sankar catalogs historical defense innovations and finds a universal pattern: every breakthrough — the Higgins boat, the F-16, nuclear submarines, Project Maven — was heretical. The institution fought it. The bureaucracy tried to kill it. What made these innovations survive was not just the heretic's persistence but the existence of a protector — a senior leader who recognized something special and shielded them.
 

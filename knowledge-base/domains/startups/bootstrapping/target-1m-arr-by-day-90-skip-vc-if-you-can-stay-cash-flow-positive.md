@@ -41,9 +41,9 @@ resolutions:
     spend around $2,000/month.
 related:
   - INS-260320-20F2
+  - INS-260322-8BC5
   - INS-260322-1435
   - INS-260322-36E3
   - INS-260322-144E
-  - INS-260322-1D52
 ---
 Alex's recommended AI startup timeline: monetize by day 30, reach $1M ARR (about $80K/month) by day 90, then decide whether VC funding is even necessary. Many successful AI companies scale to tens of millions profitably without VC — the passport photo website market is a concrete example of businesses making tens of millions that would never be VC-backed. The key metrics to track are daily active users and average contract value (ACV), not monthly active users which can be inflated by viral effects and don't reflect usage frequency or value delivered. Target customers willing to spend around $2,000/month.

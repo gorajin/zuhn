@@ -47,12 +47,13 @@ resolutions:
     how creative scenes interconnect.
 related:
   - INS-260321-F0DF
-  - INS-260321-6D01
   - INS-260321-9C2E
   - INS-260322-5E5D
   - INS-260322-B392
   - INS-260322-35FA
+  - INS-260322-BF4C
   - INS-260322-F781
+  - INS-260322-7A32
 ---
 When you hear a guitar tone, drum pattern, or production texture you love, the next step is credit tracing: finding who performed it, then exploring everything else they have played on. This uncovers creative networks that no algorithm can surface because it follows human collaboration patterns rather than sonic similarity.
 

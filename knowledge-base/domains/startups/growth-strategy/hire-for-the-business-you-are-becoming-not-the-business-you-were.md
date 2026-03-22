@@ -47,11 +47,11 @@ resolutions:
     found a clever tactic, but when he stopped being the ceiling that everything
     had to pass through.
 related:
+  - INS-260322-D5EB
   - INS-260322-EDA4
   - INS-260322-1280
   - INS-260322-36E3
   - INS-260322-C472
-  - INS-260322-88C3
 ---
 At $30-50M in revenue, Physicians Choice was still operating like a scrappy startup — a few guys behind laptops in an Airbnb, no real departments or processes. When the founder complained about finding a good bookkeeper, a friend who was CFO of a $2B company said: 'You don't need a bookkeeper. You need a VP of Finance.' The realization: he was solving company-sized problems with a freelance mindset, hiring for the business he used to be instead of the business he was growing into.
 

@@ -42,5 +42,6 @@ related:
   - INS-260321-96CE
   - INS-260322-750A
   - INS-260322-D1AB
+  - INS-260322-3537
 ---
 Create a grid: columns are proven formats you've identified (POV, 2D animation, game commentary, etc.), rows are YouTube markets (finance, fitness, gaming, interior, history, etc.). Fill in cells where the format-market combination already has an example channel. Empty cells are untapped blue oceans — proven format + existing audience, but no one has combined them yet. This transforms creative ideation from guesswork into systematic search.

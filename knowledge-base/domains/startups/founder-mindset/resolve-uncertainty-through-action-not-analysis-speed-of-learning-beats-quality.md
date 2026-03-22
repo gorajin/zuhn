@@ -52,12 +52,11 @@ resolutions:
     operation where the cost of a failed experiment is always lower than the
     cost of not knowing.
 related:
-  - INS-260321-4280
+  - INS-260322-627E
   - INS-260322-3646
   - PRI-260321-14D8
+  - INS-260322-3083
   - INS-260322-D079
-  - INS-260321-C3E6
-  - INS-260321-D959
 ---
 The Pensive founder left a 10-year career at a recognized Korean educational institution to go to the US because he concluded that 'resolving uncertainty quickly is much more important than feeling anxious about it.' This manifested in concrete behaviors: going to meet property managers during rainstorms, waking at 5 AM to source food market ingredients, building and killing products in rapid succession.
 

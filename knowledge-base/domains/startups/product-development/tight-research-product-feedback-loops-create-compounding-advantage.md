@@ -49,9 +49,9 @@ related:
   - INS-260321-2D72
   - INS-260322-B33E
   - INS-260322-7282
+  - INS-260322-58B7
   - INS-260320-9935
   - INS-260321-E654
-  - INS-260322-CCAA
   - INS-260322-7723
 ---
 ElevenLabs' guiding product philosophy is the integration of research and product into a single accelerating loop. Product teams provide direct feedback on what users need to the research team, which can iterate immediately. Research teams test their models directly on the live product, getting real-world signal instead of synthetic benchmarks.

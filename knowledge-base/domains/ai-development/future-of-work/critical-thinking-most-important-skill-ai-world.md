@@ -21,10 +21,10 @@ sources:
     url: 'https://youtu.be/EdZWPB1fIJc'
 related:
   - INS-260321-33FC
+  - INS-260322-30A0
   - INS-260320-5F14
   - INS-260321-C14C
   - INS-260322-2B2D
-  - INS-260322-F128
   - INS-260321-80A9
   - INS-260321-C99A
   - INS-260321-C0A4

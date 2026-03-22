@@ -54,5 +54,6 @@ related:
   - INS-260321-21BE
   - INS-260322-92D7
   - INS-260322-185B
+  - INS-260322-AFE9
 ---
 Michael and Dalton use Amazon as a live case study of incumbent vulnerability. Amazon's search is now dominated by sponsored products indistinguishable from organic results, fake reviews requiring browser plugins to detect, and products flagged as 'often returned' that still appear in results. The discovery experience has degraded to the point where you need to discover products outside Amazon and deep-link in. DoorDash's advantage: local stores have natural quality control (spam products can't get physical distribution), so ordering from DoorDash feels safer than Amazon. This illustrates a broader principle: at every scale, the big players have vulnerabilities that feel obvious in hindsight. The 'what do you do when Google builds your thing' question is dumb for pre-PMF companies but becomes critically important post-PMF — and the answer is often 'they're more vulnerable than you think.'

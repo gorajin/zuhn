@@ -45,10 +45,10 @@ related:
   - INS-260321-96CE
   - PRI-260321-558C
   - INS-260322-5745
-  - INS-260322-98D2
   - INS-260322-FFF6
   - INS-260321-38EC
   - INS-260322-A61A
+  - INS-260322-8299
 ---
 The same audience members who report influencer marketing failures also report successes. This proves the channel works — the variable is execution: which influencers you pick, what direction you give them, and what you're asking them to accomplish. This applies broadly: no marketing channel is inherently good or bad. The football analogy makes this concrete — a football generated billions in ROI for Messi but negative ROI (hamstring injury) for Gary.
 

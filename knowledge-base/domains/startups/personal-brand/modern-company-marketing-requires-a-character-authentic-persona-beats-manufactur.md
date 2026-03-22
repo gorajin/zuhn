@@ -50,8 +50,8 @@ related:
   - INS-260322-F6AA
   - INS-260322-5A72
   - INS-260321-8414
+  - INS-260322-7FA4
   - INS-260321-C14C
-  - INS-260321-B7CB
 ---
 The conversation surfaces a fundamental shift in how companies are marketed: you can no longer just announce products and report financials. Since Steve Jobs, company marketing has become inseparable from a person — it's Tesla or Elon, Palantir or Alex. This creates a premium on founders willing to be that character.
 

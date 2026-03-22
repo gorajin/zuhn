@@ -45,10 +45,10 @@ resolutions:
     dividends over time.
 related:
   - INS-260320-47DC
+  - INS-260322-8F80
   - INS-260321-7D76
   - INS-260321-2F43
   - INS-260322-EDA4
-  - PRI-260320-A2C7
 ---
 The number one blocker to delegation is the belief that it will be faster or better to do it yourself. The insight is that this belief is actually true — but it's a trap. The only way to build leverage is by absorbing the activation energy of teaching someone else. The second mistake is churning assistants every 6-12 months instead of compounding the relationship.
 

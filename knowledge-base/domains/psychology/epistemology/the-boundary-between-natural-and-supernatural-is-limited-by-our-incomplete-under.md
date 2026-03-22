@@ -48,9 +48,9 @@ resolutions:
 related:
   - INS-260322-2A3A
   - INS-260322-C4A2
+  - INS-260322-2E1C
   - INS-260321-D959
   - INS-260321-F864
-  - INS-260322-A208
 ---
 The video's epistemological framing is powerful: synchronicity is unfalsifiable, existing 'less in the realm of science and more in that of the supernatural.' But this critique contains its own limitation — we cannot confidently define 'supernatural' because our understanding of 'natural' remains incomplete. 'No matter how deep we dig, we always hit the bedrock of our ignorance and fallibility.'
 

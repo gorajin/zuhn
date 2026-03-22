@@ -59,8 +59,8 @@ related:
   - INS-260321-8382
   - INS-260321-E9B7
   - INS-260321-021B
-  - INS-260321-1A84
   - INS-260321-28FB
+  - INS-260321-0CCD
 ---
 Karp describes his leadership philosophy as fundamentally artistic: each Palantir product, including the military systems deployed across the Middle East, was built by 'the one person in the world that could have done it.' These are people with outlier capabilities that function similarly to neurodivergence — they decompose problems in ways that normally-smart people simply cannot.
 

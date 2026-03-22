@@ -48,7 +48,7 @@ related:
   - INS-260320-1B38
   - INS-260322-1D52
   - INS-260321-1A99
-  - INS-260322-96F1
+  - INS-260322-AAEA
 ---
 Facing -3,000 operating profit with only 2 months of runway, Oh didn't despair — he reframed the empty share houses as potential quarantine facilities and partnered with Sogang University's international student office. The pivot wasn't just survival: the quarantine solution (handling payments, pickup, meals) built institutional relationships and operational capabilities that accelerated the platform's growth beyond what the original share-house model could have achieved.
 

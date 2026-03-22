@@ -47,12 +47,11 @@ resolutions:
     simultaneously more humane, more effective, and cheaper than the
     alternatives.
 related:
-  - INS-260321-13C6
   - INS-260322-E734
   - INS-260322-888D
   - INS-260321-F864
   - INS-260322-5F87
-  - INS-260322-B33E
+  - INS-260322-13D6
   - INS-260322-0D87
   - INS-260322-6088
 ---

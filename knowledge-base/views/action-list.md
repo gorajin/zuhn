@@ -1,9 +1,10 @@
 # Action List
-Generated on 2026-03-22 | 220 actionable insights
+Generated on 2026-03-22 | 245 actionable insights
 
 ## ai-development/adoption
 - [INS-260322-3159] Just as enterprise SaaS companies unbundled Oracle and Excel into 400-500 dedicated apps per company, AI software companies will unbundle ChatGPT by wrapping AI capabilities into specific industry workflows.
 - [INS-260322-F891] AI only saves time when verification is cheaper than doing the task manually — generating 200 marketing images to pick 10 works, but AI copying 200 numbers from PDFs that all need checking doesn't.
+- [INS-260322-3083] Stop analyzing AI and start using it this weekend -- vibe coding, agent mode reports, and conversational problem-solving.
 
 ## ai-development/adoption-patterns
 - [INS-260322-55D8] ChatGPT has 800-900M weekly active users, but only 5% pay — five times more people have accounts than can find a weekly use case.
@@ -25,6 +26,9 @@ Generated on 2026-03-22 | 220 actionable insights
 ## ai-development/ai-automation
 - [INS-260320-5A6F] AI-enabled beats AI-replaced — keep the human touch in important parts, automate the repetitive.
 - [INS-260320-76E7] Only automate what you deeply understand — automating ignorance creates slot machines, not efficiency.
+
+## ai-development/ai-bias
+- [INS-260322-F65F] AI outputs sound so complete and reasonable that users may believe they have the full picture on controversial topics — deliberately seeking opposing viewpoints is essential to counteract this.
 
 ## ai-development/ai-market-dynamics
 - [INS-260321-7C97] Software that makes you similar to everyone else (beta) will be replaced by AI/vibe-coding; software that expresses your competitive advantage (alpha) becomes more valuable.
@@ -87,6 +91,10 @@ Generated on 2026-03-22 | 220 actionable insights
 - [INS-260321-4178] AI doesn't just automate procedures — it automates judgment calls. The person who deeply understands insurance underwriting and can talk an AI into building a tool is now more dangerous than the engineer who can build anything but doesn't know what to build.
 - [INS-260321-1A0B] The biggest risk of AI adoption isn't that it fails — it's that it works so well that humans stop learning. Design AI systems where a key priority is the learning and improvement of the humans in the loop.
 - [INS-260321-99C0] Share every major decision with AI daily, then monthly ask 'what was my biggest mistake in the past 6 months?' — accumulated context makes AI an increasingly powerful strategic advisor.
+
+## ai-development/human-ai-coexistence
+- [INS-260322-30A0] In the AGI era, the critical skill shifts from executing tasks to evaluating outputs — from doing the homework to grading it.
+- [INS-260322-DAA1] Using AI to do learning-stage work (writing, reasoning) destroys the cognitive development the work was designed to build, creating a generation that cannot think independently.
 
 ## ai-development/human-ai-relationship
 - [INS-260322-83D4] The highest-value use of AI is building richer internal world models for better decision-making, not outsourcing output production.
@@ -157,6 +165,9 @@ Generated on 2026-03-22 | 220 actionable insights
 ## music-production/feedback-loops
 - [INS-260322-1C17] Find 2-3 peers at a similar skill level who will give brutally honest feedback, and don't release anything until it passes their criticism.
 
+## music-production/mindset
+- [INS-260322-7E86] Listeners connect to how a song makes them feel, not how technically impressive the production is.
+
 ## music-production/music-discovery
 - [INS-260322-89A9] Tracing performer credits — guitarist, drummer, mixing engineer — through Discogs, Genius, and artist Instagram feeds uncovers hidden creative networks that algorithms never surface.
 - [INS-260322-35FA] Watching live DJ mix sets on YouTube is the most efficient way to internalize a genre because DJs curate 30+ tracks from deep listening into a coherent sonic narrative.
@@ -185,6 +196,11 @@ Generated on 2026-03-22 | 220 actionable insights
 ## music-production/theory
 - [INS-260322-6D1D] Each of the 12 scale degrees produces a unique subjective feeling state — not a sound quality, but an emotional character — that persists across octaves, instruments, and musical contexts.
 - [INS-260322-4B37] All scale degree feeling states can be understood as combinations of two primary dimensions: the pure/neutral quality of degree 5 and the warm/sweet quality of degree 3.
+
+## music-production/workflow
+- [INS-260322-7A32] Finishing complete songs develops all production muscles simultaneously, while making loops only trains one.
+- [INS-260322-22D0] Learn your DAW's stock EQ, compression, synths, and spatial effects before buying any third-party plugins.
+- [INS-260322-0AA6] Getting volume levels right first makes every subsequent mixing decision (EQ, compression, spatial) easier and more effective.
 
 ## pets/dog-care
 - [INS-260320-8B06] Letting dogs make small choices -- which toy to play with, which direction to walk, whether to engage or rest -- builds confidence and reduces anxiety-driven behaviors.
@@ -237,6 +253,7 @@ Generated on 2026-03-22 | 220 actionable insights
 
 ## startups/customer-discovery
 - [INS-260322-185B] You cannot discover real customer pain points remotely — physical immersion in your users' environment reveals needs that surveys and interviews miss.
+- [INS-260322-A9DE] Real pain points only surface through direct immersion with users in their actual environment — traveling to parks, teaching in schools, and riding overnight buses reveals what desk research never will.
 
 ## startups/delegation
 - [INS-260322-DAFB] Entry-level delegation assigns tasks; advanced delegation exports your internal preferences and decision criteria as repeatable algorithms.
@@ -260,6 +277,11 @@ Generated on 2026-03-22 | 220 actionable insights
 ## startups/fundraising
 - [INS-260322-A02C] At pre-seed and seed stage, investors and early customers are betting on the founder's story and character, not the product.
 - [INS-260322-0C91] Microsoft, Dell, Yahoo, eBay, Instagram, and Midjourney were all capital-efficient or fully bootstrapped — fundraising should only happen when capital creates a genuine acceleration advantage.
+- [INS-260322-8F80] Flying to a city and stacking every investor and customer meeting into 2-3 days creates a forcing function where FOMO compounds — meetings multiply, terms improve, and nobody wants to miss the deal.
+
+## startups/growth
+- [INS-260322-DBEA] Build free tools targeting SEO keywords to drive organic traffic instead of doing traditional marketing.
+- [INS-260322-E8BA] Filter for keywords under 10 difficulty with 1000+ monthly volume to find rankable free tool opportunities.
 
 ## startups/growth-marketing
 - [INS-260320-A1D3] Keep your content creator team to 5-10 people max, meet with each 1:1, and share what converts vs what doesn't — a small elite team compounds while a large team dilutes quality.
@@ -313,6 +335,10 @@ Generated on 2026-03-22 | 220 actionable insights
 - [INS-260322-DAF2] In rapidly changing environments, people who resist change create a hidden 'persuasion cost' that drains the leader's energy every time direction shifts.
 - [INS-260322-2ABB] The misconception that leaders must be the most technically knowledgeable person on the team leads to hiring weaker people, which lowers talent density and increases the leader's workload.
 - [INS-260322-2FAD] Novice leaders often derive identity from being busy and indispensable, which prevents team members from growing and caps the team's overall capability.
+- [INS-260322-C6CE] Instead of working on your weaknesses, ask whether being bad at something is the reason you're good at everything else — then hire a dedicated 'process person' to compensate.
+- [INS-260322-4F7A] Life defaults are like software defaults — you can only change one or two at a time, and each change requires total commitment or the system reverts you back.
+- [INS-260322-627E] Start with high trust (75%) so people take risks immediately, but deplete the trust battery faster than normal — you learn what people are made of much sooner.
+- [INS-260322-3CFB] Optimizing for stewardship (what you do and serve) rather than status (titles and positions) produces both deeper fulfillment and better career outcomes.
 
 ## startups/market-strategy
 - [INS-260322-F868] Truemed built infrastructure that lets people use existing tax-free HSA/FSA dollars on lifestyle interventions, redirecting billions toward prevention without requiring new legislation or payer buy-in.
@@ -326,11 +352,27 @@ Generated on 2026-03-22 | 220 actionable insights
 ## startups/networks
 - [INS-260322-8F3F] Tight-knit groups of early employees at breakout companies go on to found and lead the next generation of billion-dollar companies, creating collaborative networks that compound over decades.
 
+## startups/operations
+- [INS-260322-F46F] AI works with data -- if you don't have complete data architecture in place, there's nothing for AI to operate on.
+
+## startups/pricing
+- [INS-260322-8BC5] Charging $1500-3000/month to SMBs creates 4-6 month average stick rates that crush margins as churn compounds and CAC rises.
+
 ## startups/pricing-strategy
 - [INS-260322-0247] Robinhood's zero-commission bet gave them 3-4 years before incumbents could respond because free is a categorically different value proposition than merely cheaper.
 
+## startups/product-development
+- [INS-260322-58B7] Ship the minimal core feature fast and let actual user feedback determine where the product goes next.
+- [INS-260322-8D47] When customers become partners invested in your success as much as you are in theirs, they introduce you to VCs, build on your platform, and actively help your company grow.
+
+## startups/scaling
+- [INS-260322-7F88] At scale, your recruiting pipeline needs the same metrics-driven rigor as your customer pipeline: lead gen, nurture, conversion, onboarding, retention.
+- [INS-260322-D5EB] To scale without working more, accept lower short-term profitability to hire people whose capabilities pull the business up beyond what you could do alone.
+
 ## startups/strategy
 - [INS-260322-5E5D] Deliberately changing what content platforms show you — your YouTube algorithm, your feeds — rewires your brain to notice opportunities others miss.
+- [INS-260322-8299] The correct sequence is pricing optimization -> freed cash flow -> attribution tracking -> paid ads -> content/thought leadership, not the reverse.
+- [INS-260322-AAEA] A week is long enough to validate ideas and ship products; ten years captures true strategic direction. Quarterly planning is a deeply useless middle ground where cohorts don't bake and real outcomes aren't visible.
 
 ## startups/time-management
 - [INS-260322-EE1B] There's a power law in everything — identify the single most important thing each period and go all-in before distributing effort across secondary goals.
@@ -341,6 +383,9 @@ Generated on 2026-03-22 | 220 actionable insights
 ## startups/validation
 - [INS-260322-2155] Selling frozen dumplings below cost on a recipe-sharing social platform proved market demand existed before investing in infrastructure — the pre-prototype validates the hypothesis, not the product.
 - [INS-260322-EF20] Early-stage founders should paint a picture of how the customer's life changes with the product, not enumerate features.
+
+## video-production/ai-tools
+- [INS-260322-BF4C] Approaching AI as a new artist to discover, befriend, and develop — rather than a tool to use — leads to deeper creative integration and opens entirely new production possibilities.
 
 ## video-production/audience-engagement
 - [INS-260322-81CD] Frame your content around a public if-then challenge ('If I get X followers, I'll do Y') to create narrative tension that keeps viewers coming back.

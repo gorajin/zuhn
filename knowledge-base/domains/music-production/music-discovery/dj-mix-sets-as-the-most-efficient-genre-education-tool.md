@@ -51,9 +51,9 @@ related:
   - INS-260321-3312
   - INS-260321-6D01
   - INS-260321-9C2E
-  - INS-260322-D5DD
   - INS-260322-89A9
   - INS-260322-F781
+  - INS-260322-0AA6
 ---
 To learn a genre deeply, search YouTube for '[genre name] mixset' and find videos of DJs playing live sets. A 60-minute set contains roughly 30 curated songs, and those 30 songs were selected from hundreds the DJ listened to. This means each mix set is a concentrated distillation of deep genre knowledge, delivered as pure listening experience rather than academic explanation.
 

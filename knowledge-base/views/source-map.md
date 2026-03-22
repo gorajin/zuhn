@@ -1,5 +1,5 @@
 # Source Map
-Generated on 2026-03-22 | 87 sources
+Generated on 2026-03-22 | 97 sources
 
 | Source | Type | Insights | Date |
 |--------|------|----------|------|
@@ -15,6 +15,7 @@ Generated on 2026-03-22 | 87 sources
 | The Leverage Field Manual — How to multiply your output without working more | paste | 6 | 2026-03-22 |
 | Why we shifted to Spec-Driven Development | reddit | 6 | 2026-03-20 |
 | $215M AI CEO: How I’d Build a Profitable AI Startup in 30 Days (2026 Playbook) | youtube | 6 | 2026-03-22 |
+| The Most Founder Mode CEO Working Today Isn’t the Founder: Opendoor’s Kaz Nejatian | youtube | 6 | 2026-03-22 |
 | Claude for Finance | pdf | 5 | 2026-03-22 |
 | 200+ pages of Hugging Face secrets on how to train an LLM | reddit | 5 | 2026-03-20 |
 | 1년만에 150억, 400% 성장을 만드는 환경을 셋팅하는 방법 | 엔코위더스 오정훈 | youtube | 5 | 2026-03-22 |
@@ -46,6 +47,8 @@ Generated on 2026-03-22 | 87 sources
 | The Biggest Marketing Opportunity in History Is Being Ignored | youtube | 5 | 2026-03-22 |
 | The Unicorn Founder Who Delegated Everything. | youtube | 5 | 2026-03-22 |
 | 정답 잘 찾는 천재들이 제일 먼저 대체되고 있습니다 | 카네기멜론대 수학과 포쉔로 교수 | youtube | 5 | 2026-03-22 |
+| Watch This If You Have a Service Business | youtube | 5 | 2026-03-22 |
+| What you must know before AGI arrives | Carnegie Mellon University Po-Shen Loh | youtube | 5 | 2026-03-22 |
 | Where does consumer AI stand at the end of 2025? | youtube | 5 | 2026-03-22 |
 | Why AI Moats Still Matter (And How They've Changed) | youtube | 5 | 2026-03-22 |
 | Why Scale Will Not Solve AGI | Vishal Misra - The a16z Show | youtube | 5 | 2026-03-22 |
@@ -53,16 +56,21 @@ Generated on 2026-03-22 | 87 sources
 | How is this time different?  | blog | 4 | 2026-03-22 |
 | Prompt Engineering Guide Resources 2026 — The AI Corner | blog | 4 | 2026-03-22 |
 | 13년 브랜드 디렉터가 폐업 직전 브랜드에서 항상 먼저 고치는 1가지 | 카페24 곽형석 | youtube | 4 | 2026-03-22 |
+| "인생에 정답은 없습니다" 불안한 당신이 무조건 이기는 선택을 하는 법 | 윤승림 크리에이티브 디렉터 | 아이돌 뮤비 감독 | 세바시 2075회 | youtube | 4 | 2026-03-22 |
 | A Guided Tour of Musical Feeling | youtube | 4 | 2026-03-22 |
 | AI in 2026: 3 Predictions For What’s To Come (a16z Big Ideas) | youtube | 4 | 2026-03-22 |
 | AI Is Coming For These 3 Industries In 2026 (a16z Big Ideas) | youtube | 4 | 2026-03-22 |
 | 지금 당신은 원하던 삶을 살고 있나요? 나답게 살기 위한 실리콘밸리 리더의 도전 이야기 | 퓨리오사AI 크리스 채 | youtube | 4 | 2026-03-22 |
 | Andrew Huberman: Peptides, Sleep Tech, and the End of Obesity | youtube | 4 | 2026-03-22 |
+| Behind the scenes of a $20M Series A - Part 1 | youtube | 4 | 2026-03-22 |
 | Ben Horowitz on Investing in AI: AI Bubbles, Economic Impact, and VC Acceleration | youtube | 4 | 2026-03-22 |
 | Building A Big Company: Non-Obvious Insights | youtube | 4 | 2026-03-22 |
 | Claude Code + Karpathy's Autoresearch = GOD MODE! | youtube | 4 | 2026-03-22 |
 | Emmett Shear on Building AI That Actually Cares: Beyond Control and Steering | youtube | 4 | 2026-03-22 |
+| "GPU 쓸 곳이 없어요." AI 시대 한국이 '멘붕'에 빠진 이유ㅣ지식인초대석 EP.88 (김대식 교수) | youtube | 4 | 2026-03-22 |
 | How AI Agents Will Transform in 2026 (a16z Big Ideas) | youtube | 4 | 2026-03-22 |
+| How I Grew My App to $13K/month (Even Though I Hate Marketing) | youtube | 4 | 2026-03-22 |
+| How I would learn music production (If I had to start over in 2026) | youtube | 4 | 2026-03-22 |
 | How To Release A Single In 2026 (The Step-By-Step Plan) | youtube | 4 | 2026-03-22 |
 | “How We Can Eliminate Crime” | Ben Horowitz and Garrett Langley | youtube | 4 | 2026-03-22 |
 | I Tried the World's Simplest Productivity Trick (it worked) | youtube | 4 | 2026-03-22 |
@@ -84,9 +92,11 @@ Generated on 2026-03-22 | 87 sources
 | Ep. 243: Charlie Puth | The Long Road to Becoming Yourself | youtube | 3 | 2026-03-22 |
 | 반도체·HBM… 뉴스에서 항상 듣던 반도체 용어 전격 해부 (feat. 김정호 교수) [취미는 과학/ 76화 확장판] | youtube | 3 | 2026-03-22 |
 | Private Credit Panic - Why Investors Are Rushing For the Exits | youtube | 3 | 2026-03-22 |
+| The highest levels of dimension and its terrifying consequences | youtube | 3 | 2026-03-22 |
 | What if it actually works out? | youtube | 3 | 2026-03-22 |
 | Gave all my Claudes a shared brain | reddit | 2 | 2026-03-20 |
 | Dark techno using only sounds from Moog DFAM, sampled into Digitakt | reddit | 2 | 2026-03-20 |
 | What is one thing that you do to keep your dog happy? | reddit | 2 | 2026-03-20 |
 | Sound Design Breakdown [and tutorial] | reddit | 2 | 2026-03-20 |
 | [Tutorial] All there is to know about syncing video and audio | reddit | 2 | 2026-03-20 |
+| 나의 완벽한 비서 - AI 에이전트 시대 [풀영상] | 창 540회 (KBS 26.3.17.) | youtube | 0 | 2026-03-22 |

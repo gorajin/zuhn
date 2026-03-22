@@ -48,13 +48,13 @@ resolutions:
     health insurance for people living differently) may be far more effective
     than individual optimization.
 related:
-  - INS-260320-8B06
   - INS-260320-9118
   - INS-260322-D059
+  - INS-260322-13D6
   - INS-260321-3967
   - PRI-260321-7307
   - INS-260322-3A00
-  - INS-260321-1A0B
+  - INS-260322-2E1C
 ---
 Animals in the wild rarely get chronic diseases. Put them in a zoo and they become obese, depressed, develop strange behaviors, and in some cases even kill themselves. The insight: an organism's health is a reflection of its environment's health, not the organism's willpower.
 

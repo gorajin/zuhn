@@ -45,11 +45,11 @@ resolutions:
     applies far beyond music — in startups, content, or any field where
     attention is the bottleneck.
 related:
-  - INS-260321-3312
   - INS-260322-B392
+  - INS-260321-3312
   - INS-260322-F781
   - PRI-260321-558C
-  - INS-260322-35FA
+  - INS-260322-BF4C
 ---
 When you have zero followers, original music has no built-in audience. But remixing a popular track — say, making a tech house version of a trending hip-hop song — piggybacks on existing demand. People are already searching for that song, and your remix can surface through that attention. James Hype got signed by a manager after his Drake remix went viral among top DJs, before he'd ever released an original.
 

@@ -51,12 +51,10 @@ resolutions:
     out of the highest-growth phase. 'Series D was called an IPO' 30 years ago.
 related:
   - INS-260321-2F43
-  - INS-260321-347D
   - INS-260322-E791
   - PRI-260321-2DF0
+  - INS-260322-A31D
   - PRI-260321-0A4D
-  - INS-260321-52EF
-  - INS-260322-D69E
 ---
 The stock market settlement system evolved from T+5 (5 days to settle) in the 1970s to T+1 today, but the fundamental absurdity remains: when you buy a stock, you appear to own it instantly, but actual settlement takes a full day. During that gap, brokers must post collateral to cover price changes, which is what triggered Robinhood's trading restrictions during GameStop — not collusion with hedge funds.
 

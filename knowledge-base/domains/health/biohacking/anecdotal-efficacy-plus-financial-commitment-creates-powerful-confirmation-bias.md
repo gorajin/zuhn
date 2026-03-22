@@ -48,7 +48,7 @@ related:
   - INS-260322-E7E9
   - INS-260322-AB55
   - INS-260322-3A00
-  - INS-260321-3521
+  - INS-260322-F65F
 ---
 Dr. Topol's critique is sharp: when someone invests hundreds of dollars monthly into an unproven substance, the psychological pressure to perceive benefits is enormous. Without double-blind clinical trials, there is no way to separate genuine pharmacological effects from placebo, expectation bias, and confirmation bias. 'Anything short of that is not science. It's just anecdotes.'
 

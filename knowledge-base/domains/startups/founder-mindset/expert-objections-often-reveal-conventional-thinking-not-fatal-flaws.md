@@ -46,11 +46,11 @@ resolutions:
     distinguish between feedback based on evidence and feedback based on
     convention. The latter often identifies your competitive advantage.
 related:
+  - INS-260322-F65F
   - INS-260321-1A84
   - INS-260321-82FE
   - INS-260322-98D2
   - INS-260322-A61A
-  - INS-260322-7B71
 ---
 Stan Lee's publisher gave three specific objections to Spider-Man: (1) people hate spiders so you can't name a hero after one, (2) teenagers can only be sidekicks, and (3) superheroes don't have personal problems. Each objection was 'logical' — backed by industry convention and prior experience. And each one was completely wrong. The elements that were supposedly fatal flaws became exactly what made Spider-Man revolutionary and beloved.
 

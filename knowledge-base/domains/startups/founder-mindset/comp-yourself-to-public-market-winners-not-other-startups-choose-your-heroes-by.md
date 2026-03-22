@@ -41,7 +41,6 @@ resolutions:
     every strategic decision. You choose who your heroes are, and that choice
     determines the ceiling of what you build.
 related:
-  - INS-260321-3521
   - INS-260322-CFB1
   - INS-260321-E654
   - INS-260322-0C91

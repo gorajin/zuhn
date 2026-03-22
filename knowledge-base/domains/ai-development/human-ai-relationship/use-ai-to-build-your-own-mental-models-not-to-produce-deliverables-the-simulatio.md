@@ -59,8 +59,8 @@ related:
   - INS-260322-F128
   - INS-260320-DDD9
   - INS-260322-FCFC
-  - PRI-260320-233B
-  - PRI-260321-14D8
+  - INS-260322-229C
+  - INS-260322-3083
 ---
 Po-Shen Loh describes his AI usage pattern: when curious about Nashville's country music performance scene, he didn't ask AI to write a report. He asked for links, background on specific venues, competitive dynamics of getting performance spots — all to build a richer mental simulation of that world. The AI fed his understanding; he drew his own conclusions.
 

@@ -46,12 +46,11 @@ resolutions:
     question. If everyone on your team comes to you for answers, that's not
     proof of your competence; it's proof your team's talent density is too low.
 related:
-  - INS-260322-AC23
   - INS-260322-2FAD
   - INS-260321-C14C
   - INS-260322-116B
-  - PRI-260321-7307
-  - INS-260321-7D7C
+  - INS-260322-D5EB
+  - INS-260322-C6CE
 ---
 One of the most common traps for novice leaders is believing they need to know more technically than every team member. This drives two destructive behaviors: first, they spend excessive time studying to maintain technical superiority rather than leading; second, they unconsciously avoid hiring anyone smarter than themselves, which systematically lowers the team's talent density.
 

@@ -1,3 +1,4 @@
 # Tag: practice
 
 - `INS-260320-F78E` Prompt engineering is like playing piano — you can't just sit down and start; it requires practice and iteration to develop the skill.
+- `INS-260322-7A32` Finishing complete songs develops all production muscles simultaneously, while making loops only trains one.

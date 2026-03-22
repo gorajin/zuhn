@@ -1,16 +1,17 @@
 # Domain: ai-development
 
-> 189 insights across 36 topics
+> 198 insights across 41 topics
 
 ## Topics
 
 | Topic | Insights | Preview |
 | ----- | -------- | ------- |
-| adoption | 3 | Just as enterprise SaaS companies unbundled Oracle and Excel into 400-500 dedicated apps per company, AI software companies will unbundle ChatGPT by wrapping AI capabilities into specific industry workflows. |
+| adoption | 4 | Just as enterprise SaaS companies unbundled Oracle and Excel into 400-500 dedicated apps per company, AI software companies will unbundle ChatGPT by wrapping AI capabilities into specific industry workflows. |
 | adoption-patterns | 1 | ChatGPT has 800-900M weekly active users, but only 5% pay — five times more people have accounts than can find a weekly use case. |
 | agent-patterns | 10 | When agents fail, the instinct now is 'I gave bad instructions' not 'the AI can't do this' — most failures are configuration problems, not capability limits. |
 | ai-agents | 5 | Separate AI agent work into three roles: the builder constructs platforms, the orchestrator manages workflows, and executors are specialized agents that do actual work. |
 | ai-automation | 8 | AI-enabled beats AI-replaced — keep the human touch in important parts, automate the repetitive. |
+| ai-bias | 1 | AI outputs sound so complete and reasonable that users may believe they have the full picture on controversial topics — deliberately seeking opposing viewpoints is essential to counteract this. |
 | ai-capabilities | 12 | AI made idea generation almost free, just as the internet made communication almost free — the bottleneck shifted to verification, evaluation, and filtering signal from noise. |
 | ai-market-dynamics | 19 | China is stealing American AI models, removing all guardrails, and potentially deploying them against the US — creating an absurd scenario where America fights with one arm tied behind its back against its own technology. |
 | alignment | 3 | Treating alignment as a one-time problem to solve (like writing commandments) rather than an ongoing learning process will produce AI systems that are dangerous precisely because they follow rules without understanding. |
@@ -26,8 +27,11 @@
 | enterprise-ai | 1 | AI voice agents in loan servicing and collections can speak 50 languages, maintain perfect UDAP compliance, and deliver better customer experiences — reorienting fintech TAM from IT budgets to labor costs. |
 | forecasting | 1 | AI automating AI R&D won't produce runaway self-improvement because research requires proportional scaling of experimental compute, not just more researchers. |
 | future-of-work | 15 | Anthropic's own studies show AI deskilling in coding is real, but depends on HOW you use models — some usage patterns cause skill degradation, some don't. |
+| human-ai-coexistence | 3 | AI has already demonstrated creative problem-solving beyond human capability; the remaining human edge is the intrinsic motivation to preserve human flourishing. |
 | human-ai-relationship | 4 | Using AI to optimize exam performance produces 'human versions of AI' — the real educational opportunity is cultivating intrinsic motivation and original thinking. |
+| industry | 2 | Socrates warned that writing would destroy memory; every new medium triggers the same fear, and humanity adapts every time. |
 | interfaces | 1 | Voice uniquely carries emotional information that text and images cannot — making it the AI modality most capable of creating genuine human connection and feeling. |
+| knowledge-systems | 1 | The E8 lattice (8D) and leech lattice (24D) are used in real-world error-correcting codes because certain dimensions are supernaturally efficient at preserving order. |
 | labor-impact | 1 | The total percentage of jobs automated matters less than whether displacement happens gradually (manageable) or in a 6-month shock (potentially destabilizing). |
 | llm-costs | 8 | OpenRouter offers 50-1000 free requests/day on certain models — not trial credits, actually free forever. |
 | llm-training | 10 | Run systematic ablation experiments on architecture, data mixtures, and hyperparameters at small scale before committing to a full training run -- this consumes ~37% of total compute but prevents costly mistakes. |
@@ -39,6 +43,7 @@
 | product-design | 2 | As agents become intermediaries between users and systems, optimization shifts from visual design to machine-readable structure and insight density. |
 | public-safety | 1 | Flock Safety's AI-matched license plate system has facilitated about 1 million arrests of the correct person, shifting policing from subjective profiling to objective evidence-based identification. |
 | spec-driven-dev | 6 | Commit output specs to git so future agents and engineers see what was done, what failed, and what decisions were made. |
+| strategy | 1 | AI application to specific industries has no proven playbook anywhere in the world, making benchmarking-based strategy obsolete. |
 | system-building | 10 | 91 unit tests all passed, but an automated spec audit found 12 issues — unit tests verify code works, spec audits verify code matches intent. |
 | tooling | 4 | Use BetterTouchTool for double-tap hotkeys (CMD+CMD = Claude, OPT+OPT = Browser) and relative URL copy from Cursor. |
 | voice-ai | 2 | Some voice AI companies intentionally add latency and background noise to make agents sound more human, revealing that performance has outpaced user comfort. |

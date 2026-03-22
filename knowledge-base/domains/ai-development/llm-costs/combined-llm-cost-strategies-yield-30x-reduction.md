@@ -17,11 +17,11 @@ sources:
     title: 'After learning this, my AI workflows cost me 30x less'
     author: u/unknown
 related:
+  - INS-260322-8BC5
   - INS-260322-31F8
   - INS-260321-4B99
   - INS-260322-5790
   - INS-260321-6437
-  - PRI-260321-0A4D
   - INS-260320-5818
 date_extracted: '2026-03-20'
 last_accessed: null

@@ -50,9 +50,9 @@ resolutions:
 related:
   - PRI-260320-07A4
   - INS-260321-99C0
+  - INS-260322-DAA1
   - INS-260321-5598
   - INS-260321-2564
-  - PRI-260321-5857
 ---
 Andreessen reveals a personal principle from Horowitz: say everything you think, but say it in long form. Every time Andreessen got into serious public trouble, it was from a tweet — something too short to carry context. Every time a public figure gets 'blown to smithereens,' it's from something short that was misinterpreted. The 140-character tweet or 5-second TV soundbite strips context and invites misinterpretation.
 

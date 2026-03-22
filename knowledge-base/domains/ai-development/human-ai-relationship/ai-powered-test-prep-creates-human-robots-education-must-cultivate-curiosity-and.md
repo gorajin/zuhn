@@ -53,11 +53,11 @@ resolutions:
     finding pain points in others and solving them — becomes the natural output
     of people who are both curious and empathetic.
 related:
+  - INS-260322-13D6
   - PRI-260320-6847
   - INS-260320-5F14
   - INS-260322-CC69
   - PRI-260321-7307
-  - INS-260320-DDD9
   - INS-260322-5A0F
 ---
 After visiting a Chinese school using AI to optimize student performance on standardized exams, Loh gave blunt feedback: 'You're just creating people who are human versions of AI. You're just making human robots.' The AI app helped students rank higher on standard problems — exactly the capability that AI itself already excels at, making the trained humans redundant by design.

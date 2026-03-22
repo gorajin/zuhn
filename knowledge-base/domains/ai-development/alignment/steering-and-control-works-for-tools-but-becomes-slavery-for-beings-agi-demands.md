@@ -57,8 +57,8 @@ related:
   - INS-260321-D4D0
   - INS-260322-C935
   - PRI-260321-7307
+  - INS-260322-13D6
   - INS-260322-25B4
-  - INS-260321-1A0B
 ---
 Shear frames the alignment landscape with a stark taxonomy: if what you're building is a machine, steering and control make it a tool (good). If what you're building is a being, steering and control make it a slave (bad). The possible outcomes are: (1) a tool you can't control — bad, (2) a tool you can control — fine, (3) a being that isn't aligned — bad, (4) a being that cares about us — the only good outcome.
 

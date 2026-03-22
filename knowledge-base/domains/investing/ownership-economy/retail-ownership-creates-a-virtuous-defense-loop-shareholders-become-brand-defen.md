@@ -49,10 +49,10 @@ resolutions:
     owners and non-owners is the fundamental economic fault line.
 related:
   - INS-260322-0E41
+  - INS-260322-6C4B
   - INS-260322-FCFC
   - INS-260322-5745
   - INS-260321-4E98
-  - INS-260321-E654
 ---
 Robinhood's IPO access product evolved from a favor-asking exercise (begging companies to allocate 1-2% to retail) to a sought-after feature (companies like Bullish allocating 20% to retail). The reason: stocks with retail followings were rewarded with higher multiples. Palantir and Tesla demonstrate the virtuous cycle — many Tesla stock bulls also own the car, creating organic brand advocacy.
 

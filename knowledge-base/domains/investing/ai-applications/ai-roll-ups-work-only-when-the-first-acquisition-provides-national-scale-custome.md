@@ -53,6 +53,7 @@ related:
   - INS-260322-A892
   - INS-260321-1749
   - PRI-260321-05B5
+  - INS-260322-AFE9
 ---
 The naive AI roll-up thesis — buy 200 accounting firms and inject AI — fails because each local acquisition only gives local clients and requires 9 months of integration before buying the next. This is traditional PE territory where mid-market firms have done it 500 times.
 

@@ -55,10 +55,9 @@ related:
   - INS-260320-93E1
   - INS-260320-E044
   - INS-260321-3521
-  - INS-260321-E471
   - INS-260322-EF20
   - INS-260322-A892
-  - INS-260321-2F09
+  - INS-260322-6C4B
 ---
 Pensive closed a 10 billion won (~$7.5M) investment with just two people by leading with personal narrative rather than product demos. The founder's pitch centered on his life story — selling bags in Namdaemun Market as a middle schooler, barging into a CEO's office at age 14, surviving thyroid cancer at 18 — to establish that he was the kind of person who would not quit.
 

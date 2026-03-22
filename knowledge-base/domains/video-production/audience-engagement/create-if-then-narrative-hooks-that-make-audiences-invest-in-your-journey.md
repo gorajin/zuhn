@@ -44,9 +44,9 @@ resolutions:
 related:
   - INS-260321-E529
   - INS-260322-5E5D
+  - INS-260322-7FA4
   - INS-260320-A1D3
   - INS-260321-3312
-  - INS-260320-508F
 ---
 James Hype describes a creator who posted daily reels starting with 'If I get 100K followers, my mom will let me drop out of college.' This if-then structure creates three powerful effects: curiosity (will they make it?), investment (viewers feel part of the outcome), and callback (they return to check progress).
 
