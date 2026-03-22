@@ -116,40 +116,66 @@ async function downloadTranscript(
 
   await mkdir(rawDir, { recursive: true });
 
-  const MAX_RETRIES = 3;
-  const BASE_DELAY_MS = 15_000; // 15 seconds
+  const baseArgs = [
+    "--write-auto-sub",
+    "--write-sub",
+    "--sub-lang",
+    "en",
+    "--sub-format",
+    "json3",
+    "--skip-download",
+    "--no-warnings",
+    "--quiet",
+    "-o",
+    outputTemplate,
+    url,
+  ];
 
-  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
-    try {
-      execFileSync(
-        bin,
-        [
-          "--write-auto-sub",
-          "--write-sub",
-          "--sub-lang",
-          "en",
-          "--sub-format",
-          "json3",
-          "--skip-download",
-          "--no-warnings",
-          "--quiet",
-          "-o",
-          outputTemplate,
-          url,
-        ],
-        { encoding: "utf-8", stdio: "pipe" },
-      );
-      break; // success
-    } catch (err: unknown) {
-      const msg = err instanceof Error ? err.message : String(err);
-      if (msg.includes("429") && attempt < MAX_RETRIES) {
-        const delay = BASE_DELAY_MS * attempt;
-        console.log(`  Rate limited (429). Retrying in ${delay / 1000}s... (attempt ${attempt}/${MAX_RETRIES})`);
-        await sleep(delay);
-        continue;
+  // Strategy: try without cookies first, then with browser cookies on 429
+  const strategies: { label: string; extraArgs: string[] }[] = [
+    { label: "default", extraArgs: [] },
+    { label: "with Chrome cookies", extraArgs: ["--cookies-from-browser", "chrome"] },
+  ];
+
+  let lastError = "";
+
+  for (const strategy of strategies) {
+    const MAX_RETRIES = 2;
+    const BASE_DELAY_MS = 10_000;
+
+    for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+      try {
+        execFileSync(
+          bin,
+          [...strategy.extraArgs, ...baseArgs],
+          { encoding: "utf-8", stdio: "pipe" },
+        );
+        if (strategy.label !== "default") {
+          console.log(`  Succeeded using ${strategy.label}.`);
+        }
+        lastError = "";
+        break;
+      } catch (err: unknown) {
+        const msg = err instanceof Error ? err.message : String(err);
+        lastError = msg;
+        if (msg.includes("429") && attempt < MAX_RETRIES) {
+          const delay = BASE_DELAY_MS * attempt;
+          console.log(`  Rate limited (429). Retrying in ${delay / 1000}s... (attempt ${attempt}/${MAX_RETRIES})`);
+          await sleep(delay);
+          continue;
+        }
+        break; // move to next strategy
       }
-      throw new Error(`yt-dlp subtitle download failed: ${msg}`);
     }
+    if (!lastError) break; // success — stop trying strategies
+
+    if (lastError.includes("429") && strategy.label === "default") {
+      console.log("  Trying with browser cookies to bypass rate limit...");
+    }
+  }
+
+  if (lastError) {
+    throw new Error(`yt-dlp subtitle download failed: ${lastError}`);
   }
 
   // Find the downloaded json3 file
