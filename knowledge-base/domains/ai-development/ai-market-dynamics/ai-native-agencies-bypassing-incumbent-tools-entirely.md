@@ -41,9 +41,11 @@ resolutions:
     marketing budgets now have 90% AI-generated ads.
 related:
   - INS-260320-DADA
+  - INS-260322-CFB1
+  - INS-260322-FCFC
+  - INS-260322-837A
   - PRI-260321-558C
   - INS-260321-015B
-  - INS-260321-6437
   - INS-260321-5C24
 ---
 Starting June 2025, a new category of AI native marketing agencies exploded. These agencies go completely end-to-end with AI for content creation, intentionally bypassing incumbent tools like Adobe. While their capabilities were initially limited, they drastically improved their margin profiles and showed clients they could build ads within days. By December 2025, this new industry had completely exploded. Many brands want constant content flow on their socials and are eager to embrace AI — some customers with $100M+ marketing budgets now have 90% AI-generated ads.

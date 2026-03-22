@@ -58,7 +58,8 @@ related:
   - PRI-260321-05B5
   - INS-260321-B7CB
   - INS-260321-1A03
-  - INS-260321-1749
+  - INS-260322-7DD5
+  - INS-260322-90E7
 ---
 Manus demonstrated breakout growth — zero to $200M+ ARR in roughly 6-9 months — by being the first reliable consumer-grade agent that could operate autonomously across platforms. But its $2B+ acquisition by Meta reveals a structural truth about horizontal AI products: once the underlying model capabilities catch up (and they will), standalone horizontal agents compete directly against companies that already have billions of users, IT approvals, and enterprise contracts.
 
