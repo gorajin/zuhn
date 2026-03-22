@@ -40,10 +40,10 @@ resolutions:
     transformative, but we don't have the data to quantify it yet. This is where
     AI breadth is most powerful.
 related:
-  - INS-260321-7D7C
   - INS-260321-9824
   - INS-260321-BFA3
   - INS-260321-D959
-  - INS-260321-F864
+  - INS-260321-7D7C
+  - PRI-260321-AD44
 ---
 Tao notes that the 50 Erdős problems solved by AI used existing techniques that nobody had written down as applicable to those specific problems. Top journal papers typically use existing methods for 80% of the solution, inventing something new only for the last 20%. AI is getting good at the 80% — systematically trying every known technique. The deductive overhang (what we'd learn by applying everything we know to everything we don't) could be transformative, but we don't have the data to quantify it yet. This is where AI breadth is most powerful.

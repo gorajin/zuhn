@@ -44,7 +44,6 @@ resolutions:
     relative to technical skill.
 related:
   - INS-260320-93E1
-  - INS-260320-DEAF
   - INS-260320-F78E
   - INS-260320-8632
   - INS-260320-76E7
@@ -52,6 +51,7 @@ related:
   - PRI-260320-097F
   - INS-260321-8382
   - INS-260321-F864
-  - INS-260321-C99A
+  - PRI-260321-14D8
+  - PRI-260321-7307
 ---
 Traditional software automates procedures: if X then Y. AI automates something different — judgment calls. Given ambiguous inputs, make a reasonable decision. That category of work used to scale linearly with headcount. Now you can encode pattern recognition, classification, and prioritization into systems that run around the clock. The rule of thumb: anywhere you're paying for human judgment applied repeatedly to similar-shaped problems, AI is a lever. AI also collapsed the skill barrier to code itself — the population of people who can produce it has expanded by orders of magnitude. Domain expertise just became dramatically more valuable relative to technical skill.

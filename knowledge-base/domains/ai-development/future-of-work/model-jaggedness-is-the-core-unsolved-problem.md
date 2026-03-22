@@ -40,7 +40,7 @@ related:
   - INS-260320-DDD9
   - INS-260320-8632
   - INS-260321-8382
+  - PRI-260321-AD44
   - INS-260321-7D7C
-  - INS-260321-F864
 ---
 Karpathy describes the jaggedness problem: models trained via RL excel at anything with objective metrics (code, math) but stagnate in unverifiable domains (jokes, nuance, knowing when to ask clarifying questions). The same model that moves mountains on agentic tasks still tells the same atom joke from 4 years ago. This isn't improving with scale because RL only optimizes what it can measure. You're either on-rails (speed of light) or off-rails (everything meanders).
