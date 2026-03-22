@@ -1,6 +1,6 @@
 # Domain: ai-development
 
-> 170 insights across 31 topics
+> 175 insights across 32 topics
 
 ## Topics
 
@@ -27,8 +27,9 @@
 | labor-impact | 1 | The total percentage of jobs automated matters less than whether displacement happens gradually (manageable) or in a 6-month shock (potentially destabilizing). |
 | llm-costs | 8 | OpenRouter offers 50-1000 free requests/day on certain models — not trial credits, actually free forever. |
 | llm-training | 10 | Run systematic ablation experiments on architecture, data mixtures, and hyperparameters at small scale before committing to a full training run -- this consumes ~37% of total compute but prevents costly mistakes. |
+| model-strategy | 3 | The game has shifted from crafting clever prompts to context engineering — what tools you give the model, what data it pulls in, and when it pulls the right data. |
 | philosophy | 1 | The question of whether AI can be a moral patient is empirically testable through prolonged interaction — holding an unfalsifiable position that silicon can never be a being is faith, not reasoning. |
-| platform-dynamics | 1 | While staying on the model frontier matters, the real defensibility in vertical AI comes from deep application context — understanding specific workflows, regulations, and customer needs that no foundation model company will pursue. |
+| platform-dynamics | 3 | OpenAI doesn't treat agents as a separate category — ChatGPT, Codex CLI, Sora, and the API are all just different interfaces for deploying the same underlying intelligence, each optimized for different user contexts. |
 | platform-shifts | 2 | Unlike previous platform shifts where physical limits were known (modem speeds, battery life, fiber deployment), AI's theoretical limits are unknown because we don't fully understand why it works or what human intelligence is. |
 | policy | 1 | a16z's AI policy framework: don't regulate mathematical models themselves, regulate their applications — and prevent 50 states from creating incompatible AI laws that would make innovation impossible for startups. |
 | product-design | 2 | As agents become intermediaries between users and systems, optimization shifts from visual design to machine-readable structure and insight density. |

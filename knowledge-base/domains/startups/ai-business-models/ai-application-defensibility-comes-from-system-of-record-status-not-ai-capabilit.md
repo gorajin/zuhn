@@ -49,8 +49,8 @@ related:
   - INS-260322-9EC6
   - INS-260322-EDC2
   - INS-260322-D0F6
+  - INS-260322-3616
   - INS-260321-4178
-  - INS-260322-96F1
 ---
 Alex Rampell draws a critical distinction between differentiation and defensibility in AI applications. A voice agent speaking 50 languages is differentiated, but that capability alone is not defensible. The real moat comes from owning the end-to-end workflow — intake to outcomes — and becoming the system of record that the customer's entire business runs on.
 

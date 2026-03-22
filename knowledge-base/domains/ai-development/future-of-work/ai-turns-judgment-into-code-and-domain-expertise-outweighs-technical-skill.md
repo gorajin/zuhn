@@ -49,9 +49,9 @@ related:
   - PRI-260320-C14C
   - PRI-260320-097F
   - INS-260321-8382
-  - INS-260321-F864
   - INS-260321-C14C
   - PRI-260321-14D8
   - PRI-260321-7307
+  - INS-260321-9C2E
 ---
 Traditional software automates procedures: if X then Y. AI automates something different — judgment calls. Given ambiguous inputs, make a reasonable decision. That category of work used to scale linearly with headcount. Now you can encode pattern recognition, classification, and prioritization into systems that run around the clock. The rule of thumb: anywhere you're paying for human judgment applied repeatedly to similar-shaped problems, AI is a lever. AI also collapsed the skill barrier to code itself — the population of people who can produce it has expanded by orders of magnitude. Domain expertise just became dramatically more valuable relative to technical skill.

@@ -48,6 +48,6 @@ related:
   - INS-260321-7C97
   - INS-260321-D959
   - INS-260321-5DF8
-  - INS-260321-CCD9
+  - INS-260322-F609
 ---
 Tao argues that AI has driven the cost of hypothesis generation to near-zero. We can now generate thousands of theories for any scientific problem. But this creates a verification crisis — human reviewers are already overwhelmed by AI-generated submissions flooding journals. The structures of science must change to handle verification at scale. This parallels Karpathy's observation about removing yourself as the bottleneck, but Tao identifies the specific bottleneck that emerges: not generation, but evaluation.

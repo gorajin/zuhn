@@ -38,10 +38,10 @@ resolutions:
     Stale knowledge bases are worse than none — they give false confidence.
 related:
   - INS-260322-4757
+  - INS-260322-17B3
   - INS-260321-B85C
   - INS-260322-A208
   - INS-260322-EDA4
-  - INS-260321-D3BE
   - INS-260321-99C0
   - INS-260322-59B9
   - INS-260322-DAFB

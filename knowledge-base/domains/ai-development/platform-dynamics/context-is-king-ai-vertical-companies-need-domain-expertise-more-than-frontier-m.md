@@ -51,8 +51,8 @@ related:
   - INS-260322-019A
   - INS-260322-54F3
   - INS-260322-A14D
+  - INS-260322-A367
   - INS-260320-DEAF
-  - INS-260321-D01E
 ---
 The pattern for successful vertical AI: founders who are technically fluent in frontier models but hire for deep domain context early. Eve (legal AI for plaintiff law) exemplifies this — technical founders from Rubric who hired plaintiff attorneys on staff so that every new model release gets evaluated through the lens of actual legal workflows.
 

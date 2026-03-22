@@ -1,5 +1,5 @@
 # Action List
-Generated on 2026-03-22 | 160 actionable insights
+Generated on 2026-03-22 | 161 actionable insights
 
 ## ai-development/adoption
 - [INS-260322-3159] Just as enterprise SaaS companies unbundled Oracle and Excel into 400-500 dedicated apps per company, AI software companies will unbundle ChatGPT by wrapping AI capabilities into specific industry workflows.
@@ -82,6 +82,9 @@ Generated on 2026-03-22 | 160 actionable insights
 - [INS-260320-EF3A] Don't default to expensive models — test cheaper ones with YOUR data. DeepSeek V3 vs Claude Sonnet = 21x cost reduction for identical summaries.
 - [INS-260320-0511] Use cheap models (gpt-5-nano) for categorization/relevance scoring before expensive models — removes 70-90% of irrelevant inputs.
 - [INS-260320-2058] Use OpenRouter for a unified dashboard, model switching, spending tracking, and hard budget limits across all LLM providers.
+
+## ai-development/model-strategy
+- [INS-260322-17B3] The game has shifted from crafting clever prompts to context engineering — what tools you give the model, what data it pulls in, and when it pulls the right data.
 
 ## ai-development/product-design
 - [INS-260322-CCAA] As agents become intermediaries between users and systems, optimization shifts from visual design to machine-readable structure and insight density.
