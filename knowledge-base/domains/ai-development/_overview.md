@@ -1,6 +1,6 @@
 # Domain: ai-development
 
-> 128 insights across 10 topics
+> 131 insights across 10 topics
 
 ## Topics
 
@@ -10,7 +10,7 @@
 | ai-automation | 8 | AI-enabled beats AI-replaced — keep the human touch in important parts, automate the repetitive. |
 | claude-code | 33 | Planning is king — always use planning mode before implementation; never let the builder start without plans. |
 | context-management | 2 | Structure knowledge as a relational database (entities + relationships), not text blobs. Every Claude instance reads/writes the same structured knowledge base. |
-| future-of-work | 37 | China is stealing American AI models, removing all guardrails, and potentially deploying them against the US — creating an absurd scenario where America fights with one arm tied behind its back against its own technology. |
+| future-of-work | 40 | China is stealing American AI models, removing all guardrails, and potentially deploying them against the US — creating an absurd scenario where America fights with one arm tied behind its back against its own technology. |
 | llm-costs | 8 | OpenRouter offers 50-1000 free requests/day on certain models — not trial credits, actually free forever. |
 | llm-training | 10 | Run systematic ablation experiments on architecture, data mixtures, and hyperparameters at small scale before committing to a full training run -- this consumes ~37% of total compute but prevents costly mistakes. |
 | spec-driven-dev | 6 | Commit output specs to git so future agents and engineers see what was done, what failed, and what decisions were made. |

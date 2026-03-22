@@ -57,7 +57,7 @@ related:
   - INS-260321-1A03
   - PRI-260321-0A4D
   - INS-260321-9A03
-  - INS-260321-21BE
+  - INS-260321-B7CB
 ---
 Alex Rampell identifies three distinct categories of SaaS companies that public markets are failing to differentiate. Category 1: seats tied to outcomes — Zendesk is the canonical example where AI agents (Sierra, Decagon) could reduce seat count to zero because the seats exist to do work that AI can now do. Default path without adaptation is revenue going to zero. Category 2: seats as a pricing trick unrelated to output — Workday charges per employee, but those employees aren't using Workday to produce outcomes. Nobody's eliminating Workday or QuickBooks. Category 3: middle ground like Adobe where seat needs may shift but aren't existentially threatened.
 

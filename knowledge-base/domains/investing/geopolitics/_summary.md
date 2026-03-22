@@ -1,7 +1,8 @@
 # Topic: geopolitics
 
-> 14 insights
+> 16 insights
 
+- `INS-260321-CBD2` [high] Unlike the dot-com era, AI capex is financed by the most profitable companies in history and there are 'no dark GPUs' (every deployed GPU gets fully utilized immediately), but private credit entering the data center buildout and Oracle's massive cash-flow-negative bet are early warning signals.
 - `INS-260321-4B99` [high] Factory capacity for DRAM and NAND is fixed, but AI demand pays so much more that producers shifted mass production lines to HBM — making consumer memory prices rise in tandem.
 - `INS-260321-10FF` [high] Saudi Arabia and Israel were sworn enemies for decades. Now they're aligning because both want to be core hub stations on IMEC. When economic interests change, the colors beneath the board change on their own.
 - `INS-260321-3EC0` [high] When you invest in a country's stock market, you're placing a geopolitical bet on that country's future economic power relative to rivals — not just on individual companies.
@@ -9,6 +10,7 @@
 - `INS-260321-347D` [high] Private credit defaults reached 9.2% (Fitch) while funds gated redemptions at 5-14%, trapping investors — the retail expansion via 401k access amplifies panic.
 - `INS-260321-C6C0` [high] Post-2008 regulations pushed risky lending from regulated banks to private credit — a $2T opaque market with higher fees, less oversight, and now rising defaults.
 - `INS-260321-F2C4` [medium] 25% of business development company portfolios are in software companies — the sector most disrupted by AI — with 31% of debts maturing in the next two years.
+- `INS-260321-B7CB` [medium] AI companies will be 'model busters' — growing faster and longer than any spreadsheet model predicts — just as iPhone caused consensus models to miss Apple's performance by 3x over four years despite being the most covered company in the world.
 - `INS-260321-A3A1` [medium] IMEC (India-Middle East-Europe Economic Corridor) is a US-backed logistics highway routing goods from India through UAE, Saudi Arabia, and Israel to Europe — designed to completely bypass China's Belt and Road Initiative.
 - `INS-260321-21BE` [medium] Google's TPU (Tensor Processing Unit) is already competitive for AI workloads, but NVIDIA's software ecosystem moat delays competitors — the 90% monopoly era will gradually end.
 - `INS-260321-D183` [medium] If US wins the cold war: S&P returns 8-10% annually. If China wins: China gives the US a soft landing (they need US consumption market), S&P returns ~5% annually. Either way, S&P has the highest expected value.

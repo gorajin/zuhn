@@ -46,6 +46,6 @@ related:
   - INS-260321-4178
   - INS-260320-F78E
   - INS-260321-3312
-  - INS-260321-C99A
+  - INS-260321-33FC
 ---
 Puth describes a paradox of musical expertise: knowing every chord, every arrangement possibility means infinite options — which often leads to overcomplication. On 'Stay' (with Kid Laroi/Bieber), he played a David Foster/Chicago-style piano part, but Omar and Blake added drums, bass, and finishing touches that made it a pop record instead of a 'Charlie record.' If he'd produced it alone, it would have been 'too much.' His best collaborative mode: let someone else drive while he gently leans in. When he leads sessions, songs end up 'just okay' because he defaults to what he's done before. He evolves by listening to other people — constraint breeds creativity.

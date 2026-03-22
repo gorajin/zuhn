@@ -42,7 +42,7 @@ related:
   - INS-260320-9118
   - INS-260321-8C35
   - INS-260321-D959
+  - INS-260321-B7CB
   - INS-260321-D01E
-  - INS-260321-7D7C
 ---
 Karpathy argues labs currently train single monolithic models trying to be arbitrarily intelligent in all domains. This will shift to speciation: smaller models that retain the cognitive core but specialize for specific tasks (math in Lean, code generation, etc.). The analogy is biology — the animal kingdom has extremely diverse brains with overdeveloped cortices for different niches. The science of fine-tuning without losing capabilities isn't developed enough yet, but compute constraints will force it.

@@ -46,8 +46,8 @@ related:
   - INS-260321-2BF9
   - PRI-260321-2DF0
   - INS-260321-21BE
-  - PRI-260321-7307
-  - INS-260321-347D
-  - INS-260320-DEAF
+  - INS-260321-CBD2
+  - INS-260321-B7CB
+  - INS-260321-0CCD
 ---
 Private credit has outsized exposure to software companies: business development companies hold ~25% of portfolios in software, and private credit CLOs hold ~20%. These are the exact companies most disrupted by AI. Software loans also carry the highest leverage and lowest coverage ratios across major sectors (historically justified by strong cash flows). Adding urgency: 31% of these debts come due in the next two years. Combined with floating-rate loans passing higher interest rates directly to borrowers, tariff uncertainty, and a sputtering labor market, this creates a convergence of risk. The structural parallel to 2008 — lax lending standards, questionable ratings, opacity — is concerning but the system is smaller and banks have less direct exposure.

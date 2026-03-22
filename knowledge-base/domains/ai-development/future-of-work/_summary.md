@@ -1,6 +1,6 @@
 # Topic: future-of-work
 
-> 37 insights
+> 40 insights
 
 - `INS-260320-A745` [very_high] Anthropic's own studies show AI deskilling in coding is real, but depends on HOW you use models — some usage patterns cause skill degradation, some don't.
 - `INS-260321-E4EB` [very_high] AI made idea generation almost free, just as the internet made communication almost free — the bottleneck shifted to verification, evaluation, and filtering signal from noise.
@@ -11,6 +11,7 @@
 - `INS-260321-1A0B` [very_high] The biggest risk of AI adoption isn't that it fails — it's that it works so well that humans stop learning. Design AI systems where a key priority is the learning and improvement of the humans in the loop.
 - `INS-260321-2F43` [very_high] The name of the game is to increase your leverage — put in very few tokens once in a while and a huge amount of stuff happens on your behalf.
 - `INS-260321-86F1` [high] China is stealing American AI models, removing all guardrails, and potentially deploying them against the US — creating an absurd scenario where America fights with one arm tied behind its back against its own technology.
+- `INS-260321-3C8A` [high] AI labs fight viciously against each other for dominance but frame the global AI race as positive-sum — the actual zero-sum game is between nations, and the labs don't see it.
 - `INS-260321-807B` [high] AI native marketing agencies go end-to-end with AI, bypassing tools like Adobe entirely, dramatically improving margins and delivering ads within days.
 - `INS-260321-BFA3` [high] AI solved 50 Erdős problems which looks amazing, but systematic studies show a 1-2% success rate per problem — scale and selection bias make it look like magic when you only see the wins.
 - `INS-260321-4178` [high] AI doesn't just automate procedures — it automates judgment calls. The person who deeply understands insurance underwriting and can talk an AI into building a tool is now more dangerous than the engineer who can build anything but doesn't know what to build.
@@ -19,8 +20,10 @@
 - `INS-260321-C5AA` [high] Custom apps are overproduction — everything should be exposed API endpoints with agents as the intelligent glue that tool-calls all the parts.
 - `INS-260321-8433` [high] Karpathy's auto-research loop found hyperparameter improvements overnight that his two decades of ML experience missed — the agent found weight decay and Adam beta issues that interact jointly.
 - `INS-260320-DEAF` [high] Coding is going away first — AI models handle raw coding now, but broader software engineering (architecture, design, user needs, team management) takes longer to automate.
+- `INS-260321-0CCD` [high] A portfolio founder assigned two AI-native engineers with unlimited budgets on Claude Code, Codex, and Cursor and saw 10-20x faster progress — concluding his entire product and engineering organization needs restructuring within 12 months.
 - `INS-260320-E683` [high] Even if you're only doing 5% of the task and AI does 95%, that 5% gets "super amplified" — you become 20x more productive through comparative advantage.
 - `INS-260320-DDD9` [high] In a world where AI can generate anything, "having basic critical thinking skills may be the most important thing to success."
+- `INS-260321-1749` [high] Fortune 500 CEOs universally say they want to become AI companies, but actual deployment lags because change management across large organizations is fundamentally harder than deploying the technology itself.
 - `INS-260321-2241` [high] Singapore, Hong Kong, and UAE lead per-capita AI adoption, while the US ranks 20th — driven primarily by cultural trust differentials (32% US trust vs 50-70% in leading countries) rather than technology availability.
 - `INS-260321-52EF` [high] Software was scarce and expensive — AI making it cheaper unlocks massive latent demand (Jevons paradox). Like ATMs creating more bank branches and more tellers, not fewer.
 - `INS-260320-5F14` [high] "Even if an AI is always going to be better than you at something, you can still learn that thing. You can still enrich yourself intellectually."

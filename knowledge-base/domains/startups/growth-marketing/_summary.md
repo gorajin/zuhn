@@ -1,6 +1,6 @@
 # Topic: growth-marketing
 
-> 28 insights
+> 29 insights
 
 - `INS-260320-630D` [very_high] Frame your product as a solution to a problem, not a toy — a video framing Coconote as a fun toy got 41M views but terrible conversion, while solution-framed videos converted far better.
 - `INS-260320-080B` [very_high] Ask customers how they describe your product, then use their exact words as marketing copy — Coconote asked and the majority said "never miss a key detail," which became their App Store headline.
@@ -25,6 +25,7 @@
 - `INS-260321-96CE` [high] Markets (topics) rarely change and can't be invented. Formats (creative vessels) are born daily. Innovate on format, not market — then transplant across markets for maximum leverage.
 - `INS-260321-5598` [high] Professional CEOs trained to say nothing on stage now lose to founder CEOs interesting enough to fill 3 hours on Joe Rogan — the 80-year reign of synthetic corporate communication is over.
 - `INS-260321-EE05` [high] The NYT's 24-hour editorial cycle is an OODA loop — the internet cycles in 12 hours, causing traditional media to perpetually chase viral posts and have a psychological breakdown.
+- `INS-260321-822B` [high] The fastest AI companies reach $100M revenue significantly faster than SaaS predecessors, with top performers growing 693% YoY — driven by product demand, not sales spend — and running at $500K-1M ARR per FTE versus the old SaaS benchmark of $400K.
 - `INS-260321-141B` [high] Write a proven format at the top of a grid, list all markets down the side, mark where the combination exists — empty cells are your blue ocean.
 - `INS-260320-DADA` [high] You cannot pour fuel on organic fire — viral UGC repurposed as paid ads underperformed, while a separate clip agency creating performance-specific creatives outperformed significantly.
 - `INS-260321-C902` [medium] New AI products follow a predictable distribution ladder: X small communities then AI news pages then Instagram news then creators then Telegram.

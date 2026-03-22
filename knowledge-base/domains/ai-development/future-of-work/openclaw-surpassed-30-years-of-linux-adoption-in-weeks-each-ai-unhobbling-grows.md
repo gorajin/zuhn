@@ -48,7 +48,7 @@ related:
   - INS-260321-6437
   - INS-260321-1A0B
   - INS-260321-E4EB
+  - INS-260321-B7CB
   - PRI-260321-14D8
-  - INS-260320-DEAF
 ---
 OpenClaw's adoption chart shows a vertical line that dwarfs both Facebook's and Linux's growth curves. Jensen called it 'the most popular open-source project in the history of humanity.' The pattern: each AI unhobbling (capability unlock) builds on the previous stack — OpenClaw builds on reasoning models which build on LLMs which build on chat interfaces. Because each new layer is technically stacked on everything before, adoption accelerates. Alex predicts that within 2 years, a new repo will go from zero to a billion stars in 5 minutes. Anthropic is already duplicating all OpenClaw elements. NVIDIA's NemoClaw optimizes it for enterprise with security, making it the biggest thing to hit the enterprise world in decades.

@@ -46,9 +46,9 @@ resolutions:
     NVIDIA as critical infrastructure and apply antitrust pressure.
 related:
   - INS-260320-2058
+  - INS-260321-0CCD
   - INS-260321-21BE
   - INS-260321-D484
   - INS-260321-F2C4
-  - INS-260321-86F1
 ---
 GTC 2026 revealed NVIDIA's full-stack ambition: not just GPUs but the platform for everything AI touches. Physical AI: 110 robot companies working with NVIDIA, with almost every robotics company in the world using their platform. Robotaxi: BYD, Hyundai, Nissan, Ji joining Mercedes, Toyota, GM — 18 million cars built annually on NVIDIA's robotaxi-ready platform, partnering with Uber for deployment. They're designing orbital data centers and turning T-Mobile radio towers into AI inference points. The comparison: 'This is what Microsoft was in the early days, what Google was, but times 100, times a thousand.' The question now is how long before regulators frame NVIDIA as critical infrastructure and apply antitrust pressure.

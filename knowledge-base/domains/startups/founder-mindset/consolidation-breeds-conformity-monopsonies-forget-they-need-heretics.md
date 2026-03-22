@@ -47,9 +47,8 @@ resolutions:
     for predictability, not breakthroughs.
 related:
   - INS-260321-3808
-  - INS-260321-C6C0
-  - PRI-260321-2DF0
   - INS-260321-13C6
+  - PRI-260321-2DF0
   - PRI-260321-0A4D
   - INS-260321-E654
 ---
