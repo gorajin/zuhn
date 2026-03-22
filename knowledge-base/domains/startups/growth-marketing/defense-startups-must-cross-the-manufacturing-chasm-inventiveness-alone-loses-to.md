@@ -55,5 +55,6 @@ related:
   - INS-260322-C472
   - INS-260322-CFB1
   - INS-260322-3C3D
+  - INS-260322-8147
 ---
 Emil Michael identifies the critical gap between defense startups and established primes: primes don't have better ideas, but they can produce at scale with quality testing and manufacturing discipline. The opportunity for defense startups is building this production muscle, which means borrowing from the old world rather than reinventing everything. Companies that cross this chasm in the next 1-2 years will prove it can be done and attract more venture capital to the defense marketplace. Michael also warns founders about false demand signals: in a 3-million-person organization, you can always find someone who says 'I love your product,' but the real signal is whether they're buying, testing, and pulling you through the procurement process. The culture defaults to never saying no — so a fast no is actually more valuable than a slow maybe.

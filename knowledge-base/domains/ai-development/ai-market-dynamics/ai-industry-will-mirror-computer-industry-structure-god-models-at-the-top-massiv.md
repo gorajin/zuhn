@@ -58,8 +58,8 @@ related:
   - INS-260321-F446
   - INS-260322-BBED
   - INS-260322-54F3
+  - INS-260322-8147
   - INS-260320-DEAF
-  - PRI-260321-7307
 ---
 Andreessen draws a structural analogy between AI and the entire history of computing. Just as mainframes gave way to minicomputers, PCs, and then embedded chips in everything, AI will have a pyramid structure: a small number of god models running in giant data centers at the top, followed by progressively smaller models cascading down to embedded systems running on individual chips inside every physical object.
 

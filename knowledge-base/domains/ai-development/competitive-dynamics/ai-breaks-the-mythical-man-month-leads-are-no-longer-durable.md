@@ -54,8 +54,8 @@ related:
   - INS-260321-E471
   - INS-260322-3646
   - INS-260322-C472
+  - INS-260322-EDA4
   - INS-260322-CFB1
-  - INS-260320-8688
 ---
 The 'mythical man-month' principle held for the entire history of software: you can't accelerate development by adding more people beyond a small optimal team. This meant startups that figured something out with 7-8 people had durable leads that even Google couldn't close by throwing 1,000 engineers at the problem.
 

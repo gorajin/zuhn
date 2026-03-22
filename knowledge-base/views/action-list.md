@@ -1,5 +1,5 @@
 # Action List
-Generated on 2026-03-22 | 144 actionable insights
+Generated on 2026-03-22 | 146 actionable insights
 
 ## ai-development/agent-patterns
 - [INS-260320-1B10] Have Claude review its own code via a specialized review agent — catches critical errors, missing implementations, and security flaws.
@@ -16,6 +16,7 @@ Generated on 2026-03-22 | 144 actionable insights
 - [INS-260321-7C97] Software that makes you similar to everyone else (beta) will be replaced by AI/vibe-coding; software that expresses your competitive advantage (alpha) becomes more valuable.
 - [INS-260321-FD14] Vibe coding won't replace enterprise SaaS because of comparative advantage and hidden edge cases — but it dramatically increases platform extensibility by letting non-developers build custom applications on top of existing systems of record.
 - [INS-260321-0CCD] A portfolio founder assigned two AI-native engineers with unlimited budgets on Claude Code, Codex, and Cursor and saw 10-20x faster progress — concluding his entire product and engineering organization needs restructuring within 12 months.
+- [INS-260322-642F] For the first time, banks and insurers face more risk from keeping decades-old mainframes than from migrating to AI-native platforms — unlocking massive market opportunity.
 
 ## ai-development/claude-code
 - [INS-260320-93E1] Planning is king — always use planning mode before implementation; never let the builder start without plans.
@@ -130,6 +131,7 @@ Generated on 2026-03-22 | 144 actionable insights
 
 ## startups/ai-business-models
 - [INS-260322-E20E] AI application companies should price by business value delivered or productivity uplift, not by token consumption — cost-based pricing systematically undercharges as AI costs deflate.
+- [INS-260322-EDA4] New AI-first financial platforms will be 10x bigger than their predecessors because they capture both software spend and labor spend — automating work humans didn't want to do or couldn't hire for.
 
 ## startups/bootstrapping
 - [INS-260320-B7DA] Charge $99/year from day one even when conventional wisdom says students won't pay — premium pricing signals reliability, and raising from $99 to $129 actually increased both users and revenue.

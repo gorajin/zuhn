@@ -49,7 +49,6 @@ resolutions:
     about AI safety.
 related:
   - INS-260321-A3A1
-  - INS-260321-13C6
   - INS-260321-1A03
   - INS-260321-B7CB
   - INS-260321-D01E

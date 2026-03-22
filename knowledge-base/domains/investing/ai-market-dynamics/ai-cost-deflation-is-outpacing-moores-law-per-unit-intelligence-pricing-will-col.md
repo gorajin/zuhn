@@ -50,7 +50,6 @@ resolutions:
     strategic play is to build for value capture now while costs are high,
     knowing margins will expand as infrastructure costs deflate.
 related:
-  - INS-260320-5818
   - INS-260320-8688
   - INS-260321-52EF
   - INS-260321-4B99

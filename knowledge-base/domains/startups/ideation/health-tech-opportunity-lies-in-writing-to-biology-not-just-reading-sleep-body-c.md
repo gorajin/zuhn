@@ -61,8 +61,8 @@ related:
   - INS-260322-3A00
   - INS-260322-C472
   - PRI-260321-7307
+  - INS-260322-EDA4
   - INS-260321-08AC
-  - INS-260322-B33E
   - INS-260321-CCE3
 ---
 Huberman borrows from neuroscience the concept of 'reading vs writing' to biology. The read side is maturing rapidly: continuous glucose monitors, sleep sensors, blood tests, and soon AI systems like Function that aggregate all health data (EHRs, wearables, imaging) to diagnose issues before symptoms appear — the 1.0 version was COVID wearable detection.

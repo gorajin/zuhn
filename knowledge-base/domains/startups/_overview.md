@@ -1,12 +1,12 @@
 # Domain: startups
 
-> 85 insights across 17 topics
+> 86 insights across 17 topics
 
 ## Topics
 
 | Topic | Insights | Preview |
 | ----- | -------- | ------- |
-| ai-business-models | 6 | AI differentiation is not the same as defensibility — the moat comes from owning the end-to-end workflow and becoming the system of record. |
+| ai-business-models | 7 | AI differentiation is not the same as defensibility — the moat comes from owning the end-to-end workflow and becoming the system of record. |
 | bootstrapping | 13 | A common mistake is automating wherever it's easiest rather than wherever the constraint actually is. The single biggest bottleneck in your process probably accounts for most of the available gains. Find that one thing. Automate that. |
 | business-models | 2 | Companies where AI reinforces the business model by driving revenue — not just cutting costs — see dramatically stronger market pull and adoption. |
 | co-founder-dynamics | 1 | ElevenLabs' co-founders Mati and Peter are childhood best friends with complementary skills — one product-focused, one research-focused — and their deep mutual trust enables the company to move at extreme speed. |

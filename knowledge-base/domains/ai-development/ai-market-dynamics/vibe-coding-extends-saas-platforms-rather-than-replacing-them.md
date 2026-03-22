@@ -55,9 +55,10 @@ related:
   - INS-260320-DEAF
   - INS-260321-7C97
   - INS-260322-B641
+  - INS-260322-EDA4
   - PRI-260321-7307
-  - PRI-260321-14D8
   - INS-260322-019A
+  - INS-260322-642F
 ---
 The Atlassian CEO makes a compelling case against the 'vibe code your own Workday' narrative using David Ricardo's 1817 theory of comparative advantage: even if you could vibe code your own HR system, you should still buy one because the edge cases buried in enterprise software (like Indiana maternity leave rules) represent decades of accumulated knowledge embedded in deterministic rules that aren't exposed or easily replicated.
 
