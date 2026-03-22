@@ -1,9 +1,9 @@
 # Domain: investing
 
-> 4 insights across 1 topics
+> 8 insights across 1 topics
 
 ## Topics
 
 | Topic | Insights | Preview |
 | ----- | -------- | ------- |
-| geopolitics | 4 | When you invest in a country's stock market, you're placing a geopolitical bet on that country's future economic power relative to rivals — not just on individual companies. |
+| geopolitics | 8 | Saudi Arabia and Israel were sworn enemies for decades. Now they're aligning because both want to be core hub stations on IMEC. When economic interests change, the colors beneath the board change on their own. |

@@ -1,17 +1,17 @@
 ---
-id: SRC-260321-CA8F
+id: SRC-260321-4AD0
 type: youtube
-title: 해외 천재유튜버들이 몰래 쓰는 니치밴딩 전략
-author: '자생법:자본주의에서생존하는방법'
-url: 'https://youtu.be/ctUMl33mYQ8'
-date_ingested: '2026-03-21'
+title: '"중동 전쟁은 페이크다" 미국이 이란을 박살 낸 소름 돋는 진짜 이유'
+author: 타일러볼까요
+url: 'https://youtu.be/IwmgFdMuoW0'
+date_ingested: '2026-03-22'
 insight_count: 4
-channel: '자생법:자본주의에서생존하는방법'
-duration: '10:06'
-views: 29403
-upload_date: '2026-03-16'
-chapters: 0
-transcript_type: auto
-word_count: 1967
+channel: 타일러볼까요
+duration: '18:17'
+views: 1382552
+upload_date: '2026-03-19'
+chapters: 9
+transcript_type: manual
+word_count: 3017
 ---
-Korean YouTube strategy video explaining 'niche banding' — taking a proven content format from one market and applying it to a completely different market where it hasn't been used yet. Includes case studies of Tim Danilov's multi-channel strategy, 4 proven format templates (POV, 2D animation, 3D animation, game commentary), and a practical grid method for finding blue ocean combinations.
+Korean geopolitical analysis arguing that the US-Iran conflict (Operation Epic) is not primarily about Israel or religion — it's about clearing the physical obstacle blocking IMEC (India-Middle East-Europe Economic Corridor), a massive logistics highway designed to bypass China's Belt and Road Initiative. Covers the India-EU FTA, Saudi-Israel capitalist alliance, China's proxy war dilemma, and implications for Korea's economic positioning.

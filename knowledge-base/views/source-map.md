@@ -18,7 +18,7 @@ Generated on 2026-03-22 | 27 sources
 | Debugging as architecture insight: dissecting a VLA | blog | 4 | 2026-03-22 |
 | How is this time different?  | blog | 4 | 2026-03-22 |
 | Prompt Engineering Guide Resources 2026 — The AI Corner | blog | 4 | 2026-03-22 |
-| 해외 천재유튜버들이 몰래 쓰는 니치밴딩 전략 | youtube | 4 | 2026-03-21 |
+| "중동 전쟁은 페이크다" 미국이 이란을 박살 낸 소름 돋는 진짜 이유 | youtube | 4 | 2026-03-22 |
 | Where to invest in a multipolar world (WW3?) | youtube | 4 | 2026-03-22 |
 | This Automation Took Me From 0 to 175k Followers in Under 12 Months | reddit | 3 | 2026-03-20 |
 | Claude Code usage limit hack | reddit | 3 | 2026-03-20 |

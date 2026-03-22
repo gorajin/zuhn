@@ -1,6 +1,6 @@
 # Knowledge Base Master Index
 
-> Last rebuilt: 2026-03-22 | Total insights: 158 | Sources: 27
+> Last rebuilt: 2026-03-22 | Total insights: 162 | Sources: 28
 
 **NOTE:** Access counts and last_accessed are updated automatically when insights are retrieved.
 
@@ -10,7 +10,7 @@
 | ------ | ------ | -------- | ---------- | ------------ |
 | ai-development | 10 | 106 | 13 | 2026-03-21 |
 | automation | 2 | 12 | 2 | 2026-03-20 |
-| investing | 1 | 4 | 0 | 2026-03-21 |
+| investing | 1 | 8 | 0 | 2026-03-21 |
 | music-production | 1 | 2 | 0 | 2026-03-20 |
 | pets | 1 | 2 | 0 | 2026-03-20 |
 | startups | 3 | 28 | 4 | 2026-03-21 |
@@ -25,7 +25,7 @@
 
 ## Top Tags
 
-automation(11) n8n(11) workflow(9) prompting(9) agents(8) skills(8) hooks(8) llm-costs(8) content-strategy(8) productivity(7) spec-driven-dev(7) leverage(6) debugging(5) context-management(5) llm(5) huggingface(5) youtube(5) learning(4) planning(4) efficiency(4)
+automation(11) n8n(11) workflow(9) prompting(9) agents(8) skills(8) hooks(8) llm-costs(8) content-strategy(8) productivity(7) spec-driven-dev(7) leverage(6) debugging(5) context-management(5) llm(5) huggingface(5) youtube(5) china(5) learning(4) planning(4)
 
 ## Flags (for Claude)
 
@@ -68,10 +68,14 @@ _No flags._
 - `INS-260321-801C` Fuelfinance is building an MCP integration that lets Claude talk directly to your financial data inside Fuel — eliminating the copy-paste bottleneck between your accounting system and AI analysis. _(2026-03-21)_
 - `INS-260321-9906` Natural language interfaces change who can program a robot, not just what it can do — but they trade a small precise vocabulary (preprogrammed tasks) for a large ambiguous one where the boundary of understanding is opaque. _(2026-03-21)_
 - `INS-260321-167A` Finance has three jobs: explain what happened (the metric), why it happened (the business decision), and what to do next (the action with timeline). Most teams nail the first and struggle with the second. _(2026-03-21)_
+- `INS-260321-10FF` Saudi Arabia and Israel were sworn enemies for decades. Now they're aligning because both want to be core hub stations on IMEC. When economic interests change, the colors beneath the board change on their own. _(2026-03-21)_
 - `INS-260321-3EC0` When you invest in a country's stock market, you're placing a geopolitical bet on that country's future economic power relative to rivals — not just on individual companies. _(2026-03-21)_
+- `INS-260321-A3A1` IMEC (India-Middle East-Europe Economic Corridor) is a US-backed logistics highway routing goods from India through UAE, Saudi Arabia, and Israel to Europe — designed to completely bypass China's Belt and Road Initiative. _(2026-03-21)_
 - `INS-260321-D183` If US wins the cold war: S&P returns 8-10% annually. If China wins: China gives the US a soft landing (they need US consumption market), S&P returns ~5% annually. Either way, S&P has the highest expected value. _(2026-03-21)_
 - `INS-260321-3808` When Japan's GDP reached ~70% of US GDP, the US forced the Plaza Accord and Japan stagnated for 35 years. When China's GDP reached ~70% of US GDP, the US initiated the trade/tech war. The pattern: hegemons don't let vassals surpass them. _(2026-03-21)_
+- `INS-260321-9E91` The US has wanted to pivot to Asia since the 2000s but keeps getting stuck in the Middle East. IMEC's purpose is to bind Middle Eastern nations economically so they manage their own region, freeing the US to focus on China. _(2026-03-21)_
 - `INS-260321-5655` Venezuela, Iran, Greenland — every major US foreign policy move is about creating oil and resource chokepoints against China, not the surface-level reasons given publicly. _(2026-03-21)_
+- `INS-260321-D4D0` The Iran operation isn't about religion or revenge — it's about clearing the physical obstacle blocking a logistics highway. International politics is leaders playing Go with a map; military power, resource control, and money are stronger than ideology. _(2026-03-21)_
 - `INS-260321-7D76` A common mistake is automating wherever it's easiest rather than wherever the constraint actually is. The single biggest bottleneck in your process probably accounts for most of the available gains. Find that one thing. Automate that. _(2026-03-21)_
 - `INS-260321-2D72` Code's real advantage isn't zero marginal cost of serving users — it's zero-cost experimentation. A/B test, deploy, roll back, iterate at near-zero cost per cycle. Your competitive advantage is learning speed, not serving speed. _(2026-03-21)_
 - `INS-260321-C99A` Leverage = Effort x Multiplier. Most people spend their careers increasing effort (hours, focus) which is bounded by the body. The multiplier (code, media, capital, judgment) is unbounded. _(2026-03-21)_
