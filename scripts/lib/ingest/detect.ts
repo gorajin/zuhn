@@ -1,8 +1,9 @@
-export type ContentType = "youtube" | "reddit" | "blog" | "pdf" | "audio";
+export type ContentType = "youtube" | "reddit" | "blog" | "pdf" | "audio" | "image";
 
 const TRACKING_PARAMS = ["utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "ref", "si", "source"];
 
 const AUDIO_EXTENSIONS = [".mp3", ".wav", ".m4a", ".aac", ".ogg", ".flac", ".webm"];
+const IMAGE_EXTENSIONS = [".jpg", ".jpeg", ".png", ".heic", ".webp", ".gif", ".svg", ".tiff"];
 
 export function normalizeUrl(urlString: string): string {
   const url = new URL(urlString);
@@ -21,6 +22,7 @@ export function detectType(input: string): ContentType {
   if (isLocalPath(input)) {
     const lower = input.toLowerCase();
     if (AUDIO_EXTENSIONS.some((ext) => lower.endsWith(ext))) return "audio";
+    if (IMAGE_EXTENSIONS.some((ext) => lower.endsWith(ext))) return "image";
     if (lower.endsWith(".pdf")) return "pdf";
     throw new Error(`Unsupported local file type: ${input}`);
   }

@@ -366,6 +366,15 @@ async function main(): Promise<void> {
       break;
     }
 
+    case "image": {
+      const { ingestImage } = await import("./lib/ingest/image");
+      const result = await ingestImage(url, KB_ROOT);
+      console.log(`\nSUCCESS: Source created as ${result.sourceId}\n`);
+      console.log(`Image saved to: ${result.rawPath}`);
+      console.log("Use Read tool to view the image, then create extraction JSON.");
+      break;
+    }
+
     case "audio": {
       const { ingestAudio } = await import("./lib/ingest/audio");
 

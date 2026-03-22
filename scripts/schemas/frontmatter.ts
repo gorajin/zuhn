@@ -47,7 +47,7 @@ export type InsightData = z.infer<typeof InsightFrontmatter>;
 
 export const SourceFrontmatter = z.object({
   id: z.string().regex(/^SRC-\d{6}-[A-F0-9]{4}$/i),
-  type: z.enum(["reddit", "youtube", "blog", "panel", "paste", "pdf", "audio"]),
+  type: z.enum(["reddit", "youtube", "blog", "panel", "paste", "pdf", "audio", "image"]),
   title: z.string(),
   date_ingested: z.string(),
   insight_count: z.number().int().min(0),

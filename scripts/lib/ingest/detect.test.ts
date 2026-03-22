@@ -43,6 +43,11 @@ describe("detectType", () => {
     expect(detectType("/recordings/talk.flac")).toBe("audio");
     expect(detectType("/recordings/talk.webm")).toBe("audio");
   });
+  it("detects image files by extension", () => {
+    expect(detectType("/path/to/slide.jpg")).toBe("image");
+    expect(detectType("/path/to/whiteboard.png")).toBe("image");
+    expect(detectType("/path/to/photo.heic")).toBe("image");
+  });
   it("detects local PDF paths", () => {
     expect(detectType("/path/to/document.pdf")).toBe("pdf");
   });

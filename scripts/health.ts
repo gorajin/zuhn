@@ -134,7 +134,7 @@ async function main(): Promise<void> {
 
   // 4. Validate source files
   const sourceResult = await validateFiles(
-    "sources/{reddit,paste,youtube,blog,pdf,audio}/*.md",
+    "sources/{reddit,paste,youtube,blog,pdf,audio,image}/*.md",
     ["**/_index.md", "**/raw/**"],
     SourceFrontmatter,
     "Sources"
