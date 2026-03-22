@@ -18,7 +18,6 @@ sources:
     author: Max Brodeur-Urbas (EO podcast)
     url: 'https://youtu.be/CxFQykWiJqY'
 related:
-  - INS-260320-39A3
   - INS-260320-630D
   - INS-260321-52EF
   - INS-260321-96CE

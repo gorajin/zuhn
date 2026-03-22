@@ -43,5 +43,6 @@ related:
   - INS-260321-AE3F
   - INS-260321-E471
   - INS-260320-3798
+  - INS-260321-28FB
 ---
 Most aspiring founders try to find ideas that are both good and never-been-thought-of, which is nearly impossible with billions of people on Earth. The better approach is to look at ideas that have already been considered and dismissed — the 'discard bin.' Instacart and Airbnb were both ideas that most people thought were bad or impractical. When your friends and family are worried about you because of your idea, that's actually a positive signal. The key insight is that unique ideas aren't undiscovered — they're ideas that others have discarded for reasons that may no longer apply or were never valid.
