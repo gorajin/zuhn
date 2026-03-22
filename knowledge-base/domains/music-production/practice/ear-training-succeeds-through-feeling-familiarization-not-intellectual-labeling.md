@@ -50,7 +50,7 @@ related:
   - INS-260322-6D1D
   - INS-260322-9436
   - PRI-260321-14D8
-  - INS-260321-C4CD
+  - INS-260322-D57C
 ---
 Konyi's pedagogical philosophy is explicit: 'The words are just to guide you about where to focus. But then as soon as you're there, just bathe in that feeling.' Descriptions like 'melancholy' or 'expansive' are pointers, not definitions. If a word doesn't resonate with your subjective experience, ignore it — the feeling state itself is the only accurate representation of itself.
 

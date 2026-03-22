@@ -1,4 +1,3 @@
-# Tag: customer-psychology
+# Tag: deficiency
 
 - `INS-260322-5A72` A brand is established in the realm of fulfilling customer deficiency — the entire cycle from identifying lack to delivering satisfaction is the brand, not just the product.
-- `INS-260322-EF20` Early-stage founders should paint a picture of how the customer's life changes with the product, not enumerate features.

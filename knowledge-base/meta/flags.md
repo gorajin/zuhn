@@ -32,7 +32,9 @@ None.
 - startups/growth-marketing has 29 insights but related investing/ai-business-models has only 3
 - startups/growth-marketing has 29 insights but related startups/marketing has only 5
 - startups/growth-marketing has 29 insights but related startups/growth-strategy has only 5
+- startups/growth-marketing has 29 insights but related startups/branding has only 4
 - startups/founder-mindset has 19 insights but related startups/growth-strategy has only 5
+- startups/founder-mindset has 19 insights but related startups/branding has only 4
 - ai-development/ai-market-dynamics has 19 insights but related investing/ai-business-models has only 3
 - ai-development/ai-market-dynamics has 19 insights but related ai-development/adoption has only 3
 - ai-development/ai-market-dynamics has 19 insights but related ai-development/enterprise-adoption has only 5

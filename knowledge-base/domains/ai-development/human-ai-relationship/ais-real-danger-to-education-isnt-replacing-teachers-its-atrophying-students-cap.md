@@ -58,7 +58,6 @@ related:
   - INS-260322-B693
   - INS-260322-32E3
   - INS-260321-C99A
-  - INS-260322-CC69
 ---
 Po-Shen Loh draws a precise analogy: using AI to do writing homework is like driving a car for a mile instead of running it — you get zero exercise. The danger isn't that AI writes better essays; it's that writing is how students develop logical reasoning, argumentation, and the ability to construct coherent thought sequences.
 

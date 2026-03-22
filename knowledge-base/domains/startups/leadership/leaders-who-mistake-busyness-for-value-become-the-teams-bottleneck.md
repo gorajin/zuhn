@@ -49,7 +49,7 @@ related:
   - INS-260322-2ABB
   - INS-260321-8382
   - INS-260321-33FC
-  - INS-260322-C9AC
+  - INS-260322-D57C
 ---
 Many new leaders mistake busyness for the reason for their existence. They find their value in solving team members' problems directly — every time someone asks for help, they jump in. This feels productive but has compounding costs: the leader burns out, team members stop growing, and the team's talent density drops because everyone depends on one person.
 

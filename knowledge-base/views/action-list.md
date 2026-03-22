@@ -1,5 +1,5 @@
 # Action List
-Generated on 2026-03-22 | 217 actionable insights
+Generated on 2026-03-22 | 220 actionable insights
 
 ## ai-development/adoption
 - [INS-260322-3159] Just as enterprise SaaS companies unbundled Oracle and Excel into 400-500 dedicated apps per company, AI software companies will unbundle ChatGPT by wrapping AI capabilities into specific industry workflows.
@@ -210,6 +210,11 @@ Generated on 2026-03-22 | 217 actionable insights
 - [INS-260321-FE91] Opus Clip validated by manually engineering final video outputs and emailing them to potential customers, getting 60% positive feedback before writing a single line of product code.
 - [INS-260321-1992] Focus on first dollar by day 30, $1M ARR ($80K/month) by day 90, and only consider VC if you actually need it.
 - [INS-260321-E5C5] The ideal AI startup founding team is one builder who ships in 24 hours and one go-to-market person with audience empathy.
+
+## startups/branding
+- [INS-260322-9172] Successful brands ask fundamental questions and act fast on answers; failing brands have CEOs who already decided the answer and insist 'just do it this way.'
+- [INS-260322-D57C] When scaling, CEOs cannot just delegate customer-facing work — they must personally demonstrate the brand's standard alongside new employees so sensibility transfers through shared experience.
+- [INS-260322-683B] Less than 10% of brands succeed, and the common factor among those that do is preserving a single undiluted brand message through every stage of organizational growth.
 
 ## startups/business-models
 - [INS-260322-FCFC] Companies where AI reinforces the business model by driving revenue — not just cutting costs — see dramatically stronger market pull and adoption.

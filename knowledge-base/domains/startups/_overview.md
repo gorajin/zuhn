@@ -1,6 +1,6 @@
 # Domain: startups
 
-> 149 insights across 43 topics
+> 153 insights across 44 topics
 
 ## Topics
 
@@ -9,6 +9,7 @@
 | ai-business-models | 7 | AI differentiation is not the same as defensibility — the moat comes from owning the end-to-end workflow and becoming the system of record. |
 | bootstrapping | 13 | A common mistake is automating wherever it's easiest rather than wherever the constraint actually is. The single biggest bottleneck in your process probably accounts for most of the available gains. Find that one thing. Automate that. |
 | brand-building | 1 | When an industry treats marketing as beneath it, the first firm to market aggressively gains a permanent structural advantage. |
+| branding | 4 | A brand is established in the realm of fulfilling customer deficiency — the entire cycle from identifying lack to delivering satisfaction is the brand, not just the product. |
 | business-models | 3 | Companies where AI reinforces the business model by driving revenue — not just cutting costs — see dramatically stronger market pull and adoption. |
 | career-strategy | 1 | As you age, competing on individual technical skill puts you against younger rivals; building influence and reputation shifts your career to inbound opportunities that come to you. |
 | co-founder-dynamics | 1 | ElevenLabs' co-founders Mati and Peter are childhood best friends with complementary skills — one product-focused, one research-focused — and their deep mutual trust enables the company to move at extreme speed. |

@@ -51,11 +51,10 @@ resolutions:
 related:
   - INS-260322-A208
   - INS-260322-2A3A
-  - INS-260322-2FAD
   - INS-260321-33FC
+  - INS-260322-5A72
   - INS-260321-C99A
   - INS-260322-EF20
-  - INS-260321-1A84
 ---
 Pensive's founder went through 8 pivots — from voice cloning to food market logistics to property management AI — before landing on AI-powered education. What sustained him through serial failure was not attachment to any single idea but a deeply personal mission around education rooted in his own experience navigating Korean and American education systems.
 

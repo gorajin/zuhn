@@ -47,7 +47,6 @@ resolutions:
     insight is that you don't need to be better at the core product — you just
     need to be the first to actually tell people you exist and what you believe.
 related:
-  - INS-260320-080B
   - INS-260321-807B
   - INS-260322-BFDE
   - INS-260322-5CBF
@@ -55,6 +54,7 @@ related:
   - PRI-260321-558C
   - INS-260321-E654
   - INS-260322-2647
+  - INS-260322-683B
 ---
 a16z entered a VC industry where incumbents treated fundraising like a 'sushi boat' — sitting and waiting for deals to come to them — and treated LPs 'like mushrooms' (put them in a box and ignore them for two years). The existing VCs saw marketing as unseemly and beneath them. By breaking this omerta and aggressively pursuing press, writing substantive blog posts, and putting Marc Andreessen on the cover of Fortune, a16z created a permanent structural shift in how VC firms compete for deals.
 

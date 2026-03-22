@@ -55,8 +55,9 @@ related:
   - INS-260321-2F09
   - INS-260322-5831
   - INS-260322-6AF5
+  - INS-260322-5A72
   - PRI-260321-558C
-  - INS-260321-E5C5
+  - INS-260322-9172
 ---
 After 8 pivots, the Pensive founder realized his failures shared a pattern: he was chasing 'front market fit' (is there demand?) without establishing 'founder-market fit' (am I the right person to solve this for the long haul?). Voice cloning and food logistics had market demand but no personal resonance.
 

@@ -55,7 +55,7 @@ related:
   - INS-260322-B693
   - INS-260320-DDD9
   - INS-260320-5F14
-  - INS-260322-5A0F
+  - INS-260322-9172
 ---
 Po-Shen Loh's formulation is sharp: 'People used to go to school to learn how to do the homework and do the exams. Today, everyone needs to learn how to grade the homework.' This captures the fundamental skill inversion that AI creates.
 

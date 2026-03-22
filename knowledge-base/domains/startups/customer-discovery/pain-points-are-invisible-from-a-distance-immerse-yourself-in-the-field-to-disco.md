@@ -54,11 +54,11 @@ resolutions:
 related:
   - INS-260320-07A2
   - INS-260321-AACC
+  - INS-260322-D57C
   - PRI-260320-D2E1
   - INS-260322-6AF5
   - INS-260322-B641
   - INS-260322-5650
-  - INS-260322-191F
 ---
 Po-Shen Loh's breakthrough business idea came 1-2 months after he started a tour giving math talks in public parks across America. By traveling city to city with AV equipment, teaching in park shelters, he inadvertently conducted customer discovery at scale — interacting with thousands of parents and students, seeing their reactions, hearing their unscripted concerns.
 

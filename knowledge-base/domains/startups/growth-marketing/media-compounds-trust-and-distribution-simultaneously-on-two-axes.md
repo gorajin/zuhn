@@ -50,6 +50,5 @@ related:
   - PRI-260321-5857
   - INS-260322-2D2F
   - INS-260321-2564
-  - INS-260322-3DE2
 ---
 A billboard builds awareness but not trust. A private meeting builds trust but not reach. Media does both simultaneously. Publishing your thinking inverts the networking model: from outbound cold emails to inbound self-selection. People show up pre-sold on your worldview. The heuristic: if your media isn't generating opportunities you didn't ask for, you're either reaching the wrong audience or holding back too much. Once you have distribution, every other tool gets cheaper — launching an app (your audience is your test market), raising capital (your track record is public), hiring (candidates already know your values). Media is the most accessible starting point because it amplifies everything that comes after it.
