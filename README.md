@@ -14,16 +14,18 @@ You feed it content — YouTube videos, blog posts, Reddit threads, PDFs, confer
 4. **Searches** via hybrid keyword + semantic search (SQLite FTS5 + Ollama embeddings)
 5. **Learns** — discovers connections, clusters topics, detects gaps, transfers principles across domains, flags contradictions
 6. **Compresses** knowledge upward (insights → principles → mental models)
-7. **Forgets** intelligently — archives stale and low-value insights
-8. **Resurfaces** forgotten knowledge via daily digests
-9. **Visualizes** as an interactive zoomable mindmap
+7. **Predicts** — derives testable claims from principles with falsifiable metrics and deadlines
+8. **Decides** — logs decisions with the insights/principles that informed them, tracks outcomes
+9. **Forgets** intelligently — archives stale and low-value insights
+10. **Resurfaces** forgotten knowledge via daily digests with outcome-due alerts
+11. **Visualizes** as an interactive zoomable mindmap
 
 ## The 5 Levels of Knowledge
 
 ```
 Level 5: MENTAL MODELS        — Transferable frameworks across domains
 Level 4: PRINCIPLES           — Synthesized rules backed by evidence
-Level 3: INSIGHTS             — Individual knowledge cards (109 and growing)
+Level 3: INSIGHTS             — Individual knowledge cards (244 and growing)
 Level 2: PROCESSED SOURCES    — Summarized, tagged original content
 Level 1: RAW INTAKE           — Original content as received
 ```
@@ -94,6 +96,10 @@ npm run extract               # Batch-write insights from Claude's JSON
 npm run compress              # Identify topics ready for compression
 npm run create-principles     # Batch-write principles from Claude's JSON
 
+# Empirical Engine (Phase 15)
+npx tsx scripts/decide.ts --file <json>   # Log decisions with informed-by links
+npx tsx scripts/predict.ts --file <json>  # Create testable predictions from principles
+
 # Pipeline
 npm run post-ingest           # Full pipeline: health → reindex → embed → learn → views → git
 npm run health                # Validate all frontmatter + referential integrity
@@ -114,13 +120,14 @@ npm run resurface             # Daily digest of insights to review
 # Knowledge Management
 npm run archive               # Archive stale/low-value insights (--dry-run to preview)
 npm run resurrect             # Un-archive an insight (--id INS-XXXXXX-XXXX)
+npx tsx scripts/split-topic.ts  # Move insights between topics (ontology maintenance)
 
 # Session Persistence
 npm run sleep                 # Save session state to meta/session.md
-npm run wake                  # Morning briefing: session + flags + pending + stats
+npm run wake                  # Morning briefing: session + flags + outcomes due + stats
 
 # Testing
-npm run test                  # Run all 214 tests
+npm run test                  # Run all 215 tests
 npm run test:watch            # Watch mode
 ```
 
@@ -133,6 +140,8 @@ knowledge-base/                    ← Source of truth (markdown + YAML frontmat
 ├── principles/{domain}/*.md       ← Synthesized rules from insights
 ├── mental-models/*.md             ← Transferable frameworks
 ├── tensions/*.md                  ← Tracked contradictions + resolutions
+├── decisions/*.md                 ← Decision records with outcome tracking
+├── predictions/*.md               ← Testable claims with deadlines
 ├── sources/{type}/*.md            ← Where insights came from
 ├── archive/{reason}/*.md          ← Intelligently archived insights
 ├── tags/*.md                      ← Cross-reference indices
@@ -146,13 +155,15 @@ knowledge-base/                    ← Source of truth (markdown + YAML frontmat
 ├── meta/                          ← System metadata
 │   ├── flags.md                   ← Learning layer flags (COMPRESS/DISCOVER/GAP/TRANSFER)
 │   ├── session.md                 ← Persisted session state (sleep/wake)
-│   └── stats.md                   ← Knowledge base statistics
+│   ├── stats.md                   ← Knowledge base statistics
+│   └── pending-urls.txt           ← URLs queued for ingestion
 └── db/brain.db                    ← SQLite + FTS5 + sqlite-vec
 
-scripts/                           ← TypeScript tooling (20 scripts)
+scripts/                           ← TypeScript tooling (23 scripts)
 ├── schemas/
 │   ├── frontmatter.ts             ← Zod schemas for all frontmatter types
 │   ├── extraction.ts              ← Zod schema for insight extraction JSON
+│   ├── empirical.ts               ← Zod schemas for decisions + predictions
 │   └── session.ts                 ← Zod schema for session state
 ├── lib/
 │   ├── parse-insight.ts           ← gray-matter + Zod parser
@@ -189,8 +200,11 @@ scripts/                           ← TypeScript tooling (20 scripts)
 ├── resurface.ts                   ← Spaced resurfacing digest
 ├── archive.ts                     ← Intelligent forgetting
 ├── resurrect.ts                   ← Un-archive insights
+├── decide.ts                      ← Create decision records from JSON
+├── predict.ts                     ← Create prediction records from JSON
+├── split-topic.ts                 ← Move insights between topics
 ├── sleep.ts                       ← Save session state
-└── wake.ts                        ← Morning briefing
+└── wake.ts                        ← Morning briefing + outcomes due
 ```
 
 ## The 7 Learning Mechanisms
@@ -201,7 +215,7 @@ scripts/                           ← TypeScript tooling (20 scripts)
 | 2 | **Emergence Detection** | Flags topics with high insight-to-principle ratios for compression |
 | 3 | **Confidence Propagation** | Increases confidence when independent sources corroborate (with echo chamber dampening) |
 | 4 | **Semantic Clustering** | Louvain community detection on pruned KNN graph — discovers cross-topic clusters |
-| 5 | **Gap Detection** | L2-normalized topic centroids find sparse areas adjacent to dense ones |
+| 5 | **Gap Detection** | L2-normalized topic centroids find sparse areas adjacent to dense ones (sim > 0.83, 2+ shared tags) |
 | 6 | **Cross-Domain Transfer** | Finds principles that apply to other domains (zero-tag-overlap surprise filter) |
 | 7 | **Tension Detection** | Flags contradictory insights via opposing heuristic keywords for Claude to resolve |
 
@@ -215,15 +229,35 @@ All mechanisms run every ingestion via `npm run learn`. Flags are written to `me
 - **The hierarchy IS the navigation** — tiered indices for logarithmic query cost
 - **The system learns, not just stores** — 7 automated mechanisms discover structure in knowledge
 - **Compression over accumulation** — insights compress into principles compress into mental models
+- **Empiricism over epistemology** — predictions and decisions close the loop so the system learns from real-world outcomes, not just structural coherence
 - **Local-first** — Ollama for embeddings, Whisper for transcription, SQLite for search. Zero cloud dependencies.
+
+## The Empirical Engine (Phase 15)
+
+Most "second brain" tools stop at compression — they're beautifully organized graveyards of thought. Zuhn closes the loop:
+
+```
+         ┌──── INGEST ◄──── SEEK (bounties) ◄─────┐
+         │                                          │
+         ▼                                          │
+      EXTRACT                                    UPDATE
+         │                                     (confidence
+         ▼                                      adjustment)
+      COMPRESS ──► PREDICT ──► DECIDE ──► TRACK ───┘
+```
+
+- **Predictions** (PRED-) derive testable claims from principles with falsifiable metrics and hard deadlines
+- **Decisions** (DEC-) log which insights/principles informed each choice, with outcome dates
+- **Morning briefing** surfaces outcomes due for review — turning the knowledge base self-correcting
+- Future: outcome-adjusted confidence propagation (principles that predict correctly gain weight)
 
 ## Stats
 
-- 109 insights across 6 domains, 19 topics
-- 14 principles, 4 mental models
-- 18 sources (Reddit, YouTube, paste)
-- 214 automated tests across 15 test files
-- 20 TypeScript scripts
+- 244 insights across 8 domains, 28 topics
+- 25 principles, 4 mental models
+- 45 sources (Reddit, YouTube, blog, paste)
+- 215 automated tests across 15 test files
+- 23 TypeScript scripts
 - Hybrid search (keyword + 768-dim semantic vectors)
 - 7 learning mechanisms
 - Zero external API dependencies
@@ -249,6 +283,7 @@ All mechanisms run every ingestion via `npm run learn`. Flags are written to `me
 - [Brain Engine Architecture](docs/superpowers/specs/2026-03-19-brain-engine-design.md) — the original 860-line design document
 - [Universal Ingestion Pipeline](docs/superpowers/specs/2026-03-20-universal-ingestion-design.md) — Phase 6-7 spec
 - [Learning Mechanisms 4-6](docs/superpowers/specs/2026-03-21-learning-mechanisms-4-6-design.md) — Phase 8 spec (the Neocortex)
+- Phase 15: Empirical Engine — decisions, predictions, outcome tracking (shipped 2026-03-22)
 
 ---
 
