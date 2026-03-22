@@ -14,9 +14,9 @@ None.
 - ai-development/claude-code has 33 insights but related automation/n8n-workflows has only 9
 - ai-development/claude-code has 33 insights but related ai-development/system-building has only 10
 - ai-development/claude-code has 33 insights but related ai-development/ai-automation has only 8
-- startups/growth-marketing has 29 insights but related ai-development/ai-automation has only 8
-- startups/growth-marketing has 29 insights but related video-production/content-strategy has only 3
-- startups/growth-marketing has 29 insights but related startups/ideation has only 9
+- startups/growth-marketing has 28 insights but related ai-development/ai-automation has only 8
+- startups/growth-marketing has 28 insights but related video-production/content-strategy has only 3
+- startups/growth-marketing has 28 insights but related startups/ideation has only 9
 
 ## TRANSFER
 None.

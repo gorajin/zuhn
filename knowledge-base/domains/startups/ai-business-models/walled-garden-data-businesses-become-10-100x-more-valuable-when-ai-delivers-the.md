@@ -49,13 +49,13 @@ resolutions:
     that previously only supported a $2/month subscription.
 related:
   - INS-260320-901C
-  - INS-260320-F751
   - INS-260321-807B
   - INS-260321-2BF9
   - INS-260321-822B
   - INS-260321-9AB5
   - INS-260322-7282
   - INS-260320-71C1
+  - INS-260322-BBED
   - INS-260322-FCFC
 ---
 VLex, a 26-year-old Spanish legal data company, quintupled revenue after adding AI because it could deliver finished legal memos instead of raw database access. Open Evidence licenses exclusive medical journal data and delivers evidence-based answers doctors actually use — two-thirds of American doctors use it weekly. The key insight is that proprietary data sources, even when the underlying data is technically free or public, become enormously more valuable when AI converts raw material into finished products.

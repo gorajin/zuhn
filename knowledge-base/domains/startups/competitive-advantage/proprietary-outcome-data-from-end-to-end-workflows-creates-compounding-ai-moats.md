@@ -47,10 +47,10 @@ resolutions:
     through it, and use that data to deliver insights no competitor can match.
 related:
   - INS-260322-837A
+  - INS-260322-3C3D
   - INS-260321-2D72
   - INS-260321-B7CB
   - INS-260320-9935
-  - INS-260321-21BE
 ---
 The deepest source of defensibility in AI applications comes from owning the end-to-end workflow and capturing outcome data that isn't publicly available. Eve's strategy in plaintiff law exemplifies this: by processing cases from intake through resolution, they accumulate outcome data (case characteristics mapped to settlement values) that no foundation model can train on because it simply doesn't exist on the public internet.
 

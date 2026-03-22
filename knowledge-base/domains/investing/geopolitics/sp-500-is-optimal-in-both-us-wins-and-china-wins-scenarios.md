@@ -46,7 +46,7 @@ related:
   - INS-260321-3808
   - INS-260321-2241
   - INS-260321-822B
-  - PRI-260321-05B5
+  - INS-260322-BBED
   - INS-260321-1992
 ---
 The trader's core thesis: US-based investing has positive expected value in both outcomes. If the US maintains hegemony, you get the historical 8-10%. If China supplants the US, China is pragmatic and business-oriented — they'd want a soft landing for the US consumption market (precedent: UK's transition to US hegemony, the FTSE still returns ~5%). Chinese stock markets are unreliable for foreign investors because the CCP can unilaterally intervene (Jack Ma/Ant Financial), dilute shares, or create state champions. US multinationals already give international exposure (Starbucks, McDonald's, Coca-Cola are in every country). International diversification funds historically underperform S&P 500 because money flows upward to the most powerful country.

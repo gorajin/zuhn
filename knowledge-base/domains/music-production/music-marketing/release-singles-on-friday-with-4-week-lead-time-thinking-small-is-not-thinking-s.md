@@ -42,9 +42,9 @@ resolutions:
     small. Exception: if you have zero followers and zero data, it genuinely
     doesn't matter what day you release.
 related:
-  - INS-260320-39A3
   - INS-260320-20F2
   - INS-260321-1992
+  - INS-260322-3646
   - INS-260321-C902
   - INS-260321-38EC
   - PRI-260321-558C

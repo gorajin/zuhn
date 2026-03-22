@@ -53,7 +53,6 @@ resolutions:
     when you leave the room.
 related:
   - INS-260320-B99F
-  - INS-260320-C56D
   - INS-260321-10FF
   - INS-260321-9A03
   - PRI-260321-7307

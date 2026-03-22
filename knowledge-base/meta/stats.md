@@ -2,7 +2,7 @@
 
 > Generated: 2026-03-22
 
-- **Total insights:** 253
+- **Total insights:** 260
 - **Domains:** 7
-- **Topics:** 34
-- **Tags:** 774
+- **Topics:** 40
+- **Tags:** 786

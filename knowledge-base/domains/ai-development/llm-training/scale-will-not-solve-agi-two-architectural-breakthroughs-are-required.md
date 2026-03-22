@@ -47,7 +47,7 @@ related:
   - INS-260321-D959
   - INS-260321-E59A
   - INS-260321-B014
+  - INS-260322-54F3
   - INS-260321-B7CB
-  - INS-260321-7D7C
 ---
 The common misconception that scaling models larger will eventually produce AGI is wrong according to Misra's mathematical framework. Two fundamental capabilities are missing from current architectures. First, plasticity: human brains remain plastic throughout life, continuously updating synaptic weights, while LLM weights freeze after training and forget everything between conversations. Continual learning must balance learning new things against catastrophic forgetting — a hard unsolved problem. Second, causal modeling: when a pen is thrown at you, your brain simulates the trajectory rather than computing Bayesian probabilities. LLMs do association (Judea Pearl's first level of causal hierarchy) but cannot do intervention or counterfactual reasoning (levels two and three). Both breakthroughs require new architectures, not more parameters.

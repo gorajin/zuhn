@@ -42,10 +42,10 @@ resolutions:
     percentage points of all humans alive. The key: make content better than
     what's already out there, which takes years of skill development.
 related:
+  - INS-260322-4090
   - PRI-260321-AD44
   - INS-260321-69E1
   - INS-260320-47FA
   - INS-260321-7D7C
-  - INS-260321-4280
 ---
 MrBeast's core strategy since age 11: study what makes people want to watch a piece of content regardless of where they are in the world. Burying yourself alive, tipping a delivery driver $1M — these are universal spectacles that transcend cultural barriers. An average MrBeast video gets 250-300M views — meaning 1 in 33 random people on earth has seen it. This was impossible before global social platforms. YouTube now has ~2.5 billion monthly users (a third of humanity), so the largest creators reach literal percentage points of all humans alive. The key: make content better than what's already out there, which takes years of skill development.
