@@ -57,7 +57,7 @@ related:
   - INS-260322-03DD
   - INS-260322-C472
   - INS-260322-EDA4
-  - INS-260321-E5C5
+  - INS-260322-0E41
 ---
 The existing VCs couldn't conceive of the platform model because they had never been entrepreneurs — they had never been customers of their own product. They looked at VC from the provider side and saw a perfectly functioning business (the sushi boat analogy), while entrepreneurs experienced a fundamentally broken relationship with information asymmetry and lack of support.
 

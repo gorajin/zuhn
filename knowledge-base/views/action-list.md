@@ -1,5 +1,5 @@
 # Action List
-Generated on 2026-03-22 | 157 actionable insights
+Generated on 2026-03-22 | 160 actionable insights
 
 ## ai-development/adoption
 - [INS-260322-3159] Just as enterprise SaaS companies unbundled Oracle and Excel into 400-500 dedicated apps per company, AI software companies will unbundle ChatGPT by wrapping AI capabilities into specific industry workflows.
@@ -57,6 +57,9 @@ Generated on 2026-03-22 | 157 actionable insights
 
 ## ai-development/context-management
 - [INS-260320-E6DD] Structure knowledge as a relational database (entities + relationships), not text blobs. Every Claude instance reads/writes the same structured knowledge base.
+
+## ai-development/enterprise-adoption
+- [INS-260322-3D21] AI adoption in enterprises won't happen top-down — there's someone at every big company who figured out how to do 8 hours of work in 1 minute; the worst thing that can happen is they keep it a secret.
 
 ## ai-development/enterprise-ai
 - [INS-260322-750D] AI voice agents in loan servicing and collections can speak 50 languages, maintain perfect UDAP compliance, and deliver better customer experiences — reorienting fintech TAM from IT budgets to labor costs.
@@ -169,6 +172,9 @@ Generated on 2026-03-22 | 157 actionable insights
 ## startups/content-strategy
 - [INS-260322-7B71] Timeless how-to content (like 'Good Product Manager Bad Product Manager') compounds in value while opinion pieces about market bubbles are forgotten quickly.
 
+## startups/crisis-management
+- [INS-260322-E791] During a crisis, the false but simple narrative ('Robinhood colluded with hedge funds') will always defeat the true but complex explanation (clearing mechanics, Dodd-Frank, collateral requirements).
+
 ## startups/delegation
 - [INS-260322-DAFB] Entry-level delegation assigns tasks; advanced delegation exports your internal preferences and decision criteria as repeatable algorithms.
 - [INS-260322-AD9B] It IS faster to do it yourself the first time — but accepting that upfront cost is the only path to compounding leverage.
@@ -218,6 +224,9 @@ Generated on 2026-03-22 | 157 actionable insights
 
 ## startups/market-strategy
 - [INS-260322-F868] Truemed built infrastructure that lets people use existing tax-free HSA/FSA dollars on lifestyle interventions, redirecting billions toward prevention without requiring new legislation or payer buy-in.
+
+## startups/pricing-strategy
+- [INS-260322-0247] Robinhood's zero-commission bet gave them 3-4 years before incumbents could respond because free is a categorically different value proposition than merely cheaper.
 
 ## startups/time-management
 - [INS-260322-EE1B] There's a power law in everything — identify the single most important thing each period and go all-in before distributing effort across secondary goals.

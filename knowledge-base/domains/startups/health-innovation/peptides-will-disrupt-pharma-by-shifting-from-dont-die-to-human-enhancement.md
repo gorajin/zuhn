@@ -45,7 +45,6 @@ resolutions:
     toward cheap, unpatentable compounds — a threat the pharmaceutical industry
     has strong incentives to suppress.
 related:
-  - INS-260321-1A03
   - INS-260321-9AB5
   - INS-260321-4B38
   - INS-260321-08AC

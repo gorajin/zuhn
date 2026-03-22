@@ -6,6 +6,7 @@ None.
 
 ## DISCOVER
 - 7 insights form cluster across automation/content-creation, automation/n8n-workflows — shared tags: n8n
+- 2 insights form cluster across investing/geopolitics, startups/competitive-strategy — shared tags: none
 - 2 insights form cluster across investing/geopolitics, investing/ai-infrastructure — shared tags: capex, ai-infrastructure
 - 2 insights form cluster across investing/geopolitics, investing/ai-business-models — shared tags: none
 - 2 insights form cluster across startups/competitive-strategy, investing/ai-business-models — shared tags: none
@@ -22,12 +23,11 @@ None.
 - startups/growth-marketing has 28 insights but related video-production/content-strategy has only 3
 - startups/growth-marketing has 28 insights but related startups/ideation has only 9
 - startups/growth-marketing has 28 insights but related startups/ai-business-models has only 7
-- startups/growth-marketing has 28 insights but related startups/competitive-strategy has only 3
+- startups/growth-marketing has 28 insights but related startups/competitive-strategy has only 7
 - startups/growth-marketing has 28 insights but related investing/ai-business-models has only 3
-- startups/founder-mindset has 13 insights but related startups/competitive-strategy has only 3
-- ai-development/ai-market-dynamics has 19 insights but related startups/competitive-strategy has only 3
 - ai-development/ai-market-dynamics has 19 insights but related investing/ai-business-models has only 3
 - ai-development/ai-market-dynamics has 19 insights but related ai-development/adoption has only 3
+- ai-development/ai-market-dynamics has 19 insights but related ai-development/enterprise-adoption has only 5
 - investing/geopolitics has 17 insights but related investing/ai-infrastructure has only 2
 
 ## TRANSFER

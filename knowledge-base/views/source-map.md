@@ -29,10 +29,13 @@ Generated on 2026-03-22 | 67 sources
 | Inside Palantir: Building Software That Matters | Shyam Sankar on a16z | youtube | 5 | 2026-03-22 |
 | Inside the New Media Team with Marc Andreessen & Ben Horowitz | youtube | 5 | 2026-03-22 |
 | Marc Andreessen's 2026 Outlook: AI Timelines, US vs. China, and The Price of AI | youtube | 5 | 2026-03-22 |
+| Robinhood CEO: Making Everyone An Owner | youtube | 5 | 2026-03-22 |
+| The $700 Billion AI Productivity Problem No One's Talking About | youtube | 5 | 2026-03-22 |
 | The AI Opportunity that goes beyond Models | youtube | 5 | 2026-03-22 |
 | The Biggest Bottlenecks For AI: Energy & Cooling | youtube | 5 | 2026-03-22 |
 | The Unicorn Founder Who Delegated Everything. | youtube | 5 | 2026-03-22 |
 | Where does consumer AI stand at the end of 2025? | youtube | 5 | 2026-03-22 |
+| Why AI Moats Still Matter (And How They've Changed) | youtube | 5 | 2026-03-22 |
 | Why Scale Will Not Solve AGI | Vishal Misra - The a16z Show | youtube | 5 | 2026-03-22 |
 | 200+ pages of Hugging Face secrets on how to train an LLM | reddit | 5 | 2026-03-20 |
 | Debugging as architecture insight: dissecting a VLA | blog | 4 | 2026-03-22 |
@@ -42,6 +45,7 @@ Generated on 2026-03-22 | 67 sources
 | AI Is Coming For These 3 Industries In 2026 (a16z Big Ideas) | youtube | 4 | 2026-03-22 |
 | Andrew Huberman: Peptides, Sleep Tech, and the End of Obesity | youtube | 4 | 2026-03-22 |
 | Ben Horowitz on Investing in AI: AI Bubbles, Economic Impact, and VC Acceleration | youtube | 4 | 2026-03-22 |
+| Emmett Shear on Building AI That Actually Cares: Beyond Control and Steering | youtube | 4 | 2026-03-22 |
 | How AI Agents Will Transform in 2026 (a16z Big Ideas) | youtube | 4 | 2026-03-22 |
 | How To Release A Single In 2026 (The Step-By-Step Plan) | youtube | 4 | 2026-03-22 |
 | “How We Can Eliminate Crime” | Ben Horowitz and Garrett Langley | youtube | 4 | 2026-03-22 |
@@ -65,8 +69,4 @@ Generated on 2026-03-22 | 67 sources
 | What is one thing that you do to keep your dog happy? | reddit | 2 | 2026-03-20 |
 | Sound Design Breakdown [and tutorial] | reddit | 2 | 2026-03-20 |
 | [Tutorial] All there is to know about syncing video and audio | reddit | 2 | 2026-03-20 |
-| Emmett Shear on Building AI That Actually Cares: Beyond Control and Steering | youtube | 0 | 2026-03-22 |
 | How OpenAI Builds for 800 Million Weekly Users: Model Specialization and Fine-Tuning | youtube | 0 | 2026-03-22 |
-| Robinhood CEO: Making Everyone An Owner | youtube | 0 | 2026-03-22 |
-| The $700 Billion AI Productivity Problem No One's Talking About | youtube | 0 | 2026-03-22 |
-| Why AI Moats Still Matter (And How They've Changed) | youtube | 0 | 2026-03-22 |

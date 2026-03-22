@@ -55,6 +55,7 @@ related:
   - INS-260322-5F87
   - INS-260322-B33E
   - INS-260322-0D87
+  - INS-260322-6088
 ---
 Ben Horowitz frames the crime problem as having only three real options: high crime (under-enforcement), harsh punishment (Singapore/El Salvador model), or intelligence-based deterrence. The third path uses technology — Flock cameras, drones, gunshot detection, AI orchestration — to make getting caught near-certain.
 

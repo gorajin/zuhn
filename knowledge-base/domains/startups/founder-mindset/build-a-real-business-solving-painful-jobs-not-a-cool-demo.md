@@ -47,10 +47,10 @@ related:
   - INS-260320-07A2
   - INS-260321-E5C5
   - INS-260321-3521
+  - INS-260322-0E41
   - INS-260322-9DDD
   - INS-260322-C472
   - INS-260321-E654
-  - INS-260322-1D52
   - INS-260321-E471
 ---
 Young identifies the core failure mode for AI founders: building a very cool demo that shows strong capabilities but doesn't solve a real painful job-to-be-done. The test: are there existing alternative solutions? Are humans doing this job manually, building internal tools, or cobbling together hacky workflows? If yes, you're replacing real pain. Second test: can you describe your product value in 10 words? If all the feedback is 'this is amazing, this is awesome' but nobody asks about pricing tiers or offers a credit card, you don't have product-market fit. The passion should be for problem-solving and building, not for a specific domain — you don't need passion for video clipping, you need passion for being a builder.

@@ -1,6 +1,6 @@
 # Domain: ai-development
 
-> 160 insights across 27 topics
+> 170 insights across 31 topics
 
 ## Topics
 
@@ -11,6 +11,7 @@
 | ai-automation | 8 | AI-enabled beats AI-replaced — keep the human touch in important parts, automate the repetitive. |
 | ai-capabilities | 12 | AI made idea generation almost free, just as the internet made communication almost free — the bottleneck shifted to verification, evaluation, and filtering signal from noise. |
 | ai-market-dynamics | 19 | China is stealing American AI models, removing all guardrails, and potentially deploying them against the US — creating an absurd scenario where America fights with one arm tied behind its back against its own technology. |
+| alignment | 3 | Treating alignment as a one-time problem to solve (like writing commandments) rather than an ongoing learning process will produce AI systems that are dangerous precisely because they follow rules without understanding. |
 | autonomous-labs | 1 | AI reasoning capabilities plus robot learning are converging to create autonomous labs that accelerate scientific discovery across life sciences, chemistry, and materials. |
 | capabilities | 1 | Math and formal reasoning are domains where RL-based AI training works especially well, making AI-driven proofs of major unsolved math problems plausible within 5 years. |
 | claude-code | 33 | Planning is king — always use planning mode before implementation; never let the builder start without plans. |
@@ -18,6 +19,7 @@
 | consumer-ai | 4 | Only 9% of consumers pay for more than one LLM assistant, and less than 10% of ChatGPT users even visit competitors — signaling winner-take-most dynamics in general AI. |
 | context-management | 2 | Structure knowledge as a relational database (entities + relationships), not text blobs. Every Claude instance reads/writes the same structured knowledge base. |
 | economics | 1 | AI labs are already profitable on current models — the bubble risk lies entirely in whether future capex on larger models will produce proportionally larger returns. |
+| enterprise-adoption | 5 | AI adoption in enterprises won't happen top-down — there's someone at every big company who figured out how to do 8 hours of work in 1 minute; the worst thing that can happen is they keep it a secret. |
 | enterprise-ai | 1 | AI voice agents in loan servicing and collections can speak 50 languages, maintain perfect UDAP compliance, and deliver better customer experiences — reorienting fintech TAM from IT budgets to labor costs. |
 | forecasting | 1 | AI automating AI R&D won't produce runaway self-improvement because research requires proportional scaling of experimental compute, not just more researchers. |
 | future-of-work | 15 | Anthropic's own studies show AI deskilling in coding is real, but depends on HOW you use models — some usage patterns cause skill degradation, some don't. |
@@ -25,6 +27,8 @@
 | labor-impact | 1 | The total percentage of jobs automated matters less than whether displacement happens gradually (manageable) or in a 6-month shock (potentially destabilizing). |
 | llm-costs | 8 | OpenRouter offers 50-1000 free requests/day on certain models — not trial credits, actually free forever. |
 | llm-training | 10 | Run systematic ablation experiments on architecture, data mixtures, and hyperparameters at small scale before committing to a full training run -- this consumes ~37% of total compute but prevents costly mistakes. |
+| philosophy | 1 | The question of whether AI can be a moral patient is empirically testable through prolonged interaction — holding an unfalsifiable position that silicon can never be a being is faith, not reasoning. |
+| platform-dynamics | 1 | While staying on the model frontier matters, the real defensibility in vertical AI comes from deep application context — understanding specific workflows, regulations, and customer needs that no foundation model company will pursue. |
 | platform-shifts | 2 | Unlike previous platform shifts where physical limits were known (modem speeds, battery life, fiber deployment), AI's theoretical limits are unknown because we don't fully understand why it works or what human intelligence is. |
 | policy | 1 | a16z's AI policy framework: don't regulate mathematical models themselves, regulate their applications — and prevent 50 states from creating incompatible AI laws that would make innovation impossible for startups. |
 | product-design | 2 | As agents become intermediaries between users and systems, optimization shifts from visual design to machine-readable structure and insight density. |

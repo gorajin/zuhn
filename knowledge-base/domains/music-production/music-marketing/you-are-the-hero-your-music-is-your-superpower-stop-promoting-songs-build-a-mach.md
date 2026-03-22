@@ -44,7 +44,6 @@ resolutions:
 related:
   - INS-260320-105E
   - INS-260320-5A6F
-  - INS-260321-2F43
   - INS-260321-099E
   - INS-260321-96CE
   - INS-260321-ADB4
@@ -52,5 +51,6 @@ related:
   - INS-260321-13EA
   - INS-260321-E529
   - INS-260321-F0DF
+  - INS-260321-7C97
 ---
 Damian Keyes argues the fundamental reframe for 2026: music was attached to CDs, vinyl, car stereos, brands — now it's attached to you. You are the hero and your music is your superpower. Stop 'teasing songs' like Taylor Swift (you don't have her audience). Instead, use songs to get attention on YOU. This means building a routined, planned content machine — not a two-week ramp-up followed by months of silence. Think of social media like the gym: going 15 times in 5 days then stopping for 3 months doesn't work. Your visual identity matters as much as your audio identity. Behind-the-scenes content fails for unknown artists because viewers have no context — 'Who are you? I just watched a dog fart on another dog.'

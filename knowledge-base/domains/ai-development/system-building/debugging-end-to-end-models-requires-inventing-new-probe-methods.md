@@ -43,8 +43,8 @@ resolutions:
 related:
   - INS-260322-68FE
   - INS-260321-9906
+  - INS-260322-4757
   - PRI-260320-6847
   - INS-260321-D959
-  - INS-260321-E4EB
 ---
 The author develops four debugging techniques for opaque end-to-end models: (1) Visualize attention on tokens to check if vision looks at the right object. (2) Camera ablations — move or remove cameras to test if vision does object detection or spatial template matching. (3) Counterfactual prompting — try semantically equivalent prompts ('red block' vs 'red cube') to test robustness. (4) Primitive action prompts — test if 'don't move' produces motion to reveal training distribution bias. These surface-level probes can't fully decompose failures ('is this vision or control?') but they identify structural behaviors. This is a transferable methodology for debugging any end-to-end system.

@@ -1,6 +1,6 @@
 # Domain: startups
 
-> 98 insights across 23 topics
+> 105 insights across 26 topics
 
 ## Topics
 
@@ -12,9 +12,11 @@
 | business-models | 2 | Companies where AI reinforces the business model by driving revenue — not just cutting costs — see dramatically stronger market pull and adoption. |
 | co-founder-dynamics | 1 | ElevenLabs' co-founders Mati and Peter are childhood best friends with complementary skills — one product-focused, one research-focused — and their deep mutual trust enables the company to move at extreme speed. |
 | competitive-advantage | 1 | Owning the full workflow from intake to outcome generates proprietary data that public models can't replicate — creating a compounding competitive advantage. |
-| competitive-strategy | 3 | a16z's platform model worked because its founders had been VC customers (entrepreneurs), giving them a perspective that career VCs structurally couldn't have. |
+| competitive-strategy | 7 | Traditional moats (system of record, network effects, workflow ownership) still apply in AI — but what changed is that even 'features' can now charge $20K/year because they replace labor, not just software seats. |
 | content-strategy | 1 | Timeless how-to content (like 'Good Product Manager Bad Product Manager') compounds in value while opinion pieces about market bubbles are forgotten quickly. |
+| crisis-management | 1 | During a crisis, the false but simple narrative ('Robinhood colluded with hedge funds') will always defeat the true but complex explanation (clearing mechanics, Dodd-Frank, collateral requirements). |
 | delegation | 3 | Entry-level delegation assigns tasks; advanced delegation exports your internal preferences and decision criteria as repeatable algorithms. |
+| disruption | 1 | Robinhood succeeded by combining three bets that were each individually contrarian (zero commissions, mobile-first, populist brand) into a single offering no incumbent could replicate quickly. |
 | founder-mindset | 13 | Fresh graduates (23-25) who grew up vibe coding think differently and generate the best new ideas at AI companies. |
 | founder-psychology | 1 | People who are naturally quirky and nonconformist constantly generate strange ideas on their own, while those skilled at reading consensus find it hardest to produce unique ideas. |
 | govtech | 3 | Technology-driven intelligence (cameras, drones, license plate readers, AI orchestration) creates a third path between harsh punishment and under-enforcement by making crime detection near-certain, which deters crime without mass incarceration. |
@@ -26,6 +28,7 @@
 | market-strategy | 1 | Truemed built infrastructure that lets people use existing tax-free HSA/FSA dollars on lifestyle interventions, redirecting billions toward prevention without requiring new legislation or payer buy-in. |
 | organizational-design | 1 | ElevenLabs removed all titles, which simultaneously filtered out ego-driven candidates and eliminated implicit bias in idea-sharing and collaboration. |
 | personal-brand | 1 | You can't market a company without a character, but the character must be real and sustainable — manufactured personas always collapse over time. |
+| pricing-strategy | 1 | Robinhood's zero-commission bet gave them 3-4 years before incumbents could respond because free is a categorically different value proposition than merely cheaper. |
 | product-development | 1 | ElevenLabs' core advantage comes from product teams talking directly to research teams — product provides real user feedback, research iterates immediately, and models get tested directly on the product. |
 | scaling | 1 | Andy Grove's lesson to Ben Horowitz: if you lead an industry, its growth depends on you — you must expand the entire market, not just compete for existing share. |
 | time-management | 1 | There's a power law in everything — identify the single most important thing each period and go all-in before distributing effort across secondary goals. |

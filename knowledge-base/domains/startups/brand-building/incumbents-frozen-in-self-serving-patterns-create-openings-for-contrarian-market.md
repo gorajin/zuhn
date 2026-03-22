@@ -53,6 +53,7 @@ related:
   - INS-260322-FCFC
   - PRI-260321-558C
   - INS-260321-E654
+  - INS-260322-2647
 ---
 a16z entered a VC industry where incumbents treated fundraising like a 'sushi boat' — sitting and waiting for deals to come to them — and treated LPs 'like mushrooms' (put them in a box and ignore them for two years). The existing VCs saw marketing as unseemly and beneath them. By breaking this omerta and aggressively pursuing press, writing substantive blog posts, and putting Marc Andreessen on the cover of Fortune, a16z created a permanent structural shift in how VC firms compete for deals.
 

@@ -43,12 +43,12 @@ resolutions:
     extend to any raw data domain, suggesting audio-native AI may unlock
     capabilities that text-native AI cannot reach.
 related:
-  - INS-260320-9118
   - INS-260321-AACC
   - INS-260322-B09B
   - INS-260321-7C97
   - INS-260321-CCD9
   - INS-260321-3312
+  - INS-260322-2A3A
 ---
 ElevenLabs' thesis is that voice is the only AI modality that can genuinely make humans feel something. Text can convey a poem or story, but it lacks the visceral emotional quality of hearing a whispered ASMR voice or a deep cinematic narration. This emotional bandwidth makes voice uniquely powerful as an interface.
 

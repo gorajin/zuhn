@@ -48,9 +48,9 @@ resolutions:
 related:
   - INS-260321-3808
   - INS-260321-13C6
+  - INS-260322-0E41
   - PRI-260321-2DF0
   - INS-260322-88C3
-  - PRI-260321-0A4D
 ---
 The conventional explanation for defense industry decline is that consolidation killed competition. Sankar argues the real damage was subtler: consolidation bred conformity. The 'Last Supper' drove financialization — these companies stopped thinking about growth and started thinking about dividends, buybacks, and cash flow. The heretics were expelled. The founders left for tech. In 1989, only 6% of major weapon system spending went to defense-only companies. By 2025, it's 86%.
 

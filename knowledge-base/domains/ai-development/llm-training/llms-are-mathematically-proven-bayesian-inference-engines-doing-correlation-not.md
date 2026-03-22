@@ -43,7 +43,6 @@ resolutions:
     learning cannot cross from correlation to the causal, compressed-program
     world that true intelligence requires.
 related:
-  - INS-260320-10E8
   - INS-260321-C4CD
   - INS-260322-474A
   - INS-260321-8C35

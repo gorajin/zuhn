@@ -50,14 +50,13 @@ resolutions:
 related:
   - INS-260321-807B
   - INS-260321-E5C5
-  - INS-260321-5C24
-  - INS-260321-3521
   - INS-260321-3660
   - INS-260321-E654
-  - INS-260321-1749
   - INS-260322-90E7
   - INS-260322-C472
   - INS-260322-88C3
+  - INS-260322-1D52
+  - INS-260322-642F
 ---
 Mercury never stole a customer from Silicon Valley Bank until SVB failed. The canonical AI startup strategy is greenfield over brownfield: target new companies choosing their first system, or existing companies hitting inflection points (like outgrowing QuickBooks and needing multi-entity ERP). Trying to sell 'AI Mailchimp' to existing Mailchimp customers is extremely hard.
 
