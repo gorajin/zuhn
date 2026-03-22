@@ -51,8 +51,8 @@ related:
   - INS-260322-642F
   - INS-260322-091C
   - INS-260322-BC97
+  - INS-260322-5D22
   - INS-260322-EDA4
-  - INS-260321-4E98
 ---
 David Goldberg traces a cultural arc at large financial institutions: Goldman Sachs once built its own email client (Orbit) rather than use Outlook. Then came a period of trying to become fintech companies themselves (Marcus). After a humbling, they became more open to external technology.
 

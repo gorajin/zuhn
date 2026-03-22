@@ -1,9 +1,12 @@
 # Action List
-Generated on 2026-03-22 | 202 actionable insights
+Generated on 2026-03-22 | 217 actionable insights
 
 ## ai-development/adoption
 - [INS-260322-3159] Just as enterprise SaaS companies unbundled Oracle and Excel into 400-500 dedicated apps per company, AI software companies will unbundle ChatGPT by wrapping AI capabilities into specific industry workflows.
 - [INS-260322-F891] AI only saves time when verification is cheaper than doing the task manually — generating 200 marketing images to pick 10 works, but AI copying 200 numbers from PDFs that all need checking doesn't.
+
+## ai-development/adoption-patterns
+- [INS-260322-55D8] ChatGPT has 800-900M weekly active users, but only 5% pay — five times more people have accounts than can find a weekly use case.
 
 ## ai-development/agent-patterns
 - [INS-260320-1B10] Have Claude review its own code via a specialized review agent — catches critical errors, missing implementations, and security flaws.
@@ -28,6 +31,10 @@ Generated on 2026-03-22 | 202 actionable insights
 - [INS-260321-FD14] Vibe coding won't replace enterprise SaaS because of comparative advantage and hidden edge cases — but it dramatically increases platform extensibility by letting non-developers build custom applications on top of existing systems of record.
 - [INS-260321-0CCD] A portfolio founder assigned two AI-native engineers with unlimited budgets on Claude Code, Codex, and Cursor and saw 10-20x faster progress — concluding his entire product and engineering organization needs restructuring within 12 months.
 - [INS-260322-642F] For the first time, banks and insurers face more risk from keeping decades-old mainframes than from migrating to AI-native platforms — unlocking massive market opportunity.
+
+## ai-development/career-strategy
+- [INS-260322-2B2D] Learning English to high fluency gives access to global opportunity systems, breaking dependence on any single country's constrained job market.
+- [INS-260322-116B] When AI can perform any technical task, employers hire for trustworthiness and genuine care — the qualities visible in someone's eyes, not their resume.
 
 ## ai-development/claude-code
 - [INS-260320-93E1] Planning is king — always use planning mode before implementation; never let the builder start without plans.
@@ -80,6 +87,9 @@ Generated on 2026-03-22 | 202 actionable insights
 - [INS-260321-4178] AI doesn't just automate procedures — it automates judgment calls. The person who deeply understands insurance underwriting and can talk an AI into building a tool is now more dangerous than the engineer who can build anything but doesn't know what to build.
 - [INS-260321-1A0B] The biggest risk of AI adoption isn't that it fails — it's that it works so well that humans stop learning. Design AI systems where a key priority is the learning and improvement of the humans in the loop.
 - [INS-260321-99C0] Share every major decision with AI daily, then monthly ask 'what was my biggest mistake in the past 6 months?' — accumulated context makes AI an increasingly powerful strategic advisor.
+
+## ai-development/human-ai-relationship
+- [INS-260322-83D4] The highest-value use of AI is building richer internal world models for better decision-making, not outsourcing output production.
 
 ## ai-development/llm-costs
 - [INS-260320-9937] OpenRouter offers 50-1000 free requests/day on certain models — not trial credits, actually free forever.
@@ -220,6 +230,9 @@ Generated on 2026-03-22 | 202 actionable insights
 ## startups/crisis-management
 - [INS-260322-E791] During a crisis, the false but simple narrative ('Robinhood colluded with hedge funds') will always defeat the true but complex explanation (clearing mechanics, Dodd-Frank, collateral requirements).
 
+## startups/customer-discovery
+- [INS-260322-185B] You cannot discover real customer pain points remotely — physical immersion in your users' environment reveals needs that surveys and interviews miss.
+
 ## startups/delegation
 - [INS-260322-DAFB] Entry-level delegation assigns tasks; advanced delegation exports your internal preferences and decision criteria as repeatable algorithms.
 - [INS-260322-AD9B] It IS faster to do it yourself the first time — but accepting that upfront cost is the only path to compounding leverage.
@@ -237,6 +250,11 @@ Generated on 2026-03-22 | 202 actionable insights
 - [INS-260322-AF17] Founders resist comping themselves to public companies because it feels like comparing yourself to astronauts — but the winners (DoorDash, Facebook) were always benchmarking against the biggest players, not other startups.
 - [INS-260322-B3D0] Pre-PMF advice (just ship, talk to users, no strategy) becomes actively harmful post-PMF — you need strategic bets like Facebook opening beyond .edu or DoorDash expanding beyond food.
 - [INS-260322-A61A] Stan Lee tested Spider-Man in a dying magazine's last issue because nobody cared what went in it — low-stakes channels are the perfect testing ground for ideas that gatekeepers rejected.
+- [INS-260322-1A20] In high-uncertainty environments, executing quickly to gather real information beats prolonged analysis.
+
+## startups/fundraising
+- [INS-260322-A02C] At pre-seed and seed stage, investors and early customers are betting on the founder's story and character, not the product.
+- [INS-260322-0C91] Microsoft, Dell, Yahoo, eBay, Instagram, and Midjourney were all capital-efficient or fully bootstrapped — fundraising should only happen when capital creates a genuine acceleration advantage.
 
 ## startups/growth-marketing
 - [INS-260320-A1D3] Keep your content creator team to 5-10 people max, meet with each 1:1, and share what converts vs what doesn't — a small elite team compounds while a large team dilutes quality.
@@ -286,6 +304,10 @@ Generated on 2026-03-22 | 202 actionable insights
 
 ## startups/leadership
 - [INS-260322-047D] Setting the next milestone (transaction volume target, operating profit threshold) instead of fixating on the ultimate exit/IPO prevents the marathon-with-no-end-in-sight feeling that exhausts founders.
+- [INS-260322-AB55] Leaders who stall on giving feedback to gather 'objective evidence' let emotional resentment compound — there is no such thing as evidence everyone will accept.
+- [INS-260322-DAF2] In rapidly changing environments, people who resist change create a hidden 'persuasion cost' that drains the leader's energy every time direction shifts.
+- [INS-260322-2ABB] The misconception that leaders must be the most technically knowledgeable person on the team leads to hiring weaker people, which lowers talent density and increases the leader's workload.
+- [INS-260322-2FAD] Novice leaders often derive identity from being busy and indispensable, which prevents team members from growing and caps the team's overall capability.
 
 ## startups/market-strategy
 - [INS-260322-F868] Truemed built infrastructure that lets people use existing tax-free HSA/FSA dollars on lifestyle interventions, redirecting billions toward prevention without requiring new legislation or payer buy-in.
@@ -296,6 +318,9 @@ Generated on 2026-03-22 | 202 actionable insights
 - [INS-260322-98AB] Offer lifetime free access at launch to generate initial downloads and App Store reviews, then turn on paid ads only after you have social proof and keyword rankings.
 - [INS-260322-1435] New TikTok Ads accounts get matched spending credits (spend $200, get $200 free) plus recurring coupons, effectively halving your early ad costs.
 
+## startups/networks
+- [INS-260322-8F3F] Tight-knit groups of early employees at breakout companies go on to found and lead the next generation of billion-dollar companies, creating collaborative networks that compound over decades.
+
 ## startups/pricing-strategy
 - [INS-260322-0247] Robinhood's zero-commission bet gave them 3-4 years before incumbents could respond because free is a categorically different value proposition than merely cheaper.
 
@@ -305,8 +330,12 @@ Generated on 2026-03-22 | 202 actionable insights
 ## startups/time-management
 - [INS-260322-EE1B] There's a power law in everything — identify the single most important thing each period and go all-in before distributing effort across secondary goals.
 
+## startups/timing
+- [INS-260322-3E59] The 'why now' question — what has changed that makes this company relevant today when it couldn't exist before — separates viable startups from ideas that are just 'good but early.'
+
 ## startups/validation
 - [INS-260322-2155] Selling frozen dumplings below cost on a recipe-sharing social platform proved market demand existed before investing in infrastructure — the pre-prototype validates the hypothesis, not the product.
+- [INS-260322-EF20] Early-stage founders should paint a picture of how the customer's life changes with the product, not enumerate features.
 
 ## video-production/audience-engagement
 - [INS-260322-81CD] Frame your content around a public if-then challenge ('If I get X followers, I'll do Y') to create narrative tension that keeps viewers coming back.

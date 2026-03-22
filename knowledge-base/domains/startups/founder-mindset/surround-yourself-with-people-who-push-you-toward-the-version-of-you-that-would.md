@@ -42,8 +42,8 @@ resolutions:
 related:
   - INS-260322-5831
   - INS-260320-DDD9
+  - INS-260322-D6B8
   - INS-260321-BFA3
   - INS-260321-9A03
-  - INS-260322-F128
 ---
 MrBeast's top advice for aspiring creators: start with who you surround yourself with. If your closest friends don't care about social media or being successful in your chosen field, your probability of succeeding is definitively lower. Find people who push you to be the version of yourself that would actually be successful. Second: find something you deeply enjoy doing because YouTuber is now the #1 most coveted job in developed societies. With tens of millions of people competing, it took MrBeast over a decade and iShowSpeed years — if the thought of doing it for 10 years without anyone watching makes you want to quit, it's probably not for you.

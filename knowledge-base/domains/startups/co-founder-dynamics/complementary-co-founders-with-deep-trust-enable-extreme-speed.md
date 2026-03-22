@@ -49,8 +49,9 @@ related:
   - INS-260321-E5C5
   - INS-260321-C0A4
   - INS-260321-0CCD
+  - INS-260322-8F3F
   - INS-260321-33FC
-  - INS-260321-9A03
+  - INS-260322-92D7
 ---
 Mati and Peter, ElevenLabs' co-founders, are childhood best friends from Poland with a 'yin and yang' dynamic. Peter is described as a research genius (the second-smartest person someone knows is 'significantly less smart'), while Mati is the product and operations counterpart. Their deep pre-existing trust removes the coordination overhead that slows most founding teams.
 

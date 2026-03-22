@@ -1,0 +1,1000 @@
+## Introduction to Elad Gill (0:00–1:19)
+I'm Allah Gell. I spent the last 20
+years in Silicon Valley where I've
+worked as a operator running different
+companies, starting companies and as an
+investor. And I first ran a company that
+had about 120 people, agrew to 150, and
+then it shrink to 13 people in five
+rounds of layoffs. So I got laid off in
+the third round as a it was a telecom
+equipment company that was backed by
+Sequoia and Matrix. After that, I ended
+up joining Google and then left to start
+my first company, which is a data
+infrastructure company, which Twitterbot
+back in 2009. At the time that Twitter
+bought my company, Twitter was about 90
+people and I helped scale it to 1500
+people over two and a half years. I
+started off running different product
+areas like search, which again was very
+AIcentric or geo and then moved over to
+effectively become a company fixer. As
+an investor, I backed about 40 companies
+worth a billion dollars or more each 30
+something at the seed or series A. So
+that's things like Airbnb, Air Table,
+Coinbase, Figma, Gusto, Instacart,
+Stripe, Square, uh Dior, Rippling,
+notion, and others. And then I also
+started investing in generative AI quite
+early in part because I've been doing AI
+and machine learning for so long. And so
+I was an early investor in companies
+like Perplexity, Harvey, Character,
+Mistral, Pika, and others.
+## Key Lessons Learned in Silicon Valley Over 20 Years (1:19–11:49)
+Yeah, I moved out uh for tech. I got my
+PhD at MIT. Before that, I'd studied
+mathematics and biology. I moved out to
+Silicon Valley because I thought it was
+the best way to potentially have a
+long-term impact on humanity. And so, I
+tend to be very technoptimistic. I care
+about doing things that are useful. And
+so, the reason I got a PhD, for example,
+was I thought initially that I'd be an
+academic and that'd really be focused on
+human disease and computational
+understanding of disease and other
+things like that. I quickly realized or
+felt that one any one individual in the
+field of biology could have that big of
+an impact. I'd already done a background
+in mathematics for undergrad and had
+already done some CS related things and
+so moved out to Silicon Valley to work
+on companies with the hope that I could
+do something useful uh through the
+context of technology and company
+formation. Uh Google in 2004 was growing
+extremely fast. So when I joined it was
+about 1500 or so people. It grew to
+15,000 or so over 3 years, 3 and a half
+years. And so the company was doubling
+every I don't know 6 to 12 months. And
+so they added 13,000 people in 3 years,
+which is amazing. And so it's very
+chaotic and I think in a good way, but
+also it's quite chaotic. Every 6 months
+or so there'd be a big reordal
+structure because it was growing so fast
+that if you had 1,500 and then 3,000 and
+then 6,000 and then 12,000 people, it
+was a different organization every year.
+And so that needed a different org
+structure. And so suddenly the person
+that was working for you became your
+boss's boss and they'd switch divisions
+
+and things would change so rapidly. And
+when I joined, uh, Larry Page had just
+gotten rid of all the middle managers.
+And so, every director of engineering
+had somewhere between 50 and 100 people
+working for them, which meant that there
+was a big gray market for talent, right?
+A lot of managers didn't know what their
+employees were doing because they had
+too many employees working for them
+directly. So, they couldn't do enough
+one-on- ones, right? If you have 100
+people working for you, you can't see
+them that often uh individually. And so,
+a lot of people lost track of who was
+working for them, which meant there was
+an enormous gray market for talent. And
+so one of the ways I helped start up a
+lot of the mobile efforts is I convinced
+people to work on mobile when their
+managers didn't know about it. And so
+that was how a lot of the early mobile
+team got running. I think there's sort
+of personal lessons and then there's
+professional lessons and maybe they're
+the same thing. Um I think uh one big
+lesson was that networks in Silicon
+Valley really matter and small groups of
+people who are early at different
+companies go on to achieve amazing
+things together. And so the famous
+example of that may be PayPal. Peter
+Teal started Palunteer and um Founders
+
+Fund and all these things. You know,
+Keith Boy started multiple companies
+also became a prominent investor. Max
+Lupchin started a firm. Uh Elon Musk of
+course went and did so many things uh
+between Tesla and SpaceX and etc. Reed
+Hoffman started LinkedIn. You know,
+there's a small group of people that
+were the core of PayPal that did all
+these things. David Saxs is another
+person. Um similarly, the early Google
+network um both went off to start a lot
+of different companies. Pinterest and
+Instagram and a variety of other things
+like that. But they also ended up as
+very prominent operators in Silicon
+Valley. So a lot of the COOs in Silicon
+Valley for the next generation of
+companies came out of Google. That's
+Cheryl Samberg, the CEO of Facebook,
+Dennis Woodside, the CEO of Dropbox, the
+CEOs of Stripe and Gusto, and all sorts
+of companies came out of Google. And so
+you similarly see this sort of
+dispersion of talent, but everybody knew
+each other. And so it created a lot of
+collaboration across companies because
+of that. And so number one is just these
+small pockets of people who work
+together repeatedly really matter. That
+was one big takeaway. I think a second
+takeaway was really the power of
+ambition. The main reason Larry Paige or
+Sergey Brand would get upset with you or
+Eric Schnid, they kind of ran the
+company together, would get upset with
+you is either number one, you weren't
+thinking big enough. You'd go to a
+product review and you'd say, "Oh, I
+have this idea for this $und00 million
+market." And they say, "Why isn't it a
+$10 billion market?" Like literally,
+they would say that, you know, they'd
+always push you on thinking bigger. Um
+or why are you happy with a million
+people using it? Why isn't it a hundred
+million people using it? And then number
+two is um they pushed very hard on
+innovation and what makes the thing that
+you're working on very special or
+different. It really forced some very
+clear product thinking and some very big
+thinking and ambitious thinking. And
+then the third is when you're an
+employee at a hyper growth startup or
+company things will generally work out
+and you shouldn't worry too much about
+yourself. And if your boss suddenly if
+
+your um co-orker suddenly becomes your
+boss's boss and all these things shift a
+lot of people start to worry about
+themselves. What about my career and
+what will happen to me? but the
+company's growing and changing so
+rapidly that there's lots of opportunity
+and something that was sort of my third
+takeaway. I always wanted to start a
+company. Um and so going into Google I
+thought someday I'll start a company and
+I thought that was important to me. Um
+at the time there was no Y cominator and
+so you couldn't just apply and show up
+and get money and start working on
+things. and there weren't a lot of
+online resources and so it was really
+hard to actually find information about
+how to start a company and that there
+weren't very many angel funds operators
+with side funds operators investing the
+venture ecosystem was very constrained
+and so there's a small number of firms
+that you could raise money from and then
+there were some people pioneering you
+know angel funds or what were then
+called super angels so that was Naval
+Robicant and Mike Maples and Michael
+Daring and a few other folks but the
+reality was there just wasn't that much
+money either and so it was hard to get
+information it was hard to get money and
+it was hard to get going. Um, I think
+today it's actually dramatically easier
+to start a company and there's a lot
+more information about how to do it. But
+back then it was harder and so I went to
+Google in part because I thought it'd be
+a great place to transition, meet some
+people, um, and maybe start something
+with them. Yeah, we had two products.
+Uh, we started off with a with a site
+focused on location related information
+and then that morphed into an API
+focused on location information and uh,
+we ended up eventually building one of
+the really early developer centric
+products. So at the time there wasn't a
+lot happening in terms of um developer
+first products or productled blood
+growth or all these things that are very
+common now. Um there are very few
+APIcentric products like Stripe or
+things like that. The only one I think
+that really existed and was taking off
+when we started was Twilio. And so
+building like a product as an API was
+was kind of a radical concept in those
+days. And so we were one of the really
+early people building that. And
+basically we built the ability to for
+people to sort of uh interact with geod
+data in really rich ways. you know
+generate their own custom index and
+search over it annotate uh location
+related data sets and things like that.
+So initially when we started the company
+uh it was a team of ex Google people
+seven or eight employees we had all of
+them had worked at Google except for one
+person or something or maybe two people
+and I think in hindsight we should have
+had more diversity on the team early on
+in terms of just um where people came
+from because we we did things the Google
+way which meant we built very big
+infrastructure from day one that worked
+at enormous scale but if you don't have
+many users it doesn't matter the scale
+that you have. Um the positive of that
+is it made it very easy for us to do API
+related products and things like that
+because you know we designed it in a
+very modular way from day one. And the
+initial product that we had was more
+like a a website where you could go and
+interact with location related
+information and then it morphed into the
+API. And I think the mistake we had with
+the first product and all we really did
+was change how you display the
+information. Is it programmatic through
+an API or is it on a website? Right? Um
+I think the mistake that we made was we
+were building for the past in some
+sense. Right? We just come out of Google
+the SEO world. The second product that
+we had was more for the modern world of
+the future. People were moving towards
+using APIs to integrate against their
+products. People were moving towards
+mobile. People were moving towards
+location services. And so I think a lot
+of mistakes that people make when they
+come out of a big company is they build
+for the era that the company that
+they're at was built in versus building
+for the future. And you always want to
+build a year or two into the future in
+terms of what's coming because you you
+really want to take advantage of what is
+known as like a why now statement. What
+has changed that makes your company
+relevant today where it couldn't
+necessarily exist before? And so the why
+now could be technology, the why now
+could be regulatory, the why now could
+be something else. So an example of a
+technology why now is Uber. Before you
+had the iPhone and effectively free up
+some GPS, it costs a dollar every time
+you do a GPS lookup for a mobile
+carrier. And so when I was doing mobile
+at Google, all the carriers, you know,
+Verizon and uh SoftBank and everybody
+else felt that um nobody wanted to use
+location. And the reason was they
+charged a dollar per walk up, which
+meant if you were doing an Uber style
+app, the trace would cost you $30,
+right? Just to follow the car to your
+location. So, you couldn't do it. When
+the iPhone came out, it broke open that
+
+hole that the carriers had, uh, which
+suddenly meant things like Uber could
+exist. You could push a button on your
+phone and a stranger in a car would show
+up and you'd get in and feel okay with
+it and then you'd see the route. Uh, so
+that was a technology why now. Suddenly,
+you had new mobile services. a
+regulatory why now may be things like um
+
+somesara really grew on the backs of
+regulation which allowed you to have
+that forced you to have um incap cameras
+if you're driving a truck across the
+country in the US uh you need to be able
+to monitor the driver and so it created
+an opening for their technology or there
+may be regulatory shifts uh for
+healthcare or for other things that
+allow you then to build a company and so
+often you want to kind of ask what is
+different now and therefore why is what
+I'm doing relevant for today maybe the
+why now forel would be the shift towards
+drones and machine vision as in new
+capability right it's a technology shift
+so something under could exist so we
+basically started um building the
+APIcentric product and we were talking
+with Twitter as a customer and um one of
+the folks on the Twitter team uh sent me
+an email I think it was Ryan Sarver that
+basically said why don't you come in for
+a working session with us where you
+imagine the constraints of being outside
+of Twitter removed and let's brainstorm
+the product that you could build for
+Twitter and it was meant to be a vendor
+discussion but we could tell that they
+were kind of thinking about buying us
+because they wanted to incorporate the
+the product into their um platform and
+ecosystem. And at the time, Twitter had
+a massive developer ecosystem. It had
+just opened up API access for everyone
+to access tweets and other information.
+And they thought that we could be an
+ancilliary service that would reside on
+top of Twitter and would be something
+every developer could use, right? Which
+was a very compelling vision. Um so we
+met with Ryan and started talking
+through that and then we met with E and
+other members of the team. At the time
+um Ed Williams was still the CEO of the
+company and um at the time that we
+started talking with them there were
+about 50 people and by the time they
+bought us which is about 3 months later
+there were 90 people right so they they
+almost doubled in 3 months so they're
+going very fast basically uh we thought
+
+about it after they made an offer and we
+decided you know it'd be a very good
+home for what we were doing for three
+reasons. Number one is they had this
+massive developer ecosystem so we
+thought that we could reach more users
+faster and have more impact. Um, second,
+we thought it was a great place for our
+engineers to go. Um, because, you know,
+Twitter was a small team still and we
+thought all of them could have really,
+you know, amazing careers there. Uh,
+third, we thought financially it was a
+good outcome because at the time Twitter
+was worth a billion dollars and we we
+thought, oh, it's it's going to be at
+least a $10 billion company. And so any
+purchase price we have is magnified by
+10 times. And also we, you know,
+calculated dilution and all that kind of
+stuff. And then lastly, we just thought
+it was very exciting to go to something
+that was clearly breaking out and
+working and transforming the world. you
+know, Twitter was playing a very key
+role both in social media, but also
+things like Arab Spring and other things
+that were happening in terms of global
+events. So, we thought it was a very
+important company.
+## Be a Missionary and a Mercenary (11:49–15:27)
+There's this um old framework that John
+Do used to use uh in the '90s. He was
+one of the main investors at Kleiner
+Perkins. It's sort of the peak of
+Kleiner Perkins. And he used to ask
+founders, are you a mercenary or
+missionary? And you're supposed to say,
+you're a missionary. you know you're
+doing it for some broader philosophical
+goal or some big mission in life and uh
+Naval Rabicon I think has a a better
+framework which is early in your career
+you have to be at least partially
+mercenary cuz otherwise you'll never get
+anything done and you have to pivot to
+the opportunity you can't be overly
+philosophical on things in the middle of
+your career you want to be more
+missionary that's finally working you
+don't want to be zero sum you want to
+help build the community you want to do
+positive things and you want to focus on
+a bigger goal and then late in your
+career career, you want to be an artist.
+You want to do it for the love of the
+craft, right? And if you look at the
+evolution of companies, many early
+companies, the founders would have sold
+early, right? Larry and Sergey famously
+tried to sell Google for a million
+dollars and then couldn't find anybody
+to buy it. So, they kept going. Um,
+Facebook almost sold for a billion
+dollars to Yahoo and Terry Seal. Yahoo
+tried to renegotiate the deal when Yahoo
+stock price dropped and so then Facebook
+said no and walked away from it. But
+they almost bought Facebook for a
+billion dollars, right? is if you go
+through almost every company like that,
+there's been a moment in time where the
+founders are willing to sell. And so
+that's mercenary behavior. That's not
+missionary behavior, right? And that's
+fine. And so I think early on though,
+you see people who want to accomplish
+big things. Um they may be happy with
+having a small exit early on, but if the
+thing keeps going, they want to keep
+going with it, right? And they just
+grow. And a lot of it has to do with
+growth potential for um for young
+founders. If somebody is older, there's
+
+a lot more information about them. you
+already know what they've built. They
+already have a reputation with
+colleagues. It's much easier to met
+them. But, you know, I met the Stripe
+founders probably when they were, if I
+had to guess, 22 and 20 or something
+like that. And so, there just isn't that
+much information when you meet somebody
+at that age, right? They don't have a
+lot of co-workers. Most of the
+references are are are other college
+students, you know? So, it's a little
+bit harder to know. So, imagine in 2011
+
+or 2012, you're paying 100 times revenue
+
+for Stripe. I think the best companies
+always look like that. They always look
+like you're paying too far ahead and
+it's too expensive and why would you do
+it? And then in hindsight you're like,
+"Oh my god, what an amazing investment
+and what a great deal and it was so
+cheap." And that was Facebook, right?
+Facebook, I remember when it raised it
+100 million, everybody said that was
+insane. And then I raised at 500 million
+from Greylock and people were like,
+"Greylock is so stupid. How could they
+do this?" And then Yuri Milner invested
+at $5 billion in common stock and
+they're like, "Gh, that Yuri Milner,
+he's so dumb. Why is he doing you And so
+every round everybody said how stupid
+this is. And then it turned out to be
+brilliant. For Yuri Milner in
+particular, he'd actually been running a
+social network in Russia before and he
+knew how to monetize it. And so when he
+looked at Facebook's numbers, he said,
+"Okay, I know I know how much each user
+is actually worth and it's being
+undermonetized, so I know it's going to
+be worth a lot more, so I'm going to do
+the investment." Right? He could just
+run the math. And so sometimes you have
+inside information where you just
+understand a business model better than
+anyone else. And so you know what to do.
+And in some cases you have a natural
+intuition especially very early or you
+understand the market deeply or you
+understand the customer deeply or
+understand the use case deeply and
+sometimes people just get lucky right
+they just invest in something and it
+works and then they're lauded as a
+genius you know for making that
+investment but um I think the best
+things always look like that the hard
+part of course is many people apply the
+same logic to the things that aren't
+very good um and so they invest in a lot
+of very bad companies simultaneously at
+the at the very high valuations and
+things like
+## Advice for Scaling Up (15:27–26:24)
+The role of the CEO definitely changes
+rapidly over time. When you're a very
+small startup, it's very different from
+when you're running a multi,000 person
+organization, right? How you manage and
+deal with five people is very different.
+And when you're a very early stage
+company, it's like an egg. It's very
+simple, right? You just need to find
+customers. You need to build something
+they want and you need to hire a few
+people to help you with that. And then
+you don't die, right? You don't want to
+run out of money. A later stage company
+is like a full grown chicken or a bird,
+you know? It's very complicated. Has
+feathers and a beak and legs and
+everything else. And that's when you get
+into all sorts of other things where you
+have to do internationalization. You
+have to launch multiple products. You
+have to hire roles you've never hired
+before like a GC, a CFO, etc. You start
+buying other companies. People try to
+buy you. You raise up the financing. So
+the complexity goes way up late. Despite
+that, early stage and late stage
+companies, the role as a CEO has some
+commonalities. Number one is you need to
+set the direction for the company. Uh
+number two is you need to uh allocate
+resources and make sure you don't run
+out of money. So what should you build?
+What should you focus on? Who should be
+doing what? Number three is you're
+almost like the chief psychologist of
+the company early on because a lot of
+people come to you with their problems,
+with their feelings, with what's going
+on. You know, it's management issues and
+you don't yet have a line of managers to
+handle that for you. And so a lot of it
+is just like what direction do we go in?
+How do we allocate resources? How do we
+make sure that we're bringing on the
+best talent and allocating it properly?
+And then how do we make sure everybody's
+sort of happy and aligned? And then
+lastly, it's about managing your own
+energy as a manager or as an executive,
+right? And so being the CEO of a startup
+is very stressful. And so you also have
+to make sure that you're pacing yourself
+in the right way. I think there's a lot
+of conventional wisdom that's wrong. Uh
+one is that you need a co-founder. If
+you look at some of the biggest
+companies, they had either one founder
+or unequal founding partnerships. That's
+Microsoft, that's Amazon, that's a lot
+of the biggest companies in the world.
+Not all, but many. Apple was unequal
+like all these things. Um two is that
+you need a good idea to start a company.
+Uh some of the biggest companies are
+people who did it accidentally or who
+just wanted to go start something and
+they kept trying different things until
+they found something that worked. And so
+I think some companies are very
+motivated by a specific viewpoint or
+ambition. But in some cases it's just a
+little bit more random. And I think you
+should just go start something if you
+want to start something. Um third is you
+need to learn things before starting a
+company. And if you look at the biggest
+companies in the world, they were
+started by very young people. And so
+they didn't know that much, right? If
+you're a college dropout, it's not like
+you have 30 years of experience or
+something. And so I I believe much more
+in lifelong doing than lifelong
+learning. Everybody always talks about
+lifelong learning. And I think you learn
+more by doing them, but just by like
+learning or talking about something. So
+I think those are some of the things
+that, you know, I believe that not
+everybody does necessarily.
+I think really you should think about
+capitalizing your company as what does a
+company actually need to succeed or what
+do we need to build what we need versus
+I just am going to go raise money. And
+there's a number of companies that I'll
+meet over time say why why are you even
+fundraising, right? You're profitable,
+it's working. Like just keep growing.
+Like why would you ever do that to
+yourself? And there's some companies who
+have done that like Zappy or others. And
+if you look at the history of
+technology, um, a lot of companies
+bootstrapped, right? Microsoft
+bootstrapped. They raised one round
+right before they went public because
+they wanted to add somebody to their
+board from the investor, but they didn't
+need the money, just wanted to make. Uh,
+Dell bootstrapped again up until a preo
+
+round. So, he didn't raise money ever.
+And that was the 70s and 80s. In the
+'90s, and there's other examples in the
+'90s, uh, Yahoo raised money, but it
+never touched it. eBay raised money, but
+it never touched it. So, a lot of the
+big successes actually were very capital
+efficient. And then you go into the
+2000s, Instagram was very very lean.
+They didn't need a lot of the money that
+they raised. Midjourney is completely
+bootstrapped. So I think every
+generation has had bootstrap companies.
+Now there's lots and lots of companies
+where capital helps accelerate what
+they're doing dramatically. And raising
+money helps accelerate you. And that's
+really what fundraising should be. If
+you can raise money and use that to win
+a market faster, better, bigger,
+whatever, you should do it, right?
+That's kind of like Parker Conrad at
+Ripling, like amazing entrepreneur,
+amazing execution, and he's raised
+against I'm going to go win the market,
+right? And I think both styles can work,
+but it only works for certain types of
+businesses. If your customers are
+unwilling to pay you early, or
+alternatively, if you have to invest
+heavily in sales and product, you're
+going to need to raise more money. If
+what you're doing is something that you
+can charge for early and charge for a
+lot and get high leverage on, then you
+may be able to bootstrap. And so, it
+really depends. You know, it's a mix of
+different types of companies. In Silicon
+Valley, people bootstrap too little.
+Outside of Silicon Valley, they raise
+money too little. And so there's too
+many bootstrap companies that can be
+much bigger than the rest of the country
+or the rest of the world and they never
+raise money and the ambitions never
+grow. And then in Silicon Valley,
+there's lots of things that be great
+bootstrap companies that maybe are good
+cash flow but are never going to be
+giant companies and they raise too much
+venture capital and none. You know,
+often once people hit a certain scale,
+they either hire a COO or they hire two
+or three people who collectively play
+the role of what a COO does. And
+honestly, there's no clear definition of
+a COO. In some companies, that person
+could be running sales and marketing. In
+some companies, that person could be
+running product. At some companies, it
+could be running support and operations.
+This is a very amorphous term that could
+mean whatever the founder doesn't want
+to do. Um, or it could mean something
+more specific. It really depends on the
+company and the context. Um, but it's
+it's an important role because often
+it's one of the main lieutenants for the
+CEO and somebody who's really helping
+them dayto-day. So, I don't think you
+need a co-founder and I think
+conventional wisdom in Sila Valley is
+you should find one and I think that's
+bad advice. Um, I think you can it's
+
+very good to work with a co-founder but
+it's not necessary. You can also have a
+founding team. You can hire people. You
+can do all sorts of things, right? And
+so, you don't need a co-founder. If you
+do decide to get a co-founder, which
+again I think is helpful, but I don't
+think it's necessary. Um, you want to
+look for somebody optimally who has
+complimentary skills to you, who can
+play a different role because a lot of
+co-founder conflicts are driven by two
+people wanting the same role and
+fighting about it or two people wanting
+decision-m and fighting about it. And
+sometimes you see co-founder
+relationships so the people make
+decisions together and it works great.
+But many times you have reversion to the
+mean, right? You don't make great
+decisions because you're compromising
+all the time. And usually the greatest
+companies are the vision of one person
+
+driving everybody towards that vision.
+Sometimes it's two, but usually it's
+one. And that's because it's very hard
+for two people to jointly have the right
+vision, right? You you start
+compromising too much. Um so you want
+clarity of role, you want clarity of
+action, uh you want clear decision-m if
+you can get it. Um, and you want
+optimally at least one person who can
+build, hopefully both, and at least one
+person who's good at selling. And
+selling means convincing customers to
+use you, convincing employees to join
+you, convincing investors to fund you,
+etc. It's all all forms of selling. And
+even if you're working very hard, you're
+finding the right outlets for yourself.
+Very early stage company, you often
+don't have a board. So if you're three,
+four people, there's no point in having
+a board really. Um, I mean you could do
+one, but it's a little bit superfluous
+because the complexity of what you're
+doing is low and really you're just
+focused on shipping and there's other
+ways to have governance or exert
+governance if you want over the company.
+Um, I mean really the role of the CEO as
+we discussed is to set the direction of
+the company, allocate resources, find
+talent, bring it on board, promote it,
+whatever, direct it the right way, not
+run out of money or resources, etc.
+Right? And the most important thing that
+a board does at an early stage company
+is decide who's the CEO. And sometimes
+the board can decide that and sometimes
+it doesn't have the power to do that.
+But if you have a five person company or
+a 10erson company, um the board will
+obviously help with hiring. It'll help
+with direction. It'll help with
+customers. It'll it'll try to help with
+all those areas, but ultimately the CEO
+and their team is on the line to do
+everything, right? And the board can
+help out, but the the CEO and the
+executive team or the founding team is
+the most important group. Um later in
+the life of the company, what the board
+does transitions a lot because boards
+become more about compliance and there's
+compensation committees and there's an
+audit committee for financials and
+there's all these different committees
+as you move towards going public. And so
+the nature of the board shifts pretty
+dramatically from just one person who's
+likely an investor to a lot of people
+most of whom are independents and not
+involved with the company or weren't
+early investors in the company. So
+there's a big transition in board and
+board structure over time. A lot of
+founders really misuse their board um
+and they view the board as their boss
+and so they're scared to talk about
+certain issues or other topics. And I
+think really what you want to do is both
+make use of your board in terms of
+closing candidates, finding candidates,
+finding customers, back channel the
+customers, understanding who on your
+team is talented or not. So sometimes
+boards help a little bit with talent
+assessment. Uh sometimes boards help
+with overall strategy or direction of
+the company. Um sometimes they help with
+ideas around M&A or new directions. and
+
+you kind of want to take advantage of
+the board for that. And so very early
+on, usually your board members very
+involved and you try and give them those
+tasks. Help me find somebody of X- type
+to hire or help me close these three
+people. Uh again, later in the life of
+the company that shifts more and more,
+although the board members may still be
+involved with closing executive or or
+sort of key candidates or involved with
+some of these other things that I
+mentioned, big partnerships or other
+things. I think the biggest thing people
+worry about is the board firing them. I
+think fundamentally private company
+boards used to have a lot more leverage.
+And so up until about 10 years ago after
+your series A or maybe your series B
+lose board control for most companies
+and then the CEO was um more easy to
+fire. Today that's harder to do because
+of the way boards are set up early now
+where often the founders control more of
+the board seats. And so it's harder and
+harder to um fire founders. The real
+
+thing is though that if you look at the
+most public founder um step downs or
+
+removals of the last 10 years, it was
+often people who actually controlled
+their company but decided to step down
+because of board pressure. That was
+Travis at Uber. Um that was we work.
+Like a lot of these people actually had
+board control but then they got
+convinced or you know kind of um
+pressured to leave. And for some of
+those things it was probably a big
+mistake right like um Uber under Travis
+may have done exceptionally well. you
+know, he's very good. Uh, undoubtedly
+Dar is very good as well. It's just a
+different type of operator, right? And
+so I think that um people sometimes
+misunderstand the board dynamics. The
+reality though is if somebody controls
+your board, they can fire you and it
+does change the the dynamic and the
+relationship and everything else. And
+sometimes that's a healthy thing and
+sometimes that's a very negative thing.
+And it really depends on the board
+member. And some board members are very
+useful and helpful and really focused on
+the good of the company. And in other
+cases, some board members may have their
+own motivations and conflicts, right? A
+board member is supposed to watch out
+for all shareholders, but sometimes if
+you're an investor board member
+representing preferred stock, you'll
+push very hard for what you perceive as
+the interests of the investors, but
+those may be very negative for the
+company long-term, but they may be very
+good for you short-term. There's this
+misalignment of incentives. There's this
+principal agent problem that crops up,
+not just in boards, but in every aspect
+of running a company, right? You may
+have an executive who cares more about
+their own career than about your
+company. That's another incentive
+misalignment, right? They may act in
+ways that's good for them but bad for
+you as a company. That's true of board
+members as well. And so, um, you have to
+be very careful about who you choose as
+your investor board members because of
+that dynamic. I mean, there's easy ways
+to check, right? You just call people
+that worked with them before and you do
+back channel. You just ask, "Hey, what
+happened when things weren't going well
+on my board on in the company? How did
+that board member act? How were they the
+most helpful? Where were they
+distracting or negative for the company?
+What is the biggest disagreement you had
+with them? And why? and how did you
+resolve it? Right? And so you kind of
+want to ask those questions to try and
+understand um whether somebody be a good
+## Why Silicon Valley is the Best Place for Tech (26:24–29:08)
+board member or not.
+
+And by the way, Moore's law, as you
+know, is not an actual law, right? Moore
+just extrapolated and said, "Well, if we
+keep going at this rate, it'll double
+every 18 months or whatever it is." But
+there's no physical basis for it. But
+then it became self-reinforcing. People
+said, "Well, if we call it a law, then
+it must be true, so we're going to build
+against it." But there's no reason that
+it worked that way. That it should have
+worked that way. It just didn't because
+they said it would, right? It was
+self-fulfilling. And a lot of Silicon
+Valley is self-fulfilling that way. The
+reason that Silicon Valley ends up
+working is number one, it attracts
+extremely ambitious people who want to
+work on technology. If you're somebody
+from any country in the world, this is
+the thing that you care about most in
+your life. You may end up moving here
+and you're more likely to move here than
+almost anywhere else. Uh number two is
+there's a pay it forward sort of
+mentality where people try to help each
+other. And early on in your career,
+everybody's kind of in it together cuz
+multiple people are starting startups.
+They're often non-competitive and people
+just help each other, right? So there's
+this sort of group effect or coboard
+effect. Uh third, there's a lot of
+knowhow and knowledge of how to build
+companies, how to think about consumer
+versus B2B products, etc. And so that
+knowledge base really matters and being
+local ingrained in the knowledge base
+matters a lot, right? Because then you
+meet people and you learn more rapidly.
+Uh and then lastly because of that
+critical mass this is where most of the
+interesting technologies come out of and
+so you end up riding the curve early and
+that means you have more chances of
+success. So I think for all those
+reasons Silicon Valley is probably the
+best place in the world still to build
+technology companies. Obviously there's
+great hubs around the world and
+different cities. Uh but Silicon Valley
+still remains the most important one by
+far. I generally think technology is a
+very positive force for the world. I
+think it's helped to lift um hundreds of
+millions or billions of people out of
+poverty or out of despair. And I don't
+mean technologies as a software. I mean
+agricultural technology where we have
+food abundance or transportation
+technology so you can get on a train and
+go across the country. Right? And so
+technology means all those things. And
+if you go back a 100 years high-tech was
+the automotive industry, right? Or if
+you go back 150 years or 130 years um
+high-tech was electricity and developing
+electrification. And so I think people
+forget that technology means these
+broader things that we now take for
+granted. Right? when you push a light
+switch and the light goes on, you don't
+think that it's technology, but it is.
+Technology is a very broad force that's
+really helped people society in all
+sorts of ways. Uh food and famine,
+healthcare, childhood vaccines, like all
+these things are technologies. And so I
+think technology is an incredibly
+important part of human progress. So the
+important thing for me is to be part of
+contributing to that technology world.
+And we're working with the most
+important technologies and therefore the
+most important technology companies in
+the world over time.

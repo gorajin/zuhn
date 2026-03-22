@@ -54,8 +54,8 @@ related:
   - INS-260322-E734
   - INS-260322-2DBD
   - INS-260321-F864
-  - INS-260322-4090
-  - INS-260321-4178
+  - INS-260322-C9AC
+  - INS-260322-116B
 ---
 Shear challenges the substrate argument against AI consciousness with a precise epistemological test: if you hold a belief for which no possible observation could change your mind, you don't have a belief — you have an article of faith. Real beliefs are inferences from reality, and you can never be 100% confident about anything, so there should always be some observation that would update your position.
 

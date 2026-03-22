@@ -50,7 +50,7 @@ related:
   - INS-260322-02A6
   - INS-260322-3833
   - INS-260322-BBED
-  - INS-260322-FCFC
+  - INS-260322-83D4
 ---
 Unlike Apollo's single-use capsules, the Orion spacecraft is designed to be returned and reused across multiple Artemis missions. This shift from disposable to reusable space hardware mirrors what SpaceX achieved with rocket boosters but extends it to the crewed vehicle itself. The economic implications are significant: amortizing development costs over many missions makes each subsequent mission dramatically cheaper.
 

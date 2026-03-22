@@ -53,12 +53,14 @@ resolutions:
     their backend systems to be AI-ready, and results will accelerate as this
     foundation work completes.
 related:
-  - INS-260321-9A03
   - INS-260321-B7CB
   - INS-260322-3D21
   - INS-260322-3159
   - INS-260322-B641
+  - INS-260321-9A03
   - INS-260322-90E7
+  - INS-260322-DAF2
+  - INS-260322-8F3F
 ---
 a16z reports a significant disconnect between Fortune 500 CEO rhetoric ('we have to adapt, we're dying to understand AI tools, we're ready to change') and actual organizational change. The biggest barrier isn't technology readiness — it's change management. Getting thousands of employees to adopt AI tools, changing established business processes, and putting AI into production workflows is extremely hard.
 

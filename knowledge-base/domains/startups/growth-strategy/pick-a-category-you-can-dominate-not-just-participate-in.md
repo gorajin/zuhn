@@ -51,11 +51,11 @@ related:
   - INS-260321-9E91
   - INS-260321-D4D0
   - INS-260321-99C0
-  - INS-260321-C0A4
   - INS-260321-C292
   - INS-260322-EE1B
   - INS-260322-B3D0
-  - INS-260322-B6DE
+  - INS-260322-3833
+  - INS-260322-BEA3
 ---
 Physicians Choice initially launched with probiotics, turmeric, ashwagandha, collagen, and other products — the typical 'throw things at the wall' approach. They were competing against specialists in every category while spreading themselves thin. The turning point was asking 'where can we actually dominate?' and consolidating all resources into probiotics.
 

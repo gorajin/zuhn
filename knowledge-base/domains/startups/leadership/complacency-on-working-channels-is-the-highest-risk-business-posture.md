@@ -42,10 +42,10 @@ resolutions:
     emerging platform before forming an opinion.
 related:
   - INS-260322-5678
+  - INS-260322-5932
   - INS-260321-38EC
   - INS-260322-FFF6
   - PRI-260321-558C
-  - INS-260321-C902
 ---
 The pattern repeats across every marketing era: businesses that lock into what works today and refuse to experiment with what's emerging invariably decline. Gary's framing is blunt — '$6M businesses that refuse to adapt become $3M businesses, not $12M.' The Blackberry analogy illustrates how even passionate attachment to current tools (needing physical buttons) gets swept away by platform evolution.
 

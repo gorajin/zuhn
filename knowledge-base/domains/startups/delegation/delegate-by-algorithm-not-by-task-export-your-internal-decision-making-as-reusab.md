@@ -45,8 +45,8 @@ related:
   - INS-260321-A56C
   - INS-260321-167A
   - INS-260322-EAB6
+  - INS-260322-83D4
   - INS-260322-B264
-  - INS-260322-32E3
 ---
 Most people delegate by task ('help me plan this dinner party'), which produces mediocre results because the delegate lacks your implicit criteria. Advanced delegation means exporting your algorithm: 'I like 6-8 people, similar stage companies, similar capital raised.' Once the algorithm is fully exported from your head, execution becomes rinse-and-repeat.
 

@@ -49,10 +49,10 @@ resolutions:
     capability curve could flatten or steepen dramatically.
 related:
   - INS-260321-7D7C
+  - INS-260322-5932
   - PRI-260321-AD44
   - INS-260322-25B4
   - INS-260321-2D72
-  - INS-260321-E4EB
   - INS-260322-2A3A
 ---
 Evans identifies what genuinely distinguishes AI from every previous platform shift: with the internet, you knew telcos wouldn't deploy gigabit fiber next year; with iPhones, you knew battery life wouldn't last a year. You could build spreadsheets modeling bandwidth consumption and make bounded predictions. With AI, we can't.

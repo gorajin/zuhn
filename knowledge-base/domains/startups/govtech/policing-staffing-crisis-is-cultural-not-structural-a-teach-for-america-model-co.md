@@ -49,9 +49,9 @@ related:
   - INS-260321-C292
   - INS-260322-888D
   - INS-260322-5F87
+  - INS-260322-116B
   - PRI-260321-7307
   - INS-260322-25B4
-  - INS-260321-5C24
 ---
 Garrett Langley proposes a concrete solution to the police staffing crisis: create a Teach for America equivalent where college graduates serve 2-4 years in policing roles (including civilian/analyst positions without guns) in exchange for student debt relief. The staffing shortage is entirely cultural — nothing structural has changed about the job, only the social stigma.
 

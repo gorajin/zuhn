@@ -52,7 +52,7 @@ related:
   - INS-260322-0E41
   - INS-260321-B85C
   - INS-260322-9DDD
-  - INS-260322-EDC2
+  - INS-260322-F6AA
 ---
 Ben Horowitz outlines three key AI policy battles: (1) Models are mathematical constructs, not sentient beings — regulate what people do with AI, not the math itself. If someone uses AI to commit a crime, the crime is illegal, not the technology. (2) Prevent 50-state regulatory fragmentation, which would make it impossible for new companies to innovate since they cannot comply with 50 different legal frameworks simultaneously. (3) Protect the ability to build statistical models over copyrighted work (without reproducing it), since China has no such restrictions and US AI will be weaker if trained on incomplete data.
 

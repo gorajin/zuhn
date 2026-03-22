@@ -1,0 +1,437 @@
+## Intro (0:00–0:55)
+There isn't anyone who thinks of the next idea or comes up with one.   You probably
+always think that idea is the last one and that the
+kid's idea will work, but
+
+after experiencing setbacks, you get what is called pivoting. You wonder, "Am
+I pivoting too much while stuck in this major field
+?"  Am I doing this right
+?  Is there something I want to do
+?  I think I felt that I should start with a direction that could solve problems that felt like a mission in my life
+
+.  I also realized that I didn't give enough thought to whether this was a
+problem I could solve well and for a long time, and I found that
+
+setting such a mission is really
+important.
+hello.  My name is Yang Yun-seok, and I am 25 years old. I am building an AI education platform in the United States
+
+.  Pensieve
+
+is an AI education platform used by universities such as Harvard, Columbia, and Carnegie Mellon.  As an AI teaching assistant, I am in charge of assisting with grading and
+tutoring
+.  Just two people closed a 10 billion won
+investment.  Our goal at Mok-o-pyo is to create an
+education system that is truly used as a global standard
+
+.   I
+## Chapter 1. The boy who chose to be an entrepreneur instead of a lawyer (0:55–5:09)
+was born on Jeju Island, and when I was in the fourth grade of elementary school, my
+father
+decided to move to Seoul for my education. From elementary school onwards, I
+attended academies in Daechi-dong, and as I went to a very
+
+specialized middle school called Daewon International Middle School, I
+studied under a lot of stress
+.  But as that happened, when I was in the second year of middle school, the
+
+thought suddenly struck me: why do I have to study?  I remember conflicts that escalated to the point where my father even choked me, such as skipping class,
+throwing chairs, or fighting with my parents
+
+.  After going through that experience, I thought a lot that I would
+n't be able to explain it in that way, and I
+
+think I just kept thinking about it while reading a lot of books.  Why
+do I study?  One of the stories that impressed me the most back then was
+
+about entrepreneurs. I wondered if creating something that didn't exist in the world, like these people, would make for a
+
+truly meaningful life.
+At the time, my father believed that founding a business was something only
+geniuses like Bill Gates or Steve Sachs
+did.  You
+have those genes, and
+since you are not that kind of genius, just study
+hard, go to a good university, and
+become a lawyer.  But I
+think that came as a really big wound to my young heart.   It’s
+
+not that you shouldn’t start a business, but that you
+don’t have the gene to start one.  He said he did
+n't have the qualities to start a business.  So I think I really wanted to prove myself to my father
+
+.  So, on
+the very day I heard that, I just
+took the 100,000 won right away. I think I had the thought that if I could turn this 100,000 won
+into 200,000 won, my father might
+acknowledge me
+.  I went to Namdaemun Market, and in
+the alley leading into the market, an
+old woman was selling bags at a really cheap price
+.  So I
+spent all 100,000 won and bought all those bags.   I went into
+the market, but it was so cold that there were
+no people around, so I could
+n't sell a single bag.  My
+hands got so
+cold from carrying the bag like this for two hours.  It was so cold that I thought
+I might die if I stayed outside any longer, so I made a completely wrong judgment. I
+
+think I just carried my bag on my back and went inside to warm up since it was nearby.  As I entered the department store,
+everyone was happy and laughing, and they were all
+wearing nice clothes. I had promised
+my father sponsorship before leaving home, but seeing myself
+
+lose my entire fortune of 100,000 won and unable to sell a single bag made me feel
+so foolish.
+So I remember going into the men's restroom on the first floor of the department store,
+locking the toilet door, and
+crying my eyes out.  Oh, I was just
+
+thinking, "How am I supposed to get home in this state?" What should I do?  Since I've
+
+spent all my money except for my transportation card, I thought I should try to sell it somehow, and
+in the end, the only unique thing I have is the
+story.
+
+I think I had the idea to sell the story.  I thought that I should mainly go to middle-aged women who seem to have wives like mine, and when they
+
+buy a bag and
+go home, even if they have a hard time, they will think, "Ah,
+that young man was
+selling bags for hours in the freezing winter cold back then. I need to
+power through today too." I am
+
+selling those kinds of memories and recollections to those middle-aged women.   I
+succeeded in selling a bag, and I had
+such a happy memory of that. I was
+happy thinking that I could now sell something, but
+that was only for a fleeting moment. Then I started
+
+wondering, "Is this the business I wanted to do? Is this the startup I wanted to start?"  It’s
+not that they are creating something that didn’t exist before; in fact, they are buying bags that could be purchased a few hundred meters away,
+adding a margin, and
+selling them.  Ah, then
+what should I do to start the business I want
+?  Ah, then I think I thought I should learn a skill
+.  I set a
+
+goal to become an entrepreneur capable of starting a scalable business by learning and studying skills to create things that didn't exist before.  I also went to a bookstore, and
+
+the story of CEO Jeong Se-ju appeared as the only Korean example.
+
+After reading the story of the CEO who went to the U.S. and built a business from scratch with nothing, I thought to myself that I really wanted to become an entrepreneur like him, so I
+personally
+visited the Nunkoi office.  There were about
+20 employees working, and I
+
+think I just went into the office and raised my voice a bit, saying, "I am so-and-so and I want to meet the CEO here."  Through those experiences, such as how I formed a connection with
+Jeong-nim, I
+
+think my goals have become really firm since my second year of middle school.  Since I was 14, I really just
+
+dreamed of setting up an office in my living room in Shieldcon Valley and running a business. I also set a goal to become an entrepreneur who
+
+could create things that didn't exist before and run a business by learning technology and studying
+
+.  As I entered
+Minjok High School with that goal in mind, I think I really believed that I
+absolutely had to go to Silicon Valley to start a business
+.  So, I ended up
+coming to university.
+## Chapter 2. Breaking the established path and taking action (5:09–9:08)
+I really wanted to experience AI
+.  I attended school at Berkeley for about a year,
+took a leave of absence for about two years, and worked
+
+as the youngest AI researcher at a company called Reed.  At that time,
+Reed was one of the leading companies creating truly useful services using AI,
+
+so they
+
+made many attempts to use AI to solve the problem of how to predict students' scores on the next TOEIC exam.  But back then, the
+Lead AI team member who couldn't work on the weekend
+was Minju.  When I went there on weekends,
+Minju and I used to work together,
+so we had a lot of contact with Seoul.
+
+I think the idea of ​​having to go to the U.S. to start a business really resonated with me.  Ah, if I
+ever start a business, I definitely have to do it
+with Minju.  At that time,
+I had probably been working at Reed for about four years and had a
+
+huge thirst for ideas about AI.
+However, as AI and ChatPPT
+emerged, I felt a lot of fear
+.  I have been talking about this a lot because I thought it would shake the foundation of labor, but the
+
+company employees have
+n't really reacted.  It didn't really resonate with me
+.  Everyone needs to think about AI every day right now, and I think that's when
+
+Yunseong suggested trying the passive, so we switched over
+.
+When I first came, there was one new developer
+.  Let's try creating a voice colonization in the United States
+.
+He said, "Oh, that sounds fun, I'll give it a
+try," and even though he had never done it before, he
+learned it and baked a model like that in just three days
+.  There isn't a culture established where people are
+
+extremely shocked to see someone chipping, thinking they can learn how to do it
+
+.  If you've been making game modes all day, you're probably going to get
+smashed right away
+.  It seems like there are a lot of people who like a certain Jeong-haegi
+.   At a
+
+point where I should be grappling with completely new dilemmas, am I just
+thinking about what to do and ending up returning to the predetermined path
+?  I think the reason I gave up a
+10-year career at a recognized educational institution in Korea and
+
+came straight to the U.S. was because I believed that
+
+resolving uncertainty quickly was
+
+much more important than feeling anxious about it
+.  Ultimately, I believe that
+
+to gain a lot of information, you need to be action-oriented
+.
+
+In this AI era, isn't it the right choice to train good judgment and decision-making skills by directly executing what judgments and decisions need to be made when risks are involved?
+
+We did about eight rounds of rain before Manchester and
+
+made a lot of products.  One of the things we created was that it would be
+
+very helpful if we could make a Voice NZ for property managers.  I remember going to
+meet them while a storm was raging and I was getting soaked in the
+rain, and doing
+business
+.  I also remember going to the
+SF Food Market at 5 AM every day to work
+hard on getting ingredients because I wanted to try a food-related business
+.  But as I went through those experiences and frequently encountered
+
+situations where things didn't go well, I started wondering if we were
+heading in the right direction—what is called
+pivoting. I began to think, "Am
+I too trapped in this major, attempting a simultaneous
+pivot?"  Am I doing this right
+?  Is there something I want to do
+?  There were times when I felt skeptical
+.
+Among the kids who pivoted like that, there are actually a lot of good kids now
+.
+I really thought a lot about front market pieces, but I felt like I did
+n't think about pound market pieces as
+much
+.  I realized that I
+lacked understanding of the pound and didn't give enough thought to whether it was a problem I could solve well and for a
+long time. I think I came to the conclusion that I should
+
+start from a direction that could solve problems that feel like a mission in my life, rather than just inconveniences in daily life
+.  I am a mission-driven
+founder, and since I am a commercial entrepreneur who has a very clear mission we are working on and does
+
+n't regret spending ten hours working on it, I found it really
+
+important to define such a mission.
+## Chapter 3. The problem you can best solve as an entrepreneur right now (9:08–11:34)
+My father used to go to
+meetings for me until quite recently.  Ah,
+but wouldn't it be better to work at Google for a few years and then go into
+business?  Would
+n't it be better to get a master's and a Ph.D. first?  You have said this a
+lot, but because I feel that life is
+very short, I believe that if there is a
+destiny-like problem I truly want to solve in life, I should
+solve it now. What gave me
+that realization was when I was
+18 and
+received a very sudden diagnosis of hypothyroidism.   It is
+
+extremely rare for a man in his 20s to develop thyroidism.  On the other hand, if a
+man in his 20s has thyroid cancer, the rate of
+metastasis can be rapid.   I have had
+surgery and fully recovered now, but you
+really never know what the future holds
+.  I
+had plans for the next 10, 20, or 30 years that I wanted to follow, but I realized I might
+die without achieving them.  I plan to start a
+business a few years after the trial run.  I'm going to get a master's degree and start a
+business.  I'm
+going to get a PhD and start a business.  I think I really thought a lot that if I kept thinking like this, I might just
+die without being able to do it
+.  I just think that I will die in 10 years
+.  When I thought about whether I would be doing what I am doing now if I were going to die in 10 years, a
+
+decision was
+formed.  So,
+there are three main problems I want to solve, and I thought that education is the area where one possesses domain
+knowledge and expertise
+
+.  I have moved back and forth between educational environments several times
+.  While attending the very unique educational environment of Minjok High School, if
+
+there was a class we wanted to take, we would gather five people to
+open it and
+
+take a lot of classes like "Understanding Film." I think I realized that the environment one is in
+and the education one receives really have a significant
+impact
+.  I think I really felt the impact and contemplation again regarding the
+importance of pedagogy, how to decompose challenging subjects to structure a
+collicum, and how to teach them
+pedagogically. I also developed a
+
+goal to ensure that everyone around the world can enjoy the benefits I received in 10 years.  The problem I
+can best address right now as a founder is the
+issue of education and learning.  The same goes for
+
+Minju, who has been working on solving educational issues for a very long time.
+
+I think I've been very fascinated by the keyword "learning" since I was young.
+Why is learning difficult?
+With the advent of the AI ​​era, I think I am contemplating this out of necessity
+.
+For humans to be respected as human beings, true
+juniors need to grow fast enough to produce a senior-level amount of knowledge and
+
+energy to be able to
+contribute.
+So, when asked what the missing piece is, it
+is ultimately learning.  It seems they are
+working on this because they consider it the most important issue right now
+.
+## Chapter 4. The future of learning that received 10 billion won in investment in just one year (11:34–16:29)
+As I pivoted a lot, I gained a lot of
+experience on how to take the next step
+.  We
+often choose the approach of selling products before manufacturing them
+.
+I think it was the same when I was playing Pensieve.  Regarding grading,
+there is the students' paper-based exam system, and we
+have to scan all of them,
+upload the scanned files, and create scoring criteria. It is a
+truly labor-intensive process, but since we are teaching
+
+assistants and professors, it is a task we must do.
+Because I have been grading my whole life, you do not realize
+how much time is poured into it
+.  Ah, we
+have a tool that uses AI for grading.  When I
+say, "I want to use this," it
+
+seems difficult for both the user and the company to visualize from an upward perspective what kind of changes would occur in their lives if they adopted it.  What would you think if you had to go on a business trip, and all you had to do was
+press a button before boarding the plane, and by the time you landed,
+your grades were already all there
+?  I
+
+think the willing spec was much greater in painting a picture of how life would change when the product was adopted, rather than selling the features to elicit a reaction like, "Wow, that's awesome."  It involves the
+highly sensitive subject of student grades, and I interpreted the very fact that they
+
+wanted to use a startup's solution despite such hurdles as a
+huge pain point. So, I
+
+gathered ten professors using that landing page, and based on that, I think I realized that
+this is what I could do
+.  So, I think grading and learning are
+two sides of the same coin.   If I
+
+don't assess my level of knowledge, my learning rate
+
+drops exponentially.  I can determine what
+level I have reached and what I don't know, and in
+
+that sense, I believe that scoring
+data plays a very important role in learning.
+
+Since I think that if this happens, learning will be sufficiently accelerated, I
+view that as the next step of Pancyb
+.  Ultimately, for Pancyve to
+make a truly significant impact on education,
+we must
+
+create educational institutions that go to Dairat students, rather than supplying something to universities
+.  We are thinking a lot about
+creating an AI Native School to build a university where we can help any
+learner, regardless of their vision, obtain qualifications and study in accordance with their goals and vision
+
+.  Given the current situation where the problem of finding a job
+after graduating from university is
+becoming increasingly severe, I
+
+think there are a lot of questions regarding how to provide education.   I
+
+believe that current education is not enabling even 10% of human potential, and I
+
+think that the tasks of learning, educating, and assisting people are the many tasks that AI needs to develop in the future.
+Current AIs are very short-sighted. If you ask them to
+
+teach you how to use Figma's Auto Layout, they
+teach you well, but if you ask them to tutor you on everything you need to know to become a front designer at a company like Figma, they are
+
+actually of no help at all
+. I think long-range thinking is
+very difficult.  So,
+ultimately, the vision remaining is to establish such a center by
+
+entering a prestigious university, training
+AI teaching assistants who teach well using their curriculum, and
+then
+providing direct education to those scholars through them
+.   If
+that happens, wouldn't it be possible for
+anyone living anywhere in the world to study with Real Tuto and
+
+become a superhuman who far surpasses the level required and expected for a specific age group
+?  I also think that if you solve the problem of learning,
+all other problems will be solved
+.  It is because anyone can conquer it,
+climate change can be conquered, and ultimately,
+the students who receive that education will solve it
+.  In that sense, Pensieve is a company that solves the
+problem of learning, which is like humanity's last refuge
+.
+
+I think we believed that if we succeeded in the U.S., we could become the global standard.
+Since I am a nobody, I wonder how I can
+
+get into American society?
+And can I succeed in American society
+?  Actually, there is nothing there
+.  So I think I put a
+lot of effort into showing my story and my guts
+.  I am this kind of person. Back in
+middle school, I even sold bags at a Korean street market. I also went to see the
+
+CEO of a 5-billion-won company and asked to
+meet him. We are just
+
+people who have done truly crazy things like that.  I think I
+asked you to place a bet on me a lot, and regarding
+how to sell myself, ultimately, an
+early-stage founder has nothing but themselves.   You have to
+sell yourself well to bring in Flower Pound and
+sell the product.
+Ultimately, early customers buy based on
+the vision of the product, not its current appearance, and
+that vision must be rooted in
+trust in the entrepreneur.
+
+That is why, when I shared my life story and explained how I came to create Penship, there were
+
+many instances where people would close their eyes and say, "Okay, then I'll give the pen a try." In fact, the
+U.S. market is truly massive and
+unique; I believe it is impossible to penetrate it without actually making a living and
+throwing a wrench into the market.
+
+Especially for a founder
+targeting the unique aspects of the U.S. market, I think they
+absolutely must come to a foreign country and start their
+business by facing the challenges head-on
+.

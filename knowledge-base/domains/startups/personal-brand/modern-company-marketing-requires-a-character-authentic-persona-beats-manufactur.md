@@ -47,11 +47,11 @@ resolutions:
     appearance, but a personal brand requires showing up consistently as
     yourself. If it's not actually you, it won't accrue to the brand over time.
 related:
+  - INS-260322-F6AA
   - INS-260321-8414
   - INS-260321-C14C
   - INS-260321-B7CB
-  - PRI-260321-5857
-  - INS-260322-0E41
+  - INS-260322-116B
 ---
 The conversation surfaces a fundamental shift in how companies are marketed: you can no longer just announce products and report financials. Since Steve Jobs, company marketing has become inseparable from a person — it's Tesla or Elon, Palantir or Alex. This creates a premium on founders willing to be that character.
 

@@ -49,7 +49,7 @@ related:
   - INS-260321-38EC
   - INS-260321-C99A
   - PRI-260321-558C
-  - INS-260320-A467
+  - INS-260322-5932
 ---
 The gravitational metaphor for data network effects: one atom technically exerts gravity on you, but you only notice it at the scale of the Earth or Jupiter. Similarly, data advantages at small scale ('I've seen 4 customers, my competitor has seen 3') are meaningless — there are 8 billion customers neither of you has seen.
 

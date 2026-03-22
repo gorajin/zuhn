@@ -48,6 +48,7 @@ related:
   - INS-260320-DEAF
   - INS-260322-68FE
   - INS-260322-B641
+  - INS-260322-83D4
   - PRI-260320-6847
 ---
 Young identifies two fatal traps for AI founders: (1) Building a feature for an existing ICP within an existing workflow built by an incumbent — like building a standalone meeting notetaker when Zoom or Google Meet can trivially add that feature and owns the distribution. You're targeting the same ICP, same use case, attached to their platform. (2) Being 'just a wrapper with some prompts' — if foundation models already do the job 80-90% well, the next release will do it 99-100%. Every AI founder should be 'AGI-pilled': predict what foundation models will release in the next few weeks or months and build above that line. Own the workflow end-to-end so AI is part of your solution, not all of it.

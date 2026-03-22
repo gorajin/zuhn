@@ -1,5 +1,5 @@
 # Source Map
-Generated on 2026-03-22 | 81 sources
+Generated on 2026-03-22 | 87 sources
 
 | Source | Type | Insights | Date |
 |--------|------|----------|------|
@@ -18,6 +18,9 @@ Generated on 2026-03-22 | 81 sources
 | Claude for Finance | pdf | 5 | 2026-03-22 |
 | 200+ pages of Hugging Face secrets on how to train an LLM | reddit | 5 | 2026-03-20 |
 | 1년만에 150억, 400% 성장을 만드는 환경을 셋팅하는 방법 | 엔코위더스 오정훈 | youtube | 5 | 2026-03-22 |
+| 홀로 3조를 굴리는 실리콘밸리 내부자의 투자 원칙 | 엘라드 길 | youtube | 5 | 2026-03-22 |
+| 8번의 피봇 끝에 실리콘밸리에서 통하는 아이디어를 찾은 방법 | 펜시브 양윤석, 김민준 | youtube | 5 | 2026-03-22 |
+| AI시대에 60살까지 일하고 싶으면 '리더'해야 합니다.ㅣ한기용의 나침반 | youtube | 5 | 2026-03-22 |
 | AI Eats the World: Benedict Evans on the Next Platform Shift | youtube | 5 | 2026-03-22 |
 | AI Markets: Deep Dive with a16z's David George | youtube | 5 | 2026-03-22 |
 | Atlassian CEO on the SaaS Apocalypse, AI Agents & What Comes Next | youtube | 5 | 2026-03-22 |
@@ -35,12 +38,14 @@ Generated on 2026-03-22 | 81 sources
 | Inside the New Media Team with Marc Andreessen & Ben Horowitz | youtube | 5 | 2026-03-22 |
 | Marc Andreessen's 2026 Outlook: AI Timelines, US vs. China, and The Price of AI | youtube | 5 | 2026-03-22 |
 | Master OpenClaw in 10 Hours [I Created 5 AI Employees] | youtube | 5 | 2026-03-22 |
+| 도서관에 박혀 공부만 하는 천재들은 '이것'이 없어서 대체됩니다ㅣ카네기멜론 Po-Shen Loh 교수 | youtube | 5 | 2026-03-22 |
 | Robinhood CEO: Making Everyone An Owner | youtube | 5 | 2026-03-22 |
 | The $700 Billion AI Productivity Problem No One's Talking About | youtube | 5 | 2026-03-22 |
 | The AI Opportunity that goes beyond Models | youtube | 5 | 2026-03-22 |
 | The Biggest Bottlenecks For AI: Energy & Cooling | youtube | 5 | 2026-03-22 |
 | The Biggest Marketing Opportunity in History Is Being Ignored | youtube | 5 | 2026-03-22 |
 | The Unicorn Founder Who Delegated Everything. | youtube | 5 | 2026-03-22 |
+| 정답 잘 찾는 천재들이 제일 먼저 대체되고 있습니다 | 카네기멜론대 수학과 포쉔로 교수 | youtube | 5 | 2026-03-22 |
 | Where does consumer AI stand at the end of 2025? | youtube | 5 | 2026-03-22 |
 | Why AI Moats Still Matter (And How They've Changed) | youtube | 5 | 2026-03-22 |
 | Why Scale Will Not Solve AGI | Vishal Misra - The a16z Show | youtube | 5 | 2026-03-22 |
@@ -50,6 +55,7 @@ Generated on 2026-03-22 | 81 sources
 | A Guided Tour of Musical Feeling | youtube | 4 | 2026-03-22 |
 | AI in 2026: 3 Predictions For What’s To Come (a16z Big Ideas) | youtube | 4 | 2026-03-22 |
 | AI Is Coming For These 3 Industries In 2026 (a16z Big Ideas) | youtube | 4 | 2026-03-22 |
+| 지금 당신은 원하던 삶을 살고 있나요? 나답게 살기 위한 실리콘밸리 리더의 도전 이야기 | 퓨리오사AI 크리스 채 | youtube | 4 | 2026-03-22 |
 | Andrew Huberman: Peptides, Sleep Tech, and the End of Obesity | youtube | 4 | 2026-03-22 |
 | Ben Horowitz on Investing in AI: AI Bubbles, Economic Impact, and VC Acceleration | youtube | 4 | 2026-03-22 |
 | Building A Big Company: Non-Obvious Insights | youtube | 4 | 2026-03-22 |
@@ -68,7 +74,6 @@ Generated on 2026-03-22 | 81 sources
 | Synchronicity: Carl Jung’s Most Disturbing Theory About Reality | youtube | 4 | 2026-03-22 |
 | The 2045 Superintelligence Timeline: Epoch AI’s Data-Driven Forecast | youtube | 4 | 2026-03-22 |
 | The Secret Marketing Strategy That Built a16z: From Zero to Legendary VC Firm | youtube | 4 | 2026-03-22 |
-| 음악 디깅 하는 방법 | youtube | 4 | 2026-03-22 |
 | Where to invest in a multipolar world (WW3?) | youtube | 4 | 2026-03-22 |
 | This Automation Took Me From 0 to 175k Followers in Under 12 Months | reddit | 3 | 2026-03-20 |
 | Claude Code usage limit hack | reddit | 3 | 2026-03-20 |
@@ -84,3 +89,4 @@ Generated on 2026-03-22 | 81 sources
 | What is one thing that you do to keep your dog happy? | reddit | 2 | 2026-03-20 |
 | Sound Design Breakdown [and tutorial] | reddit | 2 | 2026-03-20 |
 | [Tutorial] All there is to know about syncing video and audio | reddit | 2 | 2026-03-20 |
+| 13년 브랜드 디렉터가 폐업 직전 브랜드에서 항상 먼저 고치는 1가지 | 카페24 곽형석 | youtube | 0 | 2026-03-22 |

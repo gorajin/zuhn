@@ -56,8 +56,9 @@ related:
   - INS-260322-BBED
   - INS-260321-4E98
   - INS-260321-21BE
-  - INS-260322-7B61
+  - INS-260322-415E
   - INS-260322-7DD5
+  - INS-260322-8F3F
 ---
 Olivia Moore draws a direct parallel between agents today and internet companies in 1990: initially, being a 'dot com company' was its own designator, but eventually every company became an internet company. Similarly, every AI company — and eventually every tech company — will be agentic because models are headed toward delivering outcomes rather than just inputs.
 

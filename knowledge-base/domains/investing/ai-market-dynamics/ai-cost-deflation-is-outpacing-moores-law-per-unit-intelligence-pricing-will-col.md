@@ -55,6 +55,7 @@ related:
   - INS-260322-5790
   - INS-260321-52EF
   - INS-260322-474A
+  - INS-260322-1A20
 ---
 Andreessen identifies a structural economic force: the price of AI per unit of intelligence is collapsing faster than Moore's law ever drove chip costs down. This is happening across the entire cost structure — chips, energy, model efficiency, serving costs — simultaneously.
 

@@ -53,10 +53,11 @@ related:
   - INS-260321-7109
   - INS-260321-CBD2
   - PRI-260321-05B5
-  - INS-260322-299C
   - INS-260322-7723
   - INS-260322-5790
   - INS-260321-B7CB
+  - INS-260322-299C
+  - INS-260322-415E
 ---
 Epoch AI frames the bubble question precisely: if AI labs stopped developing new models today and just ran inference on existing ones, they would be profitable. The money being spent is on building even larger future models, which is the actual gamble. This means the 'bubble' framing is misleading — current AI is clearly generating real value (people are paying for it), but the massive capex on next-generation models could become a bubble if scaling returns diminish.
 

@@ -54,9 +54,8 @@ resolutions:
     valuable, but they require completely different approaches to deployment,
     pricing, and change management.
 related:
-  - INS-260321-167A
   - INS-260321-7D76
-  - INS-260321-5C24
+  - INS-260322-F6AA
   - INS-260321-4178
   - INS-260320-6F8E
   - INS-260321-A56C

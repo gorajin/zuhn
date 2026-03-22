@@ -53,7 +53,8 @@ related:
   - INS-260322-82E8
   - INS-260322-FD23
   - INS-260322-E4D8
-  - INS-260322-F128
+  - INS-260322-A892
+  - INS-260322-F6AA
   - INS-260322-7A2F
 ---
 Building AI agents without mapping them to business processes creates toys, not tools. The 7-stage business operations loop provides the structure: (1) Outreach — AI SDR scrapes leads from natural language descriptions, personalizes emails, and tracks engagement. (2) Discovery — meeting intelligence with access to historical transcripts. (3) Proposal — automated prototype and proposal generation after discovery calls. (4) Sales — phone agent for inbound/outbound calls with speed-to-lead automation. (5) Onboarding — automated client setup workflows. (6) Retention — ongoing engagement and upsell identification. (7) Competitive Intelligence — market monitoring and analysis.

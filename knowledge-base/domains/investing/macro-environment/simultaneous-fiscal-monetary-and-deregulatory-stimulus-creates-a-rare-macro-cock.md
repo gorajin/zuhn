@@ -51,8 +51,8 @@ related:
   - PRI-260321-0A4D
   - PRI-260321-2DF0
   - INS-260322-5790
+  - INS-260322-415E
   - INS-260321-21BE
-  - INS-260322-BBED
 ---
 David Solomon describes a rare convergence of four stimulative forces: (1) continuing fiscal stimulus amplified by new legislation, (2) monetary stimulus from a rate-cutting cycle, (3) a capital investment super cycle where the four largest companies contributed 1% to GDP growth with $400 billion in spending, and (4) a deregulatory unwind from the previous administration's regulatory surge.
 

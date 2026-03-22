@@ -46,8 +46,8 @@ related:
   - INS-260322-1C17
   - INS-260320-9935
   - INS-260321-E4EB
+  - INS-260322-AB55
   - INS-260320-A1D3
-  - INS-260321-1A84
 ---
 Gary distinguishes between two valid reasons not to create content: genuine self-awareness that video isn't your format (which is fine — written content exists too), versus insecurity about public judgment. The latter is far more common and far more costly. His reframe is powerful: anonymous commenters who spend time leaving nastiness are in a deeply unhappy place, and the appropriate response is compassion, not defensiveness.
 

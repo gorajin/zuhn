@@ -47,10 +47,10 @@ resolutions:
     ground truth.
 related:
   - INS-260322-4757
+  - INS-260322-AB55
   - INS-260322-474A
   - INS-260322-7282
   - INS-260320-96C9
-  - INS-260321-167A
 ---
 Goodhart's Law: 'When a measure becomes a target, it is no longer accurate as a measure.' If you judge engineers by lines of code, they write gobbledygook. If you survey employees about whether Harvey (legal AI) made them productive, they'll say yes because their boss bought it.
 

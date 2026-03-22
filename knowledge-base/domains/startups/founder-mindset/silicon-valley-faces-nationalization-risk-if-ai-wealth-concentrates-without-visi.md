@@ -56,8 +56,8 @@ related:
   - INS-260321-9A03
   - PRI-260321-7307
   - INS-260322-8BD1
+  - INS-260322-D2E9
   - INS-260321-C14C
-  - INS-260321-21BE
 ---
 Alex Karp warns that Silicon Valley's biggest existential threat isn't competition or regulation — it's a political horseshoe effect. If AI simultaneously eliminates white-collar jobs (affecting educated, Democratic-leaning constituencies) while concentrating wealth among a small number of tech leaders who don't visibly support the military or the broader public, both parties will converge on one thing: nationalization.
 

@@ -50,8 +50,8 @@ related:
   - INS-260322-E06A
   - INS-260322-7B71
   - INS-260321-86E7
+  - INS-260322-AB55
   - INS-260322-5CBF
-  - INS-260321-38EC
 ---
 When Stan Lee's publisher rejected Spider-Man on every dimension — wrong animal, wrong age, wrong level of personal problems — Lee found a workaround. Amazing Fantasy was being cancelled, and nobody cared what went in the last issue. So he put Spider-Man on the cover of a dying magazine. It became the highest-selling issue, and the publisher came running back claiming they both loved the character.
 

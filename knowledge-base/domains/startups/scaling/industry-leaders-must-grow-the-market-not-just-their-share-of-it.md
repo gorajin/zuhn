@@ -47,12 +47,12 @@ resolutions:
 related:
   - INS-260321-2F43
   - INS-260321-3EC0
-  - INS-260322-90E7
   - INS-260322-FCFC
   - INS-260322-36E3
   - INS-260322-5745
   - INS-260322-B3D0
   - INS-260321-B7CB
+  - INS-260322-D6B8
 ---
 Ben Horowitz credits Andy Grove, legendary Intel CEO, with a deceptively simple insight: if you're the leader of an industry, the growth of that industry depends on you. No one else will do it. Grove took this seriously at Intel, actively working to grow the entire semiconductor market rather than just competing for share within it.
 

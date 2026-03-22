@@ -20,10 +20,10 @@ sources:
     url: 'https://youtu.be/Wg70HlO-5gY'
 related:
   - INS-260321-6BA7
+  - INS-260322-A02C
   - INS-260321-1A84
   - PRI-260320-A2C7
   - INS-260322-D58A
-  - INS-260320-DDD9
   - INS-260320-3798
   - INS-260321-13C6
 date_extracted: '2026-03-20'

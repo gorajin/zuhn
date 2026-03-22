@@ -9,7 +9,9 @@ None.
 - 2 insights form cluster across investing/geopolitics, startups/competitive-strategy — shared tags: none
 - 2 insights form cluster across investing/geopolitics, investing/ai-infrastructure — shared tags: capex, ai-infrastructure
 - 2 insights form cluster across investing/geopolitics, investing/ai-business-models — shared tags: none
-- 2 insights form cluster across startups/competitive-strategy, investing/ai-business-models — shared tags: none
+- 3 insights form cluster across startups/competitive-strategy, investing/ai-business-models, startups/leadership — shared tags: none
+- 3 insights form cluster across startups/hiring, ai-development/career-strategy — shared tags: none
+- 2 insights form cluster across ai-development/adoption, ai-development/adoption-patterns — shared tags: chatgpt
 - 4 insights form cluster across music-production/practice, music-production/theory — shared tags: none
 - 2 insights form cluster across psychology/consciousness, psychology/perception — shared tags: jung
 
@@ -25,11 +27,12 @@ None.
 - startups/growth-marketing has 29 insights but related video-production/content-strategy has only 3
 - startups/growth-marketing has 29 insights but related startups/ideation has only 9
 - startups/growth-marketing has 29 insights but related startups/ai-business-models has only 7
+- startups/growth-marketing has 29 insights but related startups/business-models has only 3
 - startups/growth-marketing has 29 insights but related startups/competitive-strategy has only 7
 - startups/growth-marketing has 29 insights but related investing/ai-business-models has only 3
 - startups/growth-marketing has 29 insights but related startups/marketing has only 5
 - startups/growth-marketing has 29 insights but related startups/growth-strategy has only 5
-- startups/founder-mindset has 18 insights but related startups/growth-strategy has only 5
+- startups/founder-mindset has 19 insights but related startups/growth-strategy has only 5
 - ai-development/ai-market-dynamics has 19 insights but related investing/ai-business-models has only 3
 - ai-development/ai-market-dynamics has 19 insights but related ai-development/adoption has only 3
 - ai-development/ai-market-dynamics has 19 insights but related ai-development/enterprise-adoption has only 5
