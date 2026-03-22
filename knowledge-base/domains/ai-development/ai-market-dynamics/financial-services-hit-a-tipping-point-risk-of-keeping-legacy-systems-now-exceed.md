@@ -51,10 +51,10 @@ resolutions:
     data into coherent systems of record.
 related:
   - INS-260322-EDA4
+  - INS-260322-BC97
+  - INS-260322-88FC
+  - INS-260322-5678
   - INS-260322-CFB1
-  - INS-260321-FD14
-  - INS-260321-52EF
-  - INS-260321-1A0B
 ---
 Angela Strange at a16z identifies 2026 as the year financial services institutions will let long-standing legacy contracts lapse and adopt AI-native competitors. Three forces converge: (1) mainframe-era systems are physically breaking under modern scale, (2) companies are leaving revenue on the table — insurance underwriters literally can't process demand fast enough with current systems, and (3) viable AI-first alternatives now exist, built by entrepreneurs who deeply understand the industry.
 

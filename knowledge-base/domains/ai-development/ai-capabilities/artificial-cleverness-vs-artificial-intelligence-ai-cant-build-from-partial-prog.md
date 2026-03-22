@@ -40,7 +40,6 @@ resolutions:
     interactive building is what Tao calls 'intelligence' vs mere 'cleverness.'
 related:
   - INS-260320-5F14
-  - INS-260320-76E7
   - INS-260321-7D7C
   - INS-260321-C14C
   - PRI-260321-7307
@@ -48,5 +47,6 @@ related:
   - INS-260321-4178
   - INS-260321-1A84
   - INS-260321-28FB
+  - INS-260322-25B4
 ---
 Tao draws a sharp distinction: when he collaborates with a human, they adaptively modify strategies, systematically map what works and doesn't, and build cumulative understanding. AI tools jump and fail, jump and fail — brute force repetition. They can't reach a handhold, stay there, pull others up, then jump from the new position. They have no persistent understanding that grows through the work. Each session starts fresh. This cumulative, interactive building is what Tao calls 'intelligence' vs mere 'cleverness.'

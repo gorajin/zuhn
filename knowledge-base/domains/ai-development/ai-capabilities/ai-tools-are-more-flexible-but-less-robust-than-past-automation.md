@@ -39,15 +39,15 @@ resolutions:
     depends entirely on how the tool is integrated into the workflow and how the
     human's job is redesigned around it.
 related:
-  - INS-260320-47DC
   - INS-260320-63D3
   - INS-260320-E683
   - INS-260320-5A6F
-  - INS-260321-7D7C
   - INS-260321-9906
   - INS-260321-7D76
   - INS-260321-A5D4
   - PRI-260321-7307
   - INS-260321-E2FC
+  - INS-260322-EDA4
+  - INS-260321-988C
 ---
 MIT research across ~20 companies found that generative AI adoption is task-based not job-based, consistent with past automation patterns. But unlike RPA or industrial robots which take over complete tasks with high reliability, gen AI can touch many more tasks while fully owning fewer. Half of all prompts come from just 5% of the workforce. Just because AI can perform a task doesn't mean workers will use it for that task. The impact depends entirely on how the tool is integrated into the workflow and how the human's job is redesigned around it.

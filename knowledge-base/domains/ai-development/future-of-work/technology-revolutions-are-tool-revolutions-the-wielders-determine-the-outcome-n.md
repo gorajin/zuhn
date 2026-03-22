@@ -50,8 +50,8 @@ related:
   - INS-260321-33FC
   - INS-260321-F864
   - INS-260321-8567
+  - INS-260322-474A
   - INS-260321-6BA7
-  - INS-260321-D959
 ---
 Sankar argues that most technology revolutions are tool revolutions, not concept revolutions. Galileo used the telescope to discover planetary motion but didn't invent it. The microscope, the power loom, the personal computer — all were shaped by their wielders, not their inventors. Today, AI discourse is dominated by the inventors (the labs), who are incredibly smart but have 'jagged intelligence' — brilliance in model architecture doesn't translate to understanding societal implications.
 

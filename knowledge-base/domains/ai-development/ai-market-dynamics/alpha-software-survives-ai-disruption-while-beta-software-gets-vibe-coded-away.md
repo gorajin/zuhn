@@ -53,9 +53,9 @@ related:
   - INS-260321-E4EB
   - INS-260321-3D65
   - INS-260321-3312
+  - INS-260322-5678
   - INS-260322-B641
   - INS-260321-FD14
-  - INS-260321-21BE
   - INS-260322-4090
 ---
 Sankar introduces a rubric for evaluating which SaaS survives the AI wave: alpha vs beta software. Beta software made you more similar to everyone else — standardized ERP, generic project management, commodity CRM. The feedback loop was 'can I sell it?' not 'did it add value?' Alpha software expresses how you're different from competitors — it encodes your strategy, your unique workflows, your competitive advantage.

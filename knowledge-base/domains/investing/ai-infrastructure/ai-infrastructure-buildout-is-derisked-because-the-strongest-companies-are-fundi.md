@@ -51,11 +51,9 @@ resolutions:
 related:
   - INS-260321-CBD2
   - PRI-260321-05B5
-  - INS-260322-F868
   - INS-260322-BBED
   - PRI-260321-2DF0
   - INS-260322-88C3
-  - INS-260322-03DD
 ---
 The current AI infrastructure buildout looks superficially similar to the dot-com broadband overbuild, but the risk profile is fundamentally different. The companies bearing the burden — Google, Microsoft, Amazon, Meta — are arguably the most profitable companies ever created. They can absorb potential capacity overbuild in a way that leveraged 2000-era telecoms could not.
 

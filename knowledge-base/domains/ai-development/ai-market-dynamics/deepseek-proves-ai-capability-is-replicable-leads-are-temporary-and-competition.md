@@ -54,7 +54,7 @@ related:
   - INS-260321-B7CB
   - INS-260322-5790
   - PRI-260321-05B5
-  - INS-260321-C4CD
+  - INS-260322-770D
 ---
 Andreessen highlights a critical pattern in AI competition: OpenAI appeared to have an insurmountable lead 2-3 years ago, then Anthropic caught up, then XAI caught up rapidly, and then DeepSeek — a Chinese hedge fund with no prior AI reputation — replicated frontier capabilities and released them as open source. The lesson is stark: once someone proves a capability is possible, it seems not to be that hard for others to catch up, even with far fewer resources.
 

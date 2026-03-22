@@ -39,7 +39,7 @@ related:
   - INS-260320-9FD5
   - PRI-260321-14D8
   - INS-260321-7D76
+  - INS-260322-CCAA
   - INS-260321-2D72
-  - INS-260321-D484
 ---
 Karpathy describes going from 80/20 writing code himself to 20/80 delegating to agents since December 2025. The new skill is parallelizing multiple agent sessions across repos, reviewing their work, and giving macro-level instructions. When your subscription has capacity left, you're not maximizing your throughput. Think of it like GPU utilization — idle tokens are wasted capability.

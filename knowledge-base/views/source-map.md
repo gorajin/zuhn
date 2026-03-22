@@ -1,5 +1,5 @@
 # Source Map
-Generated on 2026-03-22 | 55 sources
+Generated on 2026-03-22 | 67 sources
 
 | Source | Type | Insights | Date |
 |--------|------|----------|------|
@@ -16,11 +16,13 @@ Generated on 2026-03-22 | 55 sources
 | $215M AI CEO: How I’d Build a Profitable AI Startup in 30 Days (2026 Playbook) | youtube | 6 | 2026-03-22 |
 | Why we shifted to Spec-Driven Development | reddit | 6 | 2026-03-20 |
 | Claude for Finance | pdf | 5 | 2026-03-22 |
+| AI Eats the World: Benedict Evans on the Next Platform Shift | youtube | 5 | 2026-03-22 |
 | AI Markets: Deep Dive with a16z's David George | youtube | 5 | 2026-03-22 |
 | Atlassian CEO on the SaaS Apocalypse, AI Agents & What Comes Next | youtube | 5 | 2026-03-22 |
 | Ben Horowitz and David Solomon: The Sweetest Macro Spot in 40 Years | youtube | 5 | 2026-03-22 |
 | Emil Michael: The Department of War Is Moving Faster Than Silicon Valley on AI | The a16z Show | youtube | 5 | 2026-03-22 |
 | From $0 to $11B: The ElevenLabs Story | youtube | 5 | 2026-03-22 |
+| How AI Will Transform Fintech In 2026 | youtube | 5 | 2026-03-22 |
 | How To Get Unique AI Startup Ideas | youtube | 5 | 2026-03-22 |
 | How Truemed Is Incentivizing Americans to Invest in Prevention | youtube | 5 | 2026-03-22 |
 | Inside a16z’s Top 100 AI Apps Report with Olivia Moore | youtube | 5 | 2026-03-22 |
@@ -29,6 +31,7 @@ Generated on 2026-03-22 | 55 sources
 | Marc Andreessen's 2026 Outlook: AI Timelines, US vs. China, and The Price of AI | youtube | 5 | 2026-03-22 |
 | The AI Opportunity that goes beyond Models | youtube | 5 | 2026-03-22 |
 | The Biggest Bottlenecks For AI: Energy & Cooling | youtube | 5 | 2026-03-22 |
+| The Unicorn Founder Who Delegated Everything. | youtube | 5 | 2026-03-22 |
 | Where does consumer AI stand at the end of 2025? | youtube | 5 | 2026-03-22 |
 | Why Scale Will Not Solve AGI | Vishal Misra - The a16z Show | youtube | 5 | 2026-03-22 |
 | 200+ pages of Hugging Face secrets on how to train an LLM | reddit | 5 | 2026-03-20 |
@@ -39,10 +42,14 @@ Generated on 2026-03-22 | 55 sources
 | AI Is Coming For These 3 Industries In 2026 (a16z Big Ideas) | youtube | 4 | 2026-03-22 |
 | Andrew Huberman: Peptides, Sleep Tech, and the End of Obesity | youtube | 4 | 2026-03-22 |
 | Ben Horowitz on Investing in AI: AI Bubbles, Economic Impact, and VC Acceleration | youtube | 4 | 2026-03-22 |
+| How AI Agents Will Transform in 2026 (a16z Big Ideas) | youtube | 4 | 2026-03-22 |
 | How To Release A Single In 2026 (The Step-By-Step Plan) | youtube | 4 | 2026-03-22 |
+| “How We Can Eliminate Crime” | Ben Horowitz and Garrett Langley | youtube | 4 | 2026-03-22 |
 | iShowSpeed & MrBeast Leak The Secrets Of Youtube.. | youtube | 4 | 2026-03-22 |
 | NVIDIA's $1 Trillion Prediction, Anthropic Beats OpenAI, Tesla vs. TSMC & The CS Job Collapse | 240 | youtube | 4 | 2026-03-22 |
 | Palantir CEO on Iran, AI Weapons and American Domination | a16z American Dynamism Summit | youtube | 4 | 2026-03-22 |
+| The 2045 Superintelligence Timeline: Epoch AI’s Data-Driven Forecast | youtube | 4 | 2026-03-22 |
+| The Secret Marketing Strategy That Built a16z: From Zero to Legendary VC Firm | youtube | 4 | 2026-03-22 |
 | "중동 전쟁은 페이크다" 미국이 이란을 박살 낸 소름 돋는 진짜 이유 | youtube | 4 | 2026-03-22 |
 | Where to invest in a multipolar world (WW3?) | youtube | 4 | 2026-03-22 |
 | Ep. 243: Charlie Puth | The Long Road to Becoming Yourself | youtube | 3 | 2026-03-22 |
@@ -58,3 +65,8 @@ Generated on 2026-03-22 | 55 sources
 | What is one thing that you do to keep your dog happy? | reddit | 2 | 2026-03-20 |
 | Sound Design Breakdown [and tutorial] | reddit | 2 | 2026-03-20 |
 | [Tutorial] All there is to know about syncing video and audio | reddit | 2 | 2026-03-20 |
+| Emmett Shear on Building AI That Actually Cares: Beyond Control and Steering | youtube | 0 | 2026-03-22 |
+| How OpenAI Builds for 800 Million Weekly Users: Model Specialization and Fine-Tuning | youtube | 0 | 2026-03-22 |
+| Robinhood CEO: Making Everyone An Owner | youtube | 0 | 2026-03-22 |
+| The $700 Billion AI Productivity Problem No One's Talking About | youtube | 0 | 2026-03-22 |
+| Why AI Moats Still Matter (And How They've Changed) | youtube | 0 | 2026-03-22 |

@@ -40,15 +40,15 @@ resolutions:
     different workers adopt for different reasons, and one-size-fits-all
     deployment fails.
 related:
-  - INS-260320-8B06
   - INS-260320-39A3
   - PRI-260320-5947
   - INS-260321-8382
   - INS-260321-3EC0
+  - INS-260322-760A
   - PRI-260321-7307
   - INS-260321-1749
-  - INS-260321-8414
   - INS-260321-C0A4
   - INS-260321-3521
+  - INS-260321-2241
 ---
 MIT's survey found trust is the key predictor of how workers perceive AI — not technical knowledge, which is less of a barrier than expected. Workers motivated by learning and career growth embrace AI; those motivated primarily by money are neutral. One company designed an AI decision support tool with top performers, but when rolling it out to the broader workforce, adoption was low because what works for enthusiastic early adopters doesn't work for skeptics. An alternative approach: build for the most skeptical workers first — if you can win them, you can win anyone. The deeper insight: different workers adopt for different reasons, and one-size-fits-all deployment fails.

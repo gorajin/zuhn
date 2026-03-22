@@ -41,10 +41,9 @@ resolutions:
     lesson: measure AI value by capabilities unlocked, not time saved.
 related:
   - INS-260320-E683
-  - INS-260321-167A
   - INS-260321-A56C
+  - INS-260322-59B9
   - INS-260321-7D76
   - INS-260322-054E
-  - INS-260321-A5D4
 ---
 Companies initially measured gen AI value by labor savings (like RPA or robots). This proved incomplete. Individual productivity gains are hard to connect to the bottom line — faster task completion doesn't automatically mean less cost or more revenue. The most promising use cases aren't about speed — they're about unlocking capabilities that previous tools couldn't address: doctors summarizing notes (a longstanding pain), lawyers categorizing contracts with subtle differences. These succeed because workers already understood and were motivated to solve these problems. The lesson: measure AI value by capabilities unlocked, not time saved.

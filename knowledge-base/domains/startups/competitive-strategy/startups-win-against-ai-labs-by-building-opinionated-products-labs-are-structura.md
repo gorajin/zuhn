@@ -53,6 +53,7 @@ related:
   - PRI-260321-14D8
   - INS-260321-4E98
   - INS-260322-3C3D
+  - INS-260322-770D
   - INS-260321-9EBB
 ---
 Despite dozens of consumer product launches from OpenAI and Google in 2025 — group chat, Pulse, Atlas, Sora social, Stitch, Gems, Opal, Doppel — almost none gained traction beyond Notebook LM. The a16z team attributes this to a structural problem: at big companies, mid-career PMs get promoted by building safe features that extend core metrics, not by shipping risky opinionated products that might fail or create legal/compliance headaches.

@@ -60,13 +60,14 @@ resolutions:
 related:
   - INS-260321-2482
   - INS-260321-1A0B
-  - INS-260321-9A03
   - INS-260321-2241
   - INS-260321-4E98
   - INS-260321-B7CB
   - PRI-260321-7307
-  - INS-260322-A14D
   - INS-260322-D0F6
+  - INS-260322-2D2F
+  - INS-260322-760A
+  - INS-260322-BD0D
 ---
 Atlassian's experience deploying agents in Jira revealed a fundamental design paradox: when they gave users detailed step-by-step visibility into what the agent was doing, users complained about information overload. When they reduced visibility, users lost trust and demanded to know what was happening. This mirrors what Cannon-Brookes calls the '50 interns problem' — having 50 interns gets a lot of work done, but they also ask you 50 questions per minute.
 

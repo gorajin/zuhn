@@ -55,7 +55,7 @@ related:
   - INS-260322-A14D
   - PRI-260321-2DF0
   - PRI-260321-0A4D
-  - INS-260321-347D
+  - INS-260322-2D2F
 ---
 Andreessen reports that federal AI regulation risk has decreased substantially — bipartisan consensus in DC now prioritizes not losing to China over restricting AI. The danger has shifted to state legislatures, where a16z is tracking over 1,200 AI bills across all 50 states, from both blue and red states.
 

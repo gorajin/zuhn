@@ -39,7 +39,7 @@ related:
   - INS-260320-7914
   - PRI-260320-BC72
   - INS-260321-015B
+  - INS-260322-CCAA
   - PRI-260321-7307
-  - INS-260321-2482
 ---
 Karpathy replaced six separate smart home apps with a single agent (Dobby) that discovered APIs via network scanning, reverse-engineered endpoints, and unified everything under natural language control. The implication: the customer is no longer the human — it's agents acting on behalf of humans. The industry needs to reconfigure: make APIs available, let agents compose them. Bespoke UIs become unnecessary when agents handle orchestration.

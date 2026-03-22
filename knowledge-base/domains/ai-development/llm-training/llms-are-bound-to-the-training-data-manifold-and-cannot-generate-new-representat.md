@@ -46,9 +46,9 @@ related:
   - INS-260321-B8E8
   - INS-260321-E59A
   - INS-260321-7D7C
+  - INS-260322-474A
   - PRI-260321-7307
   - INS-260322-B33E
-  - INS-260321-D959
   - INS-260321-28FB
 ---
 The universe is a complex space that humans map into a lower-dimensional manifold through language and mathematics. LLMs learn this human-created manifold and use Bayesian inference to navigate it. But they cannot generate a new manifold — which is exactly what Einstein did when he rejected Newtonian axioms and created general relativity's space-time representation. All the clues existed before Einstein (Mercury's orbit anomaly, Michelson-Morley experiments, etc.), but a correlation engine would treat the anomalies as noise because the overwhelming weight of existing data says 'Newtonian mechanics works.' Misra's 'Einstein test' for AGI: train an LLM on pre-1916 physics and see if it can derive relativity. It won't, because that requires creating a new manifold — the Kolmogorov complexity leap.

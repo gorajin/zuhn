@@ -1,6 +1,6 @@
 # Domain: investing
 
-> 28 insights across 8 topics
+> 32 insights across 9 topics
 
 ## Topics
 
@@ -10,6 +10,7 @@
 | ai-business-models | 3 | AI model input costs have declined 99%+ in two years (faster than Moore's law) while quality doubles every 7 months — meaning today's thin margins on AI apps will likely expand dramatically as long as model competition persists. |
 | ai-infrastructure | 2 | Energy is the current AI infrastructure bottleneck (driving renewed interest in nuclear), but once solved, cooling becomes the next constraint — creating a wave of innovation opportunity around thermal management. |
 | ai-market-dynamics | 2 | All inputs to AI are falling in cost faster than Moore's law predicted for chips, creating hyperdeflation in per-unit intelligence costs that will drive enormous elastic demand growth. |
+| fintech | 4 | Financial fraud is growing 18-20% per year because AI-powered fraud (deepfakes, pig butchering, automated scams) is outpacing defensive AI tools. |
 | geopolitics | 17 | Unlike the dot-com era, AI capex is financed by the most profitable companies in history and there are 'no dark GPUs' (every deployed GPU gets fully utilized immediately), but private credit entering the data center buildout and Oracle's massive cash-flow-negative bet are early warning signals. |
 | macro-environment | 1 | Goldman's CEO identifies the current US macro environment as the sweetest spot in 40 years: fiscal stimulus, rate-cutting cycle, capital investment super cycle, and deregulatory unwind all happening simultaneously. |
 | vc-management | 1 | In VC, waiting 10-15 years for portfolio outputs to evaluate GP performance is dangerously slow — judge by deal-sourcing quality, win rate, and investment quality at the time of decision. |

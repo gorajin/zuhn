@@ -55,13 +55,13 @@ related:
   - INS-260320-93E1
   - INS-260320-DDD9
   - INS-260320-5F14
-  - INS-260320-080B
-  - INS-260320-76E7
   - INS-260321-8382
   - INS-260321-F864
   - INS-260321-167A
   - INS-260321-4178
   - PRI-260321-7307
+  - INS-260321-D4D0
+  - INS-260321-99C0
 ---
 Karp describes a universal failure mode among tech founders engaging with government and defense: because they're intelligent in one domain, they assume competence transfers to all domains. A brilliant engineer decides they should personally negotiate a defense contract. A product genius assumes they understand military operations.
 

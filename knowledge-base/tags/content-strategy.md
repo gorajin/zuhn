@@ -1,5 +1,6 @@
 # Tag: content-strategy
 
+- `INS-260322-CCAA` As agents become intermediaries between users and systems, optimization shifts from visual design to machine-readable structure and insight density.
 - `INS-260321-3312` Music is now attached to YOU, not to a format — your job is not to promote a song (temporary) but to build a content machine (permanent) where your music is the superpower that gets you attention.
 - `INS-260321-69E1` A16z hired an 18-year-old for Instagram (up 35% MoM) because each platform has its own vibe, taste, and spirit — crossposting one idea everywhere fails to appreciate what each platform rewards.
 - `INS-260320-630D` Frame your product as a solution to a problem, not a toy — a video framing Coconote as a fun toy got 41M views but terrible conversion, while solution-framed videos converted far better.

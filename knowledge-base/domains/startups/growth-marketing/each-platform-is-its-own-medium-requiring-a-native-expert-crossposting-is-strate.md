@@ -57,7 +57,7 @@ related:
   - INS-260321-AACC
   - INS-260322-EDA4
   - PRI-260321-5857
-  - INS-260322-AC23
+  - INS-260322-5678
 ---
 A16z's new media strategy treats each platform as a fundamentally different medium, following McLuhan's principle that the medium is the message. They hired platform-native experts for each channel: an 18-year-old for Instagram (growing 35% month-over-month), another 18-year-old for video production. These people grew up on the platforms and understand the vibe, taste, and spirit natively.
 

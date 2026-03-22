@@ -17,15 +17,18 @@ None.
 - ai-development/claude-code has 33 insights but related automation/n8n-workflows has only 9
 - ai-development/claude-code has 33 insights but related ai-development/system-building has only 10
 - ai-development/claude-code has 33 insights but related ai-development/ai-automation has only 8
+- ai-development/future-of-work has 15 insights but related investing/fintech has only 4
 - startups/growth-marketing has 28 insights but related ai-development/ai-automation has only 8
 - startups/growth-marketing has 28 insights but related video-production/content-strategy has only 3
 - startups/growth-marketing has 28 insights but related startups/ideation has only 9
 - startups/growth-marketing has 28 insights but related startups/ai-business-models has only 7
-- startups/growth-marketing has 28 insights but related startups/competitive-strategy has only 2
+- startups/growth-marketing has 28 insights but related startups/competitive-strategy has only 3
 - startups/growth-marketing has 28 insights but related investing/ai-business-models has only 3
-- startups/founder-mindset has 13 insights but related startups/competitive-strategy has only 2
+- startups/founder-mindset has 13 insights but related startups/competitive-strategy has only 3
+- ai-development/ai-market-dynamics has 19 insights but related startups/competitive-strategy has only 3
 - ai-development/ai-market-dynamics has 19 insights but related investing/ai-business-models has only 3
+- ai-development/ai-market-dynamics has 19 insights but related ai-development/adoption has only 3
 - investing/geopolitics has 17 insights but related investing/ai-infrastructure has only 2
 
 ## TRANSFER
-None.
+- "AI companies are model-busters — they grow faster than any spreadsheet predicts, and the capex is structurally different from dot-com" (investing) may apply to ai-development/economics (sim: 0.76)

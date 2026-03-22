@@ -51,8 +51,8 @@ related:
   - PRI-260320-5D78
   - INS-260322-8147
   - INS-260320-C65B
+  - INS-260322-0D87
   - INS-260321-1749
-  - INS-260320-DADA
 ---
 Sankar draws a direct line between entertainment and national capability. His own assimilation as a Nigerian immigrant happened through 80s/90s movies — Hunt for Red October, Red Dawn, Rambo. He 'knew what it felt like to be American before he knew civics.' After 300, Navy SEAL recruitment spiked even though it was about Spartans. Top Gun Maverick reminded an entire generation what American confidence felt like.
 

@@ -50,5 +50,6 @@ related:
   - INS-260321-C14C
   - INS-260321-167A
   - INS-260321-D3BE
+  - INS-260322-EE1B
 ---
 Young's daily practice: share every major decision with ChatGPT or Gemini — forward screenshots of group discussions, drop links to PRDs and specs, document decisions as they happen. Monthly ritual: ask AI 'what are my major decisions in the past month, give me feedback.' With 6+ months of accumulated context, you can ask powerful reflective questions: 'What was my biggest mistake in the past 6 months?' or 'What would you have suggested 3 months ago?' Mustafa Suleiman (Microsoft AI CEO) does the same with Copilot — talks about his day, his decisions, how they made him feel, so that when similar situations arise months later, the AI can reference past regrets and outcomes. The key skill is not one-line prompts but throwing maximum context and doing 20+ rounds of back-and-forth.

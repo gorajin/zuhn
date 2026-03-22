@@ -56,7 +56,6 @@ resolutions:
     is moving from environment-level interventions to body-level interventions —
     more precise, more effective, more portable.
 related:
-  - INS-260320-26B1
   - INS-260321-9AB5
   - INS-260322-3A00
   - INS-260322-C472

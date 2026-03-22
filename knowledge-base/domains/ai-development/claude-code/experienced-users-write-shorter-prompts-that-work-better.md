@@ -42,12 +42,11 @@ resolutions:
 related:
   - INS-260320-E872
   - INS-260320-DC3C
-  - INS-260320-47DC
   - INS-260320-9FD5
   - INS-260321-A56C
-  - INS-260321-988C
   - PRI-260321-037A
   - PRI-260320-6847
   - INS-260321-E2FC
+  - INS-260322-191F
 ---
 Counterintuitive finding: optimal prompt length is 150-300 words, and performance degrades around 3,000 tokens. Beginners add more instructions hoping for better output, but this creates noise. Experts compress: they define what the output should BE (description) rather than adding steps for what the model should DO (instructions). 'Think step by step' now actively hurts results with newer reasoning models. The difference between 40% and 90% quality output isn't more words — it's structural clarity. Iteration produces quality: first outputs rarely represent final quality, and most people stop after Round 1.

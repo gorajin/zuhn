@@ -1,6 +1,6 @@
 # Knowledge Base Master Index
 
-> Last rebuilt: 2026-03-22 | Total insights: 289 | Sources: 56
+> Last rebuilt: 2026-03-22 | Total insights: 320 | Sources: 63
 
 **NOTE:** Access counts and last_accessed are updated automatically when insights are retrieved.
 
@@ -8,12 +8,12 @@
 
 | Domain | Topics | Insights | Principles | Last Updated |
 | ------ | ------ | -------- | ---------- | ------------ |
-| ai-development | 17 | 145 | 13 | 2026-03-22 |
+| ai-development | 27 | 160 | 13 | 2026-03-22 |
 | automation | 2 | 12 | 2 | 2026-03-20 |
-| investing | 8 | 28 | 4 | 2026-03-22 |
+| investing | 9 | 32 | 4 | 2026-03-22 |
 | music-production | 3 | 9 | 0 | 2026-03-21 |
 | pets | 1 | 2 | 0 | 2026-03-20 |
-| startups | 17 | 86 | 6 | 2026-03-22 |
+| startups | 23 | 98 | 6 | 2026-03-22 |
 | video-production | 3 | 7 | 0 | 2026-03-21 |
 
 ## Mental Models
@@ -25,7 +25,7 @@
 
 ## Top Tags
 
-agents(13) automation(11) n8n(11) content-strategy(11) workflow(9) prompting(9) productivity(8) skills(8) hooks(8) llm-costs(8) scaling(7) china(7) spec-driven-dev(7) trust(6) consumer-ai(6) competitive-advantage(6) youtube(6) ai-applications(6) debugging(5) robotics(5)
+agents(13) automation(12) content-strategy(12) n8n(11) workflow(10) productivity(9) prompting(9) trust(8) scaling(8) skills(8) hooks(8) llm-costs(8) china(7) leverage(7) spec-driven-dev(7) saas(6) consumer-ai(6) ai-adoption(6) competitive-advantage(6) youtube(6)
 
 ## Flags (for Claude)
 
@@ -33,6 +33,9 @@ _No flags._
 
 ## Recently Added (last 7 days)
 
+- `INS-260322-3159` Just as enterprise SaaS companies unbundled Oracle and Excel into 400-500 dedicated apps per company, AI software companies will unbundle ChatGPT by wrapping AI capabilities into specific industry workflows. _(2026-03-22)_
+- `INS-260322-F891` AI only saves time when verification is cheaper than doing the task manually — generating 200 marketing images to pick 10 works, but AI copying 200 numbers from PDFs that all need checking doesn't. _(2026-03-22)_
+- `INS-260322-3263` ChatGPT has 900M weekly active users but only 10-15% use it daily — 5x more people know how to use AI than can think of something to do with it, revealing a product-market fit gap not a technology gap. _(2026-03-22)_
 - `INS-260322-8BD1` The AI industry will likely cascade like the computer industry — a few supercomputer-class god models at the top, with the real volume in smaller models deployed down to embedded systems in every physical object. _(2026-03-22)_
 - `INS-260322-299C` DeepSeek's surprise replication of frontier model capabilities from a hedge fund proves that AI leads are inherently temporary — once capability is demonstrated, others catch up quickly with far fewer resources. _(2026-03-22)_
 - `INS-260322-D0F6` For the first time, a genuine threat exists to systems of record — not through better UI (which failed in SaaS 2.0) but because AI agents collapse the distance between user intent and execution. _(2026-03-22)_
@@ -40,13 +43,25 @@ _No flags._
 - `INS-260322-C5BD` The biggest US AI policy risk has shifted from federal overregulation to 1,200+ state-level bills that could create a patchwork of incompatible AI regulations across 50 states. _(2026-03-22)_
 - `INS-260322-8147` The next industrial revolution isn't just factories — it's the shared component stack (batteries, motors, power electronics, compute) that powers EVs, drones, data centers, and manufacturing. _(2026-03-22)_
 - `INS-260322-B33E` AI reasoning capabilities plus robot learning are converging to create autonomous labs that accelerate scientific discovery across life sciences, chemistry, and materials. _(2026-03-22)_
+- `INS-260322-32E3` Math and formal reasoning are domains where RL-based AI training works especially well, making AI-driven proofs of major unsolved math problems plausible within 5 years. _(2026-03-22)_
 - `INS-260322-1D52` Unlike traditional software where nine women can't have a baby in one month, AI allows companies to throw money and GPUs at problems — meaning leads that took years to build can be closed in months. _(2026-03-22)_
 - `INS-260322-0C28` Only 9% of consumers pay for more than one LLM assistant, and less than 10% of ChatGPT users even visit competitors — signaling winner-take-most dynamics in general AI. _(2026-03-22)_
 - `INS-260322-7DD5` 2026 marks when major consumer AI products shift from helping you work to helping you stay connected — understanding who you are and facilitating real human relationships. _(2026-03-22)_
 - `INS-260322-B09B` Labs are merging previously separate text, image, and video capabilities into unified models that accept any input modality and produce any output — transforming design and creative workflows. _(2026-03-22)_
 - `INS-260322-0812` The most viral consumer AI moments of 2025 were all image/video — Ghibli, Nano Banana, VO3, Sora 2 — making multimodal generation the primary driver of new user acquisition. _(2026-03-22)_
+- `INS-260322-770D` AI labs are already profitable on current models — the bubble risk lies entirely in whether future capex on larger models will produce proportionally larger returns. _(2026-03-22)_
+- `INS-260322-750D` AI voice agents in loan servicing and collections can speak 50 languages, maintain perfect UDAP compliance, and deliver better customer experiences — reorienting fintech TAM from IT budgets to labor costs. _(2026-03-22)_
+- `INS-260322-474A` AI automating AI R&D won't produce runaway self-improvement because research requires proportional scaling of experimental compute, not just more researchers. _(2026-03-22)_
 - `INS-260322-4090` Voice uniquely carries emotional information that text and images cannot — making it the AI modality most capable of creating genuine human connection and feeling. _(2026-03-22)_
+- `INS-260322-59B9` The total percentage of jobs automated matters less than whether displacement happens gradually (manageable) or in a 6-month shock (potentially destabilizing). _(2026-03-22)_
 - `INS-260322-A14D` a16z's AI policy framework: don't regulate mathematical models themselves, regulate their applications — and prevent 50 states from creating incompatible AI laws that would make innovation impossible for startups. _(2026-03-22)_
+- `INS-260322-CCAA` As agents become intermediaries between users and systems, optimization shifts from visual design to machine-readable structure and insight density. _(2026-03-22)_
+- `INS-260322-68FE` The next generation of AI apps will observe user behavior and proactively suggest actions rather than waiting for prompts. _(2026-03-22)_
+- `INS-260322-E734` Unlike previous platform shifts where physical limits were known (modem speeds, battery life, fiber deployment), AI's theoretical limits are unknown because we don't fully understand why it works or what human intelligence is. _(2026-03-22)_
+- `INS-260322-5678` Each platform shift (PCs, web, mobile) succeeded not by doing the previous thing better, but by enabling entirely new behaviors — AI will likely follow the same pattern of creating new categories rather than replacing existing software. _(2026-03-22)_
+- `INS-260322-888D` Flock Safety's AI-matched license plate system has facilitated about 1 million arrests of the correct person, shifting policing from subjective profiling to objective evidence-based identification. _(2026-03-22)_
+- `INS-260322-191F` Some voice AI companies intentionally add latency and background noise to make agents sound more human, revealing that performance has outpaced user comfort. _(2026-03-22)_
+- `INS-260322-091C` In banking and financial services, voice AI actually outperforms humans because humans frequently violate compliance regulations while AI gets it right every time and can be audited. _(2026-03-22)_
 - `INS-260322-90E7` AI roll-up strategies succeed when you buy one company with blue-chip clients as your entry point for national AI deployment, not when you serially acquire local businesses. _(2026-03-22)_
 - `INS-260322-5790` AI model input costs have declined 99%+ in two years (faster than Moore's law) while quality doubles every 7 months — meaning today's thin margins on AI apps will likely expand dramatically as long as model competition persists. _(2026-03-22)_
 - `INS-260322-B641` In a reversal of the traditional software pattern where enterprise was stickier than consumer, consumer AI (ChatGPT) is proving stickier than B2B model access — because switching a family's habits is harder than switching an API call. _(2026-03-22)_
@@ -55,6 +70,10 @@ _No flags._
 - `INS-260322-6DFC` Unlike the dot-com broadband buildout funded by leveraged telecoms, today's $400B+ AI infrastructure buildout is funded by the most profitable companies ever created — Google, Microsoft, Amazon, Meta — making systemic risk fundamentally lower. _(2026-03-22)_
 - `INS-260322-D079` All inputs to AI are falling in cost faster than Moore's law predicted for chips, creating hyperdeflation in per-unit intelligence costs that will drive enormous elastic demand growth. _(2026-03-22)_
 - `INS-260322-BBED` AI's economic impact and design space exceeds the internet era, meaning more companies will reach $1B+ and $10B+ valuations than in previous technology cycles. _(2026-03-22)_
+- `INS-260322-2D2F` Financial fraud is growing 18-20% per year because AI-powered fraud (deepfakes, pig butchering, automated scams) is outpacing defensive AI tools. _(2026-03-22)_
+- `INS-260322-BC97` The fintech industry has largely digitized traditional financial services (access), but hasn't yet made them excellent — better credit scoring, smarter risk models, and real financial intelligence are the next frontier. _(2026-03-22)_
+- `INS-260322-88FC` Major banks like Goldman Sachs went from building their own email clients to adopting Cursor and GitHub Copilot — AI's intuitive demonstrability is accelerating institutional openness to external technology. _(2026-03-22)_
+- `INS-260322-760A` The 'self-driving money' app that automatically allocates paychecks, sweeps savings, and invests is technically feasible but faces a trust barrier — most consumers don't understand or trust the agent's actions. _(2026-03-22)_
 - `INS-260322-B369` Goldman's CEO identifies the current US macro environment as the sweetest spot in 40 years: fiscal stimulus, rate-cutting cycle, capital investment super cycle, and deregulatory unwind all happening simultaneously. _(2026-03-22)_
 - `INS-260322-3646` In VC, waiting 10-15 years for portfolio outputs to evaluate GP performance is dangerously slow — judge by deal-sourcing quality, win rate, and investment quality at the time of decision. _(2026-03-22)_
 - `INS-260322-03DD` a16z was criticized for raising their first fund in 2009 during the financial crisis, but it turned out that raising when nobody else has capital gives structural advantages in deal access and pricing. _(2026-03-22)_
@@ -65,21 +84,33 @@ _No flags._
 - `INS-260322-E20E` AI application companies should price by business value delivered or productivity uplift, not by token consumption — cost-based pricing systematically undercharges as AI costs deflate. _(2026-03-22)_
 - `INS-260322-054E` The largest AI opportunity is not replacing existing software but replacing labor tasks where the cost-to-value equation was previously inverted. _(2026-03-22)_
 - `INS-260322-837A` Companies with proprietary data that previously sold raw access can now deliver finished AI-powered products, multiplying revenue by 5-100x. _(2026-03-22)_
+- `INS-260322-5745` When an industry treats marketing as beneath it, the first firm to market aggressively gains a permanent structural advantage. _(2026-03-22)_
 - `INS-260322-FCFC` Companies where AI reinforces the business model by driving revenue — not just cutting costs — see dramatically stronger market pull and adoption. _(2026-03-22)_
 - `INS-260322-B450` The best consumer AI companies achieve over 100% net revenue retention through usage-based pricing on top of subscriptions — something never seen before in consumer software. _(2026-03-22)_
-- `INS-260322-5831` ElevenLabs' co-founders Mati and Peter are childhood best friends with complementary skills — one product-focused, one research-focused — and their deep mutual trust enables the company to move at extreme speed. _(2026-03-22)_
-- `INS-260322-7282` Owning the full workflow from intake to outcome generates proprietary data that public models can't replicate — creating a compounding competitive advantage. _(2026-03-22)_
+- `INS-260322-9DDD` a16z's platform model worked because its founders had been VC customers (entrepreneurs), giving them a perspective that career VCs structurally couldn't have. _(2026-03-22)_
 - `INS-260322-CFB1` AI-native startups win most reliably at greenfield moments — new company creation or inflection points where customers must switch systems anyway — rather than trying to displace incumbent software. _(2026-03-22)_
 - `INS-260322-7723` AI labs and big tech are structurally incapable of building opinionated standalone consumer products because their promo committees incentivize safe, incremental features over risky bets. _(2026-03-22)_
+- `INS-260322-7B71` Timeless how-to content (like 'Good Product Manager Bad Product Manager') compounds in value while opinion pieces about market bubbles are forgotten quickly. _(2026-03-22)_
+- `INS-260322-7282` Owning the full workflow from intake to outcome generates proprietary data that public models can't replicate — creating a compounding competitive advantage. _(2026-03-22)_
+- `INS-260322-DAFB` Entry-level delegation assigns tasks; advanced delegation exports your internal preferences and decision criteria as repeatable algorithms. _(2026-03-22)_
+- `INS-260322-AD9B` It IS faster to do it yourself the first time — but accepting that upfront cost is the only path to compounding leverage. _(2026-03-22)_
+- `INS-260322-B264` The best delegators use voice notes rather than text — voice is 2-3x faster, can be done on the go, and captures nuance that typing misses. _(2026-03-22)_
+- `INS-260322-5831` ElevenLabs' co-founders Mati and Peter are childhood best friends with complementary skills — one product-focused, one research-focused — and their deep mutual trust enables the company to move at extreme speed. _(2026-03-22)_
+- `INS-260322-25B4` Technology-driven intelligence (cameras, drones, license plate readers, AI orchestration) creates a third path between harsh punishment and under-enforcement by making crime detection near-certain, which deters crime without mass incarceration. _(2026-03-22)_
+- `INS-260322-0D87` A Teach for America model for law enforcement — serve 2-4 years, get student debt retired — could solve the policing staffing crisis by resetting cultural stigma and attracting college-educated talent. _(2026-03-22)_
+- `INS-260322-5F87` Private companies and individuals funding police technology (less than 1% of police budgets) can transform public safety because city budgets are too rigid and debt-laden to make marginal tech investments. _(2026-03-22)_
 - `INS-260322-D059` Emerging research in metabolic psychiatry shows that conditions like depression, epilepsy, and even schizophrenia often have metabolic root causes — and interventions like ketogenic diets, gut health, and inflammation reduction can outperform traditional talk therapy and SSRIs. _(2026-03-22)_
 - `INS-260322-3A00` Peptides represent a shift from pharmaceuticals designed to prevent death (statins) to compounds that enhance human performance — more energy, better gut health, reduced inflammation — and because they are not patentable, they threaten the pharma business model. _(2026-03-22)_
 - `INS-260322-F6C3` Like zoo animals that develop diseases their wild counterparts never get, humans in modern environments develop chronic disease because the environment is structurally unhealthy — the solution is fixing the environment, not demanding individual discipline. _(2026-03-22)_
+- `INS-260322-82E8` Senior executives are professional interviewers — get signal from their 360 reviews at previous companies and do enough references until answers converge. _(2026-03-22)_
 - `INS-260322-AC23` ElevenLabs hired from non-traditional backgrounds by looking for proof of excellence — open-source projects, side projects, or standout achievements — rather than conventional credentials. _(2026-03-22)_
 - `INS-260322-D051` US crop subsidies for corn, soy, and wheat made these ingredients artificially cheap, causing food companies to systematically replace real ingredients with processed versions — driving the chronic disease epidemic since the 1970s. _(2026-03-22)_
 - `INS-260322-F868` Truemed built infrastructure that lets people use existing tax-free HSA/FSA dollars on lifestyle interventions, redirecting billions toward prevention without requiring new legislation or payer buy-in. _(2026-03-22)_
+- `INS-260322-BD0D` You can't market a company without a character, but the character must be real and sustainable — manufactured personas always collapse over time. _(2026-03-22)_
 - `INS-260322-F609` ElevenLabs removed all titles, which simultaneously filtered out ego-driven candidates and eliminated implicit bias in idea-sharing and collaboration. _(2026-03-22)_
-- `INS-260322-3C3D` ElevenLabs' core advantage comes from product teams talking directly to research teams — product provides real user feedback, research iterates immediately, and models get tested directly on the product. _(2026-03-22)_
 - `INS-260322-BFDE` Andy Grove's lesson to Ben Horowitz: if you lead an industry, its growth depends on you — you must expand the entire market, not just compete for existing share. _(2026-03-22)_
+- `INS-260322-EE1B` There's a power law in everything — identify the single most important thing each period and go all-in before distributing effort across secondary goals. _(2026-03-22)_
+- `INS-260322-3C3D` ElevenLabs' core advantage comes from product teams talking directly to research teams — product provides real user feedback, research iterates immediately, and models get tested directly on the product. _(2026-03-22)_
 - `INS-260321-2482` When agents fail, the instinct now is 'I gave bad instructions' not 'the AI can't do this' — most failures are configuration problems, not capability limits. _(2026-03-21)_
 - `INS-260321-D3BE` Stop thinking in lines of code — think in macro actions: 'agent 1 builds feature X, agent 2 researches Y, agent 3 plans Z' — then review their work. _(2026-03-21)_
 - `INS-260321-8382` Agent personality matters more than most tool builders realize — Claude feels like a teammate who cares about your project; Codex feels dry and transactional. _(2026-03-21)_
@@ -140,13 +171,6 @@ _No flags._
 - `INS-260321-801C` Fuelfinance is building an MCP integration that lets Claude talk directly to your financial data inside Fuel — eliminating the copy-paste bottleneck between your accounting system and AI analysis. _(2026-03-21)_
 - `INS-260321-9906` Natural language interfaces change who can program a robot, not just what it can do — but they trade a small precise vocabulary (preprogrammed tasks) for a large ambiguous one where the boundary of understanding is opaque. _(2026-03-21)_
 - `INS-260321-167A` Finance has three jobs: explain what happened (the metric), why it happened (the business decision), and what to do next (the action with timeline). Most teams nail the first and struggle with the second. _(2026-03-21)_
-- `INS-260321-13EA` Release on Friday (international release day) with minimum 4 weeks from master delivery — things go wrong with aggregators, you need time to pitch DSPs, and thinking 'I'll release on Tuesday to fox them' is thinking small. _(2026-03-21)_
-- `INS-260321-E529` Your content feed must feel episodic like a TV show — if each post is a different genre (live, mimed, behind-scenes, different clothes), viewers get the Game of Thrones problem where every episode is a different show. _(2026-03-21)_
-- `INS-260321-F0DF` TikTok Live has massive viewer supply but low creator supply — musicians going live regularly earn $10K+/month from TikTok payments while building thousands of followers per week. _(2026-03-21)_
-- `INS-260321-3312` Music is now attached to YOU, not to a format — your job is not to promote a song (temporary) but to build a content machine (permanent) where your music is the superpower that gets you attention. _(2026-03-21)_
-- `INS-260321-6D01` Puth's best work follows a two-phase pattern: solo marination where the song develops in his head, then collaboration where others refine and constrain his tendencies. _(2026-03-21)_
-- `INS-260321-9C2E` Charlie Puth's vast musical index becomes a liability without collaborators to constrain him — 'if you only know one sound, you'll use it, but too many options means you need someone to tell you to sit down.' _(2026-03-21)_
-- `INS-260321-A6A6` 808 bass was originally untuned and felt through car Alpine systems — now it must be intentionally distorted and mixed to be heard on laptop speakers, fundamentally changing production technique. _(2026-03-21)_
 - `INS-260321-CBD2` Unlike the dot-com era, AI capex is financed by the most profitable companies in history and there are 'no dark GPUs' (every deployed GPU gets fully utilized immediately), but private credit entering the data center buildout and Oracle's massive cash-flow-negative bet are early warning signals. _(2026-03-21)_
 - `INS-260321-4B99` Factory capacity for DRAM and NAND is fixed, but AI demand pays so much more that producers shifted mass production lines to HBM — making consumer memory prices rise in tandem. _(2026-03-21)_
 - `INS-260321-F2C4` 25% of business development company portfolios are in software companies — the sector most disrupted by AI — with 31% of debts maturing in the next two years. _(2026-03-21)_
@@ -164,9 +188,23 @@ _No flags._
 - `INS-260321-9E91` The US has wanted to pivot to Asia since the 2000s but keeps getting stuck in the Middle East. IMEC's purpose is to bind Middle Eastern nations economically so they manage their own region, freeing the US to focus on China. _(2026-03-21)_
 - `INS-260321-5655` Venezuela, Iran, Greenland — every major US foreign policy move is about creating oil and resource chokepoints against China, not the surface-level reasons given publicly. _(2026-03-21)_
 - `INS-260321-D4D0` The Iran operation isn't about religion or revenge — it's about clearing the physical obstacle blocking a logistics highway. International politics is leaders playing Go with a map; military power, resource control, and money are stronger than ideology. _(2026-03-21)_
+- `INS-260321-13EA` Release on Friday (international release day) with minimum 4 weeks from master delivery — things go wrong with aggregators, you need time to pitch DSPs, and thinking 'I'll release on Tuesday to fox them' is thinking small. _(2026-03-21)_
+- `INS-260321-E529` Your content feed must feel episodic like a TV show — if each post is a different genre (live, mimed, behind-scenes, different clothes), viewers get the Game of Thrones problem where every episode is a different show. _(2026-03-21)_
+- `INS-260321-F0DF` TikTok Live has massive viewer supply but low creator supply — musicians going live regularly earn $10K+/month from TikTok payments while building thousands of followers per week. _(2026-03-21)_
+- `INS-260321-3312` Music is now attached to YOU, not to a format — your job is not to promote a song (temporary) but to build a content machine (permanent) where your music is the superpower that gets you attention. _(2026-03-21)_
+- `INS-260321-A6A6` 808 bass was originally untuned and felt through car Alpine systems — now it must be intentionally distorted and mixed to be heard on laptop speakers, fundamentally changing production technique. _(2026-03-21)_
 - `INS-260321-86E7` As AI-generated articles surpass human-written ones and AI slop floods social media, audiences will increasingly seek out authentic creators with long-term trusted brands. _(2026-03-21)_
 - `INS-260321-4280` With 10,000+ hours of footage online, any inauthenticity would surface as visible inconsistencies — authenticity is not a choice but a mathematical constraint at scale. _(2026-03-21)_
 - `INS-260321-AACC` MrBeast spent a decade obsessing over one question: what makes content enjoyable for anyone regardless of geography? The answer is universal human experiences. _(2026-03-21)_
+- `INS-260321-6D01` Puth's best work follows a two-phase pattern: solo marination where the song develops in his head, then collaboration where others refine and constrain his tendencies. _(2026-03-21)_
+- `INS-260321-9C2E` Charlie Puth's vast musical index becomes a liability without collaborators to constrain him — 'if you only know one sound, you'll use it, but too many options means you need someone to tell you to sit down.' _(2026-03-21)_
+- `INS-260321-7D76` A common mistake is automating wherever it's easiest rather than wherever the constraint actually is. The single biggest bottleneck in your process probably accounts for most of the available gains. Find that one thing. Automate that. _(2026-03-21)_
+- `INS-260321-2D72` Code's real advantage isn't zero marginal cost of serving users — it's zero-cost experimentation. A/B test, deploy, roll back, iterate at near-zero cost per cycle. Your competitive advantage is learning speed, not serving speed. _(2026-03-21)_
+- `INS-260321-31B3` Ship product updates 6 days per week because AI model improvements reset the entire industry every month. _(2026-03-21)_
+- `INS-260321-FE91` Opus Clip validated by manually engineering final video outputs and emailing them to potential customers, getting 60% positive feedback before writing a single line of product code. _(2026-03-21)_
+- `INS-260321-E8CB` One-size-fits-all SaaS benchmarks are misleading — a pre-seed company should target burn multiple <2.5x while Series B+ targets <1.0x. Stage-specific targets: NRR >100%/>110%/>120%, LTV:CAC >2.0x/>3.0x/>3.5x. _(2026-03-21)_
+- `INS-260321-1992` Focus on first dollar by day 30, $1M ARR ($80K/month) by day 90, and only consider VC if you actually need it. _(2026-03-21)_
+- `INS-260321-E5C5` The ideal AI startup founding team is one builder who ships in 24 hours and one go-to-market person with audience empathy. _(2026-03-21)_
 - `INS-260321-3D65` Fresh graduates (23-25) who grew up vibe coding think differently and generate the best new ideas at AI companies. _(2026-03-21)_
 - `INS-260321-C513` Avoid building features that incumbents can bundle (like meeting notetakers for Zoom), and avoid pure prompt wrappers that next model releases will obsolete. _(2026-03-21)_
 - `INS-260321-2F09` Many AI founders fail because they build impressive demos that don't solve real painful jobs — if nobody asks about pricing, you don't have product-market fit. _(2026-03-21)_
@@ -177,13 +215,6 @@ _No flags._
 - `INS-260321-F446` If 50 unlikable people hold all the wealth while white-collar workers lose jobs, the bipartisan consensus won't be left vs right — it will be 'nationalize tech.' _(2026-03-21)_
 - `INS-260321-C0A4` Your probability of success directly correlates with whether your closest friends care about and push you toward what you want to achieve. _(2026-03-21)_
 - `INS-260321-1A84` People who are naturally quirky and nonconformist constantly generate strange ideas on their own, while those skilled at reading consensus find it hardest to produce unique ideas. _(2026-03-21)_
-- `INS-260321-7D76` A common mistake is automating wherever it's easiest rather than wherever the constraint actually is. The single biggest bottleneck in your process probably accounts for most of the available gains. Find that one thing. Automate that. _(2026-03-21)_
-- `INS-260321-2D72` Code's real advantage isn't zero marginal cost of serving users — it's zero-cost experimentation. A/B test, deploy, roll back, iterate at near-zero cost per cycle. Your competitive advantage is learning speed, not serving speed. _(2026-03-21)_
-- `INS-260321-31B3` Ship product updates 6 days per week because AI model improvements reset the entire industry every month. _(2026-03-21)_
-- `INS-260321-FE91` Opus Clip validated by manually engineering final video outputs and emailing them to potential customers, getting 60% positive feedback before writing a single line of product code. _(2026-03-21)_
-- `INS-260321-E8CB` One-size-fits-all SaaS benchmarks are misleading — a pre-seed company should target burn multiple <2.5x while Series B+ targets <1.0x. Stage-specific targets: NRR >100%/>110%/>120%, LTV:CAC >2.0x/>3.0x/>3.5x. _(2026-03-21)_
-- `INS-260321-1992` Focus on first dollar by day 30, $1M ARR ($80K/month) by day 90, and only consider VC if you actually need it. _(2026-03-21)_
-- `INS-260321-E5C5` The ideal AI startup founding team is one builder who ships in 24 hours and one go-to-market person with audience empathy. _(2026-03-21)_
 - `INS-260321-38EC` Channels with 3,000-5,000 subscribers are hitting 2-3 million views by applying proven formats to underserved markets — subscriber count doesn't determine reach when format-market fit is strong. _(2026-03-21)_
 - `INS-260321-AA91` Enterprise customers resist AI credit-based pricing because credits are opaque (unlike transferable units like gigabytes), vendors can silently increase consumption by adding features, and outcome-based pricing creates a dynamic baseline problem where savings erode year over year. _(2026-03-21)_
 - `INS-260321-C902` New AI products follow a predictable distribution ladder: X small communities then AI news pages then Instagram news then creators then Telegram. _(2026-03-21)_
@@ -297,22 +328,24 @@ _No flags._
 - `INS-260320-0063` n8n workflows can be exported as JSON and shared on GitHub with Google Doc templates -- the business analysis workflow repo has 98 stars and is MIT licensed. _(2026-03-20)_
 - `INS-260320-B8B0` Use Linkfinder AI as a proxy for LinkedIn scraping — no direct LinkedIn API connection means zero ban risk for your personal account. _(2026-03-20)_
 - `INS-260320-6845` An n8n workflow pulls YouTube links from Google Sheets, extracts transcripts via Dumpling AI, transforms them into newsletter drafts with GPT-4o, and logs results back to Sheets. _(2026-03-20)_
+- `INS-260320-8B06` Letting dogs make small choices -- which toy to play with, which direction to walk, whether to engage or rest -- builds confidence and reduces anxiety-driven behaviors. _(2026-03-20)_
+- `INS-260320-9118` Allow dogs to sniff freely during walks -- scent exploration is their primary way of processing the world and provides more mental stimulation than the physical exercise of the walk itself. _(2026-03-20)_
 - `INS-260320-CDE4` The Moog DFAM has no MIDI implementation -- sampling its output into a MIDI-capable device is the primary way to integrate it into a broader production setup. _(2026-03-20)_
 - `INS-260320-77C2` Sample analog synth sounds (like Moog DFAM) into a digital sampler/sequencer (like Elektron Digitakt) to get warm analog timbre with precise digital sequencing and pattern control. _(2026-03-20)_
 - `INS-260320-10E8` Always clap once or use a clapboard at the start of each take -- the sharp transient creates a visible spike in both audio waveforms, making manual sync alignment trivial. _(2026-03-20)_
 - `INS-260320-232D` Set all audio devices to 48kHz when recording for video -- mismatched sample rates between camera and external recorder cause drift that worsens over longer recordings. _(2026-03-20)_
 - `INS-260320-D44B` The foundational rule of video sound design: you should be able to hear everything you see -- nothing on screen is truly silent, and even empty rooms have ambient sound. _(2026-03-20)_
 - `INS-260320-105E` The sound design workflow for video follows three steps: lay down temp music/score first, add creative SFX and foley second, then apply final audio treatment and mixing. _(2026-03-20)_
-- `INS-260320-F751` Build something exceptional and they will come — fundraising, hiring, and network emerge from the product itself. _(2026-03-20)_
-- `INS-260320-3798` Chase proving yourself wrong — the faster you disprove ideas, the faster you find the real one. _(2026-03-20)_
-- `INS-260320-C56D` Your early 20s with no obligations are years you can never get back — don't spend them fixing tickets at big tech. _(2026-03-20)_
-- `INS-260320-07A2` Hire people who were already customers — they have conviction you can't interview for. _(2026-03-20)_
 - `INS-260320-B7DA` Charge $99/year from day one even when conventional wisdom says students won't pay — premium pricing signals reliability, and raising from $99 to $129 actually increased both users and revenue. _(2026-03-20)_
 - `INS-260320-39A3` Shelter your team and family from acquisition signal-to-noise until the wire hits — deals fall apart in the last week, and premature sharing creates damaging anxiety. _(2026-03-20)_
 - `INS-260320-20F2` Momentum is oxygen — Coconote shipped a product that "sort of works," charged from day one, and hit 45 days to $100K ARR, 4 months to $1M, 5 months to $2M. _(2026-03-20)_
 - `INS-260320-8688` Don't worry about LLM costs or unit economics until you have the growth problem — use startup credits early, optimize later. Almost everything gets cheaper at scale. _(2026-03-20)_
 - `INS-260320-E044` Shelter early ideas from smart skeptics — conventional wisdom about what won't work is based on different products. Think of your idea as a seed that needs protection to sprout. _(2026-03-20)_
 - `INS-260320-00C2` When users try to cancel, ask "Do you just need more time?" — trial extensions retained the most users, outperforming discounts and 3-month pause options, while keeping users on auto-renew. _(2026-03-20)_
+- `INS-260320-F751` Build something exceptional and they will come — fundraising, hiring, and network emerge from the product itself. _(2026-03-20)_
+- `INS-260320-3798` Chase proving yourself wrong — the faster you disprove ideas, the faster you find the real one. _(2026-03-20)_
+- `INS-260320-C56D` Your early 20s with no obligations are years you can never get back — don't spend them fixing tickets at big tech. _(2026-03-20)_
+- `INS-260320-07A2` Hire people who were already customers — they have conviction you can't interview for. _(2026-03-20)_
 - `INS-260320-A1D3` Keep your content creator team to 5-10 people max, meet with each 1:1, and share what converts vs what doesn't — a small elite team compounds while a large team dilutes quality. _(2026-03-20)_
 - `INS-260320-A467` Follower count is irrelevant in short-form video — a TikTok from a zero-follower account can get 8M views because algorithmic distribution is based on content quality, not follower graph. _(2026-03-20)_
 - `INS-260320-630D` Frame your product as a solution to a problem, not a toy — a video framing Coconote as a fun toy got 41M views but terrible conversion, while solution-framed videos converted far better. _(2026-03-20)_
@@ -320,5 +353,3 @@ _No flags._
 - `INS-260320-70FA` Target the person who pays, not just the person who uses — students used Coconote but moms often bought it, and "my mom just changed my life" content drove viral parent-to-parent purchasing. _(2026-03-20)_
 - `INS-260320-080B` Ask customers how they describe your product, then use their exact words as marketing copy — Coconote asked and the majority said "never miss a key detail," which became their App Store headline. _(2026-03-20)_
 - `INS-260320-DADA` You cannot pour fuel on organic fire — viral UGC repurposed as paid ads underperformed, while a separate clip agency creating performance-specific creatives outperformed significantly. _(2026-03-20)_
-- `INS-260320-8B06` Letting dogs make small choices -- which toy to play with, which direction to walk, whether to engage or rest -- builds confidence and reduces anxiety-driven behaviors. _(2026-03-20)_
-- `INS-260320-9118` Allow dogs to sniff freely during walks -- scent exploration is their primary way of processing the world and provides more mental stimulation than the physical exercise of the walk itself. _(2026-03-20)_

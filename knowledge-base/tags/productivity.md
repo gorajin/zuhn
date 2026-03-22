@@ -7,4 +7,5 @@
 - `INS-260320-E683` Even if you're only doing 5% of the task and AI does 95%, that 5% gets "super amplified" — you become 20x more productive through comparative advantage.
 - `INS-260321-988C` A worker saving 20% of their time is 'soft savings' — employers rarely productively reallocate that 20% immediately. Individual task speedups don't automatically translate to enterprise-level value.
 - `INS-260320-76D2` Use BetterTouchTool for double-tap hotkeys (CMD+CMD = Claude, OPT+OPT = Browser) and relative URL copy from Cursor.
+- `INS-260322-B264` The best delegators use voice notes rather than text — voice is 2-3x faster, can be done on the go, and captures nuance that typing misses.
 - `INS-260321-08AC` There are no true focus-enhancing drugs — only alertness-enhancing stimulants (Adderall, modafinil, caffeine, nicotine) that indirectly improve focus but carry cardiac and sleep costs — and a non-stimulant peptide that reduces cognitive noise would capture enormous demand.

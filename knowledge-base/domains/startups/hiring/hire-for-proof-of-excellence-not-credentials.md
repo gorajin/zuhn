@@ -42,12 +42,13 @@ resolutions:
     cultural fit screening, this created a self-reinforcing loop where
     high-quality, low-ego people attracted more of the same.
 related:
-  - INS-260320-922A
   - INS-260320-B99F
   - INS-260321-3D65
+  - INS-260320-922A
+  - INS-260322-32E3
   - INS-260321-33FC
   - INS-260321-8382
-  - INS-260321-69E1
+  - INS-260322-82E8
 ---
 ElevenLabs built a world-class team by deliberately hiring from non-traditional backgrounds. Their early hires included an astrophysicist, a White House staffer, and someone with a master's in an unrelated field who was building text-to-speech on the side. The common thread was proof of excellence: open-source contributions, passion projects, or any demonstration of exceptional ability outside conventional career paths.
 

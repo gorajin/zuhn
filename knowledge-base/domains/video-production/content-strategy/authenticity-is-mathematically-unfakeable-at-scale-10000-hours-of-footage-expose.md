@@ -44,7 +44,9 @@ related:
   - INS-260320-232D
   - INS-260320-A467
   - PRI-260321-5857
+  - INS-260322-F891
   - PRI-260321-14D8
   - INS-260321-2564
+  - INS-260322-888D
 ---
 MrBeast explains why authenticity isn't optional at creator scale: with 10,000+ hours of someone talking on the internet, any attempt to be someone you're not would show as inconsistencies that viewers would notice. iShowSpeed emphasizes the same — as a streamer who is live 24/7 talking to chat, he treats viewers as friends with inside jokes and shared growth. He recently did a 35-day continuous live stream (800+ hours) visiting every US state. This bond is the fundamental appeal of social media over scripted entertainment — viewers know these creators better than their own friends because they've consumed more hours of their content.

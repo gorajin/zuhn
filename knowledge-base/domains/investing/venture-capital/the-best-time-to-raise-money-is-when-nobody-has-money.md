@@ -42,11 +42,11 @@ resolutions:
     start to capturing 18.3% of all venture capital raised in the US in 2025 —
     from an upstart to the largest player in the industry.
 related:
+  - INS-260322-9DDD
   - INS-260321-3521
   - INS-260320-B7DA
   - PRI-260321-05B5
   - PRI-260321-2DF0
-  - INS-260322-6DFC
 ---
 When a16z launched in 2009 in the wake of the financial crisis, they faced widespread criticism: 'Why are you raising money now? What are you stupid?' The answer proved to be that raising capital when nobody else has it is structurally advantageous — less competition for deals, better pricing, and founders who are more serious about building.
 

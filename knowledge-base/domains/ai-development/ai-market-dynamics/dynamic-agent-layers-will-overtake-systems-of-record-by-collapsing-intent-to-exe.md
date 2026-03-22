@@ -50,7 +50,6 @@ resolutions:
     more than installed base when products get better weekly.
 related:
   - INS-260321-2482
-  - INS-260321-13C6
   - INS-260322-019A
   - PRI-260321-7307
   - INS-260321-1A0B

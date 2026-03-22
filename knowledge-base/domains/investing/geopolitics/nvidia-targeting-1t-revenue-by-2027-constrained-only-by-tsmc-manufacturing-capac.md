@@ -45,7 +45,6 @@ resolutions:
     they'll let him, making TSMC the real chokepoint in the AI infrastructure
     stack.
 related:
-  - INS-260321-18D0
   - INS-260321-E8CB
   - INS-260321-B7CB
   - PRI-260321-5BF1

@@ -1,5 +1,9 @@
 # Action List
-Generated on 2026-03-22 | 146 actionable insights
+Generated on 2026-03-22 | 157 actionable insights
+
+## ai-development/adoption
+- [INS-260322-3159] Just as enterprise SaaS companies unbundled Oracle and Excel into 400-500 dedicated apps per company, AI software companies will unbundle ChatGPT by wrapping AI capabilities into specific industry workflows.
+- [INS-260322-F891] AI only saves time when verification is cheaper than doing the task manually — generating 200 marketing images to pick 10 works, but AI copying 200 numbers from PDFs that all need checking doesn't.
 
 ## ai-development/agent-patterns
 - [INS-260320-1B10] Have Claude review its own code via a specialized review agent — catches critical errors, missing implementations, and security flaws.
@@ -54,6 +58,9 @@ Generated on 2026-03-22 | 146 actionable insights
 ## ai-development/context-management
 - [INS-260320-E6DD] Structure knowledge as a relational database (entities + relationships), not text blobs. Every Claude instance reads/writes the same structured knowledge base.
 
+## ai-development/enterprise-ai
+- [INS-260322-750D] AI voice agents in loan servicing and collections can speak 50 languages, maintain perfect UDAP compliance, and deliver better customer experiences — reorienting fintech TAM from IT budgets to labor costs.
+
 ## ai-development/future-of-work
 - [INS-260320-A745] Anthropic's own studies show AI deskilling in coding is real, but depends on HOW you use models — some usage patterns cause skill degradation, some don't.
 - [INS-260320-E683] Even if you're only doing 5% of the task and AI does 95%, that 5% gets "super amplified" — you become 20x more productive through comparative advantage.
@@ -72,6 +79,10 @@ Generated on 2026-03-22 | 146 actionable insights
 - [INS-260320-EF3A] Don't default to expensive models — test cheaper ones with YOUR data. DeepSeek V3 vs Claude Sonnet = 21x cost reduction for identical summaries.
 - [INS-260320-0511] Use cheap models (gpt-5-nano) for categorization/relevance scoring before expensive models — removes 70-90% of irrelevant inputs.
 - [INS-260320-2058] Use OpenRouter for a unified dashboard, model switching, spending tracking, and hard budget limits across all LLM providers.
+
+## ai-development/product-design
+- [INS-260322-CCAA] As agents become intermediaries between users and systems, optimization shifts from visual design to machine-readable structure and insight density.
+- [INS-260322-68FE] The next generation of AI apps will observe user behavior and proactively suggest actions rather than waiting for prompts.
 
 ## ai-development/spec-driven-dev
 - [INS-260320-4A82] Commit output specs to git so future agents and engineers see what was done, what failed, and what decisions were made.
@@ -155,6 +166,14 @@ Generated on 2026-03-22 | 146 actionable insights
 ## startups/competitive-strategy
 - [INS-260322-7723] AI labs and big tech are structurally incapable of building opinionated standalone consumer products because their promo committees incentivize safe, incremental features over risky bets.
 
+## startups/content-strategy
+- [INS-260322-7B71] Timeless how-to content (like 'Good Product Manager Bad Product Manager') compounds in value while opinion pieces about market bubbles are forgotten quickly.
+
+## startups/delegation
+- [INS-260322-DAFB] Entry-level delegation assigns tasks; advanced delegation exports your internal preferences and decision criteria as repeatable algorithms.
+- [INS-260322-AD9B] It IS faster to do it yourself the first time — but accepting that upfront cost is the only path to compounding leverage.
+- [INS-260322-B264] The best delegators use voice notes rather than text — voice is 2-3x faster, can be done on the go, and captures nuance that typing misses.
+
 ## startups/founder-mindset
 - [INS-260320-F751] Build something exceptional and they will come — fundraising, hiring, and network emerge from the product itself.
 - [INS-260320-3798] Chase proving yourself wrong — the faster you disprove ideas, the faster you find the real one.
@@ -188,6 +207,7 @@ Generated on 2026-03-22 | 146 actionable insights
 
 ## startups/hiring
 - [INS-260322-AC23] ElevenLabs hired from non-traditional backgrounds by looking for proof of excellence — open-source projects, side projects, or standout achievements — rather than conventional credentials.
+- [INS-260322-82E8] Senior executives are professional interviewers — get signal from their 360 reviews at previous companies and do enough references until answers converge.
 
 ## startups/ideation
 - [INS-260321-6BA7] Find ideas that have been discarded by others rather than trying to discover something no one has ever thought of.
@@ -198,6 +218,9 @@ Generated on 2026-03-22 | 146 actionable insights
 
 ## startups/market-strategy
 - [INS-260322-F868] Truemed built infrastructure that lets people use existing tax-free HSA/FSA dollars on lifestyle interventions, redirecting billions toward prevention without requiring new legislation or payer buy-in.
+
+## startups/time-management
+- [INS-260322-EE1B] There's a power law in everything — identify the single most important thing each period and go all-in before distributing effort across secondary goals.
 
 ## video-production/audio-sync
 - [INS-260320-10E8] Always clap once or use a clapboard at the start of each take -- the sharp transient creates a visible spike in both audio waveforms, making manual sync alignment trivial.

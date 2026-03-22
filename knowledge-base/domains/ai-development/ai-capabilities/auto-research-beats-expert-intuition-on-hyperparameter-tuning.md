@@ -38,9 +38,9 @@ resolutions:
     a 'fairly well tuned' model, it works on anything.
 related:
   - INS-260320-4B31
+  - INS-260322-474A
   - INS-260321-D959
   - INS-260321-B7CB
   - INS-260322-5790
-  - PRI-260321-14D8
 ---
 After manually tuning his GPT model for months using his own expert intuition from two decades of ML research, Karpathy let auto-research run overnight. It found improvements he didn't see — specifically weight decay on value embeddings and insufficiently tuned Adam betas. The key insight is that these parameters interact jointly, so tuning one changes what's optimal for others. No human can efficiently search this joint space. If it works on a 'fairly well tuned' model, it works on anything.

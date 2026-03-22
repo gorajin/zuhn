@@ -45,10 +45,9 @@ resolutions:
 related:
   - INS-260320-10E8
   - INS-260321-C4CD
-  - INS-260321-E59A
+  - INS-260322-474A
   - INS-260321-8C35
   - PRI-260321-14D8
   - INS-260321-D959
-  - INS-260321-D370
 ---
 Vishal Misra's research at Columbia created 'Bayesian wind tunnels' — controlled environments where blank architectures are given tasks impossible to memorize but tractable enough to compute the exact Bayesian posterior analytically. Transformers matched the precise Bayesian posterior down to 10^-3 bits accuracy. The key distinction is between Shannon entropy (correlation/prediction from patterns) and Kolmogorov complexity (the shortest program that reproduces something). LLMs operate in the Shannon entropy world — they find correlations in training data. The digits of pi have infinite Shannon entropy but very small Kolmogorov complexity. Deep learning cannot cross from correlation to the causal, compressed-program world that true intelligence requires.

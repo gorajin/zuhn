@@ -50,7 +50,6 @@ resolutions:
     software and labor spend.
 related:
   - INS-260320-2058
-  - INS-260320-5818
   - INS-260320-1B38
   - INS-260320-C56D
   - INS-260321-52EF
@@ -59,6 +58,7 @@ related:
   - INS-260321-A56C
   - INS-260321-F2C4
   - INS-260321-21BE
+  - INS-260321-69E1
 ---
 Angela Strange at a16z makes the case that the next generation of financial services infrastructure winners will be 10x larger than current category leaders. The expansion comes from two sources: software categories themselves are merging (KYC + transaction monitoring + customer service become a unified risk platform), and software can now consume labor budgets that previously went to humans for tasks that were either undesirable or chronically understaffed.
 

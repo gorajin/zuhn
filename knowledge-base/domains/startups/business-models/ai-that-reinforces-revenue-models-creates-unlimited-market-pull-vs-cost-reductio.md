@@ -54,6 +54,7 @@ related:
   - INS-260322-5790
   - INS-260322-B450
   - INS-260322-F868
+  - INS-260322-5745
 ---
 David Haber at a16z identifies a critical distinction: AI that reinforces a business model (driving revenue) versus AI that merely reduces costs. When AI drives revenue, there's no ceiling on how much customers want to adopt it.
 

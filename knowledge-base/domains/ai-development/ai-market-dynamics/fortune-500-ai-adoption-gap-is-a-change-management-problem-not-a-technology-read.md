@@ -56,9 +56,9 @@ related:
   - INS-260321-9A03
   - INS-260321-C292
   - INS-260321-B7CB
+  - INS-260322-3159
   - INS-260322-B641
   - INS-260322-CFB1
-  - PRI-260321-05B5
   - INS-260322-90E7
 ---
 a16z reports a significant disconnect between Fortune 500 CEO rhetoric ('we have to adapt, we're dying to understand AI tools, we're ready to change') and actual organizational change. The biggest barrier isn't technology readiness — it's change management. Getting thousands of employees to adopt AI tools, changing established business processes, and putting AI into production workflows is extremely hard.

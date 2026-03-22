@@ -45,5 +45,7 @@ related:
   - INS-260322-C472
   - INS-260321-2F09
   - INS-260322-CFB1
+  - INS-260322-9DDD
+  - INS-260322-BD0D
 ---
 Alex argues the minimum viable team for an AI startup is exactly two people: a builder who can go from idea to product in 24 hours (enabled by modern databases, payment systems, and AI coding tools), and a go-to-market person who has natural empathy for the target audience and can create content formats that resonate on social media. This go-to-market role is fundamentally different from traditional marketing — it requires understanding distribution channels and audience psychology in the social media era, not conventional marketing expertise.

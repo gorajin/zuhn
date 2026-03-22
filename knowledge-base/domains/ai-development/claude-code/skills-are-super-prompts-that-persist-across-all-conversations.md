@@ -41,7 +41,6 @@ related:
   - INS-260321-703F
   - INS-260321-6D01
   - INS-260321-33FC
-  - INS-260321-D3BE
-  - INS-260321-801C
+  - INS-260322-F891
 ---
 Claude has 11 built-in finance Skills (3-statement modeling, DCF, comps analysis, earnings analysis, pitch deck creation, etc.) that activate automatically when Claude detects the relevant task. Custom Skills like the CFO Advisor by Taxwire turn Claude into a domain-specific expert (fractional CFO for SaaS startups). The key distinction: Projects are persistent workspaces scoped to one workflow. Skills are reusable instruction packages that persist across all conversations. Use Skills for patterns, Projects for workflows.
