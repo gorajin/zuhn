@@ -54,8 +54,8 @@ related:
   - INS-260321-69E1
   - INS-260322-B641
   - INS-260322-642F
-  - INS-260321-A56C
-  - INS-260322-EDA4
+  - INS-260322-ABA0
+  - INS-260322-5E5D
   - INS-260322-68FE
 ---
 Evans articulates a fundamental pattern of platform shifts: the Apple II couldn't run banks, Netscape couldn't do professional video editing, mobile couldn't replace a 5-screen programming rig — but 5 billion people got smartphones while only 800 million had consumer PCs. Each new platform was terrible at what the old thing excelled at, but unlocked entirely new behaviors.

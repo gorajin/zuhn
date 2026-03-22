@@ -15,6 +15,7 @@ Generated on 2026-03-22
 - startups/growth-marketing (29 insights) ↔ startups/ai-business-models (7 insights)
 - startups/growth-marketing (29 insights) ↔ startups/competitive-strategy (7 insights)
 - startups/growth-marketing (29 insights) ↔ investing/ai-business-models (3 insights)
+- startups/growth-marketing (29 insights) ↔ startups/marketing (3 insights)
 - ai-development/ai-market-dynamics (19 insights) ↔ investing/ai-business-models (3 insights)
 - ai-development/ai-market-dynamics (19 insights) ↔ ai-development/adoption (3 insights)
 - ai-development/ai-market-dynamics (19 insights) ↔ ai-development/enterprise-adoption (5 insights)

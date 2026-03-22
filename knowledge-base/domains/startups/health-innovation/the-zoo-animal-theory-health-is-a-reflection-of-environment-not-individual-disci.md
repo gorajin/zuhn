@@ -55,7 +55,6 @@ related:
   - PRI-260321-7307
   - INS-260322-3A00
   - INS-260321-1A0B
-  - INS-260322-D051
 ---
 Animals in the wild rarely get chronic diseases. Put them in a zoo and they become obese, depressed, develop strange behaviors, and in some cases even kill themselves. The insight: an organism's health is a reflection of its environment's health, not the organism's willpower.
 

@@ -10,6 +10,8 @@ None.
 - 2 insights form cluster across investing/geopolitics, investing/ai-infrastructure — shared tags: capex, ai-infrastructure
 - 2 insights form cluster across investing/geopolitics, investing/ai-business-models — shared tags: none
 - 2 insights form cluster across startups/competitive-strategy, investing/ai-business-models — shared tags: none
+- 4 insights form cluster across music-production/practice, music-production/theory — shared tags: none
+- 2 insights form cluster across psychology/consciousness, psychology/perception — shared tags: jung
 
 ## GAP
 - ai-development/claude-code has 33 insights but related ai-development/agent-patterns has only 10
@@ -25,6 +27,7 @@ None.
 - startups/growth-marketing has 29 insights but related startups/ai-business-models has only 7
 - startups/growth-marketing has 29 insights but related startups/competitive-strategy has only 7
 - startups/growth-marketing has 29 insights but related investing/ai-business-models has only 3
+- startups/growth-marketing has 29 insights but related startups/marketing has only 3
 - ai-development/ai-market-dynamics has 19 insights but related investing/ai-business-models has only 3
 - ai-development/ai-market-dynamics has 19 insights but related ai-development/adoption has only 3
 - ai-development/ai-market-dynamics has 19 insights but related ai-development/enterprise-adoption has only 5

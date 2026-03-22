@@ -50,6 +50,7 @@ related:
   - INS-260322-6AF5
   - PRI-260321-05B5
   - INS-260321-8414
+  - INS-260322-34AE
 ---
 Plaid CEO Zach Perret made a sobering observation at a dinner: the biggest use case for AI in financial services right now is fraudsters using it against financial companies. Fraud is growing 18-20% annually and the 'mouse is winning' against the 'cat' in the short term.
 

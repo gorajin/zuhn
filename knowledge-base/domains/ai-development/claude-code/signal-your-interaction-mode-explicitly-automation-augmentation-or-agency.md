@@ -43,7 +43,8 @@ related:
   - INS-260321-2482
   - INS-260321-D370
   - INS-260321-A56C
+  - INS-260322-38D8
   - INS-260321-A5D4
-  - INS-260321-82FE
+  - INS-260322-A8F2
 ---
 Three interaction modes: Automation (you instruct, model executes — best for well-defined tasks), Augmentation (you and the model think together iteratively — best for complex problems), Agency (you delegate goals, model determines approach — requires clear success criteria). 'Help me write a blog post about pricing' is ambiguous — it could mean brainstorm together (augmentation), write the complete post (automation), or research-outline-draft-edit (agency). Mode mismatch is the #1 cause of disappointing AI output. Explicit delegation signals prevent oscillation between hesitation and overreach.

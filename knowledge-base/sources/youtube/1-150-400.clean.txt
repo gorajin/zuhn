@@ -1,0 +1,457 @@
+## 유튜브 알고리즘까지 바꿔야 성장합니다 (0:00–0:45)
+I think changing the algorithm is really important
+.
+I want to see an opportunity that others haven't seen.  Then, I think it is really important to just
+keep thinking about it and make it a habit
+.  Our algorithms
+understand our brains and pop up, you know.   If you
+continue to take an interest in and
+think about such things, wouldn't you eventually be able to
+see some insights
+?  I am Oh Jeong-hun, the representative of Anko Withers
+
+.  You can think of Ankostein as a
+
+short-term rental
+platform where foreigners visiting Korea can easily rent a house starting from one month. It is also a platform where those who wish to engage in the short-term rental
+business can
+list their homes and receive rental fees
+
+.  Last year, we
+
+achieved approximately 15 billion in transaction volume, representing a 400% growth, and
+this year we expect to more than double that amount to around 35 billion in
+transaction volume
+.   I
+## Chapter 1. 우리는 모두 한 번 이방인이다 (0:45–3:23)
+think everyone becomes a stranger at least once.  Around 2006, I
+
+had the experience of studying in the UK for about two years and living in the capital, and I
+visited that community of wise men
+.  Since I don't speak English
+and I lack the general knowledge that only they know, it was
+
+very difficult to mix things up.  If
+there were a gathering of Koreans and
+foreigners who don't speak Korean well came and asked to
+hang out, I think they might not like it
+.  Actually, I understood.
+Therefore, we had a community run by that church for
+international students
+.  Secondly, the old man who was the
+
+landlord of Shares, whom I found at the end,
+was a very kind person.  I have memories of spending Christmas with the ship
+owners at a family Christmas party, where
+I was invited along as well
+.  I'm glad to
+have met you as a father-like grandfather-like Land
+.  I had an experience where I felt I was able to do well and happily thanks to the good friends I met in this community
+and a
+good landlord
+
+.  At that time, after
+returning from language training in the UK,
+I graduated around 2010 or 2011 and
+
+joined a pharmaceutical company as my first job in 2012.   At that time, while
+working in sales, if my
+job is the main quest, I thought I should try doing
+some side jobs as sub-quests.   I had been
+
+thinking that I wanted to try generating revenue from the system.  And the workplace does
+not take responsibility for old age.  Money
+isn't the equator of happiness, but having money
+increases the probability of being happy.  I
+
+want to create a system that can generate money even if I don't work.   I
+did a few different things.  I tried to
+sell something, and since I
+liked golf at the time, I was trying to
+sell golf balls that didn't slice, but they just were
+n't selling.  I posted it on a site like Auction
+.  So I took that link and went into places
+like golf communities to try
+promoting it, but I got
+kicked out immediately.  Ah, so I
+
+think that's when I learned the essence of the platform.  For now, it
+seems the problem is gathering people.  Back then, things like
+Instagram hadn't really become widespread yet
+.  So, I tried to gather people by uploading various content to a
+social media platform called Kakao Story and Naver
+Band
+.  Back then,
+
+I edited the recipe from that TV show a bit well and
+uploaded it, and quite a few middle-aged women started
+gathering there.  How about trying to sell
+frozen food or some other food items here
+?  So, I tried selling about 100 of some famous
+dumplings at the lowest price, below cost, and they sold out completely
+
+.  So,
+thinking "this is it," I signed a contract with Iltongupji and
+
+launched the first-ever group buying business selling frozen foods, convenience meals, and meal kits at prices below the lowest possible rate, and that generated a
+
+considerable profit.  At that time, when the
+revenue
+started to go up to over 1,000, it was also the period when other influencer group
+buying was just beginning
+.  So, back then, I had a
+hunch that I wouldn't be able to speak English.
+Plan C is needed.  In a way, it seems like I
+## 작게 실험해봐야 큰 걸 할 수 있습니다 (3:23–7:00)
+discovered the demand by chance. I
+started sales under a contract, but later I was transferred to head the North American
+business division and was doing
+business in North America, and those
+buyers were Americans and
+Canadians.  But I heard that
+one of the Canadian buyers has a daughter
+coming to Korea as an exchange student.
+However,
+since they mentioned that finding a place to live was very difficult, I
+
+visited Yonsei University in Seoul to try and help them.  But there were
+so many foreigners.  I
+
+didn't know there were so many Korean international students back then.  I just
+grabbed them and asked them without thinking.  How
+did you find a house?  So, it seems everyone had a really hard time
+finding a place to live.
+
+I discovered that
+deposit can
+sometimes reach 50
+to 80% of the value
+of the apartments.  I
+think that could be
+pretty shocking
+because in France uh
+a deposit usually
+represents a month or
+two months of rent.
+So even when I first
+heard uh that there
+were situations
+where people might
+not recover their
+deposit, it
+definitely made me a
+bit worried.  That's
+a big amount of
+money that you have
+to put up front and
+because you don't
+know the system and
+you don't know if
+you can trust the
+other person to give
+away this amount of
+money, there's a
+hurdle for people to
+come to Korea on the
+very first time.   I believe this
+market is heavily skewed toward the suppliers, so
+
+I consider it a somewhat tilted movement disorder
+.  I was thinking that many foreigners in Korea might also face difficulties getting their
+security deposits back or
+experience various unfair situations
+.  I thought, "This is it!" Since the
+share house housing model is rapidly entering and increasing in Korea, I decided to start a
+
+share house for foreigners.
+So, I started a business targeting foreigners with just one share house.
+
+Before opening, I received about 30
+inquiries, and around 10 of them
+said they wanted to sign a contract
+.  There was a significant increase in the number of hosts who wanted to rent out rooms to foreigners without even seeing the house
+
+.  They ask me a
+lot of questions, but even when I teach them, they still can't
+do it well.  Supply
+kept increasing, but in fact, demand
+was limited.  Ah, so there
+is such high demand and such high supply that they are
+not meeting each other.
+How about I take on this role?  My initial
+
+goal was simply to generate stable revenue beyond that of a passive income company, but I realized that I could achieve a much larger
+scale-up economy through IT. I
+
+quit my job when I was managing about ten businesses, but when I had
+surpassed thirty, I decided to start a platform and
+established a company.
+I think that was a somewhat natural process.   As I started my
+business, I realized, "Ah, there must be a prime like this
+."  I see there is this kind of inconvenience.   If I
+solve this, it could lead to greater profits
+.  I think it is really hard to define the problem when even I and the customers don't
+know what the issue is
+.   To do that,
+
+defining the problem and formulating a hypothesis involves verifying the inconveniences I felt, the inconveniences others felt, and whether people would willingly pay for that value once these issues are actually resolved
+.  But it's really hard to find that
+.  So I
+think small tests are very important
+.  There is a concept
+called a "pre-prototype" from the book *The Law of Fire*, which involves
+
+testing whether there is a market need using very minimal resources
+.  In my case, I tried
+
+selling frozen dumplings on a recipe-sharing band and opened a small shop to
+post first. I
+
+believe it is important to conduct a small test and experiment to see if customers want it and if there are enough customers, and then start a business only when it is proven.
+And I think it's a hypothesis.  If the hypothesis turns out to be
+wrong, you cannot succeed no matter how good the product is or
+how well the sales and marketing are done
+.  So, it was extremely important to me to
+test whether this hypothesis was correct on a small scale, and it
+
+seems I am currently in the process of doing so.   It
+## Chapter 2. 유튜브 알고리즘을 바꿔야 변화를 찾을 수 있습니다 (7:00–9:11)
+was Jae.  Well, actually, I
+mentioned it as if I were bragging, saying that I made a lot of profit, but
+I actually invested all the money I earned to
+open this.
+So, there was no money in hand.
+But now, most foreigners
+come in February.
+Since the main guests were international students, when the pandemic broke out, the
+120-bedroom unit was fully booked, but everything
+got canceled.
+Since this is a master lease and therefore a sublease business, I had to pay the
+rent every month even though I did not receive it
+.  Then I had to
+pay 3,000 a month.
+So, the first operating profit after the corporate conversion was -3,000
+.  So, I only have two months
+left at work.
+Do you know that feeling of splitting slightly underwater when you feel completely lost?
+I have a child, and Loney only has two
+months left. What should I do
+?  So I think I kept thinking and worrying about
+how to solve this problem.  I think I
+invested about
+700 or 800 million won back then, so I was about to
+lose that amount. But thinking, "Well, I can just start over
+now," I didn't despair too much and
+
+thought a lot about how to solve this problem. We were on good terms with the person in
+charge at Sogang University's International Team at the time, and when I
+asked them, they told me that about
+50 to 100 international students were
+coming in.  So when I asked
+how they would handle the accounting, they said there were
+absolutely no alternatives. We
+
+discussed whether they could make an introduction if we took care of it for them, so we decided to
+
+change the bloomed She House into an Accounting House, and that is how we ended up doing the skin care
+.  We developed an accounting solution where international students make payments simply through a referral from the university, and we handle everything from
+
+pickup to meals.
+
+As we relied on the university's services, all the buildings in front of Wollon turned out to be fully operational
+.  We leased it out and
+operated it as a quarantine facility, and we
+
+also created a solution to track where foreigners are being quarantined.
+
+I think our business actually grew a bit more as we did that.  I
+think changing the algorithm is really important.  My
+YouTube algorithm.  In the end, what I'm
+most interested in is what gets popular, you know
+.
+I want to see an opportunity that others haven't seen.  Then, I
+
+think it is really important to just keep thinking about it and form a habit.
+Making that thought a habit.  I
+really like food.  When you spend
+a lot of time thinking about where to go and what to eat, our
+algorithms understand our brains and
+pop up suggestions, you know.  If you continue to take an
+interest in and think about such things,
+
+wouldn't you eventually be able to see some insights?   The
+## Chapter 3. 로컬 스타트업과 테크 자이언트 (9:11–13:49)
+situation was a bit more difficult after COVID-19 ended.  Air BMB
+was a lodging platform focused on tourists.  The system was such that
+
+people in Korea receiving treatment for a month, three months, or a year would
+find housing on their own through direct transactions
+.  However,
+especially after COVID-19, many people who had worked at Air BMB ended up
+
+staying there permanently as Air BMB operated many of the accommodations as quarantine lodgings
+.
+
+Many of the landlords who provide short-term rentals have been incorporated into Air BMB
+.  So, the
+market we used to sing in has now been absorbed by a giant called A-Air BMB
+.  The problem is that
+since AirBM is a wet box business platform, you must
+have a license in Korea to
+operate on the wet box business platform.   yes
+.  In our country, permits are not issued for types of housing such as studio apartments or
+1.5-room officetels
+.  But the
+
+thing is, most of them operated on Airbnb without that permit.
+From the users' perspective, whether it is illegal or not is no longer the
+issue.
+So, both guests and hosts have come to want to fully explore the much
+more advanced and better Air BMB
+platform.
+I thought about it a lot back then.  No matter how much we
+
+tell consumers to stop using illegal services at Abnb and use us instead, it
+ultimately does not serve as a retroactive point for them
+.  It was a situation where the hosts just needed to reduce the risk
+associated with me operating without a license
+
+.  So, we thought we should
+create a unique selling point that we could appeal to. We decided to
+
+build an unmanned platform that could be used not only by international students and residents but also by tourists, and to attract
+more users to
+promote our housing platform and
+shift them in that direction. With that in mind, we
+
+launched a foreigner gathering activity platform called EncoPlay.
+
+I always able to
+discover the city
+but also the most
+important part is to
+meet people
+especially like when
+you come like alone.
+So being able to
+build like reallyast
+and circle is htag.
+
+But actually, when I tried the community, I realized it wasn't really
+easy.  We
+proceeded with this without testing it first, so it
+
+seems we had quite a few conversations.  At that time, I
+
+learned the lesson that it is not good to provide "good to have" service in a small market situation.  Housing is a
+must.  It is an essential
+service, but things like a community are
+nice to have.  It means they are
+
+not willing to establish a branch here.  And the
+operation was very difficult.  So, for
+these people to have a good experience here and
+make a repurchase, they
+really need to have a good experience when they visit
+.  But I really felt that creating such good activities and
+good gathering content is
+not something just anyone can do
+.  But even
+so, our content wasn't
+bad.  But the point is that this kind of
+
+activity content for foreigner gatherings needs to be continued
+.  And the fact that the
+output is
+not very efficient compared to the input going in there.
+Because of these things, I had given a lot of thought to whether continuing the community was truly
+meaningful from a business perspective. Just as I was
+
+thinking that perhaps the answer was housing,
+around August 2024, the A
+BMB
+decided to expel all unlicensed accommodations
+. The
+expulsion actually took effect starting in October 2025.  Then,
+going forward, those rental
+business operators without licenses will have nowhere to go.   We
+
+decided that instead of creating another service right now, we needed to absorb this gap in the market, so we have been
+preparing really hard since 2025. I
+think we did four things.
+First off, the first is a hypothesis.  The second is
+product marketing.  And now we
+need to boost a bit with AI.  As for the hypothesis, since it must be correct in the
+first place, if
+Air BMB is
+no longer able to operate without a license,
+they will look for other alternatives
+.  This was a hypothesis.  Then, even
+if it’s not Air BMB, Air BMB
+focuses on short-term customers, doesn’t it?
+
+If there were a platform that could accept foreigners who could receive a 3 or 4-month stay, would they come?   It was a
+hypothesis that it would come, and the results of
+our verification through various tests confirmed that hypothesis was
+correct.
+We
+absorbed the ABNB co-drainage well last year, and while we
+originally had fewer than 100 hosts, as of
+January this year, we have now
+surpassed 7,000.  Transaction volume has also
+
+grown from about 3 billion the year before last to 15 billion last year, and
+
+continues to break records, surpassing 3.1 billion in January 2026 alone
+.  I think that timing and luck
+always come.  It keeps
+passing by, and I
+think the difference is whether I see it or not.
+So, if I am described as an entrepreneur who creates value by solving problems, are
+
+there any opportunities I am currently missing in my field?  I think you need to be ready to see that
+.   I
+## Chapter 4. 목표는 다음 마일스톤 까지만 (13:49–15:43)
+think it's really easy for startup founders to get exhausted.  I think the reason it is easy to get exhausted is that
+the goal is too far away
+.  If the goal is an exit or an
+IPO, it really feels like a
+marathon with no end in sight
+.  So, I am thinking a little
+differently: I clearly define my next "My Stone" and
+
+focus solely on getting to that point.  Whether it is transaction volume,
+operating profit, or
+global expansion, if you
+set clear milestones and
+
+make decisions about the next round only after achieving them, I
+
+think you can achieve a sense of accomplishment without getting burned out.  So,
+in a way, I think my initial mindset was a bit more naive
+.  After all, when I
+started my business with this platform, I must have been dreaming of my original university anyway
+.  I will at least
+do IP.  We
+will create a mid-range platform that surpasses Air BMB.   It
+
+seems that such a grand dream is actually not of much help in realizing immediate goals.
+Actually,
+since we are aiming for global expansion, we are currently tapping into
+global VCs for our next investment
+.  So,
+
+assuming that global investment takes place, our first goal is to achieve a
+higher transaction volume in the Asian market than in Korea within three years
+
+.  But
+actually, this milestone can
+keep changing depending on the situation.
+However, when limiting the scope to the domestic market alone, we are currently
+
+setting achieving a certain level of operating profit as our next goal.  Are you scared?
+yes.  My daughter is the scariest.  yes.
+My wife is so scary.   There are
+so many things to be afraid of.  yes.  But it's
+okay since I'm not doing it alone
+.

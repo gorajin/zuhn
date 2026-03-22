@@ -48,8 +48,8 @@ related:
   - INS-260321-08AC
   - INS-260322-3A00
   - INS-260322-F6C3
+  - INS-260322-823B
   - INS-260321-CCE3
-  - INS-260321-C3E6
 ---
 The field of metabolic psychiatry suggests that many conditions classified as mental health problems — including depression, epilepsy, schizophrenia, and bipolar disorder — have metabolic root causes. Studies show that a functional medicine approach (fixing sleep, gut health, inflammation through diet and exercise) can outperform talk therapy for depression.
 

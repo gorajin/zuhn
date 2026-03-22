@@ -1,6 +1,6 @@
 # Domain: investing
 
-> 34 insights across 11 topics
+> 35 insights across 12 topics
 
 ## Topics
 
@@ -14,6 +14,7 @@
 | geopolitics | 17 | Unlike the dot-com era, AI capex is financed by the most profitable companies in history and there are 'no dark GPUs' (every deployed GPU gets fully utilized immediately), but private credit entering the data center buildout and Oracle's massive cash-flow-negative bet are early warning signals. |
 | macro-environment | 1 | Goldman's CEO identifies the current US macro environment as the sweetest spot in 40 years: fiscal stimulus, rate-cutting cycle, capital investment super cycle, and deregulatory unwind all happening simultaneously. |
 | market-structure | 1 | The entire GameStop crisis was caused by an archaic settlement system (T+1) that requires collateral posting for trades that have already occurred — tokenization eliminates this by enabling instant settlement. |
+| market-trends | 1 | The convergence of GLP-1 normalization, declining medical trust, and biohacker culture is creating a 'Pharma 2.0' category where consumers self-direct injectable health optimization. |
 | ownership-economy | 1 | Companies with broad retail investor bases trade at higher multiples and benefit from organic brand defense because owners have skin in the game. |
 | vc-management | 1 | In VC, waiting 10-15 years for portfolio outputs to evaluate GP performance is dangerously slow — judge by deal-sourcing quality, win rate, and investment quality at the time of decision. |
 | venture-capital | 1 | a16z was criticized for raising their first fund in 2009 during the financial crisis, but it turned out that raising when nobody else has capital gives structural advantages in deal access and pricing. |

@@ -47,7 +47,6 @@ resolutions:
     simultaneously more humane, more effective, and cheaper than the
     alternatives.
 related:
-  - INS-260320-9118
   - INS-260321-13C6
   - INS-260322-E734
   - INS-260322-888D

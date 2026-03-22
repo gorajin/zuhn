@@ -50,9 +50,9 @@ resolutions:
 related:
   - INS-260321-CCE3
   - INS-260322-3A00
+  - INS-260322-2155
   - INS-260321-52EF
-  - INS-260322-F6C3
-  - INS-260321-4B99
+  - INS-260322-E7E9
 ---
 The US government has spent close to $100 billion per decade on crop subsidies for corn, soy, and wheat. Because these inputs are artificially cheap, food companies systematically replaced real ingredients: sugar became high-fructose corn syrup, olive oil became inflammatory soybean oil. The average American now gets 20% of caloric intake from soybean oil alone — historically anomalous.
 

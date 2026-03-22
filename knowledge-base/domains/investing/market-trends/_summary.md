@@ -1,0 +1,5 @@
+# Topic: market-trends
+
+> 1 insights
+
+- `INS-260322-823B` [medium] The convergence of GLP-1 normalization, declining medical trust, and biohacker culture is creating a 'Pharma 2.0' category where consumers self-direct injectable health optimization.

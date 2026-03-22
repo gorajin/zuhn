@@ -1,5 +1,5 @@
 # Action List
-Generated on 2026-03-22 | 164 actionable insights
+Generated on 2026-03-22 | 173 actionable insights
 
 ## ai-development/adoption
 - [INS-260322-3159] Just as enterprise SaaS companies unbundled Oracle and Excel into 400-500 dedicated apps per company, AI software companies will unbundle ChatGPT by wrapping AI capabilities into specific industry workflows.
@@ -135,12 +135,19 @@ Generated on 2026-03-22 | 164 actionable insights
 - [INS-260321-F0DF] TikTok Live has massive viewer supply but low creator supply — musicians going live regularly earn $10K+/month from TikTok payments while building thousands of followers per week.
 - [INS-260321-3312] Music is now attached to YOU, not to a format — your job is not to promote a song (temporary) but to build a content machine (permanent) where your music is the superpower that gets you attention.
 
+## music-production/practice
+- [INS-260322-3DE2] Words describing scale degrees are temporary scaffolding — the goal is to bypass verbal labeling entirely and recognize degrees by direct feeling-state recognition.
+
 ## music-production/songwriting
 - [INS-260321-6D01] Puth's best work follows a two-phase pattern: solo marination where the song develops in his head, then collaboration where others refine and constrain his tendencies.
 - [INS-260321-9C2E] Charlie Puth's vast musical index becomes a liability without collaborators to constrain him — 'if you only know one sound, you'll use it, but too many options means you need someone to tell you to sit down.'
 
 ## music-production/synthesis
 - [INS-260320-77C2] Sample analog synth sounds (like Moog DFAM) into a digital sampler/sequencer (like Elektron Digitakt) to get warm analog timbre with precise digital sequencing and pattern control.
+
+## music-production/theory
+- [INS-260322-6D1D] Each of the 12 scale degrees produces a unique subjective feeling state — not a sound quality, but an emotional character — that persists across octaves, instruments, and musical contexts.
+- [INS-260322-4B37] All scale degree feeling states can be understood as combinations of two primary dimensions: the pure/neutral quality of degree 5 and the warm/sweet quality of degree 3.
 
 ## pets/dog-care
 - [INS-260320-8B06] Letting dogs make small choices -- which toy to play with, which direction to walk, whether to engage or rest -- builds confidence and reduces anxiety-driven behaviors.
@@ -171,6 +178,9 @@ Generated on 2026-03-22 | 164 actionable insights
 
 ## startups/competitive-strategy
 - [INS-260322-7723] AI labs and big tech are structurally incapable of building opinionated standalone consumer products because their promo committees incentivize safe, incremental features over risky bets.
+
+## startups/content-creation
+- [INS-260322-4B63] Most people who aren't creating content are stopped by fear of negative comments from anonymous strangers, not by lack of ability or time.
 
 ## startups/content-strategy
 - [INS-260322-7B71] Timeless how-to content (like 'Good Product Manager Bad Product Manager') compounds in value while opinion pieces about market bubbles are forgotten quickly.
@@ -228,14 +238,27 @@ Generated on 2026-03-22 | 164 actionable insights
 - [INS-260321-7109] SaaS companies where seats are tied to work output (Zendesk) face existential risk from AI, those where seats are just a pricing trick unrelated to output (Workday) are safe, and those in between (Adobe) face moderate pressure.
 - [INS-260321-4B38] Current health tech can read biology (wearables, CGMs, blood tests) but cannot write to it — the massive startup opportunity is in interventions like palm/sole body-cooling devices for sleep, eye-movement sleep masks, and real-time cortisol modulation.
 
+## startups/leadership
+- [INS-260322-047D] Setting the next milestone (transaction volume target, operating profit threshold) instead of fixating on the ultimate exit/IPO prevents the marathon-with-no-end-in-sight feeling that exhausts founders.
+
 ## startups/market-strategy
 - [INS-260322-F868] Truemed built infrastructure that lets people use existing tax-free HSA/FSA dollars on lifestyle interventions, redirecting billions toward prevention without requiring new legislation or payer buy-in.
+
+## startups/marketing
+- [INS-260322-D7B1] Even a 20-30% shift from Google to AI chatbots will dramatically raise paid search costs for remaining advertisers, making current acquisition strategies unviable.
+- [INS-260322-FFF6] The cost of reaching audiences on social platforms is zero for distribution — an unprecedented asymmetry that most businesses fail to exploit.
 
 ## startups/pricing-strategy
 - [INS-260322-0247] Robinhood's zero-commission bet gave them 3-4 years before incumbents could respond because free is a categorically different value proposition than merely cheaper.
 
+## startups/strategy
+- [INS-260322-5E5D] Deliberately changing what content platforms show you — your YouTube algorithm, your feeds — rewires your brain to notice opportunities others miss.
+
 ## startups/time-management
 - [INS-260322-EE1B] There's a power law in everything — identify the single most important thing each period and go all-in before distributing effort across secondary goals.
+
+## startups/validation
+- [INS-260322-2155] Selling frozen dumplings below cost on a recipe-sharing social platform proved market demand existed before investing in infrastructure — the pre-prototype validates the hypothesis, not the product.
 
 ## video-production/audio-sync
 - [INS-260320-10E8] Always clap once or use a clapboard at the start of each take -- the sharp transient creates a visible spike in both audio waveforms, making manual sync alignment trivial.

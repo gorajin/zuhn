@@ -52,8 +52,8 @@ related:
   - INS-260322-0247
   - INS-260322-0E41
   - INS-260321-3521
+  - INS-260322-5CBF
   - PRI-260321-558C
-  - INS-260320-703F
 ---
 Robinhood's founding combined three separately contrarian bets: (1) zero commissions when everyone charged $7-10 per trade, (2) mobile-first when people thought phones were only for games and putting your credit card on a computer seemed insane, and (3) a populist brand built on post-2008 financial disillusionment and the Occupy movement. Each bet was individually defensible, but together they created a compound advantage that incumbents needed 3-4 years to partially replicate.
 

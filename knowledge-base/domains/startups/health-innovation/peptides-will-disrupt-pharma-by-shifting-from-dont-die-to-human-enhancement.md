@@ -50,10 +50,11 @@ related:
   - INS-260321-08AC
   - INS-260321-CCE3
   - INS-260322-D059
-  - PRI-260321-7307
+  - INS-260322-823B
   - INS-260322-F6C3
   - INS-260322-F868
   - INS-260322-D051
+  - INS-260322-9095
 ---
 Current pharmaceuticals are largely 'don't die' interventions — take a statin to avoid a heart attack. Peptides represent a different category entirely: human enhancement compounds that increase energy, improve sex drive, reduce inflammation, and improve gut health. Early results from users are promising, though rigorous research is still needed.
 

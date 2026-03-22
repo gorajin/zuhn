@@ -50,7 +50,6 @@ resolutions:
     difficult due to vision limitations and long-context coherence issues.
 related:
   - INS-260320-7914
-  - INS-260320-DDD9
   - INS-260320-3798
   - INS-260321-9824
   - INS-260321-AE3F
@@ -59,6 +58,7 @@ related:
   - INS-260321-E59A
   - INS-260322-B33E
   - INS-260322-AC23
+  - INS-260322-DAFB
 ---
 Epoch AI notes that math appears to be 'unusually easy' for AI, defying earlier intuitions that mathematical reasoning would require deep intelligence. RL (reinforcement learning) techniques work particularly well in formal mathematical domains because they have verifiable outcomes. Current AI is already at the point where mathematicians report it being genuinely helpful during proofs.
 

@@ -38,12 +38,11 @@ resolutions:
     became massive successes. If your startup idea came from a podcast or
     Twitter trend, it is by definition not unique.
 related:
-  - INS-260321-96CE
-  - INS-260321-E529
   - INS-260321-1A84
   - INS-260320-9935
+  - INS-260322-38D8
+  - INS-260321-96CE
   - INS-260322-CFB1
-  - INS-260322-C472
   - INS-260321-2564
 ---
 The explosion of VC content — podcasts, Twitter threads, blog posts — has created a powerful consensus machine that homogenizes startup thinking. In the early 2000s, the only tech coverage was Walt Mossberg at the Wall Street Journal. Now founders are drowning in investor opinions about what's hot, what TAM looks like, and what trillion-dollar outcomes require. This content filters out ideas that don't seem big enough, which ironically filters out ideas like Twitch (camera on head) and Whatnot (Funko Pop marketplace) that became massive successes. If your startup idea came from a podcast or Twitter trend, it is by definition not unique.

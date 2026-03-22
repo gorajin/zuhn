@@ -58,9 +58,9 @@ resolutions:
 related:
   - INS-260322-3A00
   - INS-260321-CCE3
+  - INS-260322-E7E9
   - INS-260322-5790
   - INS-260321-4B38
-  - INS-260321-D484
 ---
 Huberman draws an analogy to how auto credit democratized nice cars: GLP-1 drugs are democratizing healthy body weight. Retatrutide (GLP-3) passed Phase 3 at Eli Lilly with up to a third of body weight loss and some degree of muscle sparing, while bypassing side effects of earlier GLPs. But the real disruption is distribution: compounding pharmacies and gray market sources already sell it at much lower doses and costs than pharma pricing.
 

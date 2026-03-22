@@ -55,7 +55,7 @@ related:
   - INS-260321-5598
   - PRI-260321-5857
   - INS-260321-C902
-  - INS-260321-38EC
+  - INS-260322-5E5D
 ---
 Andreessen applies John Boyd's OODA loop (Observe-Orient-Decide-Act) to media competition. The framework says: whoever gets through their decision-making cycle faster wins. But there's a devastating second-order effect — if you're sustainably faster, the slower side never completes their cycle. They're perpetually interrupted, forced to restart, and eventually suffer psychological breakdown.
 

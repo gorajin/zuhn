@@ -1,0 +1,2209 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  } ],
+  "wpWinPositions": [ {
+  
+  } ],
+  "events": [ {
+    "tStartMs": 33,
+    "dDurationMs": 3003,
+    "segs": [ {
+      "utf8": "Put it inside me."
+    } ]
+  }, {
+    "tStartMs": 3069,
+    "dDurationMs": 1368,
+    "segs": [ {
+      "utf8": "That's what Silicon Valley"
+    } ]
+  }, {
+    "tStartMs": 4437,
+    "dDurationMs": 3137,
+    "segs": [ {
+      "utf8": "is saying about something called peptides."
+    } ]
+  }, {
+    "tStartMs": 7607,
+    "dDurationMs": 4605,
+    "segs": [ {
+      "utf8": "These ostensibly magic drugs\naren't exactly legal and are often sourced"
+    } ]
+  }, {
+    "tStartMs": 12212,
+    "dDurationMs": 3403,
+    "segs": [ {
+      "utf8": "from unregulated factories in China,\nbut that hasn't stopped them"
+    } ]
+  }, {
+    "tStartMs": 15615,
+    "dDurationMs": 4605,
+    "segs": [ {
+      "utf8": "from exploding in popularity amongst\nin the know techies and corporate bigwigs"
+    } ]
+  }, {
+    "tStartMs": 20353,
+    "dDurationMs": 3771,
+    "segs": [ {
+      "utf8": "with promises that they can do things\nlike burn our fat, tan"
+    } ]
+  }, {
+    "tStartMs": 24124,
+    "dDurationMs": 5138,
+    "segs": [ {
+      "utf8": "our skin, focus our brains,\nimprove our sleep, and horny our libidos."
+    } ]
+  }, {
+    "tStartMs": 29295,
+    "dDurationMs": 3404,
+    "segs": [ {
+      "utf8": "And it's promises like these\nthat are just now inspiring"
+    } ]
+  }, {
+    "tStartMs": 32699,
+    "dDurationMs": 3003,
+    "segs": [ {
+      "utf8": "normies to start poking themselves\nwith the magic juice."
+    } ]
+  }, {
+    "tStartMs": 36269,
+    "dDurationMs": 3504,
+    "segs": [ {
+      "utf8": "Yet one question remains:\nwhat even is this stuff?"
+    } ]
+  }, {
+    "tStartMs": 40173,
+    "dDurationMs": 2970,
+    "segs": [ {
+      "utf8": "And is this all going to end really bad?"
+    } ]
+  }, {
+    "tStartMs": 44310,
+    "dDurationMs": 2970,
+    "segs": [ {
+      "utf8": "Okay, that was two questions, but-"
+    } ]
+  }, {
+    "tStartMs": 51584,
+    "dDurationMs": 3103,
+    "segs": [ {
+      "utf8": "Simply put, peptides\nare chains of amino acids"
+    } ]
+  }, {
+    "tStartMs": 54687,
+    "dDurationMs": 3771,
+    "segs": [ {
+      "utf8": "that help your body perform\nvarious functions, from healing a muscle"
+    } ]
+  }, {
+    "tStartMs": 58458,
+    "dDurationMs": 3704,
+    "segs": [ {
+      "utf8": "tear, growing skin cells,\nor producing an entire above ground"
+    } ]
+  }, {
+    "tStartMs": 62162,
+    "dDurationMs": 3069,
+    "segs": [ {
+      "utf8": "pool's worth of testosterone,\nas mine's been known to do."
+    } ]
+  }, {
+    "tStartMs": 65265,
+    "dDurationMs": 3003,
+    "segs": [ {
+      "utf8": "There are some famous peptides\nyou've probably heard of, like insulin"
+    } ]
+  }, {
+    "tStartMs": 68268,
+    "dDurationMs": 1001,
+    "segs": [ {
+      "utf8": "and oxytocin."
+    } ]
+  }, {
+    "tStartMs": 69269,
+    "dDurationMs": 1401,
+    "segs": [ {
+      "utf8": "Peptides like these are created"
+    } ]
+  }, {
+    "tStartMs": 70670,
+    "dDurationMs": 3504,
+    "segs": [ {
+      "utf8": "inside of the body using proteins\nthat we consume through food."
+    } ]
+  }, {
+    "tStartMs": 74174,
+    "dDurationMs": 2369,
+    "segs": [ {
+      "utf8": "But the things that we'll be talking about\ntoday are peptides"
+    } ]
+  }, {
+    "tStartMs": 76543,
+    "dDurationMs": 2536,
+    "segs": [ {
+      "utf8": "that are created synthetically in a lab\nand are then"
+    } ]
+  }, {
+    "tStartMs": 79079,
+    "dDurationMs": 2402,
+    "segs": [ {
+      "utf8": "injected straight into your body\nwith a needle."
+    } ]
+  }, {
+    "tStartMs": 81481,
+    "dDurationMs": 4171,
+    "segs": [ {
+      "utf8": "You might be familiar with glucagon\nlike peptide one or GLP-1."
+    } ]
+  }, {
+    "tStartMs": 85652,
+    "dDurationMs": 2035,
+    "segs": [ {
+      "utf8": "Drugs like ozempic or wegovy"
+    } ]
+  }, {
+    "tStartMs": 87687,
+    "dDurationMs": 3504,
+    "segs": [ {
+      "utf8": "Inject a version of GLP-1 into your\nbody, which helps you lose weight."
+    } ]
+  }, {
+    "tStartMs": 91224,
+    "dDurationMs": 3470,
+    "segs": [ {
+      "utf8": "These shots are legal\nand have quite frankly, been everywhere"
+    } ]
+  }, {
+    "tStartMs": 94694,
+    "dDurationMs": 4605,
+    "segs": [ {
+      "utf8": "the last few years, but their popularity\nhas spurred a hunt to find new injectable"
+    } ]
+  }, {
+    "tStartMs": 99299,
+    "dDurationMs": 3036,
+    "segs": [ {
+      "utf8": "peptide drugs that might also yield\nother health benefits,"
+    } ]
+  }, {
+    "tStartMs": 102368,
+    "dDurationMs": 4605,
+    "segs": [ {
+      "utf8": "which is how we've reached the more\ncolloquial umbrella term of peptides,"
+    } ]
+  }, {
+    "tStartMs": 106973,
+    "dDurationMs": 4671,
+    "segs": [ {
+      "utf8": "referring to stuff like GLP-1s,\nbut also dozens of different experimental"
+    } ]
+  }, {
+    "tStartMs": 111644,
+    "dDurationMs": 1535,
+    "segs": [ {
+      "utf8": "and off-label shots"
+    } ]
+  }, {
+    "tStartMs": 113179,
+    "dDurationMs": 3804,
+    "segs": [ {
+      "utf8": "with names that, when spoken, make\nyou sound like a total droid."
+    } ]
+  }, {
+    "tStartMs": 117016,
+    "dDurationMs": 5406,
+    "segs": [ {
+      "utf8": "Sorry but I'm not doing these subtitles"
+    } ]
+  }, {
+    "tStartMs": 122422,
+    "dDurationMs": 4404,
+    "segs": [ {
+      "utf8": "They're saying insane stuff"
+    } ]
+  }, {
+    "tStartMs": 126826,
+    "dDurationMs": 3003,
+    "segs": [ {
+      "utf8": "Just long strings of letters and numbers"
+    } ]
+  }, {
+    "tStartMs": 129963,
+    "dDurationMs": 4938,
+    "segs": [ {
+      "utf8": "Still going"
+    } ]
+  }, {
+    "tStartMs": 135368,
+    "dDurationMs": 2569,
+    "segs": [ {
+      "utf8": "This guy was particularly enthusiastic"
+    } ]
+  }, {
+    "tStartMs": 137937,
+    "dDurationMs": 634,
+    "segs": [ {
+      "utf8": "Still going"
+    } ]
+  }, {
+    "tStartMs": 138571,
+    "dDurationMs": 2436,
+    "segs": [ {
+      "utf8": "Still going"
+    } ]
+  }, {
+    "tStartMs": 142675,
+    "dDurationMs": 401,
+    "segs": [ {
+      "utf8": "What?"
+    } ]
+  }, {
+    "tStartMs": 143076,
+    "dDurationMs": 3103,
+    "segs": [ {
+      "utf8": "Since these shots are unregulated\nand understudied,"
+    } ]
+  }, {
+    "tStartMs": 146179,
+    "dDurationMs": 3837,
+    "segs": [ {
+      "utf8": "not a ton is scientifically known\nabout what peptides will do to your body."
+    } ]
+  }, {
+    "tStartMs": 150016,
+    "dDurationMs": 5072,
+    "segs": [ {
+      "utf8": "Yet peptide takers hope that stuff\nlike BPC-157 will repair their muscles,"
+    } ]
+  }, {
+    "tStartMs": 155221,
+    "dDurationMs": 4838,
+    "segs": [ {
+      "utf8": "GHKCU will reduce their wrinkles, Dihexia will help them focus more,"
+    } ]
+  }, {
+    "tStartMs": 160260,
+    "dDurationMs": 2802,
+    "segs": [ {
+      "utf8": "Ipamoralin them sleep better,\nand Slytherin"
+    } ]
+  }, {
+    "tStartMs": 163062,
+    "dDurationMs": 3304,
+    "segs": [ {
+      "utf8": "will help them diabolically scheme\nagainst the boy who lived."
+    } ]
+  }, {
+    "tStartMs": 169502,
+    "dDurationMs": 2569,
+    "segs": [ {
+      "utf8": "Sometimes\nthese peptides are sold individually,"
+    } ]
+  }, {
+    "tStartMs": 172071,
+    "dDurationMs": 3737,
+    "segs": [ {
+      "utf8": "but they can also be combined\nto create so-called stacks or"
+    } ]
+  }, {
+    "tStartMs": 175808,
+    "dDurationMs": 3270,
+    "segs": [ {
+      "utf8": "groups of peptides taken at the same time\nto get different effects."
+    } ]
+  }, {
+    "tStartMs": 179078,
+    "dDurationMs": 1569,
+    "segs": [ {
+      "utf8": "Many pep pushers that corner"
+    } ]
+  }, {
+    "tStartMs": 180647,
+    "dDurationMs": 3003,
+    "segs": [ {
+      "utf8": "you in the gym shower\nwill talk about their own unique stack,"
+    } ]
+  }, {
+    "tStartMs": 183783,
+    "dDurationMs": 3203,
+    "segs": [ {
+      "utf8": "although certain ones\ncome with fun nicknames like the Wolverine"
+    } ]
+  }, {
+    "tStartMs": 187086,
+    "dDurationMs": 1435,
+    "segs": [ {
+      "utf8": "or Glow Stacks."
+    } ]
+  }, {
+    "tStartMs": 188521,
+    "dDurationMs": 3837,
+    "segs": [ {
+      "utf8": "There's such a broad category of things\nbeing sold as peptides"
+    } ]
+  }, {
+    "tStartMs": 192358,
+    "dDurationMs": 1235,
+    "segs": [ {
+      "utf8": "that it's hard to really paint"
+    } ]
+  }, {
+    "tStartMs": 193593,
+    "dDurationMs": 3704,
+    "segs": [ {
+      "utf8": "with a broad brush, because on the one\nhand, the GLPs, those are safe."
+    } ]
+  }, {
+    "tStartMs": 197297,
+    "dDurationMs": 2836,
+    "segs": [ {
+      "utf8": "People have been taking those for,\nyou know, decades now."
+    } ]
+  }, {
+    "tStartMs": 200133,
+    "dDurationMs": 1902,
+    "segs": [ {
+      "utf8": "So we're currently\nin the early adopter phase,"
+    } ]
+  }, {
+    "tStartMs": 202035,
+    "dDurationMs": 3703,
+    "segs": [ {
+      "utf8": "just as we've been with any other kind of\nlike new development where there's the,"
+    } ]
+  }, {
+    "tStartMs": 205772,
+    "dDurationMs": 4504,
+    "segs": [ {
+      "utf8": "you know, the first crazy guy\nto get a car in the late 19th century."
+    } ]
+  }, {
+    "tStartMs": 210276,
+    "dDurationMs": 1302,
+    "segs": [ {
+      "utf8": "And to be clear, like,"
+    } ]
+  }, {
+    "tStartMs": 211578,
+    "dDurationMs": 2235,
+    "segs": [ {
+      "utf8": "there certainly are risks there\nbecause a lot of these things"
+    } ]
+  }, {
+    "tStartMs": 213813,
+    "dDurationMs": 2603,
+    "segs": [ {
+      "utf8": "haven't been studied at all, really,\nin a, in a clinical setting."
+    } ]
+  }, {
+    "tStartMs": 216416,
+    "dDurationMs": 3336,
+    "segs": [ {
+      "utf8": "So we don't know necessarily\nif the people taking peptides now"
+    } ]
+  }, {
+    "tStartMs": 219986,
+    "dDurationMs": 2936,
+    "segs": [ {
+      "utf8": "are like the first crazy guy\nto ride a car, as you said,"
+    } ]
+  }, {
+    "tStartMs": 222922,
+    "dDurationMs": 2770,
+    "segs": [ {
+      "utf8": "or like the first guy\nto give their baby opium, essentially."
+    } ]
+  }, {
+    "tStartMs": 227360,
+    "dDurationMs": 1168,
+    "segs": [ {
+      "utf8": "We don't know that, no."
+    } ]
+  }, {
+    "tStartMs": 228528,
+    "dDurationMs": 3470,
+    "segs": [ {
+      "utf8": "Ezra Marcus is a reporter with glasses\nwho wrote a piece"
+    } ]
+  }, {
+    "tStartMs": 231998,
+    "dDurationMs": 3003,
+    "segs": [ {
+      "utf8": "about his own experience\nuncovering the world of peptides,"
+    } ]
+  }, {
+    "tStartMs": 235068,
+    "dDurationMs": 3670,
+    "segs": [ {
+      "utf8": "before then deciding\nto put them inside of himself."
+    } ]
+  }, {
+    "tStartMs": 238905,
+    "dDurationMs": 3937,
+    "segs": [ {
+      "utf8": "I wanted to go through the kind\nof like process that any"
+    } ]
+  }, {
+    "tStartMs": 242842,
+    "dDurationMs": 3170,
+    "segs": [ {
+      "utf8": "consumer of this stuff would go through,\nso I went through two different routes."
+    } ]
+  }, {
+    "tStartMs": 246012,
+    "dDurationMs": 5072,
+    "segs": [ {
+      "utf8": "The first was I went to a above board\nregulated to some extent med spa,"
+    } ]
+  }, {
+    "tStartMs": 251117,
+    "dDurationMs": 3403,
+    "segs": [ {
+      "utf8": "and I said, I'm a reporter,\nI'm interested in peptides, like,"
+    } ]
+  }, {
+    "tStartMs": 254520,
+    "dDurationMs": 868,
+    "segs": [ {
+      "utf8": "what do you got for me?"
+    } ]
+  }, {
+    "tStartMs": 255388,
+    "dDurationMs": 3237,
+    "segs": [ {
+      "utf8": "They basically were like, well,\nwe have this thing called NAD for you."
+    } ]
+  }, {
+    "tStartMs": 259092,
+    "dDurationMs": 2569,
+    "segs": [ {
+      "utf8": "The med spa's generally are"
+    } ]
+  }, {
+    "tStartMs": 261661,
+    "dDurationMs": 3070,
+    "segs": [ {
+      "utf8": "limited to what they can legally obtain."
+    } ]
+  }, {
+    "tStartMs": 264764,
+    "dDurationMs": 4404,
+    "segs": [ {
+      "utf8": "Then I was like, well, let me go through\nthe sort of other channel that people are,"
+    } ]
+  }, {
+    "tStartMs": 269535,
+    "dDurationMs": 3904,
+    "segs": [ {
+      "utf8": "you know, engaging in with this stuff,\nwhich is what you're seeing more"
+    } ]
+  }, {
+    "tStartMs": 273439,
+    "dDurationMs": 1969,
+    "segs": [ {
+      "utf8": "from your kind of teenage looksmaxxers."
+    } ]
+  }, {
+    "tStartMs": 275408,
+    "dDurationMs": 3637,
+    "segs": [ {
+      "utf8": "You know, what I did was\nI went on Reddit, on the Peptides"
+    } ]
+  }, {
+    "tStartMs": 279379,
+    "dDurationMs": 3637,
+    "segs": [ {
+      "utf8": "Reddit channel, and I just started DMing\npeople like, hey, you know,"
+    } ]
+  }, {
+    "tStartMs": 283016,
+    "dDurationMs": 2002,
+    "segs": [ {
+      "utf8": "I want to talk to you about peptides."
+    } ]
+  }, {
+    "tStartMs": 285018,
+    "dDurationMs": 2068,
+    "segs": [ {
+      "utf8": "And some guy was like,\ncool, join my discord."
+    } ]
+  }, {
+    "tStartMs": 287086,
+    "dDurationMs": 3404,
+    "segs": [ {
+      "utf8": "And there was a representative\nfrom a Chinese factory,"
+    } ]
+  }, {
+    "tStartMs": 291257,
+    "dDurationMs": 3270,
+    "segs": [ {
+      "utf8": "manufacturer in the discord\nwho would sort of handle all their orders"
+    } ]
+  }, {
+    "tStartMs": 294527,
+    "dDurationMs": 2136,
+    "segs": [ {
+      "utf8": "and claim to be testing the samples."
+    } ]
+  }, {
+    "tStartMs": 296663,
+    "dDurationMs": 3069,
+    "segs": [ {
+      "utf8": "And they and it was all just sort of she\nwas just selling directly to these people."
+    } ]
+  }, {
+    "tStartMs": 299732,
+    "dDurationMs": 5806,
+    "segs": [ {
+      "utf8": "And I was like, okay, well, I'll just buy\nthe cheapest amount of Retatrutide"
+    } ]
+  }, {
+    "tStartMs": 305538,
+    "dDurationMs": 4872,
+    "segs": [ {
+      "utf8": "that they sold, which was ten,\nfive milligram vials for like 150 bucks,"
+    } ]
+  }, {
+    "tStartMs": 310543,
+    "dDurationMs": 3604,
+    "segs": [ {
+      "utf8": "sent her bitcoin, and two weeks\nlater showed up on my doorstep"
+    } ]
+  }, {
+    "tStartMs": 314147,
+    "dDurationMs": 2469,
+    "segs": [ {
+      "utf8": "labeled, of course, for research purposes\nonly."
+    } ]
+  }, {
+    "tStartMs": 316616,
+    "dDurationMs": 2269,
+    "segs": [ {
+      "utf8": "Folks, does your investing app\nfeel like a game?"
+    } ]
+  }, {
+    "tStartMs": 318885,
+    "dDurationMs": 3336,
+    "segs": [ {
+      "utf8": "Well, if you're looking for a broker\nthat doesn't also seem like your bookie,"
+    } ]
+  }, {
+    "tStartMs": 322255,
+    "dDurationMs": 1835,
+    "segs": [ {
+      "utf8": "I invite you to try out Public."
+    } ]
+  }, {
+    "tStartMs": 324090,
+    "dDurationMs": 4238,
+    "segs": [ {
+      "utf8": "Public is the investing platform for folks\nwho take their investing seriously."
+    } ]
+  }, {
+    "tStartMs": 328328,
+    "dDurationMs": 3203,
+    "segs": [ {
+      "utf8": "It's a place to build a real portfolio,\none for the long haul."
+    } ]
+  }, {
+    "tStartMs": 331564,
+    "dDurationMs": 5105,
+    "segs": [ {
+      "utf8": "We're talking stocks, ETFs, bonds,\noptions, crypto, treasuries, you name it."
+    } ]
+  }, {
+    "tStartMs": 336669,
+    "dDurationMs": 2069,
+    "segs": [ {
+      "utf8": "You name it, you name it. You know what?"
+    } ]
+  }, {
+    "tStartMs": 339806,
+    "dDurationMs": 467,
+    "segs": [ {
+      "utf8": "You name it."
+    } ]
+  }, {
+    "tStartMs": 340273,
+    "dDurationMs": 2869,
+    "segs": [ {
+      "utf8": "You can even build your own investable\nindex with AI."
+    } ]
+  }, {
+    "tStartMs": 343142,
+    "dDurationMs": 3170,
+    "segs": [ {
+      "utf8": "You can just type in a prompt,\nsomething like \"renewable energy companies"
+    } ]
+  }, {
+    "tStartMs": 346312,
+    "dDurationMs": 2836,
+    "segs": [ {
+      "utf8": "with high free cash flow,\"\nor maybe \"companies that make things"
+    } ]
+  }, {
+    "tStartMs": 349148,
+    "dDurationMs": 1969,
+    "segs": [ {
+      "utf8": "I can actually touch with my hands.\""
+    } ]
+  }, {
+    "tStartMs": 351117,
+    "dDurationMs": 3904,
+    "segs": [ {
+      "utf8": "Then boom, Public's AI screens\nthousands of stocks and builds an index."
+    } ]
+  }, {
+    "tStartMs": 355021,
+    "dDurationMs": 867,
+    "segs": [ {
+      "utf8": "That's all your own."
+    } ]
+  }, {
+    "tStartMs": 355888,
+    "dDurationMs": 3571,
+    "segs": [ {
+      "utf8": "You can back test it against the S\u0026P 500,\nrefine the holdings,"
+    } ]
+  }, {
+    "tStartMs": 359459,
+    "dDurationMs": 3570,
+    "segs": [ {
+      "utf8": "invest it with real money, the whole kit\nand caboodle. Kit and caboodle?"
+    } ]
+  }, {
+    "tStartMs": 363196,
+    "dDurationMs": 2135,
+    "segs": [ {
+      "utf8": "Yeah, it's a whole thing.\nGo to public.com slash"
+    } ]
+  }, {
+    "tStartMs": 365331,
+    "dDurationMs": 1402,
+    "segs": [ {
+      "utf8": "goodwork to sign up. Public"
+    } ]
+  }, {
+    "tStartMs": 366733,
+    "dDurationMs": 4304,
+    "segs": [ {
+      "utf8": "will even give you an uncapped\n1% match when you transfer your portfolio"
+    } ]
+  }, {
+    "tStartMs": 371170,
+    "dDurationMs": 2469,
+    "segs": [ {
+      "utf8": "from another brokerage.\nThat's public.com slash"
+    } ]
+  }, {
+    "tStartMs": 373639,
+    "dDurationMs": 601,
+    "segs": [ {
+      "utf8": "goodwork"
+    } ]
+  }, {
+    "tStartMs": 374240,
+    "dDurationMs": 3437,
+    "segs": [ {
+      "utf8": "Thanks very much to our friends at Public\nfor sponsoring this video."
+    } ]
+  }, {
+    "tStartMs": 378077,
+    "dDurationMs": 3370,
+    "segs": [ {
+      "utf8": "Now, the vast majority of peptides\nthat are being hawked on the Tok"
+    } ]
+  }, {
+    "tStartMs": 381447,
+    "dDurationMs": 3404,
+    "segs": [ {
+      "utf8": "are not federally regulated\nand have been listed by the FDA"
+    } ]
+  }, {
+    "tStartMs": 384851,
+    "dDurationMs": 3370,
+    "segs": [ {
+      "utf8": "as maybe being harmful, which is why\nyou often hear influencer types"
+    } ]
+  }, {
+    "tStartMs": 388221,
+    "dDurationMs": 4571,
+    "segs": [ {
+      "utf8": "referring to them online as \"peppers\"\nto bypass social media censorship."
+    } ]
+  }, {
+    "tStartMs": 392792,
+    "dDurationMs": 1335,
+    "segs": [ {
+      "utf8": "Pretty slick stuff."
+    } ]
+  }, {
+    "tStartMs": 394127,
+    "dDurationMs": 3403,
+    "segs": [ {
+      "utf8": "It's also why many of the peptides\nthat you'll see available for online"
+    } ]
+  }, {
+    "tStartMs": 397530,
+    "dDurationMs": 3303,
+    "segs": [ {
+      "utf8": "purchase are listed\nas being for research purposes,"
+    } ]
+  }, {
+    "tStartMs": 400833,
+    "dDurationMs": 3904,
+    "segs": [ {
+      "utf8": "and come with vague,\nfive star reviews from unnamed sources."
+    } ]
+  }, {
+    "tStartMs": 404737,
+    "dDurationMs": 367,
+    "segs": [ {
+      "utf8": "Now, all"
+    } ]
+  }, {
+    "tStartMs": 405104,
+    "dDurationMs": 3771,
+    "segs": [ {
+      "utf8": "this is to say that you can't go out there\nand just cop peptides willy nilly."
+    } ]
+  }, {
+    "tStartMs": 408875,
+    "dDurationMs": 1134,
+    "segs": [ {
+      "utf8": "Instead, you got to do it"
+    } ]
+  }, {
+    "tStartMs": 410009,
+    "dDurationMs": 5472,
+    "segs": [ {
+      "utf8": "The 21st century American way: shady supply\nchains via Chinese plug."
+    } ]
+  }, {
+    "tStartMs": 415481,
+    "dDurationMs": 3370,
+    "segs": [ {
+      "utf8": "One of those vials\nsold through the kind of more public"
+    } ]
+  }, {
+    "tStartMs": 418851,
+    "dDurationMs": 3671,
+    "segs": [ {
+      "utf8": "facing middlemen\nwould probably cost like 200 bucks."
+    } ]
+  }, {
+    "tStartMs": 422855,
+    "dDurationMs": 2536,
+    "segs": [ {
+      "utf8": "And each one was costing me\nlike, you know, $15."
+    } ]
+  }, {
+    "tStartMs": 425391,
+    "dDurationMs": 2069,
+    "segs": [ {
+      "utf8": "That's how cheap\nthis stuff is to manufacture in China."
+    } ]
+  }, {
+    "tStartMs": 427460,
+    "dDurationMs": 2869,
+    "segs": [ {
+      "utf8": "And there's so much money being\nmade, there are probably billions of dollars"
+    } ]
+  }, {
+    "tStartMs": 430329,
+    "dDurationMs": 2603,
+    "segs": [ {
+      "utf8": "being made on just flipping this stuff\nto American consumers."
+    } ]
+  }, {
+    "tStartMs": 432932,
+    "dDurationMs": 5239,
+    "segs": [ {
+      "utf8": "I sort of came to peptides through the San\nFrancisco tech culture beat more so."
+    } ]
+  }, {
+    "tStartMs": 438204,
+    "dDurationMs": 2669,
+    "segs": [ {
+      "utf8": "I've been convinced\nboth over the course of reporting"
+    } ]
+  }, {
+    "tStartMs": 440873,
+    "dDurationMs": 2836,
+    "segs": [ {
+      "utf8": "and then also publishing the piece\nand seeing it do quite well."
+    } ]
+  }, {
+    "tStartMs": 443709,
+    "dDurationMs": 4071,
+    "segs": [ {
+      "utf8": "I think that 2026 is going to be the year\nof what I call consumer biotech."
+    } ]
+  }, {
+    "tStartMs": 447847,
+    "dDurationMs": 1034,
+    "segs": [ {
+      "utf8": "What would you look at that?"
+    } ]
+  }, {
+    "tStartMs": 448881,
+    "dDurationMs": 3170,
+    "segs": [ {
+      "utf8": "It's Jasmine Sun, an independent\nreporter based"
+    } ]
+  }, {
+    "tStartMs": 452051,
+    "dDurationMs": 3804,
+    "segs": [ {
+      "utf8": "in the Metropolitan charging port\nfor virgins known as San Francisco."
+    } ]
+  }, {
+    "tStartMs": 455888,
+    "dDurationMs": 2403,
+    "segs": [ {
+      "utf8": "Jasmine recently\nwrote a piece for The New York Times"
+    } ]
+  }, {
+    "tStartMs": 458291,
+    "dDurationMs": 3737,
+    "segs": [ {
+      "utf8": "about how peptides from China\nwere taking Silicon Valley by storm."
+    } ]
+  }, {
+    "tStartMs": 462028,
+    "dDurationMs": 4204,
+    "segs": [ {
+      "utf8": "Given their popularity amongst biohackers\nand people who like getting attention"
+    } ]
+  }, {
+    "tStartMs": 466232,
+    "dDurationMs": 1768,
+    "segs": [ {
+      "utf8": "for saying things like"
+    } ]
+  }, {
+    "tStartMs": 468000,
+    "dDurationMs": 4772,
+    "segs": [ {
+      "utf8": "BPC 3.141592- In San Francisco,\nthe internet is in fact real life."
+    } ]
+  }, {
+    "tStartMs": 472772,
+    "dDurationMs": 3136,
+    "segs": [ {
+      "utf8": "So peptides\nfirst showed up as a viral internet meme"
+    } ]
+  }, {
+    "tStartMs": 475908,
+    "dDurationMs": 5172,
+    "segs": [ {
+      "utf8": "that was going around Twitter slash X\nstarting about June or July of last year,"
+    } ]
+  }, {
+    "tStartMs": 481180,
+    "dDurationMs": 3203,
+    "segs": [ {
+      "utf8": "where I started hearing\nthat everybody has a Chinese"
+    } ]
+  }, {
+    "tStartMs": 484383,
+    "dDurationMs": 3003,
+    "segs": [ {
+      "utf8": "peptide dealer now,\nand it sort of became one of the"
+    } ]
+  }, {
+    "tStartMs": 488020,
+    "dDurationMs": 3804,
+    "segs": [ {
+      "utf8": "little symbols of San Francisco,\nalong with, you know, coding agents and,"
+    } ]
+  }, {
+    "tStartMs": 492325,
+    "dDurationMs": 3403,
+    "segs": [ {
+      "utf8": "Waymo's and everything else that everyone\nstarted talking about, Chinese peptides."
+    } ]
+  }, {
+    "tStartMs": 495728,
+    "dDurationMs": 3604,
+    "segs": [ {
+      "utf8": "People would compare it\neven to, trying a new browser"
+    } ]
+  }, {
+    "tStartMs": 499332,
+    "dDurationMs": 3036,
+    "segs": [ {
+      "utf8": "or trying a new app, like they are\nthe ones who want to be beta testing."
+    } ]
+  }, {
+    "tStartMs": 502368,
+    "dDurationMs": 2836,
+    "segs": [ {
+      "utf8": "They want to be early adopting and like,\nyeah,"
+    } ]
+  }, {
+    "tStartMs": 505204,
+    "dDurationMs": 2169,
+    "segs": [ {
+      "utf8": "sometimes you're going to have some bugs\nif you do that."
+    } ]
+  }, {
+    "tStartMs": 507373,
+    "dDurationMs": 2236,
+    "segs": [ {
+      "utf8": "But like,\nhow are you going to be on the frontier?"
+    } ]
+  }, {
+    "tStartMs": 509609,
+    "dDurationMs": 3003,
+    "segs": [ {
+      "utf8": "How are you going to get the benefits\nand the edge that nobody else is?"
+    } ]
+  }, {
+    "tStartMs": 512612,
+    "dDurationMs": 3003,
+    "segs": [ {
+      "utf8": "Unless you are also willing\nto accept those risks?"
+    } ]
+  }, {
+    "tStartMs": 515615,
+    "dDurationMs": 2135,
+    "segs": [ {
+      "utf8": "I have a whole peptide drawer in my fridge."
+    } ]
+  }, {
+    "tStartMs": 517750,
+    "dDurationMs": 2035,
+    "segs": [ {
+      "utf8": "I call it the girl dinner drawer."
+    } ]
+  }, {
+    "tStartMs": 519785,
+    "dDurationMs": 901,
+    "segs": [ {
+      "utf8": "Right. Okay."
+    } ]
+  }, {
+    "tStartMs": 520686,
+    "dDurationMs": 3470,
+    "segs": [ {
+      "utf8": "By touching these, am I going to explode\nor what is, what is this? (You're safe)"
+    } ]
+  }, {
+    "tStartMs": 524190,
+    "dDurationMs": 1034,
+    "segs": [ {
+      "utf8": "What do we have here?"
+    } ]
+  }, {
+    "tStartMs": 525224,
+    "dDurationMs": 2970,
+    "segs": [ {
+      "utf8": "So I brought you retatrutide."
+    } ]
+  }, {
+    "tStartMs": 528194,
+    "dDurationMs": 1101,
+    "segs": [ {
+      "utf8": "This is all retatrutide?"
+    } ]
+  }, {
+    "tStartMs": 529295,
+    "dDurationMs": 1735,
+    "segs": [ {
+      "utf8": "This is all retatrutide."
+    } ]
+  }, {
+    "tStartMs": 531030,
+    "dDurationMs": 4438,
+    "segs": [ {
+      "utf8": "Tori Pastore rhymes and is the founder\nof a marketing consultancy called soup."
+    } ]
+  }, {
+    "tStartMs": 535501,
+    "dDurationMs": 3504,
+    "segs": [ {
+      "utf8": "Last year, she hosted a peptide\nthemed rave in San Francisco,"
+    } ]
+  }, {
+    "tStartMs": 539038,
+    "dDurationMs": 4304,
+    "segs": [ {
+      "utf8": "which I would have attended had I not been\npreoccupied with my steroid quinceanera."
+    } ]
+  }, {
+    "tStartMs": 543376,
+    "dDurationMs": 3803,
+    "segs": [ {
+      "utf8": "Tori says that she's been taking peptides\nfor about the last year and a half."
+    } ]
+  }, {
+    "tStartMs": 547246,
+    "dDurationMs": 2670,
+    "segs": [ {
+      "utf8": "I really like hanging out online\nand seeing what the people in, like, weird"
+    } ]
+  }, {
+    "tStartMs": 549916,
+    "dDurationMs": 2335,
+    "segs": [ {
+      "utf8": "niche communities get up to\nand what they get excited about."
+    } ]
+  }, {
+    "tStartMs": 552251,
+    "dDurationMs": 4104,
+    "segs": [ {
+      "utf8": "I got engaged\nand was really wildly overweight."
+    } ]
+  }, {
+    "tStartMs": 556355,
+    "dDurationMs": 1268,
+    "segs": [ {
+      "utf8": "I was really, really sick."
+    } ]
+  }, {
+    "tStartMs": 557623,
+    "dDurationMs": 1835,
+    "segs": [ {
+      "utf8": "I had a lot of things wrong with me."
+    } ]
+  }, {
+    "tStartMs": 559458,
+    "dDurationMs": 801,
+    "segs": [ {
+      "utf8": "And I went to the doctor"
+    } ]
+  }, {
+    "tStartMs": 560259,
+    "dDurationMs": 3203,
+    "segs": [ {
+      "utf8": "and this was right when all of the ozempic\nand everything was first"
+    } ]
+  }, {
+    "tStartMs": 563529,
+    "dDurationMs": 1935,
+    "segs": [ {
+      "utf8": "hitting the scene and everyone was like,\nthis is amazing."
+    } ]
+  }, {
+    "tStartMs": 565464,
+    "dDurationMs": 3037,
+    "segs": [ {
+      "utf8": "And I told my doctor I was like,\nI just don't want to hate myself"
+    } ]
+  }, {
+    "tStartMs": 568501,
+    "dDurationMs": 1068,
+    "segs": [ {
+      "utf8": "in my wedding pictures."
+    } ]
+  }, {
+    "tStartMs": 569569,
+    "dDurationMs": 1935,
+    "segs": [ {
+      "utf8": "I know I have a lot of weight\nto lose, like, can we try this?"
+    } ]
+  }, {
+    "tStartMs": 571504,
+    "dDurationMs": 2769,
+    "segs": [ {
+      "utf8": "And she said, yeah, no problem.\nPrescribed it for me."
+    } ]
+  }, {
+    "tStartMs": 574273,
+    "dDurationMs": 1969,
+    "segs": [ {
+      "utf8": "And then I went to the pharmacy to go\npick it up."
+    } ]
+  }, {
+    "tStartMs": 576242,
+    "dDurationMs": 5238,
+    "segs": [ {
+      "utf8": "And because my BMI was 34.7 and not 35,"
+    } ]
+  }, {
+    "tStartMs": 581781,
+    "dDurationMs": 2169,
+    "segs": [ {
+      "utf8": "the pharmacy told me\nthat my insurance wouldn't cover it"
+    } ]
+  }, {
+    "tStartMs": 583950,
+    "dDurationMs": 1568,
+    "segs": [ {
+      "utf8": "and it was going to be $1,000 a month."
+    } ]
+  }, {
+    "tStartMs": 585518,
+    "dDurationMs": 2002,
+    "segs": [ {
+      "utf8": "And I said, that's insane."
+    } ]
+  }, {
+    "tStartMs": 587520,
+    "dDurationMs": 3870,
+    "segs": [ {
+      "utf8": "So I called my friend\nand instead of going through the pharmacy"
+    } ]
+  }, {
+    "tStartMs": 591390,
+    "dDurationMs": 3337,
+    "segs": [ {
+      "utf8": "and just doing it that way, he started\ncontacting like, all these labs"
+    } ]
+  }, {
+    "tStartMs": 594727,
+    "dDurationMs": 3136,
+    "segs": [ {
+      "utf8": "in China and being like,\nhow do I get this over here?"
+    } ]
+  }, {
+    "tStartMs": 597863,
+    "dDurationMs": 1669,
+    "segs": [ {
+      "utf8": "How do I make these things myself?"
+    } ]
+  }, {
+    "tStartMs": 599532,
+    "dDurationMs": 1601,
+    "segs": [ {
+      "utf8": "How do I give people access to this?"
+    } ]
+  }, {
+    "tStartMs": 601133,
+    "dDurationMs": 2036,
+    "segs": [ {
+      "utf8": "So he started using himself as a"
+    } ]
+  }, {
+    "tStartMs": 604270,
+    "dDurationMs": 1134,
+    "segs": [ {
+      "utf8": "kind of as a lab rat."
+    } ]
+  }, {
+    "tStartMs": 605404,
+    "dDurationMs": 3804,
+    "segs": [ {
+      "utf8": "I trusted him, I was like, you know\nwhat if if nobody else, then, you know,"
+    } ]
+  }, {
+    "tStartMs": 609208,
+    "dDurationMs": 2636,
+    "segs": [ {
+      "utf8": "at least he's doing it on himself first.\nFirst peptide shot."
+    } ]
+  }, {
+    "tStartMs": 611844,
+    "dDurationMs": 4371,
+    "segs": [ {
+      "utf8": "I had side effects that I would say\n99% of people do not have,"
+    } ]
+  }, {
+    "tStartMs": 616315,
+    "dDurationMs": 1201,
+    "segs": [ {
+      "utf8": "and it was still worth it to me."
+    } ]
+  }, {
+    "tStartMs": 617516,
+    "dDurationMs": 2002,
+    "segs": [ {
+      "utf8": "But for that first, probably 2"
+    } ]
+  }, {
+    "tStartMs": 619518,
+    "dDurationMs": 4071,
+    "segs": [ {
+      "utf8": "or 3 months, I barely ate\nanything like I was throwing up every day."
+    } ]
+  }, {
+    "tStartMs": 623589,
+    "dDurationMs": 3003,
+    "segs": [ {
+      "utf8": "I pooped my pants\ntwice in one weekend in public."
+    } ]
+  }, {
+    "tStartMs": 626592,
+    "dDurationMs": 701,
+    "segs": [ {
+      "utf8": "But haven't we all?"
+    } ]
+  }, {
+    "tStartMs": 627293,
+    "dDurationMs": 434,
+    "segs": [ {
+      "utf8": "But haven't we all?"
+    } ]
+  }, {
+    "tStartMs": 627727,
+    "dDurationMs": 3069,
+    "segs": [ {
+      "utf8": "Also, to answer your other question\nof what other peptides"
+    } ]
+  }, {
+    "tStartMs": 630796,
+    "dDurationMs": 3437,
+    "segs": [ {
+      "utf8": "have I taken,\nI did a round of copper peptides."
+    } ]
+  }, {
+    "tStartMs": 635134,
+    "dDurationMs": 1368,
+    "segs": [ {
+      "utf8": "Copper?"
+    } ]
+  }, {
+    "tStartMs": 636502,
+    "dDurationMs": 1135,
+    "segs": [ {
+      "utf8": "Like what the penny's made of?"
+    } ]
+  }, {
+    "tStartMs": 637637,
+    "dDurationMs": 900,
+    "segs": [ {
+      "utf8": "Yeah."
+    } ]
+  }, {
+    "tStartMs": 638537,
+    "dDurationMs": 1769,
+    "segs": [ {
+      "utf8": "It's a, you need that too."
+    } ]
+  }, {
+    "tStartMs": 640306,
+    "dDurationMs": 2302,
+    "segs": [ {
+      "utf8": "It's actually\nthe copper ones are really crazy."
+    } ]
+  }, {
+    "tStartMs": 642608,
+    "dDurationMs": 1969,
+    "segs": [ {
+      "utf8": "I'll bring you some next time.\nThey're purple."
+    } ]
+  }, {
+    "tStartMs": 644577,
+    "dDurationMs": 2135,
+    "segs": [ {
+      "utf8": "They look like a video game item."
+    } ]
+  }, {
+    "tStartMs": 646712,
+    "dDurationMs": 1268,
+    "segs": [ {
+      "utf8": "What does that do to you?"
+    } ]
+  }, {
+    "tStartMs": 647980,
+    "dDurationMs": 3404,
+    "segs": [ {
+      "utf8": "It's really good for your hair\nand for your nails and your skin."
+    } ]
+  }, {
+    "tStartMs": 651384,
+    "dDurationMs": 2535,
+    "segs": [ {
+      "utf8": "And it,\na lot of the girls are taking them now."
+    } ]
+  }, {
+    "tStartMs": 653919,
+    "dDurationMs": 2870,
+    "segs": [ {
+      "utf8": "But you're not taking that anymore.\nNo, I did a month of that."
+    } ]
+  }, {
+    "tStartMs": 656789,
+    "dDurationMs": 801,
+    "segs": [ {
+      "utf8": "And why did you stop?"
+    } ]
+  }, {
+    "tStartMs": 658958,
+    "dDurationMs": 2202,
+    "segs": [ {
+      "utf8": "There was such a thing as copper toxicity."
+    } ]
+  }, {
+    "tStartMs": 661160,
+    "dDurationMs": 2202,
+    "segs": [ {
+      "utf8": "And you don't want to do that full time."
+    } ]
+  }, {
+    "tStartMs": 663362,
+    "dDurationMs": 2202,
+    "segs": [ {
+      "utf8": "It's it's not one\nthat you should just do all the time."
+    } ]
+  }, {
+    "tStartMs": 665564,
+    "dDurationMs": 3104,
+    "segs": [ {
+      "utf8": "Now, folks, I imagine that\nthe more you hear about peptides"
+    } ]
+  }, {
+    "tStartMs": 668668,
+    "dDurationMs": 3003,
+    "segs": [ {
+      "utf8": "and injections, the more wary of them\nyou become."
+    } ]
+  }, {
+    "tStartMs": 671737,
+    "dDurationMs": 1135,
+    "segs": [ {
+      "utf8": "I get it,"
+    } ]
+  }, {
+    "tStartMs": 672872,
+    "dDurationMs": 3303,
+    "segs": [ {
+      "utf8": "I'm a guy who likes to keep his blood\nclean in case anyone needs to drink it."
+    } ]
+  }, {
+    "tStartMs": 676175,
+    "dDurationMs": 3837,
+    "segs": [ {
+      "utf8": "But those who are more bullish on peptides\nsay that the market for these things"
+    } ]
+  }, {
+    "tStartMs": 680012,
+    "dDurationMs": 3637,
+    "segs": [ {
+      "utf8": "already goes well beyond the Silicon\nValley biohacking types"
+    } ]
+  }, {
+    "tStartMs": 683649,
+    "dDurationMs": 3404,
+    "segs": [ {
+      "utf8": "who are cool experimenting with Chinese\nsigma heroin."
+    } ]
+  }, {
+    "tStartMs": 687086,
+    "dDurationMs": 2736,
+    "segs": [ {
+      "utf8": "I used to get sick\nmaybe like 4 or 5 times a year."
+    } ]
+  }, {
+    "tStartMs": 689822,
+    "dDurationMs": 3403,
+    "segs": [ {
+      "utf8": "I work hard, I don't sleep enough,\nI push my body."
+    } ]
+  }, {
+    "tStartMs": 693759,
+    "dDurationMs": 3671,
+    "segs": [ {
+      "utf8": "Now, if I'm about to get sick, I inject\n[name of a peptide??], and I don't get sick."
+    } ]
+  }, {
+    "tStartMs": 697430,
+    "dDurationMs": 3803,
+    "segs": [ {
+      "utf8": "Max Marchione is the co-founder\nof the Health startup Superpower."
+    } ]
+  }, {
+    "tStartMs": 701267,
+    "dDurationMs": 801,
+    "segs": [ {
+      "utf8": "With Superpower,"
+    } ]
+  }, {
+    "tStartMs": 702068,
+    "dDurationMs": 1901,
+    "segs": [ {
+      "utf8": "Max believes that he's creating the first"
+    } ]
+  }, {
+    "tStartMs": 703969,
+    "dDurationMs": 1902,
+    "segs": [ {
+      "utf8": "in the next generation\nof pharma companies,"
+    } ]
+  }, {
+    "tStartMs": 705871,
+    "dDurationMs": 4438,
+    "segs": [ {
+      "utf8": "something he's calling Pharma 2.0,\nand he sees peptides as potentially"
+    } ]
+  }, {
+    "tStartMs": 710309,
+    "dDurationMs": 1168,
+    "segs": [ {
+      "utf8": "a major part of that future."
+    } ]
+  }, {
+    "tStartMs": 711477,
+    "dDurationMs": 4171,
+    "segs": [ {
+      "utf8": "Peptides are going to be,\nI think, a $1 trillion category."
+    } ]
+  }, {
+    "tStartMs": 715681,
+    "dDurationMs": 4371,
+    "segs": [ {
+      "utf8": "Injections are now a viable\nform of drug delivery, which opens up"
+    } ]
+  }, {
+    "tStartMs": 720052,
+    "dDurationMs": 4938,
+    "segs": [ {
+      "utf8": "the kind of the the the drug purview\nto include other injectable peptides."
+    } ]
+  }, {
+    "tStartMs": 725391,
+    "dDurationMs": 3770,
+    "segs": [ {
+      "utf8": "And I think over the coming years we're\ngoing to see many GLP-1 like drugs."
+    } ]
+  }, {
+    "tStartMs": 729161,
+    "dDurationMs": 3304,
+    "segs": [ {
+      "utf8": "But for everything else to come to market.\nI think many people"
+    } ]
+  }, {
+    "tStartMs": 732832,
+    "dDurationMs": 3970,
+    "segs": [ {
+      "utf8": "see these broadly\nas these kind of fringe compounds."
+    } ]
+  }, {
+    "tStartMs": 736802,
+    "dDurationMs": 1402,
+    "segs": [ {
+      "utf8": "And the reality is most"
+    } ]
+  }, {
+    "tStartMs": 738204,
+    "dDurationMs": 3937,
+    "segs": [ {
+      "utf8": "things that are new start kind of fringe\nand then slowly become mainstream, right?"
+    } ]
+  }, {
+    "tStartMs": 742141,
+    "dDurationMs": 1468,
+    "segs": [ {
+      "utf8": "I often recall that"
+    } ]
+  }, {
+    "tStartMs": 743609,
+    "dDurationMs": 3036,
+    "segs": [ {
+      "utf8": "aphorism of the future is already here,\nbut not evenly distributed."
+    } ]
+  }, {
+    "tStartMs": 746645,
+    "dDurationMs": 3871,
+    "segs": [ {
+      "utf8": "And I think many of the smartest people\nI know, many of the smartest biologists"
+    } ]
+  }, {
+    "tStartMs": 750516,
+    "dDurationMs": 3403,
+    "segs": [ {
+      "utf8": "I know, and doctors I know are using\npeptides are familiar with peptides."
+    } ]
+  }, {
+    "tStartMs": 753919,
+    "dDurationMs": 1001,
+    "segs": [ {
+      "utf8": "Now, there are risks."
+    } ]
+  }, {
+    "tStartMs": 754920,
+    "dDurationMs": 2269,
+    "segs": [ {
+      "utf8": "I don't recommend people\nblindly take peptides."
+    } ]
+  }, {
+    "tStartMs": 757189,
+    "dDurationMs": 3704,
+    "segs": [ {
+      "utf8": "I certainly don't recommend they order\nthem from research use only sites online."
+    } ]
+  }, {
+    "tStartMs": 760893,
+    "dDurationMs": 2970,
+    "segs": [ {
+      "utf8": "I think if you have the foundations\nof health in check,"
+    } ]
+  }, {
+    "tStartMs": 763863,
+    "dDurationMs": 2102,
+    "segs": [ {
+      "utf8": "that should be the default for everyone."
+    } ]
+  }, {
+    "tStartMs": 765965,
+    "dDurationMs": 3003,
+    "segs": [ {
+      "utf8": "That's what men used to be like\nand now the modern world"
+    } ]
+  }, {
+    "tStartMs": 769001,
+    "dDurationMs": 1468,
+    "segs": [ {
+      "utf8": "makes that really hard"
+    } ]
+  }, {
+    "tStartMs": 770469,
+    "dDurationMs": 3771,
+    "segs": [ {
+      "utf8": "because we're surrounded by a lot of\nthings that impact our sex hormones"
+    } ]
+  }, {
+    "tStartMs": 774240,
+    "dDurationMs": 3036,
+    "segs": [ {
+      "utf8": "and our endocrine system in a negative way."
+    } ]
+  }, {
+    "tStartMs": 778010,
+    "dDurationMs": 2236,
+    "segs": [ {
+      "utf8": "Well, I don't know anything\nabout that. Personally"
+    } ]
+  }, {
+    "tStartMs": 780246,
+    "dDurationMs": 3537,
+    "segs": [ {
+      "utf8": "I'm f*cking constantly.\nBut I do have a sympathetic ear, Max,"
+    } ]
+  }, {
+    "tStartMs": 783916,
+    "dDurationMs": 2469,
+    "segs": [ {
+      "utf8": "and it certainly sucks to hear\nabout all these things"
+    } ]
+  }, {
+    "tStartMs": 786385,
+    "dDurationMs": 1835,
+    "segs": [ {
+      "utf8": "you and these sexless men are going\nthrough."
+    } ]
+  }, {
+    "tStartMs": 788220,
+    "dDurationMs": 3571,
+    "segs": [ {
+      "utf8": "My advice?\nTake a woman out to a nice jazz dinner."
+    } ]
+  }, {
+    "tStartMs": 792291,
+    "dDurationMs": 3003,
+    "segs": [ {
+      "utf8": "Poobells on 14th. That's a good spot."
+    } ]
+  }, {
+    "tStartMs": 795327,
+    "dDurationMs": 2269,
+    "segs": [ {
+      "utf8": "Once you go in there, ask for Jason."
+    } ]
+  }, {
+    "tStartMs": 797596,
+    "dDurationMs": 2903,
+    "segs": [ {
+      "utf8": "He'll show you the right table.\nAt around 8:30,"
+    } ]
+  }, {
+    "tStartMs": 800499,
+    "dDurationMs": 1769,
+    "segs": [ {
+      "utf8": "when it gets nice and dark,"
+    } ]
+  }, {
+    "tStartMs": 802268,
+    "dDurationMs": 3570,
+    "segs": [ {
+      "utf8": "and Raoul starts tickling the ivories\nfor his first solo of the night,"
+    } ]
+  }, {
+    "tStartMs": 806539,
+    "dDurationMs": 4571,
+    "segs": [ {
+      "utf8": "I want you to look into her eyes and\npull back a strand of her chestnut hair."
+    } ]
+  }, {
+    "tStartMs": 811977,
+    "dDurationMs": 2036,
+    "segs": [ {
+      "utf8": "Ask her about the\nlast man to break her heart."
+    } ]
+  }, {
+    "tStartMs": 815114,
+    "dDurationMs": 2703,
+    "segs": [ {
+      "utf8": "Ask her what you can do to mend it."
+    } ]
+  }, {
+    "tStartMs": 817817,
+    "dDurationMs": 3003,
+    "segs": [ {
+      "utf8": "Then, when the timing is right,"
+    } ]
+  }, {
+    "tStartMs": 821086,
+    "dDurationMs": 2970,
+    "segs": [ {
+      "utf8": "I want you to put out a cigarette\ninto that cheesecake"
+    } ]
+  }, {
+    "tStartMs": 824056,
+    "dDurationMs": 3003,
+    "segs": [ {
+      "utf8": "she ordered and give her a kiss."
+    } ]
+  }, {
+    "tStartMs": 827560,
+    "dDurationMs": 2769,
+    "segs": [ {
+      "utf8": "Not one that says, I want you,"
+    } ]
+  }, {
+    "tStartMs": 830329,
+    "dDurationMs": 2603,
+    "segs": [ {
+      "utf8": "but one that says, I need you."
+    } ]
+  }, {
+    "tStartMs": 832932,
+    "dDurationMs": 1668,
+    "segs": [ {
+      "utf8": "You need me."
+    } ]
+  }, {
+    "tStartMs": 834600,
+    "dDurationMs": 3403,
+    "segs": [ {
+      "utf8": "We need us. Tonight."
+    } ]
+  }, {
+    "tStartMs": 838904,
+    "dDurationMs": 3003,
+    "segs": [ {
+      "utf8": "Now and forever."
+    } ]
+  }, {
+    "tStartMs": 844009,
+    "dDurationMs": 1602,
+    "segs": [ {
+      "utf8": "And if none of that works"
+    } ]
+  }, {
+    "tStartMs": 845611,
+    "dDurationMs": 1735,
+    "segs": [ {
+      "utf8": "Just maybe try some peptides."
+    } ]
+  }, {
+    "tStartMs": 847346,
+    "dDurationMs": 3871,
+    "segs": [ {
+      "utf8": "Yeah, well,\nI couldn't be more against this BS."
+    } ]
+  }, {
+    "tStartMs": 851483,
+    "dDurationMs": 1435,
+    "segs": [ {
+      "utf8": "Okay. Who's this fun sucker?"
+    } ]
+  }, {
+    "tStartMs": 852918,
+    "dDurationMs": 3037,
+    "segs": [ {
+      "utf8": "Eric Topol is a cardiologist\nand director of the Scripps"
+    } ]
+  }, {
+    "tStartMs": 855955,
+    "dDurationMs": 1835,
+    "segs": [ {
+      "utf8": "Research Translational Institute."
+    } ]
+  }, {
+    "tStartMs": 857790,
+    "dDurationMs": 901,
+    "segs": [ {
+      "utf8": "He's also the author"
+    } ]
+  }, {
+    "tStartMs": 858691,
+    "dDurationMs": 3803,
+    "segs": [ {
+      "utf8": "of multiple New York Times bestsellers,\nas well as the Ground Truths newsletter,"
+    } ]
+  }, {
+    "tStartMs": 862494,
+    "dDurationMs": 668,
+    "segs": [ {
+      "utf8": "where he covers"
+    } ]
+  }, {
+    "tStartMs": 863162,
+    "dDurationMs": 4304,
+    "segs": [ {
+      "utf8": "various topics in the medical field,\nincluding his skepticism about peptides."
+    } ]
+  }, {
+    "tStartMs": 867466,
+    "dDurationMs": 3737,
+    "segs": [ {
+      "utf8": "I'd love to see any of these peptides\nproven to be beneficial"
+    } ]
+  }, {
+    "tStartMs": 871237,
+    "dDurationMs": 1401,
+    "segs": [ {
+      "utf8": "if we find something that helps"
+    } ]
+  }, {
+    "tStartMs": 872638,
+    "dDurationMs": 3804,
+    "segs": [ {
+      "utf8": "patients and people I'm all for,\nthere are no trials that are being done."
+    } ]
+  }, {
+    "tStartMs": 876442,
+    "dDurationMs": 2235,
+    "segs": [ {
+      "utf8": "It's just all done through word of mouth"
+    } ]
+  }, {
+    "tStartMs": 878677,
+    "dDurationMs": 4038,
+    "segs": [ {
+      "utf8": "and promotion and longevity clinics\nand that kind of stuff."
+    } ]
+  }, {
+    "tStartMs": 882748,
+    "dDurationMs": 3604,
+    "segs": [ {
+      "utf8": "When we inject a drug in our body,\nwe should know"
+    } ]
+  }, {
+    "tStartMs": 886719,
+    "dDurationMs": 3603,
+    "segs": [ {
+      "utf8": "that it's safe, that it is\nwhat it says it is and it's effective."
+    } ]
+  }, {
+    "tStartMs": 890322,
+    "dDurationMs": 3003,
+    "segs": [ {
+      "utf8": "That only can be done\nthrough clinical trials."
+    } ]
+  }, {
+    "tStartMs": 893559,
+    "dDurationMs": 2202,
+    "segs": [ {
+      "utf8": "Anything short of that is not science."
+    } ]
+  }, {
+    "tStartMs": 895761,
+    "dDurationMs": 1435,
+    "segs": [ {
+      "utf8": "It's just anecdotes."
+    } ]
+  }, {
+    "tStartMs": 897196,
+    "dDurationMs": 2602,
+    "segs": [ {
+      "utf8": "It's just bro science or whatever\nyou want to call it."
+    } ]
+  }, {
+    "tStartMs": 899798,
+    "dDurationMs": 1335,
+    "segs": [ {
+      "utf8": "It's not the real deal."
+    } ]
+  }, {
+    "tStartMs": 901133,
+    "dDurationMs": 1535,
+    "segs": [ {
+      "utf8": "You don't know whether you're"
+    } ]
+  }, {
+    "tStartMs": 902668,
+    "dDurationMs": 3070,
+    "segs": [ {
+      "utf8": "injecting yourself with a placebo\nwould give you the same sense"
+    } ]
+  }, {
+    "tStartMs": 905738,
+    "dDurationMs": 3003,
+    "segs": [ {
+      "utf8": "of whatever it is\nthat you're wanting to feel."
+    } ]
+  }, {
+    "tStartMs": 908774,
+    "dDurationMs": 1802,
+    "segs": [ {
+      "utf8": "This a lot of money here. I don't know"
+    } ]
+  }, {
+    "tStartMs": 910576,
+    "dDurationMs": 2736,
+    "segs": [ {
+      "utf8": "many peptides are less than a couple\nhundred dollars a shot."
+    } ]
+  }, {
+    "tStartMs": 913312,
+    "dDurationMs": 1835,
+    "segs": [ {
+      "utf8": "When you put up a few hundred dollars"
+    } ]
+  }, {
+    "tStartMs": 915147,
+    "dDurationMs": 2569,
+    "segs": [ {
+      "utf8": "for something each time, every month\nyou go get it."
+    } ]
+  }, {
+    "tStartMs": 917716,
+    "dDurationMs": 1535,
+    "segs": [ {
+      "utf8": "Talk about confirmation bias."
+    } ]
+  }, {
+    "tStartMs": 919251,
+    "dDurationMs": 2136,
+    "segs": [ {
+      "utf8": "And I don't-\nI don't care about the pushback."
+    } ]
+  }, {
+    "tStartMs": 921387,
+    "dDurationMs": 1701,
+    "segs": [ {
+      "utf8": "I'm just telling the truth."
+    } ]
+  }, {
+    "tStartMs": 923088,
+    "dDurationMs": 2002,
+    "segs": [ {
+      "utf8": "I'm given the facts."
+    } ]
+  }, {
+    "tStartMs": 925090,
+    "dDurationMs": 3204,
+    "segs": [ {
+      "utf8": "Now folks, when Instagram told me to get on threads,\nI said f*ck that sh*t."
+    } ]
+  }, {
+    "tStartMs": 928294,
+    "dDurationMs": 4404,
+    "segs": [ {
+      "utf8": "But in an age of rising tech skepticism,\npeptides seem to be a rare moment"
+    } ]
+  }, {
+    "tStartMs": 932698,
+    "dDurationMs": 3670,
+    "segs": [ {
+      "utf8": "of a Silicon Valley trend bleeding out\ninto the general public."
+    } ]
+  }, {
+    "tStartMs": 936368,
+    "dDurationMs": 3003,
+    "segs": [ {
+      "utf8": "Hearing the range of people for whom\nthis is very appealing,"
+    } ]
+  }, {
+    "tStartMs": 939738,
+    "dDurationMs": 2803,
+    "segs": [ {
+      "utf8": "made me think that, like, yeah,\nthis is going to be a huge thing."
+    } ]
+  }, {
+    "tStartMs": 942541,
+    "dDurationMs": 3771,
+    "segs": [ {
+      "utf8": "I think people are basically very willing\nto spend their own money"
+    } ]
+  }, {
+    "tStartMs": 946412,
+    "dDurationMs": 2969,
+    "segs": [ {
+      "utf8": "in order to get hotter, to get healthier."
+    } ]
+  }, {
+    "tStartMs": 949715,
+    "dDurationMs": 3203,
+    "segs": [ {
+      "utf8": "And especially with decreasing amounts\nof trust and frustration"
+    } ]
+  }, {
+    "tStartMs": 952918,
+    "dDurationMs": 3904,
+    "segs": [ {
+      "utf8": "with the American medical establishment,\npeople are, in a relative sense, thinking"
+    } ]
+  }, {
+    "tStartMs": 956822,
+    "dDurationMs": 3837,
+    "segs": [ {
+      "utf8": "like, well, why not sort of trust\nthis influencer, this alternate route"
+    } ]
+  }, {
+    "tStartMs": 960659,
+    "dDurationMs": 2469,
+    "segs": [ {
+      "utf8": "instead. Are you worried\nabout possible side effects?"
+    } ]
+  }, {
+    "tStartMs": 964263,
+    "dDurationMs": 1168,
+    "segs": [ {
+      "utf8": "Like pooping my pants again?"
+    } ]
+  }, {
+    "tStartMs": 965431,
+    "dDurationMs": 1201,
+    "segs": [ {
+      "utf8": "Sure."
+    } ]
+  }, {
+    "tStartMs": 966632,
+    "dDurationMs": 2969,
+    "segs": [ {
+      "utf8": "Well, so people..."
+    } ]
+  }, {
+    "tStartMs": 970936,
+    "dDurationMs": 4471,
+    "segs": [ {
+      "utf8": "Even if this took five years off my life\nat the end of my life,"
+    } ]
+  }, {
+    "tStartMs": 975541,
+    "dDurationMs": 1868,
+    "segs": [ {
+      "utf8": "it would be worth it for what\nit's done for me."
+    } ]
+  }, {
+    "tStartMs": 977409,
+    "dDurationMs": 4371,
+    "segs": [ {
+      "utf8": "Indeed, peptides seem to be a product\nthat speak to our time like no other,"
+    } ]
+  }, {
+    "tStartMs": 982281,
+    "dDurationMs": 4538,
+    "segs": [ {
+      "utf8": "an easy to use drug that's sometimes\na really fun shade of purple and forgoes"
+    } ]
+  }, {
+    "tStartMs": 986819,
+    "dDurationMs": 1234,
+    "segs": [ {
+      "utf8": "government approval—"
+    } ]
+  }, {
+    "tStartMs": 988053,
+    "dDurationMs": 4338,
+    "segs": [ {
+      "utf8": "thus leaving is the gamble of our health\nup to us, the people."
+    } ]
+  }, {
+    "tStartMs": 992424,
+    "dDurationMs": 2970,
+    "segs": [ {
+      "utf8": "Those of us inundated every day\nwith images"
+    } ]
+  }, {
+    "tStartMs": 995394,
+    "dDurationMs": 4037,
+    "segs": [ {
+      "utf8": "of seemingly regular citizens\nwith perfect hair, perfect skin"
+    } ]
+  }, {
+    "tStartMs": 999665,
+    "dDurationMs": 2769,
+    "segs": [ {
+      "utf8": "and somehow eight different\nabs on their stomach"
+    } ]
+  }, {
+    "tStartMs": 1002434,
+    "dDurationMs": 4605,
+    "segs": [ {
+      "utf8": "despite having a desk job at Salesforce.\nThe folks who look at these substances"
+    } ]
+  }, {
+    "tStartMs": 1007039,
+    "dDurationMs": 4304,
+    "segs": [ {
+      "utf8": "weigh the pros and cons and still have\nthe risk-taking appetite to give a discord"
+    } ]
+  }, {
+    "tStartMs": 1011343,
+    "dDurationMs": 4471,
+    "segs": [ {
+      "utf8": "moderator a few bitcoin to cop an order\nfrom China, wait a week for delivery,"
+    } ]
+  }, {
+    "tStartMs": 1015814,
+    "dDurationMs": 2436,
+    "segs": [ {
+      "utf8": "swirl up some dust in a vial of water,"
+    } ]
+  }, {
+    "tStartMs": 1018250,
+    "dDurationMs": 2336,
+    "segs": [ {
+      "utf8": "take out a needle,\nlook in the mirror and say: hey."
+    } ]
+  }, {
+    "tStartMs": 1021553,
+    "dDurationMs": 2970,
+    "segs": [ {
+      "utf8": "Guess it's worth a shot."
+    } ]
+  }, {
+    "tStartMs": 1024523,
+    "dDurationMs": 1201,
+    "segs": [ {
+      "utf8": "For good work,"
+    } ]
+  }, {
+    "tStartMs": 1025724,
+    "dDurationMs": 3003,
+    "segs": [ {
+      "utf8": "I'm Dan Toomey."
+    } ]
+  }, {
+    "tStartMs": 1032965,
+    "dDurationMs": 2202,
+    "segs": [ {
+      "utf8": "I think it kind of began\nin bodybuilding, actually."
+    } ]
+  }, {
+    "tStartMs": 1035167,
+    "dDurationMs": 1235,
+    "segs": [ {
+      "utf8": "It was bodybuilders"
+    } ]
+  }, {
+    "tStartMs": 1036402,
+    "dDurationMs": 3870,
+    "segs": [ {
+      "utf8": "and these like CrossFit type communities\nwho first started experimenting"
+    } ]
+  }, {
+    "tStartMs": 1040272,
+    "dDurationMs": 701,
+    "segs": [ {
+      "utf8": "with peptides."
+    } ]
+  }, {
+    "tStartMs": 1040973,
+    "dDurationMs": 3737,
+    "segs": [ {
+      "utf8": "If I talk to the average bodybuilder,\nis it safe to assume"
+    } ]
+  }, {
+    "tStartMs": 1044710,
+    "dDurationMs": 1501,
+    "segs": [ {
+      "utf8": "that they're using peptides?"
+    } ]
+  }, {
+    "tStartMs": 1046211,
+    "dDurationMs": 3103,
+    "segs": [ {
+      "utf8": "I mean, I can't speak\nfor all bodybuilders, but I think"
+    } ]
+  }, {
+    "tStartMs": 1049314,
+    "dDurationMs": 3037,
+    "segs": [ {
+      "utf8": "competitively speaking, like\nthe ones who are doing well competitively,"
+    } ]
+  }, {
+    "tStartMs": 1053218,
+    "dDurationMs": 5739,
+    "segs": [ {
+      "utf8": "99% of them are.\nHow did you develop your stack?"
+    } ]
+  }, {
+    "tStartMs": 1058957,
+    "dDurationMs": 3404,
+    "segs": [ {
+      "utf8": "So to a certain degree,\nwe're all our own science experiment."
+    } ]
+  }, {
+    "tStartMs": 1062361,
+    "dDurationMs": 3003,
+    "segs": [ {
+      "utf8": "It is kind of our responsibility\nto making sure"
+    } ]
+  }, {
+    "tStartMs": 1065364,
+    "dDurationMs": 3036,
+    "segs": [ {
+      "utf8": "that, like our health is in our hands,\nyou know?"
+    } ]
+  }, {
+    "tStartMs": 1068400,
+    "dDurationMs": 1735,
+    "segs": [ {
+      "utf8": "So like every 3 to 4 months I'm"
+    } ]
+  }, {
+    "tStartMs": 1070135,
+    "dDurationMs": 1835,
+    "segs": [ {
+      "utf8": "getting bloodwork done\njust to make sure everything's okay."
+    } ]
+  }, {
+    "tStartMs": 1071970,
+    "dDurationMs": 1802,
+    "segs": [ {
+      "utf8": "What do you bench right now?"
+    } ]
+  }, {
+    "tStartMs": 1073772,
+    "dDurationMs": 1735,
+    "segs": [ {
+      "utf8": "I don't really bench often."
+    } ]
+  }, {
+    "tStartMs": 1075507,
+    "dDurationMs": 1135,
+    "segs": [ {
+      "utf8": "Chest press"
+    } ]
+  }, {
+    "tStartMs": 1076642,
+    "dDurationMs": 1802,
+    "segs": [ {
+      "utf8": "What's your, what's your max? Okay."
+    } ]
+  }, {
+    "tStartMs": 1078444,
+    "dDurationMs": 2235,
+    "segs": [ {
+      "utf8": "What do you max out at?\nI do like dumbbells."
+    } ]
+  }, {
+    "tStartMs": 1080679,
+    "dDurationMs": 1268,
+    "segs": [ {
+      "utf8": "Dumbbells. Okay."
+    } ]
+  }, {
+    "tStartMs": 1081947,
+    "dDurationMs": 4872,
+    "segs": [ {
+      "utf8": "So on each side, what's the biggest\ndumbbell that you do? Like 40?"
+    } ]
+  }, {
+    "tStartMs": 1088087,
+    "dDurationMs": 567,
+    "segs": [ {
+      "utf8": "Like 130. On an incline."
+    } ]
+  } ]
+}

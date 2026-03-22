@@ -19,11 +19,11 @@ sources:
     author: Brett Bauman & Zack Hargett (Sub Club podcast)
     url: 'https://youtu.be/Wg70HlO-5gY'
 related:
+  - INS-260322-5CBF
   - INS-260320-630D
   - INS-260321-807B
   - INS-260321-96CE
   - INS-260322-0812
-  - INS-260321-C902
 date_extracted: '2026-03-20'
 last_accessed: null
 access_count: 0

@@ -55,6 +55,7 @@ related:
   - INS-260322-BBED
   - INS-260322-B09B
   - INS-260321-4E98
+  - INS-260322-34AE
 ---
 The a16z team identifies that the most impactful consumer AI moments of 2025 were image and video models, not text capabilities. The Ghibli moment for ChatGPT, Nano Banana/Pro for Gemini, VO3 for Google, and Sora 2 for OpenAI all drove massive user spikes. Gemini grew desktop users 155% YoY largely on the strength of these visual model launches.
 
