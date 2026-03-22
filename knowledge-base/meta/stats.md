@@ -1,8 +1,8 @@
 # Knowledge Base Stats
 
-> Generated: 2026-03-21
+> Generated: 2026-03-22
 
-- **Total insights:** 124
+- **Total insights:** 131
 - **Domains:** 6
 - **Topics:** 19
-- **Tags:** 385
+- **Tags:** 409

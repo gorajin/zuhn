@@ -20,7 +20,6 @@ sources:
     url: 'https://youtu.be/CxFQykWiJqY'
 related:
   - INS-260320-D4BD
-  - INS-260320-B99F
   - INS-260320-F78E
   - INS-260321-80A9
   - INS-260320-DDD9

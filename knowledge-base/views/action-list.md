@@ -1,5 +1,5 @@
 # Action List
-Generated on 2026-03-21 | 88 actionable insights
+Generated on 2026-03-22 | 88 actionable insights
 
 ## ai-development/agent-patterns
 - [INS-260320-1B10] Have Claude review its own code via a specialized review agent — catches critical errors, missing implementations, and security flaws.

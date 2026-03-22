@@ -42,8 +42,8 @@ related:
   - INS-260320-EA19
   - INS-260320-A1D3
   - INS-260321-D3BE
-  - INS-260321-8433
   - PRI-260320-3032
   - INS-260320-DEAF
+  - INS-260321-BFA3
 ---
 Karpathy describes the meta-layer of auto-research: the program.md file IS the research organization's operating system. Different program.mds would yield different research progress. You can imagine a contest where people write different program.mds for the same hardware budget and measure which produces the most improvement. Then feed all that data to a model to write an even better program.md. This is meta-optimization of the research process itself.
