@@ -21,7 +21,6 @@ sources:
     url: 'https://youtu.be/EdZWPB1fIJc'
 related:
   - INS-260320-96C9
-  - INS-260320-7914
   - INS-260320-DEAF
   - PRI-260321-7307
   - PRI-260321-14D8

@@ -17,6 +17,7 @@ Generated on 2026-03-22 | 45 sources
 | Why we shifted to Spec-Driven Development | reddit | 6 | 2026-03-20 |
 | Claude for Finance | pdf | 5 | 2026-03-22 |
 | How To Get Unique AI Startup Ideas | youtube | 5 | 2026-03-22 |
+| Why Scale Will Not Solve AGI | Vishal Misra - The a16z Show | youtube | 5 | 2026-03-22 |
 | 200+ pages of Hugging Face secrets on how to train an LLM | reddit | 5 | 2026-03-20 |
 | Debugging as architecture insight: dissecting a VLA | blog | 4 | 2026-03-22 |
 | How is this time different?  | blog | 4 | 2026-03-22 |
@@ -47,4 +48,3 @@ Generated on 2026-03-22 | 45 sources
 | Inside Palantir: Building Software That Matters | Shyam Sankar on a16z | youtube | 0 | 2026-03-22 |
 | Inside the New Media Team with Marc Andreessen & Ben Horowitz | youtube | 0 | 2026-03-22 |
 | Palantir CEO on Iran, AI Weapons and American Domination | a16z American Dynamism Summit | youtube | 0 | 2026-03-22 |
-| Why Scale Will Not Solve AGI | Vishal Misra - The a16z Show | youtube | 0 | 2026-03-22 |

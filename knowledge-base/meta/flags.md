@@ -8,14 +8,16 @@ None.
 - 7 insights form cluster across automation/content-creation, automation/n8n-workflows — shared tags: n8n
 
 ## GAP
-- ai-development/claude-code has 33 insights but related ai-development/agent-patterns has only 6
-- ai-development/future-of-work has 31 insights but related ai-development/agent-patterns has only 6
+- ai-development/claude-code has 33 insights but related ai-development/agent-patterns has only 7
+- ai-development/future-of-work has 31 insights but related ai-development/agent-patterns has only 7
+- ai-development/agent-patterns has 7 insights but related music-production/songwriting has only 2
 - ai-development/claude-code has 33 insights but related ai-development/context-management has only 2
+- ai-development/llm-training has 10 insights but related ai-development/context-management has only 2
 - ai-development/system-building has 10 insights but related ai-development/context-management has only 2
 - ai-development/future-of-work has 31 insights but related ai-development/context-management has only 2
 - startups/growth-marketing has 18 insights but related ai-development/context-management has only 2
 - ai-development/claude-code has 33 insights but related ai-development/llm-costs has only 8
-- ai-development/claude-code has 33 insights but related ai-development/llm-training has only 6
+- ai-development/claude-code has 33 insights but related ai-development/llm-training has only 10
 - ai-development/claude-code has 33 insights but related ai-development/spec-driven-dev has only 6
 - ai-development/claude-code has 33 insights but related ai-development/tooling has only 4
 - ai-development/claude-code has 33 insights but related automation/content-creation has only 3
@@ -30,7 +32,10 @@ None.
 - ai-development/claude-code has 33 insights but related video-production/content-strategy has only 3
 - ai-development/claude-code has 33 insights but related startups/ideation has only 4
 - ai-development/future-of-work has 31 insights but related ai-development/llm-costs has only 8
-- ai-development/future-of-work has 31 insights but related ai-development/llm-training has only 6
+- ai-development/llm-training has 10 insights but related automation/content-creation has only 3
+- ai-development/llm-training has 10 insights but related music-production/synthesis has only 3
+- ai-development/future-of-work has 31 insights but related ai-development/llm-training has only 10
+- ai-development/llm-training has 10 insights but related video-production/content-strategy has only 3
 - ai-development/future-of-work has 31 insights but related ai-development/spec-driven-dev has only 6
 - ai-development/future-of-work has 31 insights but related ai-development/tooling has only 4
 - startups/bootstrapping has 14 insights but related ai-development/tooling has only 4
