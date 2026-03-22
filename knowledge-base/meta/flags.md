@@ -6,6 +6,9 @@ None.
 
 ## DISCOVER
 - 7 insights form cluster across automation/content-creation, automation/n8n-workflows — shared tags: n8n
+- 2 insights form cluster across investing/geopolitics, investing/ai-infrastructure — shared tags: capex, ai-infrastructure
+- 2 insights form cluster across investing/geopolitics, investing/ai-business-models — shared tags: none
+- 2 insights form cluster across startups/competitive-strategy, investing/ai-business-models — shared tags: none
 
 ## GAP
 - ai-development/claude-code has 33 insights but related ai-development/agent-patterns has only 10
@@ -17,6 +20,9 @@ None.
 - startups/growth-marketing has 28 insights but related ai-development/ai-automation has only 8
 - startups/growth-marketing has 28 insights but related video-production/content-strategy has only 3
 - startups/growth-marketing has 28 insights but related startups/ideation has only 9
+- startups/growth-marketing has 28 insights but related investing/ai-business-models has only 3
+- ai-development/ai-market-dynamics has 16 insights but related investing/ai-business-models has only 3
+- investing/geopolitics has 17 insights but related investing/ai-infrastructure has only 2
 
 ## TRANSFER
 None.

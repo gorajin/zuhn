@@ -39,10 +39,10 @@ resolutions:
     tolerate years of people thinking your idea is bad is both a filter and a
     moat.
 related:
-  - INS-260321-96CE
   - INS-260321-6BA7
   - INS-260321-2F09
+  - INS-260322-1D52
   - INS-260320-9935
-  - INS-260321-E4EB
+  - INS-260321-96CE
 ---
 There's a systematic ideation cheat code: most founders, especially young ones, cut out any idea that might take longer than two years to work, telling themselves they'll figure it out faster. This means any idea with a legitimately long time horizon — 5 or 10 years — automatically has far less competition. OpenAI and Anthropic are prime examples: both were deeply weird, took years without real products, and nobody would have picked them as consensus good ideas at inception. OpenAI started as a nonprofit research lab during the SaaS era. The willingness to commit to longer timelines and tolerate years of people thinking your idea is bad is both a filter and a moat.

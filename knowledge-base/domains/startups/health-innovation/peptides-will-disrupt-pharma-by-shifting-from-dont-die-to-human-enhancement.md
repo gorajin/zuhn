@@ -45,7 +45,6 @@ resolutions:
     toward cheap, unpatentable compounds — a threat the pharmaceutical industry
     has strong incentives to suppress.
 related:
-  - INS-260321-31B3
   - INS-260321-1A03
   - INS-260321-9AB5
   - INS-260321-4B38
@@ -55,6 +54,7 @@ related:
   - PRI-260321-7307
   - INS-260322-F6C3
   - INS-260322-F868
+  - INS-260322-D051
 ---
 Current pharmaceuticals are largely 'don't die' interventions — take a statin to avoid a heart attack. Peptides represent a different category entirely: human enhancement compounds that increase energy, improve sex drive, reduce inflammation, and improve gut health. Early results from users are promising, though rigorous research is still needed.
 

@@ -50,7 +50,6 @@ resolutions:
     weeks-long deliberation cycles. Political campaigns adapted 30 years ago
     with 'rapid response' war rooms. Companies must do the same.
 related:
-  - INS-260321-31B3
   - INS-260321-E529
   - INS-260321-86E7
   - INS-260321-5598

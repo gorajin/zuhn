@@ -18,6 +18,7 @@ Generated on 2026-03-22 | 55 sources
 | Claude for Finance | pdf | 5 | 2026-03-22 |
 | AI Markets: Deep Dive with a16z's David George | youtube | 5 | 2026-03-22 |
 | Atlassian CEO on the SaaS Apocalypse, AI Agents & What Comes Next | youtube | 5 | 2026-03-22 |
+| Ben Horowitz and David Solomon: The Sweetest Macro Spot in 40 Years | youtube | 5 | 2026-03-22 |
 | Emil Michael: The Department of War Is Moving Faster Than Silicon Valley on AI | The a16z Show | youtube | 5 | 2026-03-22 |
 | From $0 to $11B: The ElevenLabs Story | youtube | 5 | 2026-03-22 |
 | How To Get Unique AI Startup Ideas | youtube | 5 | 2026-03-22 |
@@ -27,6 +28,7 @@ Generated on 2026-03-22 | 55 sources
 | Inside the New Media Team with Marc Andreessen & Ben Horowitz | youtube | 5 | 2026-03-22 |
 | Marc Andreessen's 2026 Outlook: AI Timelines, US vs. China, and The Price of AI | youtube | 5 | 2026-03-22 |
 | The AI Opportunity that goes beyond Models | youtube | 5 | 2026-03-22 |
+| The Biggest Bottlenecks For AI: Energy & Cooling | youtube | 5 | 2026-03-22 |
 | Why Scale Will Not Solve AGI | Vishal Misra - The a16z Show | youtube | 5 | 2026-03-22 |
 | 200+ pages of Hugging Face secrets on how to train an LLM | reddit | 5 | 2026-03-20 |
 | Debugging as architecture insight: dissecting a VLA | blog | 4 | 2026-03-22 |
@@ -55,6 +57,4 @@ Generated on 2026-03-22 | 55 sources
 | Sound Design Breakdown [and tutorial] | reddit | 2 | 2026-03-20 |
 | [Tutorial] All there is to know about syncing video and audio | reddit | 2 | 2026-03-20 |
 | AI Is Coming For These 3 Industries In 2026 (a16z Big Ideas) | youtube | 0 | 2026-03-22 |
-| Ben Horowitz and David Solomon: The Sweetest Macro Spot in 40 Years | youtube | 0 | 2026-03-22 |
-| The Biggest Bottlenecks For AI: Energy & Cooling | youtube | 0 | 2026-03-22 |
 | Where does consumer AI stand at the end of 2025? | youtube | 0 | 2026-03-22 |

@@ -11,3 +11,6 @@ Generated on 2026-03-22
 - startups/growth-marketing (28 insights) ↔ ai-development/ai-automation (8 insights)
 - startups/growth-marketing (28 insights) ↔ video-production/content-strategy (3 insights)
 - startups/growth-marketing (28 insights) ↔ startups/ideation (9 insights)
+- startups/growth-marketing (28 insights) ↔ investing/ai-business-models (3 insights)
+- ai-development/ai-market-dynamics (16 insights) ↔ investing/ai-business-models (3 insights)
+- investing/geopolitics (17 insights) ↔ investing/ai-infrastructure (2 insights)

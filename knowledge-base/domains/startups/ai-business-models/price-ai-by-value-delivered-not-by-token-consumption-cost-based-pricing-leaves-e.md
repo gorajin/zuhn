@@ -51,11 +51,11 @@ resolutions:
     pricing by value will see their margins expand.
 related:
   - PRI-260320-5947
-  - INS-260321-2F09
   - INS-260321-AA91
   - INS-260322-054E
   - INS-260322-D079
-  - INS-260320-8688
+  - INS-260322-5790
+  - INS-260321-2F09
 ---
 Andreessen identifies pricing as one of the 'trillion dollar questions' in AI. The infrastructure layer (OpenAI, Anthropic, Google) prices tokens by the drink — which is excellent for startups because it means low fixed costs to get started. But application companies should not replicate this model. The core pricing principle: price by value, not by cost.
 

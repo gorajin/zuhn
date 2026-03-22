@@ -1,6 +1,6 @@
 # Domain: startups
 
-> 82 insights across 16 topics
+> 83 insights across 17 topics
 
 ## Topics
 
@@ -22,3 +22,4 @@
 | market-strategy | 1 | Truemed built infrastructure that lets people use existing tax-free HSA/FSA dollars on lifestyle interventions, redirecting billions toward prevention without requiring new legislation or payer buy-in. |
 | organizational-design | 1 | ElevenLabs removed all titles, which simultaneously filtered out ego-driven candidates and eliminated implicit bias in idea-sharing and collaboration. |
 | product-development | 1 | ElevenLabs' core advantage comes from product teams talking directly to research teams — product provides real user feedback, research iterates immediately, and models get tested directly on the product. |
+| scaling | 1 | Andy Grove's lesson to Ben Horowitz: if you lead an industry, its growth depends on you — you must expand the entire market, not just compete for existing share. |

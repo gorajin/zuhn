@@ -40,14 +40,11 @@ resolutions:
     creates breakout companies.
 related:
   - INS-260320-703F
-  - INS-260320-07A2
-  - INS-260321-3EC0
   - INS-260321-2F09
   - PRI-260321-05B5
+  - INS-260322-C472
   - INS-260321-9A03
   - INS-260322-CFB1
-  - PRI-260321-558C
-  - INS-260321-3660
-  - INS-260321-CBD2
+  - INS-260322-03DD
 ---
 Founders frequently point to recently funded companies as validation for their own similar idea, saying 'YC funded X doing this, so the market is validated.' But Dalton reveals that as the person who funded those companies, he often funded the founder — not the idea — and many pivoted during the batch into something entirely different. Reading tea leaves from YC batches, seed rounds, or Series B announcements gives no real signal. The entire practice of derisking startup ideas by copying what got funded leads to extremely derivative, non-unique ideas that are the opposite of what creates breakout companies.

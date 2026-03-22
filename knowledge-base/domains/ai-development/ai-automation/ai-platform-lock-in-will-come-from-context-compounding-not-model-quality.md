@@ -52,12 +52,11 @@ resolutions:
     the unsolved UX problem that will determine which platform wins prosumer
     users.
 related:
-  - INS-260320-1B38
   - INS-260321-21BE
   - PRI-260321-7307
+  - INS-260322-B641
   - INS-260321-1A0B
-  - INS-260321-8414
-  - INS-260322-3C3D
+  - INS-260322-5790
   - INS-260321-86F1
 ---
 a16z's analysis shows that ChatGPT, Claude, and Gemini are diverging into distinct niches rather than competing head-to-head. ChatGPT dominates consumer breadth (2.7x bigger than Gemini on web, 30x bigger than Claude), Claude targets prosumer/professional use cases, and Gemini leads in creative tools. Their app stores have only 11% overlap.

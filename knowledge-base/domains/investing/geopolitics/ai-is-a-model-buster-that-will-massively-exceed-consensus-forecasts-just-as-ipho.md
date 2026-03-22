@@ -55,16 +55,16 @@ resolutions:
     reasonable model, while the losers will be disrupted faster than historical
     precedent suggests.
 related:
-  - INS-260320-EF3A
-  - INS-260320-DEAF
   - INS-260321-8433
   - INS-260321-E8CB
   - INS-260321-5DF8
   - INS-260321-31B3
-  - INS-260321-C513
-  - INS-260321-F2C4
   - INS-260321-D484
   - INS-260321-8C35
+  - INS-260321-4E98
+  - INS-260321-8414
+  - INS-260321-86F1
+  - INS-260321-1749
 ---
 David George introduces the 'model buster' concept: companies that grow faster and longer than anyone would have modeled in any scenario. The iPhone is the canonical example — consensus models for Apple were off by 3x over four years despite Apple being the most extensively covered public company at the time. He argues AI will produce many such model busters.
 

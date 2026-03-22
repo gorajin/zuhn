@@ -52,10 +52,10 @@ resolutions:
     means monitoring state-level regulation as a material business risk.
 related:
   - INS-260321-C6C0
+  - INS-260322-A14D
   - PRI-260321-2DF0
   - PRI-260321-0A4D
   - INS-260321-347D
-  - INS-260321-3BA8
 ---
 Andreessen reports that federal AI regulation risk has decreased substantially — bipartisan consensus in DC now prioritizes not losing to China over restricting AI. The danger has shifted to state legislatures, where a16z is tracking over 1,200 AI bills across all 50 states, from both blue and red states.
 

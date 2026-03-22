@@ -53,10 +53,10 @@ related:
   - INS-260320-20F2
   - INS-260320-C56D
   - INS-260321-13EA
+  - INS-260322-5790
+  - INS-260322-1D52
   - PRI-260321-14D8
   - INS-260321-D484
-  - INS-260320-7B4B
-  - INS-260321-B7CB
 ---
 Horowitz describes a framework for evaluating GP performance that avoids the classic VC trap of waiting for outputs that take 10-15 years to materialize. Instead, he evaluates 'at the point of attack': how good is the GP at finding opportunities, how good are they at winning those opportunities, and what is the perceived quality at the time of investment.
 

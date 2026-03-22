@@ -54,8 +54,8 @@ related:
   - INS-260321-86F1
   - INS-260321-7109
   - INS-260321-CBD2
-  - PRI-260321-05B5
   - INS-260322-90E7
+  - INS-260322-CFB1
 ---
 Horowitz predicts significant M&A activity driven by AI disruption. Unlike previous technology cycles where only certain sectors were disrupted, AI threatens every company and every incumbent simultaneously. The response is not primarily internal R&D but acquisition — companies need to 'acquire the DNA of the future' because they need to fundamentally reconstruct how they work to survive.
 

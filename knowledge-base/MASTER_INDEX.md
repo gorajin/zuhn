@@ -1,6 +1,6 @@
 # Knowledge Base Master Index
 
-> Last rebuilt: 2026-03-22 | Total insights: 270 | Sources: 52
+> Last rebuilt: 2026-03-22 | Total insights: 280 | Sources: 54
 
 **NOTE:** Access counts and last_accessed are updated automatically when insights are retrieved.
 
@@ -8,12 +8,12 @@
 
 | Domain | Topics | Insights | Principles | Last Updated |
 | ------ | ------ | -------- | ---------- | ------------ |
-| ai-development | 15 | 137 | 13 | 2026-03-22 |
+| ai-development | 17 | 139 | 13 | 2026-03-22 |
 | automation | 2 | 12 | 2 | 2026-03-20 |
-| investing | 4 | 21 | 4 | 2026-03-22 |
+| investing | 8 | 28 | 4 | 2026-03-22 |
 | music-production | 3 | 9 | 0 | 2026-03-21 |
 | pets | 1 | 2 | 0 | 2026-03-20 |
-| startups | 16 | 82 | 6 | 2026-03-22 |
+| startups | 17 | 83 | 6 | 2026-03-22 |
 | video-production | 3 | 7 | 0 | 2026-03-21 |
 
 ## Mental Models
@@ -25,7 +25,7 @@
 
 ## Top Tags
 
-agents(12) automation(11) n8n(11) content-strategy(11) workflow(9) prompting(9) productivity(8) skills(8) hooks(8) llm-costs(8) china(7) spec-driven-dev(7) trust(6) scaling(6) youtube(6) ai-applications(6) debugging(5) robotics(5) ai-adoption(5) geopolitics(5)
+agents(12) automation(11) n8n(11) content-strategy(11) workflow(9) prompting(9) productivity(8) skills(8) hooks(8) llm-costs(8) scaling(7) china(7) spec-driven-dev(7) trust(6) youtube(6) ai-applications(6) debugging(5) robotics(5) ai-adoption(5) efficiency(5)
 
 ## Flags (for Claude)
 
@@ -37,30 +37,40 @@ _No flags._
 - `INS-260322-299C` DeepSeek's surprise replication of frontier model capabilities from a hedge fund proves that AI leads are inherently temporary — once capability is demonstrated, others catch up quickly with far fewer resources. _(2026-03-22)_
 - `INS-260322-C5BD` The biggest US AI policy risk has shifted from federal overregulation to 1,200+ state-level bills that could create a patchwork of incompatible AI regulations across 50 states. _(2026-03-22)_
 - `INS-260322-B33E` AI reasoning capabilities plus robot learning are converging to create autonomous labs that accelerate scientific discovery across life sciences, chemistry, and materials. _(2026-03-22)_
+- `INS-260322-1D52` Unlike traditional software where nine women can't have a baby in one month, AI allows companies to throw money and GPUs at problems — meaning leads that took years to build can be closed in months. _(2026-03-22)_
 - `INS-260322-7DD5` 2026 marks when major consumer AI products shift from helping you work to helping you stay connected — understanding who you are and facilitating real human relationships. _(2026-03-22)_
 - `INS-260322-4090` Voice uniquely carries emotional information that text and images cannot — making it the AI modality most capable of creating genuine human connection and feeling. _(2026-03-22)_
+- `INS-260322-A14D` a16z's AI policy framework: don't regulate mathematical models themselves, regulate their applications — and prevent 50 states from creating incompatible AI laws that would make innovation impossible for startups. _(2026-03-22)_
 - `INS-260322-90E7` AI roll-up strategies succeed when you buy one company with blue-chip clients as your entry point for national AI deployment, not when you serially acquire local businesses. _(2026-03-22)_
+- `INS-260322-5790` AI model input costs have declined 99%+ in two years (faster than Moore's law) while quality doubles every 7 months — meaning today's thin margins on AI apps will likely expand dramatically as long as model competition persists. _(2026-03-22)_
+- `INS-260322-B641` In a reversal of the traditional software pattern where enterprise was stickier than consumer, consumer AI (ChatGPT) is proving stickier than B2B model access — because switching a family's habits is harder than switching an API call. _(2026-03-22)_
+- `INS-260322-C472` For AI startups to beat established software companies like Salesforce, they need all three: a reimagined proactive UI, access to new data sources (unstructured data over structured databases), and a disruptive business model beyond seat-based pricing. _(2026-03-22)_
+- `INS-260322-2D57` Energy is the current AI infrastructure bottleneck (driving renewed interest in nuclear), but once solved, cooling becomes the next constraint — creating a wave of innovation opportunity around thermal management. _(2026-03-22)_
+- `INS-260322-6DFC` Unlike the dot-com broadband buildout funded by leveraged telecoms, today's $400B+ AI infrastructure buildout is funded by the most profitable companies ever created — Google, Microsoft, Amazon, Meta — making systemic risk fundamentally lower. _(2026-03-22)_
 - `INS-260322-D079` All inputs to AI are falling in cost faster than Moore's law predicted for chips, creating hyperdeflation in per-unit intelligence costs that will drive enormous elastic demand growth. _(2026-03-22)_
 - `INS-260322-BBED` AI's economic impact and design space exceeds the internet era, meaning more companies will reach $1B+ and $10B+ valuations than in previous technology cycles. _(2026-03-22)_
+- `INS-260322-B369` Goldman's CEO identifies the current US macro environment as the sweetest spot in 40 years: fiscal stimulus, rate-cutting cycle, capital investment super cycle, and deregulatory unwind all happening simultaneously. _(2026-03-22)_
 - `INS-260322-3646` In VC, waiting 10-15 years for portfolio outputs to evaluate GP performance is dangerously slow — judge by deal-sourcing quality, win rate, and investment quality at the time of decision. _(2026-03-22)_
-- `INS-260322-FCFC` Companies where AI reinforces the business model by driving revenue — not just cutting costs — see dramatically stronger market pull and adoption. _(2026-03-22)_
-- `INS-260322-5831` ElevenLabs' co-founders Mati and Peter are childhood best friends with complementary skills — one product-focused, one research-focused — and their deep mutual trust enables the company to move at extreme speed. _(2026-03-22)_
-- `INS-260322-7282` Owning the full workflow from intake to outcome generates proprietary data that public models can't replicate — creating a compounding competitive advantage. _(2026-03-22)_
+- `INS-260322-03DD` a16z was criticized for raising their first fund in 2009 during the financial crisis, but it turned out that raising when nobody else has capital gives structural advantages in deal access and pricing. _(2026-03-22)_
 - `INS-260322-019A` AI differentiation is not the same as defensibility — the moat comes from owning the end-to-end workflow and becoming the system of record. _(2026-03-22)_
 - `INS-260322-88C3` AI threatens every incumbent company simultaneously, driving a wave of M&A as corporations acquire startups to reconstruct how they work rather than building capabilities internally. _(2026-03-22)_
 - `INS-260322-54F3` The prediction that giant foundation models would be all-purpose brains has not materialized — application-layer complexity requires many specialized models working together. _(2026-03-22)_
 - `INS-260322-E20E` AI application companies should price by business value delivered or productivity uplift, not by token consumption — cost-based pricing systematically undercharges as AI costs deflate. _(2026-03-22)_
 - `INS-260322-054E` The largest AI opportunity is not replacing existing software but replacing labor tasks where the cost-to-value equation was previously inverted. _(2026-03-22)_
 - `INS-260322-837A` Companies with proprietary data that previously sold raw access can now deliver finished AI-powered products, multiplying revenue by 5-100x. _(2026-03-22)_
+- `INS-260322-FCFC` Companies where AI reinforces the business model by driving revenue — not just cutting costs — see dramatically stronger market pull and adoption. _(2026-03-22)_
+- `INS-260322-5831` ElevenLabs' co-founders Mati and Peter are childhood best friends with complementary skills — one product-focused, one research-focused — and their deep mutual trust enables the company to move at extreme speed. _(2026-03-22)_
+- `INS-260322-7282` Owning the full workflow from intake to outcome generates proprietary data that public models can't replicate — creating a compounding competitive advantage. _(2026-03-22)_
 - `INS-260322-CFB1` AI-native startups win most reliably at greenfield moments — new company creation or inflection points where customers must switch systems anyway — rather than trying to displace incumbent software. _(2026-03-22)_
+- `INS-260322-AC23` ElevenLabs hired from non-traditional backgrounds by looking for proof of excellence — open-source projects, side projects, or standout achievements — rather than conventional credentials. _(2026-03-22)_
+- `INS-260322-D051` US crop subsidies for corn, soy, and wheat made these ingredients artificially cheap, causing food companies to systematically replace real ingredients with processed versions — driving the chronic disease epidemic since the 1970s. _(2026-03-22)_
+- `INS-260322-F868` Truemed built infrastructure that lets people use existing tax-free HSA/FSA dollars on lifestyle interventions, redirecting billions toward prevention without requiring new legislation or payer buy-in. _(2026-03-22)_
+- `INS-260322-3C3D` ElevenLabs' core advantage comes from product teams talking directly to research teams — product provides real user feedback, research iterates immediately, and models get tested directly on the product. _(2026-03-22)_
 - `INS-260322-D059` Emerging research in metabolic psychiatry shows that conditions like depression, epilepsy, and even schizophrenia often have metabolic root causes — and interventions like ketogenic diets, gut health, and inflammation reduction can outperform traditional talk therapy and SSRIs. _(2026-03-22)_
 - `INS-260322-3A00` Peptides represent a shift from pharmaceuticals designed to prevent death (statins) to compounds that enhance human performance — more energy, better gut health, reduced inflammation — and because they are not patentable, they threaten the pharma business model. _(2026-03-22)_
 - `INS-260322-F6C3` Like zoo animals that develop diseases their wild counterparts never get, humans in modern environments develop chronic disease because the environment is structurally unhealthy — the solution is fixing the environment, not demanding individual discipline. _(2026-03-22)_
-- `INS-260322-D051` US crop subsidies for corn, soy, and wheat made these ingredients artificially cheap, causing food companies to systematically replace real ingredients with processed versions — driving the chronic disease epidemic since the 1970s. _(2026-03-22)_
-- `INS-260322-AC23` ElevenLabs hired from non-traditional backgrounds by looking for proof of excellence — open-source projects, side projects, or standout achievements — rather than conventional credentials. _(2026-03-22)_
-- `INS-260322-F868` Truemed built infrastructure that lets people use existing tax-free HSA/FSA dollars on lifestyle interventions, redirecting billions toward prevention without requiring new legislation or payer buy-in. _(2026-03-22)_
+- `INS-260322-BFDE` Andy Grove's lesson to Ben Horowitz: if you lead an industry, its growth depends on you — you must expand the entire market, not just compete for existing share. _(2026-03-22)_
 - `INS-260322-F609` ElevenLabs removed all titles, which simultaneously filtered out ego-driven candidates and eliminated implicit bias in idea-sharing and collaboration. _(2026-03-22)_
-- `INS-260322-3C3D` ElevenLabs' core advantage comes from product teams talking directly to research teams — product provides real user feedback, research iterates immediately, and models get tested directly on the product. _(2026-03-22)_
 - `INS-260321-2482` When agents fail, the instinct now is 'I gave bad instructions' not 'the AI can't do this' — most failures are configuration problems, not capability limits. _(2026-03-21)_
 - `INS-260321-D3BE` Stop thinking in lines of code — think in macro actions: 'agent 1 builds feature X, agent 2 researches Y, agent 3 plans Z' — then review their work. _(2026-03-21)_
 - `INS-260321-8382` Agent personality matters more than most tool builders realize — Claude feels like a teammate who cares about your project; Codex feels dry and transactional. _(2026-03-21)_
@@ -73,6 +83,18 @@ _No flags._
 - `INS-260321-B8E8` VLA models have no spatial primitive vocabulary — 'move up', 'move back', 'don't move' all produce similar grasping motions. Spatial commands only work when reducible to 'move toward visible object.' _(2026-03-21)_
 - `INS-260321-6437` The Department of War achieved 15x AI user growth in 90 days by ruthlessly cutting 14 priority areas to 6 with applied AI as number one, proving that focus acceleration works even in massive bureaucracies. _(2026-03-21)_
 - `INS-260321-D370` Classical robotics systems fail loudly (joint limit hit, object not detected, planner infeasible). VLAs fail silently — producing plausible-looking but wrong trajectories with no mechanism to detect out-of-distribution inputs. _(2026-03-21)_
+- `INS-260321-E4EB` AI made idea generation almost free, just as the internet made communication almost free — the bottleneck shifted to verification, evaluation, and filtering signal from noise. _(2026-03-21)_
+- `INS-260321-7D7C` AI's superpower is breadth (trying every technique on every problem simultaneously), humans' is depth (cumulative progress from partial understanding). Science must restructure to exploit both. _(2026-03-21)_
+- `INS-260321-BFA3` AI solved 50 Erdős problems which looks amazing, but systematic studies show a 1-2% success rate per problem — scale and selection bias make it look like magic when you only see the wins. _(2026-03-21)_
+- `INS-260321-A56C` Generative AI can help with more tasks than past automation (more flexible) but takes over fewer tasks completely (less robust) — it's task-augmenting not task-replacing. _(2026-03-21)_
+- `INS-260321-F864` AI has artificial cleverness (trial and error at scale) but not artificial intelligence (building cumulatively from partial progress, adapting strategies interactively, maintaining and evolving understanding). _(2026-03-21)_
+- `INS-260321-8433` Karpathy's auto-research loop found hyperparameter improvements overnight that his two decades of ML experience missed — the agent found weight decay and Adam beta issues that interact jointly. _(2026-03-21)_
+- `INS-260321-52EF` Software was scarce and expensive — AI making it cheaper unlocks massive latent demand (Jevons paradox). Like ATMs creating more bank branches and more tellers, not fewer. _(2026-03-21)_
+- `INS-260321-80A9` Models simultaneously feel like a brilliant PhD and a 10-year-old — they're superhuman in RL-trained domains and mediocre outside them. This jaggedness doesn't improve with scale. _(2026-03-21)_
+- `INS-260321-3967` The current monoculture of one model for everything will give way to speciated models — smaller models with the cognitive core intact but specialized for specific domains, like the animal kingdom's brain diversity. _(2026-03-21)_
+- `INS-260321-D959` The biggest scientific advances came from deleting assumptions (Earth is at rest, species are static) rather than adding new theories — this is hard to reinforce-learn because there's no verifiable metric for 'which assumption to drop.' _(2026-03-21)_
+- `INS-260321-C3E6` A research organization is described by its program.md — you can imagine having a better research organization the same way you optimize code. Fewer standups, different risk profiles, optimized instructions. _(2026-03-21)_
+- `INS-260321-AE3F` Most AI-solved math problems fell to known techniques that nobody had thought to apply — the 'deductive overhang' of existing knowledge applied systematically to all open problems could be enormous. _(2026-03-21)_
 - `INS-260321-86F1` China is stealing American AI models, removing all guardrails, and potentially deploying them against the US — creating an absurd scenario where America fights with one arm tied behind its back against its own technology. _(2026-03-21)_
 - `INS-260321-3C8A` AI labs fight viciously against each other for dominance but frame the global AI race as positive-sum — the actual zero-sum game is between nations, and the labs don't see it. _(2026-03-21)_
 - `INS-260321-807B` AI native marketing agencies go end-to-end with AI, bypassing tools like Adobe entirely, dramatically improving margins and delivering ads within days. _(2026-03-21)_
@@ -86,18 +108,6 @@ _No flags._
 - `INS-260321-5DF8` OpenClaw became the most popular open-source project in history within weeks, surpassing Linux's 30-year adoption curve — each AI unhobbling stacks on prior ones and grows faster. _(2026-03-21)_
 - `INS-260321-015B` Corporate AI projects fail because they optimize human-to-human workflows — the real transformation is creating AI-native operating systems where agents replace entire workflows and humans become oversight. _(2026-03-21)_
 - `INS-260321-FD14` Vibe coding won't replace enterprise SaaS because of comparative advantage and hidden edge cases — but it dramatically increases platform extensibility by letting non-developers build custom applications on top of existing systems of record. _(2026-03-21)_
-- `INS-260321-E4EB` AI made idea generation almost free, just as the internet made communication almost free — the bottleneck shifted to verification, evaluation, and filtering signal from noise. _(2026-03-21)_
-- `INS-260321-7D7C` AI's superpower is breadth (trying every technique on every problem simultaneously), humans' is depth (cumulative progress from partial understanding). Science must restructure to exploit both. _(2026-03-21)_
-- `INS-260321-BFA3` AI solved 50 Erdős problems which looks amazing, but systematic studies show a 1-2% success rate per problem — scale and selection bias make it look like magic when you only see the wins. _(2026-03-21)_
-- `INS-260321-A56C` Generative AI can help with more tasks than past automation (more flexible) but takes over fewer tasks completely (less robust) — it's task-augmenting not task-replacing. _(2026-03-21)_
-- `INS-260321-F864` AI has artificial cleverness (trial and error at scale) but not artificial intelligence (building cumulatively from partial progress, adapting strategies interactively, maintaining and evolving understanding). _(2026-03-21)_
-- `INS-260321-8433` Karpathy's auto-research loop found hyperparameter improvements overnight that his two decades of ML experience missed — the agent found weight decay and Adam beta issues that interact jointly. _(2026-03-21)_
-- `INS-260321-52EF` Software was scarce and expensive — AI making it cheaper unlocks massive latent demand (Jevons paradox). Like ATMs creating more bank branches and more tellers, not fewer. _(2026-03-21)_
-- `INS-260321-80A9` Models simultaneously feel like a brilliant PhD and a 10-year-old — they're superhuman in RL-trained domains and mediocre outside them. This jaggedness doesn't improve with scale. _(2026-03-21)_
-- `INS-260321-3967` The current monoculture of one model for everything will give way to speciated models — smaller models with the cognitive core intact but specialized for specific domains, like the animal kingdom's brain diversity. _(2026-03-21)_
-- `INS-260321-D959` The biggest scientific advances came from deleting assumptions (Earth is at rest, species are static) rather than adding new theories — this is hard to reinforce-learn because there's no verifiable metric for 'which assumption to drop.' _(2026-03-21)_
-- `INS-260321-C3E6` A research organization is described by its program.md — you can imagine having a better research organization the same way you optimize code. Fewer standups, different risk profiles, optimized instructions. _(2026-03-21)_
-- `INS-260321-AE3F` Most AI-solved math problems fell to known techniques that nobody had thought to apply — the 'deductive overhang' of existing knowledge applied systematically to all open problems could be enormous. _(2026-03-21)_
 - `INS-260321-0C99` Create three markdown context files (about-me.md, my-rules.md, my-templates.md) — this is the step most people skip and the one that makes the biggest difference. _(2026-03-21)_
 - `INS-260321-A5D4` Adding instructions to fuzzy tasks creates noise, not clarity. Expert prompters write shorter prompts that define the task clearly without micromanaging execution — long prompts degrade performance around 3,000 tokens. _(2026-03-21)_
 - `INS-260321-82FE` Effective prompting is no longer about linguistic tricks — it's about providing the right structure: role, background, format, constraints. Description of what the output should BE matters more than instructions for what the model should DO. _(2026-03-21)_
@@ -152,7 +162,6 @@ _No flags._
 - `INS-260321-E8CB` One-size-fits-all SaaS benchmarks are misleading — a pre-seed company should target burn multiple <2.5x while Series B+ targets <1.0x. Stage-specific targets: NRR >100%/>110%/>120%, LTV:CAC >2.0x/>3.0x/>3.5x. _(2026-03-21)_
 - `INS-260321-1992` Focus on first dollar by day 30, $1M ARR ($80K/month) by day 90, and only consider VC if you actually need it. _(2026-03-21)_
 - `INS-260321-E5C5` The ideal AI startup founding team is one builder who ships in 24 hours and one go-to-market person with audience empathy. _(2026-03-21)_
-- `INS-260321-1A84` People who are naturally quirky and nonconformist constantly generate strange ideas on their own, while those skilled at reading consensus find it hardest to produce unique ideas. _(2026-03-21)_
 - `INS-260321-3D65` Fresh graduates (23-25) who grew up vibe coding think differently and generate the best new ideas at AI companies. _(2026-03-21)_
 - `INS-260321-C513` Avoid building features that incumbents can bundle (like meeting notetakers for Zoom), and avoid pure prompt wrappers that next model releases will obsolete. _(2026-03-21)_
 - `INS-260321-2F09` Many AI founders fail because they build impressive demos that don't solve real painful jobs — if nobody asks about pricing, you don't have product-market fit. _(2026-03-21)_
@@ -162,15 +171,7 @@ _No flags._
 - `INS-260321-33FC` At Palantir, each critical product was built by the one person in the world who could have done it — Karp's job is to help them express their unique genius while subtly inserting what they'd otherwise miss. _(2026-03-21)_
 - `INS-260321-F446` If 50 unlikable people hold all the wealth while white-collar workers lose jobs, the bipartisan consensus won't be left vs right — it will be 'nationalize tech.' _(2026-03-21)_
 - `INS-260321-C0A4` Your probability of success directly correlates with whether your closest friends care about and push you toward what you want to achieve. _(2026-03-21)_
-- `INS-260321-3521` Using another company's funding as market validation is a false signal — investors often fund founders, not ideas, and many funded companies pivoted from their original concept. _(2026-03-21)_
-- `INS-260321-CCD9` Basic image generation is being absorbed by foundation models, but creative tools that are aesthetically opinionated (Midjourney) or own non-commoditized modalities (Suno for music, 11 Labs for voice) maintain defensible positions. _(2026-03-21)_
-- `INS-260321-4B38` Current health tech can read biology (wearables, CGMs, blood tests) but cannot write to it — the massive startup opportunity is in interventions like palm/sole body-cooling devices for sleep, eye-movement sleep masks, and real-time cortisol modulation. _(2026-03-21)_
-- `INS-260321-6BA7` Find ideas that have been discarded by others rather than trying to discover something no one has ever thought of. _(2026-03-21)_
-- `INS-260321-08AC` There are no true focus-enhancing drugs — only alertness-enhancing stimulants (Adderall, modafinil, caffeine, nicotine) that indirectly improve focus but carry cardiac and sleep costs — and a non-stimulant peptide that reduces cognitive noise would capture enormous demand. _(2026-03-21)_
-- `INS-260321-CCE3` COVID triggered a permanent shift where consumers took responsibility for their own health — vitamin D was the gateway, resistance training brought protein and creatine, and now the supplement-to-peptide pipeline is a mainstream consumer journey. _(2026-03-21)_
-- `INS-260321-7109` SaaS companies where seats are tied to work output (Zendesk) face existential risk from AI, those where seats are just a pricing trick unrelated to output (Workday) are safe, and those in between (Adobe) face moderate pressure. _(2026-03-21)_
-- `INS-260321-3660` Making startup decisions based on VC podcasts and content is literally the definition of generating non-unique ideas. _(2026-03-21)_
-- `INS-260321-E471` Most founders filter out ideas requiring more than two years to work, so simply imagining ideas with longer timelines dramatically reduces competition. _(2026-03-21)_
+- `INS-260321-1A84` People who are naturally quirky and nonconformist constantly generate strange ideas on their own, while those skilled at reading consensus find it hardest to produce unique ideas. _(2026-03-21)_
 - `INS-260321-38EC` Channels with 3,000-5,000 subscribers are hitting 2-3 million views by applying proven formats to underserved markets — subscriber count doesn't determine reach when format-market fit is strong. _(2026-03-21)_
 - `INS-260321-AA91` Enterprise customers resist AI credit-based pricing because credits are opaque (unlike transferable units like gigabytes), vendors can silently increase consumption by adding features, and outcome-based pricing creates a dynamic baseline problem where savings erode year over year. _(2026-03-21)_
 - `INS-260321-C902` New AI products follow a predictable distribution ladder: X small communities then AI news pages then Instagram news then creators then Telegram. _(2026-03-21)_
@@ -192,6 +193,15 @@ _No flags._
 - `INS-260321-EE05` The NYT's 24-hour editorial cycle is an OODA loop — the internet cycles in 12 hours, causing traditional media to perpetually chase viral posts and have a psychological breakdown. _(2026-03-21)_
 - `INS-260321-822B` The fastest AI companies reach $100M revenue significantly faster than SaaS predecessors, with top performers growing 693% YoY — driven by product demand, not sales spend — and running at $500K-1M ARR per FTE versus the old SaaS benchmark of $400K. _(2026-03-21)_
 - `INS-260321-141B` Write a proven format at the top of a grid, list all markets down the side, mark where the combination exists — empty cells are your blue ocean. _(2026-03-21)_
+- `INS-260321-3521` Using another company's funding as market validation is a false signal — investors often fund founders, not ideas, and many funded companies pivoted from their original concept. _(2026-03-21)_
+- `INS-260321-CCD9` Basic image generation is being absorbed by foundation models, but creative tools that are aesthetically opinionated (Midjourney) or own non-commoditized modalities (Suno for music, 11 Labs for voice) maintain defensible positions. _(2026-03-21)_
+- `INS-260321-4B38` Current health tech can read biology (wearables, CGMs, blood tests) but cannot write to it — the massive startup opportunity is in interventions like palm/sole body-cooling devices for sleep, eye-movement sleep masks, and real-time cortisol modulation. _(2026-03-21)_
+- `INS-260321-6BA7` Find ideas that have been discarded by others rather than trying to discover something no one has ever thought of. _(2026-03-21)_
+- `INS-260321-08AC` There are no true focus-enhancing drugs — only alertness-enhancing stimulants (Adderall, modafinil, caffeine, nicotine) that indirectly improve focus but carry cardiac and sleep costs — and a non-stimulant peptide that reduces cognitive noise would capture enormous demand. _(2026-03-21)_
+- `INS-260321-CCE3` COVID triggered a permanent shift where consumers took responsibility for their own health — vitamin D was the gateway, resistance training brought protein and creatine, and now the supplement-to-peptide pipeline is a mainstream consumer journey. _(2026-03-21)_
+- `INS-260321-7109` SaaS companies where seats are tied to work output (Zendesk) face existential risk from AI, those where seats are just a pricing trick unrelated to output (Workday) are safe, and those in between (Adobe) face moderate pressure. _(2026-03-21)_
+- `INS-260321-3660` Making startup decisions based on VC podcasts and content is literally the definition of generating non-unique ideas. _(2026-03-21)_
+- `INS-260321-E471` Most founders filter out ideas requiring more than two years to work, so simply imagining ideas with longer timelines dramatically reduces competition. _(2026-03-21)_
 - `INS-260321-86E7` As AI-generated articles surpass human-written ones and AI slop floods social media, audiences will increasingly seek out authentic creators with long-term trusted brands. _(2026-03-21)_
 - `INS-260321-4280` With 10,000+ hours of footage online, any inauthenticity would surface as visible inconsistencies — authenticity is not a choice but a mathematical constraint at scale. _(2026-03-21)_
 - `INS-260321-AACC` MrBeast spent a decade obsessing over one question: what makes content enjoyable for anyone regardless of geography? The answer is universal human experiences. _(2026-03-21)_
@@ -299,7 +309,7 @@ _No flags._
 - `INS-260320-DADA` You cannot pour fuel on organic fire — viral UGC repurposed as paid ads underperformed, while a separate clip agency creating performance-specific creatives outperformed significantly. _(2026-03-20)_
 - `INS-260320-10E8` Always clap once or use a clapboard at the start of each take -- the sharp transient creates a visible spike in both audio waveforms, making manual sync alignment trivial. _(2026-03-20)_
 - `INS-260320-232D` Set all audio devices to 48kHz when recording for video -- mismatched sample rates between camera and external recorder cause drift that worsens over longer recordings. _(2026-03-20)_
-- `INS-260320-D44B` The foundational rule of video sound design: you should be able to hear everything you see -- nothing on screen is truly silent, and even empty rooms have ambient sound. _(2026-03-20)_
-- `INS-260320-105E` The sound design workflow for video follows three steps: lay down temp music/score first, add creative SFX and foley second, then apply final audio treatment and mixing. _(2026-03-20)_
 - `INS-260320-8B06` Letting dogs make small choices -- which toy to play with, which direction to walk, whether to engage or rest -- builds confidence and reduces anxiety-driven behaviors. _(2026-03-20)_
 - `INS-260320-9118` Allow dogs to sniff freely during walks -- scent exploration is their primary way of processing the world and provides more mental stimulation than the physical exercise of the walk itself. _(2026-03-20)_
+- `INS-260320-D44B` The foundational rule of video sound design: you should be able to hear everything you see -- nothing on screen is truly silent, and even empty rooms have ambient sound. _(2026-03-20)_
+- `INS-260320-105E` The sound design workflow for video follows three steps: lay down temp music/score first, add creative SFX and foley second, then apply final audio treatment and mixing. _(2026-03-20)_

@@ -55,11 +55,12 @@ resolutions:
     pricing, and change management.
 related:
   - INS-260321-167A
-  - INS-260321-4178
   - INS-260321-7D76
   - INS-260321-5C24
+  - INS-260321-4178
   - INS-260320-6F8E
   - INS-260321-A56C
+  - INS-260322-A14D
 ---
 Mike Cannon-Brookes argues that the 'system of record' mental model is as outdated as the floppy disk save icon. Modern knowledge businesses are actually collections of processes — some input-constrained and some output-constrained — and this distinction determines how AI transforms each.
 
