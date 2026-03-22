@@ -50,11 +50,11 @@ related:
   - INS-260320-6A9D
   - INS-260320-10CC
   - INS-260320-A467
-  - INS-260321-BFA3
-  - INS-260321-E9B7
   - INS-260321-FE91
   - INS-260321-4280
   - PRI-260321-14D8
+  - INS-260321-E9B7
+  - INS-260322-888D
 ---
 Evans proposes a practical framework for evaluating AI utility: the cost of verifying AI output must be lower than the cost of doing the task yourself. Marketing use cases pass this test — having AI generate 200 images and picking 10 good ones is far more efficient than humans making 10 images. But data entry fails — if you must check all 200 numbers the AI copied from PDFs, you might as well do it yourself.
 

@@ -44,8 +44,8 @@ related:
   - INS-260322-7B71
   - INS-260321-38EC
   - INS-260321-3312
-  - INS-260321-3660
+  - INS-260322-B3D0
   - INS-260321-141B
-  - INS-260321-E471
+  - INS-260321-3660
 ---
 The key insight of niche banding is that content creation has two independent axes: market and format. Trying to create a new market is nearly impossible. Trying to invent a new format is hard but happens naturally. The winning move is to innovate on only one axis at a time — find a proven format, then apply it unchanged to a different market. This is the same principle as cross-domain transfer in knowledge management: the format IS the transferable principle.

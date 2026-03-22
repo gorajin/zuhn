@@ -43,10 +43,11 @@ resolutions:
     fraud as a first-order design constraint, not an afterthought.
 related:
   - INS-260321-C4CD
-  - PRI-260321-2DF0
   - INS-260321-86F1
   - INS-260322-C5BD
   - INS-260321-B7CB
+  - PRI-260321-2DF0
+  - INS-260322-6AF5
   - PRI-260321-05B5
   - INS-260321-8414
 ---

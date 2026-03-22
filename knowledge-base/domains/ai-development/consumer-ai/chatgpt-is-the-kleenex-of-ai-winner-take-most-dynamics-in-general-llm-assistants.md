@@ -56,6 +56,7 @@ related:
   - INS-260322-3263
   - INS-260322-5790
   - INS-260322-B641
+  - INS-260322-7276
 ---
 The a16z consumer team presents data showing the general LLM assistant market is trending toward winner-take-most. ChatGPT leads with 800-900M weekly active users. Gemini sits at roughly 35% of ChatGPT's scale on web, 40% on mobile (boosted by Android distribution). Claude, Grok, and Perplexity trail at 8-10% of usage each.
 

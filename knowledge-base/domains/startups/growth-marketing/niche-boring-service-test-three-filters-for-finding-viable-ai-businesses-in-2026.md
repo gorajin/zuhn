@@ -46,10 +46,10 @@ resolutions:
     underserved verticals.
 related:
   - INS-260322-C472
+  - INS-260322-6AF5
   - INS-260322-0E41
   - INS-260321-B85C
   - INS-260322-1280
-  - INS-260322-7B61
   - INS-260321-8D2B
   - INS-260322-0D87
 ---

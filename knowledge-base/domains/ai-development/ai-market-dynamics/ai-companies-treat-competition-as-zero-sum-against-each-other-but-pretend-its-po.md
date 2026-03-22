@@ -54,7 +54,7 @@ related:
   - INS-260322-7723
   - INS-260321-3808
   - PRI-260321-0A4D
-  - INS-260321-D959
+  - INS-260322-7276
 ---
 Karp identifies a cognitive dissonance in Silicon Valley: AI companies absolutely believe competition is zero-sum against each other. Ask any lab CEO how they feel about their competitor and the fight is vicious — they believe it will come down to 'one and a half providers.' But they frame the broader AI landscape as positive-sum, arguing it's a 'brand new technology that needs to be treated differently.'
 

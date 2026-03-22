@@ -50,10 +50,10 @@ resolutions:
     go to zero and force the industry to follow.
 related:
   - INS-260322-98D2
+  - INS-260322-7276
   - INS-260321-2D72
   - INS-260321-E4EB
   - INS-260321-2F09
-  - INS-260320-9937
 ---
 When Robinhood decided to offer zero-commission stock trading, they didn't debate pricing internally — it was intuitively clear that free would be much stronger to market than even 99 cents or $1. The insight proved correct: they had zero commissions to themselves for 3-4 years before incumbents caught up. Even then, incumbents only moved to zero because they were visibly losing customers at an accelerating rate.
 
