@@ -17,7 +17,7 @@ summary: >-
   one roach, there's probably more,' the pattern bears out: First Brands,
   Tricolor, Perch, and Infinite Commerce all collapsed in rapid succession with
   loans written off to zero.
-confidence: high
+confidence: medium
 supporting_insights:
   - INS-260321-C6C0
   - INS-260321-347D
@@ -51,6 +51,7 @@ resolutions:
     Tricolor, Perch, and Infinite Commerce all collapsed in rapid succession
     with loans written off to zero.
 embedded: true
-embedding_model: "nomic-embed-text"
+embedding_model: nomic-embed-text
+empirical_state: falsified
 ---
 Private credit grew 10x to $2T after 2008 regulations pushed risky lending from regulated banks into opaque shadow banking. The same structural flaws that caused 2008 are present: lax lending standards, questionable ratings (loans go from AAA to deep junk overnight), double-pledged collateral, and executives charged with fraud. The fragility is amplified by two converging forces: 25% of portfolios are in software companies — the sector most disrupted by AI — with 31% of debts maturing in two years, and retail expansion via 401k access introduces sentiment-driven panic runs that institutional investors wouldn't trigger. When Jamie Dimon says 'when you see one roach, there's probably more,' the pattern bears out: First Brands, Tricolor, Perch, and Infinite Commerce all collapsed in rapid succession with loans written off to zero.
