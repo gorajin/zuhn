@@ -38,11 +38,12 @@ related:
   - INS-260320-9D89
   - INS-260320-DDFE
   - INS-260320-63D3
+  - INS-260321-8414
   - INS-260321-E2FC
   - INS-260321-D370
   - INS-260321-015B
-  - PRI-260321-7307
   - INS-260321-D3BE
   - INS-260321-C5AA
+  - INS-260321-1A03
 ---
 Karpathy describes the current state where agent failures feel like skill issue rather than capability limits. You didn't give good enough instructions in the AGENTS.md file, you don't have a nice enough memory tool, etc. This framing is empowering because it means you can improve — but it also creates psychosis because the improvement space feels infinite.

@@ -39,7 +39,6 @@ resolutions:
     are in a constant race to highlight the best possibilities of new models to
     customers.
 related:
-  - INS-260320-20F2
   - INS-260321-99C0
   - INS-260320-92CC
   - INS-260321-C902

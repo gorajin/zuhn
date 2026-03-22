@@ -47,11 +47,11 @@ resolutions:
 related:
   - INS-260321-18D0
   - INS-260321-E8CB
-  - INS-260321-7D76
   - INS-260321-2BF9
   - INS-260321-4B99
   - PRI-260321-5BF1
   - PRI-260321-14D8
+  - INS-260321-E654
   - PRI-260321-0A4D
 ---
 At GTC 2026, Jensen Huang predicted at least $1 trillion in bookings through 2027 (recognized over the life of the bookings, spread across two years). The demand is real — customers are literally begging for chips (Larry Ellison: 'me, Elon, and Sam are all lined up outside his door'). But NVIDIA's growth is constrained by TSMC's manufacturing capacity, not demand. NVIDIA has already locked up 70% of TSMC's 3nm node volume. At 80% gross margins, raising prices further would be 'egregious.' The strategic play: Jensen is locking up future TSMC manufacturing as far into the future as they'll let him, making TSMC the real chokepoint in the AI infrastructure stack.

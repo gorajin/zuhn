@@ -40,11 +40,12 @@ related:
   - INS-260320-B7DA
   - INS-260320-703F
   - INS-260321-4B99
+  - INS-260321-6437
+  - INS-260321-AA91
   - INS-260321-21BE
   - INS-260320-8688
-  - INS-260321-347D
   - INS-260321-2F43
+  - INS-260321-347D
   - INS-260321-C6C0
-  - INS-260321-1A99
 ---
 Karpathy argues cautiously optimistic about software engineering jobs. The classical example: ATMs were expected to replace bank tellers, but they made branch operations so much cheaper that more branches opened, creating more teller jobs. Similarly, AI making software development 10x cheaper unlocks enormous latent demand — code becomes ephemeral, customizable, and available for problems that were never economical to solve before. Digital information processing will see enormous activity.

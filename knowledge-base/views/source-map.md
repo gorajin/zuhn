@@ -17,6 +17,8 @@ Generated on 2026-03-22 | 45 sources
 | $215M AI CEO: How I’d Build a Profitable AI Startup in 30 Days (2026 Playbook) | youtube | 6 | 2026-03-22 |
 | Claude for Finance | pdf | 5 | 2026-03-22 |
 | 200+ pages of Hugging Face secrets on how to train an LLM | reddit | 5 | 2026-03-20 |
+| Atlassian CEO on the SaaS Apocalypse, AI Agents & What Comes Next | youtube | 5 | 2026-03-22 |
+| Emil Michael: The Department of War Is Moving Faster Than Silicon Valley on AI | The a16z Show | youtube | 5 | 2026-03-22 |
 | How To Get Unique AI Startup Ideas | youtube | 5 | 2026-03-22 |
 | Inside a16z’s Top 100 AI Apps Report with Olivia Moore | youtube | 5 | 2026-03-22 |
 | Inside Palantir: Building Software That Matters | Shyam Sankar on a16z | youtube | 5 | 2026-03-22 |
@@ -44,7 +46,5 @@ Generated on 2026-03-22 | 45 sources
 | [Tutorial] All there is to know about syncing video and audio | reddit | 2 | 2026-03-20 |
 | AI Markets: Deep Dive with a16z's David George | youtube | 0 | 2026-03-22 |
 | Andrew Huberman: Peptides, Sleep Tech, and the End of Obesity | youtube | 0 | 2026-03-22 |
-| Atlassian CEO on the SaaS Apocalypse, AI Agents & What Comes Next | youtube | 0 | 2026-03-22 |
-| Emil Michael: The Department of War Is Moving Faster Than Silicon Valley on AI | The a16z Show | youtube | 0 | 2026-03-22 |
 | Inside the New Media Team with Marc Andreessen & Ben Horowitz | youtube | 0 | 2026-03-22 |
 | Palantir CEO on Iran, AI Weapons and American Domination | a16z American Dynamism Summit | youtube | 0 | 2026-03-22 |

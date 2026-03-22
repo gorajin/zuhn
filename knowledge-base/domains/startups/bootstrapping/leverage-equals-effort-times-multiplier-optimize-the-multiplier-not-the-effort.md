@@ -50,7 +50,7 @@ related:
   - INS-260321-8382
   - INS-260321-7D7C
   - PRI-260321-AD44
-  - INS-260321-4178
+  - INS-260321-6437
   - INS-260321-988C
 ---
 Archimedes discovered that a small force applied through the right mechanism can move something enormous. Naval Ravikant updated this for modern wealth creation: the best levers scale without you. Code and media replicate at near-zero cost. Capital compounds with mathematical precision. The old levers (labor, capital) required permission — employees or investors. The new ones (code, media) just require judgment and a laptop. With AI, barriers are even lower. Donella Meadows concluded the highest-impact changes aren't about pushing harder — they're about changing the structure of feedback loops, information flows, and delays. Better architecture, not more force.
