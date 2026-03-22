@@ -55,13 +55,12 @@ resolutions:
     benefits multi-model platforms like Korea where users can switch between
     models.
 related:
-  - INS-260321-021B
   - INS-260321-3312
   - INS-260321-A6A6
+  - INS-260322-B09B
   - INS-260322-54F3
   - INS-260321-E4EB
   - INS-260321-96CE
-  - INS-260321-7C97
   - INS-260322-4090
 ---
 The a16z Top 100 data shows a clear pattern: standalone image generators are declining on the list because ChatGPT and Gemini now produce commodity images well enough. The survivors like Ideogram and Midjourney persist because they're either aesthetically opinionated or offer sophisticated workflows unavailable in general-purpose models.

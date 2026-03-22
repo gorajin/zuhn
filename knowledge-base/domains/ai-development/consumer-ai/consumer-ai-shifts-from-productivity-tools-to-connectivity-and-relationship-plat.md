@@ -48,9 +48,9 @@ resolutions:
 related:
   - INS-260321-9EBB
   - INS-260321-CCE3
+  - INS-260322-0812
   - INS-260321-4E98
   - INS-260322-B641
-  - INS-260320-F751
 ---
 Brian Kim at a16z argues that 2026 is when consumer AI moves beyond productivity into connectivity — helping users see themselves clearly and build relationships with people they love. The core emotion being addressed is wanting to be seen by others.
 

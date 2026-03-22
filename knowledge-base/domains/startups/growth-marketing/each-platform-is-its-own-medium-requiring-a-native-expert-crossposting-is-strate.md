@@ -52,7 +52,6 @@ resolutions:
     have taste and professional enough to execute.
 related:
   - INS-260320-1B38
-  - INS-260320-70FA
   - INS-260321-80A9
   - INS-260321-3D65
   - INS-260321-AACC

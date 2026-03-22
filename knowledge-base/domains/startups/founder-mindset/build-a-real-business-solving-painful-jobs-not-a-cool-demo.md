@@ -42,7 +42,6 @@ resolutions:
     be for problem-solving and building, not for a specific domain — you don't
     need passion for video clipping, you need passion for being a builder.
 related:
-  - INS-260320-630D
   - INS-260320-703F
   - INS-260320-C56D
   - INS-260320-07A2
@@ -52,5 +51,6 @@ related:
   - INS-260321-E654
   - INS-260322-1D52
   - INS-260321-E471
+  - INS-260322-E20E
 ---
 Young identifies the core failure mode for AI founders: building a very cool demo that shows strong capabilities but doesn't solve a real painful job-to-be-done. The test: are there existing alternative solutions? Are humans doing this job manually, building internal tools, or cobbling together hacky workflows? If yes, you're replacing real pain. Second test: can you describe your product value in 10 words? If all the feedback is 'this is amazing, this is awesome' but nobody asks about pricing tiers or offers a credit card, you don't have product-market fit. The passion should be for problem-solving and building, not for a specific domain — you don't need passion for video clipping, you need passion for being a builder.

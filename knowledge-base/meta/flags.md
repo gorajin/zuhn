@@ -20,7 +20,9 @@ None.
 - startups/growth-marketing has 28 insights but related ai-development/ai-automation has only 8
 - startups/growth-marketing has 28 insights but related video-production/content-strategy has only 3
 - startups/growth-marketing has 28 insights but related startups/ideation has only 9
+- startups/growth-marketing has 28 insights but related startups/competitive-strategy has only 2
 - startups/growth-marketing has 28 insights but related investing/ai-business-models has only 3
+- startups/founder-mindset has 13 insights but related startups/competitive-strategy has only 2
 - ai-development/ai-market-dynamics has 16 insights but related investing/ai-business-models has only 3
 - investing/geopolitics has 17 insights but related investing/ai-infrastructure has only 2
 

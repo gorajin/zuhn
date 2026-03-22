@@ -1,6 +1,6 @@
 # Domain: ai-development
 
-> 139 insights across 17 topics
+> 142 insights across 17 topics
 
 ## Topics
 
@@ -13,7 +13,7 @@
 | autonomous-labs | 1 | AI reasoning capabilities plus robot learning are converging to create autonomous labs that accelerate scientific discovery across life sciences, chemistry, and materials. |
 | claude-code | 33 | Planning is king — always use planning mode before implementation; never let the builder start without plans. |
 | competitive-dynamics | 1 | Unlike traditional software where nine women can't have a baby in one month, AI allows companies to throw money and GPUs at problems — meaning leads that took years to build can be closed in months. |
-| consumer-ai | 1 | 2026 marks when major consumer AI products shift from helping you work to helping you stay connected — understanding who you are and facilitating real human relationships. |
+| consumer-ai | 4 | Only 9% of consumers pay for more than one LLM assistant, and less than 10% of ChatGPT users even visit competitors — signaling winner-take-most dynamics in general AI. |
 | context-management | 2 | Structure knowledge as a relational database (entities + relationships), not text blobs. Every Claude instance reads/writes the same structured knowledge base. |
 | future-of-work | 15 | Anthropic's own studies show AI deskilling in coding is real, but depends on HOW you use models — some usage patterns cause skill degradation, some don't. |
 | interfaces | 1 | Voice uniquely carries emotional information that text and images cannot — making it the AI modality most capable of creating genuine human connection and feeling. |

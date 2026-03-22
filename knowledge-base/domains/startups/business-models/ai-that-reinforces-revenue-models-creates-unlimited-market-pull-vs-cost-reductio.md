@@ -50,9 +50,10 @@ related:
   - INS-260321-A3A1
   - INS-260321-807B
   - INS-260321-3BA8
-  - INS-260321-822B
   - INS-260322-BFDE
+  - INS-260321-822B
   - INS-260322-5790
+  - INS-260322-B450
   - INS-260322-F868
 ---
 David Haber at a16z identifies a critical distinction: AI that reinforces a business model (driving revenue) versus AI that merely reduces costs. When AI drives revenue, there's no ceiling on how much customers want to adopt it.

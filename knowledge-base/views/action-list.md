@@ -1,5 +1,5 @@
 # Action List
-Generated on 2026-03-22 | 142 actionable insights
+Generated on 2026-03-22 | 144 actionable insights
 
 ## ai-development/agent-patterns
 - [INS-260320-1B10] Have Claude review its own code via a specialized review agent — catches critical errors, missing implementations, and security flaws.
@@ -145,9 +145,13 @@ Generated on 2026-03-22 | 142 actionable insights
 
 ## startups/business-models
 - [INS-260322-FCFC] Companies where AI reinforces the business model by driving revenue — not just cutting costs — see dramatically stronger market pull and adoption.
+- [INS-260322-B450] The best consumer AI companies achieve over 100% net revenue retention through usage-based pricing on top of subscriptions — something never seen before in consumer software.
 
 ## startups/competitive-advantage
 - [INS-260322-7282] Owning the full workflow from intake to outcome generates proprietary data that public models can't replicate — creating a compounding competitive advantage.
+
+## startups/competitive-strategy
+- [INS-260322-7723] AI labs and big tech are structurally incapable of building opinionated standalone consumer products because their promo committees incentivize safe, incremental features over risky bets.
 
 ## startups/founder-mindset
 - [INS-260320-F751] Build something exceptional and they will come — fundraising, hiring, and network emerge from the product itself.

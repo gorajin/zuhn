@@ -37,7 +37,6 @@ resolutions:
     plans, reorg memos, strategic decisions buried in threads nobody tagged.
     Stale knowledge bases are worse than none — they give false confidence.
 related:
-  - INS-260320-2058
   - INS-260321-B85C
   - INS-260321-D3BE
   - INS-260321-C14C
