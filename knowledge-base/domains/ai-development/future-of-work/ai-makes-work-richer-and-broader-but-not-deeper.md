@@ -43,5 +43,6 @@ related:
   - INS-260321-AE3F
   - INS-260321-D959
   - PRI-260321-14D8
+  - INS-260321-53E2
 ---
 If Tao had to reproduce his current papers without AI, it would take 5x longer — but only because of auxiliary tasks (plots, code, formatting, literature search). The core problem-solving hasn't sped up. He wouldn't have written papers this way before; AI enabled richer output, not faster core work. This is a crucial distinction: AI productivity gains often come from expanding what you do, not accelerating what you already did. The 'depth' of insight remains human.

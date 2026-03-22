@@ -20,7 +20,6 @@ sources:
     url: 'https://youtu.be/Wg70HlO-5gY'
 related:
   - INS-260320-9937
-  - INS-260320-20F2
   - INS-260320-C8CC
   - INS-260320-1B38
   - INS-260320-47DC

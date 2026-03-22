@@ -41,8 +41,8 @@ resolutions:
 related:
   - INS-260321-141B
   - INS-260321-96CE
+  - INS-260321-3312
   - INS-260320-CDE4
   - INS-260320-F8FD
-  - INS-260320-7914
 ---
 YouTube content is two things: market (topic like finance, fitness, gaming) and format (the creative vessel — POV, animation style, ranking). Markets barely change but new formats emerge daily. Niche banding takes a format that's proven successful in one market and transplants it to another market where it's never been applied. Tim Danilov used this to build multiple channels generating 400M+ won in revenue. The strategy works because the format is already validated — you're only changing the audience.

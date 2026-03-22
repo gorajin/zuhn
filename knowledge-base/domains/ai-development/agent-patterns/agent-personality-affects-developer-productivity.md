@@ -36,8 +36,6 @@ resolutions:
     via the 'soul' document. This isn't cosmetic — it affects how long
     developers sustain engagement with the tool.
 related:
-  - INS-260320-93E1
-  - PRI-260320-5D78
   - INS-260321-9A03
   - INS-260321-4178
   - INS-260321-C99A

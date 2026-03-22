@@ -39,11 +39,10 @@ resolutions:
     library creates thousands of entry points. The work of thinking is the
     expensive part. Distribution is almost free. So distribute widely.
 related:
-  - INS-260320-105E
   - INS-260320-47FA
+  - INS-260321-3312
   - INS-260321-38EC
-  - INS-260321-96CE
+  - INS-260321-E529
   - INS-260320-CEBE
-  - INS-260320-A1D3
 ---
 Evergreen content compounds like a savings deposit — it retains and converts over years. Timely content spikes and decays. The 80/20 split ensures your back catalog works harder than you do. A library of 200 quality pieces generates a floor through compounding discovery: old posts get shared, resurface in search, get cited by others. A creator with 300 solid posts and zero viral moments will outperform one with 5 viral posts because the library creates thousands of entry points. The work of thinking is the expensive part. Distribution is almost free. So distribute widely.

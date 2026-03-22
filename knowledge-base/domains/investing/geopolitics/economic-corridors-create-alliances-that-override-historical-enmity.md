@@ -45,6 +45,6 @@ related:
   - INS-260321-9E91
   - INS-260321-D4D0
   - INS-260321-3EC0
-  - INS-260321-167A
+  - INS-260321-21BE
 ---
 The IMEC corridor forces historical enemies into alliance through shared economic interest. Saudi Arabia needs revenue diversification beyond oil (and can't always ship through the Strait of Hormuz due to Iran). Israel is perfectly positioned in the Mediterranean to supply Europe. Both want to be critical nodes on the IMEC train network. The analyst describes this as 'chess pieces arranging themselves' — countries that were once enemies join the same camp because interests align. This is the same principle as the Plaza Accord insight: put a black box over the event, the input is 'which arrangement makes more money,' the output is 'that's what happens regardless of ideology.'

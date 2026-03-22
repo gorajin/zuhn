@@ -49,5 +49,6 @@ related:
   - INS-260321-E2FC
   - INS-260321-1A0B
   - INS-260320-76E7
+  - INS-260321-2BF9
 ---
 End-to-end training eliminates the explicit interfaces that make failure detection possible. In classical robotics, you can unit-test each stage: calibrate cameras → verify detection overlay → check actuators. With VLAs, camera extrinsics and joint parameters aren't isolated — the network learns spatial transforms end-to-end. The failure boundary is defined implicitly by the training distribution, not explicitly by an engineer. You can't issue recovery commands ('stop', 'move away') and expect them to override the trained behavioral prior. This is the same 'jaggedness' problem Tao describes for math AI — VLAs are either on-rails or producing confident nonsense.

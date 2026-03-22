@@ -40,11 +40,11 @@ resolutions:
     — the input is 'which country is more powerful' and the output is 'the more
     powerful country gets their way.' The strong eat the weak.
 related:
-  - INS-260321-52EF
   - INS-260321-D183
+  - INS-260321-21BE
+  - INS-260321-52EF
   - PRI-260321-14D8
   - INS-260321-BFA3
-  - INS-260321-D4D0
   - INS-260321-5655
 ---
 The quant trader identifies a repeating geopolitical pattern: the dominant power acts when a rising economy reaches approximately 70% of their GDP. Japan was forced to sign the Plaza Accord, which effectively capped their growth. China triggered the same response at the same threshold. The lesson for investors: don't get lost in the details of specific economic policies (tariffs, currency pegs, bond restructuring). Put a black box over the event — the input is 'which country is more powerful' and the output is 'the more powerful country gets their way.' The strong eat the weak.
