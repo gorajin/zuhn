@@ -1,7 +1,7 @@
 ---
 id: INS-260321-015B
 domain: ai-development
-topic: future-of-work
+topic: ai-market-dynamics
 title: >-
   The organizational singularity — agent-to-agent workflows make human-to-human
   processes obsolete
@@ -25,7 +25,7 @@ date_extracted: '2026-03-21'
 last_accessed: null
 access_count: 0
 indexed: true
-embedded: true
+embedded: false
 embedding_model: nomic-embed-text
 resolutions:
   one_line: >-

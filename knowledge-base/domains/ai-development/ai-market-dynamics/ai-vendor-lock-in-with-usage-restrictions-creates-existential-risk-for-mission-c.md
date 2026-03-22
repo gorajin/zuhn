@@ -1,7 +1,7 @@
 ---
 id: INS-260321-1A03
 domain: ai-development
-topic: future-of-work
+topic: ai-market-dynamics
 title: >-
   AI vendor lock-in with usage restrictions creates existential risk for
   mission-critical operations
@@ -26,7 +26,7 @@ date_extracted: '2026-03-21'
 last_accessed: null
 access_count: 0
 indexed: true
-embedded: true
+embedded: false
 embedding_model: nomic-embed-text
 resolutions:
   one_line: >-

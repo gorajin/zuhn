@@ -1,7 +1,7 @@
 ---
 id: INS-260321-1749
 domain: ai-development
-topic: future-of-work
+topic: ai-market-dynamics
 title: >-
   Fortune 500 AI adoption gap is a change management problem, not a technology
   readiness problem
@@ -23,7 +23,7 @@ date_extracted: '2026-03-21'
 last_accessed: null
 access_count: 0
 indexed: true
-embedded: true
+embedded: false
 embedding_model: nomic-embed-text
 resolutions:
   one_line: >-

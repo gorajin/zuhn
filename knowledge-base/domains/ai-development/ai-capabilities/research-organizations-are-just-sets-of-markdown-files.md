@@ -1,7 +1,7 @@
 ---
 id: INS-260321-C3E6
 domain: ai-development
-topic: future-of-work
+topic: ai-capabilities
 title: Research organizations are just sets of markdown files
 actionability: inspiration
 confidence: medium
@@ -21,7 +21,7 @@ date_extracted: '2026-03-21'
 last_accessed: null
 access_count: 0
 indexed: true
-embedded: true
+embedded: false
 embedding_model: nomic-embed-text
 resolutions:
   one_line: >-

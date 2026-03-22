@@ -4,5 +4,5 @@
 
 - **Total insights:** 244
 - **Domains:** 7
-- **Topics:** 25
+- **Topics:** 27
 - **Tags:** 751

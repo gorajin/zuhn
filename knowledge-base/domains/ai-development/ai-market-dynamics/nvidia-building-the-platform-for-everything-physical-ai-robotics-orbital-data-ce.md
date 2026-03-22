@@ -1,7 +1,7 @@
 ---
 id: INS-260321-2BF9
 domain: ai-development
-topic: future-of-work
+topic: ai-market-dynamics
 title: >-
   NVIDIA building the platform for everything — physical AI, robotics, orbital
   data centers, robotaxis
@@ -26,7 +26,7 @@ date_extracted: '2026-03-21'
 last_accessed: null
 access_count: 0
 indexed: true
-embedded: true
+embedded: false
 embedding_model: nomic-embed-text
 resolutions:
   one_line: >-

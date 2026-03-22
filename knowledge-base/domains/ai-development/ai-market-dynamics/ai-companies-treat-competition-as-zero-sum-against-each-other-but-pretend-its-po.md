@@ -1,7 +1,7 @@
 ---
 id: INS-260321-3C8A
 domain: ai-development
-topic: future-of-work
+topic: ai-market-dynamics
 title: >-
   AI companies treat competition as zero-sum against each other but pretend it's
   positive-sum against nations
@@ -25,7 +25,7 @@ date_extracted: '2026-03-21'
 last_accessed: null
 access_count: 0
 indexed: true
-embedded: true
+embedded: false
 embedding_model: nomic-embed-text
 resolutions:
   one_line: >-

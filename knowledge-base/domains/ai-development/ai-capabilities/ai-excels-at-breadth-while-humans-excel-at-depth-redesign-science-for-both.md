@@ -1,7 +1,7 @@
 ---
 id: INS-260321-7D7C
 domain: ai-development
-topic: future-of-work
+topic: ai-capabilities
 title: AI excels at breadth while humans excel at depth — redesign science for both
 actionability: reference
 confidence: very_high
@@ -21,7 +21,7 @@ date_extracted: '2026-03-21'
 last_accessed: null
 access_count: 0
 indexed: true
-embedded: true
+embedded: false
 embedding_model: nomic-embed-text
 resolutions:
   one_line: >-
