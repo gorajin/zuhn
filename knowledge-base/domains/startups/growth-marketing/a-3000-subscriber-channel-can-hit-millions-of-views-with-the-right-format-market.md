@@ -47,5 +47,6 @@ related:
   - INS-260321-96CE
   - INS-260320-92CC
   - INS-260321-141B
+  - INS-260321-E8CB
 ---
 Multiple examples show tiny channels achieving massive views: a 3,000-subscriber channel got 2.69M views with a gaming POV format, a 5,000-subscriber channel got 270K views with Spider-Man POV, a channel gathered 170K subscribers with just 14 videos using niche banding. The pattern: when you combine a proven format with an underserved market, the algorithm rewards the novelty regardless of channel size. This mirrors the startup principle that product-market fit matters more than distribution.

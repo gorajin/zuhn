@@ -38,11 +38,11 @@ related:
   - INS-260320-9D89
   - INS-260320-8F12
   - INS-260320-6CCE
-  - INS-260320-F872
   - PRI-260320-D5B7
   - INS-260321-2482
   - INS-260321-C3E6
   - INS-260321-18D0
   - INS-260321-C5AA
+  - INS-260321-E9B7
 ---
 Karpathy describes the Peter Steinberg workflow: multiple Codex agents open simultaneously, each taking ~20 minutes on a task, with the human rotating between them giving macro-level instructions. The skill is decomposing work into non-interfering parallel tasks and knowing how much to trust each output based on how much you care about that code.
