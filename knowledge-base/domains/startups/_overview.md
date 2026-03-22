@@ -1,6 +1,6 @@
 # Domain: startups
 
-> 126 insights across 34 topics
+> 131 insights across 35 topics
 
 ## Topics
 
@@ -23,6 +23,7 @@
 | govtech | 3 | Technology-driven intelligence (cameras, drones, license plate readers, AI orchestration) creates a third path between harsh punishment and under-enforcement by making crime detection near-certain, which deters crime without mass incarceration. |
 | growth | 2 | When COVID canceled 120 fully-booked rooms and left 2 months of runway, pivoting share houses to quarantine facilities and building a university quarantine solution actually grew the business beyond its pre-crisis trajectory. |
 | growth-marketing | 29 | Channels with 3,000-5,000 subscribers are hitting 2-3 million views by applying proven formats to underserved markets — subscriber count doesn't determine reach when format-market fit is strong. |
+| growth-strategy | 5 | Stop hiring for the business you used to be — at $30-50M revenue you need a CFO not a bookkeeper, and the founder becomes the ceiling when every function must pass through them. |
 | growth-tactics | 2 | Use tools like PostHog and RevenueCat experiments to A/B test onboarding screens, paywalls, and pricing in isolation — removing just 3 screens can drop conversion to zero. |
 | health-innovation | 3 | Emerging research in metabolic psychiatry shows that conditions like depression, epilepsy, and even schizophrenia often have metabolic root causes — and interventions like ketogenic diets, gut health, and inflammation reduction can outperform traditional talk therapy and SSRIs. |
 | hiring | 2 | Senior executives are professional interviewers — get signal from their 360 reviews at previous companies and do enough references until answers converge. |

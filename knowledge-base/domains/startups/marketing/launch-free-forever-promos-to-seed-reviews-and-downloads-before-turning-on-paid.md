@@ -50,8 +50,8 @@ related:
   - INS-260320-9937
   - INS-260322-B450
   - INS-260322-837A
+  - INS-260322-5650
   - INS-260322-1435
-  - INS-260321-3312
 ---
 Arthur's launch sequence was deliberate: first offer the app completely free with lifetime pro access to seed downloads and reviews. He got 900 downloads, 8 ratings (4/5 average), and organic traffic from WeChat, Reddit, and app referral sites — all before spending a dollar on ads. Only after establishing this base did he turn on TikTok ads.
 

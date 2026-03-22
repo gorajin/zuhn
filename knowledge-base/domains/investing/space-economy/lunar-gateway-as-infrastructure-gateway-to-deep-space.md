@@ -50,7 +50,7 @@ related:
   - INS-260322-B8E6
   - INS-260321-D4D0
   - INS-260321-5655
-  - INS-260321-9E91
+  - INS-260322-F128
 ---
 NASA's Artemis program reveals that the Moon is not the final destination but a logistics node. The Lunar Gateway, a space station orbiting the Moon, will serve as the departure point for Mars missions because spacecraft can launch from lunar orbit with dramatically less fuel than from Earth's surface. This reframes the entire economics of space exploration: investment in lunar infrastructure is really investment in interplanetary capability.
 

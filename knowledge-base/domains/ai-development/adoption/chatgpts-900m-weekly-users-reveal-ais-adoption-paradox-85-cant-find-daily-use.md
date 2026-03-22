@@ -49,6 +49,7 @@ related:
   - INS-260322-0C28
   - PRI-260321-558C
   - INS-260322-B641
+  - INS-260322-5650
   - INS-260322-6AF5
 ---
 Benedict Evans highlights a crucial signal: ChatGPT's usage data shows massive awareness but thin daily engagement. Only about 5% pay, 10-15% use it daily, and another 20-30% weekly. The remaining majority have accounts, understand the product, and simply can't think of what to do with it.

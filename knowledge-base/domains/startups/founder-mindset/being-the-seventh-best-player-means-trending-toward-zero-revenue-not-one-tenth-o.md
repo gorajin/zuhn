@@ -44,9 +44,9 @@ related:
   - INS-260321-BFA3
   - INS-260321-3C8A
   - INS-260322-0247
+  - INS-260322-36E3
   - PRI-260321-0A4D
   - INS-260321-D183
   - INS-260321-3808
-  - INS-260322-0C28
 ---
 There's a dangerous misconception that markets support proportional players — if you have 10% of the leader's revenue, you're worth 10% of their valuation. Dalton and Michael argue this is almost never true. The seventh-place player in a category trends toward having no revenue, not stable fractional revenue. The evidence: 80-90% of Series B companies fail. Markets that appear to have six winners usually have one or two, with the rest circling the drain. The implication: if you're the sixth-place player, you must be obsessed with winning the whole game or playing a different game entirely. Accepting a comfortable middle position is accepting a slow death.

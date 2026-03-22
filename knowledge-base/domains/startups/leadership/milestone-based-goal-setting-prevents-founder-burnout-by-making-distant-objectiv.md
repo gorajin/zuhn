@@ -45,11 +45,11 @@ resolutions:
     clear, achievable milestones, celebrate reaching them, then decide what
     comes next.
 related:
+  - INS-260322-36E3
   - INS-260320-8688
   - INS-260322-CFB1
   - INS-260322-EDA4
   - INS-260322-C472
-  - INS-260322-88C3
 ---
 Oh explicitly rejects the standard startup framing of working toward an exit or IPO as the goal. Instead, he defines the next milestone — a specific transaction volume, operating profit level, or geographic expansion target — and focuses exclusively on reaching it. Only after achieving that milestone does he set the next one.
 

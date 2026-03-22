@@ -48,11 +48,12 @@ resolutions:
     formation.
 related:
   - INS-260320-C56D
-  - INS-260321-5C24
+  - INS-260322-5650
   - INS-260321-2F09
   - INS-260322-B641
   - INS-260321-AA91
   - INS-260322-1D52
+  - INS-260322-70DD
 ---
 The 'janitorial services problem': if you tell a CEO you can get their toilets 9% cleaner and save 1% on spend, they won't even exercise the mental energy to find the person who cares. This Goldilocks zone of irrelevance is actually more protective than any technical moat.
 

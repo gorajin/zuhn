@@ -43,9 +43,10 @@ resolutions:
 related:
   - INS-260320-C65B
   - INS-260321-2F43
-  - INS-260321-96CE
   - INS-260321-99C0
   - INS-260322-BFDE
+  - INS-260322-F128
+  - INS-260321-96CE
   - INS-260321-C14C
 ---
 Pre-PMF, the right advice is 'stop strategizing and go do the thing.' But post-PMF, founders who only hill-climb get trapped in local maxima. Facebook had to make multiple strategic bets that felt crazy at the time: opening to high schoolers, going all-in on mobile (abandoning web revenue), buying Instagram. Each was NOT hill climbing — it was a discontinuous leap. DoorDash's Tony Xu was thinking about competing with Amazon's logistics before he had the right to think that way. The founders who build $50B companies are the ones who comp themselves to public market winners (not other startups) and make bets that risk the company.

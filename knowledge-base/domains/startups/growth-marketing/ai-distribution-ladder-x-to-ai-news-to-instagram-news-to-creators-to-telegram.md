@@ -41,14 +41,14 @@ resolutions:
     integrations outperform paid ads for AI product distribution.
 related:
   - INS-260320-A1D3
-  - INS-260321-38EC
   - INS-260321-C4CD
+  - INS-260321-38EC
   - INS-260322-5E5D
   - PRI-260321-558C
   - INS-260322-FFF6
   - INS-260321-13EA
   - INS-260321-F0DF
-  - INS-260321-86E7
   - INS-260321-EE05
+  - INS-260322-7B71
 ---
 Higgsfield and many other AI products followed the same distribution journey: launch starts in small X (Twitter) communities, then gets picked up by AI news pages on X, then moves to Instagram news pages, then to individual creators, then spreads to Telegram and other platforms. However, this pattern was strongest in 2025 — by 2026, signal-to-noise ratio on X is dropping as too many companies try to use it for product launches. LinkedIn may be rising as an alternative channel. Organic social media and creator integrations outperform paid ads for AI product distribution.

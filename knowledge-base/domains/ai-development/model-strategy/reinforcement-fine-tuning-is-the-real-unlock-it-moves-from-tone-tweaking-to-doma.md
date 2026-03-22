@@ -50,7 +50,6 @@ resolutions:
     potentially free training for companies willing to share their fine-tuning
     data, acknowledging the mutual value of this data exchange.
 related:
-  - INS-260320-8B06
   - INS-260321-8C35
   - INS-260322-019A
   - INS-260322-7282

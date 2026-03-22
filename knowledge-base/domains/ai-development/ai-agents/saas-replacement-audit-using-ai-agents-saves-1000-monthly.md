@@ -47,11 +47,11 @@ resolutions:
     AI platform plus development time costs less than the SaaS stack it
     replaces, the switch is justified.
 related:
+  - INS-260322-C33D
   - INS-260322-1435
   - INS-260321-AA91
   - INS-260322-B450
-  - INS-260320-B7DA
-  - INS-260322-94A9
+  - INS-260322-5650
 ---
 A powerful but underutilized AI agent capability is SaaS replacement auditing. By uploading 6 months of bank and credit card statements, an AI agent can identify all recurring SaaS subscriptions and evaluate which ones can be replaced by custom AI-built modules. In one demonstrated case, this identified over $1,000/month in replaceable subscriptions including a $500 GoHighLevel subscription and a $300 training platform.
 

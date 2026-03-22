@@ -39,10 +39,10 @@ resolutions:
     are in a constant race to highlight the best possibilities of new models to
     customers.
 related:
+  - INS-260322-C33D
   - INS-260321-B7CB
   - INS-260322-5790
+  - INS-260322-5650
   - INS-260322-1D52
-  - INS-260320-92CC
-  - INS-260322-B641
 ---
 Higgsfield shipped new product releases 6 days a week throughout 2025. The reason: roughly five leading research labs each push major model updates every quarter, meaning some months see two major capability shifts. Each update requires substantially rebuilding the product around the new models. The perfect interface between simplicity and configuration remains unsolved, which is another reason to embrace daily iteration. Product builders in AI are in a constant race to highlight the best possibilities of new models to customers.

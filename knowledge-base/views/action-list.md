@@ -1,5 +1,5 @@
 # Action List
-Generated on 2026-03-22 | 198 actionable insights
+Generated on 2026-03-22 | 202 actionable insights
 
 ## ai-development/adoption
 - [INS-260322-3159] Just as enterprise SaaS companies unbundled Oracle and Excel into 400-500 dedicated apps per company, AI software companies will unbundle ChatGPT by wrapping AI capabilities into specific industry workflows.
@@ -259,6 +259,12 @@ Generated on 2026-03-22 | 198 actionable insights
 - [INS-260321-2564] In old media you could never correct a misinterpretation; in new media you can drown it out by going on 30 podcasts to talk about something more interesting.
 - [INS-260321-5598] Professional CEOs trained to say nothing on stage now lose to founder CEOs interesting enough to fill 3 hours on Joe Rogan — the 80-year reign of synthetic corporate communication is over.
 - [INS-260321-822B] The fastest AI companies reach $100M revenue significantly faster than SaaS predecessors, with top performers growing 693% YoY — driven by product demand, not sales spend — and running at $500K-1M ARR per FTE versus the old SaaS benchmark of $400K.
+
+## startups/growth-strategy
+- [INS-260322-70DD] Stop hiring for the business you used to be — at $30-50M revenue you need a CFO not a bookkeeper, and the founder becomes the ceiling when every function must pass through them.
+- [INS-260322-F128] The #1 strategic decision is choosing a category you can realistically become #1 in — not just participate in — then killing everything else to focus all resources there.
+- [INS-260322-36E3] Every dollar of profit not reinvested into growth is a dollar a competitor could use to catch up — operate at breakeven to build position while competitors extract profits.
+- [INS-260322-C33D] Only build products with daily-use repeat purchase dynamics — subscriptions transform the business from hunting new customers every month to compounding on an existing base.
 
 ## startups/growth-tactics
 - [INS-260322-37EE] Use tools like PostHog and RevenueCat experiments to A/B test onboarding screens, paywalls, and pricing in isolation — removing just 3 screens can drop conversion to zero.
