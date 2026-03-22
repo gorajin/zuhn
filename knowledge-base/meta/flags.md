@@ -26,6 +26,7 @@ None.
 - ai-development/claude-code has 29 insights but related startups/bootstrapping has only 7
 - ai-development/claude-code has 29 insights but related ai-development/ai-automation has only 4
 - ai-development/claude-code has 29 insights but related startups/founder-mindset has only 4
+- ai-development/claude-code has 29 insights but related investing/geopolitics has only 4
 - ai-development/llm-costs has 8 insights but related music-production/synthesis has only 2
 - ai-development/future-of-work has 21 insights but related ai-development/llm-training has only 5
 - ai-development/future-of-work has 21 insights but related ai-development/spec-driven-dev has only 6
@@ -39,6 +40,7 @@ None.
 - ai-development/system-building has 8 insights but related video-production/audio-sync has only 2
 - ai-development/future-of-work has 21 insights but related ai-development/ai-automation has only 4
 - ai-development/future-of-work has 21 insights but related startups/founder-mindset has only 4
+- ai-development/future-of-work has 21 insights but related investing/geopolitics has only 4
 
 ## TRANSFER
 None.

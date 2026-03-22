@@ -44,5 +44,7 @@ related:
   - INS-260320-92CC
   - INS-260321-C3E6
   - INS-260321-E8CB
+  - INS-260321-D183
+  - INS-260321-3808
 ---
 Tao reveals a critical insight about AI capabilities reporting: 50 Erdős problems solved sounds revolutionary, but multiple teams tried every problem simultaneously. The success rate on any given problem is 1-2%. AI buys scale — you pick the winners and broadcast them. But when individuals try these tools on their own favorite problem, they experience the 1-2% rate. This selection bias dynamic is important for setting realistic expectations. It's simultaneously amazing progress (applying techniques nobody thought to try) and disappointing (can't do cumulative reasoning).

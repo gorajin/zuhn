@@ -36,10 +36,11 @@ resolutions:
     minimum human involvement.
 related:
   - INS-260320-39A3
-  - INS-260320-703F
+  - INS-260321-3EC0
   - INS-260320-9FD5
   - INS-260321-52EF
+  - INS-260320-703F
   - INS-260320-B210
-  - INS-260320-F8FD
+  - INS-260321-5655
 ---
 Karpathy's core thesis: to get the most out of AI tools, you must remove yourself as the bottleneck. You can't be there to prompt the next thing. Arrange systems to be completely autonomous. Auto-research is the practical example — define an objective, a metric, boundaries of what the agent can and cannot do, then hit go. The goal is maximum token throughput with minimum human involvement.

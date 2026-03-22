@@ -20,6 +20,7 @@ Generated on 2026-03-22
 - ai-development/claude-code (29 insights) ↔ startups/bootstrapping (7 insights)
 - ai-development/claude-code (29 insights) ↔ ai-development/ai-automation (4 insights)
 - ai-development/claude-code (29 insights) ↔ startups/founder-mindset (4 insights)
+- ai-development/claude-code (29 insights) ↔ investing/geopolitics (4 insights)
 - ai-development/llm-costs (8 insights) ↔ music-production/synthesis (2 insights)
 - ai-development/future-of-work (21 insights) ↔ ai-development/llm-training (5 insights)
 - ai-development/future-of-work (21 insights) ↔ ai-development/spec-driven-dev (6 insights)
@@ -33,3 +34,4 @@ Generated on 2026-03-22
 - ai-development/system-building (8 insights) ↔ video-production/audio-sync (2 insights)
 - ai-development/future-of-work (21 insights) ↔ ai-development/ai-automation (4 insights)
 - ai-development/future-of-work (21 insights) ↔ startups/founder-mindset (4 insights)
+- ai-development/future-of-work (21 insights) ↔ investing/geopolitics (4 insights)
