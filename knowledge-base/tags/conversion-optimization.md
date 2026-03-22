@@ -1,3 +1,4 @@
 # Tag: conversion-optimization
 
-- `INS-260320-1B38` Longer onboarding (15 screens) increased trial starts by 16% — more investment, personalization, and social proof beats short onboarding, and moving login after the paywall prevented a 10% drop-off.
+- `INS-260322-37EE` Use tools like PostHog and RevenueCat experiments to A/B test onboarding screens, paywalls, and pricing in isolation — removing just 3 screens can drop conversion to zero.
+- `INS-260322-94A9` More than 80% of subscription conversions happen during onboarding, so spend 90% of your optimization time on onboarding screens, paywall design, and commitment psychology — not the app itself.

@@ -45,7 +45,6 @@ resolutions:
     implication: selling AI-powered software into large financial institutions
     is currently easier than it's ever been.
 related:
-  - INS-260320-B8B0
   - INS-260320-446F
   - INS-260321-52EF
   - INS-260321-801C

@@ -50,8 +50,10 @@ related:
   - INS-260321-E529
   - INS-260321-EE05
   - INS-260322-5678
+  - INS-260322-89A9
   - INS-260322-EDA4
-  - PRI-260321-558C
+  - INS-260322-6042
+  - INS-260322-81CD
 ---
 Oh frames the YouTube algorithm as a mirror of your thinking patterns: if you spend time thinking about food, the algorithm serves food content, reinforcing the loop. By deliberately changing what you consume — seeking out unfamiliar industries, emerging trends, competitor moves — you train both the algorithm and your own pattern recognition to surface opportunities.
 

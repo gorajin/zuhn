@@ -50,11 +50,10 @@ resolutions:
 related:
   - INS-260320-9D89
   - PRI-260320-5D78
-  - INS-260321-D3BE
-  - INS-260321-C5AA
   - INS-260321-F864
   - INS-260322-CCAA
-  - INS-260321-2482
+  - INS-260322-EAB6
+  - INS-260321-D3BE
 ---
 There's a temptation to treat 'agents' as a wholly new product category requiring new playbooks for pricing, go-to-market, and ecosystem management. OpenAI's internal framing rejects this: agents are simply AI that takes actions on your behalf over long time horizons — one of many ways intelligence gets manifested.
 

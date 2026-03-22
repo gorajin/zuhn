@@ -1,6 +1,6 @@
 # Domain: ai-development
 
-> 175 insights across 32 topics
+> 180 insights across 33 topics
 
 ## Topics
 
@@ -8,6 +8,7 @@
 | ----- | -------- | ------- |
 | adoption | 3 | Just as enterprise SaaS companies unbundled Oracle and Excel into 400-500 dedicated apps per company, AI software companies will unbundle ChatGPT by wrapping AI capabilities into specific industry workflows. |
 | agent-patterns | 10 | When agents fail, the instinct now is 'I gave bad instructions' not 'the AI can't do this' — most failures are configuration problems, not capability limits. |
+| ai-agents | 5 | Separate AI agent work into three roles: the builder constructs platforms, the orchestrator manages workflows, and executors are specialized agents that do actual work. |
 | ai-automation | 8 | AI-enabled beats AI-replaced — keep the human touch in important parts, automate the repetitive. |
 | ai-capabilities | 12 | AI made idea generation almost free, just as the internet made communication almost free — the bottleneck shifted to verification, evaluation, and filtering signal from noise. |
 | ai-market-dynamics | 19 | China is stealing American AI models, removing all guardrails, and potentially deploying them against the US — creating an absurd scenario where America fights with one arm tied behind its back against its own technology. |

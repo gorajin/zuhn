@@ -53,9 +53,9 @@ resolutions:
 related:
   - INS-260320-07A2
   - INS-260321-167A
+  - INS-260322-B6DE
   - PRI-260321-5857
   - INS-260322-AC23
-  - INS-260322-191F
 ---
 The more senior the hire, the better they are at interviewing — by definition. At the C-suite level, the interview itself becomes nearly useless as a signal. Two alternative approaches generate much better signal:
 

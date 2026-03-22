@@ -54,12 +54,12 @@ related:
   - INS-260320-5818
   - INS-260320-7914
   - INS-260320-9935
-  - INS-260320-CDE4
   - INS-260320-76E7
   - INS-260321-8433
   - INS-260321-C3E6
   - INS-260321-9824
-  - INS-260321-BFA3
+  - INS-260321-7D76
+  - INS-260321-8567
 ---
 Epoch AI argues against the software-only singularity (AI automating AI research to produce rapid recursive improvement) based on a key empirical observation: experimental compute — the compute needed to actually test ideas — is receiving similar or more investment than final training runs. This suggests you can't just throw more AI researchers at the problem without also scaling up the physical compute for experiments.
 

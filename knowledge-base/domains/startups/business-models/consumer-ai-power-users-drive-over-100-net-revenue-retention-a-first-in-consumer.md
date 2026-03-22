@@ -50,13 +50,13 @@ related:
   - INS-260320-9937
   - INS-260320-2058
   - INS-260320-B7DA
-  - INS-260320-00C2
   - INS-260321-807B
   - INS-260321-8D2B
   - INS-260321-AA91
   - INS-260321-822B
   - INS-260322-837A
   - INS-260322-FCFC
+  - INS-260322-E20E
 ---
 A paradigm-breaking metric has emerged in consumer AI: top companies achieve greater than 100% net revenue retention. This was previously considered impossible in consumer software, where churn always exceeded expansion. The mechanism is usage-based pricing layered on subscriptions — users can exceed their monthly quota and pay more, either by upgrading tiers or purchasing additional tokens/usage.
 

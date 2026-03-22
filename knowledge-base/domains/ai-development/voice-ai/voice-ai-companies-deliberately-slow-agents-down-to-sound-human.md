@@ -50,7 +50,6 @@ related:
   - INS-260321-A5D4
   - INS-260322-091C
   - PRI-260321-5857
-  - INS-260322-82E8
 ---
 An interesting signal from the voice AI space: accuracy and latency have improved so much that some companies are deliberately degrading their agents' performance — adding pauses and background noise — to make them sound more human. This reveals a gap between technical capability and user acceptance.
 

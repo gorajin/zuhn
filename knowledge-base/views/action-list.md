@@ -1,5 +1,5 @@
 # Action List
-Generated on 2026-03-22 | 173 actionable insights
+Generated on 2026-03-22 | 198 actionable insights
 
 ## ai-development/adoption
 - [INS-260322-3159] Just as enterprise SaaS companies unbundled Oracle and Excel into 400-500 dedicated apps per company, AI software companies will unbundle ChatGPT by wrapping AI capabilities into specific industry workflows.
@@ -11,6 +11,13 @@ Generated on 2026-03-22 | 173 actionable insights
 - [INS-260321-D3BE] Stop thinking in lines of code — think in macro actions: 'agent 1 builds feature X, agent 2 researches Y, agent 3 plans Z' — then review their work.
 - [INS-260321-18D0] Your bottleneck shifted from typing speed to token throughput — maximize how many agent sessions you can run in parallel, not how fast you code.
 - [INS-260321-8414] The biggest barrier to enterprise AI agent adoption isn't model capability but trust UX — too many status updates and users say 'stop telling me crap,' too few and they say 'what is it doing?' — requiring progressive disclosure design patterns that don't yet exist.
+
+## ai-development/ai-agents
+- [INS-260322-EAB6] Separate AI agent work into three roles: the builder constructs platforms, the orchestrator manages workflows, and executors are specialized agents that do actual work.
+- [INS-260322-31F8] An eight-layer optimization stack — killing thinking mode, capping context, model routing, session resets, lean initialization, Ollama heartbeat, prompt caching, and sub-agent isolation — can reduce monthly AI spend from $150 to $10.
+- [INS-260322-B6DE] Every AI employee should map to one of seven business operations stages: outreach, discovery, proposal, sales, onboarding, retention, and competitive intelligence.
+- [INS-260322-3010] Upload bank and credit card statements to an AI agent to identify SaaS subscriptions that can be replaced with custom AI-built modules — one audit revealed $1000/month in replaceable subscriptions.
+- [INS-260322-E4D8] AI agents need three levels of business context: Level 1 (identity — who you are), Level 2 (strategic — mission, products, team, communication style), Level 3 (enterprise — playbooks, decision trees, escalation paths, meeting history).
 
 ## ai-development/ai-automation
 - [INS-260320-5A6F] AI-enabled beats AI-replaced — keep the human touch in important parts, automate the repetitive.
@@ -122,12 +129,29 @@ Generated on 2026-03-22 | 173 actionable insights
 - [INS-260320-B8B0] Use Linkfinder AI as a proxy for LinkedIn scraping — no direct LinkedIn API connection means zero ban risk for your personal account.
 - [INS-260320-6845] An n8n workflow pulls YouTube links from Google Sheets, extracts transcripts via Dumpling AI, transforms them into newsletter drafts with GPT-4o, and logs results back to Sheets.
 
+## automation/self-improving-systems
+- [INS-260322-D6D7] Replace subjective 'rate 1-10' evals with binary yes/no questions (e.g., 'Does the hook describe a result, not a feature?') to make optimization machine-readable and eliminate subjectivity.
+- [INS-260322-D1AB] Track four quadrants — high eval + high views (validated winners), high eval + low views (false positives), low eval + high views (missed patterns), low eval + low views (confirmed failures) — to continuously improve both your eval and your prompts.
+- [INS-260322-24FB] The Autoresearch loop (change a file, measure the result, keep or discard) can optimize any prompt-driven process with measurable outputs — content, emails, landing pages, thumbnails.
+
 ## investing/ai-business-models
 - [INS-260322-5790] AI model input costs have declined 99%+ in two years (faster than Moore's law) while quality doubles every 7 months — meaning today's thin margins on AI apps will likely expand dramatically as long as model competition persists.
 - [INS-260322-C472] For AI startups to beat established software companies like Salesforce, they need all three: a reimagined proactive UI, access to new data sources (unstructured data over structured databases), and a disruptive business model beyond seat-based pricing.
 
 ## investing/geopolitics
 - [INS-260321-D183] If US wins the cold war: S&P returns 8-10% annually. If China wins: China gives the US a soft landing (they need US consumption market), S&P returns ~5% annually. Either way, S&P has the highest expected value.
+
+## music-production/career-building
+- [INS-260322-D5DD] Make remixes of trending songs in your own style to leverage existing search demand and get discovered before you have original fans.
+
+## music-production/feedback-loops
+- [INS-260322-1C17] Find 2-3 peers at a similar skill level who will give brutally honest feedback, and don't release anything until it passes their criticism.
+
+## music-production/music-discovery
+- [INS-260322-89A9] Tracing performer credits — guitarist, drummer, mixing engineer — through Discogs, Genius, and artist Instagram feeds uncovers hidden creative networks that algorithms never surface.
+- [INS-260322-35FA] Watching live DJ mix sets on YouTube is the most efficient way to internalize a genre because DJs curate 30+ tracks from deep listening into a coherent sonic narrative.
+- [INS-260322-B392] Each music platform has a distinct discovery strength: Spotify for algorithmic recommendations, Apple Music for editorial curation, Bandcamp for global indie, Beatport for electronic, SoundCloud for raw unsigned talent.
+- [INS-260322-F781] Systematic music discovery follows three layers: listen to as much as possible, then dig by genre to understand sonic categories, then trace artists through credits and discographies.
 
 ## music-production/music-marketing
 - [INS-260321-13EA] Release on Friday (international release day) with minimum 4 weeks from master delivery — things go wrong with aggregators, you need time to pitch DSPs, and thinking 'I'll release on Tuesday to fox them' is thinking small.
@@ -137,6 +161,9 @@ Generated on 2026-03-22 | 173 actionable insights
 
 ## music-production/practice
 - [INS-260322-3DE2] Words describing scale degrees are temporary scaffolding — the goal is to bypass verbal labeling entirely and recognize degrees by direct feeling-state recognition.
+
+## music-production/skill-development
+- [INS-260322-144E] Start on cheap beginner gear at home and rent professional equipment (e.g., Pioneer CDJs at Pirate Studios) for practice sessions instead of buying.
 
 ## music-production/songwriting
 - [INS-260321-6D01] Puth's best work follows a two-phase pattern: solo marination where the song develops in his head, then collaboration where others refine and constrain his tendencies.
@@ -152,6 +179,11 @@ Generated on 2026-03-22 | 173 actionable insights
 ## pets/dog-care
 - [INS-260320-8B06] Letting dogs make small choices -- which toy to play with, which direction to walk, whether to engage or rest -- builds confidence and reduces anxiety-driven behaviors.
 - [INS-260320-9118] Allow dogs to sniff freely during walks -- scent exploration is their primary way of processing the world and provides more mental stimulation than the physical exercise of the walk itself.
+
+## psychology/focus
+- [INS-260322-6042] Delay checking email, social media, and other non-essential inputs for as long as possible each day because once you let them in, they occupy mental bandwidth permanently until your next reset.
+- [INS-260322-BEA3] The first thing you focus on each day gets prime mental real estate with zero competition — so give that slot to your single most important task.
+- [INS-260322-E90F] Stare at a wall for 10-15 minutes when you can't focus — it acts as a mental bandwidth reset that reliably produces flow state afterward, with diminishing returns past 15 minutes.
 
 ## startups/ai-business-models
 - [INS-260322-E20E] AI application companies should price by business value delivered or productivity uplift, not by token consumption — cost-based pricing systematically undercharges as AI costs deflate.
@@ -204,6 +236,7 @@ Generated on 2026-03-22 | 173 actionable insights
 - [INS-260322-7276] Founders assume if the winner makes $500M and they make $50M, they're worth one-tenth — but the actual pattern is the seventh player trends toward zero revenue, not a stable fraction.
 - [INS-260322-AF17] Founders resist comping themselves to public companies because it feels like comparing yourself to astronauts — but the winners (DoorDash, Facebook) were always benchmarking against the biggest players, not other startups.
 - [INS-260322-B3D0] Pre-PMF advice (just ship, talk to users, no strategy) becomes actively harmful post-PMF — you need strategic bets like Facebook opening beyond .edu or DoorDash expanding beyond food.
+- [INS-260322-A61A] Stan Lee tested Spider-Man in a dying magazine's last issue because nobody cared what went in it — low-stakes channels are the perfect testing ground for ideas that gatekeepers rejected.
 
 ## startups/growth-marketing
 - [INS-260320-A1D3] Keep your content creator team to 5-10 people max, meet with each 1:1, and share what converts vs what doesn't — a small elite team compounds while a large team dilutes quality.
@@ -227,9 +260,16 @@ Generated on 2026-03-22 | 173 actionable insights
 - [INS-260321-5598] Professional CEOs trained to say nothing on stage now lose to founder CEOs interesting enough to fill 3 hours on Joe Rogan — the 80-year reign of synthetic corporate communication is over.
 - [INS-260321-822B] The fastest AI companies reach $100M revenue significantly faster than SaaS predecessors, with top performers growing 693% YoY — driven by product demand, not sales spend — and running at $500K-1M ARR per FTE versus the old SaaS benchmark of $400K.
 
+## startups/growth-tactics
+- [INS-260322-37EE] Use tools like PostHog and RevenueCat experiments to A/B test onboarding screens, paywalls, and pricing in isolation — removing just 3 screens can drop conversion to zero.
+- [INS-260322-94A9] More than 80% of subscription conversions happen during onboarding, so spend 90% of your optimization time on onboarding screens, paywall design, and commitment psychology — not the app itself.
+
 ## startups/hiring
 - [INS-260322-AC23] ElevenLabs hired from non-traditional backgrounds by looking for proof of excellence — open-source projects, side projects, or standout achievements — rather than conventional credentials.
 - [INS-260322-82E8] Senior executives are professional interviewers — get signal from their 360 reviews at previous companies and do enough references until answers converge.
+
+## startups/idea-validation
+- [INS-260322-750A] Browse top-grossing apps, find categories with identical competitors, then build the same concept with a differentiated angle for an underserved segment.
 
 ## startups/ideation
 - [INS-260321-6BA7] Find ideas that have been discarded by others rather than trying to discover something no one has ever thought of.
@@ -247,6 +287,8 @@ Generated on 2026-03-22 | 173 actionable insights
 ## startups/marketing
 - [INS-260322-D7B1] Even a 20-30% shift from Google to AI chatbots will dramatically raise paid search costs for remaining advertisers, making current acquisition strategies unviable.
 - [INS-260322-FFF6] The cost of reaching audiences on social platforms is zero for distribution — an unprecedented asymmetry that most businesses fail to exploit.
+- [INS-260322-98AB] Offer lifetime free access at launch to generate initial downloads and App Store reviews, then turn on paid ads only after you have social proof and keyword rankings.
+- [INS-260322-1435] New TikTok Ads accounts get matched spending credits (spend $200, get $200 free) plus recurring coupons, effectively halving your early ad costs.
 
 ## startups/pricing-strategy
 - [INS-260322-0247] Robinhood's zero-commission bet gave them 3-4 years before incumbents could respond because free is a categorically different value proposition than merely cheaper.
@@ -259,6 +301,9 @@ Generated on 2026-03-22 | 173 actionable insights
 
 ## startups/validation
 - [INS-260322-2155] Selling frozen dumplings below cost on a recipe-sharing social platform proved market demand existed before investing in infrastructure — the pre-prototype validates the hypothesis, not the product.
+
+## video-production/audience-engagement
+- [INS-260322-81CD] Frame your content around a public if-then challenge ('If I get X followers, I'll do Y') to create narrative tension that keeps viewers coming back.
 
 ## video-production/audio-sync
 - [INS-260320-10E8] Always clap once or use a clapboard at the start of each take -- the sharp transient creates a visible spike in both audio waveforms, making manual sync alignment trivial.

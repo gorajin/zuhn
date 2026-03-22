@@ -49,8 +49,8 @@ related:
   - INS-260322-F868
   - INS-260322-091C
   - INS-260322-EDA4
+  - INS-260322-94A9
   - INS-260322-B641
-  - INS-260321-8414
   - INS-260322-5F87
 ---
 Plaid's CEO describes his ideal app: paycheck goes in, AI sweeps expenses to checking, excess to high-yield savings, invests a percentage in the market. But he immediately acknowledges he's a 'weird power user' — his mom would panic asking 'where's my money?'

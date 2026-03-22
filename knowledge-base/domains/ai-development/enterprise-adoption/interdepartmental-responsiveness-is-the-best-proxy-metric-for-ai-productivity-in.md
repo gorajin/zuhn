@@ -53,10 +53,9 @@ related:
   - INS-260321-8382
   - INS-260321-C3E6
   - INS-260321-167A
-  - INS-260321-AD95
-  - INS-260321-FE91
   - INS-260322-A36C
-  - PRI-260321-14D8
+  - INS-260322-24FB
+  - INS-260322-37EE
 ---
 If you're not going to fire lawyers (and most CFOs don't want to), the question becomes: what DID the AI investment buy? The most promising metric is interdepartmental responsiveness — a behavioral SLA measuring whether departments that adopted AI tools respond faster and handle more requests from other departments.
 

@@ -57,11 +57,11 @@ related:
   - INS-260320-5F14
   - PRI-260320-D2E1
   - INS-260321-E9B7
-  - INS-260321-167A
   - INS-260321-28FB
   - INS-260322-EE1B
   - INS-260321-F864
   - INS-260321-C99A
+  - INS-260322-2DBD
 ---
 Shear draws a critical distinction: when you instruct an AI, you transmit a byte string or audio vibrations — a description of a goal — not the goal itself. The AI must then infer what goal that description corresponds to, which is a fundamentally different task from instruction-following. Humans are so fast at this inference (turning descriptions into goals) that we don't even notice it happening, which causes us to confuse the two.
 

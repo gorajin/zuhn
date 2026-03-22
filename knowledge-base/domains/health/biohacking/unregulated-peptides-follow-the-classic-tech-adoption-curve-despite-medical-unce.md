@@ -49,13 +49,13 @@ resolutions:
 related:
   - INS-260320-9118
   - INS-260320-E044
-  - INS-260320-1B38
   - INS-260321-7C97
   - INS-260321-4B38
   - INS-260321-CCE3
   - INS-260322-E7E9
   - INS-260322-823B
   - INS-260322-3A00
+  - INS-260322-02A6
 ---
 The peptide phenomenon reveals how Silicon Valley's risk-tolerance framework has migrated from software to biology. Users explicitly compare trying untested peptides to beta-testing a new app — accepting potential side effects as the cost of gaining an edge others don't have. The supply chain mirrors gray-market tech: Chinese factories selling via Discord, labeled 'for research purposes only,' with Bitcoin payments.
 

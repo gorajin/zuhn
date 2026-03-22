@@ -52,9 +52,9 @@ resolutions:
 related:
   - INS-260321-FB3F
   - PRI-260321-5857
+  - INS-260322-A61A
   - INS-260321-3312
   - INS-260320-446F
-  - INS-260321-EE05
 ---
 Andreessen describes 80 years of corporate communication as an aberration forced by narrow media channels. When you had limited broadcast time or newspaper column inches, companies compressed everything into minimal, inoffensive messaging. The 'corporate brand' became an abstraction detached from people — synthetic, plastic, boring. Professional CEOs trained to say absolutely nothing on stage and considered it mission accomplished.
 

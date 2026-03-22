@@ -1,0 +1,1843 @@
+## Intro (0:00–1:28)
+Okay, so I challenged myself to build an
+app that reaches $2,000 of monthly
+profits starting from scratch as a
+student.
+>> Yeah,  I'm overzealous when I'm
+thinking about the cash flow. I never
+had no handouts came natural
+
+so much.
+>> I thought 30 days max. Well, that's what
+I thought because a lot's going to go
+wrong. Apple rejections, content
+strategies that completely flop and
+hitting $0 thinking it's over. And
+you'll see it ends up a lot closer to 60
+days. Through this challenge, I'm going
+to test different ideas, different
+strategies, but most importantly, I'm
+going to prove to you that even as a CS
+student doing a remote internship, you
+can build something that actually makes
+money. But before we start, who I am and
+why should you care. I'm Arthur. I'm 20,
+fourth year of computer science. Last
+year, I co-ounded an AI startup for
+doctors. We raised money, build for
+months, but long story short, that was a
+complete failure. We never talked to
+users, ignore your market fit, and build
+features nobody wanted. But that failure
+taught me more than all my classes
+combined. So that's why I started this
+YouTube channel to prove that you don't
+need the perfect ID. You don't need
+funding and you don't even need to know
+everything. Stop waiting and start
+building. In this video, I'm showing
+everything. No filter. How I found the
+ID, build it, failed it, and iterated
+until people actually started paying
+money. No fake timeline, no VC money,
+and no going viral. Just a regular
+student with $200 of ad budget testing
+
+until something works. If you're
+watching this, it means something
+worked. Let's build.
+## Challenge (1:28–64:05)
+I need to find an app idea, but I'm not
+trying to invent something
+revolutionary. I want something that's
+already proven to work, just with a
+different angle or target market. The
+goal is to build as fast as possible an
+MVP, minimum viable product. Basically,
+the simplest version of the app to test
+if people will actually pay for this.
+So, I go straight to the app store. I'm
+scrolling through the top grossing apps
+and I notice that affirmation apps are
+everywhere. These are literally apps
+that just show you motivational quotes.
+One feature, that's it. Perfect for what
+I want. It's super simple to build,
+quick to test, no complex feature. I
+don't know the top three. I am, daily
+affirmations, and daily motivation. They
+are literally identical. Same quotes,
+same design, same everything. Now,
+here's where it gets interesting. I'll
+actually be on exchange next semester in
+those countries. And Nordic countries
+are known to have brutal winters. We are
+talking about 4 hours of sunlight per
+day and huge seasonal depressions.
+That's my opportunity. Same app concept,
+but actually designed for people going
+through dark winters. Warm UI, cozy
+feeling, and quotes that acknowledge
+their reality. So, here's my process. I
+screenshot everything from the IM app to
+understand the patterns. Every screen,
+every flow, and holy, the onboarding is
+painful. More than 40 questions. But
+right after this marathon on boarding,
+they hit you with a 3-day free trial
+pop-up. Just like Dualingo, pay now or
+start the trial. It's quite smart, but
+aggressive. The app is actually dead
+simple. Swipe to see and like quotes.
+Literally Tik Tok but for affirmations.
+Then I open Figma. That's where you
+design apps before coding. I'm dumping
+all the screenshots in. But I'm not
+keeping all this. The onboarding is way
+too long for me. I'm keeping maybe 15
+screens max. Tomorrow we will actually
+start designing our app. Yesterday I
+mapped out what features I need. Today
+it's all about design. I want to make
+this app feel cozy and warm, not a robot
+sending you those codes. Now, you might
+think I'm wasting time not starting
+coding right now, but I want to plan
+everything to know the button size, the
+screens, the shapes, and the colors. My
+cut flows way faster when I know exactly
+what I want to do. The first thing for
+inspiration is this website called
+Dribble. It's basically Pinterest, but
+for designers. I want to find UI
+elements I really love and that could
+match the cozy and warm mood we're going
+for. So, to create my brand and app
+identity, I need to create a mascot. I'm
+following this tutorial from Chris
+Rarok, who's a solo app developer who's
+making those cute little mascots for his
+apps. And he's recently made a video
+explaining his whole process creating
+those mascots with GPT. So, I just
+followed it. Chad GPT suggested me a
+Kendall character. And I think that's
+perfect. A little candle that keeps
+glowing even when everything's dark.
+That's literally the whole concept of
+the app. I'm calling him Glow, our
+little Kindle friend. Now for the actual
+UI components, I'm using code to help me
+generate IDs for the color palette,
+input, and button styles. It's not
+perfect at all, but that's also a good
+base. I'm not a designer, so with this I
+can have a pretty good base to start the
+coding part. Let the coding begin. We'll
+start by creating the basic structure.
+For that, I'm opening the terminal and I
+create a new expo project. All right,
+I've just set it up a new expo project.
+So here is the blank project. I set up
+the server. So it's running on the
+simulator. So, I'm just following the
+the basic get started. It's really wellm
+made and quite easy to follow. You just
+have to run a few commands and you have
+your your basic app running there. Now,
+the base is created. We need to add all
+the other features. We won't have any
+login or sign up on the app because we
+will store everything on device. That's
+way easier for us. The only thing that
+we have to set up right now is
+notifications, but we won't use a
+complex system with the server back end
+and so on. The app will work by itself.
+So even on airplane mode it will work.
+I'm using cloud code to quickly test the
+notifications just to be sure that it
+works as expected. So you can send test
+notifications. So you also have them on
+the notification center just there. And
+then if you click on them app it opens
+the app. Now the fun part that first on
+boarding screen. This is so important.
+This is where users decide if they trust
+your app or delete it. One chance to
+make them feel welcome. I'm translating
+my Figma design into React Native code.
+Then positioning glow, our Kendall
+mascot, right in the center. The mascot
+animation is key. I want him to do this
+little bounce when the screen loads like
+he's excited to meet you. After an hour
+of tweaking, the first screen is
+perfect. It feels warm. It feels
+welcoming. It doesn't feel like every
+other app. Glow is coming to life.
+Today's mission is to build the entire
+onboarding flow and somehow figure out
+the widgets. Apparently, you need to
+code in native language for widgets. So,
+it will be Swift for iOS. I'll only
+start with iOS for now, but I've never
+used Swift in my whole life, so that's
+going to be interesting. First, I need
+to create an animation for when users
+allow notifications. You know, sometimes
+you hesitate, so that's why I want to
+create an animation to make this whole
+process about notifications a bit less
+invasive. I'm using Jitter for this.
+Think of it as Canva, but for
+animations. They have templates for
+everything, loading animations, success
+dates, whatever. I'm taking their
+notification template and customizing
+it. Now, for the next 3 hours, I coded
+all the emboding screens. And honestly,
+it's just copy pasting components and
+changing text. Super repetitive. So, I'm
+speedr runninging through this part
+because I'm just typing the same React
+Native components over and over. I'm
+done with the onboarding. I just wanted
+to quickly show you what it looks like.
+So, this screen was the screen we made
+yesterday with the animation. Then I ask
+your name. So, whatever. I ask for your
+edge. It will be very useful for
+analytics. Then, how do you identify? So
+female, male or prefer not to say then
+how do you improve your mental health
+that's also for analytics if I want to
+add some categories and so on. A screen
+about the benefits of daily affirmations
+because you don't necessarily know why
+and what it is for the notifications
+part. So here's the animation we made
+this morning. I'll just show you again.
+You can choose how many notifications
+you want per day and the time, the start
+and end time. I wanted to create a daily
+habit thing a bit like Dualingo. So you
+have to check the app every day for
+attentionbased app. It's amazing. Then
+you can choose the categories. So what
+type of codes do you want? Then the
+widgets. It's only a fake screen for now
+because I don't even know how to code
+widgets. And then the special offer
+screen. Exactly like the IM app because
+if you want to pay now, you can. So
+that's it for the onboarding. There are
+lots of screens, but actually it's
+really fast to complete everything. The
+onboarding is finally done. Now it's
+time for the unknown, the widgets. So,
+here's the thing about widgets. Expo can
+do them. So, that's going to be pretty
+fun because I have to write native code
+and I'm so bad at Swift. But, I'm
+following this tutorial from a guy who
+explains how to implement those widgets,
+which is exactly what I need. The
+concept is actually really simple. A
+widget is just a tiny app that lives on
+your home screen. It can do much. Just
+display information and have a few
+interactions like simple buttons. So,
+for me, that's perfect because I just
+want to display basic codes. So, only
+text. That's probably going to be pretty
+easy to do, guys. Just look at that.
+I've made two widgets. So, the first one
+is the small squared one and a full
+width one. I've also added the mascot at
+the bottom left. And it looks like he's
+looking at the code. I think it looks
+really nice. And when you click on it,
+it just open the app. So, that's really
+basic actually. The widget will fetch a
+random quote every hour and show it. So,
+it will change throughout the day. Today
+was actually a good day. We implemented
+so much. We made all the onboarding
+screens and the two widgets. Tomorrow is
+going to be interesting. I'll try to
+implement inapp subscriptions with
+revenue cats. And I think I have to buy
+a new Apple developer account because my
+current one is linked to my startup and
+I want to differentiate them. Today is
+the expensive day. That's time to
+actually set up payments because a
+business without revenue is just an
+expensive hobby. And I'll start by
+buying a new Apple developer account. So
+that should be good. We are just waiting
+the processing time. It should be a few
+hours. But we can start the revenue cap
+part right now because that's going to
+be a bit long. Let me quickly explain
+how app monetization works because
+nobody breaks this down. When someone
+pays on your app, Apple and Google just
+take a 30% cut which is huge. But Apple
+made a small business program which just
+reduces the 30% cut to 15%. So you have
+
+85% of the global price left to you.
+That's where Revenue Cat comes in. They
+handle all the painful stuff. Receipt
+validation, subscription status, the
+whole mess. and it's free if you make
+under $2500 per month, which is perfect
+for starting out. Setting up Revenue Cat
+with Apple is a mess. I need to create
+something called an API key, which is
+basically a password that lets Revenue
+Cat talk to Apple. I'm going through
+Apple's dashboard and I download my key.
+Then I upload it to Revenue Cat. Next, I
+name my project and add the bundle ID,
+which is the unique code that identifies
+it. But before creating it, Apple wants
+to know everything. Will you use the
+camera, the localization, and so on.
+Finally creating the app in app store
+connect with the bundle ID. Then I copy
+to revenue cat. One more key to upload
+the purchase key which is another
+password specifically for payments.
+After 30 minutes of back and forth
+between dashboards, Revenue Cat is
+finally connected. Now the fun part,
+creating the actual subscriptions. I'm
+making two options. Monthly for $10 and
+yearly for 40 with a 3 days free trial.
+That's a huge difference, but I want
+people committing long-term. The pricing
+gets tricky though because I need
+different prices for Nordic countries.
+Each country needs its own price point
+because currencies are different. Now
+building the actual payw wall in the
+app. What's brilliant about Revenue Cat
+is they have payw wall templates. I
+chose this clean one with three
+sections. Hero image at the top where
+glow our mascot will go. Testimonials in
+the middle and pricing cards at the
+bottom. Once it looks perfect, one click
+to publish. Now comes the slightly
+technical part. Adding this to my app
+code. installing the revenue cat
+library. Adding my API credentials and
+creating a custom build. I've integrated
+the pay wall on the app. So you have the
+yearly and monthly plan. The yearly has
+a 3 days free trial because I think
+that's way better for conversion. So
+it's in test mode, but you can directly
+pay there. So that's it for the inapp
+payments. Now I want to quickly create a
+superbase database because it's getting
+quite late. I want to store all the data
+linked to the onboarding and the inapp
+feedbacks because I want to have some
+analytics that will guide me through the
+iterations. I'm keeping this dead
+simple. Two tables, one for users with
+boarding answers and another one for
+feedbacks like feature requests. So when
+user finishes on boarding, I just send
+their choices to Superbase. Tomorrow's
+mission is finishing all the app
+content. We're so close to having
+something real. Today was a marathon.
+Literally eight hours straight of coding
+to finish every single screen in the
+app. From the home screen with
+categories to the settings, the strict
+tracker and the favorite section,
+everything. That's the day, the app
+reveal. So, I'll show you exactly what
+I've added today. Everything that I've
+coded. So, first thing first, the swipe
+feature. You can swipe up and down like
+Tik Tok. You can also like the coat by
+clicking on the heart or double clicking
+on the coat. I've also made a cool
+animation with the mascot at the bottom
+left. So if you click on him, he'll do a
+little jump and wear glasses. So he
+looks like he's reading the code with
+you. And if you click again on him,
+he'll just disappear at the bottom left.
+I've also added categories. So if you
+click at the bottom right, you can
+choose between all the categories. So
+let's choose the favorites. For
+instance, I've also added the mix. So if
+you want to select multiple categories,
+you can. You just click there and select
+them and it will create your own mix.
+And the last thing is all the settings
+things. So you can see your streak and
+modify your name, your gender, and also
+make a feedback. So if you want to send
+features request or whatever, that's
+here. Today was actually an amazing day
+because I finished the app. I mean, I'm
+not done yet because I have to submit it
+to the app store and maybe they'll
+reject it. So tomorrow I'll create the
+different policies and the landing page
+to submit everything to the app store
+and the process will be between 24 and
+48 hours for for the review to happen.
+So fingers crossed for tomorrow. I won't
+publish that app so bad. And if it works
+first try, that would be amazing. I've
+created a new NexJS project and
+honestly, Cloud wrote 90% of it. I
+tweaked the styling and try to add the
+exact same look as the app. The whole
+process is blazing fast when you're not
+trying to be fancy. And I've also made
+some assets in Figma. Just iPhone
+mockups with our app screens inside.
+That's not perfect, but it looks
+professional enough. The landing page is
+done in 1 hour. It's very basic. It's
+purely UI. So you have a little
+description on the left and a screenshot
+on the right. I've also made three cards
+explaining the different features. So
+the widget, the notification, and the
+categories. That's really basic. I've
+added two policies. So the privacy
+policy and the terms of use. Those are
+mandatory if you want to publish your
+app because Apple requires them. I've
+written everything with chat GPT and
+it's okay for now because at the
+beginning, I've described in details how
+the app works, but if the app grows,
+I'll rewrite them with a lawyer. Now the
+submission part with Expo, it's stupidly
+simple. EAS build to create the package
+and EAS submit to send it to Apple. EAS
+handles all the complicated signing
+certificates and provisioning profiles
+that used to make developers cry. I'm
+heading to the airport right now because
+I have a flight to Bangkok to see my
+girlfriend. She's there on her exchange
+semester, so I'll spend 1 month with
+her. I'll submit the app from the
+airport, so the timing is actually
+perfect. Apple usually takes 24 to 48
+hours to review the app and my flight is
+in six hours. So, while I'm in the air,
+Apple will be reviewing Glow. Wait, I
+forgot the App Store assets. The real
+pain. Screenshots for all the different
+iPhone sizes. I'm at the airport right
+now trying to design these in Figma. I
+use the template with a clean
+background, screenshots of the app, and
+some explanation text. Nothing fancy,
+but it needs to be done before I can
+submit. I'm submitting from my gate, and
+when I land, we'll know if we approved
+or rejected. Guess who's back. I just
+landed in Bangkok. I'm in the Shatshak
+district right now, which is right in
+the heart of the city. Check out this
+view from here. That's beautiful. And
+that will be my new office for the next
+few weeks. Now, the sad part. Apple
+rejected glow. That's not a big deal
+because the issue is so stupid. So, in
+App Store Connect, there is this section
+called privacy where you have to list
+everything your app collects. Name,
+email, that kind of stuff. But there is
+a checkbox for each data type asking you
+if you're using it for tracking
+purposes, which in Apple language means
+advertising or reselling this data to
+third parties. And my dumbass checked
+yes on everything without even reading.
+So Apple thinks I'm building the next
+Facebook stealing all your data when
+really I just store your name to say,
+"Hey Sara," on the app. The reviewer was
+actually really nice about it. It just
+told me there was a mismatch between my
+privacy policy and what I entered in App
+Store Connect. And in my case, it's
+pretty simple to fix it. I just have to
+modify the App Store Connect part. So,
+no code to change. The fix takes 5
+minutes. Unchecking all the tracking
+boxes and making sure it's now
+reflecting properly what I'm actually
+doing with this data. Also adding a
+comment explaining exactly what changed
+so the next reviewer doesn't have to dig
+through everything. And this is actually
+super common. Most apps get rejected on
+first submission for tiny things like
+this. privacy policy mismatch like in my
+case or forgot to test on iPad or
+whatever. It's actually Apple's way of
+keeping quality high. So, I'm
+resubmitting the app right now. See you
+in 48 hours when hopefully we're
+actually live. It's been 5 days, five
+whole days. I don't know why it took so
+long, but Apple finally reviewed and
+accepted the app. So, we're finally
+live. But right now, nobody knows we
+exist, and it's time to change that.
+First, app store optimization or ASO,
+
+which is basically SEO, but for apps. If
+you don't optimize for the right
+keywords, there is too much competition,
+so you're invisible. For this, I'm using
+this tool called Astro. And I'm smiling
+because that's a pure banger. This tool
+is exactly what you need to find and
+spot the right keywords. It will show
+you for every keyword the competition by
+country. The strategy is really basic.
+You need to find popularity above 20 and
+difficulty under 50. So you can check
+the keywords used by other apps to have
+some ideas or just try by hand like
+asking chat GPT what would be right
+keywords for my app and describing your
+app and you also have some suggestions
+here that you can try. This is a pretty
+good keyword in Norway health which
+means health in Norwegian. The
+popularity is nearly at 70 and the
+difficulty is under 50 at 46. So that
+
+might be a keyword that I want to keep.
+Now for the launch strategy I need
+users. I need feedbacks and create some
+initial traction. So, I want to try
+something making the app completely free
+with a lifetime access of the pro
+version. No payment, no subscription.
+Just download the app and keep it
+forever. I won't make any money from
+this, but that's not the point. I really
+want to have some downloads and some app
+store feedbacks to start that initial
+traction. The next part is leveraging my
+YouTube community. So, that's you guys.
+I already make tech content on this
+channel, and you guys are literally my
+first users. So, I'm creating YouTube
+shorts documenting the whole process
+exactly like this video but in short
+formats. I quickly wrote the script in
+Ocean then recorded my voice and then
+edited the video in Premiere Pro. I
+created two different shorts. I post one
+every two days and hopefully we'll get
+some downloads. So, the first few days
+are crucial. If we can get to 100
+downloads and some feedbacks, the app
+store will do its algorithm thing and
+start to show us to more people. I'll
+probably back in a few days when we'll
+get some interesting news. The rhythm's
+been slower lately, less filming and
+more analyzing. I wanted to gather some
+real data before adjusting the strategy.
+So, let me show you where we at. Current
+downloads nearly 900. So, let's break
+down the traffic sources. We can see
+that app prefer made the most downloads.
+What is appreer? It's simply when an app
+like Instagram just sent a user to my
+app store page and then they download
+the app. We can see the details by
+clicking there. We chat made nearly 200
+downloads. WeChat is a chat app used in
+Asia. A lot of Chinese people use WeChat
+to chat and actually I had lots of
+Chinese download. So I think someone
+shared the app on a group or whatever
+and it drove lots of traffic. Then App
+Raven with App Guns free. It was an old
+method to promote your app but I didn't
+do anything but I still had traffic. I
+just checked and I have a page there but
+automatically created that drove some
+traffic and then Telegram and some other
+apps. I also made one single Reddit post
+because the other ones got banned on the
+productivity app subreddits. I just
+explained, "Hey, the app is free for
+now. Do you want to test it?" And I got
+10 up votes and nearly 3,000 views. Now,
+
+YouTube, I made two shorts that got
+20,000 views in total. And I put a
+special link there to really track how
+many users clicked on the link. Here is
+the tracking. We got nearly 300 clicks,
+which is really good. But then when we
+check in app store the web refers we can
+
+see that tap it. So the tool that I used
+just made 10 downloads. That's actually
+a really bad conversion for 20,000 views
+to have only 10 downloads. But that was
+pretty normal because my audience on
+YouTube or only developers so they don't
+really look for affirmation apps. The
+last thing is revenue cap. If we check
+nonsubscription that's more than 600
+people just claim their free trial. It
+doesn't mean that we will have lots of
+subscriptions after that. It was free,
+so obviously lots of people claimed it,
+but I wanted to share it with you. I
+also got some reviews because at the
+beginning, the goal of that lifetime
+free access was to have some traffic and
+some reviews on the app store. I got
+eight ratings with two one-star review,
+which makes an average of four out of
+five. That's actually pretty bad to one
+star reviews, but whatever. And one of
+those onestar reviews was someone
+complaining that they couldn't buy
+premium. Obviously, because the app was
+free. I don't know why I deserve a
+one-star review for that. Keep in mind
+that you have to answer those comments.
+You're not answering to that angry guy.
+You're actually showing to all the
+future users that you give a I
+made a straightforward answer
+explaining, "Oh, sorry for the
+confusion. It was actually an offer, and
+here's how you can claim your free
+trial." And maybe when you're really
+nice in the comments, they could change
+the review, but I don't really think so.
+The app store keywords need work though
+because I'm getting downloads, but
+retention sucks. Only 15% of users came
+back day two, so people downloaded but
+expected something else. So, I'm
+tweaking less generic keywords and more
+specific ones. The title now has two to
+three main keywords and subtitle as
+supporting ones. This tells Apple
+exactly who to show the app to. I'm
+doing this before driving new traffic
+because I really want good stats on
+those new specific keywords. Apple
+ranking system is actually a black box,
+but we know that they rank apps based on
+the most recent reviews. So, new reviews
+on new keywords equals higher ranking.
+From now on, I'm only coding updates
+based on actual data. I noticed that
+only twothird of users actually allow
+notifications, which kills the whole
+concept of daily codes. I'm adding a new
+screen before the permission popup
+explaining that notifications are a core
+feature of the app. And if they still
+say no, there is another screen after
+that that will explain them that they're
+really missing something from the app.
+And I will obviously measure if this
+improved the rate. As I said, I'm only
+coding two things from now. Stuff from
+user feedbacks already got dozens of
+suggestions and improvements to key
+metrics. My key metrics are simply
+retention, conversion, and user
+demographics. The most important one is
+retention by far because if users log in
+daily on the app, I won't have any
+problem to convert them. Now that we
+know the app works and traffic sources
+are identified, it's time for the real
+game, organic content creation. Today is
+day 18, and that's time to go all in in
+organic content. For Tik Tok, I just
+spent the last few days just warming up
+the account. It means liking,
+commenting, and interacting with the
+type of post you want to target. But I
+didn't post anything because I want the
+Tik Tok algorithm to flag me in that
+niche. So when I'll start to post, it
+will know exactly who to show my my
+content to. The key is testing different
+hooks. So only change the beginning of
+the video just to see which one grabs
+the most attention and then all in on
+that kind of video. And the strategy is
+really simple. We'll post only three
+formats. The first type is POV videos.
+Like POV, you finally found a wellness
+app for theal depression. That kind of
+video is really easy to make and works
+pretty well if you can identify your
+users problems. The second type is
+product demos like here's my morning
+routine with glow. Here you just want to
+show your apps features. For me it will
+be widgets on the home screen, opening
+the app and swiping through codes.
+People love seeing apps in action. The
+third and last one is results or
+transformation. Like I used this app for
+3 weeks. Here's what's changed. It's
+before and after vibes but targeted for
+your niche. The plan for the next few
+days is actually pretty simple but
+really exhausting. Just create 10 to 20
+pieces of content and post two to three
+per day. I just want to see what hits
+and then just iterate and create more
+content of that kind. It's a numbers
+game. Most will flop for sure, but we
+only need one to pop off. I'm also
+setting up a link tree. That's the link
+in bio tool everyone uses. One link that
+leads to the app store also shows
+everything. Plus, it tracks clicks so I
+know exactly where the traffic comes
+from. Quick Reddit update. I'm still
+posting every day on one or two
+subreddits. And yesterday, I posted on
+the expo subreddit and the team actually
+reached out. They want me to write a
+blog post about the whole process and
+that's freaking sick. As an expo
+developer, to be able to write a blog
+post on their own websites feels
+amazing. I'm also getting emails and DMs
+from users about what they like, what
+features they like to see added, and how
+they're using the app. This engagement
+is so valuable for truly understanding
+how to help them the most. This is the
+grind phase. No more coding unless
+something's broken. Just creating
+content, content, and more content. The
+app works and people like it when they
+find it. Now, we need to be sure that
+they will find it. It's day 22 and I've
+posted about 15 videos on my Tik Tok
+account and only two broke the 2,000
+views. And that converted to exactly two
+
+trial signups and they both canled
+immediately. I'll keep posting because
+you never know what might randomly blow
+up. But it's time to prepare plan B.
+Paid ads. Right now, when someone
+downloads the app from Tik Tok, I have
+no idea where it came from. But Tik Tok
+needs to know, okay, this guy came from
+this ad or this one to really optimize
+the ad. So, I'm installing the Tik Tok
+events SDK, adding tracking codes, and
+making sure it fires when someone
+installs the app, opens the app, and
+starts a trial. While updating the code,
+I'm adding the most requested feature,
+dark mode. I got at least 20 messages
+asking for it, and glow looks even cuter
+on dark backgrounds. That part took
+ages, like literally six or seven hours
+of coding because it was so hard. Let me
+show you what happened. When you create
+a campaign in the Tik Tok ads manager,
+you can select app promotion and app
+install. So, Tik Tok will optimize the
+campaign to gather the most app installs
+per dollar spent. You have three
+choices. The first one is to connect to
+a mobile measurement partner, which is
+super expensive, like a few cents per
+app installed, which is way too
+expensive for me. or you can select I
+don't use a mobile measurement partner
+service but this won't really work
+because Tik Tok won't have enough data
+or just data at all to optimize the
+campaign. The last choice is to use Tik
+Tok events SDK which is not supported by
+
+React Native or Expo. So I had to build
+my own library with native code on top
+of a broken library which was super
+exhausting but it finally works. I'm
+submitting the new app version to Apple.
+The update includes Tik Tok attribution
+tracking, dark mode, and a clearer
+onboarding. So, everything should be set
+up. I'll keep posting on Tik Tok while
+waiting for Apple team to review the
+app. And in the next few days, I'll show
+you exactly how to set up a Tik Tok ad
+campaign. Everything from the video to
+the different settings. It's day 23 and
+the app is already accepted by Apple. It
+went so quick. We will now create the
+campaign on the Tik Tok ads manager. The
+first thing is to explain to Tik Tok why
+do you want to spend money on ads? Easy
+to get views, to get interactions, to
+get sales. For us, it's app install. So,
+we will switch to the full version.
+Confirm. And there we can see app
+promotion and we'll select smart
+campaign. Tik Tok will target by itself
+the best audience. We won't have to set
+up anything. Then iOS 14 dedicated
+campaign. We want to only target iOS
+users because our app is only on iOS
+
+app. And let's select the app we created
+yesterday. So by default the goal will
+be click but we don't want click we want
+install. Then the budget. So how much
+money do you want to spend per day. At
+the beginning of this challenge I told
+that we will use in total $200 from my
+
+money. Daily spend should be at least
+$50 per day. Here it's in euros. So a
+bit less like 45 per day. But because we
+
+have so low budget I'll only use
+something like 25 to30. Then the
+
+schedule. We won't touch anything
+because this campaign is a test
+campaign. It will run for 3 days to see
+which creative is the best. And then we
+will put all the remaining money on the
+the last creative. Then there is the
+audience targeting. So which country do
+you want to target? In my case, it will
+be Nordic countries. So I'll add three
+or four of them. Then there is the
+minimum age. I won't touch this, but you
+
+can select 18 or 25 years old. I would
+
+say that 25 years old should be better,
+but I'm not really sure. So, I will I
+will leave 18. We won't touch anything
+on placement. And then the best part,
+add generation. That's here that we can
+add our creatives. I will simply just
+add video or image and use Tik Tok post.
+
+So, the the post that I've made are now
+
+listed here and I can select like two of
+them. For instance, through those
+creatives, I try to target different
+part of the app. So one will showcase
+for instance the the widget, one will
+showcase the notifications and so on. I
+just forgot to mention one parameter
+which is languages. Just select your app
+language so that users you're targeting
+will speak the language of your app. For
+me it will be just English. I'm quickly
+editing three new Tik Toks to have more
+samples for the campaign. Then back to
+the Tik Tok dashboard to import the post
+I just made. I'm testing six different
+videos in this campaign. And finally we
+can click on publish. Hopefully, we will
+make some conversion because with $100
+of ads, we will get lots of traffic. So,
+fingers crossed and I'll keep you
+updated if anything happen. Day 24. My
+ads got approved and run for one day.
+But from the logs, I'm not sure I'm
+perfectly sending the Tik Tok payload
+for the attribution part. So, I'm posing
+the Tik Tok campaign and making a quick
+update to patch it. Exactly like last
+time when I implemented that mode, this
+time I also implement a new feature and
+this will be themes. So, I changed a bit
+the UI on the top left. You now have a
+premium button. If you click on it and
+you're not subscribed, the payw wall
+will open. I also changed the beat the
+payw wall just to show what features you
+unlock when you pay. The new feature is
+on the bottom right. It's only a premium
+feature and you can select a new
+background for your affirmations. Lots
+of users asked for it because the other
+affirmations app are doing the same. So,
+I just implemented it. And when approved
+by Apple, I'll just resume the Tik Tok
+campaign for the last two days. Today is
+day 26, I guess. And I have two good
+
+news, two really good news. First, I was
+scrolling on Reddit and I found this
+post about Apple ads. On the app store,
+you can pay Apple to make an ad and have
+better ranking on some keywords. I read
+the post and I saw in a comments that
+Apple gave $100 credits. So, I
+immediately created an account on Apple
+Ads. And a few minutes later, I received
+this email. We've applied your $100
+promo credit to your account. I've added
+a few trending keywords to hopefully
+rank on them, but it's free credit, so
+we'll see what happened. The second good
+news is on Tik Tok ads. I've created a
+new account for this challenge. And I
+saw this thing, get up to 6,000 USD as
+
+credit for new accounts. The offer is
+pretty simple. If you spend $200,
+they'll give you $200 in ad credit. So,
+in total with Apple, we will have $300
+of credits by only spending $200, which
+is amazing. That's $500 in total. Really
+good news for today. It's day 31. I'm
+finally back in France. And today, I
+wanted to show you the Tik Tok ads
+results because I have all the data. As
+you'll see, results are really bad, but
+you have to keep running your ads for at
+least 3 days because Tik Tok algorithm
+works really well, but you have to give
+him time. If you cut it too early, it
+won't have time to really target the
+right audience and show your ad to the
+right people. Here are the results. You
+can post the video if you want to check
+in details, but what matters is the
+budget. So, I spend €30 every day. I got
+
+nearly 100 downloads per day. I have a
+trial to paid ratio really low, even 0%.
+
+10 people started the trial, but nobody
+paid. And due to that really low
+conversion from trial to paid, our gross
+profit is really bad. We lost nearly
+every money we spent nearly €60. So
+
+something like 55 and we spent €60 in
+total. That really low conversion is due
+to the fact that people start a trial
+but then don't see the real value
+because they can sell their trial
+something like 2 or 3 minutes just after
+starting it. And I'm not lying on the on
+boarding or during the pay wall. So I
+think they don't see the value. That's
+why I want to change two things. During
+the onboarding, I'll ask more questions
+to really target the users and create a
+for you section in the app to recommend
+some categories based on your answers
+during the onboarding. And I also create
+a tutorial. So when you finish the
+onboarding, you'll have a few screens
+explaining how the app works and how to
+change categories and so on.
+
+I'm done cutting the new on boarding and
+the for you sections. So, I'll just show
+you how it looks. As before, you have
+different questions during the on
+boarding. What's your name? How old are
+you? What's your gender? And so on. Then
+you'll have some more personal questions
+that I'll use to really target the user
+and try to recommend the best categories
+that will match his mood or current
+situations. Finally, I finished the
+onboarding. Now the tutorial starts. So,
+welcome to Glow. I'll show you around
+and help you get started. The goal of
+this tutorial is just to show the
+category button and how it works. I made
+a bouncy animation to make the user tap
+on the category badge. As you can see,
+there is a new section called for you
+which contains four categories. So,
+let's select growth. Don't forget to
+install the widgets. And that's all for
+him. And now the whole UI appears. So,
+that's how I actually onboard users.
+Now, trying to explain the features at
+the top. I added a light goal because I
+want users on their first session to
+really use the app to understand
+everything in it. It's really basic so
+you can understand everything in 1
+minute. I submitted the app to app
+review preview 2 hours ago and it's
+already accepted by Apple. It went
+really quick. So I resumed the Tik Tok
+campaigns. I mean I didn't resume it. I
+created a new one because I want to have
+a new learning phase with that new app
+with a new onboarding and tutorial. So
+we will have to wait again for 3 days
+with €30 daily budget. And this morning
+I also created this analytics dashboard
+with cloud code to keep track of the key
+metrics like revenue per install
+download to try all. And if we check the
+detailed view we can see screen per
+screen during the onboarding where users
+quit the app. So I really know which
+screen should be removed or kept. I'll
+keep you updated in a few days maybe
+when the Tik Tok ad campaign will have
+enough learning to to be relevant. Today
+is day 32 and I was just thinking about
+what would happen if I translated all
+the ads in native languages because for
+now all my ads and even the app is in
+English, but I'm targeting countries
+that don't speak natively English. For
+instance, let's say Norway, they speak
+Norwegian. What would happen if the ad
+was in Norwegian? And the second part of
+the question is what would happen if the
+app was translated to Norwegian? Would
+we have more conversion in app and
+through the ad? We already spent half
+the budget during the test campaign and
+now we resumed it for 3 days. So it will
+be the other €100 left. But I really
+want to test it. I received some direct
+messages through Reddit, some emails,
+and some comments on YouTube asking
+about specific parts of developing a
+mobile app. And I thought about creating
+a discord somewhere where I could share
+some resources about the idea, how to
+validate it, the design, the
+development, and even the marketing part
+exactly like this video. The goal is
+also to talk every day about your
+project, where you at, and how we could
+help you. Maybe someone went through the
+exact same thing and could help you to
+debug, to create a better pay wall or
+even to create some better ads. There
+will be a small on boarding with a few
+questions. Where are you in your app
+journey? So let's say currently
+building. Then what's your current M or
+R status? So not launched yet. And what
+
+do you need the most help with? Let's
+say marketing and growth. And when you
+arrive, it will give you different roles
+and people will be able to help you. And
+I've created different categories. So
+the getting started, the community one,
+the road map where I'll explain
+everything step by step to launch your
+own mobile app. And then the journey
+again step by step the ID the design the
+development the pay wall and
+monetization and the marketing and
+growth all the community will be able to
+talk there and exchange the different
+tips the different news and we'll grow
+together. So if you want some help
+motivation and join a community just
+join the discord and we will spend time
+together that's going to be pretty fun
+and we will learn a lot. I won't teach
+you how to make $1 million through your
+app because I never did. The goal is
+just to share knowledge and help each
+other to build a few thousand per month
+
+app and just have fun through learning.
+
+Today is the end of day 34 and I have a
+really nice news. We've made nearly $160
+
+by spending only €30 on ads. I resumed
+
+the campaign 3 days ago and I have only
+a 3 days free trial. So users converted
+today. The key learning is that trying
+to improve your onboarding can have a
+huge impact on sales. Talking about ads,
+I've spent nearly all the budget. So, I
+spent €180,
+6 days at €30 per day. And as I told
+you, there is a Tik Tok promotion that
+gave me €180 of free credits if I spent
+
+180. They actually gave me 172, which is
+
+nearly 180. For the next 5 to 6 days, we
+
+will only run on free credits for my
+ads, which will cost nothing and will be
+only profit. Talking about conversion,
+here is my user journey funnel for the
+21st. And I think I can improve it just
+a bit because right now only 76% of
+people who installed the app completed
+the onboarding and that seems a bit low.
+
+I want to make it 80 or 85%. That way we
+
+will have more payroll shown and then
+probably more conversion at the end. I
+looked for tips online and I found this
+article on revenue website which just
+explains how to fix your funnel and from
+this article there are two key things I
+want to implement to hopefully improve
+again the onboarding. The first thing is
+called commitment psychology and it's
+used in apps like flow or jolingo and
+
+headway where they ask you to commit. So
+just like here, tap to commit.
+Committing to goals boost motivation.
+And apparently doing this just before
+showing the pay wall can improve
+dramatically the payroll conversion. So
+I'll add that. And I've also seen on
+this screenshots at the bottom right
+
+there [snorts] that there is a
+completion bar during the onboarding
+that I completely missed. In my
+onboarding, users don't really know
+where they're at and adding this can
+really improve it. At least I think so.
+We will try that. I'll show you what
+I've implemented. So the first thing is
+the progress bar. You can now see at the
+top there is uh a progress bar that will
+fill during the onboarding. A regular
+thing that everyone thinks about but I
+literally forgot to add it. And I think
+just that can really improve the
+onboarding completion. We will see
+tomorrow after I submit this app to app
+review preview. Now the commitment part.
+I literally copy pasted the example from
+revikat. So it looks like that. I author
+
+will use glow to feel more
+self-confident and if you hold your
+finger the fingerprints behind will just
+feel and at the end it shows the pay
+
+wall. It's a three steps payroll. So
+it's really important during the
+onboarding that you show only one
+information per screen. The first one is
+only explaining that we offer 3 days
+free trial. The next one is there will
+be a reminder one day before and the
+next one what you will get by
+subscribing. It's really important to
+explain to the user what you will get if
+you pay for it. And don't create one pay
+wall with all this information. Just
+create different screens. That's really
+important because users won't read
+everything and they could miss an
+information. That's it for the on
+boarding. I build the app and send it to
+app review and tomorrow we will see if
+the onboarding completion is just a bit
+better. Let me show you a quick tip. I
+was submitting my app to app store
+connect submitting my build to just add
+it to the app store but I'm using ES
+
+submit and I'm only a free user so I'm
+under free TLQ which is really long
+sometimes 1 hour sometimes even 2 hours
+I looked for an alternative and there is
+this app called transporter it's an app
+from Apple you just open it and sign in
+with your Apple account take the build
+you made and drag and drop the file on
+the transporter app you just have to
+click Click on the deliver button and
+this build will be sent to App Store
+Connect in something like 5 minutes. So
+you just skip the whole EASQ which is
+
+way faster if you're only submitting to
+App Store and not Play Store. With the
+end of day 35 and today we gained two
+new paying customers for a total of $80.
+The new app version with the new
+onboarding got approved last night and
+it had a huge impact on on boarding
+completion because today we are at 83%
+and yesterday we were at 74%. So
+hopefully this trend will continue in
+the next few days. Also today we got 10
+premium purchases which means that 10
+users started a free trial. That's
+pretty good that I spent only €180
+
+in ad spense because it's approximately
+$200. So that's going to be way better
+for me to just track everything in
+dollars. Today is day 36 and we made
+$164
+of revenue. That's four new paying
+customers. Here is the user journey
+funnel for today and we can see that
+onboarding completion went down just a
+bit. So I'll wait a few days to see if
+the trend continues or not. Talking
+about onboarding in the next few days
+I'm going to test lots of things. I'll
+keep the ads running because it's
+driving really good traffic to the app,
+more than 200 downloads per day, but I
+think our stats are still a bit low. We
+could increase onboarding completion but
+also really increase trial start rate
+which is still really low. I'll try
+different things to improve the
+onboarding like different messages,
+different screen orders, different pay
+walls. And when the combination seems
+pretty good, we will just increase that
+spend to drive more revenue. From now
+on, the formula is pretty simple. Just
+try to improve the onboarding to drive
+more conversion and then spend more on
+Tik Tok ads to obviously make more
+revenue. To AB test my different pay
+walls, I'm using the experiments feature
+from Postto. I just created a new
+experiment called onboarding. I created
+four variants which is no packed so I
+removed one specific screen the full on
+boarding obviously one with a bit less
+questions and another one with less
+questions but at a different spot and
+then you have to specify what kind of
+metrics do you want to track I set it up
+two metrics the onboarding completion
+rate and the onboarding conversion rate
+that means that when a new users arrives
+on the app he will get a random variant
+for instance no packed we will measure
+if he completes the on boarding and
+converts during the onboarding with a
+huge pool of users. We're going to have
+lots of results and we will be able to
+measure which variant is the best and
+that's going to be the one that we will
+pick for production later. Day 46, long
+time no see, but it feels really good
+because the last days were really
+interesting. I think my work starts to
+pay off. That's the part I love the
+most. You see some traction so it seems
+it kind of work. You just test new
+things through AB test. Then you gather
+some data, some feedbacks and then
+iterate on it. And that's the same cycle
+you have to repeat again and again. And
+really small changes like just swapping
+a few screens during onboarding can have
+a huge impact on your trial start rate
+or just revenue. I didn't run any ads
+during 4 days because I waited Apple
+review team to review the new app with
+the ABI test for the onboarding and it
+got pretty long because the app got
+rejected the first time. So I had to
+submit it twice. During that time I had
+a few trial through organic conversions.
+
+So one or two per day which is a really
+really good sign. Now let me show you
+how the ABI test looks like in post hog.
+In a few days more than 300 people went
+through the onboarding and went through
+the ABI test. I had four variants. The
+control which is the basic on boarding
+flow. One without a specific screen, one
+with less personal questions and one
+without a few specific screens about
+personal plan. My primary metric was
+just onboarding completion and we can
+see that the notepad variant was really
+better than the three other ones. And
+then if we look at onboarding
+conversion, so who started the trial
+through the onboarding process, we can
+see that again the noact is really
+better. But the less personal, so when I
+removed a few questions about you like
+how do you feel right now and so on
+drove no conversion. So just three
+screens removed drove no conversion. And
+that's why you have to abbit because
+really small changes can change
+everything for your conversion and
+revenue. So this variance seems to be
+the best one. This is my app store
+connect page and yesterday I received a
+very cool email. Let me show you in the
+payments and financial reports. We got
+for the last month 800 more than 800 USD
+
+which is amazing. Quick clarification on
+the challenge rules because I said that
+I only use $200 of my own money for Tik
+
+Tok ads and that's still true. I haven't
+spent a single dollar more than that.
+But here the thing with app revenue,
+when someone buys a subscription, I
+don't actually get the money right away.
+Apple it for 30 to 45 days before paying
+
+me out. So let's say I've made €50 from
+the app this week. This money exists and
+it's mine, but I can't touch it yet. So,
+I'm just sitting there waiting while my
+ads could be running. What I did is
+basically I loan myself the money. I
+fronted it from my own pocket
+temporarily knowing that it's coming
+back when Apple pays out. This cash flow
+problem is actually so common that
+Revenue Cat announced they are building
+a feature to fix it. So, they would do
+exactly what I'm doing to myself, but
+with their own money, and they would
+take a percentage, obviously, like a tax
+on the revenue you made, but they would
+give you the money instantly. Anyways, I
+just wanted to be transparent. Now, let
+me show you the revenue cat dashboard.
+What it looks like. Currently, we have
+22 active trials and 37 active
+subscriptions. Our M is only at $143,
+
+but our revenue is nearly $1,500. I
+
+think I'm going to keep this challenge
+going until we hit $2,000 in profits,
+
+not revenue, in one single month. I'm
+going to keep AB testing for at least
+one week because I want to ab test
+prices, pay walls, and finish the
+onboarding test. But honestly, it's
+getting repetitive and I think the core
+lesson is done. From here, it's just
+scaling. So, doing the exact same thing,
+but just with bigger numbers, bigger ad
+spends. So, bigger revenue and reinvest,
+reinvest, and reinvest. I'll show you
+how to make $2,000 of profit per month.
+
+But continuing feels like more the same.
+Let's get back to the interesting
+things. I'm going to show you my current
+pay wall, which is this one. It looks
+like that. And I just show you how your
+free trial works. This one works pretty
+well from my statistics. And I've
+created a second variant, which is the
+claim variant. It's really similar, but
+uh the the box here changed. And I just
+
+copied this one from this video from
+Superwool. Superwool is exactly like
+Revenue Cat, but they have a really cool
+podcast where they show everything about
+apps and interview different people. And
+I copied this pay wall. Let me show you
+how it looks because I thought it looked
+really nice and could really fit our
+onboarding. I'm going to AB test the P
+too. And to AB test with revenue cat,
+you just go to the experiments tab.
+Create a new experiment. So you can name
+it. Then select the experiment type.
+This one is going to be a payroll
+design. You choose the primary metric
+which is initial conversion rate.
+Enrollment criteria everyone. And then
+you select the two variants you want to
+abbit test and revenue cat will adjust
+exactly like post hog send different pay
+walls to different users and measure the
+impact. This morning I discovered a new
+Tik Tok ads feature. I just wanted to
+show you I've made a basic script which
+just analyze the trial repetition on
+
+every day. It looks like that. So I
+store all my revenue cat data on my
+computer and then I can see the
+different trial distribution by hour
+with my current time zone and that way I
+
+can see when I'm converting the most and
+
+knowing that when you go on Tik Tok ads
+on the budget and schedule part you can
+go to more option and select specific
+time of the day I've selected the best
+time for me and that way my ads are only
+running on those times which should
+maximize the conversion. That's a quick
+tip I found that I'm not really sure if
+that works, but I thought that was
+pretty smart to test. And the last thing
+I want to show you, which is Apple ads,
+I don't know what I did wrong, but it's
+not working and it's not spending any
+money. I've tried different CPT bid and
+I think I just have to wait. Maybe my
+keywords aren't very smart. I don't
+know. But I got only four downloads for
+now. This is not working. I mean, that
+was free money, so we don't care. But
+yeah, that's not the best strategy I
+ever tried. That's it for today. I
+showed you lots of things. I'm going to
+keep the ads running and I really want
+to to just reach the $2,000 of profits
+
+for the last 28 days. I'm going to keep
+updating you and show you how it goes.
+Hey, so today is day, let me check, 49.
+
+And I wanted to change a bit because in
+the last few days I worked a lot for
+school. That's soon the Christmas
+holidays. and I have lots of homework
+about my internship and some papers to
+do. So I wanted to dedicate a few hours
+today to ship a new feature. The feature
+is pretty basic. It's called practice
+and you want to have some voice reading
+some affirmations for you in a story
+like UI. That's pretty simple. Let's go
+coding. To create this feature, I'm
+going to use a model called a
+texttospech model because I want to give
+some AI model, some text like the
+affirmation text, and I'm going to have
+back some audio file containing a robot
+
+just reading the text I gave him. Every
+day when you open the app, I'm going to
+download the last audio files from
+Superbase that I generated with the
+Gemini API. I was submitting my app to
+app review and I wanted to show you one
+small setting that I changed a few days
+ago on app store connect that literally
+made me some money. So when you go in
+subscriptions you have the billing grace
+period and actually this was switched
+off. I made it to 3 days. when there is
+a billing problem like the credit card
+didn't work or any any kind of problem,
+Apple will just try again to charge the
+credit card in 3 days and during that
+time the customer just keep the premium
+or free trial and that's that's just how
+it works. So when sometimes the billing
+isn't working for whatever reason, it
+just tries to charge again one day after
+and another day after. Just switching
+this on made me three or four new
+subscriptions, which is amazing because
+I did nothing more. It just tried to
+charge again when there was some error.
+Also, I changed the name to be even more
+explicit. So, now it's glow daily
+affirmations and nothing more. Talking
+about keywords, let me show you how
+Astro looks like currently. My rankings
+are getting better every day, but I'm
+still not perfect at all. And in some
+countries like Denmark, I'm pretty good.
+
+That's why I have some natural downloads
+every day because my rankings are
+getting better every day. I also ended
+the onboarding ABI test on Post Hog and
+that's the no pack version that got the
+most conversions. So that's the one that
+I kept on my onboarding. For instance,
+yesterday we got 136 downloads and 17
+
+free trials started, which is pretty
+good. That means that 12.5%
+
+of users that installed the app started
+a trial. And currently today, we only
+had 29 downloads, but we have six new
+trials started, which is a 20.6%
+
+conversion rate from all the people who
+downloaded the app, which is even
+better. The onboarding looks pretty
+good. I'm really happy with those
+results. And I'm just going to keep
+updating and trying to improve it even
+more until the Christmas holidays. I'm
+submitting the new app to app review
+preview and I really hope this new
+feature will drive even more trials.
+We're going to see. I'll keep you
+updated obviously. Today is day 54 and
+we've made three conversions so far. So
+that's more than $120 for one single day
+
+and yesterday was my best day so far.
+I've made seven conversion in one single
+day which is just impressive actually.
+And that's more than $278.
+
+I don't know if you remember but a few
+weeks ago when I tried organic marketing
+I've made different post on Reddit and
+one on the expo subreddit and I've had
+the expo team commenting and just said
+oh you could wrote an article about the
+widgets that could be really interesting
+and guess what yesterday really late at
+night in France the article went out so
+
+I have my own article on the expo blog
+
+which is crazy again I just talk about
+how I implemented widget. It's pretty
+basic article, but still really cool.
+And the expo team was so cool, they even
+sent me a free t-shirt and obviously I
+asked for an internship. We never know.
+I've also started the experiment so to
+test different payroll variants. Here is
+how it looks so far. The B variant is
+apparently the best one so far. I'm
+going to wait again uh more than 50
+conversion per payroll to know which one
+is the best. Apparently, that's what
+Revenue Cat recommends. Also, here is
+the current dashboard. So, our current
+stats revenue nearly $2,100.
+
+Looking pretty good. And talking about
+AB test, I also learned a few days ago
+
+that you could AB test your app store
+front page. So, that's on App Store
+Connect on product page optimization and
+you can create a test. I'd like to only
+test the app icon. Apparently, it can
+have a huge impact. So, let's see. I've
+made uh three four new variants. I'm
+
+just going to create the test. I mean,
+I'm not sure about that one, but you
+
+know what? Let's test tomorrow. I'd like
+to show you the different Tik Toks
+videos that I've made so you can see
+what worked and what didn't. Day 55. So,
+
+first thing first, the revenue cat
+dashboard. We have 39 active trials, 61
+
+active subscriptions, and 2400 revenue
+
+in the last 28 days. And today I wanted
+to show you the different ads that I run
+and which one worked the best. Let me
+show you my Tik Tok. So I tried lots of
+formats, really lots of them. The one
+that worked the best in terms of cost
+per click. So, the one that cost me the
+less to have one download was this one
+
+at less than 10 cents per download,
+which is crazy good. It looks like that.
+There is a rhythmic music and a default
+
+iOS wallpaper with the Earth and the sun
+moving around it depending on the time
+of the day. This one worked really well,
+too. I just took a video from YouTube
+and I did the exact same thing with the
+earth uh just after it with another
+
+trendy music. And the last format which
+worked also pretty well was this one. I
+actually paid a girl $20 per video and
+
+she made three videos of 5 seconds. It
+worked really well because it's Tik Tok
+native format like vertical screen and
+so on. I tried really lots of different
+formats. Even Pinterest videos like glow
+
+up in one month. These formats work
+
+crazy well. Like the cost per click is
+freaking low, but I couldn't get
+downloads after the click. So my app
+isn't what people were waiting for after
+clicking on it. But if you have a glow
+up app, just try this format. That's
+
+freaking amazing. It works so well. I
+tried different type of Pinterest glow
+up things and all of them worked really
+well with a very low cost per click. So
+
+try it by yourself if you have an app
+matching that kind of format. Tomorrow
+I'll make different videos to just show
+you step by step exactly how to set up
+the subscriptions, how to set up App
+Store Connect dashboard and revenue and
+everything. The different setups can be
+really tricky sometimes. So that's why
+I'm really happy with what I'm building
+because I'm sure it will help you and I
+think I'm going to create a new app from
+scratch especially for the Discord
+because I want to build with you. So we
+will be all together starting from
+scratch or from different steps. I think
+that can be really interesting. I'm
+really hyped by all this and start again
+a new app with all the community. That's
+going to be pretty sick. I bought the
+AppSprint domain name and in a few days
+I'll create a very basic landing page
+for all of that to look pretty clean.
+Day 56. Let's start with Revenue Cat.
+Oh, maybe just Tik Tok ads. I had this
+
+new coupon like €100 for free again. I
+
+think Tik Tok ads really wants to keep
+their customers. So they offer you lots
+of free ad credits at the beginning and
+then when you start spending they stop
+to give you free ad credits. But we add
+again €100 of free ad credits which is
+
+approximately something like $115. Crazy
+
+good. Again we won't spend that much on
+ads. I mean we used lots of credits but
+
+it wasn't that expensive. Then for the
+
+revenue cat part here is the current
+dashboard. So, we are at 46 trials, 66
+
+active subscriptions, and the revenue is
+
+nearly 2600. Uh, today I also filmed
+
+some part of the course. So, I filmed
+
+this one um about how to set up your
+
+Revenue Cat dashboard, how to set up
+your App Store Connect dashboard, how to
+link them because it might be quite
+challenging. So, I'm uploading all of
+that to YouTube to the Discord for you
+to have access to it. So, yeah, pretty
+good day. The revenue is steady. Like
+every day we have between five and
+
+seven, eight conversion, which is
+amazing. We have a really really good uh
+
+download to trial conversion. Let me
+show you. Today we had 50 downloads, 50
+
+on boarding completed. Amazing. and
+
+eight conversion eight trial started. So
+
+that means that we have a 16% conversion
+
+from download to trial which is again
+really nice. I think we might have the
+the sweet spot. The onboarding is pretty
+good. The payroll is pretty good.
+Everything Yeah. Yeah. Everything seems
+to work. Today is day 57, and that might
+be our last day together because I think
+we hit our threshold of $2,000 of
+
+profit. Right now, we are at $2,800 of
+
+revenue in the last 28 days. And I think
+it's a bit more than the $2,000 of
+
+profit. So, let me create a notion and
+show you all the different stats, our
+current conversion rate, our current
+trial rates, and everything, so you'll
+know in details where we at. I've made
+three lines. The green one is the
+profit. The blue one the revenue and the
+red one the ad spent. The revenue is
+simply the money that users paid. The
+profit is the revenue minus Apple cut
+
+which is 15% minus ad spent. So that's
+
+actually the money left in my pocket at
+the end. We've made a really good profit
+because I had lots of free credits on
+Tik Tok ads which really helped us. To
+recap the Tik Tok ads, I ran 20 days of
+
+ads at $35 per day. So that would have
+
+been $700 of ad spent, but I had two
+
+coupons on the Tik Tok ads dashboard. So
+
+two times they gave me free credits. The
+first time $210 and the second time
+
+$150.
+So nearly half the ad spent was actually
+
+free credits from Tik Tok. And I also
+spent $60 for the three videos to pay
+the girl on Tik Tok. And yeah, I've have
+my different videos. I think the best
+things to remember from this experiment
+is just only optimize your onboarding.
+Try to spend nearly 90% of your time on
+
+the onboarding. Just try to improve
+every steps, every conversion during the
+onboarding because that's where all the
+money is left. Like more than 80% of
+conversions are during the onboarding.
+So work on that. Trust me, that's way
+more important that the app itself. That
+seems crazy, but that's the case. And
+switch on the grace period. I mean, I
+had lots of money coming from that.
+Nearly 10% of the revenue is coming from
+that. So, trust me, turn on that just
+
+grace period, you'll gain some money.
+Now the interesting numbers my current
+download to trial rate is in average
+more than 14% and my trial to paid rate
+
+is a bit more than 31% which is also
+
+pretty good. So that means that if I
+have 100 downloads I will have 14 trials
+
+started and at the end for trial
+conversion I'll earn $164
+for 100 downloads. That means that for
+every download I earn $164.
+
+I also wanted to show you my different
+reviews. I have 55 ratings in total with
+
+like good ones. I got premium for free
+because on the Reddit campaigns I I
+offered those. But yeah, some some
+really really nice ratings. We are
+currently at 4.7 out of five, which is
+
+quite good. So I'm happy with that. If
+you watched this video so far, I'm
+pretty sure that you have an idea of any
+kind of project sitting in the back of
+your head. Maybe an app, maybe a website
+or something completely different like
+creating a wooden table. It actually
+doesn't matter. And I know what you're
+thinking because I was there too. Like I
+don't know enough. I'll start later. But
+that's not the right mindset. I've built
+things that nobody used. I've spent lot
+of money on things that didn't work. I
+tried and failed a lot. But that's
+exactly how I learned. I didn't know
+anything. I started something, learned
+in the process, failed, learned from
+that failure and again and again.
+Learning by doing and failing is
+actually the best way of learning. And
+don't try to build anything just for the
+result. Like if you want to be rich or
+create something, I don't know,
+revolutionary, don't work only for the
+
+result. Trust me, you have to enjoy the
+whole process. Enjoy learning, enjoy
+failing because you'll spend lots of
+time just in the process and spend a
+
+little little time at the end like at at
+
+the result. So if you want your life to
+be enjoyable, trust me, you have to
+enjoy the process. Try to fall in love
+with learning because at the end, I
+truly think that that's the only way to
+make it sustainable and worth it. All
+right, that's it. See you in the next
+one.

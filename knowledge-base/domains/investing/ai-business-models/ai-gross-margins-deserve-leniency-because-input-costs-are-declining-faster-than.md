@@ -56,8 +56,8 @@ related:
   - INS-260320-DEAF
   - INS-260320-B7DA
   - INS-260320-8688
-  - PRI-260320-233B
   - INS-260321-8433
+  - INS-260321-52EF
 ---
 a16z's growth fund evaluates AI companies differently from mature SaaS. Model input costs have declined over 99% in two years — a 100x decline exceeding Moore's law. Simultaneously, frontier model capabilities double every 7 months. This means AI application companies that have thin gross margins today will likely see dramatic margin expansion without raising prices, because they can deliver more value with cheaper, better models.
 

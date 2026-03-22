@@ -51,13 +51,13 @@ related:
   - INS-260320-2058
   - INS-260320-A745
   - INS-260320-DEAF
-  - INS-260320-1B38
   - INS-260320-70FA
   - INS-260320-080B
   - INS-260320-07A2
   - PRI-260320-D2E1
   - INS-260321-31B3
   - INS-260321-C513
+  - INS-260321-D01E
 ---
 Historically, enterprise software was stickier than consumer software. AI reverses this. On the B2B side, developers buy raw model access via API calls that are trivially easy to switch — if a better coding model appears, companies switch immediately. On the consumer side, ChatGPT has become habitual for everyday users (including non-technical users like parents in Kentucky) who will not switch to a slightly better alternative.
 

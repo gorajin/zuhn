@@ -1,5 +1,5 @@
 # Source Map
-Generated on 2026-03-22 | 73 sources
+Generated on 2026-03-22 | 81 sources
 
 | Source | Type | Insights | Date |
 |--------|------|----------|------|
@@ -25,6 +25,7 @@ Generated on 2026-03-22 | 73 sources
 | Emil Michael: The Department of War Is Moving Faster Than Silicon Valley on AI | The a16z Show | youtube | 5 | 2026-03-22 |
 | From $0 to $11B: The ElevenLabs Story | youtube | 5 | 2026-03-22 |
 | How AI Will Transform Fintech In 2026 | youtube | 5 | 2026-03-22 |
+| How I built an app that makes $2,000 in one month (from scratch) | youtube | 5 | 2026-03-22 |
 | How OpenAI Builds for 800 Million Weekly Users: Model Specialization and Fine-Tuning | youtube | 5 | 2026-03-22 |
 | How To Get Unique AI Startup Ideas | youtube | 5 | 2026-03-22 |
 | How Truemed Is Incentivizing Americans to Invest in Prevention | youtube | 5 | 2026-03-22 |
@@ -32,6 +33,7 @@ Generated on 2026-03-22 | 73 sources
 | Inside Palantir: Building Software That Matters | Shyam Sankar on a16z | youtube | 5 | 2026-03-22 |
 | Inside the New Media Team with Marc Andreessen & Ben Horowitz | youtube | 5 | 2026-03-22 |
 | Marc Andreessen's 2026 Outlook: AI Timelines, US vs. China, and The Price of AI | youtube | 5 | 2026-03-22 |
+| Master OpenClaw in 10 Hours [I Created 5 AI Employees] | youtube | 5 | 2026-03-22 |
 | Robinhood CEO: Making Everyone An Owner | youtube | 5 | 2026-03-22 |
 | The $700 Billion AI Productivity Problem No One's Talking About | youtube | 5 | 2026-03-22 |
 | The AI Opportunity that goes beyond Models | youtube | 5 | 2026-03-22 |
@@ -50,18 +52,22 @@ Generated on 2026-03-22 | 73 sources
 | Andrew Huberman: Peptides, Sleep Tech, and the End of Obesity | youtube | 4 | 2026-03-22 |
 | Ben Horowitz on Investing in AI: AI Bubbles, Economic Impact, and VC Acceleration | youtube | 4 | 2026-03-22 |
 | Building A Big Company: Non-Obvious Insights | youtube | 4 | 2026-03-22 |
+| Claude Code + Karpathy's Autoresearch = GOD MODE! | youtube | 4 | 2026-03-22 |
 | Emmett Shear on Building AI That Actually Cares: Beyond Control and Steering | youtube | 4 | 2026-03-22 |
 | How AI Agents Will Transform in 2026 (a16z Big Ideas) | youtube | 4 | 2026-03-22 |
 | How To Release A Single In 2026 (The Step-By-Step Plan) | youtube | 4 | 2026-03-22 |
 | “How We Can Eliminate Crime” | Ben Horowitz and Garrett Langley | youtube | 4 | 2026-03-22 |
+| I Tried the World's Simplest Productivity Trick (it worked) | youtube | 4 | 2026-03-22 |
+| If I Had to Start DJing Again in 2026, I’d Do This (No Gear Required) | youtube | 4 | 2026-03-22 |
 | iShowSpeed & MrBeast Leak The Secrets Of Youtube.. | youtube | 4 | 2026-03-22 |
+| NASA의 진짜 목표는 달이 아니다? 아르테미스 계획 총정리ㅣ범준에물리다 | youtube | 4 | 2026-03-22 |
 | NVIDIA's $1 Trillion Prediction, Anthropic Beats OpenAI, Tesla vs. TSMC & The CS Job Collapse | 240 | youtube | 4 | 2026-03-22 |
 | Palantir CEO on Iran, AI Weapons and American Domination | a16z American Dynamism Summit | youtube | 4 | 2026-03-22 |
 | Silicon Valley's new miracle drug | youtube | 4 | 2026-03-22 |
 | Synchronicity: Carl Jung’s Most Disturbing Theory About Reality | youtube | 4 | 2026-03-22 |
 | The 2045 Superintelligence Timeline: Epoch AI’s Data-Driven Forecast | youtube | 4 | 2026-03-22 |
 | The Secret Marketing Strategy That Built a16z: From Zero to Legendary VC Firm | youtube | 4 | 2026-03-22 |
-| "중동 전쟁은 페이크다" 미국이 이란을 박살 낸 소름 돋는 진짜 이유 | youtube | 4 | 2026-03-22 |
+| 음악 디깅 하는 방법 | youtube | 4 | 2026-03-22 |
 | Where to invest in a multipolar world (WW3?) | youtube | 4 | 2026-03-22 |
 | This Automation Took Me From 0 to 175k Followers in Under 12 Months | reddit | 3 | 2026-03-20 |
 | Claude Code usage limit hack | reddit | 3 | 2026-03-20 |
@@ -71,8 +77,10 @@ Generated on 2026-03-22 | 73 sources
 | Ep. 243: Charlie Puth | The Long Road to Becoming Yourself | youtube | 3 | 2026-03-22 |
 | 반도체·HBM… 뉴스에서 항상 듣던 반도체 용어 전격 해부 (feat. 김정호 교수) [취미는 과학/ 76화 확장판] | youtube | 3 | 2026-03-22 |
 | Private Credit Panic - Why Investors Are Rushing For the Exits | youtube | 3 | 2026-03-22 |
+| What if it actually works out? | youtube | 3 | 2026-03-22 |
 | Gave all my Claudes a shared brain | reddit | 2 | 2026-03-20 |
 | Dark techno using only sounds from Moog DFAM, sampled into Digitakt | reddit | 2 | 2026-03-20 |
 | What is one thing that you do to keep your dog happy? | reddit | 2 | 2026-03-20 |
 | Sound Design Breakdown [and tutorial] | reddit | 2 | 2026-03-20 |
 | [Tutorial] All there is to know about syncing video and audio | reddit | 2 | 2026-03-20 |
+| How We Built The #1 Best Selling Probiotic On Amazon (in 2.5 Years) | youtube | 0 | 2026-03-22 |

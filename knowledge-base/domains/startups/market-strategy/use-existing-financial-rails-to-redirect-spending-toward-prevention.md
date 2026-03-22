@@ -45,11 +45,11 @@ resolutions:
     potential is hundreds of billions redirected toward prevention using
     mechanisms that already exist.
 related:
+  - INS-260322-B8E6
   - INS-260322-FCFC
   - INS-260322-760A
   - INS-260322-3A00
   - INS-260322-5F87
-  - INS-260320-2058
 ---
 Rather than waiting for insurance companies to cover lifestyle interventions or lobbying for new legislation, Truemed identified an existing IRS mechanism — letters of medical necessity — that already allowed tax-free HSA/FSA spending on qualifying health interventions. They built telemedicine infrastructure to issue these letters at scale.
 

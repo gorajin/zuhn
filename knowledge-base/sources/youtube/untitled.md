@@ -1,17 +1,17 @@
 ---
-id: SRC-260321-4AD0
+id: SRC-260322-EF96
 type: youtube
-title: '"중동 전쟁은 페이크다" 미국이 이란을 박살 낸 소름 돋는 진짜 이유'
-author: 타일러볼까요
-url: 'https://youtu.be/IwmgFdMuoW0'
+title: 음악 디깅 하는 방법
+author: West Castle
+url: 'https://youtu.be/8HRPxS8AbIA'
 date_ingested: '2026-03-22'
 insight_count: 4
-channel: 타일러볼까요
-duration: '18:17'
-views: 1382552
-upload_date: '2026-03-19'
-chapters: 9
-transcript_type: manual
-word_count: 3017
+channel: West Castle
+duration: '17:31'
+views: 51736
+upload_date: '2026-03-12'
+chapters: 0
+transcript_type: auto
+word_count: 3664
 ---
-Korean geopolitical analysis arguing that the US-Iran conflict (Operation Epic) is not primarily about Israel or religion — it's about clearing the physical obstacle blocking IMEC (India-Middle East-Europe Economic Corridor), a massive logistics highway designed to bypass China's Belt and Road Initiative. Covers the India-EU FTA, Saudi-Israel capitalist alliance, China's proxy war dilemma, and implications for Korea's economic positioning.
+Korean music curator explains a systematic methodology for music digging — discovering new music through three approaches: volume listening, genre-based exploration, and artist-centered research. Covers platforms (Bugs, Bandcamp, Beatport, SoundCloud, Spotify, Apple Music, RYM, AoTY), genre taxonomy resources (Wikipedia, Aesthetic Wiki), and credit-tracing techniques for finding session musicians.

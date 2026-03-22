@@ -50,7 +50,7 @@ related:
   - INS-260321-1749
   - INS-260320-DEAF
   - INS-260322-88C3
-  - INS-260321-4E98
+  - INS-260322-B6DE
 ---
 Evans draws a direct line from enterprise SaaS history to the AI future. The typical large company today uses 400-500 SaaS apps, all basically doing things you could do in Oracle, Excel, or email — but wrapped in industry-specific workflows with curated UI choices that encode institutional knowledge.
 

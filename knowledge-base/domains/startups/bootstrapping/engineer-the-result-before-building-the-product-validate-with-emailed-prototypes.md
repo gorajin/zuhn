@@ -49,7 +49,7 @@ related:
   - INS-260320-630D
   - PRI-260321-14D8
   - INS-260322-F891
-  - INS-260322-4757
+  - INS-260322-24FB
   - INS-260321-021B
 ---
 Before building Opus Clip's product, they manually used AI to create the final output — edited short-form video clips — and emailed them directly to potential customers. Over 60% gave positive feedback like 'I love this clip, I just want to tweak one thing and publish it.' They then built a Discord bot (no UI at all) and observed thousands of creators using it. They looked for qualitative signals: people discussing how to get specific results, complaining about queue times and daily usage quotas. When users complain about quotas rather than quality, that's the product-market fit moment. This approach saved months of UI/UX development time while validating the core value proposition.
