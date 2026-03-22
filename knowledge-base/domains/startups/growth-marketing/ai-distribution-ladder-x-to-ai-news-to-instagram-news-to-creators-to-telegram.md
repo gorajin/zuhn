@@ -40,7 +40,6 @@ resolutions:
     may be rising as an alternative channel. Organic social media and creator
     integrations outperform paid ads for AI product distribution.
 related:
-  - INS-260320-39A3
   - INS-260320-A1D3
   - INS-260320-A467
   - INS-260320-DADA
@@ -50,5 +49,6 @@ related:
   - INS-260321-96CE
   - INS-260321-C4CD
   - INS-260321-31B3
+  - INS-260321-F0DF
 ---
 Higgsfield and many other AI products followed the same distribution journey: launch starts in small X (Twitter) communities, then gets picked up by AI news pages on X, then moves to Instagram news pages, then to individual creators, then spreads to Telegram and other platforms. However, this pattern was strongest in 2025 — by 2026, signal-to-noise ratio on X is dropping as too many companies try to use it for product launches. LinkedIn may be rising as an alternative channel. Organic social media and creator integrations outperform paid ads for AI product distribution.

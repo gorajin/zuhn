@@ -44,9 +44,9 @@ resolutions:
     Commerce and First Brands.
 related:
   - INS-260321-347D
+  - PRI-260321-2DF0
   - INS-260321-52EF
   - PRI-260320-5947
-  - INS-260321-F2C4
-  - INS-260321-38EC
+  - PRI-260321-0A4D
 ---
 After the 2008 financial crisis, new banking regulations restricted risky lending activities, incentivizing banks to move toward safer assets like treasuries. Private credit filled this gap — investment firms raising capital to lend directly to private businesses. The market grew 10x from 2009 to 2023, reaching approximately $2T (vs. $11T US corporate bond market). The pitch: hire best-in-class analysts, negotiate directly with businesses, earn returns above public bonds. Blackstone's flagship fund returned 9.8% annually. But the same opacity and lack of regulation that enables higher returns also masks risk — loans can go from '100 cents on the dollar' to written off to zero within 3 months, as seen with Infinite Commerce and First Brands.

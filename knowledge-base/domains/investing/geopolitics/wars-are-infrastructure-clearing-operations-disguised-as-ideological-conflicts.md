@@ -45,7 +45,8 @@ related:
   - INS-260321-5655
   - INS-260321-10FF
   - INS-260321-A3A1
+  - PRI-260321-5BF1
+  - PRI-260321-0A4D
   - INS-260321-9E91
-  - INS-260321-4178
 ---
 The Korean analyst argues every major US military action maps to infrastructure strategy. Iran funded Houthi rebels who attacked Red Sea shipping (disrupting the Suez Canal route), and backed Hamas/Hezbollah who attacked Israel (IMEC's final node before Europe). Biden announces IMEC in early 2023; Hamas attacks Israel in fall 2023. Coincidence? The US needs Iran neutralized to turn on IMEC — otherwise China's proxy (Iran) can cut the corridor at any time. This is not the 2003 Iraq invasion with democracy rhetoric; it's cold, capitalist, strategic infrastructure clearing. Saudi Arabia and Israel — historical sworn enemies — are aligning because both want to be core nodes on the IMEC corridor. Interests override ideology.
