@@ -1,11 +1,12 @@
 # Topic: geopolitics
 
-> 16 insights
+> 17 insights
 
 - `INS-260321-CBD2` [high] Unlike the dot-com era, AI capex is financed by the most profitable companies in history and there are 'no dark GPUs' (every deployed GPU gets fully utilized immediately), but private credit entering the data center buildout and Oracle's massive cash-flow-negative bet are early warning signals.
 - `INS-260321-4B99` [high] Factory capacity for DRAM and NAND is fixed, but AI demand pays so much more that producers shifted mass production lines to HBM — making consumer memory prices rise in tandem.
 - `INS-260321-10FF` [high] Saudi Arabia and Israel were sworn enemies for decades. Now they're aligning because both want to be core hub stations on IMEC. When economic interests change, the colors beneath the board change on their own.
 - `INS-260321-3EC0` [high] When you invest in a country's stock market, you're placing a geopolitical bet on that country's future economic power relative to rivals — not just on individual companies.
+- `INS-260321-9AB5` [high] Nearly 1 in 7 Americans already takes a GLP-1 drug, next-gen retatrutide enables a third of body weight loss with muscle sparing, and compounding pharmacies make these accessible at a fraction of cost — Huberman predicts over half of Americans will be on GLPs within 5 years.
 - `INS-260321-D484` [high] Jensen predicts $1T in NVIDIA bookings through 2027, but TSMC manufacturing is the real bottleneck — NVIDIA has locked up 70% of TSMC's 3nm node capacity.
 - `INS-260321-347D` [high] Private credit defaults reached 9.2% (Fitch) while funds gated redemptions at 5-14%, trapping investors — the retail expansion via 401k access amplifies panic.
 - `INS-260321-C6C0` [high] Post-2008 regulations pushed risky lending from regulated banks to private credit — a $2T opaque market with higher fees, less oversight, and now rising defaults.
