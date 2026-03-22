@@ -51,9 +51,9 @@ resolutions:
 related:
   - INS-260321-4280
   - INS-260321-FB3F
+  - PRI-260321-5857
   - INS-260321-C4CD
   - INS-260321-3660
-  - INS-260321-38EC
 ---
 Ben Horowitz describes a16z's existential crisis: the NYT leaked early fund results, misinterpreted them, and there was no way to correct the record. That experience made a16z hyper-defensive about information control for years. But the physics of media have completely changed. In the old world, 8 channels (NYT, WSJ, CNN, etc.) had permanent monopoly on narrative. What they published was top of Google, uncorrectable, and permanent.
 

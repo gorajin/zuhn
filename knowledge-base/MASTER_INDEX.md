@@ -10,10 +10,10 @@
 | ------ | ------ | -------- | ---------- | ------------ |
 | ai-development | 10 | 131 | 13 | 2026-03-21 |
 | automation | 2 | 12 | 2 | 2026-03-20 |
-| investing | 1 | 17 | 3 | 2026-03-21 |
+| investing | 1 | 17 | 4 | 2026-03-21 |
 | music-production | 3 | 9 | 0 | 2026-03-21 |
 | pets | 1 | 2 | 0 | 2026-03-20 |
-| startups | 5 | 66 | 4 | 2026-03-21 |
+| startups | 5 | 66 | 6 | 2026-03-21 |
 | video-production | 3 | 7 | 0 | 2026-03-21 |
 
 ## Mental Models
@@ -125,7 +125,6 @@ _No flags._
 - `INS-260321-E8CB` One-size-fits-all SaaS benchmarks are misleading — a pre-seed company should target burn multiple <2.5x while Series B+ targets <1.0x. Stage-specific targets: NRR >100%/>110%/>120%, LTV:CAC >2.0x/>3.0x/>3.5x. _(2026-03-21)_
 - `INS-260321-1992` Focus on first dollar by day 30, $1M ARR ($80K/month) by day 90, and only consider VC if you actually need it. _(2026-03-21)_
 - `INS-260321-E5C5` The ideal AI startup founding team is one builder who ships in 24 hours and one go-to-market person with audience empathy. _(2026-03-21)_
-- `INS-260321-1A84` People who are naturally quirky and nonconformist constantly generate strange ideas on their own, while those skilled at reading consensus find it hardest to produce unique ideas. _(2026-03-21)_
 - `INS-260321-3D65` Fresh graduates (23-25) who grew up vibe coding think differently and generate the best new ideas at AI companies. _(2026-03-21)_
 - `INS-260321-C513` Avoid building features that incumbents can bundle (like meeting notetakers for Zoom), and avoid pure prompt wrappers that next model releases will obsolete. _(2026-03-21)_
 - `INS-260321-2F09` Many AI founders fail because they build impressive demos that don't solve real painful jobs — if nobody asks about pricing, you don't have product-market fit. _(2026-03-21)_
@@ -135,6 +134,7 @@ _No flags._
 - `INS-260321-33FC` At Palantir, each critical product was built by the one person in the world who could have done it — Karp's job is to help them express their unique genius while subtly inserting what they'd otherwise miss. _(2026-03-21)_
 - `INS-260321-F446` If 50 unlikable people hold all the wealth while white-collar workers lose jobs, the bipartisan consensus won't be left vs right — it will be 'nationalize tech.' _(2026-03-21)_
 - `INS-260321-C0A4` Your probability of success directly correlates with whether your closest friends care about and push you toward what you want to achieve. _(2026-03-21)_
+- `INS-260321-1A84` People who are naturally quirky and nonconformist constantly generate strange ideas on their own, while those skilled at reading consensus find it hardest to produce unique ideas. _(2026-03-21)_
 - `INS-260321-38EC` Channels with 3,000-5,000 subscribers are hitting 2-3 million views by applying proven formats to underserved markets — subscriber count doesn't determine reach when format-market fit is strong. _(2026-03-21)_
 - `INS-260321-AA91` Enterprise customers resist AI credit-based pricing because credits are opaque (unlike transferable units like gigabytes), vendors can silently increase consumption by adding features, and outcome-based pricing creates a dynamic baseline problem where savings erode year over year. _(2026-03-21)_
 - `INS-260321-C902` New AI products follow a predictable distribution ladder: X small communities then AI news pages then Instagram news then creators then Telegram. _(2026-03-21)_
@@ -229,16 +229,16 @@ _No flags._
 - `INS-260320-6F8E` SDD cycle: input specs (PRD, tech brief, requirements) and output specs (research logs, code notes, findings) are both first-class artifacts. _(2026-03-20)_
 - `INS-260320-D4BD` New engineers hit the ground running with clear specs defining both what to build and what has already been done. _(2026-03-20)_
 - `INS-260320-7914` Research logs and findings surface 'already solved' patterns, preventing teams and agents from reinventing solutions. _(2026-03-20)_
+- `INS-260320-76D2` Use BetterTouchTool for double-tap hotkeys (CMD+CMD = Claude, OPT+OPT = Browser) and relative URL copy from Cursor. _(2026-03-20)_
+- `INS-260320-C8CC` PM2 gives you auto-restart on crashes, per-service logs, memory/CPU monitoring, and easy management like `pm2 restart email`. _(2026-03-20)_
+- `INS-260320-4773` Run all backend microservices via PM2 so Claude can read individual service logs in real-time without manual copy-pasting. _(2026-03-20)_
+- `INS-260320-26B1` Use SuperWhisper for voice-to-text prompting when your hands are tired from typing all day. _(2026-03-20)_
 - `INS-260320-10CC` 91 unit tests all passed, but an automated spec audit found 12 issues — unit tests verify code works, spec audits verify code matches intent. _(2026-03-20)_
 - `INS-260320-47FA` MASTER_INDEX to domain overview to topic summary to individual insight — answering "what do I know about X?" requires reading roughly 4 files regardless of total insight count. _(2026-03-20)_
 - `INS-260320-0F7C` Markdown files are the source of truth; SQLite database, indices, mindmap, and tag files are all generated and disposable — when the DB had schema issues, we just regenerated it. _(2026-03-20)_
 - `INS-260320-4B31` We spent hours designing a detailed spec before writing any code — the spec caught issues before they became bugs and zero scope creep occurred across 5 phases. _(2026-03-20)_
 - `INS-260320-8FFC` Sequential IDs stored in a file would be hallucinated by the LLM — timestamp plus title hash made file creation completely stateless with zero collisions across 74 insights. _(2026-03-20)_
 - `INS-260320-63D3` Each implementation task was dispatched to a fresh subagent with exactly the context it needed — no accumulated confusion from previous tasks. _(2026-03-20)_
-- `INS-260320-76D2` Use BetterTouchTool for double-tap hotkeys (CMD+CMD = Claude, OPT+OPT = Browser) and relative URL copy from Cursor. _(2026-03-20)_
-- `INS-260320-C8CC` PM2 gives you auto-restart on crashes, per-service logs, memory/CPU monitoring, and easy management like `pm2 restart email`. _(2026-03-20)_
-- `INS-260320-4773` Run all backend microservices via PM2 so Claude can read individual service logs in real-time without manual copy-pasting. _(2026-03-20)_
-- `INS-260320-26B1` Use SuperWhisper for voice-to-text prompting when your hands are tired from typing all day. _(2026-03-20)_
 - `INS-260320-D58E` An n8n workflow scrapes YouTube, Reddit, Twitter, and the web daily to identify content outliers and trending topics, then generates detailed content ideas with scripts, hooks, and storylines. _(2026-03-20)_
 - `INS-260320-41E3` A daily n8n content research automation that scrapes multiple platforms, identifies trends, and delivers a content digest costs under $0.35 per day to operate. _(2026-03-20)_
 - `INS-260320-9935` The 0-to-175K growth came from automating content research and ideation, not from automating content creation itself -- the competitive advantage is knowing what to create, not how to create it. _(2026-03-20)_
@@ -251,6 +251,8 @@ _No flags._
 - `INS-260320-0063` n8n workflows can be exported as JSON and shared on GitHub with Google Doc templates -- the business analysis workflow repo has 98 stars and is MIT licensed. _(2026-03-20)_
 - `INS-260320-B8B0` Use Linkfinder AI as a proxy for LinkedIn scraping — no direct LinkedIn API connection means zero ban risk for your personal account. _(2026-03-20)_
 - `INS-260320-6845` An n8n workflow pulls YouTube links from Google Sheets, extracts transcripts via Dumpling AI, transforms them into newsletter drafts with GPT-4o, and logs results back to Sheets. _(2026-03-20)_
+- `INS-260320-8B06` Letting dogs make small choices -- which toy to play with, which direction to walk, whether to engage or rest -- builds confidence and reduces anxiety-driven behaviors. _(2026-03-20)_
+- `INS-260320-9118` Allow dogs to sniff freely during walks -- scent exploration is their primary way of processing the world and provides more mental stimulation than the physical exercise of the walk itself. _(2026-03-20)_
 - `INS-260320-CDE4` The Moog DFAM has no MIDI implementation -- sampling its output into a MIDI-capable device is the primary way to integrate it into a broader production setup. _(2026-03-20)_
 - `INS-260320-77C2` Sample analog synth sounds (like Moog DFAM) into a digital sampler/sequencer (like Elektron Digitakt) to get warm analog timbre with precise digital sequencing and pattern control. _(2026-03-20)_
 - `INS-260320-B7DA` Charge $99/year from day one even when conventional wisdom says students won't pay — premium pricing signals reliability, and raising from $99 to $129 actually increased both users and revenue. _(2026-03-20)_
@@ -275,5 +277,3 @@ _No flags._
 - `INS-260320-232D` Set all audio devices to 48kHz when recording for video -- mismatched sample rates between camera and external recorder cause drift that worsens over longer recordings. _(2026-03-20)_
 - `INS-260320-D44B` The foundational rule of video sound design: you should be able to hear everything you see -- nothing on screen is truly silent, and even empty rooms have ambient sound. _(2026-03-20)_
 - `INS-260320-105E` The sound design workflow for video follows three steps: lay down temp music/score first, add creative SFX and foley second, then apply final audio treatment and mixing. _(2026-03-20)_
-- `INS-260320-8B06` Letting dogs make small choices -- which toy to play with, which direction to walk, whether to engage or rest -- builds confidence and reduces anxiety-driven behaviors. _(2026-03-20)_
-- `INS-260320-9118` Allow dogs to sniff freely during walks -- scent exploration is their primary way of processing the world and provides more mental stimulation than the physical exercise of the walk itself. _(2026-03-20)_

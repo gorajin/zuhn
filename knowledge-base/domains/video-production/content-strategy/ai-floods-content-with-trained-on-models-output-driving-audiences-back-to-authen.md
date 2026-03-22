@@ -45,9 +45,9 @@ related:
   - INS-260320-446F
   - INS-260320-DADA
   - INS-260321-38EC
-  - INS-260321-96CE
-  - INS-260321-C902
+  - PRI-260321-5857
+  - PRI-260321-558C
   - INS-260321-EE05
-  - INS-260320-9935
+  - INS-260321-C902
 ---
 MrBeast argues AI content will actually benefit established creators: as AI-generated articles surpass human-written articles in volume and AI 'slop' floods social media, people will look more for authentic, human-made content. Established creators with long-term brands built on trust have a structural advantage. He draws an analogy to animation: when it arrived, it didn't destroy Christopher Nolan films. Meanwhile, AI tools help creators be more productive — MrBeast uses AI to transcribe 100,000+ hours of Beast Games footage so editors can search clips by emotion or topic instead of watching everything manually. AI makes great editors accomplish more in less time.

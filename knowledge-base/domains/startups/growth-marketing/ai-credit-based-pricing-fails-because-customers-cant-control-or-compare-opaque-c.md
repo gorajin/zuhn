@@ -64,7 +64,6 @@ related:
   - INS-260321-52EF
   - INS-260321-8D2B
   - INS-260321-4B99
-  - INS-260321-347D
   - INS-260321-3BA8
 ---
 Cannon-Brookes reveals that when you talk to enterprise customers about AI pricing, they actively prefer seats — not because seats are economically optimal, but because seats are understandable and controllable. AI credits fail the 'casino chip' test: customers can't compare credits across vendors (unlike gigabytes), they can't control consumption (vendors add features that consume credits without customer action), and there's no portability.

@@ -15,8 +15,8 @@ Generated on 2026-03-22 | 45 sources
 | The Leverage Field Manual — How to multiply your output without working more | paste | 6 | 2026-03-22 |
 | Why we shifted to Spec-Driven Development | reddit | 6 | 2026-03-20 |
 | $215M AI CEO: How I’d Build a Profitable AI Startup in 30 Days (2026 Playbook) | youtube | 6 | 2026-03-22 |
-| Claude for Finance | pdf | 5 | 2026-03-22 |
 | 200+ pages of Hugging Face secrets on how to train an LLM | reddit | 5 | 2026-03-20 |
+| Claude for Finance | pdf | 5 | 2026-03-22 |
 | AI Markets: Deep Dive with a16z's David George | youtube | 5 | 2026-03-22 |
 | Atlassian CEO on the SaaS Apocalypse, AI Agents & What Comes Next | youtube | 5 | 2026-03-22 |
 | Emil Michael: The Department of War Is Moving Faster Than Silicon Valley on AI | The a16z Show | youtube | 5 | 2026-03-22 |
