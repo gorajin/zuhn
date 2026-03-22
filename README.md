@@ -34,6 +34,8 @@ Each level compresses the one below. Query cost scales logarithmically — ~800 
 
 ## Quick Start
 
+> **Note:** This repo contains a live knowledge base. To start your own from scratch, see [Start Fresh](#start-fresh) below.
+
 ```bash
 # Install dependencies
 npm install
@@ -60,6 +62,34 @@ open knowledge-base/views/mindmap.html
 # Health check
 npm run health
 ```
+
+## Start Fresh
+
+To use Zuhn as your own knowledge OS (without the existing knowledge base):
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/gorajin/zuhn.git && cd zuhn
+
+# 2. Install dependencies
+npm install
+
+# 3. Remove the existing knowledge base and initialize a blank one
+rm -rf knowledge-base
+npx tsx scripts/init.ts
+
+# 4. Optional: set up Ollama for semantic search
+ollama pull nomic-embed-text
+
+# 5. Ingest your first source
+npm run ingest https://youtu.be/your-video-id
+
+# 6. Use Claude Code to extract insights (or any Claude interface)
+#    Claude reads the transcript, writes JSON, then:
+npx tsx scripts/extract.ts --source SRC-XXXXXX-XXXX --file /tmp/zuhn-extract.json --post-ingest
+```
+
+The init script creates the full directory structure with empty placeholder files. Domains, topics, and tags are created automatically as you extract insights.
 
 ## Ingestion — Feed the Brain
 
