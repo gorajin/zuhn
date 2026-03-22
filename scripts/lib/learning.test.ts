@@ -1046,3 +1046,6 @@ describe.skipIf(!existsSync(BRAIN_DB_PATH))(
     });
   }
 );
+
+// ─── Mechanism 8 tests moved to empirical.test.ts for isolation ─────
+// (Tests were contaminated by shared module state in the same file)

@@ -1,5 +1,6 @@
 import type Database from "better-sqlite3";
 import { readFile, writeFile, mkdir } from "node:fs/promises";
+import { readdirSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import fg from "fast-glob";
 import matter from "gray-matter";
@@ -53,6 +54,15 @@ export interface TransferFlag {
 export interface TensionResult {
   newTensions: number;
   tensions: Array<{ id: string; title: string; sideA: string; sideB: string }>;
+}
+
+export interface EmpiricalChange {
+  resolvedId: string;
+  resolvedStatus: string;
+  affectedId: string;
+  oldConfidence: string;
+  newConfidence: string;
+  cascade: "direct" | "supporting";
 }
 
 export interface LearningFlags {
@@ -309,8 +319,9 @@ export async function propagateConfidence(
   // Build a map for quick lookup
   const insightMap = new Map(insightRows.map((r) => [r.id, r]));
 
-  // 2. Load source info from frontmatter for each insight
+  // 2. Load source info and empirical_state from frontmatter for each insight
   const sourceMap = new Map<string, { type: string; title: string }>();
+  const empiricalStateMap = new Map<string, string>();
 
   for (const row of insightRows) {
     const filePath = row.file_path.startsWith("/")
@@ -325,6 +336,9 @@ export async function propagateConfidence(
           type: data.sources[0].type ?? "unknown",
           title: data.sources[0].title ?? "unknown",
         });
+      }
+      if (data.empirical_state) {
+        empiricalStateMap.set(row.id, data.empirical_state);
       }
     } catch {
       // Skip unreadable files
@@ -378,6 +392,10 @@ export async function propagateConfidence(
   for (const [id, corbs] of corroborations) {
     const insight = insightMap.get(id);
     if (!insight) continue;
+
+    // Empirical guard: reality overrides consensus
+    // If this insight was empirically falsified, structural consensus cannot boost it
+    if (empiricalStateMap.get(id) === "falsified") continue;
 
     const oldConfidence = insight.confidence;
 
@@ -1014,6 +1032,403 @@ export async function detectTensions(
   }
 
   return result;
+}
+
+// ─── Mechanism 8: Empirical Propagation ─────────────────────────────
+
+/**
+ * Scans resolved predictions and decisions. Cascades confidence
+ * changes to supporting principles and insights.
+ *
+ * Rules:
+ * - Success/confirmed: cascade to depth 1 (principle + supporting insights)
+ * - Failure/falsified: cascade to depth 0 only (principle/direct reference)
+ * - Mixed: no cascade, just mark cascaded
+ * - processedIds guard prevents double-dip on shared graph edges
+ * - empirical_state set on affected nodes to guard against mechanism 3 override
+ * - Falsified/failed nodes flip shelf_life: evergreen → time-sensitive
+ * - Falsified/failed outcomes spawn empirical_failure tensions
+ */
+export async function propagateEmpiricalConfidence(
+  db: Database.Database,
+  kbRoot: string
+): Promise<EmpiricalChange[]> {
+  const changes: EmpiricalChange[] = [];
+
+  // 1. Scan predictions for resolved + not cascaded
+  const predictionsDir = join(kbRoot, "predictions");
+  const predFiles: string[] = existsSync(predictionsDir)
+    ? (readdirSync(predictionsDir) as string[])
+        .filter((f: string) => f.endsWith(".md"))
+        .map((f: string) => join(predictionsDir, f))
+    : [];
+
+  for (const filePath of predFiles) {
+    const raw = await readFile(filePath, "utf-8");
+    const { data, content } = matter(raw);
+
+    if (data.cascaded) continue;
+    if (data.status !== "confirmed" && data.status !== "falsified") continue;
+
+    const resolvedId = data.id as string;
+    const resolvedStatus = data.status as string;
+    const derivedFrom = Array.isArray(data.derived_from) ? data.derived_from as string[] : [];
+    const processedIds = new Set<string>();
+
+    const isPositive = resolvedStatus === "confirmed";
+
+    for (const refId of derivedFrom) {
+      if (processedIds.has(refId)) continue;
+
+      const refChanges = await cascadeToNode(
+        db, kbRoot, refId, isPositive, processedIds, resolvedId, resolvedStatus
+      );
+      changes.push(...refChanges);
+
+      // Depth 1: only on success — cascade to supporting insights
+      if (isPositive && refId.startsWith("PRI-")) {
+        const supportingInsights = await getPrincipleSupportingInsights(kbRoot, refId);
+        for (const insId of supportingInsights) {
+          if (processedIds.has(insId)) continue;
+          const subChanges = await cascadeToNode(
+            db, kbRoot, insId, true, processedIds, resolvedId, resolvedStatus, "supporting"
+          );
+          changes.push(...subChanges);
+        }
+      }
+    }
+
+    // Spawn tension on failure
+    if (!isPositive) {
+      await spawnEmpiricalTension(
+        kbRoot,
+        resolvedId,
+        data.claim as string || data.context as string || resolvedId,
+        derivedFrom,
+        data.resolution_notes as string || "",
+      );
+    }
+
+    // Mark cascaded
+    data.cascaded = true;
+    const updated = matter.stringify(content, data);
+    await writeFile(filePath, updated, "utf-8");
+  }
+
+  // 2. Scan decisions for resolved + not cascaded
+  const decisionsDir = join(kbRoot, "decisions");
+  const decFiles: string[] = existsSync(decisionsDir)
+    ? (readdirSync(decisionsDir) as string[])
+        .filter((f: string) => f.endsWith(".md"))
+        .map((f: string) => join(decisionsDir, f))
+    : [];
+
+  for (const filePath of decFiles) {
+    const raw = await readFile(filePath, "utf-8");
+    const { data, content } = matter(raw);
+
+    if (data.cascaded) continue;
+    if (data.status !== "success" && data.status !== "failure" && data.status !== "mixed") continue;
+    // pending decisions are not resolved yet
+    if (data.status === "pending") continue;
+
+    const resolvedId = data.id as string;
+    const resolvedStatus = data.status as string;
+    const informedBy = Array.isArray(data.informed_by) ? data.informed_by as string[] : [];
+    const processedIds = new Set<string>();
+
+    if (resolvedStatus === "mixed") {
+      // No cascade for mixed — just mark cascaded
+      data.cascaded = true;
+      const updated = matter.stringify(content, data);
+      await writeFile(filePath, updated, "utf-8");
+      continue;
+    }
+
+    const isPositive = resolvedStatus === "success";
+
+    for (const refId of informedBy) {
+      if (processedIds.has(refId)) continue;
+
+      const refChanges = await cascadeToNode(
+        db, kbRoot, refId, isPositive, processedIds, resolvedId, resolvedStatus
+      );
+      changes.push(...refChanges);
+
+      // Depth 1: only on success — cascade to supporting insights for principles
+      if (isPositive && refId.startsWith("PRI-")) {
+        const supportingInsights = await getPrincipleSupportingInsights(kbRoot, refId);
+        for (const insId of supportingInsights) {
+          if (processedIds.has(insId)) continue;
+          const subChanges = await cascadeToNode(
+            db, kbRoot, insId, true, processedIds, resolvedId, resolvedStatus, "supporting"
+          );
+          changes.push(...subChanges);
+        }
+      }
+    }
+
+    // Spawn tension on failure
+    if (!isPositive) {
+      await spawnEmpiricalTension(
+        kbRoot,
+        resolvedId,
+        data.context as string || resolvedId,
+        informedBy,
+        data.resolution_notes as string || "",
+      );
+    }
+
+    // Mark cascaded
+    data.cascaded = true;
+    const updated = matter.stringify(content, data);
+    await writeFile(filePath, updated, "utf-8");
+  }
+
+  return changes;
+}
+
+/**
+ * Apply a confidence change to a single node (insight or principle).
+ * Returns the changes applied.
+ */
+async function cascadeToNode(
+  db: Database.Database,
+  kbRoot: string,
+  nodeId: string,
+  isPositive: boolean,
+  processedIds: Set<string>,
+  resolvedId: string,
+  resolvedStatus: string,
+  cascadeType: "direct" | "supporting" = "direct"
+): Promise<EmpiricalChange[]> {
+  processedIds.add(nodeId);
+
+  const isInsight = nodeId.startsWith("INS-");
+  const isPrinciple = nodeId.startsWith("PRI-");
+
+  if (!isInsight && !isPrinciple) return [];
+
+  // Find the file
+  let filePath: string | null = null;
+
+  if (isInsight) {
+    const row = db.prepare("SELECT file_path FROM insights WHERE id = ?").get(nodeId) as
+      | { file_path: string }
+      | undefined;
+    if (row) {
+      filePath = row.file_path.startsWith("/")
+        ? row.file_path
+        : join(kbRoot, row.file_path);
+    }
+  } else if (isPrinciple) {
+    // Principles aren't in the insights table — scan files
+    const principlesDir = join(kbRoot, "principles");
+    if (existsSync(principlesDir)) {
+      const domains = readdirSync(principlesDir, { withFileTypes: true })
+        .filter((d: { isDirectory: () => boolean }) => d.isDirectory())
+        .map((d: { name: string }) => d.name);
+      for (const domain of domains) {
+        const domainDir = join(principlesDir, domain);
+        const files = readdirSync(domainDir).filter((f: string) => f.endsWith(".md"));
+        for (const file of files) {
+          const pf = join(domainDir, file);
+          try {
+            const raw = await readFile(pf, "utf-8");
+            const { data } = matter(raw);
+            if (data.id === nodeId) {
+              filePath = pf;
+              break;
+            }
+          } catch { /* skip */ }
+        }
+        if (filePath) break;
+      }
+    }
+  }
+
+  if (!filePath) return [];
+
+  // Read current state
+  let raw: string;
+  try {
+    raw = await readFile(filePath, "utf-8");
+  } catch {
+    return [];
+  }
+  const { data, content } = matter(raw);
+  const oldConfidence = String(data.confidence || "medium");
+
+  // Calculate new confidence
+  let newConfidence: string;
+  if (isPositive) {
+    newConfidence = boostConfidence(oldConfidence);
+  } else {
+    newConfidence = dropConfidence(oldConfidence);
+  }
+
+  const changes: EmpiricalChange[] = [];
+
+  if (newConfidence !== oldConfidence) {
+    data.confidence = newConfidence;
+    changes.push({
+      resolvedId,
+      resolvedStatus,
+      affectedId: nodeId,
+      oldConfidence,
+      newConfidence,
+      cascade: cascadeType,
+    });
+  }
+
+  // Set empirical_state
+  data.empirical_state = isPositive ? "confirmed" : "falsified";
+
+  // Flip shelf_life on failure
+  if (!isPositive && data.shelf_life === "evergreen") {
+    data.shelf_life = "time-sensitive";
+  }
+
+  // Write back
+  const updated = matter.stringify(content, data);
+  await writeFile(filePath, updated, "utf-8");
+
+  // Update DB for insights
+  if (isInsight && newConfidence !== oldConfidence) {
+    db.prepare("UPDATE insights SET confidence = ? WHERE id = ?").run(
+      newConfidence,
+      nodeId
+    );
+  }
+
+  return changes;
+}
+
+function boostConfidence(current: string): string {
+  const idx = CONFIDENCE_LEVELS.indexOf(current);
+  if (idx === -1 || idx >= CONFIDENCE_LEVELS.length - 1) return current;
+  return CONFIDENCE_LEVELS[idx + 1];
+}
+
+function dropConfidence(current: string): string {
+  const idx = CONFIDENCE_LEVELS.indexOf(current);
+  // Floor at "low" (index 1), never drop to "pending" (index 0)
+  if (idx === -1 || idx <= 1) return CONFIDENCE_LEVELS[1]; // "low"
+  return CONFIDENCE_LEVELS[idx - 1];
+}
+
+/**
+ * Read a principle file and return its supporting_insights array.
+ * Uses readdirSync for reliable path resolution across platforms.
+ */
+async function getPrincipleSupportingInsights(
+  kbRoot: string,
+  principleId: string
+): Promise<string[]> {
+  const principlesDir = join(kbRoot, "principles");
+  if (!existsSync(principlesDir)) return [];
+
+  const domains = readdirSync(principlesDir, { withFileTypes: true })
+    .filter((d: { isDirectory: () => boolean }) => d.isDirectory())
+    .map((d: { name: string }) => d.name);
+
+  for (const domain of domains) {
+    const domainDir = join(principlesDir, domain);
+    const files = readdirSync(domainDir).filter((f: string) => f.endsWith(".md"));
+    for (const file of files) {
+      const pf = join(domainDir, file);
+      try {
+        const raw = await readFile(pf, "utf-8");
+        const { data } = matter(raw);
+        if (data.id === principleId && Array.isArray(data.supporting_insights)) {
+          return data.supporting_insights;
+        }
+      } catch { /* skip */ }
+    }
+  }
+
+  return [];
+}
+
+/**
+ * Spawn an empirical_failure tension when a prediction/decision fails.
+ */
+async function spawnEmpiricalTension(
+  kbRoot: string,
+  resolvedId: string,
+  claimOrContext: string,
+  referencedIds: string[],
+  resolutionNotes: string,
+): Promise<void> {
+  const tensionsDir = join(kbRoot, "tensions");
+  await mkdir(tensionsDir, { recursive: true });
+
+  // Check for existing tension with same side_a
+  const existingFiles: string[] = existsSync(tensionsDir)
+    ? (readdirSync(tensionsDir) as string[])
+        .filter((f: string) => f.endsWith(".md"))
+        .map((f: string) => join(tensionsDir, f))
+    : [];
+  for (const ef of existingFiles) {
+    try {
+      const raw = await readFile(ef, "utf-8");
+      const { data } = matter(raw);
+      const sideA = Array.isArray(data.side_a) ? data.side_a : [];
+      if (sideA.includes(resolvedId)) return; // Already exists
+    } catch { /* skip */ }
+  }
+
+  const title = `Falsified: ${claimOrContext.slice(0, 80)}`;
+  const tensionId = generateTensionId(title, Date.now());
+  const today = new Date().toISOString().slice(0, 10);
+
+  // Find principle IDs in referenced
+  const principleIds = referencedIds.filter((id) => id.startsWith("PRI-"));
+  const insightIds = referencedIds.filter((id) => id.startsWith("INS-"));
+
+  const frontmatter: Record<string, unknown> = {
+    id: tensionId,
+    title,
+    type: "empirical_failure",
+    status: "unresolved",
+    side_a: [resolvedId],
+    side_b: principleIds.length > 0 ? principleIds : referencedIds,
+    source_principle: principleIds[0] || null,
+    resolution_notes: resolutionNotes,
+    date_created: today,
+  };
+
+  // Get supporting insights for the principle to include in investigation prompt
+  let supportingInsightsList = "";
+  if (principleIds.length > 0) {
+    const supportingInsights = await getPrincipleSupportingInsights(kbRoot, principleIds[0]);
+    if (supportingInsights.length > 0) {
+      supportingInsightsList = supportingInsights.map((id) => `- ${id}`).join("\n");
+    }
+  }
+
+  const body = `## Context
+${resolvedId.startsWith("PRED-") ? "Prediction" : "Decision"} ${resolvedId} claimed: "${claimOrContext}"
+This was ${resolvedId.startsWith("PRED-") ? "falsified" : "failed"} on ${today}: "${resolutionNotes}"
+
+${principleIds.length > 0 ? `Derived from principle: ${principleIds[0]}` : `Informed by: ${referencedIds.join(", ")}`}
+
+## Questions to Resolve
+- Was the principle wrong, or was the ${resolvedId.startsWith("PRED-") ? "prediction too aggressive an extrapolation" : "decision based on incomplete information"}?
+- Did the underlying insights fail, or was the principle a flawed synthesis of correct facts?
+${supportingInsightsList ? `- Investigate the supporting insights:\n${supportingInsightsList}` : ""}
+- Should the principle be revised, narrowed, or retired?`;
+
+  const fileContent = matter.stringify(body, frontmatter);
+  const slug = title
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "")
+    .slice(0, 80);
+  const tensionPath = join(tensionsDir, `${slug}.md`);
+  await writeFile(tensionPath, fileContent, "utf-8");
+
+  console.log(`  TENSION: Created ${tensionId} — ${title}`);
 }
 
 // ─── Flags file writer ──────────────────────────────────────────────

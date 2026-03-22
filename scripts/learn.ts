@@ -11,6 +11,7 @@ import {
   detectGaps,
   detectTransfers,
   detectTensions,
+  propagateEmpiricalConfidence,
   writeFlagsFile,
 } from "./lib/learning";
 
@@ -115,7 +116,27 @@ async function main(): Promise<void> {
       console.log("  No new tensions detected.\n");
     }
 
-    // 9. Write flags file with all sections
+    // 9. Mechanism 8: Empirical Propagation
+    console.log("── Mechanism 8: Empirical Propagation ──");
+    const empiricalChanges = await propagateEmpiricalConfidence(db, KB_ROOT);
+    if (empiricalChanges.length > 0) {
+      for (const change of empiricalChanges) {
+        const arrow =
+          change.resolvedStatus === "confirmed" || change.resolvedStatus === "success"
+            ? "↑"
+            : "↓";
+        console.log(
+          `  ${change.resolvedId} (${change.resolvedStatus}) → ${change.affectedId}: ${change.oldConfidence} ${arrow} ${change.newConfidence} (${change.cascade})`
+        );
+      }
+      console.log(
+        `\n${empiricalChanges.length} empirical confidence update(s) applied.\n`
+      );
+    } else {
+      console.log("  No empirical outcomes to process.\n");
+    }
+
+    // 10. Write flags file with all sections
     const allFlags = {
       compress: compressFlags,
       discover: clusterFlags,
@@ -154,6 +175,9 @@ async function main(): Promise<void> {
     );
     console.log(
       `│  Tensions created:    ${String(tensionResult.newTensions).padEnd(14)}│`
+    );
+    console.log(
+      `│  Empirical updates:  ${String(empiricalChanges.length).padEnd(14)}│`
     );
     console.log("└──────────────────────────────────────┘");
   } finally {

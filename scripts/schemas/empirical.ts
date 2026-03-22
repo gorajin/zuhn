@@ -12,6 +12,9 @@ export const DecisionFrontmatter = z.object({
   outcome_date: z.string(), // YYYY-MM-DD — when to check the outcome
   status: z.enum(["pending", "success", "failure", "mixed"]),
   tags: z.array(z.string()).optional(),
+  resolution_date: z.string().optional(),
+  resolution_notes: z.string().optional(),
+  cascaded: z.boolean().optional(),
 });
 
 export type DecisionData = z.infer<typeof DecisionFrontmatter>;
@@ -45,6 +48,9 @@ export const PredictionFrontmatter = z.object({
   status: z.enum(["active", "confirmed", "falsified"]),
   date_created: z.string(),
   tags: z.array(z.string()).optional(),
+  resolution_date: z.string().optional(),
+  resolution_notes: z.string().optional(),
+  cascaded: z.boolean().optional(),
 });
 
 export type PredictionData = z.infer<typeof PredictionFrontmatter>;

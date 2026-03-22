@@ -39,6 +39,7 @@ export const InsightFrontmatter = z.object({
   // optional fields
   subtopic: z.string().optional(),
   related: z.array(z.string()).optional(),
+  empirical_state: z.enum(["confirmed", "falsified"]).optional(),
 });
 
 export type InsightData = z.infer<typeof InsightFrontmatter>;
@@ -88,6 +89,7 @@ export const PrincipleFrontmatter = z.object({
   date_created: z.string(),
   last_reviewed: z.string(),
   resolutions: Resolutions,
+  empirical_state: z.enum(["confirmed", "falsified"]).optional(),
 });
 
 export type PrincipleData = z.infer<typeof PrincipleFrontmatter>;
@@ -118,8 +120,12 @@ export const TensionFrontmatter = z.object({
   status: z.enum(["unresolved", "resolved", "resolved_with_nuance"]),
   side_a: z.array(z.string()),
   side_b: z.array(z.string()),
-  // optional field
+  // optional fields
   resolution: z.array(z.string()).optional(),
+  type: z.enum(["keyword", "empirical_failure"]).optional(),
+  source_principle: z.string().optional(),
+  resolution_notes: z.string().optional(),
+  date_created: z.string().optional(),
 });
 
 export type TensionData = z.infer<typeof TensionFrontmatter>;

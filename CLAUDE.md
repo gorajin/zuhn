@@ -62,13 +62,14 @@ When the user says "wake":
 | `npm run search "query"` | Hybrid search |
 | `npm run compress` | Compression prompts |
 | `npm run health` | Validate everything |
-| `npm run learn` | Run 7 learning mechanisms |
+| `npm run learn` | Run 8 learning mechanisms |
 | `npm run views` | Regenerate all views |
 | `npm run resurface` | Daily digest |
 | `npm run archive` | Intelligent forgetting (use --dry-run first) |
 | `npm run wake` / `npm run sleep` | Session persistence |
 | `npx tsx scripts/decide.ts --file <json>` | Create decision records from JSON |
 | `npx tsx scripts/predict.ts --file <json>` | Create prediction records from JSON |
+| `npx tsx scripts/resolve.ts --id <ID> --status <STATUS> --notes <NOTES>` | Resolve a prediction or decision |
 | `npx tsx scripts/split-topic.ts` | Move insights between topics |
 
 ## Architecture Boundaries
