@@ -1,5 +1,5 @@
 # Action List
-Generated on 2026-03-22 | 120 actionable insights
+Generated on 2026-03-22 | 122 actionable insights
 
 ## ai-development/agent-patterns
 - [INS-260320-1B10] Have Claude review its own code via a specialized review agent — catches critical errors, missing implementations, and security flaws.
@@ -154,6 +154,10 @@ Generated on 2026-03-22 | 120 actionable insights
 - [INS-260321-021B] Higgsfield interviewed 8 creatives — all 8 gave identical feedback about camera controls, which became their breakout feature.
 - [INS-260321-5C24] Apply three filters to find viable AI businesses: ruthlessly niche (cannot be segmented further), boring (non-competitive), and existing services to replace (agencies/freelancers/hacky solutions).
 - [INS-260321-8D2B] Price AI products using three factors: value creation vs human cost, unit economics including hidden storage costs, and representative customer surveys.
+
+## startups/ideation
+- [INS-260321-6BA7] Find ideas that have been discarded by others rather than trying to discover something no one has ever thought of.
+- [INS-260321-E471] Most founders filter out ideas requiring more than two years to work, so simply imagining ideas with longer timelines dramatically reduces competition.
 
 ## video-production/audio-sync
 - [INS-260320-10E8] Always clap once or use a clapboard at the start of each take -- the sharp transient creates a visible spike in both audio waveforms, making manual sync alignment trivial.

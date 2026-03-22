@@ -28,6 +28,7 @@ None.
 - ai-development/claude-code has 33 insights but related music-production/music-marketing has only 4
 - ai-development/claude-code has 33 insights but related music-production/songwriting has only 2
 - ai-development/claude-code has 33 insights but related video-production/content-strategy has only 3
+- ai-development/claude-code has 33 insights but related startups/ideation has only 4
 - ai-development/future-of-work has 31 insights but related ai-development/llm-costs has only 8
 - ai-development/future-of-work has 31 insights but related ai-development/llm-training has only 6
 - ai-development/future-of-work has 31 insights but related ai-development/spec-driven-dev has only 6
@@ -58,16 +59,24 @@ None.
 - ai-development/future-of-work has 31 insights but related music-production/music-marketing has only 4
 - ai-development/future-of-work has 31 insights but related music-production/songwriting has only 2
 - ai-development/future-of-work has 31 insights but related video-production/content-strategy has only 3
+- ai-development/future-of-work has 31 insights but related startups/founder-psychology has only 1
+- ai-development/future-of-work has 31 insights but related startups/ideation has only 4
 - startups/bootstrapping has 14 insights but related music-production/music-marketing has only 4
 - startups/bootstrapping has 14 insights but related music-production/songwriting has only 2
 - startups/bootstrapping has 14 insights but related video-production/content-strategy has only 3
+- startups/bootstrapping has 14 insights but related startups/ideation has only 4
 - startups/growth-marketing has 18 insights but related music-production/music-marketing has only 4
 - startups/growth-marketing has 18 insights but related music-production/songwriting has only 2
 - startups/growth-marketing has 18 insights but related video-production/content-strategy has only 3
+- startups/growth-marketing has 18 insights but related startups/founder-psychology has only 1
+- startups/growth-marketing has 18 insights but related startups/ideation has only 4
 - startups/founder-mindset has 8 insights but related music-production/songwriting has only 2
+- startups/founder-mindset has 8 insights but related startups/founder-psychology has only 1
 - investing/geopolitics has 14 insights but related music-production/music-marketing has only 4
 - investing/geopolitics has 14 insights but related music-production/songwriting has only 2
 - investing/geopolitics has 14 insights but related video-production/content-strategy has only 3
+- investing/geopolitics has 14 insights but related startups/ideation has only 4
+- startups/ideation has 4 insights but related startups/founder-psychology has only 1
 
 ## TRANSFER
 None.

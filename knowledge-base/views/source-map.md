@@ -1,5 +1,5 @@
 # Source Map
-Generated on 2026-03-22 | 35 sources
+Generated on 2026-03-22 | 45 sources
 
 | Source | Type | Insights | Date |
 |--------|------|----------|------|
@@ -16,6 +16,7 @@ Generated on 2026-03-22 | 35 sources
 | $215M AI CEO: How I’d Build a Profitable AI Startup in 30 Days (2026 Playbook) | youtube | 6 | 2026-03-22 |
 | Why we shifted to Spec-Driven Development | reddit | 6 | 2026-03-20 |
 | Claude for Finance | pdf | 5 | 2026-03-22 |
+| How To Get Unique AI Startup Ideas | youtube | 5 | 2026-03-22 |
 | 200+ pages of Hugging Face secrets on how to train an LLM | reddit | 5 | 2026-03-20 |
 | Debugging as architecture insight: dissecting a VLA | blog | 4 | 2026-03-22 |
 | How is this time different?  | blog | 4 | 2026-03-22 |
@@ -38,3 +39,12 @@ Generated on 2026-03-22 | 35 sources
 | What is one thing that you do to keep your dog happy? | reddit | 2 | 2026-03-20 |
 | Sound Design Breakdown [and tutorial] | reddit | 2 | 2026-03-20 |
 | [Tutorial] All there is to know about syncing video and audio | reddit | 2 | 2026-03-20 |
+| AI Markets: Deep Dive with a16z's David George | youtube | 0 | 2026-03-22 |
+| Andrew Huberman: Peptides, Sleep Tech, and the End of Obesity | youtube | 0 | 2026-03-22 |
+| Atlassian CEO on the SaaS Apocalypse, AI Agents & What Comes Next | youtube | 0 | 2026-03-22 |
+| Emil Michael: The Department of War Is Moving Faster Than Silicon Valley on AI | The a16z Show | youtube | 0 | 2026-03-22 |
+| Inside a16z’s Top 100 AI Apps Report with Olivia Moore | youtube | 0 | 2026-03-22 |
+| Inside Palantir: Building Software That Matters | Shyam Sankar on a16z | youtube | 0 | 2026-03-22 |
+| Inside the New Media Team with Marc Andreessen & Ben Horowitz | youtube | 0 | 2026-03-22 |
+| Palantir CEO on Iran, AI Weapons and American Domination | a16z American Dynamism Summit | youtube | 0 | 2026-03-22 |
+| Why Scale Will Not Solve AGI | Vishal Misra - The a16z Show | youtube | 0 | 2026-03-22 |
